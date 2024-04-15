@@ -1,8 +1,5 @@
-# React + Vite
+# Mistborn Tabletop RPG
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Hi everyone, in the future I'm planning on running a Mistborn Tabletop Game using Crafty-Games Mistborn Adventure Game. 
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Considering there aren't many tools online (and the liscence for the tabletop has lapsed as of 2023), I decided to create an assistance tool.
