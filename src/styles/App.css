@@ -1,0 +1,29 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: justify;
+  white-space: pre-line;  
+  vertical-align: bottom;
+}
+
+#bolder {
+  font-weight: bolder;
+  text-decoration: underline;
+}
+
+h2 {
+  margin-bottom: 2px;
+  text-align: center;
+}
+
+h4 {
+  margin: 5px;
+  text-align: center;
+  text-decoration: underline;
+}
+
+table {
+  width: 100%;
+}
+

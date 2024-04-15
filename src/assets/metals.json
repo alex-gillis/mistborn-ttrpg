@@ -1,0 +1,279 @@
+{
+    "metals": [
+        {
+            "name": "Template",
+            "category": "",
+            "firstQuality": "",
+            "secondQuality": "",
+            "rarity": "",
+            "allomancy": {
+                "lore": "",
+                "rules": "",
+                "specialRules": [
+                    {
+                        "name": "",
+                        "rule": ""
+                    }
+                ],
+                "burnRate": "",
+                "flaredEffect": "",
+                "stunts": [
+                    {
+                        "name": "",
+                        "description": ""
+                    }
+                ],
+                "savants": ""
+                }
+            ,
+            "feruchemy": {
+                "lore": "",
+                "store": "",
+                "tap": "",
+                "tapped": "",
+                "example":"",
+                "tapping": [
+                    {
+                        "charges": "",
+                        "examples": ""
+                    }
+                ]
+            },
+            "hemalurgy": {
+                "lore": "",
+                "spikes": "",
+                "blessing": ""
+            }
+        },
+        {
+            "name": "Tin",
+            "category": "Physical",
+            "firstQuality": "Internal",
+            "secondQuality": "Pulling",
+            "rarity": "Tin is readily available, exceedingly common, and quite inexpensive. All three magical traditions use Tin to enhance the physical senses.",
+            "allomancy": {
+                "lore": "A Misting who can burn Tin is called a Tineye. \n Burning Tin enhances the Allomancer’s senses. While burning Tin, an Allomancer can hear distant conversation, see great distances with clarity, and finely distinguish smells, tastes and textures. \n However, like all Allomancy, the degree of enhancement is limited; for example, Tin doesn’t let a character see in absolute darkness or read a parchment from hundreds of yards away. It does let a character see further through the mists, and more clearly than any ordinary human, even in dim light. So long as the character has at least a little ambient illumination — generally, anywhere but underground, in a sealed room, or in a dense forest on a cloudy night — he or she can see as well as an ordinary person during the day. \n Because all senses are enhanced equally, a character burning or flaring Tin is vulnerable to loud noises, sudden bright lights, and extremely strong smells. \n Hazekillers often use this to their advantage, exploiting these vulnerabilities to disorient Allomancers and move in for the kill.",
+                "rules": "While burning Tin, you may add your Tin rating to Wits rolls that involve hearing, sight, smell, taste, or touch. Unlike sensory boosts from Feruchemy and Hemalurgy, Tin enhances all your senses equally. \n However, sudden stimulus like extremely loud noises, exceptionally bright lights, and strong smells can temporarily overwhelm your senses. If you’re subjected to such while burning or flaring Tin you must make a Physique roll, and with failure you lose two dice from your next pool as you reel from sensory overload (this penalty fades by 1 die per minute if no pools are formed in that time).",
+                "burnRate": "Tin burns quite slowly with each charge lasting one hour, and this makes it one of the easiest metals to burn continuously. When flared, Tin burns at a rate of 6 minutes per charge. ",
+                "flaredEffect": "In addition to increasing your Tin rating by 1, flaring this metal also lets you “shake off” sleepiness, nausea, and similar conditions. While flaring Tin, you do not lose dice for having 0 Health",
+                "stunts": [
+                    {
+                        "name": "Blindsight (Trait)",
+                        "description": "Your senses are so acute that you can feel vibrations through the floor, use sound as a sort of “sonar,” and sense the movement of air on your skin. This lets you move and act normally even in complete darkness, when blindfolded, and any other time you’re left sightless. You still cannot take action that requires sight, however, like reading or distinguishing color. In addition to its story implications and descriptive applications, this Stunt grants the “Blindsight” Trait while you’re burning or flaring Tin"
+                    },
+                    {
+                        "name": "Focused Sense",
+                        "description": "While burning Tin you add one additional die with rolls relying on one sense (chosen when acquired this Stunt). You may gain this Stunt up to five times, once for each sense."
+                    },
+                    {
+                        "name": "Piercing Sight (Trait)",
+                        "description": "While burning Tin you can see twice as far through mists, and may also see clearly through thin objects like sheer curtains, dirtied windows, or murky water. In addition to its story implications and descriptive applications, this Stunt grants the “Piercing Sight” Trait while you’re burning or flaring Tin."
+                    },
+                    {
+                        "name": "Sense Memory",
+                        "description": "You have near-perfect memory with a single sense, letting you identify familiar voices or smells, distinguish forged signatures from real ones you’ve seen before, and so forth. No roll is required for these actions — they’re automatically successful. You may gain this Stunt up to five times, once for each sense."
+                    }
+                ],
+                "savants": "A Tineye Savant gains two “free” Nudges with Tin rolls, but is also so dependant upon enhanced senses that the world seems dull and grey without them. When not burning Tin, the Savant loses 1 die with Wits rolls relying on the senses"
+                }
+            ,
+            "feruchemy": {
+                "lore": "Feruchemists use Tin to store individual senses (unlike Allomancers, Feruchemists must store and use each sense separately, in its own metalmind — for example, sight in one tinmind and hearing in another). Like other Feruchemical applications, a character’s access to a sense is greatly limited while storing it (thus, while storing smell, a Feruchemist would barely taste or smell anything, and while storing sight, he would become nearsighted or virtually blind).",
+                "store": "Storing in a Tinmind: While storing a sense, you lose 1 die per charge currently being stored with Wits rolls involving that sense. Again, you may only store one sense per tinmind. The maximum number of charges you may store in any hour is equal to your Tin rating or your Wits score minus 1, whichever is lower.",
+                "tap": "For each charge you tap, you gain 1 die with Wits rolls involving the chosen sense. However, sudden stimulus involving the tapped sense — like extremely loud noises when tapping hearing, exceptionally bright lights when tapping sight, and strong odors when tapping smell — can temporarily overwhelm your senses. If you’re subjected to such while tapping Tin you must make a Physique roll, and with failure you lose two dice from your next pool as you reel from sensory overload (this penalty fades by 1 die a minute if no pools are formed in that time).",
+                "tapped": "Feruchemists who tap huge amounts of a sense can perform incredible feats with it, like listening to a soft conversation occurring on the other side of a wide lake or reading a sign posted miles away. Feats you may achieve by tapping 10 or more charges of Tin include:",
+                "example":"Examples",
+                "tapping": [
+                    {
+                        "charges": "10",
+                        "examples": "See outdoors at night as if it were daylight; identity someone by smell; determine whether food or drink is poisoned by taste; hear a whispered conversation five yards away in a room with background noise"
+                    },
+                    {
+                        "charges": "20",
+                        "examples": "See in a darkened room as if it were daylight; track by smell like a bloodhound; determine which contaminant has been added to food or drink by taste; hear a whispered conversation ten yards away in a noisy room; observe someone picking a pocket at fifty yards"
+                    },
+                    {
+                        "charges": "30",
+                        "examples": "See in near-total darkness as if it were daylight; track someone by smell in a light rain or after a full day has passed; determine the exact ingredients of a recipe by taste; hear well enough to fight hand-tohand in complete darkness without penalty; observe someone picking a pocket at a hundred yards"
+                    },
+                    {
+                        "charges": "50",
+                        "examples": "Track someone by smell in the midst of an ashfall or after a week has passed; determine who handled an item or cooked a dish by taste; hear well enough to fight at range in complete darkness without penalty; observe someone picking a pocket at five hundred yardsl"
+                    },
+                    {
+                        "charges": "90",
+                        "examples": "Read fine print by touch; track someone by smell after a month has passed; determine the origin of a food or metal by taste; hear well enough to hit someone with an arrow through a wall at five hundred yards in complete darkness; observe someone picking a pocket a mile away"
+                    }
+                ]
+            },
+            "hemalurgy": {
+                "lore": "Tin spikes store human senses. Each spike can hold a single sense, and greatly improves that sense in a character who receives it. Unfortunately, as with any spike that steals an inherent human ability, a Tin spike distorts the recipient, causing physical deformations and possibly madness or memory loss. \n Tin spikes are employed as one of the four Blessings available to kandra. Unlike their use in humans, the Tin Blessing (of Awareness) enhances all of a kandra’s senses in a manner similar to an Allomancer burning the metal.",
+                "spikes": "A Tin spike adds 2 dice with Wits rolls involving one sense (chosen when the spike is used to steal it). However, both your Charm and Spirit scores drop by 1 for each Tin spike you receive (rather than just your Spirit).",
+                "blessing": "The Blessing of Awareness adds 2 dice with rolls involving all your senses. Additionally, you’re considered to have 2 additional Action Dice when determining the order of actions in a Conflict (e.g. when you gain 4 Action Dice, the order in which you act is determined as if you have 6 Action Dice instead)."
+            }
+        },
+        {
+            "name": "Pewter",
+            "category": "Physical",
+            "firstQuality": "Internal",
+            "secondQuality": "Pushing",
+            "rarity": "Pewter is an alloy mostly composed of tin and copper. It’s common, inexpensive, and widely available. For each of the magical traditions, Pewter is the embodiment of strength and raw physical power. ",
+            "allomancy": {
+                "lore": "A Misting who can burn Pewter is called a Thug or Pewterarm. \n Burning Pewter enhances the Allomancer’s body and physical capabilities. While burning Pewter, a character becomes faster and stronger, with greater manual dexterity, agility, and endurance. All else being equal, a trained warrior burning Pewter is easily a match for half a dozen ordinary human warriors. \n Pewter also increases healing speed, letting the character recover considerably faster and more completely than any ordinary human. While it doesn’t prevent aging, it can slow or stop the effects of disease and poison. Highly skilled characters can even burn while unconscious — a trick that’s saved many a grievously wounded Thug or Mistborn. \n An extended Pewter burn lets a character run or perform similarly draining activities without pause for hours at a time, but it can also result in a potentially life-threatening collapse afterward (a condition that’s often called a “Pewter drag”). Only by burning Pewter for several hours after such an exertion does the character in this position stand a chance of survival; running out of metal beforehand risks severe injury or even death. \n Sadly, Pewter is also the fastest-burning of the common metals.",
+                "rules": "While burning Pewter, you may add your Pewter rating to your Physique score, which in turn increases your Health (though again, only as long as you burn the metal). Should your Health drop to 0 when you stop burning Pewter, you immediately fall unconscious or begin dying, as determined by the Narrator based on your physical state and any injuries you’ve sustained. \n Burning Pewter also lets you run at speeds up to 25 mph — fast enough to automatically outrun any normal human — though prolonged exertion of this nature runs the risk of a Pewter drag. \n Finally, your healing rate is doubled — from 1 recovered Health to 2 — during any day when you burn Pewter for 8 hours or more.",
+                "specialRules": [
+                    {
+                        "name": "Pewter Drags",
+                        "rule": "If you exert yourself for eight or more hours while burning Pewter, you suffer from Pewter drag unless you continue to burn Pewter while resting for another eight hours. Pewter drag prevents you from burning Pewter and drops your Physique score to one-half normal, rounded down. This reduces your Health accordingly, and if your Health drops to 0 as a result you immediately begin dying."
+                    }
+                ],
+                "burnRate": "Pewter burns swiftly, each charge lasting only 5 minutes. When flared, Pewter burns at a rate of 30 seconds per charge.",
+                "flaredEffect": "In addition to increasing your Pewter rating by 1 (which consequently increases your Physique score and Health by 1 each), flaring this metal also lessens the severity of a single Physical Burden by one degree (a Mortal Burden becomes Grave, a Grave Burden becomes Serious, or a Serious Burden is lost).",
+                "stunts": [
+                    {
+                        "name": "Denser Tissues",
+                        "description": "While burning Pewter, your flesh becomes tougher and denser, and you suffer 1 less damage from physical attacks. You may take this Stunt a second time, reducing the damage you suffer from physical attacks by 1 more (for a maximum total of 2)."
+                    },
+                    {
+                        "name": "Extreme Speed",
+                        "description": "You can run as fast as a galloping race horse (approximately 40 mph). During each Beat, you may take up to 2 steps toward or away from a target without penalty, or you may choose not to gain any Action or Defense dice for the round to take 3 steps toward or away from a target."
+                    },
+                    {
+                        "name": "Inhuman Endurance (Trait)",
+                        "description": "You may exert yourself for a number of days up to your Pewter rating without suffering Pewter drag. In addition to its story implications and descriptive applications, this Stunt grants the “Inhuman Endurance” Trait while you’re burning or flaring Pewter."
+                    },
+                    {
+                        "name": "Prodigious Strength",
+                        "description": "While burning Pewter, you add an additional die with Physique rolls involving physical strength, including lifting and moving objects, and wielding heavy weapons. You may take this Stunt twice."
+                    },
+                    {
+                        "name": "Unconscious Burning",
+                        "description": "You automatically burn Pewter when unconscious, though only if also injured (i.e. you don’t automatically burn Pewter when sleeping). Each Pewter charge burned in this fashion lasts for three hours, and the only benefits it conveys are increased Health, accelerated healing, and avoiding Pewter drag. It has no effect on Physique rolls or dice pools. This special Pewter burn stops immediately when you regain consciousness."
+                    }
+                ],
+                "savants": "A Pewterarm Savant gains two “free” Nudges with Pewter rolls, but is also so accustomed to his or her Allomantically fueled abilities that lethargy sets in without them. When not burning Pewter, the Savant’s Physique score drops by 1 (to a minimum of 2)."
+                }
+            ,
+            "feruchemy": {
+                "lore": "Feruchemists use Pewter to store physical strength. Tapping a pewtermind can grant incredible ability, like throwing a fully loaded packhorse several hundred feet or ripping down the reinforced metal gates of a fortress. However, a Feruchemist grows physically weak when storing, his muscles temporarily shrinking and withering. ",
+                "store": "While storing, you lose 1 die per charge currently being stored with rolls involving physical strength (like Physique rolls to attack with a melee weapon, to lift something heavy, or to hold something aloft). \nNote this storing does not affect your Health — only your physical might. The maximum number of charges you may store in any hour is equal to your Pewter rating or your Physique score minus 1, whichever is lower",
+                "tap": "For each charge you tap, you gain 1 die with rolls you make involving physical strength. As with storing, tapping strength does not increase your Health (that’s what Gold does).",
+                "tapped": "Feruchemists who tap huge amounts of strength can lift amazing amounts of weight, tear steel with their bare hands, and topple creatures much larger than themselves. Feats you may achieve by tapping 10 or more charges of Pewter include",
+                "example":"Examples",
+                "tapping": [
+                    {
+                        "charges": "10",
+                        "examples": "Lift and carry a large person in full armor; kick in an average wooden door"
+                    },
+                    {
+                        "charges": "20",
+                        "examples": "Lift and carry a horse; kick in a reinforced wooden door"
+                    },
+                    {
+                        "charges": "30",
+                        "examples": "Lift and carry a large, fully-loaded wagon; throw a horse at least 10 yards; rip a reinforced metal door off its hinges"
+                    },
+                    {
+                        "charges": "60",
+                        "examples": "Rip off Luthadel’s iron gates; throw a fully loaded wagon 100 yards"
+                    },
+                    {
+                        "charges": "90",
+                        "examples": "Rip a large hole in Luthadel’s stone walls; throw Luthadel’s iron gates 100 yard"
+                    }
+                ]
+            },
+            "hemalurgy": {
+                "lore": "Depending on where a Pewter spike is driven in, it steals, stores, and transfers a single Feruchemical Power derived from any one of the four Physical Metals (e.g. the ability to store or tap physical strength, senses, speed, or weight). Each spike may store only one Power",
+                "spikes": "A Pewter spike grants you a single Feruchemical Power — Tin, Pewter, Iron, or Steel — with a rating equal to that of the spike. Each spike reduces your Spirit score by 1, as normal.",
+                "blessing": ""
+            }
+        },
+        {
+            "name": "Iron",
+            "category": "Physical",
+            "firstQuality": "External",
+            "secondQuality": "Pulling",
+            "rarity": "Iron is one of the most common and easily acquired metals in the Final Empire. In all three traditions it grants powers related to weight — by Pulling metal, controlling one’s own weight, or stealing muscle mass.",
+            "allomancy": {
+                "lore": "A Misting who can burn Iron is called a Lurcher. \n Burning Iron lets an Allomancer physically Pull on metals within several dozen yards. While burning Iron, a character sees bright, transparent blue lines leading from his or her center of mass and leading out to all sources of metal within range; the further away an object is from the character, the fainter the blue lines. The character may Pull on any metal objects sensed in this fashion, and this process is commonly called “Ironpulling.” By varying the strength and speed of an Ironpull, a character may affect objects of various sizes, and also control their velocity. A skilled Pull can drag a coin slowly across a surface or hurl a metal urn at speeds approaching that of an arrow.\n There are several limitations to this ability. First, objects are Pulled directly towards the character’s center of mass, which is good when drawing a weapon to hand but not as helpful when others are blocking the character’s line of sight to it. Strategic Pullers might use this to their advantage, Pulling a weapon (or another object) that’s situated on the other side of an opponent, turning it into a ranged weapon. This is great until the character misses, at which point he or she becomes a target of the very same missile. Many Ironpullers carry wooden shields for this very reason. \n Additionally, the weight an Allomancer can move using Iron depends upon his or her own — Pulling an object that weighs as much as the character results in a pointless tug of war, while Pulling something heavier, or something anchored down in some fashion that would support the character’s weight, moves the character toward the object instead. Thus, Pulling the lock of a sturdy door would draw the character toward the door, unless the surrounding wall were somehow unstable enough that it wouldn’t support the character’s weight. \n Allomancers often anchor themselves by Pulling on a second larger object, or increasing their weight. Creative characters use this to maneuver, Pulling themselves up toward anchored objects and using others to guide their trajectories through the air. Careful “Pulling” can even work like relaxing a muscle, letting the character slowly drop from a metal fixture at the top of a high structure or sliding down a steep incline topped with an anchored metal object. Burning Iron can even let a character hover in midair below a sufficiently secured mooring, like a metal chain holding up a large chandelier, or the metal binding around a wooden rafter. \n One last restriction: virtually no Allomancer can Pull on metal that’s inside a person, or that’s driven through a body, like metal earrings or Hemalurgic spikes. The only exceptions are through Allomantic enhancements, as provided by Duralumin or Nicrosil",
+                "rules": "While burning Iron, you automatically detect and may Pull either one or all metal objects within 100 paces (Medium Range). This distinction is important — you may not choose to Pull more than one object unless you Pull all of them, or you have the Multiple Targets Stunt (see page 306).\nIf a Pulled object is smaller or lighter than you, it’s drawn toward you; otherwise, you’re Pulled towards it. In both cases you can control velocity, up to a maximum speed of approximately 100 mph. Generally, Ironpulling requires no roll unless there’s a compelling reason the story might be enhanced with failure (the Narrator always makes this call, as he or she has the best view of all story implications). When a roll is required, it’s made with your Iron rating. \nA common use of Ironpulling is to attack with loose metal objects behind an enemy. When you make such an attack, you roll with your Iron rating and apply the other rules listed here: \n Pulling an object held or worn by another character is a Contest between your Iron and the target’s Physique. Battling for a metal object with another Allomancer is also a Contest, pitting your Iron vs. his or her Iron. In both cases, success drags the object away from the target (if it’s held) or sends the target sprawling (if the object is worn) ",
+                "attack": 1,
+                "specialRules": [
+                    {
+                        "name": "Reacting with Iron",
+                        "rule": "You may also Pull metal objects in motion (such as steel-headed arrows, coins, and other thrown metal objects), potentially redirecting their flight. In combat this is a reaction to an attack, and if your Iron Result beats the attacker’s Result, you may adjust the object’s trajectory enough that it either misses the original target or flies toward you instead (your choice). If you Pull the object toward yourself, you may spend 2 Nudges to catch it. In combat, you may only Pull an object in motion once per Beat."
+                    }, 
+                    {
+                        "name": "Pulling Extremely Heavy Objects",
+                        "rule": "Anchored Pulling can put great stress on an Allomancer’s body. Each time you Pull on two or more extremely heavy objects — for example, anchoring yourself to the metal on a building while tearing a metal gate from its hinges — you lose 1 Health from physical strain."
+                    }, 
+                    {
+                        "name": "Pulling Objects in Bodies",
+                        "rule": "Pulling metal objects from a body (such as piercings and Hemalurgic spikes) is exceedingly difficult, requiring a successful Contest of your Iron vs. your target’s Physique with an Outcome of 5 or greater. This is normally only possible if your Iron is boosted with Duralumin or you enjoy a Nicroburst"
+                    }
+                ],
+                "burnRate": "Iron burns at a rate of one charge every 20 minutes. When flared, Iron burns at 2 minutes per charge",
+                "flaredEffect": " Flaring Iron provides no additional benefits beyond increasing your Iron rating.",
+                "stunts": [
+                    {
+                        "name": "Improved Redirection",
+                        "description": "You gain 1 “free” die when reacting with Iron (see above). You may take this Stunt one additional time, increasing your “free” dice to 2."
+                    },
+                    {
+                        "name": "Increased Velocity",
+                        "description": "You may Pull objects at a velocity of up to 250 mph, and the damage they inflict increases by +1. "
+                    },
+                    {
+                        "name": "Ironslide",
+                        "description": "You may Pull yourself at a heavy object at breakneck speed. During each Beat, you may Ironpull to take up to 2 steps toward or away from a target without penalty, or you may choose not to gain any Action or Defense dice for the round to take 3 steps toward or away from a target."
+                    },
+                    {
+                        "name": "Long Range",
+                        "description": "You detect and may Pull metal objects out to 300 paces (Long Range)."
+                    },
+                    {
+                        "name": "Multiple Targets",
+                        "description": "You have finer control of your Ironpulling, and may simultaneously Pull a number of individual metal objects up to your Iron rating."
+                    }
+                ],
+                "savants": "A Lurcher Savant gains two “free” Nudges with Iron rolls, but is also very connected to the surrounding world, losing a bit of perspective. When not burning Iron, the Savant’s Willpower drops by 1."
+                }
+            ,
+            "feruchemy": {
+                "lore": "Feruchemists use Iron to store weight, becoming exceptionally light for a time. This allows them to jump further than normal or to fall slowly and with less risk. Tapping weight increases the density and durability of the character’s body, letting him or her more easily withstand falls and similar stresses. Tapping extreme weight can let a character crush obstacles or break through floors. \n This versatility makes Iron one of the few metals that’s as useful when storing as when tapping.",
+                "store": "When storing, your body weight drops by roughly 10% per charge currently being stored. As usual, you cannot store more of something than you have, so this means that the maximum number of charges you may store in any hour is equal to your Iron rating or 9 (reducing your weight by roughly 90%), whichever is lower.\n Also while storing, it’s easier to jump and climb, and you suffer less damage from falls. For every two charges being stored, you gain one die with Physique rolls to jump or climb, and damage from falling drops by 1 (i.e. when storing four charges of weight, you gain two dice with these rolls and suffer 2 less damage from falls). However, other characters gain the same number of dice when attempting to grapple or throw you, or for any other activity that pits their weight against yours.\nYou may only store your own weight in an ironmind; the weight of any objects you carry or wear may never be stored, and in fact if their combined weight is ever greater than yours, you become pinned and may not move.",
+                "tap": "For each charge you tap, your increases by roughly 10%. There is no upper limit to the amount of weight you may gain in this way, but cautious Feruchemists keep in mind that weak and thin surfaces can easily give way if they go too far... \nJumping and climbing are also affected by tapping. For every two charges tapped, you lose one die with Physique rolls to jump or climb, and opponents lose one die with rolls to grapple or throw you, or for any other activity that pits their weight against yours. Thus, tapping ten charges reduces your pool by 5 dice when jumping or climbing, and your opponents’ pools by the same amount when grappling or throwing you, or performing similar actions. \n Characters often increase their weight with Iron to make themselves an anchor when Ironpulling or Steelpushing.",
+                "tapped": "Feruchemists who tap huge amounts of weight can land heavy blows (by dropping their fists or bodies onto targets). They can also shatter surfaces and grind runaway vehicles to a halt. Feats you may achieve by tapping 10 or more charges of Iron include:",
+                "example":"Weight Increases and Other Examples",
+                "tapping": [
+                    {
+                        "charges": "10",
+                        "examples": "5 × normal weight; stop a man in his tracks; inflict +1 damage with physical attacks"
+                    },
+                    {
+                        "charges": "20",
+                        "examples": "10 × normal weight; stop a horse in its tracks; break through a thick glass floor; inflict +2 damage with physical attacks"
+                    },
+                    {
+                        "charges": "30",
+                        "examples": "20 × normal weight; stop an empty wagon in its tracks; break through a wooden floor; inflict +3 damage with physical attacks"
+                    },
+                    {
+                        "charges": "40",
+                        "examples": "50 × normal weight; stop an armored or full vehicle in its tracks; break through a stone floor; inflict +4 damage with physical attacks"
+                    },
+                    {
+                        "charges": "50",
+                        "examples": "100 × normal weight; stop a huge rolling boulder its tracks; break through a metal floor; inflict +5 damage with physical attacks"
+                    }
+                ]
+            },
+            "hemalurgy": {
+                "lore": "Iron spikes store human strength. Four of them, each having stolen the strength of a separate person, are used to make the inhuman koloss. Indeed, Iron spikes are rarely used for any other purpose, as they take a great toll on the mind and spirit. Even one causes the recipient’s body to swell to inhuman proportions, and dramatically dulls his or her mind. Additional spikes continue to warp the recipient, until eventually all memory is lost, leaving nothing behind but a bestial creature driven by rage and hunger.\n Despite this, Iron spikes are the second most common Blessing granted to kandra, enhancing their physical speed and strength similar to that of a Pewterarm. ",
+                "spikes": "The first Iron spike adds 2 dice with rolls involving physical strength, and each subsequent spike adds 1 die with these rolls. However, both your Charm and Spirit scores drop by 1 for each Iron spike you receive (rather than just your Spirit). Iron spikes also make your body swell in size and become exceptionally muscular, and multiple spikes tint your skin with blue. Any character with four or more Iron spikes is transformed into a koloss, losing memory and self-control (and becoming a Villain under the Narrator’s control)",
+                "blessing": "The Blessing of Potency increases your Physique score by 2, to a maximum of 8"
+            }
+        }
+    ]
+}
