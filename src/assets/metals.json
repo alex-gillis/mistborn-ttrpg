@@ -24,8 +24,7 @@
                     }
                 ],
                 "savants": ""
-                }
-            ,
+            },
             "feruchemy": {
                 "lore": "",
                 "store": "",
@@ -75,8 +74,7 @@
                     }
                 ],
                 "savants": "A Tineye Savant gains two “free” Nudges with Tin rolls, but is also so dependant upon enhanced senses that the world seems dull and grey without them. When not burning Tin, the Savant loses 1 die with Wits rolls relying on the senses"
-                }
-            ,
+            },
             "feruchemy": {
                 "lore": "Feruchemists use Tin to store individual senses (unlike Allomancers, Feruchemists must store and use each sense separately, in its own metalmind — for example, sight in one tinmind and hearing in another). Like other Feruchemical applications, a character’s access to a sense is greatly limited while storing it (thus, while storing smell, a Feruchemist would barely taste or smell anything, and while storing sight, he would become nearsighted or virtually blind).",
                 "store": "Storing in a Tinmind: While storing a sense, you lose 1 die per charge currently being stored with Wits rolls involving that sense. Again, you may only store one sense per tinmind. The maximum number of charges you may store in any hour is equal to your Tin rating or your Wits score minus 1, whichever is lower.",
@@ -152,8 +150,7 @@
                     }
                 ],
                 "savants": "A Pewterarm Savant gains two “free” Nudges with Pewter rolls, but is also so accustomed to his or her Allomantically fueled abilities that lethargy sets in without them. When not burning Pewter, the Savant’s Physique score drops by 1 (to a minimum of 2)."
-                }
-            ,
+            },
             "feruchemy": {
                 "lore": "Feruchemists use Pewter to store physical strength. Tapping a pewtermind can grant incredible ability, like throwing a fully loaded packhorse several hundred feet or ripping down the reinforced metal gates of a fortress. However, a Feruchemist grows physically weak when storing, his muscles temporarily shrinking and withering. ",
                 "store": "While storing, you lose 1 die per charge currently being stored with rolls involving physical strength (like Physique rolls to attack with a melee weapon, to lift something heavy, or to hold something aloft). \nNote this storing does not affect your Health — only your physical might. The maximum number of charges you may store in any hour is equal to your Pewter rating or your Physique score minus 1, whichever is lower",
