@@ -1,7 +1,7 @@
 /* eslint-disable react/jsx-key */
 /* eslint-disable react/prop-types */
 function Spikes(props) {
-    if (props.bless == "") {
+    if (props.metal.hemalurgy.spikes == "") {
         return (
             <></>
         )

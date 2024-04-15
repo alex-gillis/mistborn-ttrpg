@@ -9,7 +9,7 @@ function Hemalurgy(props) {
         <h4>Hemalurgy</h4>
         { props.metal.hemalurgy.lore }
         <br/>
-        <Spikes spikes={ props.metal.hemalurgy.spikes } />
+        <Spikes metal={ props.metal } />
         <br/>
         <Blessing bless={ props.metal.hemalurgy.blessing } />
       </>
