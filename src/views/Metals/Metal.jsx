@@ -12,7 +12,6 @@ function Metal(props) {
         <br/>
         <Allomancy metal={ props.metal }/>
         <br/>
-        <br/>
         <Feruchemy metal={ props.metal }/>
       </>
     )

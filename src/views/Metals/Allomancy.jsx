@@ -1,12 +1,13 @@
 import SpecialRule from "./SpecialRule";
 import Attack from "./Attacks";
+import Stunt from "./Stunt";
 /* eslint-disable react/jsx-key */
 /* eslint-disable react/prop-types */
 function Allomancy(props) {
 
     let myRules = props.metal.allomancy.specialRules;
-    console.log(myRules);
     let myAttack = props.metal.allomancy.attack;
+    let myStunts = props.metal.allomancy.stunts;
 
     return (
       < >
@@ -24,6 +25,10 @@ function Allomancy(props) {
         <span id="bolder">Effect of Flaring { props.metal.name }:</span> { props.metal.allomancy.flaredEffect }
         <br/>
         <span id="bolder">{ props.metal.name } Savants:</span> { props.metal.allomancy.savants }
+        <h4>Allomantic { props.metal.name } Stunts</h4>
+        {myStunts?.map(myStunt => (
+            <Stunt stunt={myStunt} />
+        ))}
       </>
     )
   }
