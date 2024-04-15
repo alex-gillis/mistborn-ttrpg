@@ -1,5 +1,6 @@
 import Allomancy from "./Allomancy"
 import Feruchemy from "./Feruchemy"
+import Hemalurgy from "./Hemalurgy"
 
 /* eslint-disable react/prop-types */
 function Metal(props) {
@@ -13,6 +14,8 @@ function Metal(props) {
         <Allomancy metal={ props.metal }/>
         <br/>
         <Feruchemy metal={ props.metal }/>
+        <br/>
+        <Hemalurgy metal={ props.metal }/>
       </>
     )
   }
