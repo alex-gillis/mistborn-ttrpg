@@ -30,9 +30,40 @@ function Attack(props) {
               </table>
             <br/>
             </>
+        ) 
+    } else if (props.attack === 2) {
+        return (
+            < >
+            <br/>
+            <br/>
+            <span id="bolder">Steelpushing Attacks:</span>
+              <table>
+                  <tr>
+                      <th>Object</th>
+                      <th>Damage</th>
+                      <th>Min. / Max. Range</th>
+                  </tr>
+                  <tr>
+                      <td>Small metal object (e.g. coin)</td>
+                      <td>+1</td>
+                      <td>Striking / Medium</td>
+                  </tr>
+                  <tr>
+                      <td>Medium metal object (e.g. weapon)</td>
+                      <td>+2</td>
+                      <td>Striking / Medium</td>
+                  </tr>
+                  <tr>
+                      <td>Large metal object (e.g. scenery)</td>
+                      <td>+3</td>
+                      <td>Close / Medium</td>
+                  </tr>
+              </table>
+            <br/>
+            </>
     
-    ) 
-    } else {
+        ) 
+    } else  {
         return ( 
         < >
             <br/>

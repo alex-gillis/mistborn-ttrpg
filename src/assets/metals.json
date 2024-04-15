@@ -274,6 +274,91 @@
                 "spikes": "The first Iron spike adds 2 dice with rolls involving physical strength, and each subsequent spike adds 1 die with these rolls. However, both your Charm and Spirit scores drop by 1 for each Iron spike you receive (rather than just your Spirit). Iron spikes also make your body swell in size and become exceptionally muscular, and multiple spikes tint your skin with blue. Any character with four or more Iron spikes is transformed into a koloss, losing memory and self-control (and becoming a Villain under the Narrator’s control)",
                 "blessing": "The Blessing of Potency increases your Physique score by 2, to a maximum of 8"
             }
+        },
+        {
+            "name": "Steel",
+            "category": "Physical",
+            "firstQuality": "External",
+            "secondQuality": "Pushing",
+            "rarity": "Steel is the alloy of iron and carbon, easily found in nearly any Dominance. It provides a variety of powerful benefits to practitioners of all three magical traditions.",
+            "allomancy": {
+                "lore": "A Misting who can burn Steel is called a Coinshot. \n Burning Steel grants abilities very similar to those of Iron, with one key difference — the metal lets an Allomancer Push metal within several dozen yards directly away, rather than Pulling them in. This process is typically called “Steelpushing.” A character burning Steel also sees transparent blue lines leading from his center of mass out to every piece of metal within range, and their intensity is likewise based on their distance and size. Pushing along these lines lets the character send an unanchored object of equal or smaller weight away, or sends him or her in the other direction from an anchored or larger object. Allomancers often use this ability to fire small objects like coins at targets (hence the Misting nickname). This makes Steel the most popular form of offensive Allomancy, and puts Coinshots in high demand among noble houses and military forces alike. \n Pushing against anchored or larger metal objects (or smaller objects on the ground directly below the character) is a favorite mode of Allomantic travel. By dropping a coin or two on the ground and Pushing against them, a skilled Allomancer can “walk” on stilts of Allomantic force, or hover dozens of yards in the air. In the early days of the Final Empire, Allomantic highways were comprised of metal bars wedged into the ground, providing Allomancers with quick and reliable travel between Luthadel and other major cities. Of course, landing can be difficult, so many leave such stunts to Mistborn (who can absorb the punishment of any mishap with Pewter). \n As with Iron, Pushing on metal inside or piercing the body of another living being (like piercings and Hemalurgic spikes) is exceedingly difficult, and typically only achievable when also using an enhancement metal like Duralumin or Nicrosil. ",
+                "rules": "While burning Steel, you automatically detect and may Push either one or all metal objects within 100 paces (Medium Range). This distinction is important — you may not choose to Push more than one object unless you Push all of them, or you have the Multiple Targets Stunt. \n If a Pushed object is smaller or lighter than you, it’s propelled away from you; otherwise, you’re Pushed away from it. In both cases you can control velocity, up to a maximum speed of approximately 100 mph. Generally, Steelpushing requires no roll unless there’s a compelling reason the story might be enhanced with failure (the Narrator always makes this call, as he or she has the best view of all story implications). When a roll is required, it’s made with your Steel rating. \n A common use of Steelpushing is to attack with loose metal objects between you and an enemy (e.g. the contents of a coin purse or a bag of horseshoes, which you can throw at an opponent as part of an attack). When you make such an attack, you roll with your Steel rating and apply the other rules listed below.\n Pushing an object held or worn by another character is a Contest between your Steel and the target’s Physique. Battling for a metal object with another Allomancer is also a Contest, pitting your Steel vs. his or her Steel. In both cases, success propels the object out of the target’s hands and away from you (if it’s held) or sends the target sprawling (if the object is worn). In the case of a metal object positioned between two Steelpushing Allomancers, the object can become a projectile targeting the loser, using the rules on the Steelpushing Attacks table. \n Finally, by Pushing off of metal in your environment, or metallic implements on the ground like coins or horseshoes, you may hover in midair, or “stilt-walk” or sail at up to 25 miles per hour. This is not flight, and the maximum height you can reach is equal to your Pushing range (100 paces, unless you have the Long Range Stunt). Landing can also be problematic, requiring you to Push off of metal objects thrown down onto the ground or already located there. Most landings require no roll but doing so in rough or treacherous terrain requires a successful Steel 1 roll, with failure costing you 1 Health.",
+                "attack": 2,
+                "specialRules": [
+                    {
+                        "name": "Reacting with Steel",
+                        "rule": "You may also Push metal objects in motion (such as steel-headed arrows, coins, and other thrown metal objects), potentially redirecting their flight. In combat this is a reaction to an attack, and if your Steel Result beats the attacker’s Result, you may adjust the object’s trajectory enough that it misses and flies away from you instead"
+                    },
+                    {
+                        "name": "Pushing Extremely Heavy Objects",
+                        "rule": "Anchored Pushing can put great stress on an Allomancer’s body. Each time you Push on two or more extremely heavy objects — for example, Pushing between a locked steel gate and an armored wagon to break open the first, flip over the second, or both — you lose 1 Health from physical strain."
+                    },
+                    {
+                        "name": "Pushing Objects in Bodies",
+                        "rule": "Pushing metal objects in a body (such as piercings and Hemalurgic spikes) is exceedingly difficult, requiring a successful Contest of your Steel vs. your target’s Physique with an Outcome of 5 or greater. This is normally only possible if your Steel is boosted with Duralumin or you enjoy a Nicroburst"
+                    }
+                ],
+                "burnRate": "Steel burns at a rate of one charge every 20 minutes. When flared, Steel burns at 2 minutes per charge.",
+                "flaredEffect": "Flaring Steel provides no additional benefits beyond increasing your Steel rating.",
+                "stunts": [
+                    {
+                        "name": "Increased Velocity",
+                        "description": "You may Push objects at a velocity of up to 250 mph, and the damage they inflict increases by +1."
+                    },
+                    {
+                        "name": "Long Range",
+                        "description": "You detect and may Push metal objects out to 300 paces (Long Range)."
+                    },
+                    {
+                        "name": "Multiple Targets",
+                        "description": "You have finer control of your Steelpushing, and may simultaneously Push a number of individual metal objects up to your Steel rating."
+                    },
+                    {
+                        "name": "Reflect Ranged Attack",
+                        "description": "When reacting with Steel, you can Push a ranged attack targeting you toward a different target within range (as opposed to merely away from you and toward nothing in particular). This requires you to win the Contest and spend 2 Nudges; winning the Contest with less than 2 Nudges does not allow you to reflect the attack. No matter how many Nudges you spend, you may not reflect the attack toward the attacker."
+                    },
+                    {
+                        "name": "Steel Running",
+                        "description": "By Pushing off the metals in your environment, you can move as fast as a galloping race horse (approximately 40 mph). During each Beat, you may Steelpush to take up to 2 steps toward or away from a target without penalty, or you may choose not to gain any Action or Defense dice for the round to take 3 steps toward or away from a target."
+                    }
+                ],
+                "savants": "A Coinshot Savant gains two “free” Nudges with Steel rolls, but is also very accustomed to directly influencing the surrounding world, and often grows overconfident as a result. When not burning Steel, the Savant’s Willpower drops by 1."
+            },
+            "feruchemy": {
+                "lore": "Feruchemists use Steel to store physical speed, becoming sluggish and almost lethargic. Conversely, tapping speed accelerates reaction time and lets the character run faster than a human, a galloping horse, or even a skilled Allomancer burning Pewter. Tapping extreme speed can let a character perform seemingly impossible feats of alacrity, like running from one end of Luthadel to the other in under a minute.",
+                "store": "When storing, your reflexes and movement speed are diminished and you lose 1 die per charge currently being stored with Physique rolls involving physical speed or reaction time. The maximum number of charges you may store in any hour is equal to your Steel rating or your Physique score minus 1, whichever is lower. \n Also while storing in a Conflict, any physical action produces 1 fewer Action Dice per charge currently being stored. Thus, a melee attack that would normally create a pool of 5 Action Dice produces only 2 Action Dice while storing 3 charges in a steelmind. \n Finally, when storing any amount of speed in a steelmind during combat, you may only move by choosing to receive no Action or Defense Dice at all, and even then you may only take 1 step toward or away from an opponent.",
+                "tap": "Each charge you tap, you gain 1 die with Physique rolls involving physical speed or reaction time. Also, when you tap speed to support a physical action during a Conflict, you gain 1 additional Action Die per charge tapped (e.g. tapping 4 charges of speed to support a melee attack grants you 4 additional Action Dice for the round).",
+                "tapped": "Feruchemists who tap huge amounts of physical speed can become a blur, too fast for the naked eye to see. They zip through battlefields like angry winds, cutting enemies down and darting to new foes before anyone can make out their positions. \n Feats you may achieve by tapping 10 or more charges of Steel include:",
+                "example":"Examples",
+                "tapping": [
+                    {
+                        "charges": "10",
+                        "examples": "Your running speed increases to 25 mph; you can take 2 steps toward or away from anything in a single Beat if you take an action, or may instead choose to receive no dice at all to take 3 steps"
+                    }, 
+                    {
+                        "charges": "20",
+                        "examples": "Your running speed increases to 50 mph; you can take 3 steps toward or away from anything in a single Beat if you take an action, or may instead choose to receive no dice at all to take 4 steps"
+                    },
+                    {
+                        "charges": "30",
+                        "examples": "Your running speed increases to 100 mph; you can take 4 steps toward or away from anything in a single Beat if you take an action, or may instead choose to receive no dice at all to take 5 steps"
+                    },
+                    {
+                        "charges": "40",
+                        "examples": "Your running speed increases to 150 mph; you can take 5 steps toward or away from anything in a single Beat if you take an action, or may instead choose to receive no dice at all to take 6 steps"
+                    },
+                    {
+                        "charges": "50",
+                        "examples": "Your running speed increases to 200 mph; you can take 6 steps toward or away from anything in a single Beat"
+                    }
+                ]
+            },
+            "hemalurgy": {
+                "lore": "Steel spikes are a basic component for creating Steel Inquisitors. Depending on where the spike is driven in, it steals, stores, and transfers a single Allomantic Power derived from any one of the four Physical Metals (e.g. increasing senses, improving physical fitness, or Pulling or Pushing metal objects). Each spike may store only one Power.",
+                "spikes": "A Steel spike grants you a single Allomantic Power — Tin, Pewter, Iron, or Steel — with a rating equal to that of the spike. Each spike reduces your Spirit score by 1, as normal. ",
+                "blessing": ""
+            }
         }
     ]
 }
