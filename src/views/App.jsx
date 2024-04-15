@@ -1,6 +1,6 @@
 /* eslint-disable react/jsx-key */
 import '../styles/App.css'
-import Metal from './Metal'
+import Metal from './Metals/Metal'
 
 const metalJSON = "./src/assets/metals.json"
 let myMetals;
