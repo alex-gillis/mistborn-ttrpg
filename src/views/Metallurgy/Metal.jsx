@@ -1,20 +1,44 @@
+import { useState } from 'react';
 import Allomancy from "./Allomancy"
 import Feruchemy from "./Feruchemy"
 import Hemalurgy from "./Hemalurgy"
 
 /* eslint-disable react/prop-types */
 function Metal(props) {
+  const [myAllo, setAllo] = useState(false);
+  const [myFeru, setFeru] = useState(false);
+  const [myHema, setHema] = useState(false);
+
+  function viewAllo() {
+    setAllo(!myAllo);
+  }
+
+  function viewFeru() {
+    setFeru(!myFeru);
+  }
+
+  function viewHema() {
+    setHema(!myHema);
+  }
+
   return (
     < >
       <h2>{ props.metal.name }</h2>
       <h4>{ props.metal.category } / { props.metal.firstQuality } / { props.metal.secondQuality }</h4>
       { props.metal.rarity }
       <br/>
-      <Allomancy metal={ props.metal }/>
+      <div id='filters'>
+        <button className={myAllo ? 'selected' : 'unselected'} onClick={() => viewAllo()}>Allomancy</button>
+        <button className={myFeru ? 'selected' : 'unselected'} onClick={() => viewFeru()}>Feruchemy</button>
+        <button className={myHema ? 'selected' : 'unselected'} onClick={() => viewHema()}>Hemalurgy</button>
+      </div>
+
       <br/>
-      <Feruchemy metal={ props.metal }/>
+      {myAllo && <Allomancy metal={ props.metal }/>}
       <br/>
-      <Hemalurgy metal={ props.metal }/>
+      {myFeru && <Feruchemy metal={ props.metal }/>}
+      <br/>
+      {myHema && <Hemalurgy metal={ props.metal }/>}
     </>
   )
 }

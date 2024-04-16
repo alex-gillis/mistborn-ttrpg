@@ -19,7 +19,7 @@ function Feruchemy(props) {
         <table>
             <thead> 
               <tr>
-                  <th>Charges Tapped</th>
+                  <th>{ props.metal.feruchemy.chargeTap }</th>
                   <th>{ props.metal.feruchemy.example }</th>
               </tr>
             </thead>

@@ -6,6 +6,8 @@ import Metal from './Metallurgy/Metal';
 function App() {
   // getJSONData(metalJSON, collectMetals, onError);
   const [myMetals, setMetals] = useState([]);
+  const [myInfo, setInfo] = useState(0);
+
 
   useEffect(() => {
     const getMetals = async () => {
@@ -25,8 +27,6 @@ function App() {
   
     getMetals();
   }, []);
-
-  const [myInfo, setInfo] = useState(0);
 
   function changeMetals(desiredMetal) {
     setInfo(desiredMetal);

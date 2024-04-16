@@ -30,6 +30,7 @@
                 "lore": "",
                 "store": "",
                 "tap": "",
+                "chargeTap": "Charges Tapped",
                 "tapped": "",
                 "example":"",
                 "tapping": [
@@ -81,6 +82,7 @@
                 "lore": "Feruchemists use Tin to store individual senses (unlike Allomancers, Feruchemists must store and use each sense separately, in its own metalmind — for example, sight in one tinmind and hearing in another). Like other Feruchemical applications, a character’s access to a sense is greatly limited while storing it (thus, while storing smell, a Feruchemist would barely taste or smell anything, and while storing sight, he would become nearsighted or virtually blind).",
                 "store": "Storing in a Tinmind: While storing a sense, you lose 1 die per charge currently being stored with Wits rolls involving that sense. Again, you may only store one sense per tinmind. The maximum number of charges you may store in any hour is equal to your Tin rating or your Wits score minus 1, whichever is lower.",
                 "tap": "For each charge you tap, you gain 1 die with Wits rolls involving the chosen sense. However, sudden stimulus involving the tapped sense — like extremely loud noises when tapping hearing, exceptionally bright lights when tapping sight, and strong odors when tapping smell — can temporarily overwhelm your senses. If you’re subjected to such while tapping Tin you must make a Physique roll, and with failure you lose two dice from your next pool as you reel from sensory overload (this penalty fades by 1 die a minute if no pools are formed in that time).",
+                "chargeTap": "Charges Tapped",
                 "tapped": "Feruchemists who tap huge amounts of a sense can perform incredible feats with it, like listening to a soft conversation occurring on the other side of a wide lake or reading a sign posted miles away. Feats you may achieve by tapping 10 or more charges of Tin include:",
                 "example":"Examples",
                 "tapping": [
@@ -158,6 +160,7 @@
                 "lore": "Feruchemists use Pewter to store physical strength. Tapping a pewtermind can grant incredible ability, like throwing a fully loaded packhorse several hundred feet or ripping down the reinforced metal gates of a fortress. However, a Feruchemist grows physically weak when storing, his muscles temporarily shrinking and withering. ",
                 "store": "While storing, you lose 1 die per charge currently being stored with rolls involving physical strength (like Physique rolls to attack with a melee weapon, to lift something heavy, or to hold something aloft). \nNote this storing does not affect your Health — only your physical might. The maximum number of charges you may store in any hour is equal to your Pewter rating or your Physique score minus 1, whichever is lower",
                 "tap": "For each charge you tap, you gain 1 die with rolls you make involving physical strength. As with storing, tapping strength does not increase your Health (that’s what Gold does).",
+                "chargeTap": "Charges Tapped",
                 "tapped": "Feruchemists who tap huge amounts of strength can lift amazing amounts of weight, tear steel with their bare hands, and topple creatures much larger than themselves. Feats you may achieve by tapping 10 or more charges of Pewter include",
                 "example":"Examples",
                 "tapping": [
@@ -245,6 +248,7 @@
                 "lore": "Feruchemists use Iron to store weight, becoming exceptionally light for a time. This allows them to jump further than normal or to fall slowly and with less risk. Tapping weight increases the density and durability of the character’s body, letting him or her more easily withstand falls and similar stresses. Tapping extreme weight can let a character crush obstacles or break through floors. \n This versatility makes Iron one of the few metals that’s as useful when storing as when tapping.",
                 "store": "When storing, your body weight drops by roughly 10% per charge currently being stored. As usual, you cannot store more of something than you have, so this means that the maximum number of charges you may store in any hour is equal to your Iron rating or 9 (reducing your weight by roughly 90%), whichever is lower.\n Also while storing, it’s easier to jump and climb, and you suffer less damage from falls. For every two charges being stored, you gain one die with Physique rolls to jump or climb, and damage from falling drops by 1 (i.e. when storing four charges of weight, you gain two dice with these rolls and suffer 2 less damage from falls). However, other characters gain the same number of dice when attempting to grapple or throw you, or for any other activity that pits their weight against yours.\nYou may only store your own weight in an ironmind; the weight of any objects you carry or wear may never be stored, and in fact if their combined weight is ever greater than yours, you become pinned and may not move.",
                 "tap": "For each charge you tap, your increases by roughly 10%. There is no upper limit to the amount of weight you may gain in this way, but cautious Feruchemists keep in mind that weak and thin surfaces can easily give way if they go too far... \nJumping and climbing are also affected by tapping. For every two charges tapped, you lose one die with Physique rolls to jump or climb, and opponents lose one die with rolls to grapple or throw you, or for any other activity that pits their weight against yours. Thus, tapping ten charges reduces your pool by 5 dice when jumping or climbing, and your opponents’ pools by the same amount when grappling or throwing you, or performing similar actions. \n Characters often increase their weight with Iron to make themselves an anchor when Ironpulling or Steelpushing.",
+                "chargeTap": "Charges Tapped",
                 "tapped": "Feruchemists who tap huge amounts of weight can land heavy blows (by dropping their fists or bodies onto targets). They can also shatter surfaces and grind runaway vehicles to a halt. Feats you may achieve by tapping 10 or more charges of Iron include:",
                 "example":"Weight Increases and Other Examples",
                 "tapping": [
@@ -331,6 +335,7 @@
                 "lore": "Feruchemists use Steel to store physical speed, becoming sluggish and almost lethargic. Conversely, tapping speed accelerates reaction time and lets the character run faster than a human, a galloping horse, or even a skilled Allomancer burning Pewter. Tapping extreme speed can let a character perform seemingly impossible feats of alacrity, like running from one end of Luthadel to the other in under a minute.",
                 "store": "When storing, your reflexes and movement speed are diminished and you lose 1 die per charge currently being stored with Physique rolls involving physical speed or reaction time. The maximum number of charges you may store in any hour is equal to your Steel rating or your Physique score minus 1, whichever is lower. \n Also while storing in a Conflict, any physical action produces 1 fewer Action Dice per charge currently being stored. Thus, a melee attack that would normally create a pool of 5 Action Dice produces only 2 Action Dice while storing 3 charges in a steelmind. \n Finally, when storing any amount of speed in a steelmind during combat, you may only move by choosing to receive no Action or Defense Dice at all, and even then you may only take 1 step toward or away from an opponent.",
                 "tap": "Each charge you tap, you gain 1 die with Physique rolls involving physical speed or reaction time. Also, when you tap speed to support a physical action during a Conflict, you gain 1 additional Action Die per charge tapped (e.g. tapping 4 charges of speed to support a melee attack grants you 4 additional Action Dice for the round).",
+                "chargeTap": "Charges Tapped",
                 "tapped": "Feruchemists who tap huge amounts of physical speed can become a blur, too fast for the naked eye to see. They zip through battlefields like angry winds, cutting enemies down and darting to new foes before anyone can make out their positions. \n Feats you may achieve by tapping 10 or more charges of Steel include:",
                 "example":"Examples",
                 "tapping": [
@@ -360,6 +365,197 @@
                 "lore": "Steel spikes are a basic component for creating Steel Inquisitors. Depending on where the spike is driven in, it steals, stores, and transfers a single Allomantic Power derived from any one of the four Physical Metals (e.g. increasing senses, improving physical fitness, or Pulling or Pushing metal objects). Each spike may store only one Power.",
                 "spikes": "A Steel spike grants you a single Allomantic Power — Tin, Pewter, Iron, or Steel — with a rating equal to that of the spike. Each spike reduces your Spirit score by 1, as normal. ",
                 "blessing": ""
+            }
+        },
+        {
+            "metalId": 4,
+            "name": "Copper",
+            "category": "Mental",
+            "firstQuality": "Internal",
+            "secondQuality": "Pulling",
+            "rarity": "Copper is very common and inexpensive. It’s a source of protection in all three magical disciplines, whether it’s guarding Allomancers from detection or preserving memories and knowledge.",
+            "allomancy": {
+                "lore": "A Misting who can burn Copper is called a Coppercloud or Smoker. \n Copper has two Allomantic applications. It’s primarily used to dampen signs of Allomancy within a radius of several dozen feet (an area that’s also called a “coppercloud”), within which the Smoker and those nearby are obfuscated from detection by Allomancers burning Bronze. As soon as the character starts burning Copper, all signs of Allomancy within the cloud’s range instantly “vanish” from Bronze burners — including any Bronze burners in the same area. This makes a Copper burner an essential addition to any crew employing Allomancers — without concealing the pulses every Allomancer gives off while burning metal, the team is easily detected by rival Seekers, Mistborn, and Steel Inquisitors. \n A second useful effect of burning Copper is that it renders the character virtually immune to Allomantic emotional manipulation. This makes a Copper burner useful for negotiation, investigation, and as an informant or spy, as he or she is nearly impossible to detect as an Allomancer, and not easily influenced by Soothers or Rioters. ",
+                "rules": "While burning Copper, you emit a coppercloud out to 10 paces in all directions (Close Range). To detect Allomancy within your coppercloud, a character must have a Bronze rating at least 2 higher than your Copper rating and must succeed with a Bronze 5 roll; otherwise your Allomantic abilities and those of other characters in your cloud are invisible to Allomantic senses. For this reason, the best way to potentially pierce a coppercloud is by combining Hemalurgic Bronze with a pre-existing Bronze rating.\nAdditionally, you’re highly resistant to the effects of emotional (Brass and Zinc) Allomancy while burning Copper. Any character using either of these metals against you loses a number of dice equal to your Copper rating with the attempt (i.e. with their Brass or Zinc roll), and if this reduces their pool to less than two dice, the attempt is impossible — you’re simply immune to their emotional tampering.",
+                "specialRules": [],
+                "burnRate": "Copper burns at a rate of one charge every 40 minutes. When flared, Copper burns at a rate of 4 minutes per charge.",
+                "flaredEffect": "Flaring Copper provides no additional benefits beyond increasing your Copper rating. Still, flaring Copper is quite useful when you’re facing a powerful Seeker...",
+                "stunts": [
+                    {
+                        "name": "Extend Mental Protection",
+                        "description": "All characters in your coppercloud benefit from the same resistance you have to emotional Allomancy. "
+                    },
+                    {
+                        "name": "Increased Mental Protection",
+                        "description": "A character who uses emotional (Brass or Zinc) Allomancy against you loses a number of dice equal to your Copper rating plus 2, rather than equal to your Copper rating. "
+                    },
+                    {
+                        "name": "Iron Will",
+                        "description": "While burning Copper, you ignore 1 point of Willpower damage from each successful attack. You may take this Stunt one additional time, increasing the Willpower damage you ignore to 2."
+                    },
+                    {
+                        "name": "Larger Coppercloud",
+                        "description": "Your coppercloud extends out to 100 paces in all directions (Medium Range)."
+                    }
+                ],
+                "savants": "A Smoker Savant gains two “free” Nudges with Copper rolls and is a rare case of a Misting being largely unaffected by continuous burning. Consequently, the Savant suffers no penalties when not burning Steel."
+            },
+            "feruchemy": {
+                "lore": "Feruchemists use Copper to store memories, indefinitely and with perfect accuracy and clarity. This of course makes them a vital commodity in the information-starved Final Empire. \n While storing memorized knowledge or events, a character has only a faint recollection of them — much like a fading dream. This is often done to keep information “fresh, committing a memory to a coppermind as soon as it’s no longer immediately useful as possible, so it can be retrieved later without having to rely on the tenuous nature of the mind. Cagey characters sometimes store damaging secrets as well — because what need is there to lie when you genuinely can’t remember something? \n Tapping memories lets a Feruchemist “check out” that information, like someone in our world would check out a library book. He or she recalls it precisely and with perfect clarity, as if via photographic memory, and can describe it without issue. For example, a character recalling a book could duplicate it exactly, word for word. However, this process does not improve the accuracy of the information recalled — a character who was mistaken about a person’s name still remembers it incorrectly, and because the memory is stored in a perfect and unaltered (and unalterable) the character’s impression never changes, even after countless corrections from trusted friends. \n The massive wealth of information stored can be difficult to track, and so many Feruchemists organize memories into different copperminds and keep detailed indices of what’s contained in each. Others reread books they’ve stored and write down rough details of their stored knowledge to use as reference when tapping their copperminds. In many ways this reinforces the library analogy, as the cracks in the system aren’t so much about the recorded information as one’s access and perception of it. \n The greatest peril for a Feruchemist is that one or more copperminds are lost or destroyed, as this means the memories held within are gone for good. For some characters this vulnerability is a blessing, providing an opportunity few can indulge — the chance to selectively and permanently forget painful or troubling memories — but to most it’s a desperate danger. The chance that such a prized possession might disappear forever, denying not only a life’s work but a life’s most personal legacy... It’s a terrifying proposition most Feruchemists guard against with their very lives.",
+                "store": "While storing memory, each charge represents one piece of useful and important information (like the location of a vital object or a Secret relevant to the current story), or one learned Trait (such as a profession, skill, or bit of training). The maximum number of charges you may store in any hour is equal to your Copper rating or your Wits score minus 1, whichever is lower. \n Unlike most Feruchemical storage, memory does not reset when the process is complete. Stored memories remain lost until tapped, and only return whiletapped; at all other times those memories are simply gone. They may not be dredged up, even under duress. \nThe Narrator always has final say as to what information qualifies for storing in a coppermind.",
+                "tap": "For each charge you tap, you regain one lost (stored) piece of information or learned Trait, recalling it with perfect clarity and accuracy (though any flaws in the information or Trait still apply, exactly, only, and always as they did when the memory was first stored). \n As these memories are indelible, they don’t provide more than an accurate recollection of what was witnessed or occurred, but in tandem they can be quite powerful. Thus, for every two charges you tap you gain 1 die that may be added to any pool for a task related to or supported by the regained memory or Trait.",
+                "chargeTap": "Charges Tapped",
+                "tapped": "Feruchemists who tap huge amounts of memory can access far more than a handful of moments, simultaneously gaining a full and perfect view of whole days, weeks, or much, much wider periods of time. Many Feruchemists, including the renegade Keepers, recall and verbally pass along their memories and learned Traits to keep their knowledge alive long after they’re gone, making this the only way to access the vast swaths of information available to some Feruchemists. Feats you may achieve by tapping 10 or more charges of Copper include: ",
+                "example":"Examples",
+                "tapping": [
+                    {
+                        "charges": "10",
+                        "examples": "You can recall an entire hour with perfect clarity (all at once)"
+                    },
+                    {
+                        "charges": "20",
+                        "examples": "You can recall an entire day with perfect clarity (all at once)"
+                    },
+                    {
+                        "charges": "30",
+                        "examples": "You can recall an entire week with perfect clarity (all at once)"
+                    },
+                    {
+                        "charges": "40",
+                        "examples": "You can recall an entire month with perfect clarity (all at once)"
+                    },
+                    {
+                        "charges": "50",
+                        "examples": "You can recall an entire year with perfect clarity (all at once)"
+                    },
+                    {
+                        "charges": "60",
+                        "examples": "You can recall an entire decade with perfect clarity (all at once)"
+                    },
+                    {
+                        "charges": "70",
+                        "examples": "You can recall an entire generation with perfect clarity (all at once"
+                    },
+                    {
+                        "charges": "80",
+                        "examples": "You can recall an entire lifetime with perfect clarity (all at once)"
+                    },
+                    {
+                        "charges": "90",
+                        "examples": "You can recall an entire century with perfect clarity (all at once)"
+                    },
+                    {
+                        "charges": "100",
+                        "examples": "You can recall an entire millennia with perfect clarity (all at once)"
+                    }
+                ]
+            },
+            "hemalurgy": {
+                "lore": "Copper spikes store intelligence and memory. They’re very rarely used on humans due to the terrible dementia and frequent insanity produced as shards of a stored soul shred a recipient’s mind.\nKandra with the Blessing of Presence sport a pair of copper spikes, which sharpen their mind without mental instability.",
+                "spikes": "A Copper spike increases your Wits score by 1, to a maximum of 10. However, both your Charm and Spirit scores drop by 1 for each Copper spike you receive (rather than just your Spirit). Additionally, you may hear voices or recall memories that seem familiar yet oddly alien. This effect is especially common when you encounter pieces of the life left behind by the spike’s original victim.",
+                "blessing": "The Blessing of Presence grants enhanced intelligence and memory, increasing your Wits score by 2, to a maximum of 8."
+            }
+        },
+        {
+            "metalId": 5,
+            "name": "Bronze",
+            "category": "Mental",
+            "firstQuality": "Internal",
+            "secondQuality": "Pushing",
+            "rarity": "Bronze is the alloy of copper and tin, and common throughout the Empire. It’s used in all three disciplines and offers sublime awareness of the surrounding world.",
+            "allomancy": {
+                "lore": "Burning Bronze allows an Allomancer to detect nearby use of Allomancy. The burning metals are sensed as a patternof vibrations or pulses, not unlike a drumbeat. By default it’s fine-tuned enough that the character can track multiple Allomancers within range, and distinguish the types of metals each is burning by distinguishing the distinct rhythm of each.\nUnlike most senses Bronze isn’t impeded by physical barriers or other sensory input, which means a Bronze-burner can detect Allomancy even through solid stone walls, crowds, and total darkness. In fact, the character can sense burning metals even if the Allomancer burning them isn’t readily apparent in any other way (via line of sight, for example, or any noises he or she is making). The only ways to evade a Bronze-burner’s detection is by burning Copper, moving out of range, or ceasing to burn all metals of one’s own.\nThough Bronze is considered a weak metal by some crews, characters who can burn it are favorite recruits of the Steel Ministry, which employs them to hunt down skaa Mistings. Skilled Bronze-burners often become Steel Inquisitors, as combining their ability with a Bronze spike lets them detect Allomantic activity even when it’s concealed within a coppercloud.",
+                "rules": "By concentrating while burning Bronze (taking no other actions and paying no attention to your immediate physical surroundings), you detect all Allomantic activity within 100 paces (Medium Range). You detect both the number of Allomancers burning metal within this range, and which metals each is burning. This detection penetrates all surfaces and areas within range, save for those concealed by the effects of burning Copper, an area otherwise known as a coppercloud.\nPiercing a coppercloud is quite difficult, and typically the exclusive purview of extremely powerful Seekers and those enhanced with Hemalurgy. To pierce a Smoker’s coppercloud, your Bronze rating must be at least 2 higher than the Copper rating of the Smoker producing the cloud and you must succeed with a Bronze 5 roll. With success, you detect one Allomancer inside the cloud, plus one additional Allomancer per Nudge spent. Neither success nor failure alerts the Copper-burner to your detection.\nYou may also roll Bronze to learn how a single detected Allomancer is using his or her Power (if you want to learn this information about more than one Allomancer, you must roll separately per Allomancer, per question you have about them). The Difficulty of this roll depends on the information you’re trying to learn:",
+                "attack":3,
+                "specialRules": [],
+                "burnRate": "Bronze burns at a rate of one charge every 30 minutes, or one charge every 3 minutes while flared. ",
+                "flaredEffect": "Flaring Bronze provides no additional benefits beyond increasing your Bronze rating.",
+                "stunts": [
+                    {
+                        "name": "Broad Seeking",
+                        "description": "When rolling Bronze to learn how a detected Allomancer is using his or her Power, your standard option (ask a single question about one Allomancer to determine a Difficulty) is replaced with two new ones:\n - You may simply roll targeting any one detected Allomancer without asking a question, learning everything that your Result allows (i.e. with a Result of 4, you learn all simple, basic, detailed, and specific information about that one Allomancer).\n - You may alternately ask one question about all Allomancers in range, and with success against that question’s Difficulty you learn the answer about all of them (e.g. if you sensed three Allomancers in range, you could ask what Stunts they’re using and with a Bronze Result of 3 or higher you would learn that information about all three of them)"
+                    },
+                    {
+                        "name": "Increased Range",
+                        "description": "Your detection range increases from 100 paces (Medium Range) to 300 paces (Long Range). You may take this Stunt a second time, extending your range to 1,000 paces (Extreme Range). "
+                    },
+                    {
+                        "name": "Subconscious Seeking",
+                        "description": "While burning Bronze, you detect Allomantic activity within range without having to concentrate, which lets you take other actions at the same time and, as any other actions allow, perceive your immediate physical surroundings as normal. "
+                    }
+                ],
+                "savants": "A Seeker Savant gains two “free” Nudges with Bronze rolls and is also among the least affected by continuous burning. Consequently, the Savant suffers no penalties when not burning Bronze."
+            },
+            "feruchemy": {
+                "lore": "Feruchemists use Bronze to store wakefulness, during which they become drowsy. Storing enough wakefulness can send a Feruchemist into a trance-like state that can only be disrupted by violent changes in his or her immediate environment. This state isn’t true sleep, and the Feruchemist comes out of it neither more rested nor more tired. \n Tapping a bronzemind makes a Feruchemist highly alert and aware, and can keep him or her awake for days on end, without the need for sleep and without subsequent sleep debt. Feruchemists also tap large amounts of wakefulness to throw off the effects of drugs or intoxication, and to dramatically heighten their awareness.",
+                "store": "While storing wakefulness, you lose a die per change currently being stored with Physique rolls involving endurance and Wits rolls involving awareness. Additionally, your Wits score is considered 1 lower per charge currently being stored for the purpose of declaring actions in a Conflict. The maximum number of charges you may store in any hour is equal to your Bronze rating or your Physique score minus 1, whichever is lower.",
+                "tap": "For each charge you tap, you gain 1 die with Physique rolls involving endurance and Wits rolls involving awareness, and your Wits score is considered 1 higher per charge tapped for the purpose of declaring actions in a Conflict. \n Additionally, you can stay awake without natural fatigue for 8 additional hours per charge tapped (so by tapping 5 charges you stay awake for an additional 40 hours beyond the traditional 16 anyone gets after a full night’s sleep). After this period you must sleep as normal, but you don’t require more than the usual six to eight hours’ shuteye to start fresh.",
+                "chargeTap": "",
+                "tapped": "Feruchemists who tap huge amounts of wakefulness can stay awake for weeks at a time, or resist falling unconscious from injury. For every 10 charges tapped, you may stay awake for up to 1 week (168 hours) without normal fatigue. \nAlternately, when an injury would normally knock you unconscious, you may tap 10 or more charges of Bronze to continue acting for 1 minute per 10 charges tapped.",
+                "example":"",
+                "tapping": []
+            },
+            "hemalurgy": {
+                "lore": "Bronze spikes store Mental Allomantic Powers. The most common recipients of these spikes are Seekers-turned-Steel Inquisitors, who augment their own natural ability with stolen Bronze and use the mighty combination to pierce copperclouds. Depending on where the spike is driven in, it steals, stores, and transfers a single Allomantic Power derived from any one of the four Mental Metals (e.g. the ability to hide Allomantic use, detect Allomancy, Riot the emotions of others, or Soothe them). Each spike may store only one Power.",
+                "spikes": "A Bronze spike grants you a single Allomantic Power — Copper, Bronze, Zinc, or Brass — with a rating equal to that of the spike. Each spike reduces your Spirit score by 1, as normal.",
+                "blessing": ""
+            }
+        },
+        {
+            "metalId": 6,
+            "name": "Zinc",
+            "category": "Mental",
+            "firstQuality": "External",
+            "secondQuality": "Pulling",
+            "rarity": "Zinc is a common and inexpensive metal, employed by every discipline. Its uses include intensifying emotion, stockpiling the speed of thought, and fortifying emotional resistance.",
+            "allomancy": {
+                "lore": "A Misting who can burn Zinc is called a Rioter.\nBurning Zinc lets the Allomancer intensify the emotions of those nearby. Any or all emotions a target is already feeling may be magnified, though Zinc is most often used to amplify only a single emotion that the character feels will best serve his or her cause, like an opponent’s fear during a duel.\nAn Allomancer can’t use Zinc to create new feelings in a target, only pull their existing emotions to the fore. Someone who’s bored or annoyed by a performance couldn’t be made to genuinely enjoy the show, but Zinc could ratchet up the restlessness until he or she heckles the performer or walks out.\nThus, a character will often seed an emotion before burning Zinc — by offering a strong enough bargain to promote greed, for example, or by appealing to an outraged person’s sense of fair play to promote calm. The stronger the emotion already is, the more effective Zinc can be in fueling its growth.\nZinc does not let a character detect emotions, and so burners of the metal are usually practiced students of the human condition. Careful observation and analysis of behavior are vital to successfully manipulating any target’s emotional state.\nLikewise, Zinc Allomancy is not mind control — a Rioted emotion is still the target’s own, it’s just more powerful, and no matter how strongly the target feels something he or she is still guided by core principles, preferences, and predilections. As an example, enflaming one person’s anger might prompt them to start a bar brawl, while doing the same in someone else might result in them traded insults, stalking off in disgust, or even finding comfort at the bottom of a bottle.\nEmotional Allomancy is a reality of House life, with most nobles (and all Obligators) on the lookout for possible Allomantic manipulation. Sudden, strong, or inappropriate mood shifts are telltale signs and often disregarded out of hand, just in case a Rioter or Soother is the cause. Some Allomancers use this to their advantage, tampering with an emotion they want the target to ignore. Others know the best way to achieve their goals is through subtlety and guile rather than brute force and zeal.",
+                "rules": "While burning Zinc, you may amplify one or more existing emotions in a number of individuals up to your rating with the metal. You may only affect those within 10 paces (Close Range).\nYou may not use Zinc to detect emotions, but you may roll your Charm to do so. This is a Difficulty 1 Challenge if the target is unaware of your attempt (and therefore unable to conceal their feelings), or a Charm vs. Charm Contest if they’re aware and trying to conceal their state.\nYou may Riot any emotion(s) you like, but your efforts are most effective when a target emotion is already strong. Thus, the Difficulty of any Zinc roll to amplify an emotion is based on its current strength. When Rioting multiple emotions, your Difficulty is set by the weakest of them (i.e. you roll against the highest Difficulty of all the target emotions)\nWith success, the target emotion(s) swell and you gain one die per point of Outcome with Charm and Influence rolls against the victim, so long as you concentrate your attention on them and keep burning Zinc (see What’s the Outcome?).\nWith failure, the target emotion(s) aren’t stirred and the Narrator may spend two Complications to alert the target to your effort. Four Complications may be spent to identify you as the source of the manipulation (see Complications).\nRemember that Zinc does not grant you control of a Rioted character — it merely pulls them in one direction or another as befits their personal motivations and impulses. It’s also not always one-sided — a target aware that you’re manipulating them can oppose your Zinc rolls with their Wits or Charm, as fits their approach (in the Narrator’s estimation).\nou can also Riot discordant emotions — like pleasure in someone performing an unpleasant task, or guilt after a victory — and this can trip up or confuse the victim. When anyone within range succeeds with a Charm or Influence roll, you may react by rolling your Zinc against a Difficulty equal to his or her Result, and for each point of positive Outcome you score, the victim loses one die with their next action (to a maximum of their Result with the current roll). You can only use this ability once per Beat. ",
+                "attack": "4",
+                "specialRules": [],
+                "burnRate": "Zinc burns at a rate of 20 minutes per charge, or 2 minutes per charge when flared. ",
+                "flaredEffect": "It’s impossible to conceal the effects of flared Zinc — your target is automatically aware of your manipulation — but doing so lets you use the metal offensively. It lets you batter your target with maddening or psychotic emotions, entering a Mental Conflict that pits your Zinc against his or her Spirit, and attacking his or her Willpower (see Emotional Allomancy). As rounds are won the target grows more and more hysterical until, when and if the Conflict is won, he or she flies into a virtually mindless state of frenzy.",
+                "stunts": [
+                    {
+                        "name": "Affect Crowd",
+                        "description": "While burning Zinc, you may simultaneously Riot a number of people up to 20 × your Zinc rating, though you lose 2 dice with all Zinc rolls when manipulating multiple characters at once (see page 223 for more information about crowds). You may not use this Stunt while flaring Zinc."
+                    },
+                    {
+                        "name": "Enduring Emotions",
+                        "description": "Emotions you Riot linger for up to an hour after you stop focusing on the victim."
+                    },
+                    {
+                        "name": "Focused Emotion",
+                        "description": "Choose one emotion when you gain this Stunt (e.g. love, lust, rage, etc.). Your Zinc rating increases by 1 when you Riot this emotion. You may take this Stunt any number of times, but only once per emotion."
+                    },
+                    {
+                        "name": "Humiliating Hysteria",
+                        "description": "When flaring Zinc, you may attack Reputation instead of Willpower, with each round won representing the bad name your target acquires due to his or her erratic behavior, and ultimate victory representing everyone cutting the target off, at least for the time being. "
+                    },
+                    {
+                        "name": "Medium Range",
+                        "description": "You may Riot targets within 100 paces (Medium Range)."
+                    },
+                    {
+                        "name": "Tug Emotion",
+                        "description": "You subtly Riot nearly everyone around you when burning Zinc. At these times you gain one die with Charm rolls. You do not gain this bonus with any roll that also gains dice due to Rioted emotions (i.e. you may not stack this benefit with the basic use of Zinc)."
+                    }
+                ],
+                "savants": "A Rioter Savant gains two “free” Nudges with Zinc rolls, but the constant burn also takes a toll on the body. When not burning Zinc, the Savant’s Health drops by 1."
+            },
+            "feruchemy": {
+                "lore": "Feruchemists use Zinc to store mental speed, during which their thoughts are muddled and slow, unable to keep up with the fast-moving world around them. Conversely, tapping mental speed accelerates thought to a point where the surrounding world seems to move in slow motion. \nA Feruchemist tapping Zinc and Steel at the same time makes an amazingly effective bodyguard or duelist, sharp enough to spot every opening and fast enough to exploit each before it closes. ",
+                "store": "While storing mental speed, you lose 1 die per charge currently being stored with Charm and Wits rolls demanding a quick mental reaction, such as keeping up with banter, delivering funny lines, and anticipating danger. Additionally, your Wits score is considered 1 lower per charge currently being stored for the purpose of declaring actions in a Conflict (see page 172). The maximum number of charges you may store in any hour is equal to your Zinc rating or your Wits score minus 1, whichever is lower.",
+                "tap": "For each charge you tap, you gain 1 die with Charm and Wits rolls demanding a quick mental reaction, and your Wits score is considered 1 higher per charge tapped for the purpose of declaring actions in a Conflict.",
+                "chargeTap": "",
+                "tapped": "Feruchemists who tap huge amounts of mental speed become hyper-aware of their surroundings, able to exploit the slightest opportunities with ease. For every 10 charges of mental speed you tap, you gain one “free” die with reactions and defense rolls made in a single Conflict. Thus, if you spend 20 charges at any point during a Conflict, you would gain 2 dice with reaction and defense rolls for the rest of that Conflict.",
+                "example":"",
+                "tapping": []
+            },
+            "hemalurgy": {
+                "lore": "Zinc spikes store emotional stability and fortitude, and like other Hemalurgic spikes that steal innate human qualities these twist and warp recipients, inside and out.\nThese spikes are by far the rarest of kandra Blessings, as the emotional stability they produce renders the recipient resistant to Allomantic control (and thus, much more dangerous). ",
+                "spikes": "A Zinc spike increases your Willpower by 2, but also reduces your Charm score by 1 (rather than your Spirit, as normal).",
+                "blessing": "The Blessing of Stability increases your Willpower by 5, and also makes you immune to control by Brass Allomancy with any rating of 10 or lower."
             }
         }
     ]
