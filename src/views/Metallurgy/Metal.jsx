@@ -1,7 +1,7 @@
 import { useState } from 'react';
-import Allomancy from "./Allomancy"
-import Feruchemy from "./Feruchemy"
-import Hemalurgy from "./Hemalurgy"
+import Allomancy from "./Allomancy/Allomancy"
+import Feruchemy from "./Feruchemy/Feruchemy"
+import Hemalurgy from "./Hemalurgy/Hemalurgy"
 
 /* eslint-disable react/prop-types */
 function Metal(props) {
