@@ -17,13 +17,19 @@ function Feruchemy(props) {
         <br/>
         <span id="bolder">Tapping 10 or more charges from a { props.metal.name }mind:</span> { props.metal.feruchemy.tapped }
         <table>
-            <tr>
-                <th>Charges Tapped</th>
-                <th>{ props.metal.feruchemy.example }</th>
-            </tr>
-            {myTapping?.map(myTap => (
-                <Tapping tapping={myTap} />
-            ))}
+            <thead> 
+              <tr>
+                  <th>Charges Tapped</th>
+                  <th>{ props.metal.feruchemy.example }</th>
+              </tr>
+            </thead>
+            <tbody>
+              {myTapping?.map((myTap, index) => (
+                <tr key={index}>
+                  <Tapping tapping={myTap} />
+                </tr>
+              ))}
+            </tbody>
         </table>
       </>
     )

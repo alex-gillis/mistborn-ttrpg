@@ -7,6 +7,7 @@ function Attack(props) {
             <br/>
             <span id="bolder">Ironpulling Attacks:</span>
               <table>
+                <tbody>
                   <tr>
                       <th>Object</th>
                       <th>Damage</th>
@@ -27,6 +28,7 @@ function Attack(props) {
                       <td>+3</td>
                       <td>Close / Medium</td>
                   </tr>
+                </tbody>
               </table>
             <br/>
             </>
@@ -38,6 +40,7 @@ function Attack(props) {
             <br/>
             <span id="bolder">Steelpushing Attacks:</span>
               <table>
+                <tbody>
                   <tr>
                       <th>Object</th>
                       <th>Damage</th>
@@ -58,6 +61,7 @@ function Attack(props) {
                       <td>+3</td>
                       <td>Close / Medium</td>
                   </tr>
+                </tbody>
               </table>
             <br/>
             </>

@@ -17,8 +17,10 @@ function Allomancy(props) {
         <h4>Rules</h4>
         { props.metal.allomancy.rules }
         <Attack attack={ myAttack } />
-        {myRules?.map(myRule => (
-            <SpecialRule rule={myRule} />
+        {myRules?.map((myRule, index )=> (
+            <div key={index}>
+              <SpecialRule rule={myRule} />
+            </div>
         ))}
         <span id="bolder">Burn Rate of { props.metal.name }:</span> { props.metal.allomancy.burnRate }
         <br/>
@@ -26,8 +28,10 @@ function Allomancy(props) {
         <br/>
         <span id="bolder">{ props.metal.name } Savants:</span> { props.metal.allomancy.savants }
         <h4>Allomantic { props.metal.name } Stunts</h4>
-        {myStunts?.map(myStunt => (
-            <Stunt stunt={myStunt} />
+        {myStunts?.map((myStunt, index) => (
+            <div key={index}>
+              <Stunt stunt={myStunt} />
+            </div>
         ))}
       </>
     )

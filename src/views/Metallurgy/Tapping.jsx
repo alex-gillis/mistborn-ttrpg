@@ -3,10 +3,8 @@ function Tapping(props) {
 
     return (
       < >
-        <tr>
-            <td><span id="bolder">{props.tapping.charges} </span></td>
-            <td>{props.tapping.examples}</td>
-        </tr>
+        <td><span id="bolder">{props.tapping.charges} </span></td>
+        <td>{props.tapping.examples}</td>
       </>
     )
   }

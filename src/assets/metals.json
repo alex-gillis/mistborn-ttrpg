@@ -1,6 +1,7 @@
 {
     "metals": [
         {
+            "metalId": 0,
             "name": "Template",
             "category": "",
             "firstQuality": "",
@@ -45,6 +46,7 @@
             }
         },
         {
+            "metalId": 0,
             "name": "Tin",
             "category": "Physical",
             "firstQuality": "Internal",
@@ -111,6 +113,7 @@
             }
         },
         {
+            "metalId": 1,
             "name": "Pewter",
             "category": "Physical",
             "firstQuality": "Internal",
@@ -187,6 +190,7 @@
             }
         },
         {
+            "metalId": 2,
             "name": "Iron",
             "category": "Physical",
             "firstQuality": "External",
@@ -273,6 +277,7 @@
             }
         },
         {
+            "metalId": 3,
             "name": "Steel",
             "category": "Physical",
             "firstQuality": "External",

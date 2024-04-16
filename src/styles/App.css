@@ -5,11 +5,28 @@
   text-align: justify;
   white-space: pre-line;  
   vertical-align: bottom;
+  display: flex;
+  flex-direction: row;
+}
+
+#bold {
+  font-weight: bolder;
 }
 
 #bolder {
   font-weight: bolder;
   text-decoration: underline;
+}
+
+#list {
+  margin-right: 25px;
+  margin-top: 85px;
+  min-width: 150px;
+  position: fixed;
+}
+
+#info {
+  margin-left: 200px;
 }
 
 h2 {
@@ -27,3 +44,19 @@ table {
   width: 100%;
 }
 
+li {
+  border-style: solid;
+  border-color: silver;
+  border-right: 0px;
+  border-left: 0px;
+  border-top: 0px;
+  margin-bottom: 5px;
+}
+
+.index-button {
+  border: none; 
+  background-color: transparent; 
+  text-align: left;
+  padding: 0px;
+  width: 100%;
+}
