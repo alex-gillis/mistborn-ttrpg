@@ -12,14 +12,13 @@ function App() {
   useEffect(() => {
     const getMetals = async () => {
       try {
-        const response = await fetch('./src/assets/metals.json'); // Update the path to your local JSON file
+        const response = await fetch('./src/assets/metals.json'); 
         if (!response.ok) {
           throw new Error('Failed to fetch data');
         }
         const data = await response.json();
         let myData = data.metals;
-        myData.shift();
-        setMetals(myData); // Assuming your JSON file has a structure like { "metals": [...] }
+        setMetals(myData); 
       } catch (error) {
         console.error('Error fetching data:', error);
       }

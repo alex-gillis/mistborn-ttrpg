@@ -1,6 +1,7 @@
 import Attack from "./Attacks";
 import Burn from "./Burn";
 import Flare from "./Flare";
+import Gunplay from './Gunplay';
 import Savant from "./Savants";
 import Stunts from "./Stunts";
 import SpecialRule from "./SpecialRule";
@@ -28,6 +29,7 @@ function Allomancy(props) {
         <Flare metal={props.metal} />
         <Savant metal={props.metal} />
         <Stunts metal={props.metal} />
+        <Gunplay metal={props.metal} />
       </>
     )
   }

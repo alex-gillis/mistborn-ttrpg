@@ -2,52 +2,6 @@
     "metals": [
         {
             "metalId": 0,
-            "name": "Template",
-            "category": "",
-            "firstQuality": "",
-            "secondQuality": "",
-            "rarity": "",
-            "allomancy": {
-                "lore": "",
-                "rules": "",
-                "specialRules": [
-                    {
-                        "name": "",
-                        "rule": ""
-                    }
-                ],
-                "burnRate": "",
-                "flaredEffect": "",
-                "stunts": [
-                    {
-                        "name": "",
-                        "description": ""
-                    }
-                ],
-                "savants": ""
-            },
-            "feruchemy": {
-                "lore": "",
-                "store": "",
-                "tap": "",
-                "chargeTap": "Charges Tapped",
-                "tapped": "",
-                "example":"",
-                "tapping": [
-                    {
-                        "charges": "",
-                        "examples": ""
-                    }
-                ]
-            },
-            "hemalurgy": {
-                "lore": "",
-                "spikes": "",
-                "blessing": ""
-            }
-        },
-        {
-            "metalId": 0,
             "name": "Tin",
             "category": "Physical",
             "firstQuality": "Internal",
@@ -74,6 +28,16 @@
                     {
                         "name": "Sense Memory",
                         "description": "You have near-perfect memory with a single sense, letting you identify familiar voices or smells, distinguish forged signatures from real ones you’ve seen before, and so forth. No roll is required for these actions — they’re automatically successful. You may gain this Stunt up to five times, once for each sense."
+                    },
+                    {
+                        "name": "Lie Detector (Trait)",
+                        "description": "By using smell, sight, and hearing to detect slight changes in a person’s demeanor, you can better determine whether or not they are telling the truth. In addition to the story implications and descriptive applications, this Stunt grants the “Allomantic Lie Detector” Trait while you’re burning or flaring Tin."
+                    }
+                ],
+                "gunplay": [
+                    {
+                        "name": "Tinslinger",
+                        "description": "Your hand-eye coordination exceeds all human capacities. When burning Tin and your declared action is a firearm attack, you may form your dice pool using your Tin rating (rather than Physique, as normal). "
                     }
                 ],
                 "savants": "A Tineye Savant gains two “free” Nudges with Tin rolls, but is also so dependant upon enhanced senses that the world seems dull and grey without them. When not burning Tin, the Savant loses 1 die with Wits rolls relying on the senses"
@@ -154,6 +118,12 @@
                         "description": "You automatically burn Pewter when unconscious, though only if also injured (i.e. you don’t automatically burn Pewter when sleeping). Each Pewter charge burned in this fashion lasts for three hours, and the only benefits it conveys are increased Health, accelerated healing, and avoiding Pewter drag. It has no effect on Physique rolls or dice pools. This special Pewter burn stops immediately when you regain consciousness."
                     }
                 ],
+                "gunplay": [
+                    {
+                        "name": "Acrobatic Shooting",
+                        "description": "Your hand-eye coordination exceeds all human capacities. When burning Tin and your declared action is a firearm attack, you may form your dice pool using your Tin rating (rather than Physique, as normal). "
+                    }
+                ],
                 "savants": "A Pewterarm Savant gains two “free” Nudges with Pewter rolls, but is also so accustomed to his or her Allomantically fueled abilities that lethargy sets in without them. When not burning Pewter, the Savant’s Physique score drops by 1 (to a minimum of 2)."
             },
             "feruchemy": {
@@ -215,8 +185,17 @@
                     {
                         "name": "Pulling Objects in Bodies",
                         "rule": "Pulling metal objects from a body (such as piercings and Hemalurgic spikes) is exceedingly difficult, requiring a successful Contest of your Iron vs. your target’s Physique with an Outcome of 5 or greater. This is normally only possible if your Iron is boosted with Duralumin or you enjoy a Nicroburst"
+                    }, 
+                    {
+                        "name": "Iron-Sight",
+                        "rule": "You can use the blue “lines” you see while burning Iron as a substitute form of sight. While burning Iron, you may substitute your Iron rating for your Wits when making rolls related to vision and sight. Additionally, you may move and act normally even in complete darkness, when blindfolded, or any other time you’re left sightless. However, anything that is devoid of metal is effectively invisible to you, and you cannot take action that requires seeing non-tactile visual features (such as reading, distinguishing color, etc.)."
+                    }, 
+                    {
+                        "name": "Wall Walking",
+                        "rule": "While burning Iron, you can subtly Pull on the superstructure of a building to walk up along walls or across a ceiling. You can move normally along any surface made of or containing metal, just as if it were flat ground. This Stunt only functions if the surface you are walking along has a substantial amount of metal (thus, you could easily hang from the ceiling of a train car, but couldn’t walk along the ceiling of a log cabin with just a few nails in place)."
                     }
                 ],
+                "gunplay": [],
                 "burnRate": "Iron burns at a rate of one charge every 20 minutes. When flared, Iron burns at 2 minutes per charge",
                 "flaredEffect": " Flaring Iron provides no additional benefits beyond increasing your Iron rating.",
                 "stunts": [
@@ -303,6 +282,10 @@
                     {
                         "name": "Pushing Objects in Bodies",
                         "rule": "Pushing metal objects in a body (such as piercings and Hemalurgic spikes) is exceedingly difficult, requiring a successful Contest of your Steel vs. your target’s Physique with an Outcome of 5 or greater. This is normally only possible if your Steel is boosted with Duralumin or you enjoy a Nicroburst"
+                    },
+                    {
+                        "name": "Steel-Sight",
+                        "rule": "You can use the blue “lines” you see while burning Steel as a substitute form of sight. While burning Steel, you may substitute your Steel rating for your Wits when making rolls related to vision and sight. Additionally, you may move and act normally even in complete darkness, when blindfolded, or any other time you’re left sightless. However, anything that is devoid of metal is effectively invisible to you, and you cannot take action that requires seeing non-tactile visual features (such as reading, distinguishing color, etc.)."
                     }
                 ],
                 "burnRate": "Steel burns at a rate of one charge every 20 minutes. When flared, Steel burns at 2 minutes per charge.",
@@ -327,6 +310,12 @@
                     {
                         "name": "Steel Running",
                         "description": "By Pushing off the metals in your environment, you can move as fast as a galloping race horse (approximately 40 mph). During each Beat, you may Steelpush to take up to 2 steps toward or away from a target without penalty, or you may choose not to gain any Action or Defense dice for the round to take 3 steps toward or away from a target."
+                    }
+                ],
+                "gunplay": [
+                    {
+                        "name": "Bulletpush",
+                        "description": "While burning Steel, you may subtly Steelpush a bullet you fire to give it much greater penetration. While burning Steel, all attacks you make with firearms reduce the amount of damage absorbed by the target’s armor or Powers by 1/2, rounded down (e.g., a Pewterarm with the Denser Tissues Stunt, which absorbs 1 damage, would instead absorb no damage, while a character wearing armor that absorbs 2 damage would instead absorb only 1). This Stunt can be combined with the Increased Velocity Stunt"
                     }
                 ],
                 "savants": "A Coinshot Savant gains two “free” Nudges with Steel rolls, but is also very accustomed to directly influencing the surrounding world, and often grows overconfident as a result. When not burning Steel, the Savant’s Willpower drops by 1."
@@ -396,8 +385,13 @@
                     {
                         "name": "Larger Coppercloud",
                         "description": "Your coppercloud extends out to 100 paces in all directions (Medium Range)."
+                    },
+                    {
+                        "name": "Smaller Coppercloud",
+                        "description": "You can restrict the size of your Coppercloud to a smaller area, thus keeping a lower profile. Your Coppercloud can be reduced from 10 to as small as 1 pace from you (Striking Range) if you choose."
                     }
                 ],
+                "gunplay": [],
                 "savants": "A Smoker Savant gains two “free” Nudges with Copper rolls and is a rare case of a Misting being largely unaffected by continuous burning. Consequently, the Savant suffers no penalties when not burning Steel."
             },
             "feruchemy": {
@@ -484,6 +478,12 @@
                         "description": "While burning Bronze, you detect Allomantic activity within range without having to concentrate, which lets you take other actions at the same time and, as any other actions allow, perceive your immediate physical surroundings as normal. "
                     }
                 ],
+                "gunplay": [
+                    {
+                        "name": "Seeking Shot",
+                        "description": ""
+                    }
+                ],
                 "savants": "A Seeker Savant gains two “free” Nudges with Bronze rolls and is also among the least affected by continuous burning. Consequently, the Savant suffers no penalties when not burning Bronze."
             },
             "feruchemy": {
@@ -539,6 +539,16 @@
                     {
                         "name": "Tug Emotion",
                         "description": "You subtly Riot nearly everyone around you when burning Zinc. At these times you gain one die with Charm rolls. You do not gain this bonus with any roll that also gains dice due to Rioted emotions (i.e. you may not stack this benefit with the basic use of Zinc)."
+                    },
+                    {
+                        "name": "Piercing Rioting",
+                        "description": "Your Rioting is powerful enough that you can even influence those using Aluminum to shield themselves. When you attempt to Riot another character’s emotions, you may spend 4 Nudges to ignore the effects of any aluminum gear they are wearing (such as aluminum-lined hats)."
+                    }
+                ],
+                "gunplay": [
+                    {
+                        "name": "Riot Aim (Reaction)",
+                        "description": ""
                     }
                 ],
                 "savants": "A Rioter Savant gains two “free” Nudges with Zinc rolls, but the constant burn also takes a toll on the body. When not burning Zinc, the Savant’s Health drops by 1."
@@ -592,6 +602,16 @@
                     {
                         "name": "Push Emotion",
                         "description": "You subtly Soothe nearly everyone around you when burning Brass. At these times you gain one die with Charm rolls. You do not gain this bonus with any roll that also gains dice due to Soothed emotions (i.e. you may not stack this benefit with the basic use of Brass)."
+                    },
+                    {
+                        "name": "Piercing Soothing",
+                        "description": "Your Soothing is powerful enough that you can even influence those using Aluminum to shield themselves. When you attempt to Soothe another character’s emotions, you may spend 4 Nudges to ignore the effects of any aluminum gear they are wearing (such as aluminum-lined hats). "
+                    }
+                ],
+                "gunplay": [
+                    {
+                        "name": "Soothe Aim (Reaction)",
+                        "description": ""
                     }
                 ],
                 "savants": "A Soother Savant gains two “free” Nudges with Brass rolls, but also spends so much time in his or her own mind that the body grows frail. When not burning Brass, the Savant’s Health drops by 1."
@@ -666,6 +686,7 @@
                     }
                 ]
             },
+            "gunplay": [],
             "hemalurgy": {
                 "lore": "Depending on where an Aluminum spike is driven in, it steals, stores, and transfers a single Allomantic Power derived from any one of the four Enhancement Metals (e.g. the ability to empty or hyper-flare the metals of oneself or another). Each spike may store only one Power and so most Hemalurgists steal the ability to burn Duralumin due to its incredible power. Fortunately, with Aluminum prohibitively expensive and Duralumin Mistings exceedingly hard to detect, these spikes remain very rare even in the Inquisition. ",
                 "spikes": "An Aluminum spike grants you a single Allomantic Power — Aluminum, Duralumin, Chromium, or Nicrosil — with a rating equal to that of the spike. Each spike reduces your Spirit by 1, as normal.",
@@ -691,6 +712,7 @@
                 "burnRate": "Burning Duralumin instantly consumes all charges of this and every other burning metal in your system. ",
                 "flaredEffect": "Because the metal burns instantly, Duralumin may not be flared.",
                 "stunts": [],
+                "gunplay": [],
                 "savants": "No Savants have ever been discovered."
             },
             "feruchemy": {
@@ -739,12 +761,7 @@
             "allomancy": {
                 "lore": "A Misting who can burn Chromium is called a Leecher.\nChromium functions exactly like Aluminum, except that when burnt it drains the Allomantic stores of anyone the Leecher touches, rather than those of the Allomancer. With a supply of Chromium, a character can quickly stymie an Allomancer with a single touch. The only defenses are to avoid the character’s touch, or burn Chromium and touch the character first. \n Fortunately for the embattled Allomancers of the Final Empire, Chromium remains a “lost metal” during the Lord Ruler’s reign. Of course, an intrepid or skillful crew might turn up information about it, and such a discovery would be an invaluable prize — and certainly a Major Secret — for any number of noble houses, hazekillers, or agents of the Steel Ministry. Indeed, it could be the greatest weapon any of them could ever hope for.",
                 "rules": "When you make skin-to-skin contact with one Allomancer — by holding their hand, making a barehanded attack, grappling, or through other means — you may burn a single charge of Chromium, instantly burning all charges of all Allomantic metals in their system and leaving them powerless until more metal is consumed. This does not tell you what metals are in their system, nor does it have any impact on metals they carry.",
-                "specialRules": [
-                    {
-                        "name": "",
-                        "rule": ""
-                    }
-                ],
+                "specialRules": [],
                 "burnRate": "Like other Enhancement Metals, Chromium burns instantly.",
                 "flaredEffect": "This also means that it can't be flared",
                 "stunts": [
@@ -757,6 +774,7 @@
                         "description": "You may consume the metal stores of any number of characters you’re touching, at a cost of 1 Chromium charge per target. "
                     }
                 ],
+                "gunplay": [],
                 "savants": "Due to Chromium’s rarity and high burn rate, no Savants have been discovered."
             },
             "feruchemy": {
@@ -806,6 +824,7 @@
                         "description": "When you burn Nicrosil, you may choose the metal your target must use for his or her next action (though not how it’s used, if there are multiple options). "
                     }
                 ],
+                "gunplay": [],
                 "savants": "No Savants have ever been discovered."
             },
             "feruchemy": {
@@ -846,6 +865,7 @@
                         "description": "The power of hindsight informs your present decisions, often very well. While burning Gold, you gain 1 die with Wits rolls."
                     }
                 ],
+                "gunplay": [],
                 "savants": "An Auger Savant gains two “free” Nudges with Gold rolls, but also has a drastically altered view of the world, struggling to discern the present from the past. When not burning Gold, the Savant’s Willpower drops by 1."
             },
             "feruchemy": {
@@ -901,6 +921,12 @@
                     {
                         "name": "Instinctive Burning",
                         "description": "You instinctively start burning Electrum in response to threats, gaining Defense Dice from Electrum whenever you’re attacked — even when you aren’t aware of the impending attack (e.g. when you’re ambushed or attacked in your sleep). This grants no extra benefit if you’re attacked while already burning Electrum. "
+                    }
+                ],
+                "gunplay": [
+                    {
+                        "name": "Premptive Shot",
+                        "description": ""
                     }
                 ],
                 "savants": "An Oracle Savant gains two “free” Nudges with Electrum rolls, but also feels naked and exposed whenever the next moment isn’t evident. When not burning Electrum, the Savant’s Willpower drops by 1."
@@ -964,6 +990,12 @@
                         "description": "The time differential within your bubbles may be set to up to 40 × your Cadmium rating (i.e. with a Cadmium rating of 4, one minute inside the bubble may equal up to 160 minutes outside)."
                     }
                 ],
+                "gunplay": [
+                    {
+                        "name": "Pulsing Shot",
+                        "description": ""
+                    }
+                ],
                 "savants": "A Pulser Savant gains two “free” Nudges with Cadmium rolls, but is also exposed to the raw fabric of time, which can lead to supreme arrogance... or primal terror. When not burning Cadmium, the Savant’s Influence score drops by 1. "
             },
             "feruchemy": {
@@ -1002,6 +1034,16 @@
                     {
                         "name": "Medium-Range Bubble",
                         "description": "Your Bendalloy bubbles may extend outward up to 100 paces (Medium Range). "
+                    }, 
+                    {
+                        "name": "Bend Time",
+                        "description": "You use your Bendalloy instinctively to make the most of every second. While burning Bendalloy, you can Catch a Beat when you score 2 or more Nudges, rather than 3 or more Nudges as normal (see the Mistborn Adventure Game, page 154). Note you must still spend all your Nudges to Catch a Beat, however!"
+                    }
+                ],
+                "gunplay": [
+                    {
+                        "name": "Sliding Shot",
+                        "description": ""
                     }
                 ],
                 "savants": "A Slider Savant gains two “free” Nudges with Bendalloy rolls, but also views him or herself as a true master of time and grows peevish with anything short of absolute control. When not burning Bendalloy, the Savant’s Charm score drops by 1. "
@@ -1049,6 +1091,7 @@
                         "description": "When burning Atium, you may reduce your rating with the metal by 2 to gain 1 free Nudge with each roll you make in the current Beat. You may take this Stunt multiple times, each time increasing the amount you can reduce your Atium rating by 2, and the free Nudges you gain with this round’s rolls by 1 (so if you take the Stunt twice, you may reduce your Atium rating by 2 to gain 1 free Nudge with this round’s rolls or you can reduce your Atium rating by 4 to gain 2 free Nudges with this round’s rolls, and so on)."
                     }
                 ],
+                "gunplay": [],
                 "savants": "Consequently, there are also no Atium Savants."
             },
             "feruchemy": {
@@ -1109,6 +1152,7 @@
                 "burnRate": "As an Atium alloy, Malatium burns quickly — 1 minute per charge, or 6 seconds per charge when flared. ",
                 "flaredEffect": "Flaring Malatium provides no additional benefits beyond increasing your Malatium rating. ",
                 "stunts": [],
+                "gunplay": [],
                 "savants": "There are no Malatium savants"
             },
             "feruchemy": {
@@ -1140,6 +1184,7 @@
                 "burnRate": "",
                 "flaredEffect": "",
                 "stunts": [],
+                "gunplay": [],
                 "savants": ""
             },
             "feruchemy": {

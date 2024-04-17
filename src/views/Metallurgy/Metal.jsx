@@ -28,9 +28,9 @@ function Metal(props) {
       { props.metal.rarity }
       <br/>
       <div id='filters'>
-        <button className={myAllo ? 'selected' : 'unselected'} onClick={() => viewAllo()}>Allomancy</button>
-        <button className={myFeru ? 'selected' : 'unselected'} onClick={() => viewFeru()}>Feruchemy</button>
-        <button className={myHema ? 'selected' : 'unselected'} onClick={() => viewHema()}>Hemalurgy</button>
+        <button id="filter-button" className={myAllo ? 'selected' : 'unselected'} onClick={() => viewAllo()}>Allomancy</button>
+        <button id="filter-button" className={myFeru ? 'selected' : 'unselected'} onClick={() => viewFeru()}>Feruchemy</button>
+        <button id="filter-button" className={myHema ? 'selected' : 'unselected'} onClick={() => viewHema()}>Hemalurgy</button>
       </div>
 
       <br/>
