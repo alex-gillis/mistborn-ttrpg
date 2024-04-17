@@ -70,6 +70,16 @@
                         "charges": "90",
                         "examples": "Read fine print by touch; track someone by smell after a month has passed; determine the origin of a food or metal by taste; hear well enough to hit someone with an arrow through a wall at five hundred yards in complete darkness; observe someone picking a pocket a mile away"
                     }
+                ],
+                "gunplay": [
+                    {
+                        "name": "Windwhisper Shot",
+                        "description": "You can draw on stored hearing to make a shot at someone you can’t see. When you make a ranged attack, you may tap 10 charges of hearing to make your attack even if you’re left sightless, or to ignore all adverse conditions and negative Circumstances related to cover, concealment, low light, and other visual impairments (see the Mistborn Adventure Game, pages 197). Additionally, you may spend 5 charges of hearing to gain a single “free” Nudge when using the Ricochet Stunt"
+                    },
+                    {
+                        "name": "Trick Shooting",
+                        "description": "Your incredible visual acuity lets you make tough shots with ease. When you make a Called Shot or Fan a revolver (see the Mistborn Adventure Game page 201, and page 134 of this book), you may tap 10 charges of sight to gain a single “free” Nudge on your roll. "
+                    }
                 ]
             },
             "hemalurgy": {
@@ -153,6 +163,12 @@
                     {
                         "charges": "90",
                         "examples": "Rip a large hole in Luthadel’s stone walls; throw Luthadel’s iron gates 100 yard"
+                    }
+                ],
+                "gunplay": [
+                    {
+                        "name": "Steady Hand",
+                        "description": "Your hands are as strong and steady as steel. When you make an Aimed attack, you may tap 10 charges of strength to retain your Aiming bonus (see page 133). Additionally, you may also tap 10 charges of strength to retain your Aiming bonus during a Round in which you move farther than 1 Step."
                     }
                 ]
             },
@@ -352,6 +368,20 @@
                         "charges": "50",
                         "examples": "Your running speed increases to 200 mph; you can take 6 steps toward or away from anything in a single Beat"
                     }
+                ],
+                "gunplay": [
+                    {
+                        "name": "Steelrunner Draw",
+                        "description": "Only two types of people try to outdraw you — the foolish and the dead. When you Quick Draw, you may tap 10 charges of physical speed to attack with your full dice pool, rather than your dice pool minus 2 as normal (see page 136). Additionally, when you tie with your opponent during a Pistol Duel, you may immediately tap 5 charges of physical speed to win the Contest by 1 (see page 135). If both you and your opponent use this Stunt, the effects cancel one another out. "
+                    },
+                    {
+                        "name": "Steelrunner Reload",
+                        "description": " You can instantly reload nearly any weapon. Once per Beat when you fire the last shot in your gun, you may spend 5 charges of physical speed to Reload it without taking an action (see page 136)."
+                    },
+                    {
+                        "name": "Steelrunner Shot",
+                        "description": "You can unleash your blinding physical speed to fire a gun twice with a single action. By tapping 20 charges of physical speed, you can split your dice pool to make 2 attacks with the same gun. These attacks may be against the same or different targets. While using this Stunt, you gain no benefits of Aiming with either attack."
+                    }
                 ]
             },
             "hemalurgy": {
@@ -445,6 +475,12 @@
                     {
                         "charges": "100",
                         "examples": "You can recall an entire millennia with perfect clarity (all at once)"
+                    }
+                ],
+                "gunplay": [
+                    {
+                        "name": "Archivist Shot",
+                        "description": "You can draw upon observation to better take on opponents. Once per Beat, if you have fought or observed an opponent fight in a previous combat, you can use this Stunt to gain one of two benefits: 1) when shot at by a previously-observed opponent, tap 2 charges of memory to add a single Defense die to your pool; or 2) when shooting at a previously-observed opponent, tap 2 charges of memory to cause that opponent’s Defense pool against your attack to shrink by 1 (to a minimum of 2)."
                     }
                 ]
             },
@@ -564,7 +600,17 @@
                 "chargeTap": "",
                 "tapped": "Feruchemists who tap huge amounts of mental speed become hyper-aware of their surroundings, able to exploit the slightest opportunities with ease. For every 10 charges of mental speed you tap, you gain one “free” die with reactions and defense rolls made in a single Conflict. Thus, if you spend 20 charges at any point during a Conflict, you would gain 2 dice with reaction and defense rolls for the rest of that Conflict.",
                 "example":"",
-                "tapping": []
+                "tapping": [],
+                "gunplay": [
+                    {
+                        "name": "Sparker Shot",
+                        "description": "You can draw on your greater acuity to effectively multitask during a gunfight. When you use the Dual Wielding or Fast Aiming Stunts, you may spend 5 charges of mental speed so that your action occurs during Step 2 of the Round at its normal count, rather than as if your dice pool is only half as large as it actually is (see page 137). Additionally, during a Pistol Duel, you can spend 1 charge of mental speed to use your Wits during the current round of a Pistol Duel (rather than using the lower of your Physique or Wits, as normal)."
+                    }, 
+                    {
+                        "name": "Trace Shot",
+                        "description": "Your amazing mental speed lets you backtrack a shot to its shooter in the blink of an eye. Once per Beat, you may tap 10 charges of mental speed to see the trail left by a bullet as it moves through the air. You can see exactly where a shot came from, allowing you to pick an assassin out of a crowd or spot a sniper lurking on a rooftop a few blocks away."
+                    }
+                ]
             },
             "hemalurgy": {
                 "lore": "Zinc spikes store emotional stability and fortitude, and like other Hemalurgic spikes that steal innate human qualities these twist and warp recipients, inside and out.\nThese spikes are by far the rarest of kandra Blessings, as the emotional stability they produce renders the recipient resistant to Allomantic control (and thus, much more dangerous). ",
@@ -627,7 +673,13 @@
                 "chargeTap": "",
                 "tapped": "A Feruchemist who taps huge amounts of warmth radiates heat like a furnace, melting nearby snow and ice, and even boiling water. For every 10 charges of warmth you tap, everyone within 10 paces (Close Range) suffers 1 less damage from ice and cold. Additionally, attacks you make against living creatures inflict +1 damage per 20 charges tapped, so long as you attack with your bare hands (or another exposed part of your body) and you can reach an exposed patch of your target’s skin.",
                 "example":"",
-                "tapping": []
+                "tapping": [],
+                "gunplay": [
+                    {
+                        "name": "Heat Weapon",
+                        "description": "You can channel your warmth to make an enemy’s weapon too hot to handle or even to damage the weapon itself. Once per Beat when attempting to Disarm an adjacent opponent of a metal weapon, you may tap 10 charges of warmth to add 2 dice to your roll (see the Mistborn Adventure Game, page 201). Alternatively, you may choose to superheat the weapon, temporarily breaking it and causing the wielder to suffer 1 damage per 20 charges tapped. The Difficulty to repair the weapon is equal to 1 per 20 charges tapped (to a maximum of 5)."
+                    }
+                ]
             },
             "hemalurgy": {
                 "lore": "Depending on where a Brass spike is driven in, it steals, stores, and transfers a single Feruchemical Power derived from any one of the four Mental Metals (e.g. the ability to store or tap memories, wakefulness, mental speed, or warmth). Each spike may store only one Power. ",
@@ -788,7 +840,13 @@
                 "chargeTap": "",
                 "tapped": "A Feruchemist tapping huge amounts of luck can blithely achieve the impossible despite nearly any odds. For every 10 charges you tap, you may re-roll one die after finding your Result but before the Outcome is described. You may tap to re-roll any number of dice in a single pool but must declare the number and consume the charges all at once, resulting in only one additional roll. The second Result stands, even if it’s worse than the first.",
                 "example":"",
-                "tapping": []
+                "tapping": [],
+                "gunplay": [
+                    {
+                        "name": "Lucky Shot",
+                        "description": "Your shots always seem to hit in the most improbable ways. Once per Beat, when making a Called Shot, you may tap 10 charges of luck to gain a single “free” Nudge on your roll (see the Mistborn Adventure Game, page 201). Additionally, you may tap 10 or more charges of luck to either reduce the Difficulty of a shot or the final Result of any rolls to defend against this attack by 1 per 10 charges of luck spent (to a minimum Difficulty of 1). This Stunt can be combined with both the Marksmanship gunplay Stunt and with Aiming to make even more impressive shots (see pages 137 and 133)!"
+                    }
+                ]
             },
             "hemalurgy": {
                 "lore": "Chromium has no known Hemalurgic applications.",
@@ -900,6 +958,12 @@
                         "charges": "90",
                         "examples": "You lose one Mortal Physical Burden; instantly recover 5 Health; immediately overcome organ failure or cancer; or flush a lethal poison from your system."
                     }
+                ],
+                "gunplay": [
+                    {
+                        "name": "Bloodmaker Grit",
+                        "description": "When you are in a Pistol Duel and are Defeated or suffer a Grave or Mortal Burden by an opponent’s attack, you may tap 10 charges of health to make your attack (instead of being “knocked out” of the duel, as normal). After your attack is resolved, you immediately suffer the results of your Burden or defeat."
+                    }
                 ]
             },
             "hemalurgy": {
@@ -963,6 +1027,12 @@
                         "charges": "90",
                         "examples": "Instantly recover 5 Willpower; brace yourself for crushing mental strain, reducing the damage of each successful attack against your Willpower by 5 for the next hour; or shake off a crushing traumatic event, such as seeing a loved one murdered"
                     }
+                ],
+                "gunplay": [
+                    {
+                        "name": "Pinnacle Shot",
+                        "description": "You can tap large amounts of determination to temporarily reduce the effects of injury and distraction from your shooting. At the beginning of each Conflict Round, you may tap 10 or more charges of determination to ignore all adverse conditions and negative Circumstances related to stress and distraction, as well as the effects of 1 Burden per 10 determination tapped, until the end of the Round."
+                    }
                 ]
             },
             "hemalurgy": {
@@ -1009,7 +1079,13 @@
                 "chargeTap": "",
                 "tapped": "A Feruchemist who taps huge amounts of breath can “supercharge” his or her blood, going without air for prolonged periods of time. For every 10 charges of breath you tap, you may go without breathing for a full hour. ",
                 "example":"",
-                "tapping": []
+                "tapping": [],
+                "gunplay": [
+                    {
+                        "name": "Gasper Shot",
+                        "description": "You can suppress your need to breathe in order to make difficult shots with longarms. When making an Aimed attack with a rifle (see page 133), you may tap 10 charges of breath to gain one “free” Nudge on your roll. "
+                    }
+                ]
             },
             "hemalurgy": {
                 "lore": "Cadmium has no known Hemalurgic applications.",
