@@ -11,8 +11,16 @@ function Basolurgy(props) {
             { props.info.koloss }
             <h2>Kandra</h2>
             { props.info.kandra }
-            <h2>Inquisitor</h2>
-            { props.info.inquisitor }
+            <h2>Steel Inquisitors</h2>
+            <div id="diagram">
+                <div id="steelInfo" >
+                    { props.info.inquisitor }
+                </div>
+                <div className="steelInfo">
+                    <img id="inquisitor" src="./src/assets/inqDiagram.png" alt="Steel Inquisitor Diagram" />
+                    <span id="bolder">A Visual Study of a Steel Inquisitor</span>
+                </div>
+            </div>
             <h2>Hemalurgic History</h2>
             { props.info.history }
             <h2>Hemalurgic Basics</h2>

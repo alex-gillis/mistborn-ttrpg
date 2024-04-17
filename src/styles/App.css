@@ -110,3 +110,24 @@ header {
 #basics {
   word-spacing: normal;
 }
+
+#diagram {
+  display: flex;
+}
+
+#steelInfo {
+  flex-grow: 2;
+  padding-right: 15px;
+  padding-top: 25%;
+  text-align: justify;
+}
+
+.steelInfo {
+  text-align: center;
+}
+
+#inquisitor {
+  padding-top: 5px;
+  height: 800px;
+  flex-grow: 3;
+}
