@@ -117,7 +117,7 @@ header {
 
 #steelInfo {
   flex-grow: 2;
-  padding-right: 15px;
+  padding-left: 15px;
   padding-top: 25%;
   text-align: justify;
 }
