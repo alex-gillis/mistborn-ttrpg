@@ -8,6 +8,8 @@ function Basochemy(props) {
             { props.info.basics }
             <h2>Feruchemical History</h2>
             { props.info.history }
+            <h2>{ props.info.name } after Ascension</h2>
+            { props.info.ascension }
             <h2>Feruchemical Basics</h2>
             { props.info.mechanical }
             <h2>Gaining & Improving Feruchemical Powers</h2>

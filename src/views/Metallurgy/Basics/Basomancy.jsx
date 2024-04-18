@@ -10,6 +10,8 @@ function Basomancy(props) {
             { props.info.basics }
             <h2>Allomancy History</h2>
             { props.info.history }
+            <h2>{ props.info.name } after Ascension</h2>
+            { props.info.ascension }
             <h2>Allomancy Basics</h2>
             { props.info.mechanical }
             <h2>Gaining & Improving Allomantic Powers</h2>

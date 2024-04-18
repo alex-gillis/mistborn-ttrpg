@@ -23,6 +23,8 @@ function Basolurgy(props) {
             </div>
             <h2>Hemalurgic History</h2>
             { props.info.history }
+            <h2>{ props.info.name } after Ascension</h2>
+            { props.info.ascension }
             <h2>Hemalurgic Basics</h2>
             { props.info.mechanical }
             <h2>Gaining & Improving Hemalurgic Powers</h2>

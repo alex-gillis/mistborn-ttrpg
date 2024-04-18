@@ -1,9 +1,33 @@
 /* eslint-disable react/jsx-key */
-import App from './App';
+import Metallurgy from './Metallurgy';
+import Cultures from './Cultures';
+import Intro from './Intro';
 import '../styles/App.css';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 
 function Menu() {
+    const [myMetals, setMetals] = useState([]);
+    const [myBasics, setBasics] = useState([]);
+
+
+    useEffect(() => {
+        const getMetals = async () => {
+        try {
+            const response = await fetch('./src/assets/information.json'); 
+            if (!response.ok) {
+            throw new Error('Failed to fetch data');
+            }
+            const data = await response.json();
+            setMetals(data.metals); 
+            setBasics (data.basics);
+        } catch (error) {
+            console.error('Error fetching data:', error);
+        }
+        };
+    
+        getMetals();
+    }, []);
+    
     const [myPage, setPage] = useState(0);
 
     function handlePage(pgNum) {
@@ -11,10 +35,12 @@ function Menu() {
     }
 
     const pages = [
-        { title: 'Basics', className: myPage === 0 ? 'selected' : 'unselected', onClick: () => handlePage(0) },
-        { title: 'Conflicts', className: myPage === 1 ? 'selected' : 'unselected', onClick: () => handlePage(1) },
-        { title: 'Metallurgy', className: myPage === 2 ? 'selected' : 'unselected', onClick: () => handlePage(2) }
+        { title: 'Home', className: myPage === 0 ? 'selected' : 'unselected', onClick: () => handlePage(0) },
+        { title: 'Cultures', className: myPage === 1 ? 'selected' : 'unselected', onClick: () => handlePage(1) },
+        { title: 'Conflicts', className: myPage === 2 ? 'selected' : 'unselected', onClick: () => handlePage(2) },
+        { title: 'Metallurgy', className: myPage === 3 ? 'selected' : 'unselected', onClick: () => handlePage(3) }
     ];
+
 
     return (
         <>
@@ -25,8 +51,10 @@ function Menu() {
                     </button>
                 ))}
             </header>
-
-            <App />
+            
+            { myPage === 0 && <Intro /> }
+            { myPage === 1 && <Cultures /> }
+            { myPage === 3 && myMetals[0] && myBasics[0] && <Metallurgy basics={myBasics} metals={myMetals} /> }
         </>
     );
 }

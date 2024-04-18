@@ -1,6 +1,7 @@
 /* eslint-disable react/jsx-key */
 /* eslint-disable react/prop-types */
 import Tapping from "./Tapping";
+import Gunplay from "./Gunplay";
 import Charges from "./Charges";
 
 function Feruchemy(props) {
@@ -25,6 +26,7 @@ function Feruchemy(props) {
               ))}
             </tbody>
         </table>
+        <Gunplay metal={props.metal} />
       </>
     )
   }

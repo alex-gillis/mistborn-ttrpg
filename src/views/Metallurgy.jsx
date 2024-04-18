@@ -1,35 +1,16 @@
+/* eslint-disable react/prop-types */
 /* eslint-disable react/jsx-key */
-import '../styles/App.css';
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import Metal from './Metallurgy/Metal';
 import Basics from './Metallurgy/Basics';
 
-function App() {
+function Metallurgy(props) {
   // getJSONData(metalJSON, collectMetals, onError);
-  const [myMetals, setMetals] = useState([]);
-  const [myBasics, setBasics] = useState([]);
+  const [myMetals] = useState(props.metals);
+  const [myBasics] = useState(props.basics);
   const [myInfo, setInfo] = useState(0);
   const [myBasic, setBasic] = useState(0);
   const [myView, setView] = useState(true);
-
-
-  useEffect(() => {
-    const getMetals = async () => {
-      try {
-        const response = await fetch('./src/assets/information.json'); 
-        if (!response.ok) {
-          throw new Error('Failed to fetch data');
-        }
-        const data = await response.json();
-        setMetals(data.metals); 
-        setBasics (data.basics);
-      } catch (error) {
-        console.error('Error fetching data:', error);
-      }
-    };
-  
-    getMetals();
-  }, []);
 
   function changeBasics(desiredBasic) {
     setBasic(desiredBasic);
@@ -67,4 +48,4 @@ function App() {
   )
 }
 
-export default App
+export default Metallurgy
