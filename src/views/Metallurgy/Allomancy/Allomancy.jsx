@@ -11,11 +11,12 @@ function Allomancy(props) {
 
     let myRules = props.metal.allomancy.specialRules;
     let myAttack = props.metal.allomancy.attack;
-
+    
     return (
       < >
         <h4>Allomancy</h4>
         { props.metal.allomancy.lore }
+        
         <br/>
         <h4>Rules</h4>
         { props.metal.allomancy.rules }

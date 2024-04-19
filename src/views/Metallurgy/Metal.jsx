@@ -8,6 +8,7 @@ function Metal(props) {
   const [myAllo, setAllo] = useState(false);
   const [myFeru, setFeru] = useState(false);
   const [myHema, setHema] = useState(false);
+  let myReference = "the Symbol for" + props.metal.name + "symbol"
 
   function viewAllo() {
     setAllo(!myAllo);
@@ -25,7 +26,14 @@ function Metal(props) {
     < >
       <h2>{ props.metal.name }</h2>
       <h4>{ props.metal.category } / { props.metal.firstQuality } / { props.metal.secondQuality }</h4>
-      { props.metal.rarity }
+      <div className='centerAlphabet'>
+        <div id="steelAlphabet">
+          <img id="alphabet" src={ props.metal.allomancy.icon } alt={myReference} />
+        </div>
+        <div>
+          { props.metal.rarity }
+        </div>
+      </div>
       <br/>
       <div id='filters'>
         <button id="filter-button" className={myAllo ? 'selected' : 'unselected'} onClick={() => viewAllo()}>Allomancy</button>

@@ -29,13 +29,16 @@
   margin-left: 200px;
   padding-right: 2rem;
   margin-bottom: 35px;
-  width: auto;
+  width: 1080px;
 }
 
 #filters {
   text-align: center;
   width: 100%;
 }
+
+h1 { text-align: center;
+  text-decoration: underline; }
 
 h2 {
   margin-bottom: 2px;
@@ -61,6 +64,16 @@ table {
   margin-bottom: 5px; 
   list-style: none; 
 }
+
+.samples { width: 150px;}
+.heroSample { width: 85%; height:85%}
+.heroSample { width: 85%; height:85%}
+#sampleDisplay {
+  display: flex;
+  text-align: center;
+  width: 100%;
+}
+#rightSample { text-align: right;}
 
 .index-button {
   border: none; 
@@ -133,9 +146,35 @@ header {
   flex-grow: 3;
 }
 
-#balls {padding-top: 100px; padding-bottom: 100px; width:100%; text-align: center;}
+#balls {padding-top: 50px; width:100%; text-align: center;}
 
 #intro { padding-top: 50px; text-align: justify;}
 
 #spoilers {text-align: center; padding-top: 25px;}
 #spoiler { padding-top: 15px; text-align: justify; padding-bottom: 50px;}
+
+#creation {
+  padding-bottom: 35px;
+}
+
+#steelAlphabet {
+  text-align: center;
+  width: 310px;
+  margin: 0 auto;
+}
+
+#alphabet {
+  min-width: 300px;
+  display: block;
+}
+
+.centerAlphabet {
+  text-align: center;
+  width: 100%;
+}
+
+@media only screen and (max-width: 1300px) {
+  #info {
+    width: auto;
+  }
+}

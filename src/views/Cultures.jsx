@@ -2,11 +2,11 @@
 /* eslint-disable react/jsx-key */
 
 function Cultures() {
-  return (
-    <>
+    return (
+        < >
         <div id="balls">Balls</div>
-    </>
-  )
+        </>
+    )
 }
 
 export default Cultures

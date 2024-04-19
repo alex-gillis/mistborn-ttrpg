@@ -1,5 +1,6 @@
 /* eslint-disable react/jsx-key */
 import Metallurgy from './Metallurgy';
+import Creation from './Creation';
 import Cultures from './Cultures';
 import Intro from './Intro';
 import '../styles/App.css';
@@ -8,6 +9,7 @@ import { useState, useEffect } from 'react';
 function Menu() {
     const [myMetals, setMetals] = useState([]);
     const [myBasics, setBasics] = useState([]);
+    const [myCreations, setCreations] = useState([]);
 
 
     useEffect(() => {
@@ -20,6 +22,7 @@ function Menu() {
             const data = await response.json();
             setMetals(data.metals); 
             setBasics (data.basics);
+            setCreations (data.creation);
         } catch (error) {
             console.error('Error fetching data:', error);
         }
@@ -36,9 +39,10 @@ function Menu() {
 
     const pages = [
         { title: 'Home', className: myPage === 0 ? 'selected' : 'unselected', onClick: () => handlePage(0) },
-        { title: 'Cultures', className: myPage === 1 ? 'selected' : 'unselected', onClick: () => handlePage(1) },
-        { title: 'Conflicts', className: myPage === 2 ? 'selected' : 'unselected', onClick: () => handlePage(2) },
-        { title: 'Metallurgy', className: myPage === 3 ? 'selected' : 'unselected', onClick: () => handlePage(3) }
+        { title: 'Creation', className: myPage === 1 ? 'selected' : 'unselected', onClick: () => handlePage(1) },
+        { title: 'Cultures', className: myPage === 2 ? 'selected' : 'unselected', onClick: () => handlePage(2) },
+        { title: 'Conflicts', className: myPage === 3 ? 'selected' : 'unselected', onClick: () => handlePage(3) },
+        { title: 'Metallurgy', className: myPage === 4 ? 'selected' : 'unselected', onClick: () => handlePage(4) }
     ];
 
 
@@ -53,8 +57,9 @@ function Menu() {
             </header>
             
             { myPage === 0 && <Intro /> }
-            { myPage === 1 && <Cultures /> }
-            { myPage === 3 && myMetals[0] && myBasics[0] && <Metallurgy basics={myBasics} metals={myMetals} /> }
+            { myPage === 1 && <Creation creation={myCreations}/> }
+            { myPage === 2 && <Cultures /> }
+            { myPage === 4 && myMetals[0] && myBasics[0] && <Metallurgy basics={myBasics} metals={myMetals} /> }
         </>
     );
 }
