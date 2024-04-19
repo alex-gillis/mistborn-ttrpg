@@ -118,7 +118,7 @@ header {
   max-width: 1280px;
   width: 100%;
   background-color: #1a1a1a;
-  z-index: 1; 
+  z-index: 2; 
 }
 
 #basics {
@@ -146,7 +146,15 @@ header {
   flex-grow: 3;
 }
 
-#balls {padding-top: 50px; width:100%; text-align: center;}
+#startHead {
+  padding-top: 50px; 
+  text-align: center;
+  position: fixed;
+  max-width: 1280px;
+  width: 100%;
+  background-color: #1a1a1a;
+  z-index: 1; 
+}
 
 #intro { padding-top: 50px; text-align: justify;}
 
@@ -171,6 +179,14 @@ header {
 .centerAlphabet {
   text-align: center;
   width: 100%;
+}
+
+#terms {
+  width: auto;
+}
+
+#creation {
+  padding-top: 75px;
 }
 
 @media only screen and (max-width: 1300px) {

@@ -3,6 +3,7 @@
 import { useState } from 'react';
 import Samples from './Creation/Samples';
 import Starting from './Creation/Starting';
+import Terms from './Creation/Terms';
 
 function Creation(props) {
     const [myPage, setPage] = useState(0);
@@ -21,19 +22,21 @@ function Creation(props) {
 
   return (
     <>
-        <div id="balls">
+        <div id="startHead">
             {pages.map((page, index) => (
                 <button key={index} id="head-button" className={page.className} onClick={page.onClick}>
                     <span id="bold">{page.title}</span>
                 </button>
             ))}
         </div>
+        <div id='creation' >
+            { myPage === 0 && <Starting create={props.creation[0]}/> }
+            { myPage === 1 && <Samples era1={props.creation[1].era1Samples} era2={props.creation[1].era2Samples}/> }
+            { myPage === 2 && <Terms gameTerms={props.creation[2].gameTerms}/> }
+            { myPage === 3 && <Samples era1={props.creation[1].era1Samples} era2={props.creation[1].era2Samples}/> }
+            { myPage === 4 && <Samples era1={props.creation[1].era1Samples} era2={props.creation[1].era2Samples}/> }
+        </div>
         
-        { myPage === 0 && <Starting create={props.creation[0]}/> }
-        { myPage === 1 && <Samples era1={props.creation[1].era1Samples} era2={props.creation[1].era2Samples}/> }
-        { myPage === 2 && <Samples era1={props.creation[1].era1Samples} era2={props.creation[1].era2Samples}/> }
-        { myPage === 3 && <Samples era1={props.creation[1].era1Samples} era2={props.creation[1].era2Samples}/> }
-        { myPage === 4 && <Samples era1={props.creation[1].era1Samples} era2={props.creation[1].era2Samples}/> }
     </>
   )
 }
