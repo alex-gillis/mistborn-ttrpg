@@ -1869,6 +1869,235 @@
                     "description": "The antagonists and big bads of your story are called Villain."
                 }
             ]
+        },
+        {
+            "id":3,
+            "selectEra1": [
+                {
+                    "select": "What makes a character",
+                    "id": 0
+                },
+                {
+                    "select": "Building Your Hero",
+                    "id": 1
+                },
+                {
+                    "select": "Start with the Crew",
+                    "id": 2
+                },
+                {
+                    "select": "Devise a Concept",
+                    "id": 3
+                },
+                {
+                    "select": "Answer 10 Important Questions",
+                    "id": 4
+                },
+                {
+                    "select": "Define your Strengths",
+                    "id": 5
+                },
+                {
+                    "select": "Fill in the Details",
+                    "id": 6
+                }
+            ],
+            "selectEra2": [
+                {
+                    "select": "Which options have been changed or retired?",
+                    "id": 7
+                },
+                {
+                    "select": "What options are new?",
+                    "id": 8
+                },
+                {
+                    "select": "Crews in the Alloy of Law",
+                    "id": 9
+                },
+                {
+                    "select": "Building Heroes",
+                    "id": 10
+                },
+                {
+                    "select": "Start with the Crew",
+                    "id": 11
+                },
+                {
+                    "select": "Devise a Concept",
+                    "id": 12
+                },
+                {
+                    "select": "Answer 10 Important Questions",
+                    "id": 13
+                },
+                {
+                    "select": "Define your Strengths",
+                    "id": 14
+                },
+                {
+                    "select": "Fill in the Details",
+                    "id": 15
+                }
+            ],
+            "heroes": "To play the Mistborn Adventure Game, each player (other than the Narrator) needs a Hero — a star of the unique story that’s about to unfold. Together with the rest of the Crew, your Hero will face down powerful enemies and go on exciting adventures, relish triumphs and wade through tribulations as he fights to find his destiny in the Final Empire. \n Creating your own Hero may not only be one of your first experiences with this game, it’s one of the most satisfying and fun since you get to make up every part of who he or she is, from personality to skills, magical abilities, dreams, fears, and more. Through this process, as you make decisions and your alter-ego takes shape, you may even learn things you never would have guessed when you started.",
+            "making": "There are two parts to every character: a narrative that defines his or her place in the world and the story, and game mechanics that include statistics, special abilities, and other rules defining his or her strengths, weaknesses, and various natural gifts and training. \n This section presents an overview of the different parts of every character, what they mean, and how they work.",
+            "attri1": "A character’s personal qualities, from physical prowess to social acumen to mental acuity, are referred to as Attributes. There are three Attributes, each broadly representing the character’s innate abilities in a different arena:",
+            "attributes": [
+                {
+                    "name": "Physique",
+                    "description": "Physical fitness and speed, including strength, agility, and endurance"
+                },
+                {
+                    "name": "Charm",
+                    "description": "Natural charisma and social skills, including appearance and ability to lead"
+                },
+                {
+                    "name": "Wits",
+                    "description": "Inherent intelligence and insight, including wisdom, raw knowledge, and resourcefulness"
+                }
+            ],
+            "attri2": "Generally, each Attribute is rated from 2 to 6 dice, with a 2 being feeble, 3 being common, 4 being robust, 5 being excellent, and 6 being the limit of human ability. Certain inhuman creatures, like koloss or mistwraiths, may have Attributes higher than 6, but no Attribute may ever be higher than 10 dice. \n Attribute dice are rolled when you attempt a challenging task, usually at the Narrator’s discretion.",
+            "stand1": "A character’s Standings represent his ability to influence the world, be it through wealth, political power, or providence. It is with Standings that characters can move kingdoms, build religions, assemble armies, and exert their will on some or all of Scadrial. There are three Standings, each broadly representing a different kind of sway the character commands:",
+            "standing": [
+                {
+                    "name": "Resources",
+                    "description": "Wealth, privilege, and capacity to muster financially-driven resources (like raising an army or running an estate)"
+                },
+                {
+                    "name": "Influence",
+                    "description": "Political power, contacts, and ability to call in favors"
+                },
+                {
+                    "name": "Spirit",
+                    "description": "Fate, connection to the metaphysical, and ability to survive against the odds"
+                }
+            ],
+            "stand2": "Each Standing is rated from 2 to 10 dice, with a 2 being inconsequential and a 10 being the most power a character may possess on that front. \n Standing dice are rolled when you try to change the world or alter your circumstances in significant ways. You can also temporarily spend Standing to gain special in-game benefits like extra equipment, favors, or hints and clues. Standings are explained more fully later on.",
+            "brandon": "Power in Mistborn is about more than just who, or what, you can kill — much more. It’s about what you can accomplish. A crew leader with lots of friends and contacts is just as important and powerful as a rough and tumble Pewterarm, and a rich merchant with abundant resources is every bit as useful to a crew as a Soother who can change people’s emotions with a flare of metal.",
+            "power1": "Some characters possess superhuman or metaphysical abilities, such as magic or shapeshifting, which are collectively called Powers. Not every character has Powers — in fact, most don’t — but a gifted few wield one or more of the following:",
+            "powers": [
+                {
+                    "name": "Allomancy",
+                    "description": "Mistborn and Mistings can consume and burn or flare metals to create a range of different magical effects, depending upon the metal used."
+                },
+                {
+                    "name": "Feruchemy",
+                    "description": "Keepers and other Feruchemists can store physical, mental, and emotional aspects of their being within metalminds of various compositions, and then tap them to gain extraordinary abilities, again based on the metal used. "
+                },
+                {
+                    "name": "Hemalurgy",
+                    "description": "This abominable “art” grants magical power by piercing the body with metallic spikes recently used to slay a human (most often, an Allomancer or Feruchemist). Kandra Blessings are pairs of these spikes that grant them consciousness and enhance their innate abilities. Characters with spikes sometimes hear voices, hallucinate, and even lose control of their actions."
+                },
+                {
+                    "name": "Mimic",
+                    "description": "The mysterious kandra can mimic the forms of those they consume."
+                }
+            ],
+            "power2": "A character may begin play with one or more Powers, depending on his or her concept: Mistings have a single Allomantic power, while Mistborn have multiple Allomantic powers; Keepers and Feruchemists have metalminds; and kandra have a Hemalurgic Blessing and Mimicry. Any character may gain new powers via Hemalurgy later in their careers (though this is quite perilous). \n Each Power has a numerical rating, which determines its effect (dice rolled, storage capacity, or whatever else is required based on the individual Power). Some Powers can be modified by Stunts, which are special maneuvers a character can learn to enhance his control over these Powers.",
+            "trait1": "Where Attributes, Standing, and Powers have fixed descriptions and cover many strengths and weaknesses common to all characters, Traits are defined by you and can cover nearly any other elements you want to add to your character. Among the myriad things you can use Traits to introduce:",
+            "traits": [
+                {
+                    "trait": "Learned skills (“Metallurgy,” “Dueling”)"
+                },
+                {
+                    "trait": "Areas of expertise (“History of the Final Empire,” “Military Tactics”)"
+                },
+                {
+                    "trait": "Physical characteristics (“Slight Build,” “Brawny”)"
+                },
+                {
+                    "trait": "Instinctive knacks (“Sneaky,” “Quick-Thinking”)"
+                },
+                {
+                    "trait": "Personality quirks (“Suspicious,” “Complimenting”)"
+                },
+                {
+                    "trait": "Professions (“Burglar,” “Hazekiller”)"
+                },
+                {
+                    "trait": "Key relationships (“Lord Venture’s Son,” “Informant to the Skaa Rebellion”)"
+                }
+            ],
+            "examples": [
+                {
+                    "text": "This flexibility makes Traits one of the most enjoyable ways to define your character’s unique background — and they’re not just for show. When you make a roll that might be supported by one or more of your Traits, you can take a moment to describe to the Narrator how you draw from your background and apply what you know or can do to the current situation. If the Narrator agrees, you get to add one extra die to that roll for each Trait that applies.",
+                    "example": "A “well-connected” character might gain a die when calling on friends for information."
+                },
+                {
+                    "text": "You can also take advantage of other characters’ Traits when they support your actions. There are a variety of ways this can happen, from capitalizing on the Trait of an ally when you’re working together to exploiting the Trait of an opponent you’re acting against. Here are a couple examples...",
+                    "example": "The same character might gain a die when one of those friends is “observant.”"
+                },
+                {
+                    "text": "",
+                    "example": "Conversely, when the Narrator thinks one or more of your Traits is detrimental in a situation, you may have to subtract a die for each Trait that applies."
+                },
+                {
+                    "text": "He might also gain a die if he’s looking for information about a “braggart.”",
+                    "example": "An “elusive” character wouldn’t have many friends to call upon, and so he might lose a die when calling on them for information."
+                }
+            ],
+            "trait2": "Fortunately, this doesn’t happen too often, and you shouldn’t let it stop you from choosing whatever Traits you think are best suited to your character. \n Sometimes you’ll acquire temporary negative Traits called Burdens (most commonly during Conflicts, which are intense and potentially damaging exchanges between characters). These operate a lot like Traits you assign yourself except that they’re assigned by others (when you’re injured physically, socially, or mentally), and they only add dice — commonly to your enemies but you can sometimes take advantage of them as well. This is actually one of the best ways to develop and enhance your character’s personal story. We’ll get back to Burdens later. For now, let’s look at how to settle on your character’s starting Traits. \n When creating Traits, you need to follow four simple rules:",
+            "create": [
+                {
+                    "trait": "A Trait must be specific."
+                },
+                {
+                    "trait": "A Trait must be descriptive."
+                }, 
+                {
+                    "trait": "A Trait must not replicate the name or function of any other statistic, Trait, system term, or ability. This means that Traits like “Healthy,” “Witty,” “Charming,” and “Allomancer” are all off-limits."
+                },
+                {
+                    "trait": "A Trait must be approved by the Narrator before it can be added to a Hero."
+                }
+            ],
+            "trait3": "As a rule, if a Trait would apply to nearly all or virtually none of the rolls you might make, it’s no good. Once again, this determination is made solely by the Narrator, though everyone will probably benefit from the occasional discussion about what the players expect out of Traits vs. how the Narrator expects them to be applied.",
+            "resil1": "Characters can suffer many different kinds of injury, from physical (stabbings, beatings, and other bodily violence) to social (slander, embarrassment, and other public disgraces) to mental (intimidation, trickery, crises of faith, and similar tests of mettle). A character’s ability to withstand these assaults is called Resilience and it takes three forms, each derived from an Attribute and a Standing:",
+            "resilience": [
+                {
+                    "name": "Health",
+                    "description": "Physical endurance, calculated by adding Physique + Resources"
+                },
+                {
+                    "name": "Reputation",
+                    "description": "Social status and respect, calculated by adding Charm + Influence"
+                },
+                {
+                    "name": "Willpower",
+                    "description": "Guts, sense, and determination, calculated by adding Wits + Spirit"
+                }
+            ],
+            "resil2": "Whenever a character is physically, socially, or mentally injured, the damage reduces one of his or her Resiliences. A variety of effects are felt as a Resilience falls, and when it drops to 0 or below the character is defeated in a fashion appropriate to the attack. A physical beating that takes out the last of a character’s Health might result in unconsciousness or death, while a scandal that strips away the last of a character’s Reputation might result in public censure or even calls for arrest. A character losing the last of his or her Willpower to a brutal browbeating might agree to the attacker’s demands, while a character losing the same due to overwhelming opposition on the battlefield might simply surrender.",
+            "prop1": "The protagonists of the Mistborn novels make little use of equipment in their exploits, relying upon their abilities, schemes, and skills to get the job done, rather than what they carry. However, like actors in movies and on stage, Scadrial’s most notable characters have certain essential gear always on hand: Vin has her pouch of coins, vials, and mistcloak; Sazed, his metalminds; OreSeur, his sack of bones; and of course the koloss carry those enormous blades. In the Mistborn Adventure Game, these vital and ever-present pieces of gear are called Props, and they’re not just “stuff” to collect for that rare moment they’re needed — they’re an essential part of the character. \n In game terms, Props can provide one of a variety benefits to characters, depending on their type:",
+            "props": [
+                {
+                    "name": "Weapons",
+                    "description": "boost damage in a fight, and sometimes let a character attack at range."
+                },
+                {
+                    "name": "Armor",
+                    "description": " reduces the damage a character suffers from physical attacks."
+                },{
+                    "name": "Shields",
+                    "description": "sometimes let the wielder brush aside or evade physical attacks."
+                },
+                {
+                    "name": "Animals, Mounts, & Vehicles",
+                    "description": "provide companionship and assist in travel."
+                },{
+                    "name": "Tools",
+                    "description": "provide a bonus die when appropriate to the task at hand."
+                },
+                {
+                    "name": "Implements",
+                    "description": "are essential components when using Powers (e.g. Coinshots Push copper clips to move and attack, kandra consume bones to shapeshift, Keepers use metalminds to store and tap various personal abilities, and Allomancers consume vials of metal flakes to fuel their magic)"
+                }
+            ],
+            "prop2": "Props are “permanent” equipment; when one is used or lost in play, the character automatically regains another identical Prop “off screen” during the next Long Breather (see pages 136 and 445) — unless of course the Narrator determines there’s a reason replacements can’t be found (e.g. the character’s nowhere near a source of the Prop, or he or she is imprisoned). \n Non-Prop equipment isn’t generally tracked and isn’t restored when used or lost. It may even fade away during Breathers if the Narrator wants to keep things simple.",
+            "destinedTragedy": "The Heroes and Villains of Scadrial matter in the grand scheme of things, and their actions can change the world, for good or ill. They must also overcome great hardships on the road to glory or infamy, rising above devastating poverty, institutionalized oppression, ethnic cleansing, and sometimes even the shackles of slavery. This struggle to realize one’s calling without falling prey to the demons of the past is the mark of a true hero. \n Many characters in your story have a Destiny (a higher purpose, which may or may not have been fated), and a Tragedy (a traumatic event or memory that haunts the character to this day). All Heroes have both, and many Villains do as well. \n A Hero’s Destiny or Tragedy may be unknown to the Hero (or even the player) when the game starts, becoming something to discover. A player or Hero may also believe his or her Destiny is one thing when it’s really another. Meanwhile, the Narrator knows all characters’ Destinies and Tragedies, including the Villains’, though he or she may decide a Villain is unaware and roleplay accordingly. \n Destiny and Tragedy unfold like subplots, in that they have Beginnings, Middles, and Ends, and their game effects are progressively more potent the deeper you get into their story. The Narrator may sometimes have you script your own Destinies and Tragedies, especially if he or she wants you to embrace and apply them as you describe your character’s actions. Most of the time, though, you’ll identify your character’s Destiny and Tragedy and the Narrator will develop the scripts so that part of your character’s story is gradually revealed over the course of the game. \n It’s possible your character may fulfill his or her Destiny, or conquer his or her Tragedy in play — this is often the meat of truly mighty storytelling, after all — and such a momentous event warrants care, attention, and celebration within the Crew. The Narrator might even decide it merits new Advancements (see page 113) or even a Turning Point (see page 428).",
+            "brandon2": "One thing to keep in mind is that a great character often has a great limitation, or in game terms, a great Tragedy. Don’t look at it as a weakness you’re annoyed to have. Look at it as one of the most defining aspects of who your character is. All great heroes from fiction — from Spiderman to Frodo to Jean Valjean — have defining moments like this in their past, and you should too. Often, it is what a character cannot do that makes them truly come alive.",
+            "secrets": "Secrets are power in Scadrial — indeed, they’re the foundation upon which the Final Empire was built and among the strongest weapons in the world. They’re also a currency more valuable than atium; Vin’s discovery of Duralumin grants her a tremendous edge over other Mistborn, and TenSoon’s revelation about the kandra not only signs his death warrant but also helps him change the course of history. \n In the Mistborn Adventure Game, Secrets can impact the story (the location of a hidden base, for example, or the identity of a long-sought assassin), or they can impact the rules (access to a hidden cache of atium grants great Allomantic power, as does learning to control koloss or kandra with Allomancy). Some very precious Secrets do both these things. \n Revealing a Secret at the right time can also offer significant advantages with certain tasks or against the right opponents. For example, a Hero hunting a masked thief might spread the thief’s true identity across a city, making it far easier to capture him. Alternatively, the Hero might only reveal the Secret to someone the thief loves, knowing it would drive a wedge between them. \n You may discover Secrets through play, or as you complete Schemes and achieve other goals. Much more information about Secrets can be found in Book 3 (see pages 427 and 455)."
         }
     ]
 }
