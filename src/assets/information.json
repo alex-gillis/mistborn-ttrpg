@@ -2072,24 +2072,32 @@
             "prop1": "The protagonists of the Mistborn novels make little use of equipment in their exploits, relying upon their abilities, schemes, and skills to get the job done, rather than what they carry. However, like actors in movies and on stage, Scadrial’s most notable characters have certain essential gear always on hand: Vin has her pouch of coins, vials, and mistcloak; Sazed, his metalminds; OreSeur, his sack of bones; and of course the koloss carry those enormous blades. In the Mistborn Adventure Game, these vital and ever-present pieces of gear are called Props, and they’re not just “stuff” to collect for that rare moment they’re needed — they’re an essential part of the character. \n In game terms, Props can provide one of a variety benefits to characters, depending on their type:",
             "props": [
                 {
+                    "id":0,
                     "name": "Weapons",
                     "description": "boost damage in a fight, and sometimes let a character attack at range."
                 },
                 {
+                    "id":1,
                     "name": "Armor",
                     "description": " reduces the damage a character suffers from physical attacks."
-                },{
+                },
+                {
+                    "id":2,
                     "name": "Shields",
                     "description": "sometimes let the wielder brush aside or evade physical attacks."
                 },
                 {
+                    "id":3,
                     "name": "Animals, Mounts, & Vehicles",
                     "description": "provide companionship and assist in travel."
-                },{
+                },
+                {
+                    "id":4,
                     "name": "Tools",
                     "description": "provide a bonus die when appropriate to the task at hand."
                 },
                 {
+                    "id":5,
                     "name": "Implements",
                     "description": "are essential components when using Powers (e.g. Coinshots Push copper clips to move and attack, kandra consume bones to shapeshift, Keepers use metalminds to store and tap various personal abilities, and Allomancers consume vials of metal flakes to fuel their magic)"
                 }
@@ -2182,7 +2190,7 @@
             ],
             "example2":"Example: Half the players in Brandon’s group had their concepts in mind before they arrived for the Crew-building session: Peter’s was 'skaa fixer' and Ben’s was 'street thief Misting.' Emily’s concept quickly settles down to 'contracted kandra on loan,' and Isaac’s becomes 'itinerant Keeper,' which will give his Hero the mobility needed to go wherever the Crew does (even if they leave Luthadel).",
             "step3": "Every Hero benefits from answering 10 important questions. They take your character from concept to flesh-and-blood person, ready for adventure.",
-            "10Questions": [
+            "questions": [
                 {
                     "question":"Why did you join the crew?",
                     "part1": "Every member of a Crew joins for his own reasons. Kelsier ran his Crew to steal the Lord Ruler’s atium cache, but he also had grander designs extending far beyond a simple heist — designs that drove his comrades to take up his mantle long after he was gone. \n Ask yourself: why did your character join the Crew? What does he or she hope to accomplish as part of the team? Are your character’s personal goals aligned or at cross-purposes with those of the Crew? Are your character’s motives transparent or hidden from the rest of the Crew? \n Summarize your character’s motivation with a short phrase. Some common reasons for joining a Crew include:",
@@ -2570,7 +2578,906 @@
             ],
             "qEight2": "Keep in mind: your choice has greater consequences, as for Questions 6–8 you must answer once with strong, once with average, and once with weak (i.e. you must answer each question differently, and in the end you must have one strong, one average, and one weak answer). \n Make a note of your choice next to the Standing section on your character sheet.",
             "example4":"Example: With two choices each in Questions 6 and 7, everyone’s answer to this question is locked in place: Peter’s fixer has a “strong” Standing, and everyone else’s Standings are “weak”",
-            "qEight3": "Your character’s Standing will be further defined in Step 4 (see page 97)."
+            "qEight3": "Your character’s Standing will be further defined in Step 4 (see page 97).",
+            "qNine1": "Every day is a challenge in the Final Empire: skaa endure tyrannical subjugation and grueling poverty; nobles must deal with brutal social engineering and the dog-eat-dog world of house politics; the Terris people regularly fall victim to cultural genocide; and the kandra languish in slavery and secrecy. Everyone lives through shock and suffering and some even create their own. \n Heroes and Villains tend to struggle most desperately to rise above it all, and while they often enjoy great success along the way, they’re always haunted by tragedies they couldn’t prevent, or worse, those caused by their own bad choices. In the novels, Vin is constantly reminded of her rough upbringing among the thieving crews of Luthadel, while Kelsier’s pursuit of vengeance for the death of his wife drives him to challenge the Empire itself. \n Ponder all the choices your character must have made so far, and the things he or she must have experienced. Which of those went well, and which didn’t? How has each made an impact on the person your character is today? Of all your character’s choices and experiences, which is the most tragic and how has it transformed his or her life forever? \n One of the best ways to answer this question is to look at your answers to previous questions, or to look forward to other details you might have already filled in. Say for example...",
+            "possibilities":[
+                {
+                    "example":"...you’ve assigned your character a Drive like “Free friends from prison” or “Liberate village.”",
+                    "explain":"It’s entirely possible it’s already too late for some of your character’s friends and loved ones, or that they’ve been tortured (and perhaps continue to be, waiting for him or her to act). Or the heartbreak could come from some aftershock of the original capture: an all-important secret was uncovered, forever shaming your character’s family or homeland."
+                },
+                {
+                    "example":"...you’ve assigned your character a Profession like “Mercenary” or “Spy.”",
+                    "explain":"Both these occupations regularly place the character in grave danger, and he or she might be grappling with the psychological fallout of shocking violence or a long capture. Your character might have been forced to make seemingly impossible choices on the battlefield or within the halls of an enemy house, and could still regret the outcome."
+                },
+                {
+                    "example":"...you’ve assigned your character a Specialty like “Talented researcher” or “Hawk-eyed observer.”",
+                    "explain":"Some things can’t be unlearned or unseen, and some secrets come with a terrible price. Perhaps your character knows who’s killed dozens of skaa children, but also that it’s the noble who owns them. The secret could be revealed, but hundreds of innocents might die if the noble remains in power. It’s also possible your character was just at the wrong place at the wrong time — say, out past sunset as the mists came, and with them came the wraiths. They say the sight of one stays with you forever..."
+                },
+                {
+                    "example":"...you’ve assigned your character a Feature like “Scarred” or “Reserved.”",
+                    "explain":"Maybe your character survived a vicious attack or accident, or was marked or punished for violating a tenet of his people or home territory. What if the mark is self-inflicted or the behavior is self-imposed, perhaps as a reminder of some personal failure or deep emotional conflict?"
+                },
+                {
+                    "example":"...you’ve assigned your character a Personality like “Wise” or “Thoughtful.”",
+                    "explain":"Wisdom and consideration often come with age, but in the young they’re just as often signs of turmoil. Your character might have learned from a terrible mistake, like trusting the wrong person or opening his or her heart to the wrong lover. Beyond betrayal, your character could have made the right choice at the wrong time, attacking too early and losing lives as a result, or arriving too late and letting a villain slip away. He or she might simply have learned never to underestimate the ruthless and the desperate."
+                },
+                {
+                    "example":"...your character has one or more Powers.",
+                    "explain":"Most noble children are force-fed metals and beaten to see if they Snap, and for some Allomancers this beating can leave marks long after the bruises and broken bones have healed. Terrismen who delve into Feruchemy find themselves enemies of the state, their families, friends, and even entire villages threatened by the Inquisitors who hunt them."
+                },
+                {
+                    "example":"...you’ve chosen strong Attributes.",
+                    "explain":"A character who's especially gifted in multiple ways knows it isn't always wine and roses. It can spur rivalry and resentment among others, either of which can blow up into full-scale animosity, and lifetime adversaries have a nasty habit of leaving lasting marks in their opponents' lives. They seduce lovers and ruin opportunities, steal and expose secrets, and generally dedicate themselves to besting the target of their obsession in every way they're able. Alternatively, there's the question of just how your character got as good as he or she is. What sacrifices were made along the way, and who was hurt in the process?"
+                },
+                {
+                    "example":"...you’ve chosen weak Standing",
+                    "explain":"Perhaps your character was publicly ridiculed or sanctioned in some fashion, or he or she suffered a bankruptcy or disgrace. It might even be the result of a crisis of personal ethics that drove your character out of a position of comfortable security."
+                },
+                {
+                    "example":"...your character was born into a certain race, class, or gender.",
+                    "explain":"Many Terrismen are eunuchs and unable to bear children, and skaa women are commonly abused by noblemen. Meanwhile, the denizens of the Burnlands live at the very fringe of the Empire and are routinely persecuted as rebels by the military and other agents of the Steel Ministry."
+                }
+            ],
+            "extraPossible":[
+                {
+                    "one":"Parents killed in front of you",
+                    "two":"Sold into slavery as a child"
+                },
+                {
+                    "one":"Only survivor of your former crew",
+                    "two":"Illegitimate child of a noble lord"
+                },
+                {
+                    "one":"Family was disgraced and lost its status",
+                    "two":"Disowned by your family"
+                },
+                {
+                    "one":"Murdered your best friend",
+                    "two":"Forced to choose between loved ones"
+                },
+                {
+                    "one":"Abandoned a relative to slavers",
+                    "two":"Tortured by Inquisitors"
+                },
+                {
+                    "one":"Horribly wounded in a fire",
+                    "two":"Violated the Contract"
+                },
+                {
+                    "one":"Branded a witch by your village",
+                    "two":"Betrayed by former crew-mates"
+                },
+                {
+                    "one":"Spent most of your life in prison",
+                    "two":"Hunted by a noble house"
+                },
+                {
+                    "one":"Orphaned at a very young age",
+                    "two":"Nearly starved to death"
+                }
+            ],
+            "qNine2":"Write your answer in the Tragedy section of your character sheet. Don’t worry if the Narrator jots down some notes on another sheet when you do — that’s the Secrets sheet and it’s where many ideas for twists and turns in the story are kept.",
+            "example5": "Example: Peter’s answer lies in his very first Trait, his Hero’s Drive: “Safeguard my family’s future,” but it’s also informed by his choice of “strong” Standing, his Profession “fixer,” and his Specialty (“well-connected”). His Hero clearly values loved ones, but also monetary worth, and his early choice for his Hero’s first family to perish through noble fear and indifference still rings very true as the emotional core of his concept. He combines all these things, writing “My parents and brother worked like dogs but died as paupers” in the Tragedy section of his character sheet. Brandon makes a note and looks to Ben. \n Ben follows a similar train of thought to determine his Hero’s Tragedy, focusing on the event that turned him away from nobles: the murder of the noble who accosted his sister. He writes, “Slew a man in cold blood when I was just a boy” in his Tragedy section and Brandon makes some more notes. \n It’s Emily’s turn to visit her Hero’s dark side but she hesitates, unsure where to take the character next. Brandon recalls the note he made earlier about how one of her jobs might have gone wrong and asks if her Hero’s Tragedy could have something to do with that. She’s inspired by all this death surrounding the Crew — and how much Brandon seems to enjoy scribbling down all those notes on his Secrets sheet — so she runs with his suggestion, writing “I unwittingly violated the First Contract.” Brandon looks over and asks if she’s sure about that. “There’s no going back,” he says. She considers and adds “— or did I?” at the end. Brandon nods approvingly and makes another note. \n Isaac wants to give the Narrator another bloody story seed, and he figures the whole Crew’s already knee-deep in corpses anyway, so he pulls Brandon aside for a private discussion. He pitches that his Keeper had a wise mentor, and that it’s her work he carries on now. They set out from the Terris mountains together but she never made it to Luthadel, and so his Tragedy is that “My mentor died before I could learn everything from her.” \n Brandon really likes the underlying idea but doesn’t think it’s quite a Tragedy yet — for that Isaac’s Hero needs to feel a little more responsible for the mentor’s death. Isaac agrees but all the ideas he comes up with immediately are too convoluted or don’t feel right. “Don’t worry,” Brandon says. “We can fill in the details when we have a better grasp of your Hero. Give your mentor a name, though. We’ll need that much before we start.” Isaac’s fine with this, so he writes “Gahela died because of my weakness” on his character sheet. He’s excited to learn more about Gahela’s final days.",
+            "qTen1":"Manning a crew is dangerous work. As outsiders, mercenaries, criminals, outlaws, and rebels, members may find themselves always on the run, dead at the hands of an enemy, slowly withering away in prison, or tormented under an interrogator’s knife. No one in their right mind would take such chances unless they believed the rewards outweighed the risk — not even a Hero. \n Beyond your character’s motives for joining the crew, imagine what he or she believes they’re meant to do. In a perfect world, with all the right tools at hand, what does your character think or hope to accomplish? This is a personal question, and should be answered separately for each character, above and beyond the goals and dreams of the crew. \n Your answer should differ from your Drive Trait (see Question 1, page 82), though it can certainly be related. If your character is a noble who joined the crew hoping to rebuild his name, he might believe his ultimate purpose is to lead his house to victory over a rival. Likewise, a thief may have thrown in with the other heroes to become famous, all the while dreaming of finding a secret so powerful it will shake the Empire to its foundations. \n This is your chance to think big. Your answer to this final question should be something your character can’t possibly achieve on his or her own, something grand in scope that’s daring and dangerous enough to be truly worthy of a Hero. Here are a few examples sprinkled from the Mistborn novels, along with a few more to get the wheels turning:",
+            "destiny": [
+                {
+                    "one":"Discover a new Allomantic meta",
+                    "two":"Be the first to defeat an Inquisitor"
+                },
+                {
+                    "one":"Defeat the Lord Ruler",
+                    "two":"Raise a new kingdom in the East"
+                },
+                {
+                    "one":"Free the skaa",
+                    "two":"Uncover the truth of the ashmounts"
+                },
+                {
+                    "one":"Murdered your best friend",
+                    "two":"Rewrite the laws of the New Empire"
+                },
+                {
+                    "one":"Rescue the Hero of Ages",
+                    "two":"Liberate the kandra from the Contract"
+                },
+                {
+                    "one":"Create a new religion",
+                    "two":"Bring down the Inquisition"
+                },
+                {
+                    "one":"Teach all people the secrets of magic",
+                    "two":"Establish my own noble house"
+                },
+                {
+                    "one":"Build a pre-Empire history of Scadrial",
+                    "two":"Learn the truth about the mists"
+                }
+            ],
+            "qTen2": "Write your answer in the Destiny section of your character sheet, and remember, this is just what your character believes he or she is supposed to do. Based on your answer, the Narrator will decide on your true Destiny, which is privately recorded on a Secrets sheet. \n Your perceived and true Destinies may be identical, they may be related, or they may have nothing to do with one another. Both can have a number of impacts on play, as described in Book 3 (see page 465), and this is where the Narrator should look for guidance about true Destinies as well.",
+            "example6":"Example: Peter starts by again falling back on his Hero’s Drive: “See my sons grow up free and self-determined.” Brandon approves and makes a corresponding note of his own. \n Ben’s a fan of the novels and has Kell squarely in mind when he chooses his Hero’s Destiny: “Pull off the greatest heist in the history of the Final Empire.” Brandon perks up questioningly and Ben adds, “I didn’t say I knew what it was yet.” There’s no crime in choosing a Destiny you can’t fulfill, Brandon thinks, and who knows? Maybe he’ll come up with something incredible. It does support the Crew’s cause and method. Brandon nods and moves on to Emily. \n She’s plenty ready, declaring that her kandra wants to “Find a way to return to the Homeland with honor,” adding “(and for good)” with a moment’s afterthought. This makes sense given where she landed on her Tragedy, so Brandon makes another couple notes, musing to himself that her story will feature some particularly juicy surprises. \n Then Brandon levels the last question at Isaac, who’s holding up his sheet in response: “Free the Terris people from oppression,” it reads. \n “It’s bold,” Brandon says, a little concerned, “but I don’t know if it’ll come up very often, and your Hero isn’t exactly a freedom fighter.” Isaac considers what his Hero will be doing a lot of the game (hunting for Secrets), and makes an adjustment: “Find the one truth that will free the Terris people from oppression.” \n “Better,” Brandon says, and makes a final note on the Secrets sheet. Everyone moves on to Step 4.",
+            "qTen3":"Just as none of us knows what tomorrow may bring, no character can be certain of his or her Destiny — only discover it with a coming dawn. What’s written on your character sheet may change as you learn more about your true Destiny, and that’s part of the fun. Coming to understand your purpose through play is one of the most compelling parts of the Mistborn Adventure Game.",
+            "step4":"Having answered those key questions, you now have all the information you need to describe your character’s strengths in three areas: Attributes, Standing, and Powers. \n No character can be good at everything (nor would it be interesting if it were possible), and your answers to Questions 6, 7, and 8 have already established your character’s true gifts. Between Attributes, Standing, and Powers, one should already be labeled as strong, one average, and one weak. If this isn’t the case, go ahead and label them now. Just jot your answers down next to the relevant sections of your character sheet. \n The following sections explain what those strengths mean, and what you need to do to further describe your character’s abilities.",
+            "powers4": "Your Powers strength determines whether you have magical or superhuman abilities, and if so, what options are available. This is often your most important choice when assigning strengths, as it can limit the specific abilities you can choose for your character. \n Choose one of the options from the list provided for your Powers strength and record it in the Powers section of your character sheet. Note that the Powers you choose may limit or determine your character’s race as well (see page 101).",
+            "powerDef": [
+                {
+                    "name": "Strong",
+                    "option1": "Keeper: Your character can store and magnify any number of personal qualities. He or she has a Feruchemy rating of 3 in all metals, and may use all Feruchemical metalminds (see page 275).",
+                    "option2": "Mistborn: Your character wields the full spectrum of Allomantic power. He or she has an Allomancy rating of 4 in all metals (see page 267)."
+                },
+                {
+                    "name": "Average",
+                    "option1": "Kandra: Your character is a shape-shifting kandra, blessed with Hemalurgic awareness. He or she has a Mimicry rating of 5, and one Hemalurgic Blessing chosen from the following: Awareness, Potency, Presence, or Stability (see page 255).",
+                    "option2": "Misting: Your character can use a single Allomantic power with great skill. He or she has an Allomancy rating of 5 in one metal (of your choice), and gains one Stunt of your choice with that metal (see pages 267 and 272)."
+                }
+            ],
+            "powerName": "Weak",
+            "powerOpt": "Your character has no special powers but gains two additional Traits instead.",
+            "example7": "Example: Peter’s choice of 'weak' Powers means his Hero has no special powers, and he’s already added his two bonus Traits, so he’s done. \n Ben’s 'average' Powers choice lets him choose one Allomantic power for his thief. He decides to be a Soother, which grants the ability to consume and burn Brass (to calm peoples’ emotions). He writes this in the Powers section of his character sheet, along with his Hero’s Power rating of 5. He also flips back to the Treatise Metallurgic and takes a look at the Brass Stunts (see page 333). He grabs 'Enduring Emotions' so his Hero’s Soothing efforts will linger after he stops focusing on a target (which seems helpful to a thief), and writes that on his sheet as well. \n Emily only gets one choice: which Blessing she wants her kandra to have. She flips back to the kandra section (see page 253) and picks the Blessing of Awareness. She hasn’t played a kandra before, and this is her first time playing the Mistborn Adventure Game, but she’s played a few RPGs and knows that enhanced senses are always helpful. No one else has any, and they make sense for her concept, so she’s good to go. She fills out her Powers section with a Mimicry rating of 5 and the Blessing. \n Isaac rounds out the Crew’s Powers choices with his Keeper details. He doesn’t have to make any decisions here — Keepers can use all metals and don’t customize their Powers further at the start of the game — so he fills in a Feruchemy rating of 3 with all metals and the group’s ready for Attributes.",
+            "attri1": "Your Attributes' strength determines the number of points you may distribute between Physique, Wits, and Charm, which showcase your character’s natural ability in three areas:",
+            "attrDesc":[
+                {
+                    "name":"Physique",
+                    "description":"Physical fitness and speed, including strength, agility, and endurance"
+                },
+                {
+                    "name":"Charm",
+                    "description":"Natural charisma and social skills, including appearance and ability to lead"
+                },
+                {
+                    "name":"Wits",
+                    "description":"Inherent intelligence and insight, including wisdom, raw knowledge, and resourcefulness"
+                }
+            ],
+            "attri2": "You must dedicate at least 2 points to each of these, and the maximum you may invest in each is determined by your Attributes strength:",
+            "optionDesc": [
+                {
+                    "name":"Strong",
+                    "description":"Split 13 points between your character’s Attributes. No Attribute may exceed 6."
+                },
+                {
+                    "name":"Average",
+                    "description":"Split 11 points between your character’s Attributes. No Attribute may exceed 5"
+                },
+                {
+                    "name":"Weak",
+                    "description":"Split 9 points between your character’s Attributes. No Attribute may exceed 4"
+                }
+            ],
+            "attri3": "Each point invested is a die you may roll when using that Attribute, with 2 dice being feeble, 3 being common, 4 being robust, 5 being excellent, and 6 being the limit of human ability.",
+            "example8": "Example: Peter has chosen 'average' Attributes, so he has 11 points to spend and may not start with any score above 5. He decides to go with a fairly even spread: Physique 3, Charm 4, and Wits 4. \n Ben has 'strong' Attributes, so he gets 13 points and has a maximum starting score of 6. He starts by maxing out his Wits (a thief needs to think fast), then splits the other 7 points as evenly as possible, favoring Physique (he’d prefer his thief doesn’t get the snot beaten out of him too often). Ben’s Hero winds up with Physique 4, Charm 3, and Wits 6. \n Emily splits her 'strong' Attributes evenly, favoring Wits (she figures her kandra has thought her way out of more than a few bad patches), so she fills in Physique 4, Charm 4, and Wits 5. \n Isaac’s 'average' Attributes mean 11 points and a maximum score of 5. He can split these pretty evenly as well, though he has to slight one score to make it work. He settles on Physique 4, Charm 3, and Wits 4 (being 'solemn' doesn’t scream charming to him).",
+            "stand1": "Your Standing strength determines the number of points you may distribute between Influence, Resources, and Spirit, which showcase your character’s funding, sway, and luck:",
+            "standDesc":[
+                {
+                    "name":"Resources",
+                    "description":"Wealth, privilege, and capacity to muster financially-driven resources (like raising an army or running an estate)"
+                },
+                {
+                    "name":"Influence",
+                    "description":"Political power, contacts, and ability to call in favors"
+                },
+                {
+                    "name":"Spirit",
+                    "description":"Fate, connection to the metaphysical, and ability to survive against the odds"
+                }
+            ],
+            "stand2": "You must dedicate at least 2 points to each of these, and the maximum you may invest in each is determined by your Standing strength:",
+            "stand3": "Each point invested is a die you may roll when calling on that form of Standing, with 2 dice being inconsequential and 10 being the most power a character may possess on that front.",
+            "example9": "Example: Peter’s 'strong' Standing lets him split 13 points with a maximum score of 8. He’s wanted to focus on Influence all along, so he starts there, assigning a 6. He could go higher, but he doesn’t want to totally cripple his Hero’s Resources and Spirit. He makes those 4 and 3, respectively. \n All the other players chose 'weak' Standing, which splits 9 points with a maximum of 4: Ben chooses Resources 2, Influence 4, and Spirit 3; Emily picks Resources 2, Influence 3, and Spirit 4; and Isaac’s Keeper gains Resources 3, Influence 3, and Spirit 3.",
+            "step5": "You’re nearly ready to dive into the game now. All you have left to do is fill in some of your character’s trappings, including his race, name, Resiliences, and Props.",
+            "race1": "Society under the Lord Ruler is deeply stratified, setting races so far apart that they’re practically isolated cultures. Unlike much of our civilized world, race is a defining element of a person’s life in Scadrial, affecting one’s social class, upward mobility, economic status, and even their capacity for magic. Fortunately for Heroes, a character’s race matters far less in Crews, which draw strength from the diverse talents and perspectives of their members. \n Four races are available in the Mistborn Adventure Game: skaa, noble, kandra, and Terris. The races are similar in many ways, though skaa tend to be physically hardy, nobles are often intellectually nimble, and the Terris are usually collected and humble. Kandra are the most unique of all and are covered in their own special section (see Children of the Contract, page 253). \n Your character’s choice of race is limited by the Powers he has:",
+            "racialOptions": [
+                {
+                    "name":"A character with no Powers may be a noble, skaa, or Terris"
+                },
+                {
+                    "name":"A character with Allomantic Powers must be either a noble or a skaa"
+                },
+                {
+                    "name":"A character with Feruchemical Powers must be Terris"
+                },
+                {
+                    "name":"A character with the Mimicry Power must be a kandra"
+                }
+            ],
+            "race2": "Write your choice (or required race) in the space provided beneath the Mistborn logo on your character sheet.",
+            "example10": "Example: With no Powers Peter’s Hero can be a noble, skaa, or Terris. The Crew already has a Terrisman and a noble makes no sense given the Hero’s background, so Peter chooses skaa. The fixer will have to interact with nobles, of course, and so Peter asks Brandon if it’s alright that his Hero typically dresses and comports himself above his station. Brandon checks Peter’s choices so far — decent Charm and Resources scores, a high Influence, and of course 'well-connected' and 'known as an upright citizen' — and signs off on the exception. \n Ben’s Soother thief can be noble or skaa (the only races with a chance for noble blood, and therefore Allomantic ability). He chooses skaa as well, for purely personal reasons (he likes playing underdogs). \n Emily’s had a kandra in mind from the start, and already has this spot filled in.  \n Isaac’s Keeper must be Terris, so he’s locked in as well.",
+            "brandon3": "If you’re skaa and have an Allomantic power, congratulations! You have noble blood in your heritage, most likely in the last few generations. This may be extra inspiration for coming up with your Tragedy or Destiny.",
+            "chooseName": "Your character’s name is a reflection of his or her race, class, and Dominance of birth. Here are some examples and guidelines for the different peoples of Scadrial.",
+            "skaa": "Most skaa have two names: a 'proper' name given at birth, which often sounds like a bastardized version of a noble name; and a 'street' name, which either shortens their proper name or is a nickname based on a trait they have.",
+            "skaaNames": [
+                {
+                    "one":"Alagren (Gren)",
+                    "two":"Andrewn (Drewn)",
+                    "three":"Banden",
+                    "four":"Baragen (Bareg)"
+                },
+                {
+                    "one":"Bilgren (Bilg)",
+                    "two":"Birchold (Birch)",
+                    "three":"Burkwen (Burk)",
+                    "four":"Calden"
+                },
+                {
+                    "one":"Camon",
+                    "two":"Cladent (Clubs)",
+                    "three":"Cormanson (Corm)",
+                    "four":"Dannicken (Dan)"
+                },
+                {
+                    "one":"Dockson (Dox)",
+                    "two":"Dorningham (Dorn)",
+                    "three":"Dumé",
+                    "four":"Erstwhem (Erst)"
+                },
+                {
+                    "one":"Endibournes (Endi)",
+                    "two":"Falstor",
+                    "three":"Ferson (Fer)",
+                    "four":"Garbeau (Gare)"
+                },
+                {
+                    "one":"Habbender (Hab)",
+                    "two":"Hammond (Ham)",
+                    "three":"Hutchine (Hutch)",
+                    "four":"Jame"
+                },
+                {
+                    "one":"Jelman",
+                    "two":"Lestibournes (Spook)",
+                    "three":"Kelsier (Kell)",
+                    "four":"Manisteau (Mani)"
+                },
+                {
+                    "one":"Mennis",
+                    "two":"Monymont (Money)",
+                    "three":"Nureia (Nuri)",
+                    "four":"Pallisten (Pally)"
+                },
+                {
+                    "one":"Pharick (Fair)",
+                    "two":"Philen (Lin)",
+                    "three":"Quellion",
+                    "four":"Reen"
+                },
+                {
+                    "one":"Rone",
+                    "two":"Sallo",
+                    "three":"Sastren",
+                    "four":"Sordarm"
+                },
+                {
+                    "one":"Sullewick (Sully)",
+                    "two":"Tamenham (Tam)",
+                    "three":"Tonnestor (Tone)",
+                    "four":"Tulley"
+                },
+                {
+                    "one":"Yandam",
+                    "two":"Yeden",
+                    "three":"Yune",
+                    "four":"Zolacaster (Zole)"
+                }
+            ],
+            "noble": "Nobles have a given name and a family name, which is fitting given the importance of dynasty and hereditary right among noble families. Illegitimate and disowned children typically lose the right to use their family name and can be easily confused with skaa to the uninformed.",
+            "nobleMale": [
+                {
+                    "one":"Ashweather",
+                    "two":"Barklaren",
+                    "three":"Belmark",
+                    "four":"Blarran"
+                },
+                {
+                    "one":"Bornham",
+                    "two":"Celler",
+                    "three":"Damworth",
+                    "four":"Derlem"
+                },
+                {
+                    "one":"Dorran",
+                    "two":"Eckham",
+                    "three":"Enfram",
+                    "four":"Falcom"
+                },
+                {
+                    "one":"Gloradel",
+                    "two":"Glorfell",
+                    "three":"Hyrum",
+                    "four":"Jastes"
+                },
+                {
+                    "one":"Joreau",
+                    "two":"Ladrian",
+                    "three":"Lemmelier",
+                    "four":"Louik"
+                },
+                {
+                    "one":"Milen",
+                    "two":"Molsier",
+                    "three":"Neuseu",
+                    "four":"Orreleum"
+                },
+                {
+                    "one":"Pellikreau",
+                    "two":"Postwick",
+                    "three":"Purnow",
+                    "four":"Ralston"
+                },
+                {
+                    "one":"Rene",
+                    "two":"Roussaw",
+                    "three":"Samden",
+                    "four":"Serneau"
+                },
+                {
+                    "one":"Sorndeham",
+                    "two":"Straff",
+                    "three":"Stroham",
+                    "four":"Tanniker"
+                },
+                {
+                    "one":"Tyden",
+                    "two":"Yandrean",
+                    "three":"Yomen",
+                    "four":"Zane"
+                }
+            ],
+            "nobleFemale": [
+                {
+                    "one":"Adassey",
+                    "two":"Adelemay",
+                    "three":"Allrianne",
+                    "four":"Amyse"
+                },
+                {
+                    "one":"Annika",
+                    "two":"Bedula",
+                    "three":"Beldre",
+                    "four":"Bellere"
+                },
+                {
+                    "one":"Carelee",
+                    "two":"Cylee",
+                    "three":"Darialle",
+                    "four":"Desirea"
+                },
+                {
+                    "one":"Dromea",
+                    "two":"Geriell",
+                    "three":"Hersea",
+                    "four":"Inrea"
+                },
+                {
+                    "one":"Junella",
+                    "two":"Kliss",
+                    "three":"Krea",
+                    "four":"Lamisse"
+                },
+                {
+                    "one":"Lariseau",
+                    "two":"Marinesse",
+                    "three":"Monelle",
+                    "four":"Nebellea"
+                },
+                {
+                    "one":"Olyeh",
+                    "two":"Oralee",
+                    "three":"Owandise",
+                    "four":"Paramel"
+                },
+                {
+                    "one":"Raynah",
+                    "two":"Reesee",
+                    "three":"Rosalle",
+                    "four":"Serray"
+                },
+                {
+                    "one":"Shan",
+                    "two":"Shellayah",
+                    "three":"Talareu",
+                    "four":"Tellaneau"
+                },
+                {
+                    "one":"Uldaya",
+                    "two":"Valette",
+                    "three":"Veretta",
+                    "four":"Wrayn"
+                }
+            ],
+            "nobleFamily": [
+                {
+                    "one":"Ackroyal",
+                    "two":"Artwar",
+                    "three":"Barreneau",
+                    "four":"Bondwarren"
+                },
+                {
+                    "one":"Bylerum",
+                    "two":"Cett",
+                    "three":"Conrad",
+                    "four":"Davenpleu"
+                },
+                {
+                    "one":"Demoux",
+                    "two":"Dilisteni",
+                    "three":"Elariel",
+                    "four":"Entrone"
+                },
+                {
+                    "one":"Erikeller",
+                    "two":"Forrekellen",
+                    "three":"Frandeu",
+                    "four":"Frandren"
+                },
+                {
+                    "one":"Gardre",
+                    "two":"Geffenry",
+                    "three":"Getrue",
+                    "four":"Halbeck"
+                },
+                {
+                    "one":"Hallieau",
+                    "two":"Hasting",
+                    "three":"Hoffquarter",
+                    "four":"Hordreu"
+                },
+                {
+                    "one":"Larabeck",
+                    "two":"Lekal",
+                    "three":"Penrod",
+                    "four":"Profoste"
+                },
+                {
+                    "one":"Queade",
+                    "two":"Randaller",
+                    "three":"Rebou",
+                    "four":"Renoux"
+                },
+                {
+                    "one":"Sandcrown",
+                    "two":"Slowswift",
+                    "three":"Snohafar",
+                    "four":"Tekiel"
+                },
+                {
+                    "one":"Tormander",
+                    "two":"Urvon",
+                    "three":"Venture",
+                    "four":"Wardwick"
+                }
+            ],
+            "brandon4": "If you’re skaa or a noble, and you want to be from the Central Dominance or the southeast, consider a name that sounds 'French.' If you want to be from the northeast think 'Germanic,' and if you want to be from the west think 'Spanish.' \n Good Crew members also need quick nicknames and those who don’t come up with their own may wind up being given one, like Kelsier did to Spook. \n A little help for those having trouble: go to your favorite web browser and search for lists of baby names with the 'flavor' (French, Spanish, or German). Pick through the list, find a name you like, change a few of the vowels, and maybe swap out a letter or two. This isn’t how I do it anymore, but it was a useful tool when I first started writing.",
+            "terris": "The people of Terris each possess a single name, usually more than one syllable in length and often featuring combinations of ‘ah,’ ‘sh,’ and ‘w.’ Terris names also tend to flow well off the tongue.",
+            "terrisMale": [
+                {
+                    "one":"Berek",
+                    "two":"Drazen",
+                    "three":"Elezed",
+                    "four":"Fisal"
+                },
+                {
+                    "one":"Gurozon",
+                    "two":"Haddek",
+                    "three":"Harzel",
+                    "four":"Jorazed"
+                },
+                {
+                    "one":"Kwaan",
+                    "two":"Kwarek",
+                    "three":"Lurrezzed",
+                    "four":"Mowren"
+                },
+                {
+                    "one":"Narek",
+                    "two":"Porlazed",
+                    "three":"Pulrashek",
+                    "four":"Rashek"
+                },
+                {
+                    "one":"Rushez",
+                    "two":"Sazed",
+                    "three":"Sozek",
+                    "four":"Tarez"
+                },
+                {
+                    "one":"Trellan",
+                    "two":"Uldwen",
+                    "three":"Vorun",
+                    "four":"Wordek"
+                }
+            ],
+            "terrisFemale": [
+                {
+                    "one":"Alledaw",
+                    "two":"Beldwyl",
+                    "three":"Dalyworn",
+                    "four":"Endrewn"
+                },
+                {
+                    "one":"Freedyn",
+                    "two":"Gallawyn",
+                    "three":"Heydwyn",
+                    "four":"Jalewyn"
+                },
+                {
+                    "one":"Kwyla",
+                    "two":"Kylaa",
+                    "three":"Landwyn",
+                    "four":"Lisha"
+                },
+                {
+                    "one":"Maykwen",
+                    "two":"Nuryl",
+                    "three":"Owa",
+                    "four":"Pronira"
+                },
+                {
+                    "one":"Qwyru",
+                    "two":"Reela",
+                    "three":"Shaara",
+                    "four":"Shawna"
+                },
+                {
+                    "one":"Tindwyl",
+                    "two":"Unwyn",
+                    "three":"Wyndshen",
+                    "four":"Zellaw"
+                }
+            ],
+            "kandra": "Kandra have one name with a distinct structure, similar to the Terris from whom they descended: multiple syllables, with the second capitalized and containing two vowels. Though kandra technically have genders, both sexes use the same naming pattern.",
+            "kandraNames": [
+                {
+                    "one":"AbDaal",
+                    "two":"BenSween",
+                    "three":"CorDen",
+                    "four":"DenPaen"
+                },
+                {
+                    "one":"EmNal",
+                    "two":"FalHoor",
+                    "three":"GolSeel",
+                    "four":"HalDaur"
+                },
+                {
+                    "one":"InRel",
+                    "two":"JeHoy",
+                    "three":"KanPaar",
+                    "four":"KapEra"
+                },
+                {
+                    "one":"LanRoon",
+                    "two":"MeLaan",
+                    "three":"NorVen",
+                    "four":"OleSoon"
+                },
+                {
+                    "one":"OreSeur",
+                    "two":"PerSere",
+                    "three":"RaiKel",
+                    "four":"SenKael"
+                },
+                {
+                    "one":"TelZaan",
+                    "two":"TenSoon",
+                    "three":"YaLod",
+                    "four":"ZeKeer"
+                }
+            ],
+            "example11": "Example: This part’s been at the back of everyone’s minds the whole time, and some of the players already have their Hero’s name filled in (like any part of the process this can happen out of order, so long as the finished Hero follows all the rules). Peter likes the name 'Beck' for his fixer. It sounds humble enough for a skaa, yet forceful enough to fit in with the nobility. Ben’s Soother thief is called 'Sev' and he names his sister as well ('Sayna'), planning to flesh her out further before the next session. Emily’s been doodling pairs of syllables and settled on 'JeHoy' as a kandra name that flows well off the tongue. Isaac’s Keeper varies a little bit from the norm, which is fine: he’s called 'Damosi.'",
+            "resi1": "When your character is injured — physically, socially, or mentally — the damage is applied to one of three Resiliences:",
+            "resiliences": [
+                {
+                    "name":"Health",
+                    "description":"Physical endurance"
+                },
+                {
+                    "name":"Reputation",
+                    "description":"Social status and respect"
+                },
+                {
+                    "name":"Willpower",
+                    "description":"Guts, sense, and determination"
+                }
+            ],
+            "resi2": "When one of these Resiliences drops to 0 or below, the character is defeated in a fashion appropriate to the attack. A physical beating that takes out the last of a character’s Health might result in unconsciousness or death, while a scandal that strips away the last of a character’s Reputation might result in public censure or even calls for arrest. A character losing the last of his or her Willpower to a brutal browbeating might agree to one of the attacker’s demands, while a character losing the same due to overwhelming opposition on the battlefield might simply surrender. \n Your character’s Resiliences are derived from his Attributes and Standing:",
+            "resCalc": [
+                {
+                    "name":"Health",
+                    "description":"Physique + Resources"
+                },
+                {
+                    "name":"Reputation",
+                    "description":"Charm + Influence"
+                },
+                {
+                    "name":"Willpower",
+                    "description":"Wits + Spirit "
+                }
+            ],
+            "props1": "Props are 'permanent' equipment your character always has on hand. When one is used or lost in play, the character automatically regains another identical Prop 'off screen' during the next Long Breather (see pages 136 and 442) — unless of course the Narrator determines there’s a reason replacements can’t be found (e.g. your character is nowhere near a source of the Prop, or he or she is imprisoned). Props have a variety of uses, depending on their type:",
+            "propTypes": [
+                {
+                    "type": "Weapons",
+                    "desc": "boost damage in a fight, and sometimes let a character attack at range"
+                },
+                {
+                    "type": "Armor",
+                    "desc": "reduces the damage a character suffers from physical attacks"
+                },
+                {
+                    "type": "Shields",
+                    "desc": "sometimes let the wielder brush aside or evade physical attacks"
+                },
+                {
+                    "type": "Animals, Mounts, & Vehicles",
+                    "desc": "provide companionship and assist in travel"
+                },
+                {
+                    "type": "Tools",
+                    "desc": "provide a bonus die when appropriate to the task at hand"
+                },
+                {
+                    "type": "Implements",
+                    "desc": "are essential components when using Powers (e.g. Coinshots Push copper clips to move and attack, kandra consume bones to shapeshift, Keepers use metalminds to store and tap various personal abilities, and Allomancers consume vials of metal flakes to fuel their magic)"
+                }
+            ],
+            "props2": "You may choose a number of Props for your character up to his or her Resources, and these Props may only be chosen from the table starting on page 109 (the full equipment list has a few more items on it — mostly things available as Props only to certain Narrator-controlled character types, and none fitting for a player-controlled character). \n Props marked with an asterisk on this table are particularly powerful or rare. Each time you choose one, the maximum number of Props you may have drops by 1.",
+            "example12": "Example: Should a Hero choose the bow and flint arrows, which offer all the utility and the same rules as a bow and steel arrows but contain no metal (and therefore can’t be manipulated with Allomancy), it reduces his or her maximum Props by 1.",
+            "props3": "The Props table contains a brief description for each item. Complete rules for all equipment can be found in the section on using Resources, which starts on page 232. Again, this later section contains some items not suitable as Props. \n Don’t worry too much about making just the right choices now. You can always swap out Props during a Long Breather (see pages 136 and 442), and if you add to your character’s Resources later in the game, the number of Props you can carry will rise by the same amount. \n Do be careful about choosing items with metal in them, though! Your character might be able to use that to his or her advantage with the right Powers, but so can others. \n Once you’ve chosen your Props, write them down in the Equipment section of your character sheet, and tick the 'Prop' box for each.",
+            "example13": "Example: Beck has Resources 4, so he would normally get 4 Props. Peter wants him to have enough permanent equipment to 'walk the walk' in noble society, however, and he starts with a horse & carriage. This reduces his Props to 3, so he rounds out his starting items with a dueling cane and a pocket watch. \n Sev’s Resources of 2 yields him 2 Props and Ben starts with a Misting vial of Brass flakes. That leaves him one slot for a personal weapon in case one of the Crew’s jobs gets dicey. He picks a dagger. \n JeHoy also has a Resources of 2, and Emily starts with a single set of bones so her kandra can take one alternate form at the game’s start. Brandon doesn’t see a reason the form has to be identified now, so he tells Emily she can choose it later, though he reserves the right to veto any form choice that upsets the story, and warns that her choice will be final for that set of bones — after that, JeHoy will have to find new forms to steal, or have someone 'find' them for her. JeHoy uses her other Prop slot for a disguise that goes well with the form she already has (again, with details to be decided in play). \n Damosi has a Resources score of 3, and Isaac uses the slots for two sets of metalminds (each giving him three individual items for storing qualities and powers), and a pen & blank book (to log his findings as he learns more about Luthadel).",
+            "firstNote": "* Each time you choose this item, the maximum number of Props you may have drops by 1 (e.g. your maximum Props drops by 2 if you choose both a stone spear and a large wooden shield).",
+            "secondNote": "** The Narrator may let you choose from a broader selection of metals if more have been discovered (this may depend on when your story occurs, or different factors if your story diverges from what’s in the novels). Choosing these items may reduce your maximum Props by 1 or even 2 if the Narrator determines that these additional metals are particularly powerful or scarce (such as Duralumin).",
+            "backstory1": "Finally, it may help you to put together a brief narrative tying all your choices together. You can of course flesh out your character’s background as you play, but a good back story can really help cement his or her place in the world and the ongoing story. \n Your back story doesn’t have to be long, or even scripted in any particular fashion — it could just take the form of several independent notes, each no longer than a few words — but some players find it easier to get into the game when they know more about the role they’ll be filling. \n Some example back stories are provided for the sample characters on pages 48–63. These are a bit on the long side for starting Heroes, being written to illustrate some of what’s possible and to create a more cohesive sample Crew for those who want to get started right away (plus they look nice on the printed page). \n Your character’s back story may be smaller or longer than this, and will likely grow over time, but there’s no “right” length or depth at any point. \n If you aren’t sure where to start with your back story, consider answering a few more questions:",
+            "storyOptions": [
+                {
+                    "option": "How did your character’s Drive, Tragedy, or perceived Destiny lead him to join the Crew?"
+                },
+                {
+                    "option": "How might you explain your character’s strengths and weaknesses through story?"
+                },
+                {
+                    "option": "Does your character have a family, close friends, or a lover? Who are they?"
+                },
+                {
+                    "option": "What does your character do in his or her free time, while away from the Crew?"
+                }
+            ],
+            "backstory2": "Whatever back story you come up with, make a copy and give it to the Narrator for his or her reference as the story unfolds. That way your character’s unique details can become part of the broader narrative, which is one of the most fulfilling experiences in a roleplaying game. \n Unsure where you might want to take your back story? No problem. Jot down some ideas and keep them to yourself. Just be sure not to reveal them until you’re ready, as anything committed to the ongoing communal story becomes true fact — unless of course it’s a lie, or a misperception, or maybe leads to an unexpected secret. There’s always another secret...",
+            "example14": "One important way that we avoid making characters ‘flat’ in fiction is by making certain they have passions that are completely unrelated to the plot and/or their role in it. If every heroine is interested only in vengeance against her father’s murderer, she feels undeveloped as a character. However, if she had a life before her father was murdered — things that still tug at her, that are part of who she was — then she becomes more rounded. \n Interests, hobbies, goals, drives, and quirks are part of what make a person real: the grizzled warrior who’s also a birdwatcher; the street thief who sneaks into the kitchens and watches the nobles dance, memorizing their steps to repeat on his own; the cook who happens to have perfect pitch but is afraid to sing...",
+            "finish": "Your Hero is complete and your character sheet’s filled out. It’s time to grab a handful of dice and leap into the Final Empire! If this is the first time you’re playing, you might want to skip forward to the Game Basics section and get a feel for the rules (see page 131), but don’t worry if you don’t have time. It’s often best to learn by doing, and we’ve made the core of the rules simple enough to grasp in just a session or two. \n The next section covers improving your Hero, which won’t come up for a bit but is included here next to Building Heroes so you can find it easily when you need it. \n Enjoy the game!"
+        }
+    ],
+    "propped": [ 
+        {
+            "era1": [
+                {
+                    "propType": "Weapons",
+                    "props":[
+                        {   
+                            "id": 0,
+                            "item": "Bow and flint arrows *",
+                            "desc:": " Effective ranged weapon against Allomancers; contains no metal"
+                        },
+                        {   
+                            "id": 1,
+                            "item": "Bow and steel arrows",
+                            "desc:": "Primary ranged weapon of common soldiers"
+                        },
+                        {   
+                            "id": 2,
+                            "item": "Club / Staff",
+                            "desc:": "Favored weapon of rebels and thugs; contains no metal"
+                        },
+                        {   
+                            "id": 3,
+                            "item": "Dagger",
+                            "desc:": "Steel blade favored by thieves and assassins"
+                        },
+                        {   
+                            "id": 4,
+                            "item": "Dueling cane",
+                            "desc:": "Stone-headed cane carried by nobles for defense and duels; contains no metal"
+                        },
+                        {   
+                            "id": 5,
+                            "item": "Hammer *",
+                            "desc:": "Two-handed working man’s hammer"
+                        },
+                        {   
+                            "id": 6,
+                            "item": "Obsidian dagger",
+                            "desc:": "Popular weapon of Mistborn, often carried in pairs; contains no metal"
+                        },
+                        {   
+                            "id": 7,
+                            "item": "Spear",
+                            "desc:": "Iron-tipped spear favored by hunters, rebels, and soldiers"
+                        },
+                        {   
+                            "id": 8,
+                            "item": "Stone spear *",
+                            "desc:": "Flint or obsidian-tipped spear; contains no metal"
+                        },
+                        {   
+                            "id": 9,
+                            "item": "Sword",
+                            "desc:": "Steel blade carried by guards and soldiers"
+                        }
+                    ]
+                },
+                {
+                    "propType": "Armor",
+                    "props":[
+                        {   
+                            "id": 0,
+                            "item": "Leather / Padded",
+                            "desc:": "Layered armor favored by thieves, Allomancers, and hazekillers"
+                        },
+                        {   
+                            "id": 1,
+                            "item": "Steel mail",
+                            "desc:": "Chain and leather armor worn by guards and soldiers"
+                        },
+                        {   
+                            "id": 2,
+                            "item": "Steel plate *",
+                            "desc:": "Heavy breastplate worn by the wealthiest and most foolhardy leaders"
+                        }
+                    ]
+                },
+                {
+                    "propType": "Shields",
+                    "props":[
+                        {   
+                            "id": 0,
+                            "item": "Small metal shield",
+                            "desc:": "Standard shield of soldiery"
+                        },
+                        {   
+                            "id": 1,
+                            "item": "Small wooden shield",
+                            "desc:": "Sturdy shield carried by Lurchers; contains no metal"
+                        },
+                        {   
+                            "id": 2,
+                            "item": "Large metal shield *",
+                            "desc:": "Used by cavalry and for ceremony"
+                        },
+                        {   
+                            "id": 3,
+                            "item": "Large wooden shield *",
+                            "desc:": "Almost exclusively used by hazekillers; contains no metal"
+                        }
+                    ]
+                },
+                {
+                    "propType": "Animals, Mounts, & Vehicles",
+                    "props":[
+                        {   
+                            "id": 0,
+                            "item": "Pet",
+                            "desc:": "Cats, dogs, and wolfhounds kept by the sentimental and wealthy"
+                        },
+                        {   
+                            "id": 1,
+                            "item": "Cart",
+                            "desc:": "Two-wheeled cart used by laborers and craftsmen"
+                        },
+                        {   
+                            "id": 2,
+                            "item": "Horse",
+                            "desc:": "Riding mount common to wealthy skaa, nobles, and military"
+                        },
+                        {   
+                            "id": 3,
+                            "item": "Horse & carriage *",
+                            "desc:": "Enclosed four-person vehicle favored by nobility"
+                        }
+                    ]
+                },
+                {
+                    "propType": "Tools",
+                    "props":[
+                        {   
+                            "id": 0,
+                            "item": "Banned book *",
+                            "desc:": "Contains information on a topic banned by the Lord Ruler"
+                        },
+                        {   
+                            "id": 1,
+                            "item": "Bottle of wine / ale",
+                            "desc:": " Popular with bon vivants of all classes; used for loosening tongues and inhibitions"
+                        },
+                        {   
+                            "id": 2,
+                            "item": "Craftsman’s tools",
+                            "desc:": "Supports one occupation (e.g. carpentry, metallurgy, etc.)"
+                        },
+                        {   
+                            "id": 3,
+                            "item": "Dagger",
+                            "desc:": "Steel blade favored by thieves and assassins"
+                        },
+                        {   
+                            "id": 4,
+                            "item": "Disguise",
+                            "desc:": "Helpful when concealing or impersonating one person’s identity"
+                        },
+                        {   
+                            "id": 5,
+                            "item": "Formal clothing or jewelry",
+                            "desc:": "Useful when blending in at high society events like Imperial gatherings and balls"
+                        },
+                        {   
+                            "id": 6,
+                            "item": "Lockpicks",
+                            "desc:": "Useful when picking locks"
+                        },
+                        {   
+                            "id": 7,
+                            "item": "Medical supplies",
+                            "desc:": " Useful for treating wounds and during certain Mental Conflicts (see page 219)"
+                        },
+                        {   
+                            "id": 8,
+                            "item": "Mistcloak",
+                            "desc:": "A symbol of a Mistborn’s station; useful when concealing oneself in the mists"
+                        },
+                        {   
+                            "id": 9,
+                            "item": "Pocket watch",
+                            "desc:": "A popular symbol of wealth; keeps good time"
+                        },
+                        {   
+                            "id": 10,
+                            "item": "Pen and blank book",
+                            "desc:": "Vital tools of the scribe"
+                        },
+                        {   
+                            "id": 11,
+                            "item": "Rope and grapple",
+                            "desc:": "Helpful when climbing, crossing gaps, or binding someone"
+                        },
+                        {   
+                            "id": 12,
+                            "item": "Writing steel",
+                            "desc:": "Thin sheets of steel for inscribing sacred information, which cannot be altered by metaphysical powers (such as Ruin"
+                        }
+                    ]
+                },
+                {
+                    "propType": "Implements",
+                    "props":[
+                        {   
+                            "id": 0,
+                            "item": "Bones (1 set) ",
+                            "desc:": "Allows kandra to imitate one specific person or animal"
+                        },
+                        {   
+                            "id": 1,
+                            "item": "Metalminds (3) **",
+                            "desc:": "Each metalmind allows a Feruchemist (only) to store in and tap from one metal: Brass, Bronze, Copper, Iron, Pewter, Steel, Tin, or Zinc; each single metalmind Prop consists of three physical metalminds, each of one different metal"
+                        },
+                        {   
+                            "id": 2,
+                            "item": "Misting vial **",
+                            "desc:": "Contains 3 charges of Brass, Bronze, Copper, Iron, Pewter, Steel, Tin, or Zinc (choose only one metal)"
+                        },
+                        {   
+                            "id": 3,
+                            "item": "Mistborn vial **",
+                            "desc:": "Contains 1 charge of Brass, Bronze, Copper, Iron, Pewter, Steel, Tin, and Zinc (1 charge of each metal)"
+                        },
+                        {   
+                            "id": 4,
+                            "item": "Sack of copper clips / set of horseshoes",
+                            "desc:": "Coins or other metal objects used by Coinshots and Mistborn for Steeljumping or as weapons (Damage: +1; Min / Max Range: Striking / Medium)"
+                        }
+                    ]
+                }
+            ],
+            "era2":[],
+            "firstNote": "* Each time you choose this item, the maximum number of Props you may have drops by 1 (e.g. your maximum Props drops by 2 if you choose both a stone spear and a large wooden shield).",
+            "secondNote": "** The Narrator may let you choose from a broader selection of metals if more have been discovered (this may depend on when your story occurs, or different factors if your story diverges from what’s in the novels). Choosing these items may reduce your maximum Props by 1 or even 2 if the Narrator determines that these additional metals are particularly powerful or scarce (such as Duralumin)."
         }
     ]
 }

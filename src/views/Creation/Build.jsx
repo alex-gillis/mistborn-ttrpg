@@ -3,6 +3,11 @@
 import { useState } from 'react';
 import Basics from './Build/Basics';
 import Hero from './Build/Hero';
+import First from './Build/First';
+import Second from './Build/Second';
+import Third from './Build/Third';
+import Fourth from './Build/Fourth';
+import Fifth from './Build/Fifth';
 
 function Build(props) {
   const [myEra1] = useState(props.start.selectEra1);
@@ -39,6 +44,11 @@ function Build(props) {
       <div id="buildInfo">
         { myInfo === 0 && <Basics build={props.start}/> }
         { myInfo === 1 && <Hero build={props.building}/> }
+        { myInfo === 2 && <First build={props.building}/> }
+        { myInfo === 3 && <Second build={props.building}/> }
+        { myInfo === 4 && <Third build={props.building}/> }
+        { myInfo === 5 && <Fourth build={props.building}/> }
+        { myInfo === 6 && <Fifth build={props.building} propped={props.propped}/> }
       </div>
     </>
   )

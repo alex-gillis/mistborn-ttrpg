@@ -72,8 +72,8 @@ function Basics(props) {
             {props.build.trait2}
             {props.build.trait1}
             <ul>
-                {props.build.create?.map((myTrait, index) => (
-                    <li  key={index}>
+                {props.build.create?.map((myTrait, createIndex) => (
+                    <li  key={createIndex}>
                         {myTrait.trait}
                     </li>
                 ))}
@@ -91,27 +91,30 @@ function Basics(props) {
             </ul>
             {props.build.resil2}
         </div>
-        <h3>Props</h3>
+        <div>
+            <h3>Props</h3>
         <div>
             {props.build.prop1}
             <ul>
-                {props.build.props.build?.map((myProps, index) => (
-                    <li  key={index}>
+                {props.build.props?.map(myProps => (
+                    <li  key={myProps.id}>
                         <span id="bold">{myProps.name}</span> {myProps.description}
                     </li>
                 ))}
             </ul>
             {props.build.prop2}
         </div>
-        <h3>Destiny and Tragedy</h3>
-        <div>{props.build.destinedTragedy}</div>
-        <br/> 
-        <div id="brandon">
-            <h4>From Brandon</h4>
-            {props.build.brandon2}
+            <h3>Destiny and Tragedy</h3>
+            <div>{props.build.destinedTragedy}</div>
+            <br/> 
+            <div id="brandon">
+                <h4>From Brandon</h4>
+                {props.build.brandon2}
+            </div>
+            <h3>Secrets</h3>
+            <div>{props.build.secrets}</div>
         </div>
-        <h3>Secrets</h3>
-        <div>{props.build.secrets}</div>
+        
       </>
     )
   }
