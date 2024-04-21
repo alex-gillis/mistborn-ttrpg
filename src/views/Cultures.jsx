@@ -4,7 +4,7 @@
 function Cultures() {
     return (
         < >
-        <div id="balls">Balls</div>
+        <div id="secret">There`s always another secret...</div>
         </>
     )
 }

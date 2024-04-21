@@ -2,6 +2,7 @@
 /* eslint-disable react/jsx-key */
 import { useState } from 'react';
 import Basics from './Build/Basics';
+import Hero from './Build/Hero';
 
 function Build(props) {
   const [myEra1] = useState(props.start.selectEra1);
@@ -37,6 +38,7 @@ function Build(props) {
       </div>
       <div id="buildInfo">
         { myInfo === 0 && <Basics build={props.start}/> }
+        { myInfo === 1 && <Hero build={props.building}/> }
       </div>
     </>
   )

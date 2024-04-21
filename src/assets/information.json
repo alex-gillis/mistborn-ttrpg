@@ -2098,6 +2098,479 @@
             "destinedTragedy": "The Heroes and Villains of Scadrial matter in the grand scheme of things, and their actions can change the world, for good or ill. They must also overcome great hardships on the road to glory or infamy, rising above devastating poverty, institutionalized oppression, ethnic cleansing, and sometimes even the shackles of slavery. This struggle to realize one’s calling without falling prey to the demons of the past is the mark of a true hero. \n Many characters in your story have a Destiny (a higher purpose, which may or may not have been fated), and a Tragedy (a traumatic event or memory that haunts the character to this day). All Heroes have both, and many Villains do as well. \n A Hero’s Destiny or Tragedy may be unknown to the Hero (or even the player) when the game starts, becoming something to discover. A player or Hero may also believe his or her Destiny is one thing when it’s really another. Meanwhile, the Narrator knows all characters’ Destinies and Tragedies, including the Villains’, though he or she may decide a Villain is unaware and roleplay accordingly. \n Destiny and Tragedy unfold like subplots, in that they have Beginnings, Middles, and Ends, and their game effects are progressively more potent the deeper you get into their story. The Narrator may sometimes have you script your own Destinies and Tragedies, especially if he or she wants you to embrace and apply them as you describe your character’s actions. Most of the time, though, you’ll identify your character’s Destiny and Tragedy and the Narrator will develop the scripts so that part of your character’s story is gradually revealed over the course of the game. \n It’s possible your character may fulfill his or her Destiny, or conquer his or her Tragedy in play — this is often the meat of truly mighty storytelling, after all — and such a momentous event warrants care, attention, and celebration within the Crew. The Narrator might even decide it merits new Advancements (see page 113) or even a Turning Point (see page 428).",
             "brandon2": "One thing to keep in mind is that a great character often has a great limitation, or in game terms, a great Tragedy. Don’t look at it as a weakness you’re annoyed to have. Look at it as one of the most defining aspects of who your character is. All great heroes from fiction — from Spiderman to Frodo to Jean Valjean — have defining moments like this in their past, and you should too. Often, it is what a character cannot do that makes them truly come alive.",
             "secrets": "Secrets are power in Scadrial — indeed, they’re the foundation upon which the Final Empire was built and among the strongest weapons in the world. They’re also a currency more valuable than atium; Vin’s discovery of Duralumin grants her a tremendous edge over other Mistborn, and TenSoon’s revelation about the kandra not only signs his death warrant but also helps him change the course of history. \n In the Mistborn Adventure Game, Secrets can impact the story (the location of a hidden base, for example, or the identity of a long-sought assassin), or they can impact the rules (access to a hidden cache of atium grants great Allomantic power, as does learning to control koloss or kandra with Allomancy). Some very precious Secrets do both these things. \n Revealing a Secret at the right time can also offer significant advantages with certain tasks or against the right opponents. For example, a Hero hunting a masked thief might spread the thief’s true identity across a city, making it far easier to capture him. Alternatively, the Hero might only reveal the Secret to someone the thief loves, knowing it would drive a wedge between them. \n You may discover Secrets through play, or as you complete Schemes and achieve other goals. Much more information about Secrets can be found in Book 3 (see pages 427 and 455)."
+        },
+        {
+            "id":4,
+            "buildHero":"Creating a Hero in the Mistborn Adventure Game is similar to building a character for a novel: you start by asking lots of questions, and then use your decisions to inform your choice of statistics, abilities, and special rules. \n There are five steps when creating a new Hero:",
+            "steps": [
+                {
+                    "name": "Step 1: Start with the Crew",
+                    "description": "First, you and other players need to visualize the Crew — why they’re together, what causes they have in common, and what they hope to achieve as a team."
+                },
+                {
+                    "name": "Step 2: Devise a Concept",
+                    "description": "Next, turn your attention to the concept for your personal character. Rough out an idea of what he or she is like and where he or she fits into the world and the Crew. "
+                },
+                {
+                    "name": "Step 3: Answer 10 Important Questions",
+                    "description": "Concept in hand, answer a series of questions that are common to every Hero. These will help you define core details about your character: his or her most important beliefs, history, personality, skills, powers (if any), and other reasons he or she is special. "
+                },
+                {
+                    "name": "Step 4: Define Your Strengths",
+                    "description": "Armed with the answers from Step 3, prioritize your character’s strength in three different areas: Attributes, Standing, and Powers. Choosing between these strengths determines your abilities and the number of points you can assign to them."
+                },
+                {
+                    "name": "Step 5: Fill in the Details",
+                    "description": "The technical part of your character is done and you can now apply the last little details that make him or her unique: name, race, Resiliences, and starting Props"
+                }
+            ],
+            "step1": "At the heart of every Mistborn story is the Crew, a band of Heroes standing together against the harsh realities of life in the Final Empire. Through the Crew, your Heroes find friends, allies, and accomplices as they strive towards a common cause, pull off devious schemes, achieve personal goals, and ultimately discover their true destiny. \n As the first step when creating your new Hero, sit down with the Narrator and the other players and come to a consensus on these three questions. Your answers should help everyone cement their character concepts and roles in the Crew.",
+            "questionCrew": [
+                {
+                    "question":"What is your crew's common cause?",
+                    "description":"Every Crew starts with a cause — a common aspiration that binds the team together. Is the Crew a band of thieves seeking fame and glory, or mercenaries in service to a noble house? Maybe they’re rebels hoping to liberate the skaa from the Lord Ruler, or Terris scholars in search of forbidden knowledge? Determining your cause ensures every character is invested in the Crew and its story."
+                },
+                {
+                    "question":"Who is your crew's primary target?",
+                    "description":"Crews often choose a particular individual, organization, or establishment as the target for their actions. Who is the most common victim of your schemes: a particular noble, the army, the Steel Ministry, Allomancers, other crews, a social norm, or something else? This target can become a guidepost for players when establishing what’s personally important to their characters (though it’s best if every Hero has his or her own reasons for joining the Crew as well!)."
+                },
+                {
+                    "question":"What is your crew's preferred method?",
+                    "description":"With your Crew’s cause and target in mind, think about how you prefer to operate. Do you tend to wage open warfare or use deception? Do your methods focus on theft, sabotage, diplomacy, confidence schemes, or do you employ a varied approach? Your Crew’s method can help everyone tailor their characters’ skills and specialties, and also illuminate how they can best coordinate concepts and character choices."
+                }
+            ],
+            "example1":"Example: Brandon is the Narrator in a weekly game, and the players get together for the first time to talk about their Crew. They have a few thoughts about the types of Heroes they want to play, but Brandon has advised them to nail down why they work together before getting too deep into their individual stories. \n Peter describes his concept: a skaa fixer working for nobles who secretly hates them. Knowing that character creation is all about questions, Brandon asks why. Peter thinks on it a moment and decides that his Hero’s family died when a disease swept through their home city, and that his Hero couldn’t save them because the nobility cordoned off infected parts of the city rather than tend to the sick. \n Ben wants to play a street thief Misting, and he likes this noble angle. He suggests that maybe his Hero has a dark secret: that he murdered a young noble who was getting a little too frisky with his sister, and buried the body outside their home city. (Anticipating Brandon’s next question, he quickly looks at the world map and adds that his Hero’s home city is Fadrex.) \n Emily wants to play a kandra, so among other things she has to consider whether her Hero has a Contract, and if so, who it’s with and what that means for the Crew. Until this discussion, she’d assumed her Hero was Contracted to a noble, but she likes the direction this is going and wonders aloud if maybe Peter’s Hero might hold her Contract instead. Always a little mischievous, Ben interjects that maybe his street thief won her Contract in a game of shelldry and after a good laugh, the group agrees. \n “It’s for the best,” Emily says, already settling into character. “I never liked my former master anyway.” \n Always with the questions, Brandon asks why. (“Why?” is the most powerful question of all during Hero creation, and indeed at any point in the game when you need more detail.) \n Emily decides it’s because her former master was abusive and kept sending her on dangerous jobs that he didn’t want to be linked to. “That’s another noble we don’t like,” Peter adds, and the Crew’s cause and target start to come together. \n “You all have problems with nobles,” Brandon observes, and everyone looks to the last player. \n Isaac is thinking of playing a Terrisman Keeper, and while he doesn’t have an immediate idea for why his Hero might dislike nobles, he proposes that perhaps a Keeper might join the Crew because of what he might learn from their jobs. Brandon already knows that most of the story will take place in Luthadel, so he submits that maybe the Synod sent Isaac’s Hero to learn more about the city — and what better way than working against its nobility? \n All that’s left is determining the Crew’s preferred method. Isaac would like the Crew to remain fairly low-profile so his personal mission isn’t obscured by a lot of fighting, and the others like the idea of their jobs hitting the nobility where it hurts. Peter hits the nail on the head, saying, “We take back what’s ours. We’re thieves.” \n The Crew’s cause, target, and method are in place: they seek revenge (cause) on the nobility (target) through theft (method). Everyone jots these details down on their sheets, and the discussion moves on to fleshing out the individual Heroes.",
+            "brandon": "That's a valuable insight. Ensuring that characters have meaningful connections and shared goals can greatly enhance the cohesion and depth of the storytelling in an RPG. It adds layers to the dynamics within the group and provides a strong foundation for collaborative storytelling. Plus, having pre-existing relationships or shared experiences can help jumpstart character interactions and plot development, leading to more engaging and immersive gameplay.",
+            "step2":"Your character concept should be short and sweet: just a few words, like “disgruntled mercenary,” “skaa thief,” or “rebellious Terrisman.” Don’t worry about filling in lots of details yet — those will come soon. Right now you should focus on getting a quick and dirty idea down on paper. \n If you’ve never read a Mistborn book before, or you’re stuck for new ideas, here are some sample concepts to get you started:",
+            "concepts": [
+                {
+                    "one":"Idealistic young nobleman (or woman)",
+                    "two":"Captain of the house guard"
+                },
+                {
+                    "one":"Kandra Spy",
+                    "two":"Veteran hazekiller"
+                },
+                {
+                    "one":"Rebellious Keeper",
+                    "two":"Bounty hunter from the Burnlands"
+                },
+                {
+                    "one":"Former Steel Ministry functionary",
+                    "two":"Laborer pushed over the brink"
+                },
+                {
+                    "one":"Notorious con-man (or woman)",
+                    "two":"Rebel skaa soldier"
+                },
+                {
+                    "one":"Newly-Snapped Mistborn",
+                    "two":"Indentured Allomancer"
+                },
+                {
+                    "one":"Ambitious skaa merchant",
+                    "two":"Leader of thieves’ guild"
+                },
+                {
+                    "one":"Noble down on his (or her) luck",
+                    "two":"Escaped plantation worker"
+                },
+                {
+                    "one":"Wizened elder",
+                    "two":"Skaa performer"
+                }
+            ],
+            "example2":"Example: Half the players in Brandon’s group had their concepts in mind before they arrived for the Crew-building session: Peter’s was 'skaa fixer' and Ben’s was 'street thief Misting.' Emily’s concept quickly settles down to 'contracted kandra on loan,' and Isaac’s becomes 'itinerant Keeper,' which will give his Hero the mobility needed to go wherever the Crew does (even if they leave Luthadel).",
+            "step3": "Every Hero benefits from answering 10 important questions. They take your character from concept to flesh-and-blood person, ready for adventure.",
+            "10Questions": [
+                {
+                    "question":"Why did you join the crew?",
+                    "part1": "Every member of a Crew joins for his own reasons. Kelsier ran his Crew to steal the Lord Ruler’s atium cache, but he also had grander designs extending far beyond a simple heist — designs that drove his comrades to take up his mantle long after he was gone. \n Ask yourself: why did your character join the Crew? What does he or she hope to accomplish as part of the team? Are your character’s personal goals aligned or at cross-purposes with those of the Crew? Are your character’s motives transparent or hidden from the rest of the Crew? \n Summarize your character’s motivation with a short phrase. Some common reasons for joining a Crew include:",
+                    "table": [
+                        {
+                            "item": [
+                                { "info":"Avenge my family" },
+                                { "info":"Become the top noble house" }
+                            ]
+                        },
+                        {
+                            "item": [
+                                { "info":"Rescue my sibling" },
+                                { "info":"Save lost knowledge for the future" }
+                            ]
+                        },
+                        {
+                            "item": [
+                                { "info":"Win back my lost love" },
+                                { "info":"Restore my honor" }
+                            ]
+                        },
+                        {
+                            "item": [
+                                { "info":"Free my friends from prison" },
+                                { "info":"Carry out my father’s dying wish" }
+                            ]
+                        },
+                        {
+                            "item": [
+                                { "info":"Restore stability to my home" },
+                                { "info":"Become a notorious thief" }
+                            ]
+                        },
+                        {
+                            "item": [
+                                { "info":"Rebuild the revolution" },
+                                { "info":"Liberate my village" }
+                            ]
+                        },
+                        {
+                            "item": [
+                                { "info":"Expose the nobility as frauds" },
+                                { "info":"Discover the secret of Allomancy" }
+                            ]
+                        }
+                    ],
+                    "part2": "Your answer to this question is your “Drive” Trait; write it down in the first line of the Traits section on your character sheet.",
+                    "example1": "Example: Going around the table, Brandon asks everyone why they joined their thieving Crew. Peter’s answer is particularly telling, as it suggests more story for his Hero. “To safeguard my family’s future,” he says, which is surprising because he’d already established that his family was dead. “Ah, but not my new family. I’m thinking my Hero has a new wife, and maybe a couple young boys.” Brandon likes this idea — it gives Peter’s Hero something more to fight for, and adds considerable depth to him as well. Plus, the family members offer lots of story potential for everyone. \n With Brandon’s seal of approval, Peter jots down his Hero’s Drive and the others follow suit. Ben decides his hero is always out to “capitalize on all opportunities,” while Emily’s kandra wants to “serve her contract faithfully” and Isaac’s Keeper seeks to “save knowledge for the future.”",
+                    "part3":"",
+                    "example2":"",
+                    "part4":""
+                },
+                {
+                    "question":"How did you live before you joined the crew?",
+                    "part1": "Life is hard in Scadrial, and no matter where your character comes from it’s a safe bet he or she’s a survivor. Did your character run with thieves, or act as a sell-sword to fearful nobles? Maybe he or she oversaw a business, or labored on the floor of a craftsman’s shop? Where were your character’s wits, instinct, and skills sharpened — among cutthroat nobility or amidst crushing poverty? \n Describe your character’s foremost occupation before joining the Crew in one or two words. Some common foundations for Crew members are:",
+                    "table": [
+                        {
+                            "item": [
+                                { "info":"Thief" },
+                                { "info":"Beggar" },
+                                { "info":"Spy" }
+                            ]
+                        },
+                        {
+                            "item": [
+                                { "info":"Keeper" },
+                                { "info":"Soldier" },
+                                { "info":"Mercenary" }
+                            ]
+                        },
+                        {
+                            "item":  [
+                                { "info":"Scholar" },
+                                { "info":"Rebel" },
+                                { "info":"Gangster" }
+                            ]
+                        },
+                        {
+
+                            "item":  [
+                                { "info":"Laborer" },
+                                { "info":"Playboy" },
+                                { "info":"Steward" }
+                            ]
+                        },
+                        {
+                            "item":  [
+                                { "info":"Farmer " },
+                                { "info":"Smuggler" },
+                                { "info":"Apprentice" }
+                            ]
+                        },
+                        {
+                            "item":  [
+                                { "info":"Canal Pilot" },
+                                { "info":"Fixer" },
+                                { "info":"Bodyguard" }
+                            ]
+                        },
+                        {
+                            "item":  [
+                                { "info":"Dilettante" },
+                                { "info":"Obligator" },
+                                { "info":"Informant" }
+                            ]
+                        },
+                        {
+                            "item":  [
+                                { "info":"Con Artist" },
+                                { "info":"Hazekiller" },
+                                { "info":"Merchant" }
+                            ]
+                        },
+                        {
+                            "item":  [
+                                { "info":"Servant" },
+                                { "info":"Informer" },
+                                { "info":"Scout" }
+                            ]
+                        }
+                    ],
+                    "part2": "Your answer to this question is your “Profession” Trait; write it down in the second line of the Traits section of your character sheet.",
+                    "example1": "Example: Peter, Ben, and Isaac fill in the answers they already have: “fixer,” “chronicler of Luthadel,” and “thief,” respectively. Emily wonders about the terrible jobs her former master asked of her, knowing that she’ll be doing the same for the Crew. She thinks it would be fun to be an infiltrator, and so she jots that down as her Profession. \n This gets Brandon’s wheels turning, and he jots down a note to himself that maybe one of those jobs for the former master didn’t turn out so well. There might be something there he can use later...",
+                    "part3":"",
+                    "example2":"",
+                    "part4":""
+                },
+                {
+                    "question":"What special skill do you bring to the crew?",
+                    "part1": "Your character was recruited into the Crew for a reason — not just because of who he or she is, but also for a special talent, skill, or other offering that fills a vital need on the team. It might be the gift of gab, a way with knives, or just very deep pockets, but this talent is partially why he or she joined the Crew in the first place, and it remains one of his or her biggest contributions today. \n Don’t worry about describing everything your character brings to the Crew — only his or her most helpful contribution is important here. Keep it to one thing he or she offers to the team, and describe it with a short and succinct phrase. Some examples are:",
+                    "table": [
+                        {
+                            "item": [
+                                { "info":"Safecracker" },
+                                { "info":"Shield fighter" },
+                                { "info":"Rebel contact" }
+                            ]
+                        },
+                        {
+                            "item": [
+                                { "info":"Hawk-eyed observer" },
+                                { "info":"Talented researcher" },
+                                { "info":"Well-organized planner" }
+                            ]
+                        },
+                        {
+                            "item":  [
+                                { "info":"Expert accountant" },
+                                { "info":"Ancient language expert" },
+                                { "info":"Ear for lies" }
+                            ]
+                        },
+                        {
+
+                            "item":  [
+                                { "info":"Sense for danger" },
+                                { "info":"Imperial historian" },
+                                { "info":"Quiet as a mouse" }
+                            ]
+                        },
+                        {
+                            "item":  [
+                                { "info":"Military tactician " },
+                                { "info":"Good with knives" },
+                                { "info":"Skillful manipulator" }
+                            ]
+                        },
+                        {
+                            "item":  [
+                                { "info":"Glib tongue" },
+                                { "info":"Known in a black market" },
+                                { "info":"Can hide anything" }
+                            ]
+                        },
+                        {
+                            "item":  [
+                                { "info":"Master of disguise" },
+                                { "info":"Veteran pickpocket" },
+                                { "info":"Trained as an officer" }
+                            ]
+                        },
+                        {
+                            "item":  [
+                                { "info":"Skilled horseman" },
+                                { "info":"Expert duelist" },
+                                { "info":"Former advisor to a lord" }
+                            ]
+                        }
+                    ],
+                    "part2": "Your answer to this question is your “Specialty” Trait; write it down in the third line of the Traits section of your character sheet. ",
+                    "example1": "Example: Everyone’s starting to get a real feel for their Heroes now. Peter scribbles down 'well-connected,' thinking it makes sense for a fixer and will be helpful to the Crew. Ben’s also thinking about the Crew, and the kinds of jobs he expects they’ll take, and decides his Hero 'always has a plan.' Emily wants a way out when things go poorly (and knowing Brandon, she’s sure they will), so she adds 'escape artist.' Isaac wants to make use of all that information in his Hero’s head, so he chooses 'sage advice.'",
+                    "part3":"",
+                    "example2":"",
+                    "part4":""
+                },
+                {
+                    "question":"What is your most distinctive feature?",
+                    "part1": "Think about the people you know; you can probably identify them to others who’ve met them with a quick description of their most prominent feature, even without using their name or other details. Now ask yourself how someone in the game world would describe your character. Kelsier can be pointed out by his ever-present smirk, Vin’s not a tall girl, and Breeze is always sharply dressed. What’s your character’s most distinctive feature? It could be a physical trait, a mannerism, a pattern of behavior, something he or she always wears or says... Nearly anything that’s always there and sets the character apart from the crowd.  \n As with the last couple questions, answer this one with a word or short phrase. Here are just a few ideas, but like most of character creation the options are close to limitless:",
+                    "table": [
+                        {
+                            "item": [
+                                { "info":"Devilish smile" },
+                                { "info":"Lovely face" },
+                                { "info":"Air of superiority" }
+                            ]
+                        },
+                        {
+                            "item": [
+                                { "info":"Brawny" },
+                                { "info":"Speaks in street slang" },
+                                { "info":"Immaculate appearance" }
+                            ]
+                        },
+                        {
+                            "item":  [
+                                { "info":"Steely resolve" },
+                                { "info":"Lean and lanky" },
+                                { "info":"Very talkative" }
+                            ]
+                        },
+                        {
+
+                            "item":  [
+                                { "info":"Unreadable expression" },
+                                { "info":"Flair for the dramatic" },
+                                { "info":"Bronzed complexion" }
+                            ]
+                        },
+                        {
+                            "item":  [
+                                { "info":"Highly fashionable" },
+                                { "info":"Nasty knife scar" },
+                                { "info":"Disheveled" }
+                            ]
+                        },
+                        {
+                            "item":  [
+                                { "info":"Catlike agility" },
+                                { "info":"Impassioned orator" },
+                                { "info":"Sturdy build" }
+                            ]
+                        },
+                        {
+                            "item":  [
+                                { "info":"Unshakable composure" },
+                                { "info":"Deep thinker" },
+                                { "info":"Provincial accent" }
+                            ]
+                        },
+                        {
+                            "item":  [
+                                { "info":"Tiny frame" },
+                                { "info":"Gnarled countenance" },
+                                { "info":"Gestures wildly" }
+                            ]
+                        }
+                    ],
+                    "part2": "Your answer to this question is your “Feature” Trait; write it down in the fourth line of the Traits section of your character sheet. ",
+                    "example1": "Example: No one’s really thought about how their Heroes look or act yet but it starts to become clear as they answer this question. Peter thinks his fixer should be 'portly,' while Ben gives his Hero a talent for 'witty repartee.' Emily once again adds story with 'nervous tics' (and again Brandon makes a note). Last but never least, Isaac’s Keeper gains a 'gangly frame.'",
+                    "part3":"",
+                    "example2":"",
+                    "part4":""
+                },
+                {
+                    "question":"How do other people describe your personality",
+                    "part1": "Your character doesn’t live in a bubble — he or she’s part of a living, breathing world filled with people who judge based on words and actions. In Kelsier’s Crew, Clubs was known for his curmudgeonly behavior, Breeze was decidedly nonchalant, Marsh was intense and dour, and Spook was quiet and reserved. Their personalities affected how they related to each other, as well as with folks outside the crew. This question should be something you can answer with just one or two words. Focus only on the most dominant aspect of your character’s personality, strictly from the perspective of others. Don’t worry about how your character views his or her own behavior — this is about how he or she is seen to act. If you’re new to roleplaying games, you might want to describe your character to the Narrator and other players, and let them answer this question for you. Here are a few examples:",
+                    "table": [
+                        {
+                            "item": [
+                                { "info":"Gruff" },
+                                { "info":"Focused" },
+                                { "info":"Trustworthy" }
+                            ]
+                        },
+                        {
+                            "item": [
+                                { "info":"Cool" },
+                                { "info":"Humble" },
+                                { "info":"Instantly likeable" }
+                            ]
+                        },
+                        {
+                            "item":  [
+                                { "info":"Stern" },
+                                { "info":"Wise" },
+                                { "info":"Funny" }
+                            ]
+                        },
+                        {
+
+                            "item":  [
+                                { "info":"Mousy" },
+                                { "info":"Nervous" },
+                                { "info":"Reckless" }
+                            ]
+                        },
+                        {
+                            "item":  [
+                                { "info":"Indignant" },
+                                { "info":"Confident" },
+                                { "info":"Cautious" }
+                            ]
+                        },
+                        {
+                            "item":  [
+                                { "info":"Reserved" },
+                                { "info":"Serene" },
+                                { "info":"Thoughtful" }
+                            ]
+                        },
+                        {
+                            "item":  [
+                                { "info":"Decisive" },
+                                { "info":"Indifferent" },
+                                { "info":"Arrogant" }
+                            ]
+                        },
+                        {
+                            "item":  [
+                                { "info":"Intense" },
+                                { "info":"Affable" },
+                                { "info":"Callous" }
+                            ]
+                        },
+                        {
+                            "item":  [
+                                { "info":"Nonchalant" },
+                                { "info":"Sly" },
+                                { "info":"Kind" }
+                            ]
+                        }
+                    ],
+                    "part2": "Your answer to this question is your “Personality” Trait; write it down in the fifth line of the Traits section of your character sheet.",
+                    "example1": "Example: Brandon wants to shake things up a bit, so he has each player suggest a Personality Trait for the Hero to their right. “No one has to go with these,” he says, “but maybe you’ll like them, and it’s a great way for you to learn how the rest of the Crew sees your Hero.” \n Isaac starts, putting forward that perhaps Peter’s fixer is 'determined'. Peter can see this, so he writes it down on his sheet and looks over at what Ben has so far. He thinks the thief might be 'guarded', but Ben is concerned that this might be a little too strong, so he goes with 'cautious'. \n Ben wonders how Emily’s Hero is coping with what’s turning out to be a lot of stress (not uncommon for a kandra). He suggests 'reserved' and she agrees. Emily suggests 'quiet' for Isaac’s Keeper, but he’s not so sure about this. He thinks it might be a little too challenging (and not a whole lot of fun) to stay out of the game’s conversation, so he counters with 'solemn'. \n “Ah, a man with a mission,” Brandon says. “Excellent!”",
+                    "part3":"This is the last question that generates a Trait. Please take a moment to go over your results with your Narrator to ensure that all your Traits are workable in the rules, and that none of them look like they’ll have little or no value in the story the Narrator has planned. \n Remember: no Trait may replicate another Trait or rule. 'Swordsman' is fine, but 'Coinshot' or 'Feruchemist' is not.",
+                    "example2":"Example: Before the group got together Peter had planned to play an 'influential merchant,' but Brandon nixed 'influential' because it’s a Standing. 'Merchant' could work as a Profession, but based on Peter’s early descriptions of what he expected his Hero to be doing — more setting folks up with what they need than buying and selling — Brandon suggested 'fixer' instead. \n \n Example: Isaac had initially been considering an 'ancient Terris language' as his Keeper’s Specialty. Brandon found the idea interesting but was worried there wouldn’t be many opportunities to use the Trait in the stories he’d already planned (being primarily set in cities and without a heavy emphasis on history). After a brief chat about possible replacements, Isaac settled on 'sage advice.",
+                    "part4":"The next five questions focus on assigning your character’s Strengths, which will be covered further in Step 4."
+                }
+            ],
+            "qSix":"Do you have any special powers (like magic or shapeshifting)?",
+            "qSix1":"Magical ability is quite rare in Scadrial: only about one in every hundred people can become Allomancers, and only one in every hundred Allomancers is a Mistborn; Feruchemists are systematically hunted down and exterminated by the Canton of Inquisition; and the kandra’s tiny population only survives due to absolute secrecy and draconian adherence to their Contracts. Still, Heroes are exceptional and many crews include one or more characters with magic talents. \n Not only is magic rare, but “mundane” characters are just as capable — in different ways. In the first Mistborn novel, Dockson proves himself quite the planner, making Kelsier’s crazy schemes a reality by acquiring a remarkable laundry list of resources and connections, all without a hint of magic at his disposal. \n With all this in mind, ask yourself whether your character must wield magic to support the concept. You may answer this question in one of three ways:",
+            "powers": [
+                {
+                    "option": "If your character is a Mistborn or Keeper, with multiple magical abilities, he or she has strong Powers."
+                },
+                {
+                    "option": "If your character is a Misting with a single Allomantic power, or a shapeshifting kandra, he or she has average Powers"
+                },
+                {
+                    "option": "If your character is a mortal with no magical or superhuman abilities, he or she has weak Powers. "
+                }
+            ],
+            "qSix2":"Keep in mind: your choice has greater consequences, as for Questions 6–8 you must answer once with strong, once with average, and once with weak (i.e. you must answer each question differently, and in the end you must have one strong, one average, and one weak answer). Everyone has a particular strength and corresponding weaknesses, and this is when you define them for your character. \n It may seem like powers eclipse all else in Scadrial but low-powered and “mundane” characters can easily outshine their magically gifted counterparts when needed. Still, those without any powers tend to develop in other ways, and so they gain two additional Traits of their choice. \n Make a note of your choice next to the Powers or Traits section on your character sheet.",
+            "example": "Example: Everyone’s choices were made before they even hit this question (which you’ll find it pretty common with strong Hero concepts). Peter’s fixer doesn’t need Powers, so he chooses “weak” and gains two Traits, using one to define his Hero’s public persona (“known as upright citizen”), and the other to flesh out his interaction with the team (“father figure to my Crew”). That leaves “strong” and “average” for him in Questions 7 and 8. \n Ben’s thief has been a Misting since the start, so he chooses “average,” leaving “strong” and “weak” for later. Being a kandra, Emily must pick “average” powers, so she still has “strong” and “weak” as well. Finally, Isaac’s character is a Keeper so his Powers become “strong.” He has “average” and “weak” left for the next two questions.",
+            "brandon2": "If you’ve read the Mistborn books you might be itching to play nothing but a Mistborn, assuming they’re the most powerful option. However, in the game (and even in the books, to an extent) this just isn’t true. Mistborn are versatile but often sacrifice focus and strength in a single ability as a result. \n Keep in mind that in your story, not everyone needs to be an Allomancer or Feruchemist to accomplish great things. We’ve designed the rules to encourage your exploration of everything a character can achieve, whether he or she is Mistborn or not.",
+            "qSeven": "Are you especially fit, smart, or charismatic?",
+            "qSeven1": "All characters, whether they have magic ability or not, have certain physical, social, and mental limits: they’re only so strong, so charismatic, or so smart. This is summed up with a character’s Attributes — Physique, Charm, and Wits — which gauge inherent prowess in these three categories. \n During the game, your character’s Attributes determine how naturally capable he or she is, and how likely he or she is to achieve immediate goals, barring equipment, magic, or training. Taking an example from the novels, Vin and Ham are skilled Pewter-users and have similarly explosive physical gifts when tapping their Allomancy. However, Ham is also naturally strong without using Pewter, and so in game terms he has a higher Physique Attribute than Vin. \n Think about the physical, social, and mental gifts your character was born with, and how well he or she has nurtured them since. Is your character particularly strong and agile, likeable and good looking, or intelligent and perceptive? Do any of these three categories rise to the fore as defining characteristics?",
+            "mental": [
+                {
+                    "option": "If your character is exceptional in two or more areas, consider strong Attributes."
+                },
+                {
+                    "option": "If your character is exceptional in just one area, consider average Attributes."
+                },
+                {
+                    "option": "If your character is not exceptional in any area, consider weak Attributes. "
+                }
+            ],
+            "qSeven2":"Keep in mind: your choice has greater consequences, as for Questions 6–8 you must answer once with strong, once with average, and once with weak (i.e. you must answer each question differently, and in the end you must have one strong, one average, and one weak answer). \n Make a note of your choice next to the Attributes section on your character sheet.",
+            "example3": "Example: Peter has 'strong' and 'average' left but wants to save 'strong' for Standing (so he can ensure a high Influence score). This leaves him with 'average' Attributes. \n Ben has 'strong' and 'weak' after his Powers choice. He thinks his thief will need to rely more on himself than the world, so he opts for 'strong' Attributes.  \n Emily has 'strong' and 'weak' left and doesn’t think her kandra would have much investment in worldly affairs (even if it turns out she’s been here long enough to cash it in). Emily also chooses 'strong' Attributes, leaving her with 'weak' for Standing in the next step. \n Sensing a theme for the Crew, and not fretting too much about it with Peter’s strong Standing, Isaac goes with his gut and chooses 'average' Attributes. He’s not entirely sure how that will play out yet, but he can’t really justify an average Standing for his 'solemn chronicler,' either. With 'strong' Powers and 'average' Attributes, that leaves Isaac’s Hero with a 'weak' Standing.",
+            "qSeven3":"Your character’s Attributes will be further defined in Step 4 (see page 97).",
+            "qEight":"Are you well-off or do you struggle to get by?",
+            "qEight1":"Characters can also excel beyond their personal abilities, amassing expansive wealth and holdings, gaining considerable sway with those in power at every level of society, and benefiting from almost preternatural fortune. This is represented with three forms of Standing — Resources, Influence, and Spirit — which measure his success in each area. \n Standing is used to manipulate the world and do those proverbial “big things” that so often save the day or prove vital lynchpins for the Crew’s plans. In the novels, Elend may be an “ordinary” young nobleman, but as a son of House Venture his close political connections and broad financial resources make him a crucial component in determining the future of the Final Empire. \n Consider your character’s circumstances. Is he or she an up-and-coming noble with strong political and financial resources, a plucky young urchin who always manages to be in the right place at the right time, or a hard-luck gambler always chasing the next score to no avail? Most importantly, does he or she enjoy an abundance of wealth, friends, or luck?",
+            "standing": [
+                {
+                    "option": "If your character enjoys an abundance of two or more of these, consider strong Standing."
+                },
+                {
+                    "option": "If your character enjoys only one of these, consider average Standing."
+                },
+                {
+                    "option": "If your character enjoys none of these, consider weak Standing."
+                }
+            ],
+            "qEight2": "Keep in mind: your choice has greater consequences, as for Questions 6–8 you must answer once with strong, once with average, and once with weak (i.e. you must answer each question differently, and in the end you must have one strong, one average, and one weak answer). \n Make a note of your choice next to the Standing section on your character sheet.",
+            "example4":"Example: With two choices each in Questions 6 and 7, everyone’s answer to this question is locked in place: Peter’s fixer has a “strong” Standing, and everyone else’s Standings are “weak”",
+            "qEight3": "Your character’s Standing will be further defined in Step 4 (see page 97)."
         }
     ]
 }
