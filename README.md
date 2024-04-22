@@ -10,11 +10,9 @@ Recognizing the need for accessible resources, I've embarked on creating this co
 The Mistborn Tabletop Compendium serves as a centralized repository for all things related to the Mistborn Adventure Game. From character creation and rules references to setting details and gameplay mechanics, this compendium aims to provide comprehensive and easy-to-access information for players and Game Masters.
 
 ## Features
-Easy Navigation: Organized and structured for effortless navigation, allowing quick access to specific rules, abilities, and lore.
+- Easy Navigation: Organized and structured for effortless navigation, allowing quick access to specific rules, abilities, and lore.
 Comprehensive Content: Covers all aspects of the Mistborn Adventure Game, including character creation, Allomantic powers, Feruchemy, Hemalurgy, setting details, and more.
-Regular Updates: Continuously updated to incorporate new content, errata, and community contributions, ensuring that the information remains current and accurate.
-Contributing
-This project is a collaborative effort, and contributions from the Mistborn tabletop community are welcome and encouraged. Whether you've discovered a typo, have suggestions for additional content, or want to share your own homebrew creations, your input is invaluable. Simply fork the repository, make your changes, and submit a pull request. Together, we can make the Mistborn Tabletop Compendium the ultimate resource for Mistborn Adventure Game enthusiasts.
+- This project is a collaborative effort, and contributions from the Mistborn tabletop community are welcome and encouraged. Whether you've discovered a typo, have suggestions for additional content, or want to share your own homebrew creations, your input is invaluable. Simply fork the repository, make your changes, and submit a pull request. Together, we can make the Mistborn Tabletop Compendium the ultimate resource for Mistborn Adventure Game enthusiasts.
 
 ## Acknowledgments
 Special thanks to Crafty Games for creating the Mistborn Adventure Game and to Brandon Sanderson for his captivating Mistborn universe. Without their creative vision, this project would not be possible.
