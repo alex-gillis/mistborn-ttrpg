@@ -3244,6 +3244,261 @@
             "backstory2": "Whatever back story you come up with, make a copy and give it to the Narrator for his or her reference as the story unfolds. That way your character’s unique details can become part of the broader narrative, which is one of the most fulfilling experiences in a roleplaying game. \n Unsure where you might want to take your back story? No problem. Jot down some ideas and keep them to yourself. Just be sure not to reveal them until you’re ready, as anything committed to the ongoing communal story becomes true fact — unless of course it’s a lie, or a misperception, or maybe leads to an unexpected secret. There’s always another secret...",
             "example14": "One important way that we avoid making characters ‘flat’ in fiction is by making certain they have passions that are completely unrelated to the plot and/or their role in it. If every heroine is interested only in vengeance against her father’s murderer, she feels undeveloped as a character. However, if she had a life before her father was murdered — things that still tug at her, that are part of who she was — then she becomes more rounded. \n Interests, hobbies, goals, drives, and quirks are part of what make a person real: the grizzled warrior who’s also a birdwatcher; the street thief who sneaks into the kitchens and watches the nobles dance, memorizing their steps to repeat on his own; the cook who happens to have perfect pitch but is afraid to sing...",
             "finish": "Your Hero is complete and your character sheet’s filled out. It’s time to grab a handful of dice and leap into the Final Empire! If this is the first time you’re playing, you might want to skip forward to the Game Basics section and get a feel for the rules (see page 131), but don’t worry if you don’t have time. It’s often best to learn by doing, and we’ve made the core of the rules simple enough to grasp in just a session or two. \n The next section covers improving your Hero, which won’t come up for a bit but is included here next to Building Heroes so you can find it easily when you need it. \n Enjoy the game!"
+        },
+        {
+            "id":5,
+            "improving": "Just as Vin ultimately learned to control her immense inner power, Elend rose through the ranks of nobility to become king, and Spook tested the limits of his Allomantic abilities, so too will your Hero grow and change through his career. Improving your Hero is perhaps the most tangible reward of play (though the enjoyment of the game should certainly be its own reward).",
+            "brandon": "Sometimes you’ll want to start your game with more experienced characters, as if they’d been around a while and already accomplished some things. This is easy enough to do: each player builds his or her Hero as normal and then spends the same number of Advancements, as agreed before you get started and approved by the Narrator. You probably shouldn’t start any game spending more than 20 Advancements though, as it won’t leave you much room for significant growth in play. \n Also, everyone should put some thought into what’s happened to their Heroes and the Crew before picking up with the first adventure. Beyond the questions they typically answer, they should ask what led to each of the improvements they’ve made to their characters, and ideally tie their answers together as a group narrative of what’s come before. With luck the Narrator will be able to use this to kick-start the game in a way that does justice to the play time that never was.",
+            "improvingTwo": "A Hero improves by completing goals (successfully carrying out schemes, overcoming difficulties related to his or her Tragedy, and realizing other personal and Crew objectives), and through positive, uplifting play (when you as a player add to the enjoyment of all, including the Narrator). As you and your Hero accomplish these things, you’ll earn opportunities to improve his or her Attributes, Standing, and Powers, and to add new Traits and Stunts. \n Every Hero grows in different ways, related to his or her unfolding story. Whenever you improve your Hero, you should consider carefully not only what you’d like to change or add, but also what makes sense in the game world. If your Hero has been spending a lot of time acquiring wealth, you might want to increase his or her Resources. Lots of brutal scraps might indicate it’s time to look at increasing your Hero’s Physique, while a focus using one particular Power might justify a similar focus on boosting its effectiveness. \n Of course you can improve your Hero however you like, even if the story doesn’t support it, though the Narrator always has to approve every enhancement before it’s applied.",
+            "advances": "Heroes are improved with Advancements, which you’ll periodically earn in play. These represent your Hero’s growing experience, and the “on the job training” he or she benefits from during adventures in the Final Empire. Some improvements are easy to make and require just a couple Advancements, while others are extremely difficult to obtain and can cost as many as twenty! \n With the Narrator’s permission, you can spend Advancements during Long Breathers to make various improvements to your character. (Breathers are breaks in the story, when the characters have time to do things outside the adventure.",
+            "earning": "Advancements are always awarded by the Narrator. You can earn them for anything the Narrator identifies as critical to your Hero, the Crew, and your stories. Some of the most common things that may earn you Advancements include...",
+            "advancements": [
+                {
+                    "example":"...completing a scheme or achieving a personal goal.",
+                    "explain":"Crews and individual Heroes undertake schemes to accomplish things that are important to them, and with every scheme attempted — even one that isn’t entirely successful — comes new knowledge and wisdom. Some schemes rely on character improvement, like Elend’s evolution from scatterbrained scholar to confident leader over the course of the trilogy. Other times a character may stumble into greatness, developing in ways no one expects, as shown with Spook’s dramatic transformation in The Hero of Ages. \n Grand schemes are often elaborate, involving many steps that may unfold as full stories on their own, and characters undertaking such wild endeavors could wind up earning Advancements at each step, or after every few, as appropriate to the narrative. Kelsier’s plot to overthrow the Lord Ruler is a classic example of this, with sparking a rebellion to draw off the Luthadel garrison, instigating a war between houses Tekiel and Elariel, planting Marsh within the Steel Ministry, slipping Vin into noble society, and getting away with the Lord Ruler’s treasures each being a distinct goal that might reward Advancements en route to the ultimate prize."
+                },
+                {
+                    "example":"...making a critical choice at a Turning Point in the game",
+                    "explain":"Turning Points are crucial, high-pressure crossroads in the story — moments when one or more characters must make difficult choices with lasting ramifications. Examples include choosing who to save at a moment of great peril, knowing that everyone else will die; choosing the “devil to know” from among many underhanded criminals when forming a Crew, having very little idea which will remain loyal when a scheme unravels; and on a related note, deciding how to deal with a job that goes all the wrong ways at just the wrong moment. \n Unlike schemes and goals, Turning Points aren’t attempted so much as presented as a natural part of the story, and they usually end shortly after they’re introduced. Just living through a Turning Point is all that’s needed to learn from it, and so a set number of Advancements is commonly awarded regardless of the outcome, so long as the characters don’t shrink away from the moment (making no choice at all, or leaving the choice to others)."
+                },
+                {
+                    "example":"...revealing a powerful Secret.",
+                    "explain":"Revealing a Secret at the right time can offer significant advantages with certain tasks or against the right opponents. For example, a Hero might reveal a rival noble’s underhanded dealings during a debate to shame him before his peers, or to turn the eye of the Obligators upon him. Heroes grow in such moments — sometimes personally, often by reputation — and in the case of very dear secrets, in ways that no one may expect, least of all them. \n As with making a choice at a Turning Point, revealing a secret relies on a specific act, and so those involved don’t earn Advancements so much for crossing a finish line as for stepping up and seizing the day. Will their choice prove to be the “right” one? Time will tell, but regardless they walk away a bit more prepared to meet the next challenge."
+                },
+                {
+                    "example":"...defeating a central Villain.",
+                    "explain":"Heroes often mature through reflection, and what greater reflection do they have than their polar opposites? Villains test Heroes at their cores, running them through crucibles physically, emotionally, and often even spiritually, so it’s no wonder that the experience leaves those stalwart few changed. Catharsis is a great tutor, the ultimate reflection as it were, and there are few greater catharses than finally bringing down your arch-rival. \n Defeating a Villain operates much like completing a scheme or achieving a personal goal: Advancements are earned with the glory, at the end of that long, bitter road."
+                },
+                {
+                    "example":"...fulfilling your character’s Destiny.",
+                    "explain":"“Life is about the journey,” they say, and that’s especially true for Heroes. The examples in this section include so many ways a character may grow with every word and act, yet there are few greater teachers than fate, and finding one’s true place in the world can be humbling and inspiring, rejuvenating and transformative. \n It’s easy to view Destiny as a finite objective, without reward until it’s reached, but that robs characters of so many chances to evolve along the way. Destiny isn’t strictly about a destination; rather, it’s about the many steps taken to get there. Advancements are earned accordingly — not just for crossing an item off your character sheet but every time you engage it in ways that are meaningful and important to the Crew and its goals, the larger story, and your character’s personal narrative."
+                }
+            ],
+            "brandon2": "Overcoming a personal challenge often leads to a different, perhaps greater challenge, and so when a character fulfills a Destiny, or overcomes a Tragedy, it might be appropriate to evolve it. From book to book in a series, this is how I handle character growth and development. Vin overcomes her Tragedy of worrying that everyone will betray her, only to run full head into the Tragedy of being scarred by the horrible things she’s done with her powers. Likewise, Elend’s Destiny of liberating the skaa becomes the Destiny of unifying a broken Empire.",
+            "advancements2": [
+                {
+                    "example":"...overcoming your character’s Tragedy.",
+                    "explain":"Just as a character’s Destiny looms closer and closer with each session of play, his or her Tragedy falls a bit further into the past, and eventually, through insight, acceptance, or sheer force of will, some characters may conquer their demons. Heroes are larger than life and the scars of their past run especially deep, throbbing with a force that can echo across a lifetime. In a morbid way this can work in their favor, revealing qualities and even abilities they don’t know they have. Ironically, it’s their private darkness that often illuminates their greatest strengths. \n Like Destiny, a Hero’s Tragedy isn’t a binary condition — it yields Advancements whenever a character grapples seriously with his or her past. Similarly, it’s not enough to merely be reminded of one’s past, or taunted with it; a character must be threatened or hampered by Tragedy to come out of the experience a truly changed person. Vin constantly struggles to deal with the ghosts of her past — Reen’s violent lessons in trust, her mother’s gruesome death, and learning to trust and love — and these are all part of her story in the trilogy. Only through these struggles does she become the hero she was born to be."
+                },
+                {
+                    "example":"...grappling with one of your character’s Burdens.",
+                    "explain":"Demons and lingering trauma are great teachers, especially when they’re getting in the way of the all-important work of the day. Every throb of a character’s broken arm as he’s defending himself from a fresh attack reminds him what he did wrong the last time, just as the haunting memory of a public shame rises to the fore whenever he tries to throw his weight around again. Many characters ignore these lessons, or push them down deep, hoping they’ll fade in time, but the truly self-aware embrace them, and the temporary weaknesses they confer. They know this is the only way to really grow. \n As mentioned throughout this Book, a character earns a single Advancement the first time each of his or her Burdens is applied in each session."
+                },
+                {
+                    "example":"...achieving something that is vital to the story or the Crew’s survival.",
+                    "explain":"Stories are about more than getting things done, and moving them along is the business of... well, it’s the business of writers, but roleplaying game stories work differently. Here they’re the business of players and the Narrator, working in concert to realize a uniquely collaborative vision. Sometimes the key to everyone’s fun is simply getting to the next step, and when that’s the case anyone who’s helping the process along deserves an Advancement or two. \n Likewise, there can’t be a story when all the Heroes are dead, and acting to keep the Crew alive, especially at the expense or risk of one’s own safety, is worth recognition."
+                },
+                {
+                    "example":"...staying in character.",
+                    "explain":"You probably went to a lot of trouble to create just the right character, and you made several important decisions to ensure he or she fits your concept. You decided on strengths and weaknesses, chose Attributes and Standings, and added at least five Traits, possibly more. Especially with your character’s Drive and Personality Traits, you helped to shape who he or she is as a person, and portraying this person can be one of the most rewarding experiences you can have playing the Mistborn Adventure Game. It can also help your character grow, though not quite as quickly as accomplishing things in the story. \n Any player who dedicates sincere effort toward portraying his or her character, or whose portrayal is particularly accurate, dramatic, or moving, may receive a single Advancement for the effort. In general staying in character shouldn’t merit more than a single Advancement, however, as not all the players will be naturally good at it, and it’s not fair to penalize them for preferring to focus on other things."
+                },
+                {
+                    "example":"...selflessly improving the quality of the game for everyone.",
+                    "explain":"Finally, you can earn the odd Advancement simply for going that extra mile to enhance the game for your play group. This isn’t so much about portraying your character well, or making everyone laugh; it’s not a fleeting gesture or anything already expected of you. Rather it’s the occasional opportunity to promote a constructive environment outside the story and beyond the game, and as such it warrants special consideration. For example, you might spend an evening mentoring a new player to help them get the most out of their character, or adjust your Hero’s actions to help the Narrator bring the story back on track when it’s clear the Crew has ventured into uncharted territory. Both of these selfless acts raise the caliber of the game for everyone, and demonstrate your commitment to a more fulfilling experience for all. \n To thank you, the Narrator may award you a single additional Advancement (though no more, as even acting as a positive role model is no substitute for real character experience)."
+                }
+            ],
+            "rate": "Advancements can be earned by individuals or the whole Crew, depending on the circumstances. Most of the time, you can expect to earn 1 to 3 Advancements per session, based on which of the previous conditions apply, and how much your Hero’s actions contribute to the game. Of course, this number may vary due to the pace of your particular game and how crucial the events of each session are to the overall story.",
+            "example": "Example: The first session Brandon has planned is a strong opening, and he expects that if everyone contributes equally and the Crew gets through everything he’ll award 2 Advancements to each Hero. This assumes none of them perform particularly well or poorly, of course; any of the conditions in the previous section might shift this base reward by a point up or down.",
+            "limit": "When the Narrator awards one or more Advancements, tick the appropriate number of boxes at the bottom left of your character sheet. You can have no more than 20 Advancements at a time, and if you don’t have any blank boxes left when you earn new ones, you lose any extra and can’t earn any more until you spend some of the ones you’ve collected.",
+            "example2": "Example: After a few sessions Sev’s racked up 7 Advancements. Assuming he spends none in the meantime, he can earn another 13 Advancements before he’s locked out from gaining any more.",
+            "brandon3": "One of the most beautiful experiences I’ve had in gaming happened when the group got beyond competing to see whose character was the toughest. When I was younger, we all worried about who was ‘winning’ or who had the highest level. Then, one game, a wise GM (or ‘Narrator’ as the role is called here) forced us to play with one character awesomely more powerful than the rest of us. Suddenly, it wasn’t about beating the other players — it was about working together to maximize the use of this character’s incredible abilities. The game became immensely fun. \n It’s not always appropriate to play this way, but I strongly suggest not paying too much attention to who gets the most Advancements or who’s the most powerful. In the end everyone will enjoy themselves much more that way.",
+            "spending": "Making meaningful change to talents, skills, and abilities takes time and effort, demanding that your Hero get away and focus on his or her personal development. To reflect this, you may only spend Advancements to improve your Hero during a Long Breather (which can cover a few days to several months, depending on the circumstances), or with the Narrator’s express permission. \n Change also requires focus. Characters don’t tend to evolve in multiple ways at once, but rather by degrees, taking their personal growth one step at a time. Accordingly, you may only make one improvement to your Hero during each Breather, no matter how long the Breather lasts. Each improvement may cost any number of Advancements, but even if an improvement only costs 2 Advancements and the Breather lasts weeks or months of game time, you can’t make any further improvements until the next Breather. \n Each time the Narrator announces a Long Breather and calls for Advancements, you may choose any single improvement from the table below. Each improvement costs a set number of Advancements, based on its rarity, strength, and how dramatically it changes your Hero’s life.",
+            "advOptions": [
+                {
+                    "improvement":"Change a Trait",
+                    "cost":"2",
+                    "description":"Replace an existing Trait with a new one (of the same type if the old Trait is your Hero’s Drive, Profession, Specialty, Feature, or Personality)."
+                },
+                {
+                    "improvement":"Gain a new Stunt",
+                    "cost":"4",
+                    "description":"(Allomancers and Kandra only) Add a Stunt to one of your Hero’s Powers"
+                },
+                {
+                    "improvement":"Gain a new Trait",
+                    "cost":"4",
+                    "description":"Add a new Trait to your Hero"
+                },
+                {
+                    "improvement":"Increase one Attribute",
+                    "cost":"5",
+                    "description":"Increase your Hero’s Physique, Charm, or Wits by 1 die (maximum 6 dice)"
+                },
+                {
+                    "improvement":"Increase one Standing",
+                    "cost":"5",
+                    "description":"Increase your Hero’s Influence, Resources, or Spirit by 1 die (maximum 10 dice)"
+                },
+                {
+                    "improvement":"Recover from a Mortal Burden",
+                    "cost":"6",
+                    "description":"Ease one Mortal Burden to Grave"
+                },
+                {
+                    "improvement":"Increase Power rating",
+                    "cost":"6",
+                    "description":"(Allomancers, Feruchemists, and Kandra only) Increase your Hero’s Allomancy rating with 1 metal by 1 (maximum 10), or your Hero’s Feruchemy rating with 1 metal by 1 (maximum 10), or your Hero’s Mimicry rating by 1 (maximum 10)."
+                },
+                {
+                    "improvement":"Become a Misting savant",
+                    "cost":"10",
+                    "description":"(Mistings with Allomancy rating 7+ only) Add the Savant ability for your Hero’s metal."
+                },
+                {
+                    "improvement":"Snap into a Misting",
+                    "cost":"10",
+                    "description":"(Skaa / nobles without Powers only) Become a Misting with an Allomancy rating of 4 in one metal."
+                },
+                {
+                    "improvement":"Gain a new Blessing",
+                    "cost":"15",
+                    "description":"(Kandra only) Add one additional Blessing your Hero does not already have."
+                },
+                {
+                    "improvement":"Become a Keeper",
+                    "cost":"20",
+                    "description":"(Terris without Powers only) Become a Keeper with a Feruchemy rating of 2 in all metals"
+                },
+                {
+                    "improvement":"Snap into a Mistborn",
+                    "cost":"20",
+                    "description":"(Skaa / nobles without Powers only) Become a Mistborn with an Allomancy rating of 3 in all metals"
+                },
+                {
+                    "improvement":"Gain a Hemalurgic spike",
+                    "cost":"Varies",
+                    "description":"Add a Hemalurgic spike and its Power or benefits, plus its drawbacks"
+                }
+            ],
+            "spending2": "The Narrator must approve any improvement before you can add it to your Hero. Once approved, erase a number of Advancement ticks equal to its cost and add the improvement to your character sheet. Keep reading for instructions when adding each improvement.",
+            "example3":"Example: The Crew finally reaches a Long Breather, and Sev can spend those 7 Advancements he's earned. He chooses to gain a new Stunt for his Allomantic Brass Power called 'Medium Range,' allowing him to calm people's emotions from even further away. This costs 4 Advancements, leaving Sev with 3 Advancements remaining. However, he can't spend them (or any other Advancements he earns) until the next Long Breather.",
+            "example4":"Example: Alternatively, Sev might have chosen to increase his Brass Power rating, which started at 5. In this case, his Brass Power rating becomes 6, at a cost of 6 Advancements. He's left with 1 Advancement, which isn't enough for anything, but it doesn't matter as he has to bank it toward the next Long Breather anyway.",
+            "advancement2": {
+                "title": "Change a Trait: ",
+                "description": "Your Hero refocuses, changing profession, skills, or even his or her personality in the process. Erase one of your existing Traits and replace it with a new one. If the Trait you change is your Hero’s Drive, Profession, Specialty, Feature, or Personality, the new Trait must fall in the same category (i.e. if you change your Profession Trait, you must replace it with another Profession Trait). New Traits must follow all the rules for creating Traits in Building Characters."
+            },
+            "advancement4": {
+                "title1":"Gaint a New Stunt (Allomancers and Kandra only): ",
+                "description":"Your Hero continues to test ways of using his or her magic, learning new tricks and subtleties of its use.",
+                "options":[
+                    {
+                        "option":"(Allomancers) Choose a new Stunt for one of the metals you can use and record it in the Powers section of your character sheet."
+                    },
+                    {
+                        "option":"(Kandra) Choose a new Stunt for Mimicry and record it in the Powers section of your character sheet."
+                    }
+                ],
+                "description2":"If your Hero has multiple Powers (e.g. he or she is a Mistborn), you may choose Stunts for any metals you can use, though this must be done separately (at a cost of 4 Advancements for each). You should record metals with Stunts on separate lines to keep them straight, like so:",
+                "title2":"Gain a New Trait: ",
+                "description3":"Your Hero develops a new skill, talent, knack, quirk, occupation, or relationship, in addition to the others he or she already has. Work with the Narrator to decide on a new Trait and record it in the Traits section of your character sheet. New Traits must follow all the rules for creating Traits in Building Characters."
+            },
+            "advancement5": {
+                "title1":"",
+                "description1":"",
+                "title2":"",
+                "description2":""
+            },
+            "advancement6":{
+                "title1":"Recover from a Mortal Burden: ",
+                "description1":"Your Hero undertakes a great change to overcome the adversities of a seemingly permanent physical, social, or mental injury, hoping to at least partially recover... one day. An old soldier who lost a hand in battle might fashion a crude wooden one to replace it, while a shunned noblewoman may undertake a campaign to rebuild a name for herself from scratch, or a victim of the Canton of Inquisition’s “ministrations” might seek spiritual solace to find the inner peace they’ve lost. Of course, discovering how to overcome a Mortal Burden is just the beginning of a long and painful journey—your Hero must still spend a great deal of time and effort to adapt to the new normal. \n One of your Hero’s Burdens is eased from Mortal to Grave, which allows recovery during future Long Breathers (see pages 136 and 442). This option isn’t universally available, and the Narrator isn’t likely to approve it unless you justify the transition with a suitably drastic lifestyle change. The Narrator may even ask that you hold off until you can spend a Long Breather spanning enough time to undergo this change, or until you can plausibly introduce it `off screen.`",
+                "example1":"Example: Let’s say that when Sev’s sister Sayna was assaulted by the unnamed nobleman, she suffered a deep psychological trauma (and gained the Mortal Burden `Holes in my memory`). Alex is playing Sayna and wants her to eventually recover, so he spends 6 Advancements and describes her undertaking a long personal quest to her childhood home. Brandon approves, but decides Sayna will need at least a few weeks of downtime to start the process — longer than the current Long Breather. Alex looks forward to the first break big enough for Sayna to spend some quality time with her memories.",
+                "description2":"Some Mortal Burdens may simply never be eased. No one can grow a new arm, for example, or forget a murdered child. It’ll usually be obvious when this is the case, but the Narrator may occasionally give you a heads up when he or she thinks you’re stretching the story a bit beyond plausibility.",
+                "title2":"Increase Power Rating (Allomancers, Feruchemists, and Kandra only):",
+                "description3":"Your Hero’s control over his or her magic deepens.",
+                "increases": [
+                    {
+                        "power":"(Allomancers) Increase your Hero’s Allomancy rating with a single metal by 1, to a maximum of 10."
+                    },
+                    {
+                        "power":"(Feruchemists) Increase your Hero’s Feruchemy rating with a single metal by 1, to a maximum of 10."
+                    },
+                    {
+                        "power":"(Kandra) Increase your Hero’s Mimicry rating by 1, to a maximum of 10."
+                    }
+                ],
+                "description4":"If your Hero has multiple Powers (e.g. he or she is a Mistborn or Keeper), you may increase his or her ratings with any number of metals, though this must be done separately (at a cost of 6 Advancements per increase, per metal). You should record metals with increased ratings on separate lines to keep them straight."
+            },
+            "advancement10":{
+                "title1":"Become a Misting Savant (Mistings with Allomancy rating of 7+ only):",
+                "description1":"By constantly burning metals, your Hero explores the greatest depths of his or her power… at the expense of some natural ability. Add the Savant ability for your Hero’s metal to the Powers section of your character sheet.",
+                "title2":"Snap into a Misting (Skaa and Nobles without Powers only): ",
+                "description2":"In a moment of great turmoil or at the edge of death, your Hero Snaps an Allomantic ability. Add an Allomancy rating of 4 with a single metal to the Powers section of your character sheet. Your Hero is now a Misting and may improve his or her Allomancy rating and learn Stunts like any other Misting (though not until the next Long Breather).\n This is one of the rarest improvements a character can obtain, and the Narrator isn’t likely to approve it unless you justify it with a suitable moment of trauma, such as a true near-death experience or a similarly intense emotional event. The Narrator may even ask that you hold off until a Long Breather after your character suffers such an event in play, or until you can plausibly introduce one “off screen.” \n In any case, you should never take Snapping and the event that triggered it in stride; your Hero isn’t likely to come out entirely unscathed, and may very well suffer post-traumatic fallout for weeks, months, or even years following.",
+                "example":"Example: Shayna Ellesmere is a minor noble suffering from a rare condition that periodically leaves her breathless and weak. Fearing it will undermine her fragile position, she keeps the condition hidden for many years until it grows so acute she falls into a catatonic, death-like state. Relatives pounce, quickly interring her body and debating who should inherit her meager holdings.\n Conscious of her surroundings the whole time, Shayna is forced to watch and listen to her family’s callous disregard for her, and this coupled with the horror of being buried alive awakens faint traces of Allomantic ability in her system. She Snaps as a Pewter Misting, though it does her no good until the condition wears off, many hours later. \n Fortunately for Shayna, her only ally in the family recognizes her death for what it really is — not just a debilitating condition but also a sign of latent Allomantic talents, just as exhibited in several of their ancestors (the rest of the family is far too greedy and self-occupied to read, let alone read about people who’ve been dead for hundreds of years). When the condition wears off, Shayna finds a vial of metal flakes at her side. Consuming it gives her all the strength she needs to escape — and seek retribution.",
+                "description3":"Despite Snapping, freshly-Snapped Mistings aren’t initially as powerful or skilled as those who begin play with Allomantic power. This is because they haven’t had the time to fully develop their gifts (it’s assumed a character who starts as an Allomancer has been at it a while and has already mastered the basics). A new Misting can grow stronger, of course, and may even surpass those who started the game with Allomantic power, but that requires more improvement (at the cost of more Advancements)."
+            },
+            "advancement15":{
+                "title":"Gain a New Blessing (Kandra only): ",
+                "description":"Every kandra has a single Blessing at his or her creation, which grants sentience and innate Hemalurgic abilities. Through murder, guile, or dumb luck, your Hero comes across another one. Add one additional Blessing your Hero does not already have to the Powers section of your character sheet. \n You can read more about Blessings on the Hemalurgy page in Metallurgy."
+            },
+            "advancement20":{
+                "title1":"Become a Keeper (Terris without Powers only): ",
+                "description1":"Through discipline and reflection, your Hero discovers he or she is capable of the ancient art of Feruchemy. Add a Feruchemy rating of 2 in all metals and the option to use all Feruchemical metalminds to the Powers section of your character sheet. Your Hero is now a Keeper and may improve his Feruchemy rating like any other Feruchemist (though not until the next Long Breather). \n This is one of the rarest improvements a character can obtain, and the Narrator isn’t likely to approve it unless you justify it with a supporting story that has a dramatic impact on your Hero (above and beyond becoming a Keeper). The Narrator may even ask that you hold off until a Long Breather after such a story occurs, or until you can plausibly introduce one “off screen.” \n In any case, you should never take becoming a Keeper in stride; your Hero isn’t likely to be quite the same after such an experience, and the discovery of these abilities can substantially change his or her relationship with, and responsibilities to the Terris people and Synod.",
+                "example":"Example: Tazekk, a young Terris laborer, discovers that by holding his “lucky coin” — a copper clip he found on the street — he can recall nearly anything he’s seen in the past. News of this ability quickly spreads through the Terris community and on to the Synod, the Terris leaders-in-exile. They dispatch a Keeper to determine if Tazekk is indeed a Feruchemist, and if so, to train him. As a Keeper, Tazekk will also become responsible for learning, preserving, and passing along the history of the world and its people, so that the Terris culture will never die.",
+                "description2":"Despite awakening as Feruchemists, characters who begin their journey as Keepers have likely spent significant time honing their abilities and understanding their responsibilities. Freshly awakened Feruchemists may need time to fully grasp the intricacies of their powers and may not be as proficient initially as those who have been Keepers for some time. However, with dedication and practice, they can certainly grow to surpass their counterparts in skill and mastery.",
+                "title2":"Snap into a Mistborn (Skaa and Nobles without Powers only): ",
+                "description3": "After a particularly dangerous event or consuming a bit of Larasium, your Hero Snaps and becomes one of the most powerful beings in the world. Add an Allomancy rating of 3 with all metals to the Powers section of your character sheet. Your Hero is now a Mistborn and may improve his or her Allomancy rating with each metal, and learn Stunts with each metal, just like any other Mistborn (though not until the next Long Breather). \n This is one of the rarest improvements a character can obtain, and the Narrator isn’t likely to approve it unless you justify it with a suitable moment of trauma, such as a true near-death experience. The Narrator may even ask that you hold off until a Long Breather after your character suffers such an event in play, or until you can plausibly introduce one “off screen.” \n In any case, you should never take Snapping and the event that triggered it in stride; your Hero isn’t likely to come out entirely unscathed, and may very well suffer post-traumatic fallout for weeks, months, or even years following.",
+                "example2":"Example: Kelsier is, of course, a prime example of a Mistborn Snapping. His experiences in the Pits of Hathsin are the culmination of a long and tragic story that not only rock him to the core of his being but also set him on the path to changing the world.",
+                "description4":"Despite this, freshly-Snapped Mistborn aren’t initially as powerful or skilled as those who begin play with Allomantic power. This is because they haven’t had the time to fully develop their gifts (it’s assumed a character who starts as an Allomancer has been at it a while and has already mastered the basics). A new Mistborn can grow stronger, of course, and may even surpass those who started the game with Allomantic power, but that requires more improvement (at the cost of more Advancements)."
+            },
+            "advancementVari":{
+                "title":"Gain a Hemalurgic Spike: ",
+                "description1":"Anyone can indulge in the dark practice of Hemalurgy if they know how and have the right tools at their disposal, but the cost is grave indeed. The spikes corrupt the spirit and damage the mind, and a feeble practitioner may find him or herself a slave to the dark god Ruin. \n A metal spike previously used to kill a human (ideally, an Allomancer or Feruchemist) is driven into your Hero’s body. The Power or ability it grants, as well as the number of Advancements it costs, is based on the type of spike used:",
+                "spikeTypes":[
+                    {
+                        "name":"Aluminum",
+                        "desc":"Steals the victim’s enhancement Allomancy, granting your Hero 1 Allomantic Power chosen from the Enhancement Metals (Aluminum, Duralumin, Chromium, or Nicrosil), and reducing his or her Spirit by 1. Costs 2 × the Allomancy rating your Hero gains (e.g. if you want to add Nicrosil 5, you must spend 10 Advancements)."
+                    },
+                    {
+                        "name":"Atium",
+                        "desc":"Steals the victim’s ability to burn Atium or use temporal Allomancy, granting your Hero 1 Allomantic Power chosen from the Temporal Metals or Atium (Gold, Electrum, Cadmium, Bendalloy, or Atium), and reducing his or her Spirit by 1. Costs 2 × the Allomancy rating your Hero gains (e.g. if you want to add Cadmium 5, you must spend 10 Advancements)."
+                    },
+                    {
+                        "name":"Brass",
+                        "desc":"Steals the victim’s mental Feruchemy, granting your Hero 1 Feruchemical Power chosen from the Mental Metals (Copper, Bronze, Zinc, or Brass), and reducing his or her Spirit by 1. Costs 2 × the Feruchemy rating your Hero gains (e.g. if you want to add Zinc 5, you must spend 10 Advancements)."
+                    },
+                    {
+                        "name":"Bronze",
+                        "desc":"Steals the victim’s mental Allomancy, granting your Hero 1 Allomantic Power chosen from the Mental Metals (Copper, Bronze, Zinc, or Brass), and reducing his or her Spirit by 1. Costs 2 × the Allomancy rating your Hero gains (e.g. if you want to add Brass 5, you must spend 10 Advancements)."
+                    },
+                    {
+                        "name":"Copper",
+                        "desc":"Steals the victim’s intelligence, increasing your Hero’s Wits by 1 and reducing his or her Charm and Spirit by 1 each. Additional spikes each increase your Hero’s Wits by 1 more die and further reduce his or her Charm and Spirit by 1 each. Costs 4 Advancements."
+                    },
+                    {
+                        "name":"Duralumin",
+                        "desc":"Steals the victim’s enhancement Feruchemy, granting your Hero 1 Feruchemical Power chosen from the Enhancement Metals (Aluminum, Duralumin, Chromium, or Nicrosil), and reducing his or her Spirit by 1. Costs 2 × the Feruchemy rating your Hero gains (e.g. if you want to add Chromium 5, you must spend 10 Advancements)."
+                    },
+                    {
+                        "name":"Gold",
+                        "desc":"Steals the victim’s temporal Feruchemy, granting your Hero 1 Feruchemical Power chosen from the Temporal Metals (Gold, Electrum, Cadmium, or Bendalloy), and reducing his or her Spirit by 1. Costs 2 × the Feruchemy rating your Hero gains (e.g. if you want to add Bendalloy 5, you must spend 10 Advancements)."
+                    },
+                    {
+                        "name":"Iron",
+                        "desc":"Steals the victim’s strength, granting your Hero 2 extra dice with rolls involving physical strength, and reducing his or her Wits and Spirit by 1 each. Additional spikes each add 1 more die with strength-based rolls and further reduce his or her Wits and Spirit by 1 each. Costs 4 Advancements."
+                    },
+                    {
+                        "name":"Pewter",
+                        "desc":"Steals the victim’s physical Feruchemy, granting your Hero 1 Feruchemical Power chosen from the Physical Metals (Tin, Pewter, Iron, or Steel), and reducing his or her Spirit by 1. Costs 2 × the Feruchemy rating your Hero gains (e.g. if you want to add Steel 5, you must spend 10 Advancements)."
+                    },
+                    {
+                        "name":"Steel",
+                        "desc":"Steals the victim’s physical Allomancy, granting your Hero 1 Allomantic Power chosen from the Physical Metals (Tin, Pewter, Iron, or Steel), and reducing his or her Spirit by 1. Costs 2 × the Allomancy rating your Hero gains (e.g. if you want to add Iron 5, you must spend 10 Advancements)."
+                    },
+                    {
+                        "name":"Tin",
+                        "desc":"Steals the victim’s senses, granting your Hero 2 extra dice with rolls involving 1 sense, and reducing his or her Charm and Spirit by 1 each. Additional spikes each add 1 more die with the same sense and further reduce his or her Charm and Spirit by 1 each. Costs 4 Advancements."
+                    },
+                    {
+                        "name":"Zinc",
+                        "desc":"Steals the victim’s mental stability and fortitude, increasing your Hero’s Willpower by 2 and reducing his or her Charm by 1. Additional spikes each increase your Hero’s Willpower by 1 more die and further reduce his or her Charm by 1. Costs 4 Advancements."
+                    }
+                ],
+                "description2":"A Hemalurgic spike may reduce a Hero’s Charm or Spirit below 2, which has dire effects when using that score to roll (see page 142). Also, any changes made to Attributes or Standings as a result of Hemalurgy affect Resiliences accordingly (so a lowered Spirit also reduces Willpower). \n Your Hero is now a Hemalurgist. Add the details described above to the Powers section of your character sheet, and apply any drawbacks from the spike as well. The exact benefits and drawbacks for each spike are found in the specific metal’s entry in the Treatise Metallurgic, which starts on page 263. \n Again, while Hemalurgy is the most direct way to gain new Powers, it’s not commonplace and can quickly shatter your Hero’s soul, leaving him or her a mad slave to Ruin. The Narrator may only agree to this improvement if you satisfy two story conditions... \n First, you need to explain how your character comes into possession of one or more Hemalurgic spikes and the wherewithal to use them. Hemalurgy is a closely-guarded secret of the Steel Ministry in the first novel, so Hemalurgists are generally found in its service in that period. Later, spikes become increasingly common.",
+                "example1":"Example: Cory wants Birch, his skaa soldier, to gain an Iron Hemalurgic spike. He describes Birch being captured by the Steel Ministry, which is intent on transforming him into a hideous creature using spikes. He summons all the might of his new abilities to escape, and he’s been on the run ever since. The Narrator thinks there’s good potential for a broad story arc here, so she approves it as an “off screen” event during the next Long Breather. Birch returns after the break with a spike and newfound Hemalurgic strength, but his Crew will have to deal with a lot more attention from the wrong quarters in the coming weeks and months.",
+                "description3":"Second, offer up one or more ways the corrupting influence of Ruin manifests as a developing aspect of your Hero’s personality, appearance, or both. This influence should grow with each subsequent spike past the first.",
+                "example2":"Example: Per the Treatise entry for Iron Hemalurgy (see page 308), a spike dulls the mind and swells the body. Birch is a noticeably short man, making a sudden height increase both interesting and noteworthy, so Cory tells the Narrator he’d like to start incorporating that into his descriptions. The Narrator agrees, warning that the effects should be gradual but have a progressively more potent effect on the story.",
+                "brandon":"Mixing Allomancy with Feruchemy is so highly unlikely during the original trilogy that it’s virtually impossible. The genetics won’t allow it. The only exception is adding a Hemalurgic spike. Narrators should think very carefully about allowing the mixing of two powers, as it can be very unbalancing. (The Alloy of Law era supplement will talk about how to manage it the right way.)"
+            }
         }
     ],
     "propped": [ 

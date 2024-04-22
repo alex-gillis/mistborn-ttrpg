@@ -5,6 +5,7 @@ import Samples from './Creation/Samples';
 import Starting from './Creation/Starting';
 import Terms from './Creation/Terms';
 import Build from './Creation/Build';
+import Improvement from './Creation/Improvement';
 
 function Creation(props) {
     const [myPage, setPage] = useState(0);
@@ -35,7 +36,7 @@ function Creation(props) {
             { myPage === 1 && <Samples era1={props.creation[1].era1Samples} era2={props.creation[1].era2Samples}/> }
             { myPage === 2 && <Terms gameTerms={props.creation[2].gameTerms}/> }
             { myPage === 3 && <Build start={props.creation[3]} building={props.creation[4]}  propped={props.propped} /> }
-            { myPage === 4 && <Samples era1={props.creation[1].era1Samples} era2={props.creation[1].era2Samples}/> }
+            { myPage === 4 && <Improvement improvement={props.creation[5]} /> }
         </div>
         
     </>
