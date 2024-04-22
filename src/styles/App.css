@@ -1,48 +1,8 @@
-#root {
-  max-width: 1280px;
-  height: 100%;
-  margin: 0 auto;
-  text-align: justify;
-  white-space: pre-line;  
-  vertical-align: bottom;
-}
-
-#bold {
-  font-weight: bolder;
-}
-
-#bolder {
-  font-weight: bolder;
+/* Elements */
+h1 {
+  text-align: center;
   text-decoration: underline;
 }
-
-#italicked {
-  font-style: italic;
-}
-
-#list {
-  margin-right: 25px;
-  margin-top: 90px;
-  min-width: 150px;
-  position: fixed;
-  padding-left: 2rem;
-}
-
-#info {
-  margin-top: 50px;
-  margin-left: 200px;
-  padding-right: 2rem;
-  margin-bottom: 35px;
-  width: 1080px;
-}
-
-#filters {
-  text-align: center;
-  width: 100%;
-}
-
-h1 { text-align: center;
-  text-decoration: underline; }
 
 h2 {
   margin-bottom: 2px;
@@ -66,7 +26,7 @@ h5 {
   margin-left: 10px;
 }
 
-thead{
+thead {
   text-align: center;
 }
 
@@ -76,143 +36,38 @@ table {
   margin-right: auto;
 }
 
-#nav-list {
-  border-style: solid;
-  border-color: silver;
-  border-right: 0px;
-  border-left: 0px;
-  border-top: 0px;
-  margin-bottom: 5px; 
-  list-style: none; 
-}
-
-.samples { width: 150px;}
-.heroSample { width: 85%; height:85%}
-.heroSample { width: 85%; height:85%}
-#sampleDisplay {
-  display: flex;
-  text-align: center;
-  width: 100%;
-}
-#rightSample { text-align: right;}
-
-.index-button {
-  border: none; 
-  background-color: transparent; 
-  text-align: right;
-  padding: 0px;
-  padding-right: 5px;
-  width: 100%;
-  opacity: 0.6;
-  transition: 0.3s;
-}:hover {opacity: 1}
-
-#head-button {
-  border: none; 
-  text-align: center;
-  padding-bottom: 1-px;
-  padding-top: 10px;
-  width: 125px;
-  border-radius: 0px;
-}
-
-#filter-button {
-  margin-right: 7.5px;
-  margin-left: 7.5px;
-}
-
-.unselected {
-  background-color: #242424;
-  opacity: 0.6;
-  transition: 0.3s;
-}:hover {opacity: 1}
-
-.selected {
-  background-color: #35465c;
-  opacity: 0.6;
-  transition: 0.3s;
-}:hover {opacity: 1}
-
 header {
   text-align: center;
   position: fixed;
   max-width: 1280px;
   width: 100%;
   background-color: #1a1a1a;
-  z-index: 2; 
+  z-index: 2;
+}
+
+@media only screen and (max-width: 1300px) {
+  #info {
+    width: auto;
+  }
+}
+
+/* IDs */
+#alphabet {
+  min-width: 300px;
+  display: block;
 }
 
 #basics {
   word-spacing: normal;
 }
 
-#diagram {
-  display: flex;
+#bold {
+  font-weight: bolder;
 }
 
-#steelInfo {
-  flex-grow: 2;
-  padding-left: 15px;
-  padding-top: 25%;
-  text-align: justify;
-}
-
-.steelInfo {
-  text-align: center;
-}
-
-#inquisitor {
-  padding-top: 5px;
-  height: 800px;
-  flex-grow: 3;
-}
-
-#startHead {
-  padding-top: 50px; 
-  text-align: center;
-  position: fixed;
-  max-width: 1280px;
-  width: 100%;
-  background-color: #1a1a1a;
-  z-index: 1; 
-}
-
-#intro { padding-top: 50px; text-align: justify;}
-
-#spoilers {text-align: center; padding-top: 25px;}
-#spoiler { padding-top: 15px; text-align: justify; padding-bottom: 50px;}
-
-#creation {
-  padding-bottom: 35px;
-}
-
-#steelAlphabet {
-  text-align: center;
-  width: 310px;
-  margin: 0 auto;
-}
-
-#alphabet {
-  min-width: 300px;
-  display: block;
-}
-
-.centerAlphabet {
-  text-align: center;
-  width: 100%;
-}
-
-#terms {
-  width: auto;
-}
-
-#creation {
-  padding-top: 75px;
-}
-
-#secret {
-  padding-top: 75px;
-  text-align: center;
+#bolder {
+  font-weight: bolder;
+  text-decoration: underline;
 }
 
 #brandon {
@@ -226,8 +81,6 @@ header {
   margin-right: 50px;
 }
 
-
-.basicBuild { width: 200px;}
 #buildInfo {
   margin-top: 50px;
   margin-left: 250px;
@@ -236,20 +89,203 @@ header {
   width: 1000px;
 }
 
-#buildTable {
-  margin-left: auto;
-  margin-right: auto;
-  border-color: grey;
-  border-style: solid;
+#creation {
+  padding-bottom: 35px;
+  padding-top: 75px;
 }
 
-#buildRow {
+#diagram {
+  display: flex;
+}
+
+#filters {
+  text-align: center;
+  width: 100%;
+}
+
+#head-button {
+  border: none;
+  text-align: center;
+  padding-bottom: 1-px;
+  padding-top: 10px;
+  width: 125px;
+  border-radius: 0px;
+}
+
+#info {
+  margin-top: 50px;
+  margin-left: 200px;
+  padding-right: 2rem;
+  margin-bottom: 35px;
+  width: 1080px;
+}
+
+#intro {
+  margin-top: 50px;
+}
+
+#inquisitor {
+  padding-top: 5px;
+  height: 800px;
+  flex-grow: 3;
+}
+
+#italicked {
+  font-style: italic;
+}
+
+#list {
+  margin-right: 25px;
+  margin-top: 90px;
+  min-width: 150px;
+  position: fixed;
+  padding-left: 2rem;
+}
+
+#nav-list {
+  border-style: solid;
+  border-color: silver;
+  border-right: 0px;
+  border-left: 0px;
+  border-top: 0px;
+  margin-bottom: 5px;
+  list-style: none;
+}
+
+#propDesc {
+  border-color: lightgray;
+  border-bottom-style: dotted;
+}
+
+#propNotes {
   border-color: grey;
   border-bottom-style: solid;
 }
 
-@media only screen and (max-width: 1300px) {
-  #info {
-    width: auto;
-  }
+#rightSample {
+  text-align: right;
+}
+
+#root {
+  max-width: 1280px;
+  height: 100%;
+  margin: 0 auto;
+  text-align: justify;
+  white-space: pre-line;
+  vertical-align: bottom;
+}
+
+#sampleDisplay {
+  display: flex;
+  text-align: center;
+  width: 100%;
+}
+
+#spoiler {
+  padding-top: 15px;
+  text-align: justify;
+  padding-bottom: 50px;
+}
+
+#spoilers {
+  text-align: center;
+  padding-top: 25px;
+}
+
+#startHead {
+  padding-top: 50px;
+  text-align: center;
+  position: fixed;
+  max-width: 1280px;
+  width: 100%;
+  background-color: #1a1a1a;
+  z-index: 1;
+}
+
+#starting {
+  padding-bottom: 25px;
+  padding-top: 15px;
+}
+
+#steelAlphabet {
+  text-align: center;
+  width: 310px;
+  margin: 0 auto;
+}
+
+#steelInfo {
+  flex-grow: 2;
+  padding-left: 15px;
+  padding-top: 25%;
+  text-align: justify;
+}
+
+#terms {
+  width: auto;
+}
+
+#secret {
+  padding-top: 75px;
+  text-align: center;
+}
+
+/* Classes */
+.basicBuild {
+  width: 200px;
+}
+
+.centerAlphabet {
+  text-align: center;
+  width: 100%;
+}
+
+.heroSample {
+  width: 85%;
+  height: 85%;
+}
+
+.index-button {
+  border: none;
+  background-color: transparent;
+  text-align: right;
+  padding: 0px;
+  padding-right: 5px;
+  width: 100%;
+  opacity: 0.6;
+  transition: 0.3s;
+}
+
+.index-button:hover {
+  opacity: 1;
+}
+
+.propTable {
+  column-count: 2;
+  column-gap: 75px;
+  column-width: 50%;
+  text-align: left;
+}
+
+.samples {
+  width: 150px;
+}
+
+.selected {
+  background-color: #35465c;
+  opacity: 0.6;
+  transition: 0.3s;
+}
+
+.selected:hover {
+  opacity: 1;
+}
+
+.unselected {
+  background-color: #242424;
+  opacity: 0.6;
+  transition: 0.3s;
+}
+
+.unselected:hover {
+  opacity: 1;
 }

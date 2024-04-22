@@ -86,8 +86,8 @@ function Third(props) {
         ))}
         <br/>
         <table id="buildTable">
-            {props.build.extraPossible.map(myItem => (
-                <tr>
+            {props.build.extraPossible.map((myItem, index) => (
+                <tr key={index}>
                     <td id="buildRow">{myItem.one}</td> 
                     <td id="buildRow">{myItem.two}</td>
                 </tr> 
@@ -102,8 +102,8 @@ function Third(props) {
         <div>{props.build.qTen1}</div>
         <br/>
         <table id="buildTable">
-            {props.build.destiny.map(myItem => (
-                <tr>
+            {props.build.destiny.map((myItem, index) => (
+                <tr key={index}>
                     <td id="buildRow">{myItem.one}</td> 
                     <td id="buildRow">{myItem.two}</td>
                 </tr> 

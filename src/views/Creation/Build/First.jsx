@@ -6,8 +6,8 @@ function First(props) {
         <h1>Step 1: Start with the Crew</h1>
         <div>{props.build.step1}</div>
         <div>
-          {props.build.questionCrew.map(myQuestion => (
-            <div>
+          {props.build.questionCrew.map((myQuestion, index) => (
+            <div key={index}>
               <h3 id="italicked">{myQuestion.question}</h3> 
               {myQuestion.description}
             </div> 

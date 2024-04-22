@@ -3255,52 +3255,52 @@
                         {   
                             "id": 0,
                             "item": "Bow and flint arrows *",
-                            "desc:": " Effective ranged weapon against Allomancers; contains no metal"
+                            "desc": " Effective ranged weapon against Allomancers; contains no metal"
                         },
                         {   
                             "id": 1,
                             "item": "Bow and steel arrows",
-                            "desc:": "Primary ranged weapon of common soldiers"
+                            "desc": "Primary ranged weapon of common soldiers"
                         },
                         {   
                             "id": 2,
                             "item": "Club / Staff",
-                            "desc:": "Favored weapon of rebels and thugs; contains no metal"
+                            "desc": "Favored weapon of rebels and thugs; contains no metal"
                         },
                         {   
                             "id": 3,
                             "item": "Dagger",
-                            "desc:": "Steel blade favored by thieves and assassins"
+                            "desc": "Steel blade favored by thieves and assassins"
                         },
                         {   
                             "id": 4,
                             "item": "Dueling cane",
-                            "desc:": "Stone-headed cane carried by nobles for defense and duels; contains no metal"
+                            "desc": "Stone-headed cane carried by nobles for defense and duels; contains no metal"
                         },
                         {   
                             "id": 5,
                             "item": "Hammer *",
-                            "desc:": "Two-handed working man’s hammer"
+                            "desc": "Two-handed working man’s hammer"
                         },
                         {   
                             "id": 6,
                             "item": "Obsidian dagger",
-                            "desc:": "Popular weapon of Mistborn, often carried in pairs; contains no metal"
+                            "desc": "Popular weapon of Mistborn, often carried in pairs; contains no metal"
                         },
                         {   
                             "id": 7,
                             "item": "Spear",
-                            "desc:": "Iron-tipped spear favored by hunters, rebels, and soldiers"
+                            "desc": "Iron-tipped spear favored by hunters, rebels, and soldiers"
                         },
                         {   
                             "id": 8,
                             "item": "Stone spear *",
-                            "desc:": "Flint or obsidian-tipped spear; contains no metal"
+                            "desc": "Flint or obsidian-tipped spear; contains no metal"
                         },
                         {   
                             "id": 9,
                             "item": "Sword",
-                            "desc:": "Steel blade carried by guards and soldiers"
+                            "desc": "Steel blade carried by guards and soldiers"
                         }
                     ]
                 },
@@ -3310,17 +3310,17 @@
                         {   
                             "id": 0,
                             "item": "Leather / Padded",
-                            "desc:": "Layered armor favored by thieves, Allomancers, and hazekillers"
+                            "desc": "Layered armor favored by thieves, Allomancers, and hazekillers"
                         },
                         {   
                             "id": 1,
                             "item": "Steel mail",
-                            "desc:": "Chain and leather armor worn by guards and soldiers"
+                            "desc": "Chain and leather armor worn by guards and soldiers"
                         },
                         {   
                             "id": 2,
                             "item": "Steel plate *",
-                            "desc:": "Heavy breastplate worn by the wealthiest and most foolhardy leaders"
+                            "desc": "Heavy breastplate worn by the wealthiest and most foolhardy leaders"
                         }
                     ]
                 },
@@ -3330,22 +3330,22 @@
                         {   
                             "id": 0,
                             "item": "Small metal shield",
-                            "desc:": "Standard shield of soldiery"
+                            "desc": "Standard shield of soldiery"
                         },
                         {   
                             "id": 1,
                             "item": "Small wooden shield",
-                            "desc:": "Sturdy shield carried by Lurchers; contains no metal"
+                            "desc": "Sturdy shield carried by Lurchers; contains no metal"
                         },
                         {   
                             "id": 2,
                             "item": "Large metal shield *",
-                            "desc:": "Used by cavalry and for ceremony"
+                            "desc": "Used by cavalry and for ceremony"
                         },
                         {   
                             "id": 3,
                             "item": "Large wooden shield *",
-                            "desc:": "Almost exclusively used by hazekillers; contains no metal"
+                            "desc": "Almost exclusively used by hazekillers; contains no metal"
                         }
                     ]
                 },
@@ -3355,22 +3355,22 @@
                         {   
                             "id": 0,
                             "item": "Pet",
-                            "desc:": "Cats, dogs, and wolfhounds kept by the sentimental and wealthy"
+                            "desc": "Cats, dogs, and wolfhounds kept by the sentimental and wealthy"
                         },
                         {   
                             "id": 1,
                             "item": "Cart",
-                            "desc:": "Two-wheeled cart used by laborers and craftsmen"
+                            "desc": "Two-wheeled cart used by laborers and craftsmen"
                         },
                         {   
                             "id": 2,
                             "item": "Horse",
-                            "desc:": "Riding mount common to wealthy skaa, nobles, and military"
+                            "desc": "Riding mount common to wealthy skaa, nobles, and military"
                         },
                         {   
                             "id": 3,
                             "item": "Horse & carriage *",
-                            "desc:": "Enclosed four-person vehicle favored by nobility"
+                            "desc": "Enclosed four-person vehicle favored by nobility"
                         }
                     ]
                 },
@@ -3380,67 +3380,67 @@
                         {   
                             "id": 0,
                             "item": "Banned book *",
-                            "desc:": "Contains information on a topic banned by the Lord Ruler"
+                            "desc": "Contains information on a topic banned by the Lord Ruler"
                         },
                         {   
                             "id": 1,
                             "item": "Bottle of wine / ale",
-                            "desc:": " Popular with bon vivants of all classes; used for loosening tongues and inhibitions"
+                            "desc": " Popular with bon vivants of all classes; used for loosening tongues and inhibitions"
                         },
                         {   
                             "id": 2,
                             "item": "Craftsman’s tools",
-                            "desc:": "Supports one occupation (e.g. carpentry, metallurgy, etc.)"
+                            "desc": "Supports one occupation (e.g. carpentry, metallurgy, etc.)"
                         },
                         {   
                             "id": 3,
                             "item": "Dagger",
-                            "desc:": "Steel blade favored by thieves and assassins"
+                            "desc": "Steel blade favored by thieves and assassins"
                         },
                         {   
                             "id": 4,
                             "item": "Disguise",
-                            "desc:": "Helpful when concealing or impersonating one person’s identity"
+                            "desc": "Helpful when concealing or impersonating one person’s identity"
                         },
                         {   
                             "id": 5,
                             "item": "Formal clothing or jewelry",
-                            "desc:": "Useful when blending in at high society events like Imperial gatherings and balls"
+                            "desc": "Useful when blending in at high society events like Imperial gatherings and balls"
                         },
                         {   
                             "id": 6,
                             "item": "Lockpicks",
-                            "desc:": "Useful when picking locks"
+                            "desc": "Useful when picking locks"
                         },
                         {   
                             "id": 7,
                             "item": "Medical supplies",
-                            "desc:": " Useful for treating wounds and during certain Mental Conflicts (see page 219)"
+                            "desc": " Useful for treating wounds and during certain Mental Conflicts (see page 219)"
                         },
                         {   
                             "id": 8,
                             "item": "Mistcloak",
-                            "desc:": "A symbol of a Mistborn’s station; useful when concealing oneself in the mists"
+                            "desc": "A symbol of a Mistborn’s station; useful when concealing oneself in the mists"
                         },
                         {   
                             "id": 9,
                             "item": "Pocket watch",
-                            "desc:": "A popular symbol of wealth; keeps good time"
+                            "desc": "A popular symbol of wealth; keeps good time"
                         },
                         {   
                             "id": 10,
                             "item": "Pen and blank book",
-                            "desc:": "Vital tools of the scribe"
+                            "desc": "Vital tools of the scribe"
                         },
                         {   
                             "id": 11,
                             "item": "Rope and grapple",
-                            "desc:": "Helpful when climbing, crossing gaps, or binding someone"
+                            "desc": "Helpful when climbing, crossing gaps, or binding someone"
                         },
                         {   
                             "id": 12,
                             "item": "Writing steel",
-                            "desc:": "Thin sheets of steel for inscribing sacred information, which cannot be altered by metaphysical powers (such as Ruin"
+                            "desc": "Thin sheets of steel for inscribing sacred information, which cannot be altered by metaphysical powers (such as Ruin"
                         }
                     ]
                 },
@@ -3450,27 +3450,27 @@
                         {   
                             "id": 0,
                             "item": "Bones (1 set) ",
-                            "desc:": "Allows kandra to imitate one specific person or animal"
+                            "desc": "Allows kandra to imitate one specific person or animal"
                         },
                         {   
                             "id": 1,
                             "item": "Metalminds (3) **",
-                            "desc:": "Each metalmind allows a Feruchemist (only) to store in and tap from one metal: Brass, Bronze, Copper, Iron, Pewter, Steel, Tin, or Zinc; each single metalmind Prop consists of three physical metalminds, each of one different metal"
+                            "desc": "Each metalmind allows a Feruchemist (only) to store in and tap from one metal: Brass, Bronze, Copper, Iron, Pewter, Steel, Tin, or Zinc; each single metalmind Prop consists of three physical metalminds, each of one different metal"
                         },
                         {   
                             "id": 2,
                             "item": "Misting vial **",
-                            "desc:": "Contains 3 charges of Brass, Bronze, Copper, Iron, Pewter, Steel, Tin, or Zinc (choose only one metal)"
+                            "desc": "Contains 3 charges of Brass, Bronze, Copper, Iron, Pewter, Steel, Tin, or Zinc (choose only one metal)"
                         },
                         {   
                             "id": 3,
                             "item": "Mistborn vial **",
-                            "desc:": "Contains 1 charge of Brass, Bronze, Copper, Iron, Pewter, Steel, Tin, and Zinc (1 charge of each metal)"
+                            "desc": "Contains 1 charge of Brass, Bronze, Copper, Iron, Pewter, Steel, Tin, and Zinc (1 charge of each metal)"
                         },
                         {   
                             "id": 4,
                             "item": "Sack of copper clips / set of horseshoes",
-                            "desc:": "Coins or other metal objects used by Coinshots and Mistborn for Steeljumping or as weapons (Damage: +1; Min / Max Range: Striking / Medium)"
+                            "desc": "Coins or other metal objects used by Coinshots and Mistborn for Steeljumping or as weapons (Damage: +1; Min / Max Range: Striking / Medium)"
                         }
                     ]
                 }

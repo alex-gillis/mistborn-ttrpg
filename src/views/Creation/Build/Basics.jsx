@@ -1,9 +1,8 @@
-
 /* eslint-disable react/jsx-key */
 /* eslint-disable react/prop-types */
 function Basics(props) {
     return (
-      < >
+      <>
         <h1>Building Heroes</h1>
         <div>{props.build.heroes}</div>
         <h2>What Makes A Hero</h2>
@@ -13,7 +12,7 @@ function Basics(props) {
             {props.build.attri1}
             <ul>
                 {props.build.attributes?.map((myAttribute, index) => (
-                    <li  key={index}>
+                    <li key={index}>
                         <span id="bold">{myAttribute.name}</span> {myAttribute.description}
                     </li>
                 ))}
@@ -25,7 +24,7 @@ function Basics(props) {
             {props.build.stand1}
             <ul>
                 {props.build.standing?.map((myStanding, index) => (
-                    <li  key={index}>
+                    <li key={index}>
                         <span id="bold">{myStanding.name}</span> {myStanding.description}
                     </li>
                 ))}
@@ -42,7 +41,7 @@ function Basics(props) {
             {props.build.power1}
             <ul>
                 {props.build.powers?.map((myPower, index) => (
-                    <li  key={index}>
+                    <li key={index}>
                         <span id="bold">{myPower.name}</span> {myPower.description}
                     </li>
                 ))}
@@ -54,16 +53,16 @@ function Basics(props) {
             {props.build.trait1}
             <ul>
                 {props.build.traits?.map((myTrait, index) => (
-                    <li  key={index}>
+                    <li key={index}>
                         {myTrait.trait}
                     </li>
                 ))}
             </ul>
             {props.build.examples?.map((myExample, index) => (
-                <div>
-                <div>{myExample.text}</div> 
+                <div key={index}>
+                    <div>{myExample.text}</div> 
                     <ul>
-                        <li  key={index}>
+                        <li>
                             <div>{myExample.example}</div>
                         </li>
                     </ul>
@@ -73,7 +72,7 @@ function Basics(props) {
             {props.build.trait1}
             <ul>
                 {props.build.create?.map((myTrait, createIndex) => (
-                    <li  key={createIndex}>
+                    <li key={createIndex}>
                         {myTrait.trait}
                     </li>
                 ))}
@@ -84,7 +83,7 @@ function Basics(props) {
             {props.build.resil1}
             <ul>
                 {props.build.resilience?.map((myResilience, index) => (
-                    <li  key={index}>
+                    <li key={index}>
                         <span id="bold">{myResilience.name}</span> {myResilience.description}
                     </li>
                 ))}
@@ -93,17 +92,17 @@ function Basics(props) {
         </div>
         <div>
             <h3>Props</h3>
-        <div>
-            {props.build.prop1}
-            <ul>
-                {props.build.props?.map(myProps => (
-                    <li  key={myProps.id}>
-                        <span id="bold">{myProps.name}</span> {myProps.description}
-                    </li>
-                ))}
-            </ul>
-            {props.build.prop2}
-        </div>
+            <div>
+                {props.build.prop1}
+                <ul>
+                    {props.build.props?.map((myProps, index) => (
+                        <li key={index}>
+                            <span id="bold">{myProps.name}</span> {myProps.description}
+                        </li>
+                    ))}
+                </ul>
+                {props.build.prop2}
+            </div>
             <h3>Destiny and Tragedy</h3>
             <div>{props.build.destinedTragedy}</div>
             <br/> 
@@ -114,10 +113,8 @@ function Basics(props) {
             <h3>Secrets</h3>
             <div>{props.build.secrets}</div>
         </div>
-        
       </>
-    )
-  }
+    );
+}
   
-  export default Basics
-  
+export default Basics;
