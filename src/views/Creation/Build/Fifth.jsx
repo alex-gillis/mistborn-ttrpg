@@ -19,6 +19,7 @@ function Fifth(props) {
             <div>Write your choice (or required race) in the space provided beneath the Mistborn logo on your character sheet</div>
             <br/>
             <div id="italicked">{props.build.example10}</div>
+            <br/>
             <div id="brandon">
                 <h4>From Brandon</h4>
                 {props.build.brandon3}
@@ -46,6 +47,7 @@ function Fifth(props) {
             <div>
                 {props.build.noble}
             </div>
+            <br/>
             <table id="buildTable">
                 <thead>
                     <tr><th colSpan={4}>Male Names</th></tr>
@@ -187,9 +189,11 @@ function Fifth(props) {
                 <br/>
                 {props.build.props2}
                 <br/>
+                <br/>
                 <div id="italicked">{props.build.example12}</div>
                 <br/>
                 {props.build.props3}
+                <br/>
                 <br/>
                 <div id="italicked">{props.build.example13}</div>
                 <br/>

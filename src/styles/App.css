@@ -24,6 +24,11 @@ h5 {
   margin-bottom: 0;
   margin-top: 8px;
   margin-left: 10px;
+  text-align: center;
+}
+
+th {
+  text-decoration: underline;
 }
 
 thead {
@@ -55,6 +60,7 @@ header {
 #alphabet {
   min-width: 300px;
   display: block;
+  filter: invert(0.9);
 }
 
 #basics {
@@ -89,9 +95,20 @@ header {
   width: 1000px;
 }
 
+#buildTable {
+  margin-left: auto;
+  margin-right: auto;
+  border-color: grey;
+  border-style: solid;
+}
+
 #creation {
   padding-bottom: 35px;
   padding-top: 75px;
+}
+
+#desc {
+  padding-bottom: 25px;
 }
 
 #diagram {
@@ -222,6 +239,9 @@ header {
 
 #terms {
   width: auto;
+  margin-bottom: 15px;
+  line-height: 1.1;
+  font-size: large;
 }
 
 #secret {

@@ -2,6 +2,7 @@
 import Metallurgy from './Metallurgy';
 import Creation from './Creation';
 import Cultures from './Cultures';
+import Conflicts from './Conflicts';
 import Intro from './Intro';
 import '../styles/App.css';
 import { useState, useEffect } from 'react';
@@ -61,6 +62,7 @@ function Menu() {
             { myPage === 0 && <Intro /> }
             { myPage === 1 && <Creation creation={myCreations} propped={myProps[0]}/> }
             { myPage === 2 && <Cultures /> }
+            { myPage === 3 && <Conflicts /> }
             { myPage === 4 && myMetals[0] && myBasics[0] && <Metallurgy basics={myBasics} metals={myMetals} /> }
         </>
     );

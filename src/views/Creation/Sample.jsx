@@ -7,7 +7,9 @@ function Sample(props) {
     return (
       < >
         <h1>{props.hero.name}</h1>
-        {props.hero.info}
+        <div id="desc">
+          {props.hero.info}
+        </div>
         <div id="sampleDisplay">
             <div>
                 <img className="heroSample" src={props.hero.sheet} alt={altSheet}/>
