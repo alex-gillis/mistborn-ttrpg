@@ -3393,10 +3393,10 @@
                 "description3":"Your Hero develops a new skill, talent, knack, quirk, occupation, or relationship, in addition to the others he or she already has. Work with the Narrator to decide on a new Trait and record it in the Traits section of your character sheet. New Traits must follow all the rules for creating Traits in Building Characters."
             },
             "advancement5": {
-                "title1":"",
-                "description1":"",
-                "title2":"",
-                "description2":""
+                "title1":"Increase One Attribute: ",
+                "description1":"Your Hero’s raw physical, social, or mental strength improves. Increase his or her Physique, Charm, or Wits by 1 die, to a maximum of 6 dice.",
+                "title2":"Increase One Standing: ",
+                "description2":"Your Hero’s worldly presence grows. Increase his or her Resources, Influence, or Spirit by 1 die, to a maximum of 10 dice. "
             },
             "advancement6":{
                 "title1":"Recover from a Mortal Burden: ",
@@ -3407,13 +3407,13 @@
                 "description3":"Your Hero’s control over his or her magic deepens.",
                 "increases": [
                     {
-                        "power":"(Allomancers) Increase your Hero’s Allomancy rating with a single metal by 1, to a maximum of 10."
+                        "option":"(Allomancers) Increase your Hero’s Allomancy rating with a single metal by 1, to a maximum of 10."
                     },
                     {
-                        "power":"(Feruchemists) Increase your Hero’s Feruchemy rating with a single metal by 1, to a maximum of 10."
+                        "option":"(Feruchemists) Increase your Hero’s Feruchemy rating with a single metal by 1, to a maximum of 10."
                     },
                     {
-                        "power":"(Kandra) Increase your Hero’s Mimicry rating by 1, to a maximum of 10."
+                        "option":"(Kandra) Increase your Hero’s Mimicry rating by 1, to a maximum of 10."
                     }
                 ],
                 "description4":"If your Hero has multiple Powers (e.g. he or she is a Mistborn or Keeper), you may increase his or her ratings with any number of metals, though this must be done separately (at a cost of 6 Advancements per increase, per metal). You should record metals with increased ratings on separate lines to keep them straight."
