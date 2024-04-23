@@ -31,6 +31,10 @@
                         "description": "You have near-perfect memory with a single sense, letting you identify familiar voices or smells, distinguish forged signatures from real ones you’ve seen before, and so forth. No roll is required for these actions — they’re automatically successful. You may gain this Stunt up to five times, once for each sense."
                     },
                     {
+                        "name": "Tin-ker",
+                        "description": "By using your finely-honed sense. you can detect structural and manufacturing defects in a mechanical object or device, allowing you to quickly disable it. While burning Tin, the Difficulty of all rolls to disable simple objects such as a locks, door hinges, or pulleys is reduced by 2, while the Difficulty of rolls to disable more complex objects such as guns, automobiles, or electrical systems is reduced by 1. In either case, this Difficulty cannot be reduced below 1."
+                    },
+                    {
                         "name": "Lie Detector (Trait)",
                         "description": "By using smell, sight, and hearing to detect slight changes in a person’s demeanor, you can better determine whether or not they are telling the truth. In addition to the story implications and descriptive applications, this Stunt grants the “Allomantic Lie Detector” Trait while you’re burning or flaring Tin."
                     }
@@ -81,6 +85,50 @@
                     {
                         "name": "Trick Shooting",
                         "description": "Your incredible visual acuity lets you make tough shots with ease. When you make a Called Shot or Fan a revolver (see the Mistborn Adventure Game page 201, and page 134 of this book), you may tap 10 charges of sight to gain a single “free” Nudge on your roll. "
+                    }
+                ]
+            },
+            "compounding":{
+                "stunts":[
+                    {
+                        "name":"Spatial Sense (Compounding)",
+                        "description":"By spending 10 or more Compounded charges of touch or hearing, you can detect the precise locations of people, machines, animals, and anything else moving within a single structure; by spending more charges, you can detect all objects, whether they are moving or not. The number of charges required depends on the size of the structure:",
+                        "table":[
+                            {
+                                "one":"Structure Size",
+                                "two":"Charges to Detect Movement",
+                                "three":"Charges to Detect All"
+                            },
+                            {
+                                "one":"Small (1-room cabin, small cave)",
+                                "two":"20",
+                                "three":"30"
+                            },
+                            {
+                                "one":"Average (Small store, 2-bedroom house)",
+                                "two":"30",
+                                "three":"40"
+                            },
+                            {
+                                "one":"Large (locomotive car, large house or store)",
+                                "two":"40",
+                                "three":"60"
+                            },
+                            {
+                                "one":"Huge (large cave, governmental building)",
+                                "two":"60",
+                                "three":"80"
+                            },
+                            {
+                                "one":"Massive (large mansion, full-sized factory)",
+                                "two":"80",
+                                "three":"100"
+                            }
+                        ]
+                    },
+                    {
+                        "name":"Penetrating Vision (Compounding)",
+                        "description":"By spending 60 Compounded charges of sight, your vision grows so acute that you can peer between the motes that make up solid matter; you can see through most solid objects. Using this Stunt allows you to see clearly through anything but metal — though you can clearly see the outline of metal you are unable to peer through."
                     }
                 ]
             },
@@ -173,6 +221,45 @@
                     {
                         "name": "Steady Hand",
                         "description": "Your hands are as strong and steady as steel. When you make an Aimed attack, you may tap 10 charges of strength to retain your Aiming bonus (see page 133). Additionally, you may also tap 10 charges of strength to retain your Aiming bonus during a Round in which you move farther than 1 Step."
+                    }
+                ]
+            },
+            "compounding":{
+                "stunts":[
+                    {
+                        "name":"Earthshaker (Compounding)",
+                        "description":"By spending Compounded charges of strength and forfeiting all other actions during a Beat, you can stamp or pound on the ground, shaking the earth and potentially destroying whatever your limbs land on. The quake affects all characters within 3–10 paces of you (Close Range). The number of charges spent determines the Difficulty of Physique rolls they must make to stay on their feet, and the damage they suffer if they fail the roll:",
+                        "table":[
+                            {
+                                "one":"Compounded",
+                                "two":"Physique Difficulty",
+                                "three":"Damage on Failure"
+                            },
+                            {
+                                "one":"40",
+                                "two":"1",
+                                "three":"0"
+                            },
+                            {
+                                "one":"70",
+                                "two":"2",
+                                "three":"1"
+                            },
+                            {
+                                "one":"100",
+                                "two":"3",
+                                "three":"2"
+                            },
+                            {
+                                "one":"130",
+                                "two":"4",
+                                "three":"3"
+                            }
+                        ]
+                    },
+                    {
+                        "name":"Vaulting Leap (Compounding)",
+                        "description":"By spending 10 or more Compounded charges of strength, you can jump long distances. For every 10 charges of Compounded Pewter you tap, you move 1 Step (see the Mistborn Adventure Game, page 198). This movement does not count as an adverse condition as normal. During a Conflict, you can make no more than one vaulting leap per Beat."
                     }
                 ]
             },
@@ -272,6 +359,77 @@
                     {
                         "charges": "50",
                         "examples": "100 × normal weight; stop a huge rolling boulder its tracks; break through a metal floor; inflict +5 damage with physical attacks"
+                    }
+                ]
+            },
+            "compounding": {
+                "stunts":[
+                    {
+                        "name":"Full Stop (Compounding)",
+                        "description":"By spending 20 or more Compounded charges of weight, you can make a moving conveyance carrying you come to a complete stop, or even to crash. The Compounded charges required to stop and/or damage depends on the size of the conveyance. A stopped vehicle is stuck for one full Beat (as it has to pull its legs or wheels free from mud, or bail water taken on from your weight shift), while a crashed vehicle can no longer move (as you break the horse’s back, shatter a wagon or horseless carriage’s axles, or sink the ship).",
+                        "table":[
+                            {
+                                "one":"Conveyance Size",
+                                "two":"Charges to Stop",
+                                "three":"Charges to Crash"
+                            },
+                            {
+                                "one":"Small (man)",
+                                "two":"20",
+                                "three":"30"
+                            },
+                            {
+                                "one":"Average (small cart, horse)",
+                                "two":"30",
+                                "three":"40"
+                            },
+                            {
+                                "one":"Large (horseless carriage, full-size wagon)",
+                                "two":"40",
+                                "three":"60"
+                            },
+                            {
+                                "one":"Huge (small locomotive, small ship)",
+                                "two":"60",
+                                "three":"80"
+                            },
+                            {
+                                "one":"Massive (large locomotive, barge)",
+                                "two":"80",
+                                "three":"100"
+                            }
+                        ]
+                    },
+                    {
+                        "name":"Ironrend (Compounding)",
+                        "description":"By Compounding 20 or more charges of Iron, you may simultaneously root yourself in place with Feruchemy and power a massive Ironpull to tear apart a complex metal object instantly. The size of the object determines how many Compounded charges have to be spent in order to rend it. \n There are some limitations to this ability, however. Only machines and other objects composed of multiple parts can be rent. Simple items such as a koloss blade, which is a single massive piece of metal, can’t be torn apart. This process also puts a great physical strain on you, particularly when the object is heavier than yourself; you suffer damage based on the size of the object being rent. Finally, if you rend an item someone is holding, the holder must succeed on a Physique 3 Challenge to prevent the item from being disassembled.",
+                        "table":[
+                            {
+                                "one":"Object Size",
+                                "two":"Charges to Rend",
+                                "three":"Damage Suffered"
+                            },
+                            {
+                                "one":"Small (music box, lock, revolver)",
+                                "two":"30",
+                                "three":"0"
+                            },
+                            {
+                                "one":"Medium (chandelier, rifle, stove)",
+                                "two":"60",
+                                "three":"1"
+                            },
+                            {
+                                "one":"Large (horseless carriage)",
+                                "two":"100",
+                                "three":"2"
+                            },
+                            {
+                                "one":"Massive (train car)",
+                                "two":"150",
+                                "three":"3"
+                            }
+                        ]
                     }
                 ]
             },
@@ -392,6 +550,18 @@
                     }
                 ]
             },
+            "compounding":{
+                "stunts":[
+                    {
+                        "name":"Bullet Dodge (Compounding, Reaction)",
+                        "description":"By spending Compounded charges of Speed, you can easily dodge attacks made with metal projectiles and objects, including bullets. When you’re attacked with a metal object (such as a bullet or steel-headed arrow), you may spend 10 Compounded charges of Steel to gain two additional Defense Dice against that attack. This is a Reaction (see the Mistborn Adventure Game, page 177). These dice are separate from your Action Dice, but you can still spend Action Dice to add to this pool and tap charges to add dice, Nudges, and Outcome increases. You may use this Stunt any number of times per Beat (provided you keep Compounding your steelmind, of course)."
+                    },
+                    {
+                        "name":"Extra Action (Compounding)",
+                        "description":"Once per Beat, during Step 1 of a Conflict, you may tap 40 Compounded charges of Steel to take two actions during Step 2 (see the Mistborn Adventure Game, page 179). Both your declared actions must be physical feats that can use the same dice pool (such as kicking a foe’s legs out from under him and attacking him with a knife, or driving a carriage along a ridge and shooting your pursuer between the eyes). Note this Stunt does not increase the number of Action Dice you get — only the number of actions you can take. You resolve your first action based on your Action Dice as normal, and the second action at the end of the round (as if your Action Dice were 0). When you take these actions, your movements are inhumanly fast, making it impossible to hide your use of powers from observers. \n Additionally, the strain of this movement takes a major toll on your body. Each time you use this Stunt during a Conflict after the first, you suffer 1 damage and must tap an additional 10 Compounded charges of speed. This damage can’t be prevented in any way (such as from armor, Powers, etc.). These penalties are cumulative (thus, using this Stunt the third time during a Conflict inflicts 2 damage and costs you 60 Compounded charges)."
+                    }
+                ]
+            },
             "hemalurgy": {
                 "lore": "Steel spikes are a basic component for creating Steel Inquisitors. Depending on where the spike is driven in, it steals, stores, and transfers a single Allomantic Power derived from any one of the four Physical Metals (e.g. increasing senses, improving physical fitness, or Pulling or Pushing metal objects). Each spike may store only one Power.",
                 "spikes": "A Steel spike grants you a single Allomantic Power — Tin, Pewter, Iron, or Steel — with a rating equal to that of the spike. Each spike reduces your Spirit score by 1, as normal. ",
@@ -494,6 +664,18 @@
                     }
                 ]
             },
+            "compounding":{
+                "stunts":[
+                    {
+                        "name":"Stitched Memories (Compounding)",
+                        "description":"By spending 20 or more charges of Compounded memory, you can synthesize several accounts of an event you’ve only heard retellings of, just as though you were there (i.e., you can synthesize two eyewitness accounts of an event and relive it as it happened, finding the truth of the situation). Using this Stunt requires you to spend 20 Compounded charges of memory, plus 10 additional Compounded charges for every 5 minutes the event lasted (rounded up). No matter the length of the event you are recreating, reliving this stitched memory only takes one Beat."
+                    },
+                    {
+                        "name":"Physical Mimicry (Compounding)",
+                        "description":"By spending 20 Compounded charges of memory, you can imitate any action that you’ve seen once, as long as you saw it clearly. This includes complex physical tasks such as a secret handshake, running a locomotive engine, or modifying and reassembling a revolver. \n Note that knowing how to perform one task doesn’t help you perform related tasks, since you don’t necessarily understand everything you’re doing — you can merely mimic it. For instance, if you’ve watched an artist draw a lovely sketch of a particular house, you could draw the exact same house in exactly the same manner…but knowing how to draw that house wouldn’t help you draw a different scene. Additionally, your mimicry is limited by your actual physical abilities; while you can replicate the motions of a Pewter-fueled punch, your body can’t necessarily pull it off!"
+                    }
+                ]
+            },
             "hemalurgy": {
                 "lore": "Copper spikes store intelligence and memory. They’re very rarely used on humans due to the terrible dementia and frequent insanity produced as shards of a stored soul shred a recipient’s mind.\nKandra with the Blessing of Presence sport a pair of copper spikes, which sharpen their mind without mental instability.",
                 "spikes": "A Copper spike increases your Wits score by 1, to a maximum of 10. However, both your Charm and Spirit scores drop by 1 for each Copper spike you receive (rather than just your Spirit). Additionally, you may hear voices or recall memories that seem familiar yet oddly alien. This effect is especially common when you encounter pieces of the life left behind by the spike’s original victim.",
@@ -546,6 +728,18 @@
                 "tapped": "Feruchemists who tap huge amounts of wakefulness can stay awake for weeks at a time, or resist falling unconscious from injury. For every 10 charges tapped, you may stay awake for up to 1 week (168 hours) without normal fatigue. \nAlternately, when an injury would normally knock you unconscious, you may tap 10 or more charges of Bronze to continue acting for 1 minute per 10 charges tapped.",
                 "example":"",
                 "tapping": []
+            },
+            "compounding":{
+                "stunts":[
+                    {
+                        "name":"Presence of Mind (Compounding, Reaction)",
+                        "description":"By spending Compounded Bronze, you may steel your will. When you’re aware of another character’s attempts to influence you with emotional Allomancy, you can spend 10 Compounded charges of Bronze to gain two additional Defense Dice against that Power or attack. This is a Reaction (see the Mistborn Adventure Game, page 177). These dice are separate from your Action Dice, but you may add Action Dice to this pool and tap charges to add dice, Nudges, and increase Outcome as normal. You may use this Stunt any number of times per Beat (provided you keep Compounding your bronzemind, of course). \n Additionally, you may use this Stunt to recover Willpower during a Short Breather, at a cost of 20 Compounded charges per point of Willpower. This recovery is above and beyond those points normally gained during a Short Breather."
+                    },
+                    {
+                        "name":"Inhuman Endurance (Compounding)",
+                        "description":"Your Compounding allows you to exhibit koloss-like endurance in a number of situations. By spending Compounded charges of Bronze, you may ignore the effects of one Burden related to tiredness or fatigue for the next 3 Beats (see the Mistborn Adventure Game, page 187). The number of Compounded charges you must spend depends on the severity of the Burden; ignoring a Serious Burden costs 10 Compounded charges; ignoring a Grave Burden costs 20 Compounded charges; and ignoring a Mortal Burden costs 30 Compounded charges. \n Additionally, when you’re physically Incapacitated, you can tap 40 Compounded charges to remain awake for 1 additional Beat, even when you’re on the brink of death (see the Mistborn Adventure Game, page 185). \n Finally, you recover the standard amount of Health during Short Breathers, even if you don’t sit out for the Breather."
+                    }
+                ]
             },
             "hemalurgy": {
                 "lore": "Bronze spikes store Mental Allomantic Powers. The most common recipients of these spikes are Seekers-turned-Steel Inquisitors, who augment their own natural ability with stolen Bronze and use the mighty combination to pierce copperclouds. Depending on where the spike is driven in, it steals, stores, and transfers a single Allomantic Power derived from any one of the four Mental Metals (e.g. the ability to hide Allomantic use, detect Allomancy, Riot the emotions of others, or Soothe them). Each spike may store only one Power.",
@@ -626,6 +820,18 @@
                     }
                 ]
             },
+            "compounding":{
+                "stunts":[
+                    {
+                        "name":"Inhuman Insight (Compounding)",
+                        "description":"You think so fast that you can process and understand the world in ways impossible for ordinary humans to understand. At the beginning of Step 1 of a Conflict, you may spend 10 Compounded charges of mental speed to declare your action as if you had Wits 11 (see the Mistborn Adventure Game, page 174). Additionally, you may take this action at any point in Step 2 that you wish — going first, last, or immediately after any other action. You cannot interrupt another character’s action in this way, and if you choose to act at the same time as another character using this Stunt, your actions occur simultaneously. \n Additionally, you may spend 10 Compounded charges of Zinc to ignore the effects of declaring a new action during a Conflict."
+                    },
+                    {
+                        "name":"Inhuman Endurance (Compounding)",
+                        "description":"By spending 10 or more Compounded charges of mental speed, you can make complicated logical connections rapidly (such as discovering a secret about a situation, determining weaknesses in a plan, sussing out a connection between two people, etc.). Making these lateral links costs 10 Compounded charges, plus an additional 10 for each correct logical leap you have to make (usually because you lack information). The Narrator tells you each logical leap you make, and you may continue tapping charges until you find out what you were looking for, until you run out of Compounded charges, or until you give up on finding the answer. \n\n Example: Sam’s Twinborn character Raymund is trying to figure out why a lawkeeper killed an honest businessman and disappeared. Thinking for a moment, the Narrator decides Raymund will need to spend 40 Compounded charges to get to the heart of the matter: 10 to find out that the businessman was in debt to a land baron; then 10 to discover that the lawkeeper fancied the businessman’s sister; then 10 to know the businessman promised his sister’s hand in marriage to the baron; and 10 more to learn that the lawkeeper and sister ran off together."
+                    }
+                ]
+            },
             "hemalurgy": {
                 "lore": "Zinc spikes store emotional stability and fortitude, and like other Hemalurgic spikes that steal innate human qualities these twist and warp recipients, inside and out.\nThese spikes are by far the rarest of kandra Blessings, as the emotional stability they produce renders the recipient resistant to Allomantic control (and thus, much more dangerous). ",
                 "spikes": "A Zinc spike increases your Willpower by 2, but also reduces your Charm score by 1 (rather than your Spirit, as normal).",
@@ -697,6 +903,18 @@
                     }
                 ]
             },
+            "compounding":{
+                "stunts":[
+                    {
+                        "name":"Kindling Touch (Compounding)",
+                        "description":"By spending 30 or more Compounded charges of warmth, you can release extreme heat from a specific portion of your body (typically your hands). Spending 30 Compounded charges of Brass allows you to char wood, ignite cloth and explosive fuses, or melt soft metals like gold, bronze, silver, lead, or aluminum; spending 40 Compounded charges, you can cause wood to burst into flame or work iron and steel as if it were in a blacksmith’s fire."
+                    },
+                    {
+                        "name":"Protective Heat (Compounding)",
+                        "description":"By spending 10 Compounded charges of warmth, you begin to shimmer and glow with heat, causing anyone who touches you this Beat to suffer 1 damage. By spending 30 Compounded charges of warmth, those touching you instead suffer 2 damage, and wooden weapons that hit you burst into flame before making contact, inflicting no damage. Using this Stunt will destroy any clothing and gear that isn’t fireproofed, leaving you clad only in shimmering waves of heat."
+                    }
+                ]
+            },
             "hemalurgy": {
                 "lore": "Depending on where a Brass spike is driven in, it steals, stores, and transfers a single Feruchemical Power derived from any one of the four Mental Metals (e.g. the ability to store or tap memories, wakefulness, mental speed, or warmth). Each spike may store only one Power. ",
                 "spikes": "A Brass spike grants you a single Feruchemical Power — Copper, Bronze, Zinc, or Brass — with a rating equal to that of the spike. Each spike reduces your Spirit by 1, as normal.",
@@ -757,6 +975,14 @@
                     {
                         "charges": "100",
                         "examples": "Wipes your identity clean — your personality is essentially a blank slate"
+                    }
+                ]
+            },
+            "compounding":{
+                "stunts":[
+                    {
+                        "name":"Mental Barricade (Compounding)",
+                        "description":"By spending 40 Compounded charges of identity, you shake off outside influences on your mental state, temporarily ignoring all mental Burdens and becoming immune to mental manipulation (including emotional Allomancy) for the current Beat. You may continue this protection by spending 10 more Compounded charges per Beat thereafter."
                     }
                 ]
             },
@@ -821,6 +1047,14 @@
                     }
                 ]
             },
+            "compounding":{
+                "stunts":[
+                    {
+                        "name":"Perfect Rapport (Compounding)",
+                        "description":"By spending 20 Compounded charges of connection, you may deepen your sensitivity to the point where you can share feelings with all other characters within 10 paces (Close Range). Willing characters automatically share everything with you; you can sense the feelings of unwilling or hostile characters only by beating them in a Wits vs. Wits Contest. Using this ability doesn’t allow you to read each other's thoughts, but you can sense one another’s intended courses of action, how the others feel about different people nearby, and the like. \n This effect lasts 1 minute + an additional minute per 20 additional Compounded charges you spend, or until you choose to end the effect. You may also extend the area of this effect out to all characters within 100 paces (Medium Range) by spending an additional 20 Compounded charges."
+                    }
+                ]
+            },
             "hemalurgy": {
                 "lore": "Depending on where a Duralumin spike is driven in, it steals, stores, and transfers a single Feruchemical Power derived from any one of the four Enhancement Metals (e.g. the ability to store or tap identity, connection, fortune, or investiture). Each spike may store only one Power. \nBecause the abilities stored in Duralumin are so personal, these spikes can be very dangerous. A character receiving one may wind up permanently sharing his head with the spike’s previous victim, or worse, find their own personality completely overridden.",
                 "spikes": "A Duralumin spike grants you a single Feruchemical power — Aluminum, Duralumin, Chromium, or Nicrosil — with a rating equal to that of the spike. Each spike reduces your Spirit by 1, as normal.",
@@ -867,6 +1101,18 @@
                     {
                         "name": "Lucky Shot",
                         "description": "Your shots always seem to hit in the most improbable ways. Once per Beat, when making a Called Shot, you may tap 10 charges of luck to gain a single “free” Nudge on your roll (see the Mistborn Adventure Game, page 201). Additionally, you may tap 10 or more charges of luck to either reduce the Difficulty of a shot or the final Result of any rolls to defend against this attack by 1 per 10 charges of luck spent (to a minimum Difficulty of 1). This Stunt can be combined with both the Marksmanship gunplay Stunt and with Aiming to make even more impressive shots (see pages 137 and 133)!"
+                    }
+                ]
+            },
+            "compounding":{
+                "stunts":[
+                    {
+                        "name":"Jinx (Compounding)",
+                        "description":"By spending 10 or more Compounded charges of luck, you can bend the fortunes of others nearby, spoiling the luck of a single nearby character. This character is the closest character to you within 10 paces (Close Range); select randomly if two or more characters are the same distance from you. This character immediately suffers narrative effects of bad luck similar to a Feruchemist storing luck and also suffers an adverse condition on his or her next roll; if that next roll is also a Spirit roll, the character’s dice pool for that roll also shrinks by 1. \n Alternatively, you may spend 30 Compounded charges of Chromium to instead cause the closest character to suffer 2 adverse conditions to his or her next roll, and if that roll is a Spirit roll, his or her dice pool also shrinks by 2."
+                    },
+                    {
+                        "name":"Uncanny Luck (Compounding)",
+                        "description":"You may use your Compounded Chromium to greatly enhance your fortune. By spending 10 Compounded charges of luck, you may add a single Nudge to any roll you make, rather than just those related to luck or Spirit, as normal."
                     }
                 ]
             },
@@ -921,6 +1167,18 @@
                 "tapped": "A Feruchemist tapping huge amounts of investiture can actually funnel his ability into a metalmind belonging to another Feruchemist, essentially overwriting the abilities originally stored therein with raw investiture. For every 10 charges of investiture you tap, you may reduce the number of charges in any metalmind you’re touching by 5. These charges are forever lost. \n Take care! This destructive ability is rarely met with pleasure, and may result in a Physique vs. Physique action if the metalmind’s owner is awake and nearby. ",
                 "example":"",
                 "tapping": []
+            },
+            "compounding":{
+                "stunts":[
+                    {
+                        "name":"Convert Allomancy (Compounding)",
+                        "description":"Since Nicrosil Compounders can very rarely tap other metalminds (at least, without Hemalurgy), most learn to burn Nicrosil in order to replenish their nicrosilminds. Once per Beat when burning Nicrosil, you may choose to convert 1 Allomantic charge into 10 Feruchemical charges, instead of using it for its Allomantic effect. You may store these charges as investiture, just as if you were storing extra Compounded charges."
+                    },
+                    {
+                        "name":"Mimic Feruchemy (Compounding)",
+                        "description":"By Compounding Nicrosil, you can unlock hidden Feruchemical prowess deep within your being, as if you could use a different Feruchemical metal. When you choose this Stunt, select a Feruchemical metal other than Nicrosil. When you Compound charges of investiture, you can choose to generate 2 Feruchemical charges of your chosen metal per charge Compounded, rather than 10 charges of investiture as normal. Charges generated in this way are used as if you possessed that Feruchemical metal, but must be spent immediately and cannot be stored in a nicrosilmind for later. \n\n Example: Jeff’s Twinborn character Halyrn has the Mimic Feruchemy (Pewter) Stunt. When Halyrn Compounds Nicrosil, he can choose to either generate 2 charges of strength, or 10 charges of investiture. Charges of strength generated by Halyrn’s Compounding must be used immediately and cannot be stored. \n\n You can take this Stunt multiple times, each time choosing one additional type of metal you can mimic."
+                    }
+                ]
             },
             "hemalurgy": {
                 "lore": "Nicrosil has no known Hemalurgic applications.",
@@ -989,6 +1247,14 @@
                     {
                         "name": "Bloodmaker Grit",
                         "description": "When you are in a Pistol Duel and are Defeated or suffer a Grave or Mortal Burden by an opponent’s attack, you may tap 10 charges of health to make your attack (instead of being “knocked out” of the duel, as normal). After your attack is resolved, you immediately suffer the results of your Burden or defeat."
+                    }
+                ]
+            },
+            "compounding":{
+                "stunts":[
+                    {
+                        "name":"Deathless (Compounding)",
+                        "description":"By spending 100 Compounded charges of Gold, you either: immediately lose all Physical Burdens; recover 6 Health; overcome instant death; or flush a lethal poison from your system. Using this Stunt allows you to survive even if shot through the brain, but cannot be used if you are beheaded, dissolved in acid, or blown to bits."
                     }
                 ]
             },
@@ -1470,7 +1736,9 @@
                 }
             ],
             "stunts": "Allomancers can augment or alter their ability through “Stunts,” which are tricks and special skills particular to each metal. For example, a Soother can quell the emotions of a single target without any special training, but with the Affect Crowd Stunt he or she can calm multiple targets at once. \n Stunts are gained by spending Advancements, at a cost of 4 Advancements each (see page 121). Stunts vary by metal, and are described in each metal’s chapter later in the Treatise. An Allomancer may learn any number of Stunts for his or her metals, but each Stunt may only be gained once for each metal, unless otherwise noted in the Stunt’s description. \n A character who gains Allomantic Power(s) from a Hemalurgic spike may learn Stunts for those Powers, even though the corresponding ratings may not be improved. Should the character ever lose the spike(s) that grant a Power, however, he or she also loses access to any corresponding Stunts until and unless the same spike is regained. \n A few Stunts grant temporary Traits that may be applied to related tasks (see pages 74 and 139), but only while the character is burning or flaring the metal in question. These Stunts are identified with the word “Trait” in parentheses following their names.",
-            "savants": "By constantly developing skill with a single metal, highly gifted Mistings can reach the pinnacle of Allomantic power, becoming a “Misting Savant.” The process of awakening as a Savant is demanding: a Misting constantly burns and frequently flares metals through most waking hours. After several months of this, he or she may trigger the change, though the Narrator may always veto it on the grounds that it isn’t supported by the current story or isn’t appropriate for the character. \nWith Narrator approval, a Misting with a Power rating of 7+ may spend 10 Advancements to become a Savant, gaining two “free” Nudges with each roll of his or her Power.\nSadly, such prolonged exposure to Allomantic forces fundamentally changes the Misting, and many suffer health problems or addiction-like symptoms that are only relieved by using their Power. As a result, most Savants suffer one or more penalties while not burning, as described in each metal chapter.\nBecoming a Savant shouldn’t just ‘happen’ because you have a few extra Advancements lying around. The Mistborn Adventure Game is a story- and character-driven system, and your Hero is likely to spend many gaming sessions buying all the metal needed to fuel the process, and many more Breathers burning and flaring it all before he or she is eligible for the change. \nIdeally, a Hero should make the decision to become a Savant based on his or her particular motivations — like Tragedy and Destiny. A grand failure feeding the determination to become better with metal, for example, is possibly strong enough, if it makes sense in your game’s story. \n I would also suggest tweaking your Hero’s personality a bit as he or she makes the transition. Becoming a Savant isn’t like “leveling up” — your Hero has undergone a life-changing transformation, and that should be represented in demeanor as well as ability."
+            "savants": "By constantly developing skill with a single metal, highly gifted Mistings can reach the pinnacle of Allomantic power, becoming a “Misting Savant.” The process of awakening as a Savant is demanding: a Misting constantly burns and frequently flares metals through most waking hours. After several months of this, he or she may trigger the change, though the Narrator may always veto it on the grounds that it isn’t supported by the current story or isn’t appropriate for the character. \nWith Narrator approval, a Misting with a Power rating of 7+ may spend 10 Advancements to become a Savant, gaining two “free” Nudges with each roll of his or her Power.\nSadly, such prolonged exposure to Allomantic forces fundamentally changes the Misting, and many suffer health problems or addiction-like symptoms that are only relieved by using their Power. As a result, most Savants suffer one or more penalties while not burning, as described in each metal chapter.\nBecoming a Savant shouldn’t just ‘happen’ because you have a few extra Advancements lying around. The Mistborn Adventure Game is a story- and character-driven system, and your Hero is likely to spend many gaming sessions buying all the metal needed to fuel the process, and many more Breathers burning and flaring it all before he or she is eligible for the change. \nIdeally, a Hero should make the decision to become a Savant based on his or her particular motivations — like Tragedy and Destiny. A grand failure feeding the determination to become better with metal, for example, is possibly strong enough, if it makes sense in your game’s story. \n I would also suggest tweaking your Hero’s personality a bit as he or she makes the transition. Becoming a Savant isn’t like “leveling up” — your Hero has undergone a life-changing transformation, and that should be represented in demeanor as well as ability.",
+            "mistings": "Allomancy has changed significantly since the time of the Final Empire. The Mistborn have faded into the mists of legend, along with the notion that anyone can harness the full spectrum of Allomantic power. Those with Allomantic gifts no longer conceal their abilities from sight, but use their powers openly in everyday life for the betterment of themselves and their world. Publications and tutors teach young Allomancers how to burn metals properly and precisely, and pure metals and alloys are widely available for a reasonable price. Allomancy has created and transformed The Alloy of Law era, with Mistings (and their Twinborn cousins) reaping the benefits.",
+            "society":"Allomancy is the most predominant Metallic Art of the modern day. Of all types of magic, Allomancy is the best known and most trusted, mainly because its benefits tend to be both obvious and tangible — anyone can understand that Allomancy can be used to pick up a massive crate, influence a skeptical listener, or launch oneself into the air. \n Allomancy is also the most common of the Metallic Arts, with one person in 50 possessing Allomantic abilities. The use of Allomancy is common enough that Mistings are considered just a different type of gifted individual, and their magic is just as special as particularly high intelligence, personal charisma, or technical affinity. Those Mistings of means typically seek formal training in the use of their powers, either by private tutor or through apprenticeship, and many wealthier secondary schools and universities offer formal programs to help young Allomancers get the most from their gifts. \n  Many Mistings put their Allomantic powers to work in their careers, whether in labor, business, academia, or politics, and nearly anyone with the metals and the money can find a specialist that meets their needs. On the high steel of the skyscrapers rising inexorably from the Elendel skyline, skilled Lurcher engineers work tirelessly to move supplies and supports into place without worrying about falling to their deaths. When a new mine opens up, Tineye surveyors are the first inside to explore for dangerous terrain, gas leaks, and potential collapse. In the constabulary, Soothers act to quell riots and civil disputes alike, while in industrial shops they find employment as strike-breakers and “workplace satisfaction consultants.” Rioter activists flare emotions of crowds in support of their candidates or causes, while in the criminal underworld they Pull forth feelings of fear, intimidation, and reservation in their employer’s victims. Electrum-burning stock brokers use their metals to predict and capitalize on minute changes in the market. If there’s a place that an Allomancer can make life safer, easier, or more affordable, someone is willing to pay to have a Misting there, burning their metals. \n Not all Mistings choose to turn their gifts to a profit — in fact, a fair number of Allomancers choose not to reveal their abilities at all. The reasons these Mistings choose not to do so are myriad. Sometimes hiding a power is simply a matter of personal shame, if for instance one’s power seems inferior or useless. At other times, powers might be concealed to protect a family’s reputation, as when a Misting is born to a family line that does not have any Allomancers. At still others, Mistings hide their powers in order to protect a political or business advantage, such as a Smoker, Rioter, or Soother hidden amongst political staff or a Leecher or Oracle bodyguard. \n The choice to conceal Allomantic abilities is entirely personal; there are no laws on the books requiring anyone to disclose whether or not one is metalborn. Nevertheless, the specter of Misting registration remains a never-ending political issue, raised in the guise of upholding “public safety” or the “common good.” In governmental meetings and letters to the newspapers, hypothetical horror stories of Coinshot peeping toms watching through your second-story window, or Pewterarm goons who casually intimidate folk are trotted out as examples of possible Misting threats to Harmony-fearing men and women everywhere. \n Though these far-fetched tales rarely play out, those who keep their abilities private sometimes face backlash if and when their Allomantic gifts are revealed, even in the more cosmopolitan communities of Elendel’s academic and well-to-do sets. Friendships may be abandoned; business contracts lost; political alliances dissolved; or access to family resources revoked. Despite the vast steps Mistings have made in gaining acceptance in the world since the times of the Lord Ruler, people still only trust Mistings until they uncover one where they weren’t expecting him."
         },
         {
             "id": 1,
@@ -1515,7 +1783,47 @@
             ],
             "tapping": "To tap previously stored characteristics or abilities, a Feruchemist must be conscious and in direct contact with the metalmind he or she wishes to tap (again, a Feruchemist may only store in and tap his own metalminds, never anyone else’s). As while storing, a Feruchemist undergoes noticeable changes when tapping. For example, a Feruchemist tapping strength may grow more muscular, and one tapping sight may gain tunnel vision and possibly vertigo. The more charges are tapped at once, the more noticeable these changes become. \n A Feruchemist may choose to tap anytime he or she takes an action or makes a roll. When a single action involves multiple rolls, the Feruchemist must tap independently for each roll — he or she cannot tap once when dragging a large object, for example, and gain the benefits for each roll made to drag the object part of the distance. Nor can a Feruchemist tap once and gain the benefits for all rolls made in an Extended Contest. \n The maximum number of stored charges that may be tapped for each action or roll is equal to 10 × the Feruchemist’s rating with that metal. A Feruchemist may tap any number of metalminds at a time, though only one of each metal for any action or roll. Tapped charges are immediately consumed, even if the current action or roll fails. \nTapping can dramatically increase the size of a dice pool, granting extra Nudges if it rises over 10 dice",
             "tenMore": "A Feruchemist can also tap ten or more charges at once for a spectacular effect. For example, tapping ten or more charges of Pewter (strength) might let a Feruchemist dead-lift a horse, knock over a loaded wagon, or even tear a castle gate from its hinges! \n For every 10 charges tapped, the Outcome of the Feruchemist’s action or roll improves by 1 (to a maximum Outcome of 6). Charges tapped in this fashion do not also grant the other effects listed for the metal (like adding dice for certain rolls), and the player must always declare that he or she is tapping 10 or more charges before any roll is made or any Outcome is described.",
-            "nudge": "Finally, a Feruchemist may tap charges to increase the speed, accuracy, or effectiveness of his efforts. \n By tapping 5 charges, the Feruchemist may add 1 Nudge to a related action or roll. As with tapping 10 or more charges at once, the player must declare that he or she is using this option before any roll is made or any Outcome is described. \n When tapping 5 charges, a character does not gain any other effects listed for the metal. \n Remember that storing can be as useful as tapping. It’s second nature for many Feruchemists, for example, to store hearing when confronted with a loud noise (though the Narrator may sometimes ask for a Wits or other roll to do so, especially if the noise is a surprise). Likewise, storing weight makes you lighter, which can be tremendously helpful in a fall. \n In most cases, the utility of storing is narrower than tapping, but a clever Feruchemist always keeps an eye out for ways to use both to his or her advantage" 
+            "nudge": "Finally, a Feruchemist may tap charges to increase the speed, accuracy, or effectiveness of his efforts. \n By tapping 5 charges, the Feruchemist may add 1 Nudge to a related action or roll. As with tapping 10 or more charges at once, the player must declare that he or she is using this option before any roll is made or any Outcome is described. \n When tapping 5 charges, a character does not gain any other effects listed for the metal. \n Remember that storing can be as useful as tapping. It’s second nature for many Feruchemists, for example, to store hearing when confronted with a loud noise (though the Narrator may sometimes ask for a Wits or other roll to do so, especially if the noise is a surprise). Likewise, storing weight makes you lighter, which can be tremendously helpful in a fall. \n In most cases, the utility of storing is narrower than tapping, but a clever Feruchemist always keeps an eye out for ways to use both to his or her advantage",
+            "ferrings":"During the World of Ash, the only Feruchemists were the secretive Keepers, who could use all of the Feruchemical metals. In this dark era, brave and dedicated Terris found methods to subvert the Lord Ruler’s brutal breeding program in ways that allowed them to make certain that Keeper bloodlines continued and were kept pure. However, all of that ended with the Lord Ruler’s death. \n In the post-Origin world, Terrisfolk (and by extension, Feruchemists) were allowed to once again mingle, marry, and have children with whomever they chose, and in so doing, spread the Feruchemical bloodlines into the general population. As the power spread, so did it dilute, leading to Feruchemists who could only store or tap a single ability: Ferrings (as well as the rise of Twinborn, who can use a single Allomantic and Feruchemical power).",
+            "society":"By the time of The Alloy of Law, a majority of people have at least trace amounts of Terris ancestry and potential to become Ferrings. Overall, about one person in 50 develops Feruchemical abilities, but that number rises sharply among people with significant Terris ancestry, particularly the Terris communities of the Basin and the enclaves of the mountains. \n Like Allomancy, Feruchemy is regarded as a natural talent and part of everyday life by most; while many people envy the powers possessed by Ferrings, they don’t consider these powers to be particularly strange or mysterious. People in the modern day understand the basics of Feruchemy far better than those of the Final Empire, including the principles of storing and tapping, and the basics of the physical and cognitive Feruchemical metals. However, scholarship around the more exotic or ancient types of Feruchemy remains confined to the Terris community — primarily amongst the continuing tradition of the Keepers. \n The abilities of Feruchemists make them prized employees in a wide field of professions. Archivist and Sparker Ferrings are popular accountants, secretaries, and clerks, thanks to their infallible memories and great mental agility. Sleepless Sentry Ferrings can often find employment as watchmen or guards, while Brutes have an easy time finding work in construction or as heavies for crime bosses. Connector Ferrings find law and politics natural fits to their skills, and Spinners often try their luck at the gambling table. Subsumers, Gaspers, Firesouls, and Pinnacles are often found on the frontier, where their gifts let them face the unknown with confidence. \n However, the limitations of Feruchemy — that one must first store an ability in order to tap it for a short time — restrict how much a Ferring can rely upon his or her powers in daily life. Jobs which utilize their gifts cannot rely upon them to perpetually use them, unlike Mistings (who simply need a steady supply of metal to keep at it). For example, a Sparker salesman is likely to reserve his stored mental speed for only the most challenging clients because every few minutes of quick-thinking brilliance requires several days of dull and plodding thought. Consequently, many employers build in “storing breaks” during the work day to allow a Ferring to build up necessary attributes and only call upon them to tap stored abilities when it is necessary. \n Outside of work, Ferrings tend to be more private about their abilities because the personal nature of those powers can cause others to be skeptical of the Feruchemist’s natural abilities and motives. For example, one may question how smart a Sparker or Archivist truly is without her metalminds, whether a Connector with a great number of friends would have them if not for his powers, or if a successful gambler is abusing a chromiummind to win. Like all other people, Ferrings would prefer to be judged not on the existence of their powers but the content of their character, and so when and to whom they reveal their abilities is a personal choice. \n Still, some Ferrings have learned to play up their powers to their social advantage. For instance, a Trueself politician or activist might play up his powers of identity to prove his bona fides as a person of strident and unbending morals, while a Pinnacle negotiator may sell his stored determination as a key to winning his clients whatever they want. The ways and hows Ferrings can use their abilities to gain advantages are as numerous and diverse as the people themselves.",
+            "nicknames":"Mistings have long had evocative names like “Coinshot,” “Thug,” and “Coppercloud.” With Feruchemy now more common and easier to describe with a single metal, Ferrings have gotten their own nicknames.",
+            "types":[
+                {
+                    "one":"Tin: Windwhisper",
+                    "two":"Pewter: Brute"
+                },
+                {
+                    "one":"Iron: Skimmer",
+                    "two":"Steel: Steelrunner"
+                },
+                {
+                    "one":"Copper: Archivist",
+                    "two":"Bronze: Sentry"
+                },
+                {
+                    "one":"Zinc: Sparker",
+                    "two":"Brass: Firesoul"
+                },
+                {
+                    "one":"Aluminum: Trueself",
+                    "two":"Duralumin: Connector"
+                },
+                {
+                    "one":"Chromium: Spinner",
+                    "two":"Nicrosil: Soulbearer"
+                },
+                {
+                    "one":"Gold: Bloodmaker",
+                    "two":"Electrum: Pinnacle"
+                },
+                {
+                    "one":"Cadmium: Gasper",
+                    "two":"Bendalloy: Subsumer"
+                }
+            ],
+            "terris":"As the birthright of the Terris people, Feruchemy remains a very important part of Terris ethnic identity. Almost 1 in 25 people within the Terris enclaves are Ferrings — about twice the rate of those in greater society. As such, Ferrings have become an instrumental part of day-to-day life within the enclaves, often to the point of being a replacement for the higher technologies practiced in the cities. Possession of Feruchemical gifts within the Terrisfolk is both a point of pride and a call to service, and some Ferrings in those groups consider themselves to be inherently “more Terris” than people who don’t share their gifts. Though Keepers and other leaders of the Terris community do their best to discredit and speak out against such attitudes, Ferrings can often turn their status to their advantage when need be. \n Scadrial’s greatest expertise about Feruchemy today resides with the ancient order of the Terris Keepers. With the fall of the Lord Ruler and remaking of the world, the Keepers have turned most of their efforts from preserving historical and social events to acting as the stewards of Feruchemical knowledge. Like their predecessors, these Archivist (Copper) Ferrings use their copperminds to collect and store everything they can discover about Feruchemy for future generations. Their efforts have not gone unrewarded: those Keepers who study Feruchemy have a much more detailed understanding of all sixteen Feruchemical metals and are the best source of information on the uses of the spiritual and hybrid metals. \n The Keepers also act as diplomats, working with Feruchemists to ensure the gift is used for the good of the entire Terris community and the world. Some, for example, call upon known Connector or Spinner Ferrings to use their extraordinary powers of relationships or luck to improve the survival of an enclave in peril, while others work to arrange marriages between Ferrings to see that the gift is passed on to the next generation. When Ferrings act out within a Terris community, a Keeper might be assigned to work with local law enforcement or government to bring the rogue in or make sure his or her actions do not reflect poorly upon Terris society as a whole. Naturally, all these duties are kept private; discretion remains a prized trait within the sect.",
+            "full":"The weakening of Allomantic ability over time has been well-documented since the World of Ash, when Mistborn went from being the primary type of Allomancer to quite rare at the time of the Lord Ruler. However, the virtual disappearance of “full” Feruchemists has baffled scholars and philosophers alike. Most believe it is simply that the Feruchemical gift will follow the same pattern of Allomancy, growing weaker and more rare over time; some spiritually-minded sorts postulate that Feruchemical ability is breaking down because Allomancy is the gift of the Survivor, able to weather the mixing of blood; and a growing contingent of scientists speculate that it is the introduction of Allomancy into the bloodlines of the Terris that has disrupted the gift of complete Feruchemy. Should this latter theory be correct, it stands to reason that a person of pure and unadulterated Terris heritage might be capable of developing full Feruchemical ability. If such a person does exist, the secretive folk of the Terris enclaves have yet to say…",
+            "personality":"Feruchemy is about balance in all things. Since Ferrings must first store traits they wish to use, Feruchemy is inherently more limited than Allomancy. However, it also has one great advantage over Allomancy — the only limit that Ferrings have on the number of charges they can use is the number of charges they have stored in their metalminds. Even the most powerful Thug can barely lift a pony, while a Pewter Ferring with a sufficient number of charges could lift a locomotive. The degree of power possible with Feruchemy can be awe-inspiring, but also necessarily brief. \n This balance of storing and tapping means that Ferrings consider themselves to be more thoughtful and careful than Allomancers — they cannot use their powers willy-nilly! Although using any of the physical metals is direct and obvious, even a Pewter or Steel Ferring must still consider how many of their limited number of charges they are willing to use. Maintaining a large store of charges requires forethought, dedication, and sacrifice. \n Some Feruchemists, especially those who were raised in the Terris community, believe that Allomancy makes its practitioners lazy and careless, while Feruchemy encourages wisdom, careful deliberation, and an appreciation of the cost of power. Some Ferrings who can use one of the cognitive metals, especially Copper and Zinc, also believe that they can use their metal because they possess superior intelligence — despite the lack of any obvious connection between Feruchemical ability and intelligence."
         },
         {
             "id": 3,
@@ -1546,6 +1854,507 @@
             "using": "The process for using Hemalurgic spikes is a complete mystery outside the Steel Ministry at the time of the original Mistborn trilogy, and poorly understood even by the Lord Ruler himself. As a result, most spikes gained through Advancements or as a byproduct of your story should come with a strong story not only for how the spike is acquired but also how the knowledge for its use is obtained. \n Using a spike to steal a characteristic or ability involves pounding a sharp metal object of the correct metal composition and purity through a victim’s body, piercing a particular vital organ or area. If the strike is precise enough, the victim is instantly slain and a piece of his spirit is transferred to the spike. Only one characteristic or ability may be stolen from each victim, even if the victim possesses more than one that qualifies. \n A spike only gains a rating when the stolen characteristic or ability has one, and then the rating is 1 lower than the original characteristic or ability (minimum 2). \n Once imbued with power, a spike must be driven into a new body relatively soon or it starts to lose its potency. For each week a spike goes without being inserted into a new body, its rating drops by 1 (to a minimum of 2). A spike with no rating never degrades.",
             "decay": "It’s mentioned in the books that a Hemalurgic spike can become “stale” by remaining too long outside a body. The powers it grants can decay — never to the point that the spike is entirely useless, but without very special preparations a spike left outside of a body will slowly lose some of its charge and grant less and less power.",
             "removal": "Hemalurgic spikes must penetrate vital organs such as the eyes, heart, or another vital area to transfer their power, and while this doesn’t present an immediate danger when a spike is first driven in, removing one can be severely traumatic and very often fatal. \n There are two ways to remove a spike: manually or with powerful Allomantic Pulling or Pushing. Manual removal requires the character to be immobilized or incapacitated, and for another character to succeed with a Physique 5 roll. An Allomancer can also Steelpush or Ironpull a spike from a character’s body, but only with an Outcome of 5 or higher in a Contest of his metal vs. the character’s Physique. \n Each time a character loses a spike, he or she immediately loses 5 Health, and if this reduces the character’s Health to 0 or less he or she instantly dies from the trauma. A character who survives may recover naturally or through Breathers or magic — not only regaining this lost Health over time, but also the point of Charm, Wits, or Spirit forfeit when the spike was driven in. However, the characteristics and/or abilities the spike granted, as well as any Advancements spent to gain the spike, are lost for good (or at least until the same spike is driven back in). \n A removed spike may be transferred to another character at no Advancement cost, though that character still loses a point of Charm, Wits, Spirit, or a combination of those, as usual. \n Most Hemalurgic creations, like koloss and Steel Inquisitors, are slain if their spikes are removed — even when they have enough Health to survive process. Kandra who lose their last Blessing devolve back into mindless mistwraiths, returning to sentience and memory only if they receive their spikes again, or are fortunate enough to gain a new set."
+        },
+        {
+            "id":4,
+            "name":"Twinborn",
+            "basics":"Twinborn are rare and fortunate individuals who wield the rarest magical power of all: the ability to use both Allomancy and Feruchemy. The combination of these two Metallic Arts was unheard of prior to the Origin, but Harmony’s new world has allowed for the mingling of Allomantic and Feruchemical bloodlines, and in so doing created a whole new type of metalborn. While some Twinborn are the scions of noble families who married Terris shortly after the Origin, the descendants of Allomancers and Terris Keepers can come from all backgrounds and social strata. People whose parents lacked any Allomantic or Feruchemical abilities are almost as likely to become Twinborn as someone who is the child of an Allomancer and a Feruchemist. \n Each Twinborn is both a Misting and a Ferring, but only capable of using two metals. While this may seem weaker than the Mistborn and Keepers of the World of Ash, they are the only people who can use more than one type of metal in modern times. Additionally, the Twinborn’s ability to combine a Feruchemical and Allomantic power allows them to circumvent the limitations facing a normal Ferring or Allomancer. For instance, a Crasher Twinborn with the ability to use Allomantic Steel (Push on metal objects) and Feruchemical Iron (store and tap weight) can use her two abilities in unison to fly through the air more effectively than a Coinshot or push at objects far heavier than herself. Meanwhile, a Twinborn with the ability to use Feruchemical Gold and Allomantic Bendalloy can use his time-bubbles to give himself more time to store health, allowing him to heal more quickly and more often. \n In some rarer cases, a Twinborn is able to use the same Feruchemical and Allomantic metal, which allows him or her to perform Compounding. These Compounders can Allomantically burn their own metalminds, which exponentially amplifies the power of their stored charges and creates unusual but vastly powerful results. Compounded abilities are, in effect, an entirely new power which many Compounders commit their lives to mastering.",
+            "society":"The majority of people who can’t use magic aren’t usually able to distinguish Twinborn from either Mistings or Ferrings, typically because Twinborn are so much rarer than the other types of metalborn. What most folk do know is that Twinborn are rare and sometimes dangerous individuals with impressive powers — either heroes torn from the pages of the latest pulp, or villains of sensationalist newspapers or campfire stories. Amongst other metalborn, Twinborn are regarded with a certain amount of suspicion (by those who do not trust their commitment or understanding of their powers) or envy (by those who covet a Twinborn’s potency). No matter what the individual attitudes are, nearly all folks can’t help but be impressed by what Twinborn can do when they truly exercise their power. \n Unlike Mistings and Ferrings, not many Twinborn seek specific employment based solely on the types of powers they possess — rather, those that hire them do so based on the Twinborn’s unique combinations of abilities. Twinborn with powers from both the Allomantic and Feruchemical physical metals may find themselves highly sought-after as lawkeepers, enforcers, or mercenaries; while those with more exotic combinations may find themselves the subject of academic or esoteric business ventures. Compounder Twinborn are the most pursued types of all, thanks to both their raw power and mythical reputation that ranks amongst the greatest heroes and legends of the Final Empire. Both riches and reputation can be easily won by those Twinborn willing to exploit their abilities to the fullest.",
+            "types":"There are 256 different possible combinations of Twinborn in The Alloy of Law era, based on the metals that have been discovered and are available. The combinations of Allomantic and Feruchemical powers range from spectacularly powerful (as is the case with Crashers, who use Allomantic Steel and Feruchemical Iron to become engines of Metallic destruction) to middling, to outright indistinguishable from other Ferrings or Mistings (as is the case with any Twinborn using Allomantic Aluminum or Duralumin or Feruchemical Nicrosil). \n The table on page 180 lists nicknames and perceptions of notable types of Twinborn. These names change frequently with popular culture but should provide good grist for your own names and ideas!",
+            "compounding":"Compounding is the most potent form of magic known in The Alloy of Law era. By combining Allomancy and Feruchemy in the same metal, a Compounder can burn charged metalminds, greatly enhancing their stored abilities and granting new abilities unavailable through other, more conventional powers. More importantly, Compounded metalminds release exponentially more power, which allows the Twinborn to overcome the central limitation of Feruchemy: that you can only tap as much of an ability as you have first stored. \n Compounders describe burning a metalmind as an incredible rush of power, like the feeling of burning any Allomantic metal, except far stronger. A few Compounders describe the feeling in terms most often used for strong intoxicants, euphoria, or a massive jolt of adrenaline.",
+            "rules":{
+                "part1":"If you have the power to use both Allomancy and Feruchemy with the same metal (such as choosing to be a Compounder Twinborn at character creation, or gaining the ability to tap and burn the same metal via Hemalurgy), you are a Compounder and are able to Compound your metalminds. When you Compound, you Allomantically burn a charged metalmind (in game terms, the Feruchemical charges you’ve stored in that metalmind) to gain a massive jolt of Feruchemical power. This power can be spent to provide huge Feruchemical benefits or to activate abilities unachievable through Allomancy or Feruchemy alone (represented by Compounding Stunts, found on page 183). \n You may only Compound a metalmind that is in your body — thus, you must either ingest a metalmind, or pierce your body with it (such as an earring or non-Hemalurgic spike) in order to burn it and gain the benefits of Compounding. A metalmind in your body, whether swallowed or in a piercing, is still considered in physical contact, so you can still use Feruchemy to store and tap charges in it normally. Typically only small metalminds (capable of holding 25 charges) can be used for Compounding since they’re small enough to swallow or pierce an ear or nose without excessive damage.",
+                "example1":"Example: Monica wants her character to be a scout in the Roughs and thinks the combination of storing up caloric energy and speeding up time could make a character who can both survive in the wilderness and hold her own in a fight. So 'Bandy' Jann Geffenry is going to be a Bendalloy Compounder Twinborn. \n In addition to getting the benefits of both metals, 'Bandy' Jann can store charges of energy in a small metalmind using Feruchemy, swallow or pierce her body with it, and burn it to get far more charges of energy out of it than she put in it.",
+                "part2":"To Compound, you must expend 1 or more stored charges from one of your metalminds, much like you would tap a Feruchemical charge normally. However, each charge you Compound provides you the equivalent of 10 Feruchemical charges (e.g., if you Compound 5 charges from a coppermind, you would gain 50 Feruchemical Copper charges). These charges can be spent like normal Feruchemical charges, used to activate Compounding Stunts, stored in another metalminds, or a combination of the three. Note that even though you can generate a huge amount of Feruchemical charges in this way, the maximum number of Feruchemical charges you can spend per action or roll is still limited to your Feruchemy rating × 10, as normal.",
+                "example2":"Example: Jann previously swallowed a ring in which she’s stored 20 charges of caloric energy. Now, during a fight, a bandit is trying to push her over to get through a doorway. Monica thinks quickly and decides to increase Jann’s weight by 25% by tapping 10 charges of caloric energy (see Mistborn Adventure Game, page 370). Jann could just tap 10 charges from her ingested metalmind, but it’s more efficient for her to Compound the metal instead. Jann Compounds 1 charge, gaining 10 charges of caloric energy and leaving 19 charges still in her ingested bendalloymind.",
+                "part3":"Because Allomancy is limited by the rate at which the metal burns, you can only Compound a number of charges equal to your Allomantic Rating with that metal (e.g., if you’re a Twinborn with Copper Feruchemy 3 and Copper Allomancy 4, you can Compound up to 4 charges from a metalmind at a time).",
+                "example3":"Example: Monica has spent some Advancements to improve Jann, who now has a Bendalloy Allomancy rating of 4 and a Bendalloy Feruchemy of 5. Monica likes Jann to be able to vastly increase her weight to disguise herself really well, so she has 2 options — tapping 50 charges at once to increase her weight 125%, thanks to a Feruchemy rating of 5, or Compounding 4 charges (and gaining 40 regular Feruchemical charges in the process) because of her Allomancy Rating is 4.",
+                "part4":"Compounding takes a toll on metalminds: since the metal is being Allomantically burnt, it’s physically consumed and depleted of its storage capacity over time. Each Feruchemical charge you Compound from your metalmind permanently reduces that metalmind’s capacity by an equal amount. Compounding also reduces the metalmind physically by the same proportion (as the loss of metal makes the metalmind thinner, smaller, or more brittle).",
+                "example4":"Example: After depleting her last one, Jann swallows a small bendalloymind that weighs a few grams and is filled with 25 Feruchemical charges of caloric energy. She Compounds 10 charges over the course of a Conflict, so the Compounded bendalloymind now has a capacity of 15 Feruchemical charges and is about 60% of its original physical size.",
+                "uncharged": [
+                    {
+                        "title":"Uncharged Metalminds and Burning Metalminds",
+                        "desc":"You can’t Compound a metalmind you have 0 Feruchemical charges stored in (whether you’ve never stored charges in it or you’ve depleted all its stored charges). \n However, empty metalminds are still pure pieces of metal of their type and can still be burned using Allomancy, providing an appropriate number of charges for their size (see the Mistborn Adventure Game, page 273). In most cases, that means a small metalmind provides 2 Allomantic charges; an average metalmind provides 3 Allomantic charges; and a large metalmind provides 4 Allomantic charges. \n Finally, you cannot burn a metalmind that has Feruchemical charges stored in it for its Allomantic effects. It is, for all intents and purposes, a unique type of metal that only its creator can use."
+                    },
+                    {
+                        "title":"Storing Extra Compound Charges",
+                        "desc":"Since Compounding yields a great deal of Feruchemical charges, many Compounders use the excess charges created by their powers to fill other metalminds. Storing in this fashion, while not as immediately beneficial as simply spending the charges at the time, allows the Compounder to quickly load up on stored attributes and avoid the long process and nasty side effects of normal Feruchemical storing. \n When you Compound, you may choose to store some or all of the Feruchemical charges generated in another metalmind. For every 5 Compounded charges you spend in this way, you may store 1 Feruchemical charge in any other metalmind you have. Storing charges in this way happens instantaneously, and you suffer no penalties for storing in your metalmind. You can’t store more charges per action or roll than your Feruchemy rating, nor can you store more charges per hour than the normal limit of your metal."
+                    }
+                ],
+                "example5":"Example: Jann wants to fill up some metalminds in anticipation for a long trip through the Roughs and picks up empty metalminds in preparation. Her Feruchemical rating is 5, her Allomantic rating is 4, and her Physique score minus 1 (another limit on charges stored per hour imposed by Bendalloy) is 4. She can store no more than 4 charges into a metalmind per hour, so she wants 20 charges to do so (20 charges divided by 5 equals 4 stored charges). She Compounds 2 charges from one metalmind, gaining the equivalent of 20 charges, which she immediately turns into 4 stored charges in another bendalloymind.",
+                "nicknames": [
+                    {
+                      "allomancy": "Tin",
+                      "feruchemy": "Tin",
+                      "twinborn": "Eagle Eye",
+                      "reputation": "Inhumanly and often frighteningly perceptive."
+                    },
+                    {
+                      "allomancy": "Tin",
+                      "feruchemy": "Steel",
+                      "twinborn": "Catcher",
+                      "reputation": "No one can escape their sight or speed."
+                    },
+                    {
+                      "allomancy": "Tin",
+                      "feruchemy": "Copper",
+                      "twinborn": "Monitor",
+                      "reputation": "Detail oriented and meticulous."
+                    },
+                    {
+                      "allomancy": "Tin",
+                      "feruchemy": "Zinc",
+                      "twinborn": "Quickwit",
+                      "reputation": "Adjusts plans at lightning speed."
+                    },
+                    {
+                      "allomancy": "Tin",
+                      "feruchemy": "Chromium",
+                      "twinborn": "Keeneye",
+                      "reputation": "Only fools try to cheat them at cards."
+                    },
+                    {
+                      "allomancy": "Pewter",
+                      "feruchemy": "Pewter",
+                      "twinborn": "Hefter",
+                      "reputation": "Lives for physical challenges."
+                    },
+                    {
+                      "allomancy": "Pewter",
+                      "feruchemy": "Steel",
+                      "twinborn": "Sprinter",
+                      "reputation": "Faster than a speeding bullet."
+                    },
+                    {
+                      "allomancy": "Pewter",
+                      "feruchemy": "Zinc",
+                      "twinborn": "Sooner",
+                      "reputation": "Sees and exploits any opportunity."
+                    },
+                    {
+                      "allomancy": "Pewter",
+                      "feruchemy": "Chromium",
+                      "twinborn": "Scrapper",
+                      "reputation": "Subjects of all the best drunken brawl stories."
+                    },
+                    {
+                      "allomancy": "Pewter",
+                      "feruchemy": "Gold",
+                      "twinborn": "Bruteblood",
+                      "reputation": "Never counted out of a fight."
+                    },
+                    {
+                      "allomancy": "Pewter",
+                      "feruchemy": "Cadmium",
+                      "twinborn": "Marathoner",
+                      "reputation": "Known for being utterly tireless."
+                    },
+                    {
+                      "allomancy": "Iron",
+                      "feruchemy": "Pewter",
+                      "twinborn": "Scaler",
+                      "reputation": "Scale buildings with great speed and grace."
+                    },
+                    {
+                      "allomancy": "Iron",
+                      "feruchemy": "Iron",
+                      "twinborn": "Deader",
+                      "reputation": "Notorious for smashing themselves flat."
+                    },
+                    {
+                      "allomancy": "Iron",
+                      "feruchemy": "Steel",
+                      "twinborn": "Guardian",
+                      "reputation": "Tremendously popular bodyguards."
+                    },
+                    {
+                      "allomancy": "Iron",
+                      "feruchemy": "Zinc",
+                      "twinborn": "Navigator",
+                      "reputation": "Nimble and quick-witted Ironswingers."
+                    },
+                    {
+                      "allomancy": "Iron",
+                      "feruchemy": "Gold",
+                      "twinborn": "Stalwart",
+                      "reputation": "Can take unheard of levels of punishment."
+                    },
+                    {
+                      "allomancy": "Steel",
+                      "feruchemy": "Tin",
+                      "twinborn": "Sharpshooter",
+                      "reputation": "Crack shots and deadly gunfighters."
+                    },
+                    {
+                      "allomancy": "Steel",
+                      "feruchemy": "Iron",
+                      "twinborn": "Crasher",
+                      "reputation": "Exceptionally destructive and dangerous."
+                    },
+                    {
+                      "allomancy": "Steel",
+                      "feruchemy": "Steel",
+                      "twinborn": "Swift",
+                      "reputation": "Fast and destructive, often criminals."
+                    },
+                    {
+                      "allomancy": "Steel",
+                      "feruchemy": "Aluminum",
+                      "twinborn": "Shroud",
+                      "reputation": "Nameless assassins."
+                    },
+                    {
+                      "allomancy": "Steel",
+                      "feruchemy": "Duralumin",
+                      "twinborn": "Bigshot",
+                      "reputation": "Leaders of law enforcement and gangs."
+                    },
+                    {
+                      "allomancy": "Steel",
+                      "feruchemy": "Chromium",
+                      "twinborn": "Luckshot",
+                      "reputation": "Death defying and dangerous."
+                    },
+                    {
+                      "allomancy": "Steel",
+                      "feruchemy": "Cadmium",
+                      "twinborn": "Cloudtoucher",
+                      "reputation": "Soars to heights that no others can reach."
+                    },
+                    {
+                      "allomancy": "Copper",
+                      "feruchemy": "Copper",
+                      "twinborn": "Copperkeep",
+                      "reputation": "Creepily good memories."
+                    },
+                    {
+                      "allomancy": "Copper",
+                      "feruchemy": "Bronze",
+                      "twinborn": "Shroud",
+                      "reputation": "Great allies to criminal Crews."
+                    },
+                    {
+                      "allomancy": "Copper",
+                      "feruchemy": "Brass",
+                      "twinborn": "Boiler",
+                      "reputation": "Excellent survivalists, tough to track down."
+                    },
+                    {
+                      "allomancy": "Copper",
+                      "feruchemy": "Aluminum",
+                      "twinborn": "Ghostwalker",
+                      "reputation": "Seem beneath everyone’s notice."
+                    },
+                    {
+                      "allomancy": "Copper",
+                      "feruchemy": "Duralumin",
+                      "twinborn": "Shelter",
+                      "reputation": "An Allomancer’s best friend."
+                    },
+                    {
+                      "allomancy": "Copper",
+                      "feruchemy": "Chromium",
+                      "twinborn": "Masker",
+                      "reputation": "A blessing to any Allomancer Crew."
+                    },
+                    {
+                      "allomancy": "Bronze",
+                      "feruchemy": "Tin",
+                      "twinborn": "Sentinel",
+                      "reputation": "Masters of all six senses."
+                    },
+                    {
+                      "allomancy": "Bronze",
+                      "feruchemy": "Steel",
+                      "twinborn": "Hazedodger",
+                      "reputation": "Skilled Allomancer hunters."
+                    },
+                    {
+                      "allomancy": "Bronze",
+                      "feruchemy": "Copper",
+                      "twinborn": "Metalmapper",
+                      "reputation": "Meticulous chroniclers of metalborn."
+                    },
+                    {
+                      "allomancy": "Bronze",
+                      "feruchemy": "Bronze",
+                      "twinborn": "Sleepless",
+                      "reputation": "Overstimulated and overly sensitive."
+                    },
+                    {
+                      "allomancy": "Bronze",
+                      "feruchemy": "Zinc",
+                      "twinborn": "Pulsewise",
+                      "reputation": "Mistings find them impossible to trick."
+                    },
+                    {
+                      "allomancy": "Bronze",
+                      "feruchemy": "Bendalloy",
+                      "twinborn": "Stalker",
+                      "reputation": "Pursue their quarry without end."
+                    },
+                    {
+                      "allomancy": "Zinc",
+                      "feruchemy": "Pewter",
+                      "twinborn": "Strongarm",
+                      "reputation": "Wins opponents over, one way or the other."
+                    },
+                    {
+                      "allomancy": "Zinc",
+                      "feruchemy": "Zinc",
+                      "twinborn": "Mastermind",
+                      "reputation": "Can outthink or mess with anyone’s head."
+                    },
+                    {
+                      "allomancy": "Zinc",
+                      "feruchemy": "Aluminum",
+                      "twinborn": "Loudmouth",
+                      "reputation": "Strongly opinionated and tough to sway."
+                    },
+                    {
+                      "allomancy": "Zinc",
+                      "feruchemy": "Duralumin",
+                      "twinborn": "Zealot",
+                      "reputation": "Frighteningly persuasive."
+                    },
+                    {
+                      "allomancy": "Zinc",
+                      "feruchemy": "Chromium",
+                      "twinborn": "High Roller",
+                      "reputation": "Turns everything into a high-stakes gamble."
+                    },
+                    {
+                      "allomancy": "Zinc",
+                      "feruchemy": "Electrum",
+                      "twinborn": "Instigator",
+                      "reputation": "Trouble magnets and short-lived."
+                    },
+                    {
+                      "allomancy": "Brass",
+                      "feruchemy": "Zinc",
+                      "twinborn": "Schemer",
+                      "reputation": "Quick-witted deceivers."
+                    },
+                    {
+                      "allomancy": "Brass",
+                      "feruchemy": "Brass",
+                      "twinborn": "Cooler",
+                      "reputation": "Chills hot tempers and bodies."
+                    },
+                    {
+                      "allomancy": "Brass",
+                      "feruchemy": "Aluminum",
+                      "twinborn": "Icon",
+                      "reputation": "Natural leaders."
+                    },
+                    {
+                      "allomancy": "Brass",
+                      "feruchemy": "Duralumin",
+                      "twinborn": "Pacifier",
+                      "reputation": "Excellent peacemakers."
+                    },
+                    {
+                      "allomancy": "Brass",
+                      "feruchemy": "Chromium",
+                      "twinborn": "Slick",
+                      "reputation": "Smooth talkers and lucky varmints."
+                    },
+                    {
+                      "allomancy": "Brass",
+                      "feruchemy": "Electrum",
+                      "twinborn": "Resolute",
+                      "reputation": "Masterful negotiators and diplomats."
+                    },
+                    {
+                      "allomancy": "Aluminum",
+                      "feruchemy": "Aluminum",
+                      "twinborn": "Puremind",
+                      "reputation": "Self-made, self-assured, and usually rich."
+                    },
+                    {
+                      "allomancy": "Duralumin",
+                      "feruchemy": "Duralumin",
+                      "twinborn": "Friendly",
+                      "reputation": "Blissed-out, likeable weirdos."
+                    },
+                    {
+                      "allomancy": "Chromium",
+                      "feruchemy": "Pewter",
+                      "twinborn": "Metalbreaker",
+                      "reputation": "Never fight fair."
+                    },
+                    {
+                      "allomancy": "Chromium",
+                      "feruchemy": "Chromium",
+                      "twinborn": "Ringer",
+                      "reputation": "Incredibly, unfairly lucky."
+                    },
+                    {
+                      "allomancy": "Chromium",
+                      "feruchemy": "Nicrosil",
+                      "twinborn": "Sapper",
+                      "reputation": "Steals and hoards the power of others."
+                    },
+                    {
+                      "allomancy": "Chromium",
+                      "feruchemy": "Bendalloy",
+                      "twinborn": "Gulper",
+                      "reputation": "Consumes physical and magical energy."
+                    },
+                    {
+                      "allomancy": "Nicrosil",
+                      "feruchemy": "Pewter",
+                      "twinborn": "Booster",
+                      "reputation": "Provides physical and mystical support."
+                    },
+                    {
+                      "allomancy": "Nicrosil",
+                      "feruchemy": "Copper",
+                      "twinborn": "Burst-ticker",
+                      "reputation": "Never forgets a favor done for a Misting."
+                    },
+                    {
+                      "allomancy": "Nicrosil",
+                      "feruchemy": "Duralumin",
+                      "twinborn": "Enabler",
+                      "reputation": "Feeds both magic and ego."
+                    },
+                    {
+                      "allomancy": "Nicrosil",
+                      "feruchemy": "Nicrosil",
+                      "twinborn": "Soulburst",
+                      "reputation": "Opens up new possibilities of magic."
+                    },
+                    {
+                      "allomancy": "Nicrosil",
+                      "feruchemy": "Electrum",
+                      "twinborn": "Cohort",
+                      "reputation": "Fearless sidekicks for strong Allomancers."
+                    },
+                    {
+                      "allomancy": "Gold",
+                      "feruchemy": "Copper",
+                      "twinborn": "Chronicler",
+                      "reputation": "Records the past so they do not repeat it."
+                    },
+                    {
+                      "allomancy": "Gold",
+                      "feruchemy": "Aluminum",
+                      "twinborn": "Vessel",
+                      "reputation": "Can literally change personality overnight."
+                    },
+                    {
+                      "allomancy": "Gold",
+                      "feruchemy": "Gold",
+                      "twinborn": "Timeless",
+                      "reputation": "Unkillable, rumored to be immortal."
+                    },
+                    {
+                      "allomancy": "Gold",
+                      "feruchemy": "Electrum",
+                      "twinborn": "Introspect",
+                      "reputation": "Analyzes every detail of their lives."
+                    },
+                    {
+                      "allomancy": "Electrum",
+                      "feruchemy": "Iron",
+                      "twinborn": "Whimwitter",
+                      "reputation": "Prone to change plans."
+                    },
+                    {
+                      "allomancy": "Electrum",
+                      "feruchemy": "Copper",
+                      "twinborn": "Foresight",
+                      "reputation": "Has an infallible memory of the future."
+                    },
+                    {
+                      "allomancy": "Electrum",
+                      "feruchemy": "Zinc",
+                      "twinborn": "Flicker",
+                      "reputation": "Fastest reaction times in the world."
+                    },
+                    {
+                      "allomancy": "Electrum",
+                      "feruchemy": "Chromium",
+                      "twinborn": "Charmed",
+                      "reputation": "Impossible to ambush, really lucky."
+                    },
+                    {
+                      "allomancy": "Electrum",
+                      "feruchemy": "Electrum",
+                      "twinborn": "Visionary",
+                      "reputation": "Sees the future and faces it boldly."
+                    },
+                    {
+                      "allomancy": "Cadmium",
+                      "feruchemy": "Bronze",
+                      "twinborn": "Plotter",
+                      "reputation": "Skilled at executing long-term plans."
+                    },
+                    {
+                      "allomancy": "Cadmium",
+                      "feruchemy": "Gold",
+                      "twinborn": "Yearspanner",
+                      "reputation": "Seem to have extraordinarily long lifespans."
+                    },
+                    {
+                      "allomancy": "Cadmium",
+                      "feruchemy": "Cadmium",
+                      "twinborn": "Chrysalis",
+                      "reputation": "Endure dire situations until things improve."
+                    },
+                    {
+                      "allomancy": "Bendalloy",
+                      "feruchemy": "Tin",
+                      "twinborn": "Spotter",
+                      "reputation": "Able to take in every detail."
+                    },
+                    {
+                      "allomancy": "Bendalloy",
+                      "feruchemy": "Steel",
+                      "twinborn": "Blur",
+                      "reputation": "Inhumanly productive."
+                    },
+                    {
+                      "allomancy": "Bendalloy",
+                      "feruchemy": "Copper",
+                      "twinborn": "Assessor",
+                      "reputation": "Can break down events second by second."
+                    },
+                    {
+                      "allomancy": "Bendalloy",
+                      "feruchemy": "Zinc",
+                      "twinborn": "Flashwit",
+                      "reputation": "Expert negotiators and planners."
+                    },
+                    {
+                      "allomancy": "Bendalloy",
+                      "feruchemy": "Aluminum",
+                      "twinborn": "Monument",
+                      "reputation": "Flip from dull to magnetic instantly."
+                    },
+                    {
+                      "allomancy": "Bendalloy",
+                      "feruchemy": "Gold",
+                      "twinborn": "Constant",
+                      "reputation": "Seemingly unaffected by time or age."
+                    },
+                    {
+                      "allomancy": "Bendalloy",
+                      "feruchemy": "Electrum",
+                      "twinborn": "Transcendent",
+                      "reputation": "Face the unknown without hesitation."
+                    },
+                    {
+                      "allomancy": "Bendalloy",
+                      "feruchemy": "Bendalloy",
+                      "twinborn": "Sated",
+                      "reputation": "Ascetic loners."
+                    }
+                ],
+                "compounder":"Thanks to their massive fonts of charges, Compounder Twinborn can be extremely powerful. However, there are some limitations you’ll need to deal with — Compounding isn’t simple! \n To get the most out of your Compounding, you’ll want your Feruchemy rating and Allomancy Rating to keep pace with each other so that you can Compound enough charges and be able to spend those charges. Unless you plan to rely on your Allomancy for its normal Allomantic effects quite a bit, it’s usually best to increase your Feruchemy first, since you can still tap a bunch of charges normally without using Compounding if you need to. Also watch for other limits on your metal (like the previous example of Physique limiting how many charges of caloric energy Jann can store per hour). \n You’ll need to store in and ingest metalminds frequently, so look at taking more metalminds as Props so you have a steady supply. Juggling your inventory so you have metalminds ready to Compound when you need them is all part of being a Compounder. \n Though Compounding uses Allomancy to enhance Feruchemy, and the Feruchemical abilities are what Twinborn are known for, don’t forget you’re still a fully capable Allomancer! Take Misting vials or pouches as Props so you have a supply that isn’t reliant on just metalminds. \n Though you start off a bit behind on Stunts, you can do some amazing things once you’re able to buy a Compounding Stunt. It’s a great idea to look at the Compounding Stunt options for your metal early on and buy one you like once you have the Advancements to spend."
+            },
+            "compounded":"When a Twinborn Compounds her metals, she creates a totally new Metallic effect — as if she was burning another metal which mere Mistings could never use. These unique effects are represented by Compounding Stunts, and are identified by the word “Compounding” in parentheses following their names. Any Compounder Twinborn Hero may gain Compounding Stunts corresponding to his metals during play using Advancements. \n Nearly all Compounding Stunts can only be used if the Compounder spends large amounts of Feruchemical charges. Unless noted otherwise, all Feruchemical charges spent to activate Compounding Stunts must be gained through Compounding; these are referred to in these Stunts as “Compounded charges.” \n For instance, if you Compound 4 charges from a pewtermind, you can use the resulting 40 charges to activate the Earthshaker Compounding Stunt, as normal Pewter Feruchemical charges, or a combination of the two. However, if you tap 40 charges from your pewtermind using Feruchemy, you can only use those charges as normal — you can’t use your Earthshaker Stunt."
         }
     ],
     "creation": [
@@ -3733,6 +4542,1023 @@
             "era2":[],
             "firstNote": "* Each time you choose this item, the maximum number of Props you may have drops by 1 (e.g. your maximum Props drops by 2 if you choose both a stone spear and a large wooden shield).",
             "secondNote": "** The Narrator may let you choose from a broader selection of metals if more have been discovered (this may depend on when your story occurs, or different factors if your story diverges from what’s in the novels). Choosing these items may reduce your maximum Props by 1 or even 2 if the Narrator determines that these additional metals are particularly powerful or scarce (such as Duralumin)."
+        }
+    ],
+    "rogues": [
+        {
+            "id":0,
+            "name":"Samples Era 1",
+            "era1":[
+                {
+                    "name":"Beck",
+                    "id":0,
+                    "concept":"Fixer & Crew Leader",
+                    "crew":"Nine Eyes",
+                    "cause":"Revenge",
+                    "target":"Nobility",
+                    "method":"Theft",
+                    "race":"Skaa",
+                    "sex":"Male",
+                    "age":31,
+                    "height":"5'8''",
+                    "weight":"191 lbs",
+                    "physique":3,
+                    "charm":4,
+                    "wits":4,
+                    "resources":4,
+                    "influence":6,
+                    "spirit":3,
+                    "traits":{
+                        "drive":"Safeguard my family's future",
+                        "profession":"Fixer",
+                        "speciality":"Well-connected",
+                        "feature":"Portly",
+                        "personality":"Determined",
+                        "extras":[
+                            {
+                                "trait":"Known as 'upright citizen'"
+                            },
+                            {
+                                "trait":"Father figure to my crew"
+                            }
+                        ]
+                    },
+                    "tragedy":"My parents and brother worked like dogs but died as paupers",
+                    "destiny":"See my sons grow up free and self-determined",
+                    "powers":[],
+                    "equipment":[
+                        {
+                            "item":"Dueling cane",
+                            "rules":"Damage +2; Range: Striking; Contains no metal",
+                            "props":true
+                        },
+                        {
+                            "item":"Horse & carriage",
+                            "rules":"Enclosed four-person vehicle favored by nobility",
+                            "props":true
+                        },
+                        {
+                            "item":"Pocket watch",
+                            "rules":"Popular symbol of wealth; keeps good time",
+                            "props":true
+                        }
+                    ]
+                },
+                {
+                    "name":"Damosi",
+                    "id":1,
+                    "concept":"Itinerant Keeper",
+                    "crew":"Nine Eyes",
+                    "cause":"Revenge",
+                    "target":"Nobility",
+                    "method":"Theft",
+                    "race":"Terris",
+                    "sex":"Male",
+                    "age":36,
+                    "height":"6'8''",
+                    "weight":"187 lbs",
+                    "physique":4,
+                    "charm":3,
+                    "wits":4,
+                    "resources":3,
+                    "influence":3,
+                    "spirit":3,
+                    "traits":{
+                        "drive":"Save knowledge for the future",
+                        "profession":"Chronicler of Luthadel",
+                        "speciality":"Sage advice",
+                        "feature":"Gangly frame",
+                        "personality":"Solemn",
+                        "extras":[]
+                    },
+                    "tragedy":"Gahela died because of my weakness",
+                    "destiny":"Find the one truth that will free the Terris people from oppression",
+                    "powers":[
+                        {
+                            "power":"All metals",
+                            "allomancy":false,
+                            "feruchemy":true,
+                            "hemalurgy":false,
+                            "other":false,
+                            "rating":3,
+                            "stunts":[]
+                        }
+                    ],
+                    "equipment":[
+                        {
+                            "item":"Metalminds (6)",
+                            "rules":"Copper/Gold/Iron/Pewter/Steel/Tin; store 100 charges each",
+                            "props":true
+                        },
+                        {
+                            "item":"Pen & blank book",
+                            "rules":"Vital tools of the scribe; full of notes on Luthadel",
+                            "props":true
+                        }
+                    ]
+                },
+                {
+                    "name":"Gavon",
+                    "id":2,
+                    "concept":"Inside Man",
+                    "crew":"Nine Eyes",
+                    "cause":"Revenge",
+                    "target":"Nobility",
+                    "method":"Theft",
+                    "race":"Terris",
+                    "sex":"Male",
+                    "age":21,
+                    "height":"6'5''",
+                    "weight":"165 lbs",
+                    "physique":4,
+                    "charm":5,
+                    "wits":4,
+                    "resources":4,
+                    "influence":2,
+                    "spirit":5,
+                    "traits":{
+                        "drive":"Stick it to the nobility",
+                        "profession":"Spy",
+                        "speciality":"Versed in noble society",
+                        "feature":"Devil-may-care attitude",
+                        "personality":"Rebellious",
+                        "extras":[
+                            {
+                                "trait":"Fast-talker"
+                            },
+                            {
+                                "trait":"Trained as a steward"
+                            }
+                        ]
+                    },
+                    "tragedy":"I was complicit in the suffering of hundreds of innocent Skaa",
+                    "destiny":"Take apart House Hasting, brick by brick",
+                    "powers":[],
+                    "equipment":[
+                        {
+                            "item":"Formal clothing",
+                            "rules":"Useful for blending into high society events",
+                            "props":true
+                        },
+                        {
+                            "item":"Lockpicks",
+                            "rules":"Useful when picking locks & safes",
+                            "props":true
+                        },
+                        {
+                            "item":"Bottle of wine",
+                            "rules":"Handy for loosening tongues & inhibitions",
+                            "props":true
+                        }
+                    ]
+                },
+                {
+                    "name":"JeHoy",
+                    "id":3,
+                    "concept":"Contracted Kandra on Loan",
+                    "crew":"Nine Eyes",
+                    "cause":"Revenge",
+                    "target":"Nobility",
+                    "method":"Theft",
+                    "race":"Kandra",
+                    "sex":"Female",
+                    "age":456,
+                    "height":"5'5''",
+                    "weight":"135 lbs",
+                    "physique":4,
+                    "charm":4,
+                    "wits":5,
+                    "resources":2,
+                    "influence":3,
+                    "spirit":4,
+                    "traits":{
+                        "drive":"Serve my Contract faithfully",
+                        "profession":"Infiltrator",
+                        "speciality":"Escape artist",
+                        "feature":"Nervous tics",
+                        "personality":"Reserved",
+                        "extras":[]
+                    },
+                    "tragedy":"I unwitting violated the First Contract - or did I?",
+                    "destiny":"Find a way to return to the Homeland with honor (and for good)",
+                    "powers":[
+                        {
+                            "power":"Mimicry",
+                            "allomancy":false,
+                            "feruchemy":false,
+                            "hemalurgy":false,
+                            "other":true,
+                            "rating":5,
+                            "stunts":[]
+                        },
+                        {
+                            "power":"Blessing of Awareness",
+                            "allomancy":false,
+                            "feruchemy":false,
+                            "hemalurgy":true,
+                            "other":false,
+                            "stunts":[]
+                        }
+                    ],
+                    "equipment":[
+                        {
+                            "item":"Bones",
+                            "rules":"Lets you imitate one specific (undefined) person",
+                            "props":true
+                        },
+                        {
+                            "item":"Disguise",
+                            "rules":"Helps conceal your identity or mimic a person",
+                            "props":true
+                        }
+                    ]
+                },
+                {
+                    "name":"Koel",
+                    "id":4,
+                    "concept":"Fugitive Mistborn",
+                    "crew":"Nine Eyes",
+                    "cause":"Revenge",
+                    "target":"Nobility",
+                    "method":"Theft",
+                    "race":"Noble",
+                    "sex":"Female",
+                    "age":19,
+                    "height":"5'6''",
+                    "weight":"120 lbs",
+                    "physique":3,
+                    "charm":3,
+                    "wits":3,
+                    "resources":5,
+                    "influence":3,
+                    "spirit":3,
+                    "traits":{
+                        "drive":"Bury my past",
+                        "profession":"Burglar",
+                        "speciality":"Good with a knife",
+                        "feature":"Striking beauty",
+                        "personality":"Pragmatic",
+                        "extras":[]
+                    },
+                    "tragedy":"Witnessed my mother's murder by agents of my father's house",
+                    "destiny":"Bring bloody justice to my mother's killer",
+                    "powers":[
+                        {
+                            "power":"All metals",
+                            "allomancy":true,
+                            "feruchemy":false,
+                            "hemalurgy":false,
+                            "other":false,
+                            "rating":4,
+                            "stunts":[]
+                        }
+                    ],
+                    "equipment":[
+                        {
+                            "item":"Obsidian dagger",
+                            "rules":"Damage +1; Range: Touch (close when thrown); does not contain metals",
+                            "props":true
+                        },
+                        {
+                            "item":"Sack of copper clips",
+                            "rules":"Damage +1; Range: Striking / Medium",
+                            "props":true
+                        },
+                        {
+                            "item":"Mistborncloak",
+                            "rules":"Symbol of a Mistborn; may conceal me in mists",
+                            "props":true
+                        },
+                        {
+                            "item":"2 Mistborn vials",
+                            "rules":"1 charge of each Physical and Mental metal",
+                            "props":true
+                        }
+                    ]
+                },
+                {
+                    "name":"Sayna",
+                    "id":5,
+                    "concept":"Conwoman & Rioter",
+                    "crew":"Nine Eyes",
+                    "cause":"Revenge",
+                    "target":"Nobility",
+                    "method":"Theft",
+                    "race":"Skaa",
+                    "sex":"Female",
+                    "age":23,
+                    "height":"5'4''",
+                    "weight":"108 lbs",
+                    "physique":2,
+                    "charm":4,
+                    "wits":3,
+                    "resources":3,
+                    "influence":4,
+                    "spirit":6,
+                    "traits":{
+                        "drive":"Escape the life of a skaa",
+                        "profession":"Con-woman",
+                        "speciality":"Disarming innuendo",
+                        "feature":"Noble bearing",
+                        "personality":"Confident",
+                        "extras":[]
+                    },
+                    "tragedy":"Assaulted by a nobleman as a child, though I can't remember much",
+                    "destiny":"Prove that station and society have nothing to do with birth",
+                    "powers":[
+                        {
+                            "power":"Zinc",
+                            "allomancy":true,
+                            "feruchemy":false,
+                            "hemalurgy":false,
+                            "other":false,
+                            "rating":5,
+                            "stunts":[
+                                {
+                                    "stunt": "Tug Emotion",
+                                    "desc": "You subtly Riot nearly everyone around you when burning Zinc. At these times you gain one die with Charm rolls. You do not gain this bonus with any roll that also gains dice due to Rioted emotions (i.e. you may not stack this benefit with the basic use of Zinc)."
+                                }
+                            ]
+                        }
+                    ],
+                    "equipment":[
+                        {
+                            "item":"Formal clothing",
+                            "rules":"Useful for blending into high-society events",
+                            "props":true
+                        },
+                        {
+                            "item":"2 Misting vials",
+                            "rules":"3 charges of Zinc each",
+                            "props":true
+                        }
+                    ]
+                },
+                {
+                    "name":"Sev",
+                    "id":6,
+                    "concept":"Soother Thief",
+                    "crew":"Nine Eyes",
+                    "cause":"Revenge",
+                    "target":"Nobility",
+                    "method":"Theft",
+                    "race":"Skaa",
+                    "sex":"Male",
+                    "age":26,
+                    "height":"5'10''",
+                    "weight":"145 lbs",
+                    "physique":4,
+                    "charm":3,
+                    "wits":6,
+                    "resources":2,
+                    "influence":4,
+                    "spirit":3,
+                    "traits":{
+                        "drive":"Capitalize on all opportunities",
+                        "profession":"Thief",
+                        "speciality":"Always have a plan",
+                        "feature":"Witty repartee",
+                        "personality":"Cautious",
+                        "extras":[]
+                    },
+                    "tragedy":"Slew a man in cold blood when I was just a boy",
+                    "destiny":"Pull off the greatest heist in the history of the Final Empire",
+                    "powers":[
+                        {
+                            "power":"Brass",
+                            "allomancy":true,
+                            "feruchemy":false,
+                            "hemalurgy":false,
+                            "other":false,
+                            "rating":5,
+                            "stunts":[
+                                {
+                                    "stunt": "Enduring Emotions",
+                                    "desc": "Emotions you Soothe linger for up to an hour after you stop focusing on the victim."
+                                }
+                            ]
+                        }
+                    ],
+                    "equipment":[
+                        {
+                            "item":"Dagger",
+                            "rules":"Damage +1; Range: Touch (Close when thrown)",
+                            "props":true
+                        },
+                        {
+                            "item":"Misting vial",
+                            "rules":"3 charges of Brass",
+                            "props":true
+                        }
+                    ]
+                },
+                {
+                    "name":"Thorrow",
+                    "id":7,
+                    "concept":"Thug Bodyguard",
+                    "crew":"Nine Eyes",
+                    "cause":"Revenge",
+                    "target":"Nobility",
+                    "method":"Theft",
+                    "race":"Skaa",
+                    "sex":"Male",
+                    "age":27,
+                    "height":"6'0''",
+                    "weight":"173 lbs",
+                    "physique":6,
+                    "charm":3,
+                    "wits":4,
+                    "resources":3,
+                    "influence":2,
+                    "spirit":4,
+                    "traits":{
+                        "drive":"Make the nobility suffer",
+                        "profession":"Bodyguard",
+                        "speciality":"Spear fighter",
+                        "feature":"Heavily Scarred",
+                        "personality":"Determined",
+                        "extras":[]
+                    },
+                    "tragedy":"Had to hurt a lot of my own people to get where I am today.",
+                    "destiny":"Bring down the system and show the nobles what skaa are made of",
+                    "powers":[
+                        {
+                            "power":"Pewter",
+                            "allomancy":true,
+                            "feruchemy":false,
+                            "hemalurgy":false,
+                            "other":false,
+                            "rating":5,
+                            "stunts":[
+                                {
+                                    "stunt": "Denser Tissues",
+                                    "desc": "While burning Pewter, your flesh becomes tougher and denser, and you suffer 1 less damage from physical attacks. You may take this Stunt a second time, reducing the damage you suffer from physical attacks by 1 more (for a maximum total of 2)."
+                                }
+                            ]
+                        }
+                    ],
+                    "equipment":[
+                        {
+                            "item":"Spear",
+                            "rules":"Damage +2; Range: Striking (Medium when thrown)",
+                            "props":true
+                        },
+                        {
+                            "item":"2 Misting vials",
+                            "rules":"3 charges of Pewter each",
+                            "props":true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id":1,
+            "name":"Samples Era 2",
+            "era2":[
+                {
+                    "name":"Anders Colby",
+                    "id":8,
+                    "concept":"Survivorist Preacher",
+                    "crew":"Dust-Eaters",
+                    "cause":"Bounty-Hunting",
+                    "target":"Outlaws",
+                    "method":"Deception",
+                    "race":"Human",
+                    "sex":"Male",
+                    "age":63,
+                    "height":"6'3''",
+                    "weight":"183 lbs",
+                    "physique":2,
+                    "charm":4,
+                    "wits":3,
+                    "resources":3,
+                    "influence":4,
+                    "spirit":6,
+                    "traits":{
+                        "drive":"Empower the week",
+                        "profession":"Survivorist preacher",
+                        "speciality":"Allomancy expert",
+                        "feature":"Scarred forearms",
+                        "personality":"Firebrand",
+                        "extras":[]
+                    },
+                    "tragedy":"Saw my family tortured and killed... but I Survived",
+                    "destiny":"Rediscovered the secret of Malatium and someone who can burn it",
+                    "powers":[
+                        {
+                            "power":"Nicrosil",
+                            "allomancy":true,
+                            "feruchemy":false,
+                            "hemalurgy":false,
+                            "other":false,
+                            "rating":5,
+                            "stunts":[
+                                {
+                                    "stunt": "Multiple Targets",
+                                    "desc": "You may consume the metal stores of any number of characters you’re touching, rather than just one."
+                                }
+                            ]
+                        }
+                    ],
+                    "equipment":[
+                        {
+                            "item":"Obsidian spear",
+                            "rules":"Damage +2; Range: Striking (Close when thrown)",
+                            "props":true
+                        },
+                        {
+                            "item":"Holy Book",
+                            "rules":"A precious volume about the Survivor of Hathsin",
+                            "props":true
+                        },
+                        {
+                            "item":"Misting pouch",
+                            "rules":"3 charges of Nicrosil",
+                            "props":true
+                        }
+                    ]
+                },
+                {
+                    "name":"'Bandy' Jann Gefferny",
+                    "id":9,
+                    "concept":"Nomadic Roughs Scout",
+                    "crew":"Dust-Eaters",
+                    "cause":"Bounty-Hunting",
+                    "target":"Outlaws",
+                    "method":"Deception",
+                    "race":"Human",
+                    "sex":"Female",
+                    "age":26,
+                    "height":"5'3''",
+                    "weight":"135 lbs",
+                    "physique":5,
+                    "charm":4,
+                    "wits":3,
+                    "resources":4,
+                    "influence":2,
+                    "spirit":3,
+                    "traits":{
+                        "drive":"Catch the bad guys",
+                        "profession":"Scout",
+                        "speciality":"Expert tracker",
+                        "feature":"Calm demeanor",
+                        "personality":"Confident",
+                        "extras":[]
+                    },
+                    "tragedy":"Found my mother robbed and left for dead by bandits",
+                    "destiny":"To rid the Roughs of organized criminal gangs",
+                    "powers":[
+                        {
+                            "power":"Brass",
+                            "allomancy":true,
+                            "feruchemy":false,
+                            "hemalurgy":false,
+                            "other":false,
+                            "rating":4,
+                            "stunts":[
+                                {
+                                    "stunt":"Affect Crowd:",
+                                    "description":"While burning Brass, you may simultaneously Soothe a number of people up to 20 × your Brass rating, though you lose 2 dice with all Brass rolls when manipulating multiple characters at once (see page 223 for more information about crowds). You may not use this Stunt while flaring Brass."
+                                }
+                            ]
+                        },
+                        {
+                            "power":"Bronze",
+                            "allomancy":false,
+                            "feruchemy":true,
+                            "hemalurgy":false,
+                            "other":false,
+                            "rating":4,
+                            "stunts":[]
+                        }
+                    ],
+                    "equipment":[
+                        {
+                            "item":"Immerling Multi-Shot",
+                            "rules":"Damage +3; 8 shots; Range: Close / Long",
+                            "props":true
+                        },
+                        {
+                            "item":"Immerling .44",
+                            "rules":"Damage +2; 4 shots; Range: Close / Medium",
+                            "props":true
+                        },
+                        {
+                            "item":"Twinborn's kit",
+                            "rules":"1 bronzemind (100 charges) and Misting pouch with 3 charges Brass",
+                            "props":true
+                        }
+                    ]
+                },
+                {
+                    "name":"Enid Bellflower",
+                    "id":10,
+                    "concept":"Gunsmith turned Lawkeeper",
+                    "crew":"Dust-Eaters",
+                    "cause":"Bounty-Hunting",
+                    "target":"Outlaws",
+                    "method":"Deception",
+                    "race":"Human",
+                    "sex":"Female",
+                    "age":56,
+                    "height":"5'6''",
+                    "weight":"115 lbs",
+                    "physique":3,
+                    "charm":3,
+                    "wits":5,
+                    "resources":5,
+                    "influence":4,
+                    "spirit":4,
+                    "traits":{
+                        "drive":"Hunt down my guns",
+                        "profession":"Lawkeeper",
+                        "speciality":"Gunsmith",
+                        "feature":"Talk with my hands",
+                        "personality":"Meticulous",
+                        "extras":[]
+                    },
+                    "tragedy":"My creations are responsible for the deaths of dozens",
+                    "destiny":"To hunt down my guns and bring those who use them to justice",
+                    "powers":[
+                        {
+                            "power":"Gunsmithing Stunt",
+                            "allomancy":false,
+                            "feruchemy":false,
+                            "hemalurgy":false,
+                            "other":true,
+                            "stunts":[
+                                {
+                                    "stunt":"Create Custom Ammo",
+                                    "desc":"You can make all custom ammunition, including aluminum ammo, armor-piercing ammo, hollow-point rounds, and incendiary shells. Additionally, you gain 1 free Prop, which must be one of the listed ammunition types above, chosen from the Customized Ammunition table in Props"
+                                },
+                                {
+                                    "stunt":"Custom Guns (Perfect Balance)",
+                                    "desc":"Choose an option from the Customized Firearms table in Props. You can add this option to a gun using the gunsmithing rules. Additionally, you gain 1 free Prop, which must be spent to add the chosen customization to a gun you’ve chosen as a Prop. You may take this Stunt multiple times, each time designating a different Customized Firearm option, and allowing you to add that customization to a gun you’ve chosen as a Prop"
+                                }
+                            ]
+                        }
+                    ],
+                    "equipment":[
+                        {
+                            "item":"Sterrion 36",
+                            "rules":"Damage +2; 6 shot; Range: Close / Medium",
+                            "props":true
+                        },
+                        {
+                            "item":"Heispel Autoloader",
+                            "rules":"Damage +2; 12shots; Range: Close / Medium",
+                            "props":true
+                        },
+                        {
+                            "item":"Hollow-point rounds",
+                            "rules":"Damage +1; Armor is doubled; 10 rounds",
+                            "props":true
+                        },
+                        {
+                            "item":"Gunsmith's workshop",
+                            "rules":"Tool; used to make custom guns and ammo",
+                            "props":true
+                        },
+                        {
+                            "item":"Cart",
+                            "rules":"Common 2-wheeled cart",
+                            "props":true
+                        }
+                    ]
+                },
+                {
+                    "name":"Grinnel Enfran",
+                    "id":11,
+                    "concept":"Twinborn Bounty Hunter",
+                    "crew":"Dust-Eaters",
+                    "cause":"Bounty-Hunting",
+                    "target":"Outlaws",
+                    "method":"Deception",
+                    "race":"Human",
+                    "sex":"Male",
+                    "age":34,
+                    "height":"6'1''",
+                    "weight":"195 lbs",
+                    "physique":4,
+                    "charm":4,
+                    "wits":3,
+                    "resources":3,
+                    "influence":3,
+                    "spirit":3,
+                    "traits":{
+                        "drive":"Prove myself to my family",
+                        "profession":"Bounty hunter",
+                        "speciality":"Expert tracker",
+                        "feature":"Rugged",
+                        "personality":"Gung-ho",
+                        "extras":[]
+                    },
+                    "tragedy":"I've never earned my parents' approval or blessing",
+                    "destiny":"To catch a criminal they say could never be caught",
+                    "powers":[
+                        {
+                            "power":"Bendalloy",
+                            "allomancy":true,
+                            "feruchemy":false,
+                            "hemalurgy":false,
+                            "other":false,
+                            "rating":4,
+                            "stunts":[]
+                        },
+                        {
+                            "power":"Bendalloy",
+                            "allomancy":false,
+                            "feruchemy":true,
+                            "hemalurgy":false,
+                            "other":false,
+                            "rating":4,
+                            "stunts":[]
+                        }
+                    ],
+                    "equipment":[
+                        {
+                            "item":"Granger 30-30 rifle",
+                            "rules":"Damage +3; 1 shot; Range: Close / Extreme",
+                            "props":true
+                        },
+                        {
+                            "item":"Obsidian knife",
+                            "rules":"Damage +1; Range: Touch (Close when thrown)",
+                            "props":true
+                        },
+                        {
+                            "item":"2x Twinborn's kit",
+                            "rules":"1 bendalloymind (100 charges) and Misting pouch with 3 charges Bendalloy each",
+                            "props":true
+                        }
+                    ]
+                },
+                {
+                    "name":"Janella Cett",
+                    "id":12,
+                    "concept":"Troublemaking Gambler",
+                    "crew":"Dust-Eaters",
+                    "cause":"Bounty-Hunting",
+                    "target":"Outlaws",
+                    "method":"Deception",
+                    "race":"Human",
+                    "sex":"Female",
+                    "age":23,
+                    "height":"5'1''",
+                    "weight":"115 lbs",
+                    "physique":2,
+                    "charm":4,
+                    "wits":3,
+                    "resources":6,
+                    "influence":4,
+                    "spirit":3,
+                    "traits":{
+                        "drive":"Raise the stakes",
+                        "profession":"Gambler",
+                        "speciality":"Defying the odds",
+                        "feature":"Noble mannerisms",
+                        "personality":"Self-assured",
+                        "extras":[]
+                    },
+                    "tragedy":"Everyone I've loved has left me behind",
+                    "destiny":"To find someone whose love is greater than luck",
+                    "powers":[
+                        {
+                            "power":"Chromium",
+                            "allomancy":false,
+                            "feruchemy":true,
+                            "hemalurgy":false,
+                            "other":false,
+                            "rating":4,
+                            "stunts":[
+                                {
+                                    "stunt":"Lucky Shot",
+                                    "desc":"Your shots always seem to hit in the most improbable ways. Once per Beat, when making a Called Shot, you may tap 10 charges of luck to gain a single “free” Nudge on your roll. Additionally, you may tap 10 or more charges of luck to either reduce the Difficulty of a shot or the final Result of any rolls to defend against this attack by 1 per 10 charges of luck spent (to a minimum Difficulty of 1). This Stunt can be combined with both the Marksmanship gunplay Stunt and with Aiming to make even more impressive shots Stunts!"
+                                }
+                            ]
+                        }
+                    ],
+                    "equipment":[
+                        {
+                            "item":"Cohnvave Two-Shot",
+                            "rules":"Damage +1; 2 shots; Range: Touch / Close",
+                            "props":true
+                        },
+                        {
+                            "item":"Deck of cards",
+                            "rules":"Tool; a gambler's best friend",
+                            "props":true
+                        },
+                        {
+                            "item":"Metalmind clothing",
+                            "rules":"Formal clothing; stores 25 charges of Chromium",
+                            "props":true
+                        },
+                        {
+                            "item":"Metalminds(3)",
+                            "rules":"Hold 100 charges of Chromium each",
+                            "props":true
+                        },
+                        {
+                            "item":"Disguise",
+                            "rules":"Tool; useful for hiding one's identity",
+                            "props":true
+                        }
+                    ]
+                },
+                {
+                    "name":"Maedra Dallewyl",
+                    "id":13,
+                    "concept":"Adventuring Reporter",
+                    "crew":"Dust-Eaters",
+                    "cause":"Bounty-Hunting",
+                    "target":"Outlaws",
+                    "method":"Deception",
+                    "race":"Human",
+                    "sex":"Male",
+                    "age":24,
+                    "height":"5'10''",
+                    "weight":"167 lbs",
+                    "physique":2,
+                    "charm":3,
+                    "wits":4,
+                    "resources":3,
+                    "influence":5,
+                    "spirit":5,
+                    "traits":{
+                        "drive":"Study the criminal element",
+                        "profession":"Journalist",
+                        "speciality":"Lie detector",
+                        "feature":"Excited grin",
+                        "personality":"Breathless",
+                        "extras":[]
+                    },
+                    "tragedy":"Kidnapped by koloss as a young reporter",
+                    "destiny":"To write the first true history of the Roughs",
+                    "powers":[
+                        {
+                            "power":"Copper",
+                            "allomancy":false,
+                            "feruchemy":true,
+                            "hemalurgy":false,
+                            "other":false,
+                            "rating":5,
+                            "stunts":[]
+                        }
+                    ],
+                    "equipment":[
+                        {
+                            "item":"Terringgul 27 revolver",
+                            "rules":"Damage +1; 6 shots; Range: Close / Medium",
+                            "props":true
+                        },
+                        {
+                            "item":"Pen & blank book",
+                            "rules":"Tool; essential tools of the journalist",
+                            "props":true
+                        },
+                        {
+                            "item":"Metalminds (3)",
+                            "rules":"Copper; store 100 charges each",
+                            "props":true
+                        }
+                    ]
+                },
+                {
+                    "name":"Parnell",
+                    "id":14,
+                    "concept":"Itinerant Koloss-Blooded",
+                    "crew":"Dust-Eaters",
+                    "cause":"Bounty-Hunting",
+                    "target":"Outlaws",
+                    "method":"Deception",
+                    "race":"Koloss-blooded",
+                    "sex":"Male",
+                    "age":22,
+                    "height":"6'10''",
+                    "weight":"275 lbs",
+                    "physique":6,
+                    "charm":3,
+                    "wits":5,
+                    "resources":3,
+                    "influence":2,
+                    "spirit":5,
+                    "traits":{
+                        "drive":"Lead my people",
+                        "profession":"Engineer",
+                        "speciality":"Koloss Contacts",
+                        "feature":"Imposing build",
+                        "personality":"Hot-tempered",
+                        "extras":[]
+                    },
+                    "tragedy":"I've abandoned my people to live amongst the humans",
+                    "destiny":"Bring progress and a better future to the koloss",
+                    "powers":[
+                        {
+                            "power":"Koloss Physique",
+                            "allomancy":false,
+                            "feruchemy":false,
+                            "hemalurgy":false,
+                            "other":true,
+                            "stunts":[
+                                {
+                                    "stunt":"Koloss Physique",
+                                    "desc":"As the children of hugely strong creatures, koloss-blooded inherit some of their sires’ strength and durability. Koloss-blooded characters increase their Physique by 1 at character creation, and may increase their Physique rating to a maximum of 7 (rather than 6 as normal). In addition, their tremendous strength grants koloss-blooded characters 2 additional dice when making a roll involving physical strength (including lifting and moving objects, and wielding heavy weapons)"
+                                }
+                            ]
+                        }
+                    ],
+                    "equipment":[
+                        {
+                            "item":"Koloss blade",
+                            "rules":"Damage +4; Range: Striking / Striking",
+                            "props":true
+                        },
+                        {
+                            "item":"Pocket watch",
+                            "rules":"A small timepiece that keeps good time",
+                            "props":true
+                        }
+                    ]
+                },
+                {
+                    "name":"Sperry Odum",
+                    "id":15,
+                    "concept":"Amoral Connector Con Artist",
+                    "crew":"Dust-Eaters",
+                    "cause":"Bounty-Hunting",
+                    "target":"Outlaws",
+                    "method":"Deception",
+                    "race":"Human",
+                    "sex":"Male",
+                    "age":43,
+                    "height":"5'6''",
+                    "weight":"220 lbs",
+                    "physique":3,
+                    "charm":6,
+                    "wits":4,
+                    "resources":4,
+                    "influence":3,
+                    "spirit":2,
+                    "traits":{
+                        "drive":"Take rubes for all they're worth",
+                        "profession":"Grifter",
+                        "speciality":"Silver-tongued",
+                        "feature":"Immaculately groomed",
+                        "personality":"Instantly likeable",
+                        "extras":[]
+                    },
+                    "tragedy":"My pappy took the fall that I should've taken",
+                    "destiny":"Pull off the greatest con in history",
+                    "powers":[
+                        {
+                            "power":"Duralumin",
+                            "allomancy":true,
+                            "feruchemy":false,
+                            "hemalurgy":false,
+                            "other":false,
+                            "rating":5,
+                            "stunts":[]
+                        },
+                        {
+                            "power":"Gunplay Stunts",
+                            "allomancy":false,
+                            "feruchemy":false,
+                            "hemalurgy":false,
+                            "other":true,
+                            "stunts":[
+                                {
+                                    "stunt":"Quicker Draw",
+                                    "desc":" You can Quick Draw a one-handed pistol, or knife without any penalty to your dice pool. Additionally, you can choose whether to use your Physique or Wits during each round of a pistol duel (rather than using the lower, as normal)."
+                                }
+                            ]
+                        }
+                    ],
+                    "equipment":[
+                        {
+                            "item":"Cohnvave Two-Shot",
+                            "rules":"Damage +1; 2 shots; Range: Touch / Close",
+                            "props":true
+                        },
+                        {
+                            "item":"Formal clothing",
+                            "rules":"Tool; useful for blending into high society",
+                            "props":true
+                        },
+                        {
+                            "item":"Snake oil",
+                            "rules":"Tool; convincing-looking tonic for fooling rubes",
+                            "props":true
+                        },
+                        {
+                            "item":"Metalminds (3)",
+                            "rules":"Duralumin; store 100 charges each",
+                            "props":true
+                        }
+                    ]
+                }
+            ]
         }
     ]
 }

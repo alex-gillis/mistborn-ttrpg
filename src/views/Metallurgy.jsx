@@ -42,7 +42,7 @@ function Metallurgy(props) {
       </div>
       <div id="info">
         {myView === true && myBasics[myBasic] && <Basics info={myBasics}/>}
-        {myView === false && myMetals[myInfo] && <Metal metal={myMetals[myInfo]} />}
+        {myView === false && myMetals[myInfo] && <Metal metal={myMetals[myInfo]} info={myBasics} />}
       </div>
     </>
   )

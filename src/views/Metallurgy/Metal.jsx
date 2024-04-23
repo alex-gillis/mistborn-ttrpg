@@ -2,12 +2,14 @@ import { useState } from 'react';
 import Allomancy from "./Allomancy/Allomancy"
 import Feruchemy from "./Feruchemy/Feruchemy"
 import Hemalurgy from "./Hemalurgy/Hemalurgy"
+import Compound from './Compound/Compound';
 
 /* eslint-disable react/prop-types */
 function Metal(props) {
   const [myAllo, setAllo] = useState(false);
   const [myFeru, setFeru] = useState(false);
   const [myHema, setHema] = useState(false);
+  const [myTwins, setTwins] = useState(false);
   let myReference = "the Symbol for" + props.metal.name + "symbol"
 
   function viewAllo() {
@@ -20,6 +22,10 @@ function Metal(props) {
 
   function viewHema() {
     setHema(!myHema);
+  }
+
+  function viewTwins() {
+    setTwins(!myTwins);
   }
 
   return (
@@ -39,6 +45,7 @@ function Metal(props) {
         <button id="filter-button" className={myAllo ? 'selected' : 'unselected'} onClick={() => viewAllo()}>Allomancy</button>
         <button id="filter-button" className={myFeru ? 'selected' : 'unselected'} onClick={() => viewFeru()}>Feruchemy</button>
         <button id="filter-button" className={myHema ? 'selected' : 'unselected'} onClick={() => viewHema()}>Hemalurgy</button>
+        <button id="filter-button" className={myTwins ? 'selected' : 'unselected'} onClick={() => viewTwins()}>Compounding</button>
       </div>
 
       <br/>
@@ -47,6 +54,8 @@ function Metal(props) {
       {myFeru && <Feruchemy metal={ props.metal }/>}
       <br/>
       {myHema && <Hemalurgy metal={ props.metal }/>}
+      <br/>
+      {myTwins && <Compound metal={ props.metal } info={ props.info[3] }/>}
     </>
   )
 }

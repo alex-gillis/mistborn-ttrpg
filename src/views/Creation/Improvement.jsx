@@ -145,6 +145,53 @@ function Improvement(props) {
             <h3 id="italicked">15 Advancements</h3>
             <span id="bold">{props.improvement.advancement15.title}</span>
             {props.improvement.advancement15.description}
+            <br/>
+            <h3 id="italicked">20 Advancements</h3>
+            <span id="bold">{props.improvement.advancement20.title1}</span>
+            {props.improvement.advancement20.description1}
+            <br/>
+            <div id="italicked">
+                {props.improvement.advancement20.example}
+            </div>
+            {props.improvement.advancement20.description2}
+            <br/><br/>
+            <span id="bold">{props.improvement.advancement20.title2}</span>
+            {props.improvement.advancement20.description3}
+            <br/><br/>
+            <div id="italicked">
+                {props.improvement.advancement20.example2}
+            </div>
+            <br/>
+            {props.improvement.advancement20.description4}
+            <br/>
+            <h3 id="italicked">20 Advancements</h3>
+            <span id="bold">{props.improvement.advancementVari.title}</span>
+            {props.improvement.advancementVari.description1}
+            <br/>
+            <ul>
+                {props.improvement.advancementVari.spikeTypes?.map((myOption, index) => (
+                    <li key={index}>
+                        <span id="italicked">{myOption.name}: </span>{myOption.desc}
+                    </li>
+                ))}
+            </ul>
+            <br/>
+            {props.improvement.advancementVari.description2}
+            <br/>
+            <div id="italicked">
+                {props.improvement.advancement20.example1}
+            </div>
+            <br/>
+            {props.improvement.advancementVari.description3}
+            <br/>
+            <div id="italicked">
+                {props.improvement.advancement20.example2}
+            </div>
+            <br/>
+            <div id="brandon">
+                <h4>From Brandon</h4>
+                {props.improvement.brandon}
+            </div>
         </div>
       </>
     )

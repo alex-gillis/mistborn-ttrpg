@@ -12,6 +12,10 @@ function Basomancy(props) {
             { props.info.history }
             <h2>{ props.info.name } after Ascension</h2>
             { props.info.ascension }
+            <h2>Allomancy in Era 2</h2>
+            { props.info.mistings }
+            <h2>Mistings in Society</h2>
+            { props.info.society }
             <h2>Allomancy Basics</h2>
             { props.info.mechanical }
             <h2>Gaining & Improving Allomantic Powers</h2>

@@ -13,7 +13,7 @@ function Gunplay(props) {
             </div>
             {myGunplay?.map((myGun, index) => (
                 <div key={index}>   
-                    <span id="bolder">{myGun.name}: </span>{myGun.description}
+                    <span id="bolder">{myGun.name}</span> {myGun.description}
                     <br/>
                 </div>
             ))}

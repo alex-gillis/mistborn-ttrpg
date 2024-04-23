@@ -10,6 +10,35 @@ function Basochemy(props) {
             { props.info.history }
             <h2>{ props.info.name } after Ascension</h2>
             { props.info.ascension }
+            <h2>Feruchemy in Era 2</h2>
+            { props.info.ferrings }
+            <h2>Ferrings in Society</h2>
+            { props.info.society }
+            <div id="brandon">
+                { props.info.nicknames }
+                <table>
+                    <tbody>
+                        {props.info.types?.map((type, index) => (
+                            <tr key={index}>
+                                <td>
+                                    {type.one}
+                                </td>
+                                <td>
+                                    {type.two}
+                                </td>
+                            </tr>
+                        ))}
+                    </tbody>
+                </table>
+            </div>
+            <h2>Ferrings in Society</h2>
+            { props.info.terris }
+            <div id="brandon">
+                <h4>What about full Feruchemists?</h4>
+                { props.info.full }
+            </div>
+            <h3>Power and Personality</h3>
+            { props.info.personality }
             <h2>Feruchemical Basics</h2>
             { props.info.mechanical }
             <h2>Gaining & Improving Feruchemical Powers</h2>
