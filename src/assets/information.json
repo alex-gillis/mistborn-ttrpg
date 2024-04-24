@@ -1451,6 +1451,14 @@
                 "example":"",
                 "tapping": []
             },
+            "compounding":{
+                "stunts":[
+                    {
+                        "name":"Alter Appearance (Compounding)",
+                        "description":"You can selectively gain weight in different areas of your body to change how you look. For every 10 Compounded charges of caloric energy you spend, you gain 1 die to rolls to conceal your appearance for 1 hour. Additionally, you can selectively move this weight around on your body, allowing you to appear muscular, skinny, slender with a pot belly, or generally well-padded. You cannot appear to be another gender, nor can you appear to be a specific person. You may end this effect by spending one Beat reverting to your normal form (in a rather dramatic and disturbing display of power)."
+                    }
+                ]
+            },
             "hemalurgy": {
                 "lore": "Bendalloy has no known Hemalurgic applications.",
                 "spikes": "",
@@ -1528,6 +1536,9 @@
                     }
                 ]
             },
+            "compounding":{
+                "stunts":[]
+            },
             "hemalurgy": {
                 "lore": "Atium spikes are incredibly expensive to create, but are also highly versatile. Depending on where the spike is driven in, it steals, stores, and transfers a single Allomantic Power — that of Atium, or a Power derived from any one of the four Temporal Metals (e.g. the ability to see one’s past, see one’s future, slow time, or accelerate it). Each spike may store only one Power. ",
                 "spikes": "An Atium spike grants you a single Allomantic Power — Atium, Gold, Electrum, Cadmium, or Bendalloy — with a rating equal to that of the spike. Each spike reduces your Spirit by 1, as normal.",
@@ -1562,6 +1573,9 @@
                 "example":"",
                 "tapping": []
             },
+            "compounding":{
+                "stunts":[]
+            },
             "hemalurgy": {
                 "lore": "Malatium has no known Hemalurgic applications.",
                 "spikes": "",
@@ -1595,6 +1609,9 @@
                 "tapped": "",
                 "example":"",
                 "tapping": []
+            },
+            "compounding":{
+                "stunts":[]
             },
             "hemalurgy": {
                 "lore": "Lerasium has no known Hemalurgic applications.",

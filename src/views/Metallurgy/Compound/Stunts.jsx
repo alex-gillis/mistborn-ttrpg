@@ -8,7 +8,17 @@ function Stunts(props) {
       return (
         <>
             <div>
-                There are no extreme stunts to perform with compounting {props.metal.name}
+              <br/>
+                There are no extreme stunts to perform with compounding {props.metal.name}
+            </div>
+        </>
+      )
+    } else if ( props.metal.name == "Atium") {
+      return (
+        <>
+            <div>
+              <br/>
+              There are no Stunts for Atium Compounding, but the multiplication of your charges alone lets you defy aging. Though Atium has been dubbed the Lost Metal and is believed lost in the modern day, a Twinborn lucky enough to discover a large enough supply of Atium to create metalminds could live for centuries without appearing to age a single day...just as the Lord Ruler did.
             </div>
         </>
       )
