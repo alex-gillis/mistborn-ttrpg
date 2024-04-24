@@ -7,7 +7,10 @@ function Samples(props) {
   // getJSONData(metalJSON, collectMetals, onError);
   const [myEra1] = useState(props.era1);
   const [myEra2] = useState(props.era2);
+  // const [myHeroEra1] = useState(props.rogues.era1);
+  // const [myHeroEra2] = useState(props.rogues.era2);
   const [mySamples] = useState(props.era1.concat(props.era2));
+  const [myHeroes] = useState(props.rogues[0].era1.concat(props.rogues[1].era2));
   const [myInfo, setInfo] = useState(0);
   
   function changeSample(desiredSample) {
@@ -37,7 +40,7 @@ function Samples(props) {
         </ol>
       </div>
       <div id="info">
-        {<Sample hero={mySamples[myInfo]} />}
+        {<Sample hero={mySamples[myInfo] } rogue={myHeroes[myInfo]} />}
       </div>
     </>
   )

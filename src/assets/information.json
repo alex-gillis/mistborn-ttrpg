@@ -4341,6 +4341,959 @@
                 "example2":"Example: Per the Treatise entry for Iron Hemalurgy (see page 308), a spike dulls the mind and swells the body. Birch is a noticeably short man, making a sudden height increase both interesting and noteworthy, so Cory tells the Narrator he’d like to start incorporating that into his descriptions. The Narrator agrees, warning that the effects should be gradual but have a progressively more potent effect on the story.",
                 "brandon":"Mixing Allomancy with Feruchemy is so highly unlikely during the original trilogy that it’s virtually impossible. The genetics won’t allow it. The only exception is adding a Hemalurgic spike. Narrators should think very carefully about allowing the mixing of two powers, as it can be very unbalancing. (The Alloy of Law era supplement will talk about how to manage it the right way.)"
             }
+        },
+        {
+            "id":6,
+            "basics":"In The Alloy of Law era, the world operates by different rules than it used to. Many of these changes are detailed in the Introduction and in Book 3; this chapter covers how those shifts affect Heroes in a campaign set at this time in Scadrial’s history — and which options no longer apply. When you’re ready to build your Hero, use “Building Heroes”, which replaces the Era 1 Heroes section in the Mistborn Adventure Game entirely.",
+            "change":{
+                "basics":"The following rules from the original Mistborn Adventure Game rulebook no longer apply or have changed in the Alloy of Law supplement. These changes reflect the outcome of the Lord Ruler’s fall, Harmony’s ascension, and the advances made in the three centuries that have followed.",
+                "races":[
+                    {
+                        "option":"Skaa and nobility no longer exist as distinct races, genetically or socially, thanks to interbreeding and the destruction of ancient social divides. Terrismen remain as a distinct subculture, but are just another type of human a Hero can be."
+                    },
+                    {
+                        "option":"Kandra are still available as in the Mistborn Adventure Game, but only in certain scenarios and campaigns. You need to create a background justifying your membership in the Crew, and in most cases your Hero will be under a strict oath not to reveal his or her true nature under any circumstances. The Narrator must approve of your concept and development before you can play a kandra."
+                    },
+                    {
+                        "option":"The Steel Ministry has long since been abolished, and no vestiges of it continue into the current day. Certain affectations, such as facial tattoos and beliefs of the Sliverist faith, are all that remain of the Lord Ruler’s old order."
+                    }
+                ],
+                "powers":[
+                    {
+                        "option":"Allomancy and Feruchemy exist exactly as they did in the Mistborn Adventure Game rulebook, with two exceptions: Mistborn and Feruchemists capable of using all metals no longer exist in The Alloy of Law and are no longer options for Heroes (or Villains for that matter). They are replaced with Feruchemical Augurs, Mistings, and Twinborn (see below)."
+                    },
+                    {
+                        "option":"Hemalurgy, although still present in modern times, is now much rarer to come by due to Ruin's defeat. Like kandra, any Hero wishing to incorporate a Hemalurgic spike into their character will need a compelling reason within the context of the story. Additionally, the absence of Ruin has altered the circumstances surrounding Hemalurgy somewhat. For more information, refer to the relevant sections."
+                    }
+                ],
+                "destiny":"The rules for these abilities remain unchanged from previous editions. However, players should make choices that are appropriate to The Alloy of Law era. Traits such as 'Favored by the Steel Ministry' are no longer applicable, and Destinies like 'Freeing my hometown from the Lord Ruler' are no longer suitable. If you're looking for ideas, new examples can be found later on."
+            },
+            "new":{
+                "basics":"This section provides an overview of the new Powers, Stunts, and other options available to Heroes in The Alloy of Law era.",
+                "ferring":"Ferrings are individuals, not necessarily pure-blooded Terris people, who possess Feruchemical powers. These abilities have been passed down through centuries of crossbreeding after the fall of the Final Empire. However, the spread of Feruchemical ability has led to its dilution. Today, Ferrings possess only a single Feruchemical Power, rather than the full spectrum as the Keepers of old did. \n\n A Ferring gains a Feruchemical rating of 5 in one metal, can use Feruchemical metalminds made of that metal, and receives one Stunt. In all other respects, Ferrings follow the rules for Feruchemy found in the Mistborn Adventure Game rulebook.\n\n Your Hero can begin play as a Ferring by selecting appropriate Powers during Step 4 of Hero creation.",
+                "twinborn":"With the proliferation of Allomantic and Feruchemical powers, the Lord Ruler's fear of crossbreeding has become a reality, leading to the emergence of individuals possessing both forms of magic, known as Twinborn. \n\n A Twinborn possesses two Powers—one Allomantic metal and one Feruchemical metal. These metals do not need to be the same. If they are, the Twinborn is classified as a Compounder and gains access to additional abilities and Stunts, as detailed in the 'Compounders' section below. Twinborn start with a rating of 4 in both their Allomantic and Feruchemical metals, along with one Stunt. They otherwise adhere to all the rules for Mistings and Feruchemists outlined in the Mistborn Adventure Game rulebook. \n\n Your Hero can begin play as a normal Twinborn or a Compounder Twinborn by selecting appropriate Powers during Step 4 of Hero creation.in play as a Ferring by selecting appropriate Powers during Step 4 of Hero creation.",
+                "compounder":"Compounders are a special category of Twinborn whose Allomantic and Feruchemical Powers are derived from the same metal. This unique combination enables Compounders to burn Feruchemically-charged metalminds, greatly augmenting their abilities and unlocking powers similar to those of an entirely new metal. \n\n Compounders adhere to all the rules that apply to regular Twinborn. However, unlike normal Twinborn, Compounders do not receive a Stunt at character creation. Instead, they can utilize Compounding and acquire extraordinary and potent Compounding Stunts during gameplay.",
+                "koloss":"Koloss-blooded individuals are the offspring of full-blooded koloss who have not yet accepted Hemalurgic spikes. Many of them opt to depart from the koloss tribes and integrate into human society, with some even joining Crews and embarking on heroic endeavors. \n\n Koloss-blooded Heroes receive a boost of 1 to their Physique attribute (up to a maximum of 7) and roll an additional 2 dice on all tasks requiring physical strength, such as lifting heavy objects or wielding substantial weapons. Additionally, they start the game with a single koloss-blooded Stunt. \n\n Your Hero can commence play as a koloss-blooded character by selecting average Powers. Alternatively, you can opt for a koloss-blooded Ferring or Allomancer by choosing strong Powers during Step 4 of Hero creation.",
+                "guns":"In the Alloy of Law setting, one of the most significant gameplay changes affecting all Heroes is the introduction of firearms and their widespread usage. Revolvers, shotguns, rifles, and even heavier weaponry are now readily available for purchase, with guns being wielded by individuals from all walks of life. \n\n This supplement enhances and expands upon many rules found in the Mistborn Adventure Game while introducing numerous new ones to accommodate these weapons and combat styles. Your Hero can now utilize new Tactics in combat, such as Aiming, Fanning, Reloading, Quick Drawing, and engaging in pistol duels. Additionally, characters have the option to equip their weapons with custom ammunition or modifications to suit their preferences and needs. \n\n Further details regarding new gear, including firearms, as well as rules pertaining to these technologies, can be found later in the supplement. Rules for utilizing the new Tactics related to guns and gunplay are also provided, offering players a broader array of strategic options in combat scenarios.",
+                "stunts":"In contrast to the Mistborn Adventure Game, where Stunts were primarily associated with Allomancers and kandra, the Alloy of Law supplement expands the scope of Stunts to include various abilities reflecting proficiency with firearms, gunsmithing skills, innate koloss capabilities, techniques utilizing Feruchemical or Allomantic powers during gunfights, and Twinborn abilities. \n\n Most Heroes can acquire Stunts during character creation, depending on their chosen Powers, or by spending Advancements during play, provided they meet the prerequisites. Notably, Heroes without Allomancy can now select Stunts, offering them additional options during character creation. In such cases, Heroes with weaker Powers may opt for one or two Stunts in place of Traits during Step 4 of Hero creation. \n\n Stunts related to gunplay and gunsmithing can be found in the Stunts tab, the koloss-blooded Stunts are detailed in the Cultures tab. Additionally, new stunts related to Allomantic and Feruchemical gunplay can be found in Metallurgy along with the stunts for Compounding."
+            },
+            "crews":{
+                "basics":"The good news for Crews in The Alloy of Law era is that their biggest opponents from the previous era no longer exist. The Lord Ruler and his oppressive apparatus are now the stuff of history books; the mechanisms of oppression of the Final Empire’s society have been abolished; and ideals such as fairness, justice, and opportunity exist for people at all levels of society, in some fashion or another. But this also leaves the traditional concepts of Crews (thieves sticking it to The Man, rebels with a cause) without much to fight against. Consequently, Crews in this era differ considerably in their goals and purpose than those of the Lord Ruler’s time. \n\n Some common Crews in The Alloy of Law include:",
+                "types":[
+                    {
+                        "name":"Adventurers",
+                        "desc":"With the bonds of class and race broken, Scadrians are once again free to explore their world in search of adventure, glory, or riches. Tales of these explorers have captured the popular imagination, making stories like Allomancer Jak the pinnacle of pop culture, and those who discover new secrets instant celebrities in the Basin. \n\n Adventuring Crews are the easiest analog to the thieving Crew of the Final Empire. A Crew of this sort may be working for themselves, a wealthy patron, a university, or a township, seeking anything from a rumored cache of atium to headline-grabbing exploits in the Elendel Daily. Since the most fertile lands for adventure are deep in the dangerous Roughs, there’s every reason for a scholar, diplomat, or lawkeeper to be working alongside a gunslinger, thief, or koloss-blooded warrior. \n\n What holds these Crews together is not so much a particular way of doing things (in game terms, the Crew’s Method), as it is their objective (both their Cause and Target). Your group should think carefully about these choices when deciding on your Crew, and the Heroes’ roles within it. \n\n Stories around adventuring Crews can be very diverse affairs, encouraging them to travel far and wide and meet all sorts of interesting characters and situations. All players, including the Narrator, need to always keep the Crew’s objectives in mind, for their quest should inform the long-term arc of their story."
+                    },
+                    {
+                        "name":"Lawkeepers",
+                        "desc":"There’s little that’s more “Western” than the story of a lawman squaring off against a gang of black-hatted outlaws, wielding just his six-guns and righteousness. In the world of The Alloy of Law, there are many of these stories being lived every day by the men and women of the lawkeepers. Some may fight for the money, some may fight for glory, but for people of the frontier, these brave individuals are the thin line between order and chaos, justice and submission, right and wrong. \n\n Lawkeeper Crews are a solid “default” mode for a game set in The Alloy of Law era, thanks to an accessible premise which casts the Heroes as the good guys with a clear purpose. Out in the Roughs, nearly any man or woman willing to stand up for what’s right can be a lawkeeper, or be deputized by one, so putting a Crew together as a lawkeeper posse is an easy way to bring many diverse character concepts together under a single banner. \n\n The defining features of a lawkeeper Crew are its Target and Methods — a group that chooses to combat “Corruption” “By the Letter of the Law” will work much differently than one that chases “Bounties” using “Extreme Force.” All players should discuss what sort of lawkeepers they want to be and what’s in it for them, before settling on these essential questions of what they’re after and how they’re pursuing it. \n\n Lawkeeper stories are pretty easy for a Narrator to set up as well — just create a villain and a scenario that puts the Crew on a collision course with him, and let them take it from there. While it may be tempting to make these stories simple “find bad guy/shoot bad guy/ride off into sunset” affairs, there are many more variations on the story. Murder mysteries, standoffs against overwhelming odds, rescue missions, and long-distance chases are all part of any good lawkeeper’s repertoire, so don’t be afraid to mix things up!"
+                    },
+                    {
+                        "name":"Mercenaries",
+                        "desc":"Not all Heroes are in it for glory or good deeds. Some just need to feed their families, pay off a debt, raise money for their town, or build up their personal wealth. They could be bounty hunters, guns for hire, security contractors, consulting detectives, or cat’s paws in a war between two competing mining companies…bound together only by the almighty dollar. \n\n Mercenary Crews are a classic trope of the Western genre, putting the Heroes in pursuit of treasure or personal gain. Typically, these teams are made up of rough-and-tumble characters who are hired for their skill at fighting and keeping their mouths shut. Their patrons tend to be powerful groups like noble Houses or companies, but can also be smaller organizations like a town, parish, or even a family. \n\n Crews of mercenaries do not tend to have strong Causes or Targets (though “Wealth” is popular), but their Methods are central to their identity; whether the Heroes are private investigators or hired guns, their Methods are likely the reason they were hired in the first place! Expanding personal wealth should be considered a result of the Crew’s work rather than the goal itself: since the Mistborn Adventure Game doesn’t allow Heroes to hold on to looted items for very long by design, players hoping to amass giant stockpiles of notes and bars might quickly find themselves disappointed. \n\n Mercenary stories pose an interesting question. On the one hand, executing missions on behalf of a wealthy patron is easy for the tabletop RPG format; on the other, they’re kind of boring! The best stories for mercenary Heroes add an additional layer to “just following orders.” For example, a traditional twist to these tales pits the Crew’s selfish motives (personal gain) against other, loftier ideals (justice, honor, fairness) by making them face the victims or ugly realities of their employers’ goals, leaving the Heroes to ask: what is the price of our desires, and who should pay it? What do we lose of ourselves in the process? Both the players and the Narrator should always be looking for new ways to explore these questions and add emotional depth to the Crew’s exploits."
+                    },
+                    {
+                        "name":"Vigilantes",
+                        "desc":"The revenge story is perhaps the most popular of all Western-styled tales, pitting brave men and women against the injustices that others can’t or won’t address. These injustices take many forms: some are as simple as personal affronts, as visceral as the death of loved ones, or as monolithic as a political conspiracy. What defines all these stories is that the only path to addressing these injustices is to go outside the laws and the system that creates them. \n\n Vigilante Heroes can come from any walk of life, though most often they’re drawn from those without power or easy access to justice through the system — farmers, laborers, small-town folk, or members of a minority group being the most common seekers of satisfaction by extralegal means. Crews of these wronged folk often are formed through a mutual slight, perhaps being coworkers at the same mine, members of the same community, or survivors of the same massacred tribe. \n\n Vigilante Crews are united not by their skills or their backgrounds, but by their mutual desire for revenge against those that wronged them. Consequently, Cause is the Crew’s most important aspect (“Revenge”) followed very closely by Target (the source of the injustice). Method is a distant third, as vigilantes by definition are willing to do whatever it takes to get satisfaction. \n\n Revenge-centered stories tend to be very focused on the investigation and execution of the Crew’s plot, step by bloody step, for it’s the desire for vengeance that holds the group together. Each part of the story will likely move the Heroes slowly but surely towards a resolution of their grievances, as they work their way up the food chain to the people responsible for their plight."
+                    },
+                    {
+                        "name":"Criminals",
+                        "desc":"In the Final Empire, criminals — thieves, rebels, and other unsavory sorts — were the most common Heroes of all, because they had the skills, means, and talent to circumvent the boundaries of the Lord Ruler’s cyclopean society. But in the modern day, criminals aren’t always on the side of the angels, because the lines between the bad guys and the decent, hardworking folk is no longer so clearly delineated… and when things go wrong, it’s these latter people that usually suffer the fallout. \n\n Crews of criminals can be as “bad” as they want to be — roving con artists floating from town to town looking for the next mark, bank robbers skilled at daring stickups, or an organized Elendel gang — or they can be more “ethical” sorts who only prey upon those who can afford it, like wealthy nobles, big companies, crime syndicates, or the government. The organization of these Crews is much like that of Kelsier’s team: a set of specialists who each play a role in their heists. \n\n For criminal Crews, Targets and Methods tend to be the most important defining choices (Target defining whom they prey upon, and Method describing how they choose to do it). Cause is not very important…it’s pretty clear that modern Scadrian criminals are more opportunistic than those of the past. \n\n Criminal stories tend to fall into one of two categories: those focusing on pulling off a series of increasingly daring heists; or those centered on the group’s illicit activities, and coping with the fallout from them (gang war, going on the run, etc.). Some rarer stories even drift into the modes of the mercenary team or revenge plot, as the Crew takes on jobs for outsiders or attempts to get back at rivals who’ve undermined them."
+                    },
+                    {
+                        "name":"Missionaries",
+                        "desc":"The resurgence of faith on Scadrial following the remaking of the world has been nothing short of miraculous. Even after 1000 years of brutal suppression of belief by the Lord Ruler, the power of faith has returned to inspire humanity to greater things. For some, merely believing is not enough — these individuals take up the call to spread the good word to others. \n\n A Crew of missionaries operates much as the Keepers of old, following the end of the Final Empire: wandering the land, meeting with others, teaching them your ways, then moving on to the next community. A missionary Crew can be composed of nearly any sort of character; aside from the obligatory preacher or true believer who acts as the head of the Crew, there could be religious scholars, bodyguards, scouts, or even reformed criminals seeking a chance at redemption. \n\n A missionary Crew is all about the Cause — bringing the light of their faith to others. Their Methods may vary wildly, as some seek peaceful conversion and others go with fire and brimstone. The Crew’s Target is likely very large, probably focusing on unbelievers, but it could also be aimed at another faith the Crew wishes to undo as part of a spiritual crusade. \n\n Missionary Crews are an unusual way to tell stories in The Alloy of Law era, mainly because there is little precedent in entertainment or in the original trilogy to refer to. The narrative can be fairly loose, allowing the Heroes to explore the world in the context of their faith; sharply focus on a mission from Harmony, Faceless Immortal, or other divine figure; or discover interesting ethical and spiritual questions in this new world. For play groups looking for something outside the norm, this might be just the ticket!"
+                    }
+                ]
+            },
+            "build":{
+                "basics":"There are sufficient differences between the world of The Alloy of Law and the world of The Final Empire that the process of creating Heroes must be revised somewhat. When generating Heroes for an Alloy of Law campaign, use the following rules; these completely replace pages 81-114 of the Mistborn Adventure Game rulebook. Note, however, that these new rules do refer to other sections and rules from that original volume that are necessary to character creation.",
+                "follow":"Follow these five steps when creating a new Alloy Hero:",
+                "steps":[
+                    {
+                        "name":"Step 1: Start with the Crew",
+                        "desc":"First, you and the other players need to visualize the Crew — why they’re together, what causes they have in common, and what they hope to achieve as a team."
+                    },
+                    {
+                        "name":"Step 2: Devise a Concept",
+                        "desc":"Next, turn your attention to the concept for your personal character. Sketch out an idea of what he or she is like and where he or she fits into the world and the Crew."
+                    },
+                    {
+                        "name":"Step 3: Answer the 10 Important Questions",
+                        "desc":"Concept in hand, answer the series of questions that are common to every Hero. These help you define core details about your character: his or her most important beliefs, backstory, personality, skills, powers (if any), and other reasons he or she is special."
+                    },
+                    {
+                        "name":"Step 4: Define Your Strengths",
+                        "desc":"Armed with the answers from Step 3, prioritize your character’s strengths in three different areas: Attributes, Standings, and Powers. Choosing among these strengths determines your abilities and the number of points you can assign to them."
+                    },
+                    {
+                        "name":"Step 5: Fill in the Details",
+                        "desc":"The technical part of your character is done, and you can now apply the last little details that make him or her unique: name, race, Resiliences, and starting Props."
+                    }
+                ]
+            },
+            "stepOne":{
+                "basics":"At the heart of every Alloy of Law story is the Crew, a band of Heroes working together to thwart some evil or to accomplish some other grand goal. Through the Crew, your Heroes find allies and accomplices as they strive towards a common cause, pull off devious schemes, achieve personal goals, and ultimately discover their true destiny. As the first step when creating your new Hero, sit down with the Narrator and the other players and come to a consensus on the following three questions. Your answers should help everyone cement their character concepts and roles within the Crew:",
+                "common":"Every Crew starts with a cause — a common aspiration that binds the team together. Is the Crew a gang of adventurers seeking money or revenge? Are they a private Elendel security force or a group of dedicated lawkeepers seeking to fight crime in the Roughs? Maybe they’re heroic journalists working to uncover well-hidden corruption in Elendel or to bring stories of the Roughs to readers in the Basin? Working together to determine your common cause ensures every character is invested in the Crew and its story. Some ideas for possible Crew causes include:",
+                "causes":[
+                    {
+                        "one":"Chronicle the Roughs",
+                        "two":"Discover lost wisdom",
+                        "three":"Exploration"
+                    },
+                    {
+                        "one":"Fame",
+                        "two":"Free our tribe",
+                        "three":"Glory"
+                    },
+                    {
+                        "one":"Justice",
+                        "two":"Protect our kin",
+                        "three":"Reclaim our land"
+                    },
+                    {
+                        "one":"Respect",
+                        "two":"Revenge",
+                        "three":"Save our town"
+                    },
+                    {
+                        "one":"Spread our faith",
+                        "two":"Undermine our enemies",
+                        "three":"Uphold the law"
+                    }
+                ],
+                "primary":"Crews often choose a particular individual, organization, or establishment as the target for their actions. Who is the most common target of your schemes: a greedy banking firm, a large and dangerous criminal syndicate, a heartless politician, a rival gang of bandits, or something else? This target can become a guidepost for players when establishing what’s personally important to their characters (though it’s best if every Hero also has his or her own reasons for joining the Crew). Some ideas for possible Crew targets include:",
+                "targets":[
+                    {
+                        "one":"Bandits",
+                        "two":"Banks",
+                        "three":"[[A company or business]]"
+                    },
+                    {
+                        "one":"The Corrupt",
+                        "two":"Criminals",
+                        "three":"Fugitives"
+                    },
+                    {
+                        "one":"[[A gang or syndicate]]",
+                        "two":"Government",
+                        "three":"Koloss"
+                    },
+                    {
+                        "one":"The Law",
+                        "two":"Lost Secrets",
+                        "three":"[[A noble House]]"
+                    },
+                    {
+                        "one":"The Powerful",
+                        "two":"Rivals",
+                        "three":"Rubes"
+                    }
+                ],
+                "preferred":"With your Crew’s cause and target in mind, think about how you prefer to operate. Do you tend to wage open warfare or use deception? Do your methods focus on theft, sabotage, diplomacy, confidence schemes, or do you employ a varied approach? Your Crew’s method can help everyone tailor their characters’ skills and specialties, and also illuminate how they can best coordinate concepts and character choices. Some ideas for possible Crew methods include:",
+                "methods":[
+                    {
+                        "one":"Bold action",
+                        "two":"Bravado",
+                        "three":"By any means necessary"
+                    },
+                    {
+                        "one":"Chaos",
+                        "two":"Confidence schemes",
+                        "three":"Deception"
+                    },
+                    {
+                        "one":"Diplomacy",
+                        "two":"Elaborate plots",
+                        "three":"Excessive force"
+                    },
+                    {
+                        "one":"Letter of the law",
+                        "two":"Lyin’ and cheatin’",
+                        "three":"Political maneuvering"
+                    },
+                    {
+                        "one":"Sabotage",
+                        "two":"Scholarship",
+                        "three":"Theft"
+                    }
+                ],
+                "example":"Example: Brandon is the Narrator in a weekly game. The players are getting together for their first time to talk about their Crew. Several of the players already have ideas about what sort of Heroes they want to play, but Brandon advises them to first work out why the Crew is together before getting too deeply into their individual stories. \n\n Brandon has already decided that most of the campaign will take place in the Roughs, with occasional visits to Elendel. From previous discussions with the players individually, he knows the players are interested in getting the bad guys the law can’t touch, and has tentatively set the Crew’s Cause as “Bounty Hunting” and their Target as “Outlaws.” Next he asks what their Method is. \n\n Filamena and David both want to play characters who are good at fighting, while John wants to play the Crew Leader, and Jess has been thinking about a more investigative or social character. \n\n Brandon reminds the players they’ll need to think carefully about how these concepts all fit together in a comprehensive story. What would a social character do with a bunch of tough guys, chasing criminals? After a lively discussion, the group decides that the non-fighting characters would be the brains of the outfit, providing guile and subtlety when chasing tough bounties. That sounds good to everyone, so they decide that their Method is “Deception,” backed up by violence. Everyone jots these details down on their sheets and the discussion moves on to fleshing out the individual Heroes."
+            },
+            "stepTwo":{
+                "basics":"Your character concept should be short and sweet, just a few words, like 'wealthy urban fop,' 'angry gunslinger from the Roughs,' 'skilled urban gunsmith,' or 'daring railway engineer.' Don’t worry about any of the details yet; just get a rough general idea of your character down on paper. Later in this process, you’ll flesh out the concept you decide on here. If you haven’t read The Alloy of Law novel yet, or you’re stuck for new ideas, here are a few sample concepts to get you started:",
+                "concepts":[
+                    {
+                        "one":"Ambitious Soother politician",
+                        "two":"Brilliant consulting detective",
+                        "three":"Curious scholar"
+                    },
+                    {
+                        "one":"Eagle-eyed shootist",
+                        "two":"Exiled koloss-blooded brave",
+                        "three":"Fiery preacher"
+                    },
+                    {
+                        "one":"Ferring laborer",
+                        "two":"Fortune-seeking miner",
+                        "three":"Gutsy frontier scout"
+                    },
+                    {
+                        "one":"Hard-bitten bounty hunter",
+                        "two":"Idealistic lawkeeper",
+                        "three":"Reckless gambler"
+                    },
+                    {
+                        "one":"Restless young noblewoman",
+                        "two":"Small-time criminal",
+                        "three":"Snake alloy salesman"
+                    },
+                    {
+                        "one":"Talented inventor",
+                        "two":"Travelling showman",
+                        "three":"Twinborn constable sergeant"
+                    },
+                    {
+                        "one":"Violent Roughs bandit",
+                        "two":"Wealthy industrialist",
+                        "three":"Wandering gunslinger"
+                    }
+                ],
+                "example":"Example: Two of the players in Brandon’s campaign had their ideas at the start. Filamena speaks up first, saying she’s interested in playing a koloss-blooded who is university-educated and who wants to earn money to help bring progress and advanced technology to his people. \n\n  David says he want to play a gunsmith, and Brandon asks David why the gunsmith would be working with such a Crew. David responds that his character is a gunsmith who’s also a no-nonsense lawkeeper, who uses custom guns and ammunition to help her catch particularly dangerous outlaws. Brandon thinks that focusing on collecting rewards by fighting bandits sounds like a good way to integrate the characters. \n\n John jumps on this idea and says he wants to play a Twinborn bounty hunter. Brandon asks why his character became a bounty hunter. John thinks for a bit and decides that his mother fled from Elendel to the Roughs after she was caught stealing from her own family. When his Hero came of age, he went out into the Roughs to look for her. He eventually found his mother dying, her money stolen; he went on to track down her killers and found that he had a taste for bounty hunting. \n\n Jess then says that she wants to play a con artist and grifter. Brandon asks why her criminally-inclined character would join a Crew of people who mostly seem to be about catching outlaws. Jess considers and says that maybe John’s bounty hunter found the con artist before he got too far on the wrong side of the law, and offered him another use for his talents. John thinks this is a great idea, so Jess adds that her character makes an “honest” buck by catching outlaws on the side"
+            },
+            "stepThree":{
+                "basics":"Every Hero benefits from answering 10 important questions. They take your character from concept to flesh-and-blood person, ready for adventure.",
+                "setOne":[
+                    {
+                        "question": "1. Why did you join the crew?",
+                        "part1":"Every member of a Crew joins for his or her own reasons. Ask yourself: why did your character join the Crew? What does he or she hope to accomplish as part of the team? Are your character’s personal goals aligned or at cross-purposes with those of the Crew? Are your character’s motives transparent or hidden from the rest of the Crew? Summarize your character’s motivation with a short phrase. Some common reasons for joining a Crew include:",
+                        "table":[
+                            {
+                                "one":"Avenge my family",
+                                "two":"Become the top noble House",
+                                "threee":"Build an infamous reputation"
+                            },
+                            {
+                                "one":"Buy back the family farm",
+                                "two":"Clear my friends’ names",
+                                "threee":"Create a great invention"
+                            },
+                            {
+                                "one":"Destroy a rival gang",
+                                "two":"Discover the secret of atium",
+                                "threee":"Free my kidnapped cousin"
+                            },
+                            {
+                                "one":"Heed Harmony’s call",
+                                "two":"Honor my father’s dying wish",
+                                "threee":"Make amends for old sins"
+                            },
+                            {
+                                "one":"Rescue my sibling",
+                                "two":"Regain my honor",
+                                "threee":"Restore justice to the Roughs"
+                            },
+                            {
+                                "one":"Spread the word of my faith",
+                                "two":"Upend the social order",
+                                "threee":"Win back my lost love"
+                            }
+                        ],
+                        "part2":"Your answer to this question is your “Drive” Trait; write it down on the first line in the Traits & Burdens section of your character sheet.",
+                        "example":"Example: Brandon goes around the table and asks everyone why they joined their Crew of bounty hunters. Filamena’s answer is full of story possibilities—her character wants to “lead my people.” David’s idea is equally intriguing; his gunsmith is seeking to “hunt down my guns,” which he says have fallen into the wrong hands over the years. Brandon likes this idea and plans to talk more with David about where the guns might be and who’s using them. \n\n Then, he turns to John, who says that his bounty hunter joined in order to gain fame and fortune to “prove myself to my family.” Brandon considers more about what the bounty hunter’s family is like, and why John’s Hero needs to prove himself to them. Lastly Brandon looks to Jess, who says that her grifter is an almost compulsive liar with a taste for money, and writes “put one over on the rubes.” All four players write their ideas down under Drive."
+                    },
+                    {
+                        "question": "2. How did you live before you joined the crew?",
+                        "part1":"Life is far more equal today than in the Lord Ruler’s time, but the world of Scadrial can still be a difficult and dangerous place to get by. How did you make a living for yourself prior to joining the Crew? Did you come up in the relatively peaceful and prosperous Elendel Basin, or the wild and dangerous world of the Roughs? Was that living from a profession, a trade, or a criminal enterprise? Did you learn those skills through a university education, apprenticeship, or the school of hard knocks? \n\n Describe your character’s foremost occupation before joining the Crew in one or two words. Some common foundations for Crewmembers are:",
+                        "table":[
+                            {
+                                "one":"Bandit",
+                                "two":"Beggar",
+                                "threee":"Bodyguard"
+                            },
+                            {
+                                "one":"Broadsheet boy",
+                                "two":"Con artist",
+                                "threee":"Constable"
+                            },
+                            {
+                                "one":"Convict",
+                                "two":"Dilettante",
+                                "threee":"Farmer"
+                            },
+                            {
+                                "one":"Gambler",
+                                "two":"Gunsmith",
+                                "threee":"Inventor"
+                            },
+                            {
+                                "one":"Laborer",
+                                "two":"Lawkeeper",
+                                "threee":"Metallurgist"
+                            },
+                            {
+                                "one":"Miner",
+                                "two":"Peddler",
+                                "threee":"Pickpocket"
+                            },
+                            {
+                                "one":"Playboy",
+                                "two":"Preacher",
+                                "threee":"Railway engineer"
+                            },
+                            {
+                                "one":"Reporter",
+                                "two":"Scholar",
+                                "threee":"Scout"
+                            },
+                            {
+                                "one":"Smuggler",
+                                "two":"Soldier",
+                                "threee":"Steward"
+                            }
+                        ],
+                        "part2":"Your answer to this question is your “Profession” Trait; write it down on the second line in the Traits & Burdens section on your character sheet.",
+                        "example":"Example: Filamena thinks about what her character would have studied at university that would make money and help his people, and decides that he studied engineering. She writes down 'engineer.' David, John, and Jess all have their answers from their previous thoughts about their characters. David writes 'lawkeeper,' John knows his character has been a bounty hunter for a while so he writes 'bounty hunter,' and Jess writes 'grifter.'"
+                    },
+                    {
+                        "question": "3. What special skill do you bring to the crew?",
+                        "part1":"Your character was recruited into the Crew for a reason — not just because of who he or she is, but also for a special talent, skill, or other offering that fills a vital need on the team. It might be the gift of gab, a way with guns, or just very deep pockets, but this talent is partially why he or she joined the Crew in the first place, and it remains one of his or her biggest contributions to the present day. \n\n Don’t worry about describing everything your character brings to the Crew — only his or her most valuable contribution is important here. Keep it to one thing he or she offers to the team, and describe it with a short and succinct phrase. Some examples are:",
+                        "table":[
+                            {
+                                "one":"Ancient historian",
+                                "two":"Black market connections",
+                                "threee":"Creative accountancy"
+                            },
+                            {
+                                "one":"Danger sense",
+                                "two":"Demolitions",
+                                "threee":"Ear for lies"
+                            },
+                            {
+                                "one":"Glib tongue",
+                                "two":"Good with a knife",
+                                "threee":"Light touch"
+                            },
+                            {
+                                "one":"Natural leader",
+                                "two":"Master showman",
+                                "threee":"Physician"
+                            },
+                            {
+                                "one":"Quick on the draw",
+                                "two":"Religious scripture",
+                                "threee":"Safecracker"
+                            },
+                            {
+                                "one":"Sharpshooter",
+                                "two":"Skilled horseman",
+                                "threee":"Survival expert"
+                            },
+                            {
+                                "one":"Think on my feet",
+                                "two":"Tinker",
+                                "threee":"Watchful eye"
+                            }
+                        ],
+                        "part2":"Your answer to this question is your “Specialty” Trait; write it down on the third line in the Traits & Burdens section on your character sheet.",
+                        "example":"Example: Everyone knows their characters pretty well by this point, so these answers come easily. Filamena immediately writes 'koloss contacts,' and David notes 'gunsmith.' John thinks about his bounty hunter’s history and profession and adds 'expert tracker.' Jess thinks her con artist is 'silver-tongued.'"
+                    },
+                    {
+                        "question": "4. What is your most distinctive feature?",
+                        "part1":"Think about the people you know; you can probably identify them to others who’ve met them with a quick description of their most prominent feature, even without using their name or other details. Now ask yourself how someone in the game world would describe your character. For instance, Wayne has a bad habit of “borrowing” things, while Ranette’s got a propensity to point guns at folks who annoy her. What’s your character’s most distinctive feature? It could be a physical trait, a mannerism, a pattern of behavior, something he or she always wears or says — nearly anything that’s always there and sets the character apart from the crowd. \n\n As with the last couple questions, answer this one with a word or short phrase. Here are just a few ideas, but like most of the character creation process, the options are almost limitless.",
+                        "table":[
+                            {
+                                "one":"Argumentative",
+                                "two":"Big and brawny",
+                                "threee":"Catlike agility"
+                            },
+                            {
+                                "one":"Devilish smile",
+                                "two":"Disheveled",
+                                "threee":"Dramatic flair"
+                            },
+                            {
+                                "one":"Fashion plate",
+                                "two":"Fidgety",
+                                "threee":"Foul-mouthed"
+                            },
+                            {
+                                "one":"Gallows humor",
+                                "two":"Grizzled",
+                                "threee":"Lean and lanky"
+                            },
+                            {
+                                "one":"Leathery complexion",
+                                "two":"Lovely face",
+                                "threee":"Nasty knife scar"
+                            },
+                            {
+                                "one":"Petite",
+                                "two":"A real hard alloy",
+                                "threee":"Steely resolve"
+                            },
+                            {
+                                "one":"Superior air",
+                                "two":"Talkative",
+                                "threee":"Thick Terris accent"
+                            }
+                        ],
+                        "part2":"Your answer to this question is your “Feature” Trait; write it down on the fourth line in the Traits & Burdens section on your character sheet.",
+                        "example":"Example: Filamena thinks for a moment about her koloss-blooded character and writes, “big and imposing.” None of the other players have considered how their characters look or behave yet. David thinks about his gunsmith’s mannerisms and writes, “talks with my hands,” while John writes, “calm demeanor” for his bounty hunter. Jess considers how her grifter will look and writes, “immaculately groomed.”"
+                    },
+                    {
+                        "question": "5. How do other people describe your personality?",
+                        "part1":"Your character doesn’t live in a bubble — he or she is part of a living, breathing world filled with people who judge based on words and actions. This question should be something you can answer with just one or two words. Focus only on the most dominant aspect of your character’s personality, strictly from the perspective of others. Don’t worry about how your character views his or her own behavior — this is about how he or she is seen to act. If you’re new to roleplaying games, you might want to describe your character to the Narrator and the other players, and let them answer this question for you. Here are a few examples:",
+                        "table":[
+                            {
+                                "one":"Affable",
+                                "two":"Arrogant",
+                                "three":"Blunt"
+                            },
+                            {
+                                "one":"Brassy",
+                                "two":"Callous",
+                                "three":"Confident"
+                            },
+                            {
+                                "one":"Cool and collected",
+                                "two":"Decisive",
+                                "three":"Generous"
+                            },
+                            {
+                                "one":"Gruff",
+                                "two":"Focused",
+                                "three":"Funny"
+                            },
+                            {
+                                "one":"Honest",
+                                "two":"Humble",
+                                "three":"Indifferent"
+                            },
+                            {
+                                "one":"Indignant",
+                                "two":"Intense",
+                                "three":"Phony"
+                            },
+                            {
+                                "one":"Reckless",
+                                "two":"Reserved",
+                                "three":"Ruthless"
+                            },
+                            {
+                                "one":"Serene",
+                                "two":"Sly",
+                                "three":"Skeptical"
+                            },
+                            {
+                                "one":"Skittish",
+                                "two":"Straightforward",
+                                "three":"Stern"
+                            }
+                        ],
+                        "part2":"Your answer to this question is your “Personality” Trait; write it down on the fifth line in the Traits & Burdens section on your character sheet.",
+                        "example":"Example: Brandon has each player suggest a Personality Trait for the Hero of the player to their right, but adds that players are free to reject these ideas, since they have the ultimate say over their own Heroes. Filamena suggests “meticulous” for David’s gunsmith, which David likes. David thinks about John’s bounty hunter and says “arrogant,” which John thinks is a bit too negative for his concept. John goes with “confident” instead. John suggests “instantly likeable” for Jess’ con artist, which she agrees sounds good. Finally, Jess considers Filamena’s koloss-blooded and thinks that “stoic” fits, but Filamena says this sounds a bit dull to play. She goes in the opposite direction with “hot-tempered.”"
+                    }
+                ],
+                "setTwo":[
+                    {
+                    "question": "6. Do you have any special powers (like being a Ferring, Misting, Twinborn or Koloss-Blooded)?",
+                    "part1":"Magical ability remains scarce in Scadrial; only about one in every fifty people are Mistings or Ferrings, and only one in every fifty of these people are Twinborn, with both types of Powers. Koloss-blooded Heroes are somewhat more uncommon than these, as many choose to stay with their tribes rather than venture into the greater world. Still, Heroes are exceptional, and many Crews include one or more characters with special Powers. \n\n Despite the popularity of characters with Powers, “mundane” abilities are just as useful and important — in different ways. In *The Alloy of Law*, while Ranette is a Lurcher, she’s most notable for her skill as a gunsmith, whose deadly firearms are more than a match for most Mistings or Ferrings. \n\n With all this in mind, ask yourself whether your character must wield magic to support the concept. You may answer this question in one of three ways:",
+                    "points":[
+                        {
+                            "point":"If your character is a Twinborn with one Allomantic Power and one Feruchemical Power, or a koloss-blooded with either a single Allomantic or Feruchemical Power, he or she has strong Powers."
+                        },
+                        {
+                            "point":"If your character is a Misting with a single Allomantic Power, a Ferring with a single Feruchemical Power, a koloss-blooded with no other Powers, or a kandra/Faceless Immortal, he or she has average Powers. Remember, in *The Alloy of Law* era, the kandra are far more secretive than in the previous era, so check with the Narrator prior to choosing this latter option."
+                        },
+                        {
+                            "point":"If your character is a human with no magical or superhuman abilities, he or she has weak Powers."
+                        }
+                    ],
+                    "part2":"Keep in mind, your choice has greater consequences, since in Questions 6–8 you must answer once with strong, once with average, and once with weak (i.e., you must answer each question differently, and in the end you must have one strong, one average, and one weak answer). Everyone has a particular strength and corresponding weaknesses, and this is when you define them for your character. \n\n It may seem like Powers eclipse all else in Scadrial, but low-Powered and “mundane” characters can easily outshine their metalborn counterparts when needed. Still, those without any Powers tend to develop in other ways, so they gain two additional Traits of their choice. Alternately, these characters could also trade in one or both of these additional Traits for Stunts for which they qualify (that is, Stunts that don’t require a character to be able to use a Power). If you have questions about which Stunts your weak Powered character can choose, check the “Gain a New Stunt” section of Improving Alloy Heroes (see page 105). \n\n Make a note of your choice next to the Powers or Traits section on your character sheet.",
+                    "example":"Example: Based on the decisions they made earlier, the players have likely answers to the question of their Powers. Since Filamena’s Hero is koloss-blooded, she writes down “average” Powers, leaving “strong” and “weak” as possibilities for her next two choices. David decides his gunsmith/lawkeeper doesn’t need magic for her concept and writes down “weak” for Powers, leaving him with “strong” and “average” for his next two choices. John’s choice is made for him, since he’s playing a Twinborn, and he writes down “strong” Powers, leaving him with “average” and “weak” choices for his next two questions. Jess thinks her con artist might be more interesting with magic to back up his scams and decides he should be a Ferring. Jess writes down “average” in Powers, leaving “strong” and “weak” as possibilities for her remaining choices: Attributes and Standings."
+                    },
+                    {
+                        "question": "7. Are you especially fit, smart, or charismatic?",
+                        "part1":"All characters, whether they have magic ability or not, have certain physical, social, and mental limits: they’re only so strong, so charismatic, or so smart. This is summed up with a character’s Attributes — Physique, Charm, and Wits — which gauge inherent prowess in these three categories. During the game, your character’s Attributes determine how naturally capable he or she is, and how likely he or she is to achieve immediate goals, barring equipment, magic, or training. Throughout *The Alloy of Law*, Marasi is repeatedly shown to be both smart and observant — definitely a character with a high Wits Attribute! \n\n Think about the physical, social, and mental gifts your character was born with, and how well he or she has nurtured them since. Is your character particularly strong and agile, likeable and good looking, or intelligent and perceptive? Do any of these three categories rise to the fore as defining characteristics?",
+                        "points":[
+                            {
+                                "point":"If your character is exceptional in two or more areas, consider strong Attributes."
+                            },
+                            {
+                                "point":"If your character is exceptional in just one area, consider average Attributes."
+                            },
+                            {
+                                "point":"If your character is not exceptional in any area, consider weak Attributes."
+                            }
+                        ],
+                        "part2":"Keep in mind: your choice has greater consequences, since in Questions 6–8 you must answer once with strong, once with average, and once with weak (i.e., you must answer each question differently, and in the end you must have one strong, one average, and one weak answer). Make a note of your choice next to the Attributes section on your character sheet.",
+                        "example":"Example: Filamena wants her character to be both smart and physically impressive, so she picks “strong,” making her final choice “weak.” \n\n David figures that gunsmithing can be lucrative and that it could have made a pretty good name for his character, so he chooses “average” Attributes, leaving her with “strong” Standings. \n\n John has “average” and “weak” choices left. He thinks of his bounty hunter as fairly self-reliant and chooses “average” Attributes, which means he will have “weak” Standings. \n\n Jess knows her character has moved around a lot, living hand-to-mouth in order to stay ahead of the law, so she also chooses “strong” Attributes, leaving her with a “weak” choice for question 8."
+                    },
+                    {
+                        "question": "8. Are you well-off or do you struggle to get by?",
+                        "part1":"Characters can also excel beyond their personal abilities, amassing expansive wealth and holdings, gaining considerable sway with those in power at every level of society, and benefiting from almost preternatural fortune. This is represented with three Standings — Resources, Influence, and Spirit — which measure his or her success in each area. \n\n Standings are used to manipulate the world and do those proverbial “big things” that so often save the day or prove vital lynchpins for the Crew’s plans. In *The Alloy of Law*, Wayne is of very modest birth, while Wax is both wealthy and a nobleman to boot. In game terms, this is expressed by the fact Wax’s Standings are considerably higher than Wayne’s. \n\n Consider your character’s circumstances. Is he or she an up-and-coming merchant with strong political and financial resources, a plucky young urchin who always manages to be in the right place at the right time, or a hard-luck gambler always chasing the next score to no avail? Most importantly, does he or she enjoy an abundance of wealth, friends, or luck?",
+                        "points":[
+                            {
+                                "point":"If your character enjoys an abundance of two or more of these, consider strong Standings."
+                            },
+                            {
+                                "point":"If your character enjoys only one of these, consider average Standings."
+                            },
+                            {
+                                "point":"If your character enjoys none of these, consider weak Standings."
+                            }
+                        ],
+                        "part2":"Keep in mind: your choice has greater consequences, since in Questions 6–8 you must answer once with strong, once with average, and once with weak (i.e., you must answer each question differently, and in the end you must have one strong, one average, and one weak answer). Make a note of your choice next to the Standing section on your character sheet.",
+                        "example":"Example: Everyone’s choices have already been made . David’s gunsmith has strong Standings, while everyone else’s are weak "
+                    }
+                ],
+                "qNine":{
+                    "question": "9. What is the worst thing that ever happened to you?",
+                    "part1":"Though times have certainly improved for folks in modern days, everyone experiences setbacks, defeats, and disappointments. Children are orphaned; families are robbed; criminals go free; the strong use their power to oppress the weak. Many people allow these turning points to define their lives, to rob them of the will to chase their dreams, but it’s in these moments that a special few take the tentative first steps on their journey to greatness. Your Hero is no different. \n\n Ask yourself: what is the most definitive setback or defeat in your character’s life? Why is it so memorable? Perhaps your Hero watched bandits gun down his or her parents in cold blood, gave into a moment of laziness or greed that had unforeseen consequences, or won an honor as a youth that’s left her feeling inadequate ever since. Consider how, in *The Alloy of Law*, Wayne’s killing of the bookkeeper when he was only 16 transformed his life, or what Wax accidentally shooting his partner Lessie did to him. \n\n One of the best ways to answer this question is to look at your answers to previous questions, or to look forward to other details you might have already filled in. Say, for example...",
+                    "drives":[
+                        {
+                            "example":"...you’ve assigned your character a Drive like “hunt down the outlaws who killed my mentor” or “avenge my family.”",
+                            "explain":"You likely found your mentor or family dead, and that’s going to make a huge impression on your character. Alternatively, maybe you were partying in Elendel when word of their deaths reached you, and you’ve regretted being absent ever since."
+                        },
+                        {
+                            "example":"...you’ve assigned your character a Profession like “con artist.”",
+                            "explain":"You’ve pulled off a number of cons already. Maybe you were beaten and run out of town after being caught during a scam, or you have been in and out of prison as you’ve struggled to hone your craft."
+                        },
+                        {
+                            "example":"...you’ve assigned your character a Feature like “heavily scarred” or a Personality like “vengeful .”",
+                            "explain":"These Traits hint at a larger, darker period in your Hero’s life, and might be tied to a definitive moment. Perhaps your character earned her scars trying to rescue her beloved from a fire set by family rivals, or has battled a band of koloss raiders, making him quick to anger and furious in his revenge."
+                        },
+                        {
+                            "example":"...your character has one or more Powers",
+                            "explain":"If you’re an Allomancer, the moment when you Snapped may be memorable and possibly even horrific; while young noble children are no longer routinely beaten to try and unlock abilities, intense trauma still has a way of revealing latent Mistings. Alternatively, your Hero’s discovery of Feruchemical abilities is rooted in a moment of desperation or exhaustion, or as a koloss-blooded youth she lost a competition to earn her spikes and was forcibly exiled."
+                        }
+                    ],
+                    "part2":"If you’re still searching for answers, here are some other options:",
+                    "table":[
+                        {
+                            "one":"Abandoned and forced to live in poverty",
+                            "two":"Captured by koloss and barely escaped"
+                        },
+                        {
+                            "one":"Disowned by my family for theft",
+                            "two":"Expelled from university for cheating"
+                        },
+                        {
+                            "one":"Fled from an arranged marriage",
+                            "two":"Killed a bandit in cold blood"
+                        },
+                        {
+                            "one":"My feud with a rival cost me everything",
+                            "two":"Orphaned during a botched bank heist"
+                        },
+                        {
+                            "one":"Served prison time for a crime I didn’t commit",
+                            "two":"Turned my back on the koloss way of life"
+                        },
+                        {
+                            "one":"Watched my best friend get killed",
+                            "two":"Won and lost a fortune gambling"
+                        }
+                    ],
+                    "part3":"Write your answer in the Tragedy section on your character sheet. Don’t worry if the Narrator jots down some notes on another sheet when you do — that’s the Secrets sheet and it’s where many ideas for twists and turns in the story are kept.",
+                    "example":"Example: Basing her decision on her character’s Powers, Filamena decides that her character’s decision to leave her koloss tribe was the most important incident in his life and writes “I’ve abandoned my people to live amongst the humans.” \n\n When he came up with his character’s Drive, David had already decided that his lawkeeper/gunsmith is trying to hunt down her guns for some reason. He thinks it would be interesting to tie that to his Tragedy, and writes “my creations are responsible for the deaths of dozens.” \n\n John is uncertain about a key event for his Hero, so Brandon suggests thinking about why his character became a bounty hunter. John remembers what he said at first and writes “found my mother robbed and left for dead by bandits.” \n\n Jess also considers her con artist’s Drive and finally decides to write “my pappy took the fall that I should’ve taken.”"
+                },
+                "qTen":{
+                    "question": "10. What do you believe is your ultimate purpose?",
+                    "part1":"Beyond your character’s motives for joining the Crew, imagine what he or she believes they’re meant to do. In a perfect world, with all the right tools at hand, what does your character think or hope to accomplish? This is a personal question and should be answered separately for each character, above and beyond the goals and dreams of the Crew. \n\n Your answer should differ from your Drive Trait (see Question 1), although it can certainly be related. If your character is a disgraced scholar who joined the Crew hoping to reclaim his position at the university, he might believe his ultimate salvation will come through the discovery of some ancient wisdom. Likewise, a gunslinger may have thrown in to seek fame (or infamy), all the while dreaming of finding a way to hunt down the men she believes are responsible for bankrupting her family’s farm. \n\n This is your chance to think big! Your answer to this final question should be something your character can’t possibly achieve on his or her own, something so grand in scope that it’s daring and dangerous enough to be truly worthy of a Hero. Here are a few examples appropriate to *The Alloy of Law* setting, along with a few more to get the wheels turning:",
+                    "table":[
+                        {
+                            "one":"Bring understanding of the koloss to humanity",
+                            "two":"Circumnavigate the world"
+                        },
+                        {
+                            "one":"Discover a new Allomantic metal",
+                            "two":"Found my own noble House"
+                        },
+                        {
+                            "one":"Fulfill my mission from the Faceless Immortals",
+                            "two":"Invent something that changes the world"
+                        },
+                        {
+                            "one":"Learn the truth about Ironeyes",
+                            "two":"Improve social equality"
+                        },
+                        {
+                            "one":"Rebuild my tribe’s greatness",
+                            "two":"Restore truth and justice to the Roughs"
+                        },
+                        {
+                            "one":"Spread the light of Harmony to the world",
+                            "two":" Track down a criminal mastermind"
+                        },
+                        {
+                            "one":"Uncover the secret of the Mistborn",
+                            "two":"Win the governorship of Elendel"
+                        }
+                    ],
+                    "part2":"Write your answer in the Destiny section on your character sheet, and remember, this is just what your character believes he or she is supposed to do. Based on your answer, the Narrator decides on your true Destiny, which is privately recorded on a Secrets sheet. \n\n Your perceived and true Destinies may be identical, they may be related, or they may have nothing to do with one another. Both can have a number of impacts on play, and this is where the Narrator should look for guidance about true Destinies as well.",
+                    "example":"Example: Filamena starts off with her perceived Destiny, “Bring progress and a better future to the koloss.” Brandon doesn’t know how possible this may be, but agrees that it’s bold and interesting. \n\n David first answers “Build the most impressive gun ever made,” but Brandon suggests that this doesn’t have much to do with the rest of the Crew or his lawkeeper’s own Drive, so David alters it to “To hunt down my guns and bring those who use them to justice.” Brandon likes this answer much better. \n\n John initially draws a blank, so Brandon reminds him about his character’s hopes of earning his family’s acclaim and asks how he might accomplish this. John answers with “Rid the Roughs of organized criminal gangs.” Brandon agrees that this will keep his character quite busy. \n\n Jess starts off with “Become the most famous con artist ever,” then Brandon raises an eyebrow, and she realizes that well-known con artists usually don’t come to a good end. She modifies it to “Pull off the greatest con in history,” which Brandon agrees is much better."
+                }  
+            },
+            "stepFour":{
+                "basics":"Having answered those key questions, you now have all the information you need to describe your character’s strengths in three areas: Attributes, Standings, and Powers. \n\n No character can be good at everything (nor would it be interesting if it were possible), and your answers to Questions 6, 7, and 8 have already established your character’s true gifts. Attributes, Standings, and Powers should already be labeled, one as strong, one as average, and one as weak. If this isn’t the case, go ahead and label them now. Just jot your answers down next to the relevant sections on your character sheet. \n\n The following sections explain what those strengths mean and what you need to do to further describe your character’s abilities.",
+                "powers":{
+                    "basics":"Your Powers strength determines whether you have magical or superhuman abilities, and if so, what options are available. This is often your most important choice when assigning strengths, as it can limit the specific abilities you can choose for your character. \n\n Choose one of the options from the list provided for your Powers strength and record it in the Powers section on your character sheet. Note that the Powers you choose may limit or determine your character’s race as well.",
+                    "note":"Most Powers choices also grant a character a choice of Stunts, which include Allomancy, Allomantic shot, Compounding, Feruchemical shot, gunplay, gunsmithing, and koloss-blooded Stunts. In most cases, it should be obvious which Stunts a character can take (e.g., while any character can take gunplay or gunsmithing Stunts, a Misting or Ferring can’t take Compounding Stunts, nor can a normal human take koloss-blooded Stunts). \n\n Characters who gain a Stunt from their Powers selection may choose Stunts from this book, the Mistborn Adventure Game rulebook, and any supplements, so long as they meet the prerequisites of that Stunt and have the Narrator’s approval (see “Choosing Stunts from Other Supplements,”). If you have questions about which specific Stunts your Hero can choose from, refer to the “Gain a New Stunt” section of Improving Alloy Heroes.",
+                    "strong":[
+                        {
+                            "name":"Koloss-blooded Ferring",
+                            "desc":"The sacred blood of both the koloss and ancient Terris runs in your character’s veins. His or her Physique increases by 1 (maximum 7), and he or she gains 2 dice with rolls involving physical strength. Additionally, he or she has a Feruchemical rating of 5 in one metal of your choice, and may use metalminds of that metal (see the Metallurgy tab). Finally, he or she gains one Stunt of your choice."
+                        },
+                        {
+                            "name":"Koloss-blooded Misting",
+                            "desc":"Your Hero wields the awesome power of Allomancy alongside the incredible durability of the koloss. His or her Physique increases by 1 (maximum 7), and he or she gains 2 dice with rolls involving physical strength. Additionally, he or she has an Allomancy rating of 5 in one metal of your choice (see the Metallurgy tab). Finally, he or she gains one Stunt of your choice."
+                        },
+                        {
+                            "name":"Twinborn",
+                            "desc":"Your character can use the powers of Allomancy and Feruchemy to create spectacular results. He or she has an Allomancy rating of 4 in one metal of your choice (see the Metallurgy tab), and a Feruchemical rating of 4 in one metal of your choice, and may use metalminds of that metal (see the Metallurgy tab). If you choose the same metal for both Allomancy and Feruchemy, you are a Compounder, which allows you to perform Compounding and purchase Compounding Stunts (see the Metallurgy tab). If you choose different metals for both Allomancy and Feruchemy, your character also gains one Stunt of your choice."
+                        }
+                    ],
+                    "average":[
+                        {
+                            "name":"Ferring",
+                            "desc":"Your character can store or magnify a single personal attribute using metalminds. He or she has a Feruchemy rating of 5 in one metal of your choice (see the Metallurgy tab) and gains one Stunt of your choice."
+                        },
+                        {
+                            "name":"Kandra (Faceless Immortal)",
+                            "desc":"Your character is a shape-shifting kandra, blessed with Hemalurgic awareness and immortality. He or she has a Mimicry rating of 5, and one Hemalurgic Blessing chosen from the following: Awareness, Potency, Presence, or Stability (see the Metallurgy tab). Remember to get your Narrator’s permission before making this choice!"
+                        },
+                        {
+                            "name":"Koloss-blooded",
+                            "desc":"Your character is descended from the mighty koloss, with the grey-blue skin and powerful build to prove it. His or her Physique increases by 1 (maximum 7), he or she gains 2 dice with rolls involving physical strength, and one Stunt of your choice."
+                        },
+                        {
+                            "name":"Misting",
+                            "desc":"Your character can use a single Allomantic Power with great skill. He or she has an Allomancy rating of 5 in one metal of your choice (see the Metallurgy tab), and gains one Stunt of your choice."
+                        }
+                    ],
+                    "weak":"Your character has no special Powers but gains two additional Traits. You can replace one or both of these Traits with Stunts (generally speaking, only gunplay or gunsmithing Stunts) if you wish.",
+                    "example":"Filamena selected “average” Powers since she wants her character to be koloss-blooded. Her Hero’s Physique is increased by 1, he gains 2 dice on all rolls involving physical strength, and Filamena can pick one Stunt for him as well. As a koloss-blooded, her character is eligible for gunplay, gunsmithing, and koloss-blooded Stunts; Filamena doesn’t want her Hero to have a talent any old human can have, so she chooses the koloss-blooded Stunt Surge of Strength from page 151 and adds it to her character sheet. \n\n David’s gunsmith lawkeeper has no magic or unusual ancestry, giving her “weak” Powers. This choice gives David’s Hero two additional Traits, which he chooses to swap for two gunsmithing Stunts instead — Create Custom Ammo, and Customize Guns (Perfect Balance) — which are the perfect way to represent her masterful craftsmanship. \n\n John’s choice to play a Twinborn means his Hero has “strong” Powers, and both an Allomantic and a Feruchemical metal which he can use. John decides his character should have the Allomantic Power of Brass (allowing him to Soothe his way out of tough situations) and the Feruchemical Power of Bronze (the power to tap or store wakefulness, which will make him a relentless pursuer). He writes both Powers, along with a rating of 4 in each, on his character sheet. Finally, because John selected two different metals, his Hero is a “normal” Twinborn and gains one Stunt as well. John likes the idea of being able to calm an angry mob, so he chooses the Affect Crowd Brass Allomancy Stunt from page 335 of the Mistborn Adventure Game, and adds it in the Stunt section next to his Brass Allomancy power on his character sheet. \n\n Jess wants to play a Ferring, meaning her character has “average” Powers. Looking over the metals in Book 2 of the Mistborn Adventure Game, she decides that her character is a Duralumin Ferring (with the power to store and tap connections with others — perfect for a con man). She writes Duralumin Feruchemy with a Power rating of 5. For her Stunt, she chooses the Quicker Draw gunplay Stunt (since there aren’t any Duralumin Feruchemical shot Stunts, and she thinks her con artist might have to use a pistol to get out of trouble from time to time...)"
+                },
+                "attributes":{
+                    "basics":"Your Attributes strength determines the number of points you may distribute among Physique, Wits, and Charm, which showcase your character’s natural ability in three areas.",
+                    "physical":[
+                        {
+                            "name":"Physique",
+                            "desc":"Physical fitness and speed, including strength, agility, and endurance"
+                        },
+                        {
+                            "name":"Charm",
+                            "desc":"Natural charisma and social skills, including appearance and ability to lead"
+                        },
+                        {
+                            "name":"Wits",
+                            "desc":"Inherent intelligence and insight, including wisdom, raw knowledge, and resourcefulness"
+                        }
+                    ],
+                    "part1":"You must dedicate at least 2 points to each of these, and the maximum you may invest in each is determined by your Attributes strength:",
+                    "points":[
+                        {
+                            "name":"Strong",
+                            "desc":"Split 13 points among your character’s Attributes. No Attribute may exceed 6."
+                        },
+                        {
+                            "name":"Average",
+                            "desc":"Split 11 points among your character’s Attributes. No Attribute may exceed 5."
+                        },
+                        {
+                            "name":"Weak",
+                            "desc":"Split 9 points among your character’s Attributes. No Attribute may exceed 4"
+                        }
+                    ],
+                    "part2":"Each point invested is a die you may roll when using that Attribute, with 2 dice being feeble, 3 being common, 4 being robust, 5 being excellent, and 6 being the limit of human ability.",
+                    "example":"Filamena chose “strong” Attributes back in Step 3, so she has 13 points with a maximum of 6. She wants a character who’s powerful, but also did well at university. She decides her Hero has Physique 5, Charm 3, Wits 5, and adds +1 to his Physique for being koloss-blooded. \n\n David chose “average” Attributes, so he only has 11 points to spend, with a maximum of 5. He knows his gunsmith should be quite intelligent, so he assigns her Physique 3, Charm 3, and Wits 5. \n\n John also decided on “average” Attributes and has 11 points to spend with a maximum of 5. He goes for a fairly even spread of Physique 4, Charm 4, and Wits 3. \n\n Jess chose “strong” Attributes and has 13 points to spend with a maximum of 6. She knows that Charm is the most important Attribute for a con artist, so she goes with Physique 3, Charm 6, and Wits 4."
+                },
+                "standings":{
+                    "basics":"Your Standings strength determines the number of points you may distribute among Influence, Resources, and Spirit, which showcase your character’s funding, sway, and luck.",
+                    "physical":[
+                        {
+                            "name":"Resources",
+                            "desc":"Wealth, privilege, and capacity to muster financially-driven resources (like raising an army or running an estate)"
+                        },
+                        {
+                            "name":"Influence",
+                            "desc":"Political power, contacts, and ability to call in favors"
+                        },
+                        {
+                            "name":"Spirit",
+                            "desc":"Fate, connection to the metaphysical, and ability to survive against the odds"
+                        }
+                    ],
+                    "part1":"You must dedicate at least 2 points to each of these, and the maximum you may invest in each is determined by your Standings strength:",
+                    "points":[
+                        {
+                            "name":"Strong",
+                            "desc":"Split 13 points among your character’s Attributes. No Attribute may exceed 8."
+                        },
+                        {
+                            "name":"Average",
+                            "desc":"Split 11 points among your character’s Attributes. No Attribute may exceed 6."
+                        },
+                        {
+                            "name":"Weak",
+                            "desc":"Split 9 points among your character’s Attributes. No Attribute may exceed 4"
+                        }
+                    ],
+                    "part2":"Each point invested is a die you may roll when calling on that form of Standings, with 2 dice being inconsequential and 10 being the most power a character may possess on that front.",
+                    "example":"Filamena chose “weak” Standings and has 9 points to spend with a maximum of 4. Knowing that most people look down on koloss-blooded but her Hero has deep resolve, she chooses Resources 3, Influence 2, and Spirit 4. \n\n David picked “strong” Standings during Step 3 and has 13 points to spend with a maximum of 8. He thinks his Hero should have deep pockets and be respected within the Roughs, so chooses Resources 5, Influence 4, and Spirit 4. \n\n John and Jess both chose “weak” Standings and have 9 points to spend with a maximum of 4. John goes for an even split of Standings, choosing Resources 3, Influence 3, and Spirit 3. Jess wants her Hero to have a few extra notes in his pocket at the expense of some hard luck and picks Resources 4, Influence 3, and Spirit 2."
+                }
+            },
+            "stepFive":{
+                "basics":"You’re nearly ready to dive into the game now. All you have left to do is fill in some of your character’s trappings, including his or her race, name, Resiliences, and Props.",
+                "part1":"The three races available in The Alloy of Law game are human, koloss-blooded, and kandra. Humans include all ethnicities, including those of Terris descent. Koloss-blooded look much like humans, but tend towards large, muscular builds, and have a bluish or greyish tint to their skin. Kandra appear as they do in the Mistborn Adventure Game — translucent blobs of muscle in their natural state, or as perfect replicas of the creature they are currently mimicking (less any hair or hard tissues such as fingernails). \n\n Your character’s choice of race is limited by the Powers he has.",
+                "choices":[
+                    {
+                        "option":"A character with no Powers or with only Allomantic and/or Feruchemical Powers (e.g., Mistings, Ferrings, or Twinborn) must be human."
+                    },
+                    {
+                        "option":"A character with koloss-blooded Powers (e.g., koloss-blooded, koloss-blooded Allomancer, or koloss-blooded Ferring) must be koloss-blooded."
+                    },
+                    {
+                        "option":"A character with the Mimicry Power must be a kandra."
+                    }
+                ],
+                "part2":"Write your choice (or required race) in the space provided beneath the Mistborn logo on your character sheet.",
+                "example":"Example: Filamena’s character has chosen koloss-blooded powers, so he must be koloss-blooded . The other three characters must all be human",
+                "names":{
+                    "basics":"Your character’s name is often a reflection of his or her race, class, and background. Here are some examples and guidelines for the different peoples of Scadrial. Most koloss-blooded simply use a single human first name as their only name. A few more traditionally-minded Terrisfolk choose names closer to their ancestors, while Faceless Immortals have kandra names.",
+                    "female":[
+                        {
+                            "one":"Abrigain",
+                            "two":"Allrianne",
+                            "three":"Armal",
+                            "four":"Astryn"
+                        },
+                        {
+                            "one":"Bailey",
+                            "two":"Bekka",
+                            "three":"Belle",
+                            "four":"Charlette"
+                        },
+                        {
+                            "one":"Dalmari",
+                            "two":"Eliysha",
+                            "three":"Etta",
+                            "four":"Fionne"
+                        },
+                        {
+                            "one":"Flora",
+                            "two":"Grace",
+                            "three":"Halex",
+                            "four":"Hope"
+                        },
+                        {
+                            "one":"Ingra",
+                            "two":"Lessie",
+                            "three":"Limmi",
+                            "four":"Lystra"
+                        },
+                        {
+                            "one":"Mae",
+                            "two":"Marasi",
+                            "three":"Marthin",
+                            "four":"Meryl"
+                        },
+                        {
+                            "one":"Myshalla",
+                            "two":"Porsha",
+                            "three":"Prudence",
+                            "four":"Ranette"
+                        },
+                        {
+                            "one":"Rosele",
+                            "two":"Sara",
+                            "three":"Seraye",
+                            "four":"Sesperina"
+                        },
+                        {
+                            "one":"Shella",
+                            "two":"Telsin",
+                            "three":"Vereta",
+                            "four":"Vinna"
+                        }
+                    ],
+                    "male":[
+                        {
+                            "one":"Alernath",
+                            "two":"Alloran",
+                            "three":"Arintol",
+                            "four":"Augustin"
+                        },
+                        {
+                            "one":"Barl",
+                            "two":"Brettin",
+                            "three":"Bren",
+                            "four":"Brill"
+                        },
+                        {
+                            "one":"Charetel",
+                            "two":"Doxon",
+                            "three":"Edwarn",
+                            "four":"Elors"
+                        },
+                        {
+                            "one":"Evhar",
+                            "two":"Farnsward",
+                            "three":"Gavil",
+                            "four":"Gufton"
+                        },
+                        {
+                            "one":"Handerwym",
+                            "two":"Harrisel",
+                            "three":"Hinston",
+                            "four":"Jak"
+                        },
+                        {
+                            "one":"Jarrington",
+                            "two":"Jon",
+                            "three":"Joshin",
+                            "four":"Kelsien"
+                        },
+                        {
+                            "one":"Larsyn",
+                            "two":"Maksil",
+                            "three":"Nouxil",
+                            "four":"Palco"
+                        },
+                        {
+                            "one":"Peret",
+                            "two":"Reddi",
+                            "three":"Sindren",
+                            "four":"Sazed"
+                        },
+                        {
+                            "one":"Taraco",
+                            "two":"Tarson",
+                            "three":"Tillaume",
+                            "four":"Zak"
+                        }
+                    ],
+                    "common":"With the difference between skaa and noble now lost to history, all humans have surnames. However, these family names still carry with them the legacy of high or low birth. Some common surnames for poor and middle-class characters include:",
+                    "commoner":[
+                        {
+                            "one":"Awlstin",
+                            "two":"Bawnyr",
+                            "three":"Belmar",
+                            "four":"Cranli"
+                        },
+                        {
+                            "one":"Dallewyl",
+                            "two":"Dramali",
+                            "three":"Durnsed",
+                            "four":"Ekham"
+                        },
+                        {
+                            "one":"Estrafeller",
+                            "two":"Falco",
+                            "three":"Garbeau",
+                            "four":"Habbend"
+                        },
+                        {
+                            "one":"Heispel",
+                            "two":"Mennes",
+                            "three":"Molser",
+                            "four":"Petrel"
+                        },
+                        {
+                            "one":"Palsten",
+                            "two":"Sordarn",
+                            "three":"Stewyrt",
+                            "four":"Trenchant"
+                        }
+                    ],
+                    "surname":"Not many noble families still survive from the World of Ash, but those that do carry with them the weight of history. Some of the most famous noble family names are as follows: ",
+                    "noble":[
+                        {
+                            "one":"Cett",
+                            "two":"Colms",
+                            "three":"Entrone",
+                            "four":"Feltri"
+                        },
+                        {
+                            "one":"Geffenry",
+                            "two":"Harms",
+                            "three":"Ladrian",
+                            "four":"Ostlin"
+                        },
+                        {
+                            "one":"Ralston",
+                            "two":"Shewrman",
+                            "three":"Tekiel",
+                            "four":"Yomen"
+                        }
+                    ],
+                    "example":"Example: Filamena decides to give her koloss-blooded character the single name “Parnell,” as is common to non-human characters. The other three characters are all humans, so they have both first and last names. Since none of their Heroes are of noble birth, they opt to avoid noble surnames. David names his character “Enid Bellflower,” John chooses “Grinnel Enfran,” and Jess likes the sound of “Sperry Odum.”"
+                },
+                "resilience":{
+                    "part1":"When your character is injured — physically, socially, or mentally — the damage is applied to one of three Resiliences:",
+                    "resliences":[
+                        {
+                            "name":"Health",
+                            "desc":"Physical endurance"
+                        },
+                        {
+                            "name":"Reputation",
+                            "desc":"Social status and respect"
+                        },
+                        {
+                            "name":"Willpower",
+                            "desc":"Guts, sense, and determination"
+                        }
+                    ],
+                    "part2":"When one of these Resiliences drops to 0 or below, the character is defeated in a fashion appropriate to the attack. A physical beating that takes out the last of a character’s Health might result in unconsciousness or death, while a scandal that strips away the last of a character’s Reputation might result in public censure or even calls for arrest. A character losing the last of his or her Willpower to a brutal browbeating might agree to one of the attacker’s demands, while a character losing the same due to overwhelming opposition on the battlefield might simply surrender. Your character’s Resiliences are derived from his or her Attributes and Standings:",
+                    "total":[
+                        {
+                            "name":"Health",
+                            "desc":"Physique + Resources"
+                        },
+                        {
+                            "name":"Reputation",
+                            "desc":"Charm + Influence"
+                        },
+                        {
+                            "name":"Willpower",
+                            "desc":"Wits + Spirit"
+                        }
+                    ],
+                    "part3":"Record these sums in the Resilience section on your character sheet"
+                },
+                "props":{
+                    "basics":"Props are “permanent” accessories your character always has at hand. When one is used or lost in play, the character automatically regains another identical Prop “off screen” during the next Long Breather — unless of course the Narrator determines there’s a reason replacements can’t be found (e.g., your character is nowhere near a source of the Prop, or he or she is imprisoned). \n\n Props have a variety of uses, depending on their type:",
+                    "types":[
+                        {
+                            "name":"Weapons",
+                            "desc":"boost damage in a fight, and sometimes let a character attack at range"
+                        },
+                        {
+                            "name":"Armor & Shields",
+                            "desc":"reduce the damage a character suffers from physical attacks"
+                        },
+                        {
+                            "name":"Animals, Mounts, & Vehicles",
+                            "desc":"provide companionship and/or assist in travel"
+                        },
+                        {
+                            "name":"Tools",
+                            "desc":"provide a bonus die when appropriate to the task at hand"
+                        },
+                        {
+                            "name":"Implements",
+                            "desc":"are essential components when using Powers (e.g., Coinshots Push coppers to fling themselves skyward and attack, Ferrings use metalminds to store and tap various personal abilities, and Mistings consume pouches of metal dust to fuel their Allomancy)"
+                        }
+                    ],
+                    "part1":"You may choose a number of Props for your character up to his or her Resources, and these Props may only be chosen from the table at the end of this page (the full equipment list the Props tab has a few more items on it — mostly gear available as Props only to certain Narrator-controlled character types or custom weapons that aren’t easy to acquire). Note that customized weapons and ammunition cannot be chosen as Props during character creation, except via the benefits of gunsmithing Stunts (see Stunts). \n\n Props marked with an asterisk on this table are particularly powerful or rare. They count as two Props against the total number of Props you may have. Customized weapons often count as two or more Props, as well (see Props).",
+                    "example1":"Example: Should Filamena choose to arm Parnell with a koloss blade — an especially powerful and rare weapon — as a Prop, it counts as two Props toward his maximum.",
+                    "part2":"The Props table contains a brief description for each item. Complete rules for all equipment can be found in the section on equipment, which starts on page 112. Again, this later section contains some items not suitable as Props. Don’t worry too much about making just the right choices now. You can always swap out Props during a Long Breather. If you add to your character’s Resources later in the game, the number of Props you can carry will rise by the same amount. Do be careful about choosing items with metal in them, though! Your character might be able to use that to his or her advantage with the right Powers, but so can others. Once you’ve chosen your Props, write them down in the Equipment section on your character sheet, and tick the “Prop” box for each.",
+                    "example2":"Parnell has Resources 3, which allows him to choose three Props. Filamena chooses a koloss blade, which is fitting but also marked with an asterisk and so counts as two Props. Filamena also chooses to give Parnell a pocket watch to make sure he is always punctual — and has some assistance when he needs to count to 10 to calm his temper. \n\n Enid, David’s gunsmith lawkeeper, has Resources 5. David knows she needs a gunsmith’s workshop to ply her trade, so he chooses that for one Prop, and uses a second Prop to take a cart for moving her tools about. No lawkeeper worth her copper goes without a few guns, so David chooses a Sterrion 36 with his third Prop, and decides to splurge for the high-tech Heispel autoloader with his fourth and fifth Props. Enid also gains two additional “free” props from her gunsmithing Stunts — one custom ammunition Prop (from the Create Custom Ammo Stunt) and a Perfect Balance customization on one gun (from the Customize Guns (Perfect Balance) Stunt). David chooses hollow-point ammunition for the former, and adds the Perfect Balance customization to Enid’s Sterrion 36 for the latter. \n\n Grinnel has Resources 3. With his total of three Props, John chooses an Immerling Multi-Shot rifle, an Immerling 44 revolver, and a Twinborn’s kit (with a Bronze metalmind and a Brass Misting pouch for his Allomancy). He’d love to have a horse for his bounty hunting, but he’ll just have to wait until he gets some Advancements to spend. \n\n Sperry gets four Props choices, thanks to a 4 in Resources. Jess chooses a bottle of snake oil (need tools to sell the rubes!), formal clothing (got to look the part!), a set of 3 average-sized Duralumin metalminds (good for conning folks!), and finally an easily concealed Cohnvave Two-Shot pistol (just in case folks catch him conning!)"
+                }
+            }
         }
     ],
     "propped": [ 
@@ -4572,7 +5525,14 @@
                     ]
                 }
             ],
-            "era2":[],
+            "era2":[
+                {
+                    "name":"weapons",
+                    "type":[
+                        
+                    ]
+                }
+            ],
             "firstNote": "* Each time you choose this item, the maximum number of Props you may have drops by 1 (e.g. your maximum Props drops by 2 if you choose both a stone spear and a large wooden shield).",
             "secondNote": "** The Narrator may let you choose from a broader selection of metals if more have been discovered (this may depend on when your story occurs, or different factors if your story diverges from what’s in the novels). Choosing these items may reduce your maximum Props by 1 or even 2 if the Narrator determines that these additional metals are particularly powerful or scarce (such as Duralumin)."
         }
@@ -4609,10 +5569,7 @@
                         "personality":"Determined",
                         "extras":[
                             {
-                                "trait":"Known as 'upright citizen'"
-                            },
-                            {
-                                "trait":"Father figure to my crew"
+                                "trait1":"Known as 'upright citizen'","trait2":"Father figure to my crew"
                             }
                         ]
                     },
@@ -4669,10 +5626,7 @@
                     "powers":[
                         {
                             "power":"All metals",
-                            "allomancy":false,
-                            "feruchemy":true,
-                            "hemalurgy":false,
-                            "other":false,
+                            "type":"Feruchemy",
                             "rating":3,
                             "stunts":[]
                         }
@@ -4717,10 +5671,7 @@
                         "personality":"Rebellious",
                         "extras":[
                             {
-                                "trait":"Fast-talker"
-                            },
-                            {
-                                "trait":"Trained as a steward"
+                                "trait1":"Known as 'upright citizen'","trait2":"Father figure to my crew"
                             }
                         ]
                     },
@@ -4777,19 +5728,13 @@
                     "powers":[
                         {
                             "power":"Mimicry",
-                            "allomancy":false,
-                            "feruchemy":false,
-                            "hemalurgy":false,
-                            "other":true,
+                            "type":"Other",
                             "rating":5,
                             "stunts":[]
                         },
                         {
                             "power":"Blessing of Awareness",
-                            "allomancy":false,
-                            "feruchemy":false,
-                            "hemalurgy":true,
-                            "other":false,
+                            "type":"Hemalurgy",
                             "stunts":[]
                         }
                     ],
@@ -4838,10 +5783,7 @@
                     "powers":[
                         {
                             "power":"All metals",
-                            "allomancy":true,
-                            "feruchemy":false,
-                            "hemalurgy":false,
-                            "other":false,
+                            "type":"Allomancy",
                             "rating":4,
                             "stunts":[]
                         }
@@ -4901,10 +5843,7 @@
                     "powers":[
                         {
                             "power":"Zinc",
-                            "allomancy":true,
-                            "feruchemy":false,
-                            "hemalurgy":false,
-                            "other":false,
+                            "type":"Allomancy",
                             "rating":5,
                             "stunts":[
                                 {
@@ -4959,10 +5898,7 @@
                     "powers":[
                         {
                             "power":"Brass",
-                            "allomancy":true,
-                            "feruchemy":false,
-                            "hemalurgy":false,
-                            "other":false,
+                            "type":"Allomancy",
                             "rating":5,
                             "stunts":[
                                 {
@@ -5017,10 +5953,7 @@
                     "powers":[
                         {
                             "power":"Pewter",
-                            "allomancy":true,
-                            "feruchemy":false,
-                            "hemalurgy":false,
-                            "other":false,
+                            "type":"Allomancy",
                             "rating":5,
                             "stunts":[
                                 {
@@ -5081,10 +6014,7 @@
                     "powers":[
                         {
                             "power":"Nicrosil",
-                            "allomancy":true,
-                            "feruchemy":false,
-                            "hemalurgy":false,
-                            "other":false,
+                            "type":"Allomancy",
                             "rating":5,
                             "stunts":[
                                 {
@@ -5143,25 +6073,14 @@
                     "destiny":"To rid the Roughs of organized criminal gangs",
                     "powers":[
                         {
-                            "power":"Brass",
-                            "allomancy":true,
-                            "feruchemy":false,
-                            "hemalurgy":false,
-                            "other":false,
+                            "power":"Bendalloy",
+                            "type":"Allomancy",
                             "rating":4,
-                            "stunts":[
-                                {
-                                    "stunt":"Affect Crowd:",
-                                    "description":"While burning Brass, you may simultaneously Soothe a number of people up to 20 × your Brass rating, though you lose 2 dice with all Brass rolls when manipulating multiple characters at once (see page 223 for more information about crowds). You may not use this Stunt while flaring Brass."
-                                }
-                            ]
+                            "stunts":[]
                         },
                         {
-                            "power":"Bronze",
-                            "allomancy":false,
-                            "feruchemy":true,
-                            "hemalurgy":false,
-                            "other":false,
+                            "power":"Bendalloy",
+                            "type":"Feruchemy",
                             "rating":4,
                             "stunts":[]
                         }
@@ -5216,10 +6135,7 @@
                     "powers":[
                         {
                             "power":"Gunsmithing Stunt",
-                            "allomancy":false,
-                            "feruchemy":false,
-                            "hemalurgy":false,
-                            "other":true,
+                            "type":"Other",
                             "stunts":[
                                 {
                                     "stunt":"Create Custom Ammo",
@@ -5291,22 +6207,21 @@
                     "destiny":"To catch a criminal they say could never be caught",
                     "powers":[
                         {
-                            "power":"Bendalloy",
-                            "allomancy":true,
-                            "feruchemy":false,
-                            "hemalurgy":false,
-                            "other":false,
+                            "power":"Bronze",
+                            "type":"Feruchemy",
                             "rating":4,
                             "stunts":[]
                         },
                         {
-                            "power":"Bendalloy",
-                            "allomancy":false,
-                            "feruchemy":true,
-                            "hemalurgy":false,
-                            "other":false,
+                            "power":"Brass",
+                            "type":"Allomancy",
                             "rating":4,
-                            "stunts":[]
+                            "stunts":[
+                                {
+                                    "stunt":"Affect Crowd:",
+                                    "desc":"While burning Brass, you may simultaneously Soothe a number of people up to 20 × your Brass rating, though you lose 2 dice with all Brass rolls when manipulating multiple characters at once (see page 223 for more information about crowds). You may not use this Stunt while flaring Brass."
+                                }
+                            ]
                         }
                     ],
                     "equipment":[
@@ -5359,10 +6274,7 @@
                     "powers":[
                         {
                             "power":"Chromium",
-                            "allomancy":false,
-                            "feruchemy":true,
-                            "hemalurgy":false,
-                            "other":false,
+                            "type":"Feruchemy",
                             "rating":4,
                             "stunts":[
                                 {
@@ -5432,10 +6344,7 @@
                     "powers":[
                         {
                             "power":"Copper",
-                            "allomancy":false,
-                            "feruchemy":true,
-                            "hemalurgy":false,
-                            "other":false,
+                            "type":"Feruchemy",
                             "rating":5,
                             "stunts":[]
                         }
@@ -5490,10 +6399,7 @@
                     "powers":[
                         {
                             "power":"Koloss Physique",
-                            "allomancy":false,
-                            "feruchemy":false,
-                            "hemalurgy":false,
-                            "other":true,
+                            "type":"Other",
                             "stunts":[
                                 {
                                     "stunt":"Koloss Physique",
@@ -5547,19 +6453,13 @@
                     "powers":[
                         {
                             "power":"Duralumin",
-                            "allomancy":true,
-                            "feruchemy":false,
-                            "hemalurgy":false,
-                            "other":false,
+                            "type":"Allomancy",
                             "rating":5,
                             "stunts":[]
                         },
                         {
                             "power":"Gunplay Stunts",
-                            "allomancy":false,
-                            "feruchemy":false,
-                            "hemalurgy":false,
-                            "other":true,
+                            "type":"Other",
                             "stunts":[
                                 {
                                     "stunt":"Quicker Draw",

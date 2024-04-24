@@ -1,8 +1,10 @@
 
 /* eslint-disable react/jsx-key */
 /* eslint-disable react/prop-types */
+
+import Character from "../Bestiary/Character"
 function Sample(props) {
-    const altSheet = props.hero.name + "`s Character sheet"
+    // const altSheet = props.hero.name + "`s Character sheet"
 
     return (
       < >
@@ -12,10 +14,11 @@ function Sample(props) {
         </div>
         <div id="sampleDisplay">
             <div>
-                <img className="heroSample" src={props.hero.sheet} alt={altSheet}/>
+                {/* <img className="heroSample" src={props.hero.sheet} alt={altSheet}/>
                 <br/>
                 <span className="sampleText" id="bolder">{props.hero.name}`s Character sheet</span>
-                <br/>
+                <br/> */}
+                <Character rogue={props.rogue} />
             </div>
             <div>
                 <img className="heroSample" id="rightSample" src={props.hero.portrait} alt={props.hero.portrait} />
