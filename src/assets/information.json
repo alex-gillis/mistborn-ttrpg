@@ -5355,7 +5355,7 @@
                     ]
                 },
                 {
-                    "propType": "Armor",
+                    "propType": "Armor & Shields",
                     "props":[
                         {   
                             "id": 0,
@@ -5371,29 +5371,24 @@
                             "id": 2,
                             "item": "Steel plate *",
                             "desc": "Heavy breastplate worn by the wealthiest and most foolhardy leaders"
-                        }
-                    ]
-                },
-                {
-                    "propType": "Shields",
-                    "props":[
+                        },
                         {   
-                            "id": 0,
+                            "id": 3,
                             "item": "Small metal shield",
                             "desc": "Standard shield of soldiery"
                         },
                         {   
-                            "id": 1,
+                            "id": 4,
                             "item": "Small wooden shield",
                             "desc": "Sturdy shield carried by Lurchers; contains no metal"
                         },
                         {   
-                            "id": 2,
+                            "id": 5,
                             "item": "Large metal shield *",
                             "desc": "Used by cavalry and for ceremony"
                         },
                         {   
-                            "id": 3,
+                            "id": 6,
                             "item": "Large wooden shield *",
                             "desc": "Almost exclusively used by hazekillers; contains no metal"
                         }
@@ -5490,7 +5485,7 @@
                         {   
                             "id": 12,
                             "item": "Writing steel",
-                            "desc": "Thin sheets of steel for inscribing sacred information, which cannot be altered by metaphysical powers (such as Ruin"
+                            "desc": "Thin sheets of steel for inscribing sacred information, which cannot be altered by metaphysical powers (such as Ruin)"
                         }
                     ]
                 },
@@ -5527,14 +5522,389 @@
             ],
             "era2":[
                 {
-                    "name":"weapons",
-                    "type":[
-                        
+                    "propType":"weapons",
+                    "props":[
+                        {
+                            "id":10,
+                            "name":"Aluminum sword *",
+                            "desc":"Dueling blade that can’t be detected or affected by Allomancy"
+                        },
+                        {
+                            "id":11,
+                            "name":"Bow and obsidian arrows *",
+                            "desc":"Effective ranged weapon against Allomancers; contains no metal"
+                        },
+                        {
+                            "id":12,
+                            "name":"Brass knuckles",
+                            "desc":"An easily-concealed weapon for those who love fisticuffs"
+                        },
+                        {
+                            "id":13,
+                            "name":"Crossbow and obsidian arrows *",
+                            "desc":"Mechanical bow with improved range; contains no metal"
+                        },
+                        {
+                            "id":14,
+                            "name":"Club or staff",
+                            "desc":"A simple weapon used in desperation; contains no metal"
+                        },
+                        {
+                            "id":15,
+                            "name":"Disguised gun",
+                            "desc":"A tiny gun that can be built into a cane, umbrella, or other item"
+                        },
+                        {
+                            "id":16,
+                            "name":"Dueling cane",
+                            "desc":"A cane carried for defense and duels; contains no metal"
+                        },
+                        {
+                            "id":17,
+                            "name":"Dynamite (1 stick)",
+                            "desc":"An explosive used for demolition; contains no metal"
+                        },
+                        {
+                            "id":18,
+                            "name":"Cohnvave Two-Shot",
+                            "desc":"A tiny pistol that fits up a sleeve or in a purse"
+                        },
+                        {
+                            "id":19,
+                            "name":"Granger 30-30 rifle",
+                            "desc":"A single-shot rifle accurate at long ranges"
+                        },
+                        {
+                            "id":20,
+                            "name":"Hammer *",
+                            "desc":"A heavy working man’s hammer"
+                        },
+                        {
+                            "id":21,
+                            "name":"Heispel Autoloader *",
+                            "desc":" A self-loading pistol with a large magazine"
+                        },
+                        {
+                            "id":22,
+                            "name":"Heispel Pump Shotgun",
+                            "desc":"A cutting-edge pump-action shotgun"
+                        },
+                        {
+                            "id":23,
+                            "name":"Hunting knife",
+                            "desc":"An extremely large steel knife"
+                        },
+                        {
+                            "id":24,
+                            "name":"Immerling 44 revolver",
+                            "desc":"A six-shooter with high stopping power but short range"
+                        },
+                        {
+                            "id":25,
+                            "name":"Immerling Multi-Shot rifle",
+                            "desc":"A lever-action repeating rifle that holds eight rounds"
+                        },
+                        {
+                            "id":26,
+                            "name":"Koloss arquebus †",
+                            "desc":" A simple but effective rifle favored by some koloss"
+                        },
+                        {
+                            "id":27,
+                            "name":"Koloss blade * †",
+                            "desc":"A large iron chopping blade prized by koloss and koloss-blooded"
+                        },
+                        {
+                            "id":28,
+                            "name":"Koloss cleaver †",
+                            "desc":"Smaller version of the koloss blade"
+                        },
+                        {
+                            "id":29,
+                            "name":"Lasso",
+                            "desc":"Loop of rope used to disarm or grapple cattle or opponents"
+                        },
+                        {
+                            "id":30,
+                            "name":"Obsidian hatchet",
+                            "desc":"A small axe used as both a tool and a weapon; contains no metal"
+                        },
+                        {
+                            "id":31,
+                            "name":"Obsidian knife",
+                            "desc":"A weapon favored by assassins; contains no metal"
+                        },
+                        {
+                            "id":32,
+                            "name":"Obsidian spear",
+                            "desc":"Unwieldy weapon used by many Survivorists; contains no metal"
+                        },
+                        {
+                            "id":33,
+                            "name":"Riesfel shotgun",
+                            "desc":"A commonly available double-barreled shotgun"
+                        },
+                        {
+                            "id":34,
+                            "name":"Sterrion 36 revolver",
+                            "desc":" An effcient, reliable gun with excellent range and stopping power"
+                        },
+                        {
+                            "id":35,
+                            "name":"Terringul 27 revolver",
+                            "desc":"A small-caliber six-shooter that’s easy to carry with decent range"
+                        }
+                    ]
+                },
+                {
+                    "propType":"Armor & Shields",
+                    "props":[
+                        {
+                            "id":7,
+                            "name":"Aluminum-laced clothing *",
+                            "desc":"Items hidden inside can’t be detected by Allomancy"
+                        },
+                        {
+                            "id":8,
+                            "name":"Aluminum-laced hat *",
+                            "desc":"Wearer can’t be affected by Brass or Zinc Allomancy"
+                        },
+                        {
+                            "id":9,
+                            "name":"Bulletproof vest",
+                            "desc":"Leather vest woven with pads and metal plates"
+                        },
+                        {
+                            "id":10,
+                            "name":"Large metal shield *",
+                            "desc":"Used by strike-busters and constables"
+                        },
+                        {
+                            "id":11,
+                            "name":"Large wooden shield *",
+                            "desc":"Dense shield favored by Lurchers; contains no metal"
+                        },
+                        {
+                            "id":12,
+                            "name":"Leather duster",
+                            "desc":"A long, heavy leather coat worn by lawkeepers and bandits"
+                        },
+                        {
+                            "id":13,
+                            "name":"Lurcher plate * ",
+                            "desc":"A metal chest plate used by Lurchers for catching bullets"
+                        },
+                        {
+                            "id":14,
+                            "name":"Mistcoat",
+                            "desc":"Symbol of Twinborn, which helps conceal them in the mists"
+                        },
+                        {
+                            "id":15,
+                            "name":"Small wooden shield",
+                            "desc":"Sturdy hand-held shield used by Allomancers and koloss; contains no metal"
+                        }
+                    ]
+                },
+                {
+                    "propType":"Animals, Mounts, & Vehicles",
+                    "props":[
+                        {
+                            "id":4,
+                            "name":"Pack animal",
+                            "desc":"Rugged donkey, mule, or goat for moving supplies"
+                        },
+                        {   
+                            "id": 5,
+                            "item": "Pet or small working animal",
+                            "desc": "Cat, bloodhound, or similar animal"
+                        },
+                        {   
+                            "id": 6,
+                            "item": "Cart or wagon",
+                            "desc": "Two-wheeled cart used to haul passengers or cargo"
+                        },
+                        {   
+                            "id": 7,
+                            "item": "Horse",
+                            "desc": "A common transport in the Roughs, or a luxury in Elendel"
+                        },
+                        {   
+                            "id": 8,
+                            "item": "Horse & carriage *",
+                            "desc": "An enclosed four-person vehicle used across Scadrial"
+                        },
+                        {   
+                            "id": 9,
+                            "item": "Horseless carriage *",
+                            "desc": "A state-of-the-art mechanical conveyance powered by gasoline"
+                        },
+                        {   
+                            "id": 10,
+                            "item": "Rail pass",
+                            "desc": "Books passage for rail travel anywhere in the world"
+                        }
+                    ]
+                },
+                {
+                    "propType": "Tools",
+                    "props":[
+                        {   
+                            "id": 13,
+                            "item": "Aluminum ingot",
+                            "desc": "Required to make Aluminum guns or rounds, which can’t be affected by Allomancy"
+                        },
+                        {   
+                            "id": 14,
+                            "item": "Bottle of wine/rotgut",
+                            "desc": "Popular with roughnecks and bon vivants from all walks of life"
+                        },
+                        {   
+                            "id": 15,
+                            "item": "Coinshot/Lurcher lock",
+                            "desc": "Can only be opened vial Steel or Iron Allomancy"
+                        },
+                        {   
+                            "id": 16,
+                            "item": "Craftsman’s tools",
+                            "desc": "Supports one occupation (e.g., carpentry, metallurgy, etc.)"
+                        },
+                        {   
+                            "id": 17,
+                            "item": "Deck of cards",
+                            "desc": "A gambler’s best friend and useful for cheating"
+                        },
+                        {   
+                            "id": 18,
+                            "item": "Disguise",
+                            "desc": "Helpful when concealing or impersonating one person’s identity"
+                        },
+                        {   
+                            "id": 19,
+                            "item": "Formal clothing or jewelry",
+                            "desc": "Useful when blending into high society events"
+                        },
+                        {   
+                            "id": 20,
+                            "item": "Glider coat *",
+                            "desc": "Enables limited flight for Coinshots, Lurchers, and Skimmers"
+                        },
+                        {   
+                            "id": 21,
+                            "item": "Gunsmith’s workshop",
+                            "desc": "Array of tools for producing guns and ammunition"
+                        },
+                        {   
+                            "id": 22,
+                            "item": "Holy book or symbol",
+                            "desc": "Sign of one’s commitment to a faith, such as a Survivorist spear or Pathist earring"
+                        },
+                        {   
+                            "id": 23,
+                            "item": "Hunter’s traps",
+                            "desc": "Snares and other traps useful for catching small game"
+                        },
+                        {   
+                            "id": 24,
+                            "item": "Lockpicks",
+                            "desc": "Useful when picking locks"
+                        },
+                        {   
+                            "id": 25,
+                            "item": "Medical supplies",
+                            "desc": "Useful for treating wounds and during certain mental conflicts"
+                        },
+                        {   
+                            "id": 26,
+                            "item": "Pen and blank book",
+                            "desc": "Vital tools for a novelist or journalist"
+                        },
+                        {   
+                            "id": 27,
+                            "item": "Photographic equipment",
+                            "desc": "Used to take and develop photographs"
+                        },
+                        {   
+                            "id": 28,
+                            "item": "Pocketwatch",
+                            "desc": "A small timepiece that keeps good time"
+                        },
+                        {   
+                            "id": 29,
+                            "item": "Prospector’s gear",
+                            "desc": "Picks, pans, and other gear for mining or dredging metals"
+                        },
+                        {   
+                            "id": 30,
+                            "item": "Rope and grapple",
+                            "desc": "Helpful when climbing, crossing gaps, or binding someone"
+                        },
+                        {   
+                            "id": 31,
+                            "item": "Snake oil",
+                            "desc": "Convincing-looking “miracle tonic” for sale to suckers"
+                        },
+                        {   
+                            "id": 32,
+                            "item": "Sound dampeners *",
+                            "desc": "Long tubes that muffle the report of a pistol or rifle"
+                        },
+                        {   
+                            "id": 33,
+                            "item": "Survival gear",
+                            "desc": "Backpack, compass, and other gear for surviving in the Roughs"
+                        }
+                    ]
+                },
+                {
+                    "propType": "Implements",
+                    "props":[
+                        {   
+                            "id": 5,
+                            "item": "Bones (1 set) ",
+                            "desc": "Allows kandra to imitate one specific person or animal"
+                        },
+                        {   
+                            "id": 6,
+                            "item": "Coppers, horseshoes, or iron bars",
+                            "desc": "Metal objects used by Coinshots for Steeljumping or as weapons"
+                        },
+                        {   
+                            "id": 7,
+                            "item": "Metalminds (3, average)",
+                            "desc": "3 bracer or necklace-sized metalminds that hold 100 charges each"
+                        },
+                        {   
+                            "id": 8,
+                            "item": "Metalminds (2, large) *",
+                            "desc": "2 larger metalminds that hold 200 charges each"
+                        },
+                        {   
+                            "id": 9,
+                            "item": "Metalminds (4, tiny)",
+                            "desc": "4 ring-sized metalminds that hold 25 charges each"
+                        },
+                        {   
+                            "id": 10,
+                            "item": "Ornate metalmind *",
+                            "desc": "Single average-size metalmind that also counts as Formal Jewelry"
+                        },
+                        {   
+                            "id": 11,
+                            "item": "Misting vial/pouch",
+                            "desc": "Contains 3 charges of a single metal"
+                        },
+                        {   
+                            "id": 12,
+                            "item": "Twinborn’s kit",
+                            "desc": "Includes a single average-sized metalmind that holds 100 charges, and one Misting vial containing 3 charges of a single metal"
+                        }
                     ]
                 }
             ],
             "firstNote": "* Each time you choose this item, the maximum number of Props you may have drops by 1 (e.g. your maximum Props drops by 2 if you choose both a stone spear and a large wooden shield).",
-            "secondNote": "** The Narrator may let you choose from a broader selection of metals if more have been discovered (this may depend on when your story occurs, or different factors if your story diverges from what’s in the novels). Choosing these items may reduce your maximum Props by 1 or even 2 if the Narrator determines that these additional metals are particularly powerful or scarce (such as Duralumin)."
+            "secondNote": "** The Narrator may let you choose from a broader selection of metals if more have been discovered (this may depend on when your story occurs, or different factors if your story diverges from what’s in the novels). Choosing these items may reduce your maximum Props by 1 or even 2 if the Narrator determines that these additional metals are particularly powerful or scarce (such as Duralumin).",
+            "thirdNote":"† Only koloss and koloss-blooded characters make take this as a Prop"
         }
     ],
     "rogues": [
