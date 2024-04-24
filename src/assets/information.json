@@ -1329,6 +1329,14 @@
                     }
                 ]
             },
+            "compounding":{
+                "stunts":[
+                    {
+                        "name":"Underdog’s Grit (Compounding)",
+                        "description":"By spending Compounded charges of determination, you can rise to nearly any challenge. When you attempt a roll with a Difficulty equal to or greater than the number of dice in your dice pool (e.g., you must roll 4 dice against a Difficulty 5), or are in a Contest or Conflict Round with a character whose dice pool is greater than your own (e.g., your opponent would roll 7 dice while you only roll 5), you may add additional dice to your dice pool by spending 20 Compound charges of determination per die added. However, you may not increase your dice pool to be greater than the Difficulty (if a Challenge) or than your opponent’s dice pool (if in a Contest or Conflict) using this Stunt — the best you can do is bring yourself even with the challenge!"
+                    }
+                ]
+            },
             "hemalurgy": {
                 "lore": "Electrum has no known Hemalurgic applications.",
                 "spikes": "",
@@ -1380,6 +1388,14 @@
                     {
                         "name": "Gasper Shot",
                         "description": "You can suppress your need to breathe in order to make difficult shots with longarms. When making an Aimed attack with a rifle (see page 133), you may tap 10 charges of breath to gain one “free” Nudge on your roll. "
+                    }
+                ]
+            },
+            "compounding":{
+                "stunts":[
+                    {
+                        "name":"Slow Breath (Compounding)",
+                        "description":"Your body bridges the gap of Allomantic and Feruchemical Cadmium to vastly slow your breathing. When you store breath, you only lose 1 die per 2 charges stored with Physique rolls related to endurance, and can store a number of charges of breath per hour equal to your Cadmium rating (rather than storing the lower of your Cadmium rating or your Physique score minus 1 as normal)."
                     }
                 ]
             },
