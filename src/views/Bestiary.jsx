@@ -3,7 +3,9 @@ function Bestiary() {
 
     return (
       < >
-        <div id="secret">There`s always another secret...</div>
+        <div id="secret">
+          There`s always another secret...
+        </div>
       </>
     )
   }
