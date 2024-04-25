@@ -19,7 +19,7 @@ function Menu() {
     useEffect(() => {
         const getMetals = async () => {
         try {
-            const response = await fetch('./assets/information.json'); 
+            const response = await fetch('./src/assets/information.json'); 
             if (!response.ok) {
             throw new Error('Failed to fetch data');
             }

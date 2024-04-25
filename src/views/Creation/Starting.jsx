@@ -13,7 +13,7 @@ function Starting(props) {
             <h2>If You`re Experienced in TTRPG...</h2>
             {props.create.experienced} <br/>
             <div id="filters">
-                <img className="icons" src="./assets/icons/atiumVial.png" alt="Atium Vial" />
+                <img className="icons" src="./src/assets/icons/atiumVial.png" alt="Atium Vial" />
             </div>
             <h2>What you need to play</h2>
             {props.create.needPlay}
