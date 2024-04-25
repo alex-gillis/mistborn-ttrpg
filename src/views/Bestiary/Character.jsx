@@ -120,7 +120,7 @@ function Character(props) {
                         </tbody>
                     </table>
                 ) : (
-                    <div>{props.rogue.name} possesses no powers</div>
+                    <div className="centered">{props.rogue.name} possesses no powers</div>
                 )}
             </div>
             <div>
