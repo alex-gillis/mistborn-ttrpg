@@ -2,7 +2,7 @@
 /* eslint-disable react/jsx-key */
 /* eslint-disable react/prop-types */
 
-import Character from "../Bestiary/Character"
+import Character from "../Reference/Bestiary/Character"
 function Sample(props) {
     // const altSheet = props.hero.name + "`s Character sheet"
 

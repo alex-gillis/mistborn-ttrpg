@@ -6,6 +6,7 @@ import Conflicts from './Conflicts';
 import Intro from './Intro';
 import '../styles/App.css';
 import { useState, useEffect } from 'react';
+import Reference from './Reference';
 
 function Menu() {
     const [myMetals, setMetals] = useState([]);
@@ -18,7 +19,7 @@ function Menu() {
     useEffect(() => {
         const getMetals = async () => {
         try {
-            const response = await fetch('./src/assets/information.json'); 
+            const response = await fetch('./assets/information.json'); 
             if (!response.ok) {
             throw new Error('Failed to fetch data');
             }
@@ -47,7 +48,8 @@ function Menu() {
         { title: 'Creation', className: myPage === 1 ? 'selected' : 'unselected', onClick: () => handlePage(1) },
         { title: 'Cultures', className: myPage === 2 ? 'selected' : 'unselected', onClick: () => handlePage(2) },
         { title: 'Conflicts', className: myPage === 3 ? 'selected' : 'unselected', onClick: () => handlePage(3) },
-        { title: 'Metallurgy', className: myPage === 4 ? 'selected' : 'unselected', onClick: () => handlePage(4) }
+        { title: 'Metallurgy', className: myPage === 4 ? 'selected' : 'unselected', onClick: () => handlePage(4) },
+        { title: 'Reference', className: myPage === 5 ? 'selected' : 'unselected', onClick: () => handlePage(5) },
     ];
 
 
@@ -66,6 +68,7 @@ function Menu() {
             { myPage === 2 && <Cultures /> }
             { myPage === 3 && <Conflicts /> }
             { myPage === 4 && myMetals[0] && myBasics[0] && <Metallurgy basics={myBasics} metals={myMetals} /> }
+            { myPage === 5 && <Reference /> }
         </>
     );
 }
