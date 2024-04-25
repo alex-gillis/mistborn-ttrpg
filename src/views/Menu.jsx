@@ -62,7 +62,7 @@ function Menu() {
             </header>
             
             { myPage === 0 && <Intro /> }
-            { myPage === 1 && <Creation creation={myCreations} propped={myProps[0]} rogues={myRogues}/> }
+            { myPage === 1 && <Creation creation={myCreations} propped={myProps[0]} rogues={myRogues} /> }
             { myPage === 2 && <Cultures /> }
             { myPage === 3 && <Conflicts /> }
             { myPage === 4 && myMetals[0] && myBasics[0] && <Metallurgy basics={myBasics} metals={myMetals} /> }

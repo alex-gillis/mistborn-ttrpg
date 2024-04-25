@@ -77,6 +77,11 @@ header {
   text-decoration: underline;
 }
 
+#boldlicked {
+  font-weight: bolder;
+  font-style: italic;
+}
+
 #brandon {
   border-color: aliceblue;
   border-style: solid;
@@ -102,6 +107,12 @@ header {
   margin-right: auto;
   border-color: grey;
   border-style: solid;
+  text-align: left;
+}
+
+#buildRow {
+  border-color: grey;
+  border-bottom-style: solid;
 }
 
 #character {
