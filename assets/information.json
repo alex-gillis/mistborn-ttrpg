@@ -6881,5 +6881,271 @@
                 }
             ]
         }
+    ],
+    "game":[
+        {
+            "basics":{
+                "part1":"Playing the Mistborn Adventure Game is a little like having a conversation with your friends, except that each of you is playing a role (the one you may have just created with the tools in the Building Heroes section). One of you, the Narrator, sets the scene by briefly describing your surroundings, and he or she also controls all the characters the rest of you aren’t playing (which may sound like a lot of work, but most of them aren’t as detailed as the Heroes). \n\n Some of the conversation involves speaking “in character,” which means that, for as long as you’re comfortable, everything you say also comes out of your character’s mouth in the game world. Some players like to adopt accents and mannerisms to portray their character as well, though it’s not required. The Narrator may use this trick to help the other players identify which character he or she is portraying at any given moment, and this can really help the game flow more fluidly. \n\n The rest of the conversation involves description, usually of what your character is doing. In a narrative game like this, which doesn’t use a play board or pieces to signify where the characters are, description keeps everyone’s mental picture of the game world the same, or at least as close as two readers of the same novel. \n\n Here’s a brief example of how a common Mistborn Adventure Game session might open...",
+                "example":"Brandon settles into his favorite chair. \n Brandon: “Thanks for coming everyone! I really want to applaud you all for last session. Your Crew came together wonderfully. Let’s dive right in!” \n Peter (playing with some of his dice): “Where do we start?” \n Brandon: “Have you decided on a name for the Crew yet?” \n Isaac (from the kitchen, as he’s grabbing everyone drinks): “Peter and I were thinking we could use the number of us in the name.” \n Ben (looking up from his latest masterpiece, a portrait of his Hero, Sev): “We’re always watching the nobility for signs of weakness. Maybe we can refer to each other as ‘Eyes’?”  \n Emily (stifling a laugh): “The Four Eyes? That won’t work.”  \n Peter: “The Nine Eyes. That way we have some room to add folks.” \n Brandon: “Justin might join next week. He has some ideas for a Terris steward named Gavon.” \n Emily: “The Nine Eyes Crew it is then! What’s our first job?” \n Brandon (checking his notes): “You’ve been contacted through discreet channels by a pair of Mistborn—” \n Peter (eyes narrowing): “Nobles?” \n Brandon: “Yes, but you have it on good authority they’re too busy living the high life to pay much attention to anyone else.” \n Ben: “So they’re spoiled little rich kids. Awesome.” \n Brandon: “They’re also offering a king’s ransom for what looks like a pretty simple job.” \n Ben: “Liars too?” \n Brandon: “You might be able to mount that rebellion you’re planning in the Farmost Dominance...” \n Peter: “Well then, our doors and ears are open. Aren’t they Sev?” \n Ben shoots Peter a thoughtful glance and everyone realizes Peter’s just slipped into character. \n Ben (in the gruff voice he’s adopting for Sev): “I still don’t trust them.” \n Brandon (adjusting his voice as well): “Who? Us? We’re just two legitimate employers with a lot of money and a reasonable offer...” \n Brandon (miming the newcomer’s fist around a sack of boxings and resuming his natural voice): “You hear the tell-tale rattle of coins. The sack’s full.” \n Emily (in a voice she’s trying out for JeHoy): “How much?” \n Brandon (in character, and narrowing his eyes mischievously): “Enough.”",
+                "part2":"Certain descriptions also establish your surroundings and details about the characters. Most often these kinds of descriptions come from the Narrator, but one of the most exciting things about an RPG is its truly collaborative nature. (Almost) anything is possible, and the only “fixed” parts of the story are things that have already happened or been described. Everything else is either something the Narrator has planned that hasn’t been discovered yet, or up for grabs, which lets everyone — including the other players — help to define their unique version of Scadrial. \n\n In practice, this is as simple as the Narrator or a player including new details in descriptions of their actions. Anyone is free to add any details they want, though there are two all-important rules to remember:",
+                "points":[
+                    {
+                        "point":"Any player can veto a detail about his or her own character (e.g. deciding that they do not, in fact, have mud on their boots). After all, everyone’s worked hard on their characters, and they shouldn’t have to accept anything about them that they don’t like. Unless..."
+                    },
+                    {
+                        "point":"The Narrator can veto or confirm any detail introduced by anyone, regardless of whose character is impacted or how. Sometimes a new bit of description will help the story along, or help with a dramatic moment, or shift attention to something important, and the Narrator needs the power to make sure such descriptions remain in play."
+                    }
+                ],
+                "part3":"Let’s pick back up with our game, and offer some more examples...",
+                "example2":"Peter (still in character): “So what’s this job that you’re willing to part with so many boxings?” \n Brandon (following suit, and speaking in the second Mistborn’s voice): “Not so many to us.” \n Ben (gruff as ever): “We get it. You’re rich.” \n Brandon (back to the first Mistborn’s voice): “Simply well to do. Ignore my brother. I’m Carrow.” \n Isaac (twisting his fingers in the air to indicate everyone): “Introductions.” \n The others nod. \n Brandon (speaking in the second voice): “Cordal.” \n Brandon follows up in his own voice: “You know the names. They’re House Bylerum. Sometimes called the ‘Bylerum Boys.’ They have a bit of a reputation: small house, big dreams.” \n Isaac (his curiosity piqued): “Dreams?” \n Brandon: “Rumor has it they’re less interested in tending to their family’s affairs than flirting with greater nobility.” \n Ben (in character): “What brings you down to our level? We don’t exactly live the high life here.” \n Brandon (Carrow): “We’re in the market for... procurement. We understand that’s what you do.” \n Peter (Beck): “On occasion. What do you need procured?” \n Brandon (Carrow): “A family heirloom.” \n Emily (JeHoy): “Who has it?” \n Brandon (Cordal): “Stole it. Right off our property.” \n Ben (Sev, snorting): “Sounds like you need better guards.” \n Brandon: “Cordal bristles but Carrow cuts him off.” (as Carrow) “We know you’re not fans of the nobility, and we can’t fault your reasons. Your wife didn’t need to die, Beck, and you, JeHoy—“ \n Emily (out of character): “Hold on. They know our secrets? How?” \n Brandon: “They’re wealthy, and well-connected.” \n Peter (speaking for Beck): “So am I, and I assume I’ve spent a good deal of personal capital to bury my secrets. And theirs, as well.” He indicates the other players, the Crew. \n Brandon (knowing he could confirm this detail but also knowing it would rub the other players the wrong way, and justifiably so): “That’s fair.” He takes a moment and picks up the narrative where it left off, once again speaking in Carrow’s voice: “We know you’re not fans of the nobility. You only take jobs that hurt them, and you’ve scored several impressive wins lately. You’ve made many powerful enemies.” \n The players are pleased with this new development, and Brandon’s happy he didn’t have to adjust the plot he has planned for the evening. \n Brandon (Cordal): “We can help with that — if you help us.” \n Peter (Beck): “Where’s the heirloom?” \n Brandon (Cordal): “Keep Hasting.” \n Ben (remembering the novels, and knowing Sev would have the same knowledge): “What? Are you mad? That’s one of the most heavily guarded houses in the city.” \n Brandon (Cordal): “Still think we need better guards?” \n Isaac (Damosi): “Beck’s right. Hasting’s no pushover. We might not be the Crew for you.” \n Emily (receiving a text): “Justin’s almost here. He thinks it would be interesting for Gavon to be Damosi’s brother.” \n Brandon (seizing an opportunity and speaking in Carrow’s voice): “We also know you have a man on the inside.” He looks to Isaac (Damosi) and adds, “You’re the Crew for us.” \n Isaac isn’t sure he wants his Hero to have a brother but he also knows the Terris blood-bond isn’t often all that strong. He also knows that Brandon can confirm this regardless, and considering how quickly he dove on the idea, he thinks that may just happen. \n Isaac nods. “I’ll contact Gavon, then.” \n Peter (Beck): “Carrow, Cordal... It looks like we have ourselves a deal.”",
+                "part4":"Here the Narrator uses a player’s idea to keep the story on track and to strengthen relationships in the Crew. He also acquiesces when it’s clear that his initial description violates a story point some of the players feel strongly about. Knowing when and what to veto and confirm is a difficult skill to master but it’s also key to promoting a positive play experience. \n\n In the healthiest and most fulfilling RPG experiences, everyone is careful not to take the characters or the story anywhere that will make the others uncomfortable, or worse, offend them. The strongest players talk about the game a bit beforehand, to get a sense of what everyone is hoping for, and what they find fun and exciting, so they can tailor their descriptions accordingly.",
+                "brandon":"When adding description, you want to keep the story moving and not always keep the focus on you, the Narrator or player. Rather, you want it on the characters. However, you also want to set the scene appropriately. Some GMs (Narrators) I’ve played with like to spend long, ponderous minutes describing every detail of a scene — to the point that, instead of imagining in great detail, the players get bored. This happens in books, too. \n\n The best descriptions are short, dense, and sensory. Don’t go over every detail of a nobleman’s fine carriage; contrast the gold on its doors with the scent of horse dung on the street. Your audience (the other players, including the Narrator unless you’re running the game) should feel the scene as you talk about yelling shopkeepers and ash floating from the sky, but be careful not to drone on and on. \n\n Often, focusing on one small detail — such as how an abandoned doll in the corner of a room has become a nest for rats — can paint a scene far more vividly than fifteen minutes talking about how dusty, old, and ragged the place is."
+            },
+            "beats":{
+                "part1":"Time can pass more quickly or more slowly in an RPG than it does in real life, and the pace will shift many times over the course of your story. Just like the prose in a novel, your conversation will glaze over the slow and dull bits, focusing on the ones that are exciting and require more detail. This is why the Mistborn Adventure Game uses a variable time increment called a Beat. \n\n Each Beat represents a unit of time chosen by the Narrator. The shortest a Beat can be is a second and the longest is a century, and every increment in-between is fair game (e.g. one or more seconds, any number of minutes, an hour, a day, a week, and so on). \n\n The length of a Beat may change throughout your story, but it will generally remain the same so long as your conversation lingers on a given part of the story (e.g. so long as your characters remain at a given location, or through an in-character conversation, or until the end of a fight). \n\n Beats give you a framework within which to describe the action. If the Narrator shifts the Beats down to just a few seconds at a time, you know the pressure’s on and everyone has to pay a lot more attention to the little details (this is common in combat, for example). If the Beats move up to one a minute, then you can rest a little easier and lavish detail on each Beat — unless of course you’re in the middle of a foot chase or another situation that demands you keep your descriptions tight and focused.",
+                "example":"Brandon: “The Bylerum Boys leave you with a description of the heirloom — it’s a clay case about this big...” He indicates the item’s rough size with his fingers. “Then they clear out, leaving you to your own devices. What’s next?” \n Ben (Sev): “We need a plan.” \n Isaac (Damosi): “Let’s see if Gavon has any idea where the case is.” \n Brandon: “It’s going to take several hours to arrange a meeting with him. Is there anything you’d like to do in the meantime?” \n Peter: “I’d like to reach out and see if any of my friends have an idea who’s staying at the keep right now, and whether there are any events planned in the next few days.” \n Emily: “Any chance my bones belong to a Hasting?” \n Brandon (smiling): “Sorry, no, but hold that thought.” \n Ben: “I think I’d like to case the keep for a bit. Have I been there before?” \n Brandon (considering): “Yes, but you didn’t go inside. It was with another Crew. You were the lookout.” \n Ben: “Maybe with Gavon’s help, I could get a peek this time?” \n Brandon: “Maybe. Anything else?”",
+                "part2":"Most of the time the Narrator probably won’t even have to announce the Beats; the natural flow of the conversation will suggest them when they’re needed. The Narrator didn’t keep track of the Beats during the meeting with the Bylerum Boys, for example, but if he did they probably wouldn’t have been more than a few seconds each. After the meeting they might shift to hours (if everything the Crew plans is similar in scope to contacting Gavon), or to minutes (if the Narrator decides to focus on Sev casing the keep). \n\n Sometimes you’ll need to know the Beats to see how much your character can get done alongside other characters, such as the Narrator’s Villains and Extras. This is true in combat, chases, and most other competitions. It’s also true when you’re working with a time limit, even if other characters aren’t involved. In all these cases time ticks down Beat by Beat, usually with each character given the chance to act once in each Beat. Some actions may take multiple Beats, as your Narrator will explain. \n\n Occasionally your character may “catch a Beat” (meaning he or she can take an extra action in the next Beat), or “lose a Beat” (meaning he or she has to sit the next Beat out, doing nothing at all). These phrases will make more sense as you see them in context elsewhere in the rules."
+            },
+            "breathers":{
+                "part1":"Sometimes the Narrator will declare that you aren’t using Beats for a while — usually right after a part of your story ends, when there’s a logical period of downtime before anything important happens again in the game world. These periods are called Breathers, and there are two kinds of them.",
+                "breaths":[
+                    {
+                        "name":"Short Breathers",
+                        "desc":"typically last an hour to a day of game time, while"
+                    },
+                    {
+                        "name":"Long Breathers",
+                        "desc":"can last multiple days, or even weeks or months."
+                    }
+                ],
+                "part2":"A Breather might be called so the Narrator can abridge an otherwise dull period of the story, or so the Heroes can regroup and recover resources, or just to give everyone some time to clear their heads in the real world. A single Breather may be called for all these reasons. \n\n Breathers let characters recover lost Resiliences and spent Standings, and they’re also when Keepers store charges in metalminds (see page 442). Long Breathers let players spend Advancements (see page 119), which makes them one of the Narrator’s best tools in controlling the pace of the game. \n\n Now, with Beats and Breathers out of the way, let’s take a closer look at those numbers on your character sheet, how you use those dice you’ve been fiddling with."
+            },
+            "rolls":{
+                "part1":"As the conversation unfolds, you’ll reach points when it isn’t clear whether a character can do something a player describes, or whether something a player wants his or her character to attempt will succeed. Will the character’s Steelpush hit a lever, and if so, will it hit with enough force to flip it into the next position? Can the character distract the suspicious Obligator who’s come into the Crew’s tavern guessing (correctly) it might be their hideout? It’s at these moments that you roll the dice. \n\n Characters can accomplish many things without a roll: there’s no need to check whether they recall common knowledge (like what Inquisitors look like or where major canals go); or whether they spot something obvious (like someone standing in the open, or gently Ironpulling a steel-banded door); or whether they can hop across a gap of just a couple feet. All these things can simply be described without fanfare, so you can get on with more Heroic matters. \n\n Every time you roll the dice you also introduce the chance of failure — and potentially change the focus of the story — so making a roll should be an equally big deal. Think of all those wonderful moments in your favorite novels and movies, when the hero starts to sweat, when the audience holds their breath, unsure what’s coming next. If you were playing that scene, those are moments when you should definitely be rolling. \n\n But what about all the other moments — the ones when possibility hangs in the air but not with quite the same weight? Fortunately, there’s an easy way to know the best times to roll the dice. Ask yourself:",
+                "points":[
+                    {
+                        "point":"Does the situation present a challenge?"
+                    },
+                    {
+                        "point":"Can you picture different outcomes for success vs. failure? "
+                    }
+                ],
+                "part2":"If either answer is “yes,” then you should consider rolling, and if both are “yes” then you should definitely roll. For example, you’d probably answer “no” to both questions for any of the actions described in the second paragraph of this section, but would you answer the same for recalling specific details from a lengthy, complex book the character read years ago? What if the book was written in another language or the character only has a few moments before the Inquisitors arrive? How would you answer for spotting another character’s birthmark across a field of dense smoke? During combat? At night? Or leaping across a 5-ft. gap? A 10-ft. chasm? What if the leap takes the character over a very deep pit? \n\n The harder the task and the more dramatic the difference between success and failure, the greater the need for a roll. If you can’t see much difficulty, or you can’t see much of a difference between success and failure, then it’s best to simply describe the action, assume it succeeds, and move on."
+            },
+            "types":{
+                "part1":"The Mistborn Adventure Game features three types of rolls:",
+                "rolls":[
+                    {
+                        "name":"Challenges",
+                        "desc":"When a character attempts something challenging without direct opposition from another character, such as climbing a high wall, making an important speech, or using magic in a difficult way, it's a good time to consider rolling the dice."
+                    },
+                    {
+                        "name":"Contests",
+                        "desc":"When two or more characters compete against one another, such as in a chase, when bribing a reluctant noble to keep his mouth shut, or using Allomancy to yank a sword from a foe's hand, rolling the dice is appropriate."
+                    },
+                    {
+                        "name":"Conflicts",
+                        "desc":"when one character tries to harm another physically, socially, or emotionally"
+                    }
+                ],
+                "part2":"When you're uncertain about applying the additional rules for Contests or Challenges, ask yourself two questions:",
+                "points":[
+                    {
+                        "point":"Is another character resisting the action? If so, it’s a Contest."
+                    },
+                    {
+                        "point":"Are the character and the target trying to hurt each other? If so, it’s a Conflict."
+                    }
+                ],
+                "part3":"If your answer to both these questions is “no,” it’s a Challenge."
+            },
+            "pools":{
+                "part1":"The Mistborn Adventure Game utilizes six-sided dice (commonly found in most family board games). Each roll involves using 2 to 10 dice, which constitutes your 'pool.' The size of your pool depends on the action your Hero is undertaking and is determined by the Narrator based on the description of your character's action. \n\n Typically, the Narrator begins by selecting the Attribute, Standing, or Power rating that is most relevant to the action. For instance, Physique would be crucial for breaking an object by hand, while Influence would be appropriate for negotiating a contract. You start with a number of dice equal to your character's rating in the chosen Attribute or Standing, or a number of dice equal to the rating of the Power being utilized.",
+                "example":"In this example, Peter's request for Beck to reach out to friends to gather information about who's staying at Keep Hasting and whether any events are planned there soon constitutes a Challenge primarily governed by Influence. Beck's Hero has an Influence score of 6, so his pool starts with 6 dice.",
+                "part2":"Next you add dice based on the Traits, Tools, and Circumstances that apply."
+            },
+            "traits":{
+                "part1":"As you may remember from when you were Getting Started, your pool grows by one die for each Trait that supports an action. This applies whether the Trait belongs to you, an ally, or an opponent, as long as you can justify how they help. \n\n The Narrator might suggest the Traits that apply, but you should also be proactive in identifying them. When you believe one or more Traits may influence the outcome, describe how they're assisting your character's action. Keep it straightforward and relevant to the story ('I scramble under the table, counting on my slight build to conceal me from the thugs' rather than 'I hide'). \n\n If the Narrator agrees, add a die for each Trait approved.",
+                "example":"Example: Beck's 'well-connected' Specialty clearly applies to his Challenge (and it’s pretty obvious Peter had it in mind when he made the request). Brandon approves its use, and Beck’s pool rises to 7 dice. \n\n As an extended example of how Beck might benefit from another character’s Trait, let’s say the game’s been going for a while and the Crew had previously run into a skaa courier named Corta who regularly delivers to Keep Hasting. Let’s also say that Corta has the Trait “observant,” and that Beck’s helped him out recently. This would be plenty to justify an additional die even though the Trait doesn’t belong to Beck himself.",
+                "part2":"Remember, Traits cut both ways. If the Narrator determines that one or more Traits are detrimental to an action, he or she may describe how it hurts your character’s chances and shrink your pool by a die for each Trait that gets in the way.",
+                "example2":"Example: None of Beck’s Traits are detrimental to his effort, but let’s say his Specialty wasn’t “well-connected” but rather “elusive” (he prefers to cut deals in the shadows). In this case Brandon might shrink Beck’s pool by a die on the grounds that an elusive man wouldn’t have that many friends to call upon, at least on such short notice.",
+                "part3":"Also keep in mind that if your action targets a character, he or she may have Burdens you can exploit. These are temporary negative Traits generally acquired during Conflicts, which operate almost the same as normal Traits except that they only increase a pool — commonly an opponent’s (see page 184).",
+                "example3":"Example: Again let’s consider the skaa courier Corta. Perhaps in a previous story Beck dug up some incriminating evidence about him — that he’s been selling information about the packages he delivers to the highest bidder. Beck wrestled this information out of Corta in a wildly successful Social Conflict, and in the process he inflicted a Grave Burden called “compromised.” Grave Burdens grant two dice when exploited, and in this case Peter could reasonably justify those two dice given Corta’s access to Keep Hasting and willingness to part with sensitive information."
+            },
+            "tools":{
+                "part1":"Certain items are especially helpful with certain actions. A pocket watch and formal clothing can help a character ease into a gathering of the rich and powerful, while a rope and grapple can help a character scale a wall. If your character is using an item that’s particularly well-suited to the task at hand, your pool grows by 1 die.",
+                "example":"Example: None of Beck’s Props help him track down information about Keep Hasting, but if he were racing across Luthadel — and the roads were free — his horse & carriage might offer a bonus die.",
+                "part2":"The reverse is also true: some items are, while not absolutely necessary for an action, still very useful, and when your character lacks an item that is clearly desired, or is forced to use an item that’s damaged or broken, your pool shrinks by 1 die.",
+                "example2":"Example: Again, no equipment is necessary for Beck’s task, but if he were to get into a sword fight without his dueling cane handy he might lose a die.",
+                "part3":"As with Traits, you may suggest which Tools apply to your character’s action, but the Narrator has final call. Unlike Traits, your pool may grow or shrink by no more than a single die, no matter how many Tools may apply. In the event that Tools add to and subtract from your pool, the Narrator decides how your pool is adjusted. Most of the time, he or she will add a die if more Tools add dice, subtract a die if more Tools subtract dice, or make a judgment call if the same number of Tools apply on both sides. \n\n For convenience, many items that most commonly help characters in Scadrial are offered as Props and may be acquired during play."
+            },
+            "circumstances":{
+                "part1":"Circumstances include all the other miscellaneous conditions that might affect a character’s actions. Running across a slippery rooftop is more challenging than running on a dry, level street, just as interpreting an ancient text over months is easier than rushing through it in a few days. \n\n Unlike Traits and Props, Circumstances are always and only applied at the Narrator’s discretion. Like Tools, Circumstances only add or subtract a single die. Whether the Narrator adds or subtracts a die depends on the circumstances at hand.",
+                "points":[
+                    {
+                        "name":"If your character faces two or more favorable conditions",
+                        "desc":"(e.g. fighting from a fortified position with the sun at your back; transcribing a well-preserved manuscript with assistance from a friend) your pool grows by 1 die."
+                    },
+                    {
+                        "name":"If your character faces two or more adverse conditions",
+                        "desc":"(e.g. fighting while knee-deep in ash and wounded; transcribing a water-damaged manuscript without useful reference materials), your pool shrinks by 1 die."
+                    }
+                ],
+                "example":"Example: Brandon decides against describing Sev’s approach minute-by-minute, and sets the Beats to an hour each. He also figures Beck only needs “a few” (three) hours to reach out to his friends, and that Damosi won’t be able to get in touch with Gavon until late that night (in eight hours' time), so Beck benefits from a favorable condition for having more time than he needs. \n\n Given that Beck actually has more than twice the time he needs, this might be enough to grant a bonus die on its own, but Brandon doesn’t have to make this call. Peter makes the excellent observation that House Hasting is so well-known that comings and goings, and any events that are coming up, should be pretty common knowledge. \n\n Brandon rules these two favorable conditions are enough for a bonus Circumstance die, bringing Beck’s pool to 8 dice"
+            },
+            "above":{
+                "part1":"The largest any pool can ever be is 10 dice.",
+                "part2":"If your pool ever grows above 10 dice, it remains at 10 dice and you gain 1 “free” Nudge for each die beyond 10. These Nudges may only be used on this roll, and only if the roll succeeds.",
+                "example":"Example: Beck’s pool is 8 dice, but let’s say that the “observant” skaa courier Corta were in the picture and Beck had left him with that “compromised” Burden mentioned in the last Traits section example. With one die from Corta’s “observant” Trait and another two from the Burden, Beck’s pool would be 11 dice. This would translate to 10 dice (the maximum possible), and a free Nudge Beck can use if his roll succeeds."
+            },
+            "below":{
+                "part1":"The smallest any pool can ever be is 2 dice.",
+                "part2":"If your pool ever shrinks below 2 dice, or if you start with less than 2 dice (say, because you have a score of 1 due to Hemalurgic spikes), you roll 2 dice and your Outcome worsens by 1 for each die below 2.",
+                "example":"Example: A Hero with a Physique of only 2 attempts to leap toward a canal skiff during a raging storm, hoping to escape pursuers who are hot on his heels. The Narrator counts the storm and the pursuers as enough adverse conditions for the Hero to lose a die, but this takes him below the minimum pool size of two dice. Instead, the Hero rolls his two dice and his Outcome worsens by 1.",
+                "brandon":"No, catching a beat merely grants your character an additional opportunity to do something — which is quite valuable in and of itself — but you still have only as many dice as each action allows, as determined by the Narrator, like usual. This becomes very important in a Conflict, when you have a limited number of dice to work with for everything your character does in each Beat."
+            },
+            "difficulty":{
+                "part1":"Once your pool is formed but before you roll the dice, the Narrator declares a Difficulty. This is a number ranging from 1 to 5, based on how hard the Narrator thinks your character’s task is. Some actions are harder than others. Scaling a smooth vertical wall is much harder than climbing one that’s at an incline or has lots of handholds.",
+                "table":[
+                    {
+                        "one":"1",
+                        "two":"Simple"
+                    },
+                    {
+                        "one":"2",
+                        "two":"Challenging"
+                    },
+                    {
+                        "one":"3",
+                        "two":"Difficult"
+                    },
+                    {
+                        "one":"4",
+                        "two":"Very Hard"
+                    },
+                    {
+                        "one":"5",
+                        "two":"Nearly Impossible"
+                    }
+                ],
+                "example":"Example: Beck’s attempt to learn about Keep Hasting’s occupants and upcoming events isn’t all that hard at all, so Brandon sets the Difficulty to 1. If Beck were instead trying to acquire a detailed floor plan of the place, Brandon might decide it’s a 3, or possibly even 4.",
+                "part2":"Only the Narrator may assign a task’s Difficulty, though as usual the players may point various factors out if they think it may help the decision. Difficulty is sometimes abbreviated along with the Attribute, Standing, or Power used to make the roll (“Wits 3” means a Wits roll with a Difficulty of 3). \n\n Narrators can and should use Difficulty as a way of making tasks both more challenging and more dramatic — because what fun is a challenge, and how valuable is the reward, if there’s no risk of failure? That said, without a compelling reason, the Narrator should usually default to a Difficulty of 1 (Simple), especially until he or she grows comfortable enough with the game to estimate success and failure against various Difficulties. Additional advice for using Difficulty, including how it can affect the Heroes’ chances of success and failure, is provided in Book 3 (see page 450)."
+            },
+            "rolling":{
+                "part1":"When you roll your dice, the numbers 1 to 5 are read as actual numbers, while 6’s become Nudges (ways to improve good rolls and offset bad ones). Set those 6’s aside for now and look for matching numbers on the other dice. If the numbers on two or more of your dice match, the number shown on those matching dice is your Result (if you roll more than one set of matching dice, choose one set as your Result — the higher the better).",
+                "points":[
+                    {
+                        "point":"If your Result equals or beats the Difficulty, the roll (and your character’s action) succeeds."
+                    },
+                    {
+                        "point":"Otherwise, your roll (and the action) fails."
+                    }
+                ],
+                "example":"Example: Peter rolls Beck’s pool of 8 dice and gets three 1’s, a 2, two 4’s, and two 6’s. He sets the two 6’s aside — those are Nudges and he’ll deal with them in a minute. From the others he scored two sets: 1’s and 4’s. He actually rolled more 1’s than 4’s but it’s better to have a higher set than a bigger one, so he picks the 4’s. His action succeeds with a Result of 4, but what does that mean? He moves on to the next step to find out."
+            },
+            "outcome":{
+                "part1":"Often what happens is obvious when your roll succeeds or fails — your character hits the lever or misses it, distracts the Obligator or arouses his suspicion, and so on — but sometimes it’s important not only to know whether your roll succeeds or fails, but also how well it succeeds or how badly it fails. This is called your Outcome. \n\n Outcome can be positive or negative. It’s figured by subtracting the Difficulty from your Result (if your roll failed the Result is 0, and if no Difficulty was declared it defaults to 1). ",
+                "example":"Example: Subtracting his roll’s Difficulty of 1 from his Result of 4, Beck has an Outcome of 3.",
+                "part2":"An Outcome of 0 is just barely a success, while a positive Outcome is more impressive the higher the number. Likewise, a negative Outcome is more dramatic the lower the number.",
+                "table":[
+                    {
+                        "one":"6",
+                        "two":"Godlike"
+                    },
+                    {
+                        "one":"5",
+                        "two":"Legendary"
+                    },
+                    {
+                        "one":"4",
+                        "two":"Astounding"
+                    },
+                    {
+                        "one":"3",
+                        "two":"Amazing"
+                    },
+                    {
+                        "one":"2",
+                        "two":"Excellent"
+                    },
+                    {
+                        "one":"1",
+                        "two":"Good"
+                    },
+                    {
+                        "one":"0",
+                        "two":"Passable"
+                    },
+                    {
+                        "one":"-1",
+                        "two":"Just shy"
+                    },
+                    {
+                        "one":"-2",
+                        "two":"Unfortunate"
+                    },
+                    {
+                        "one":"-3",
+                        "two":"Cringe-worthy"
+                    },
+                    {
+                        "one":"-4",
+                        "two":"Horrible"
+                    },
+                    {
+                        "one":"-5",
+                        "two":"Disastrous"
+                    },
+                    {
+                        "one":"-6",
+                        "two":"Catastrophic"
+                    }
+                ],
+                "part3":"If you’ve done the math you may have already noticed that the two best Outcomes (5 and 6) aren’t possible. They aren’t normally, being beyond the ken of most mortals, but certain Powers can bring them within range, as can Nudges (see page 152). Likewise, the worst Outcome (–6) is only possible in the most dire situations, otherwise known as rolling with a pool smaller than 2 dice"
+            },
+            "describing":{
+                "part1":"So once you know the Outcome, what happens? It tells you roughly how well or how poorly your character does something, but what does that mean in the game world? Some rules in this book and in future supplements explain the effects of Outcome in common situations but without specific guidance, how do you use the number? \n\n It’s primarily up to the Narrator, as he or she has the best view of the situation (knowing not only where all the characters are and what they’re doing, but also what’s happening outside their view and what’s coming up next in the story). The Narrator also has a strong understanding of the rules, and it’s his or her job to interpret them in consistent, plausible, and fun ways. \n\n The Narrator considers the action and asks two questions:",
+                "points":[
+                    {
+                        "point":"What are the best and worst possible consequences of the action, not just for this character but all characters? "
+                    },
+                    {
+                        "point":"Within those limits, how might success and failure with this action be divided into stages?"
+                    }
+                ],
+                "part2":"The first question can be a bit deceiving, especially in a place like Scadrial where some characters can shatter the limits of human potential. Fortunately, those cases are covered by the most extreme Outcomes, so the Narrator can focus on what’s possible for a truly gifted or skilled human. What’s important here is that you come up with best- and worst-case scenarios, as those become Outcome 4 and –5, respectively.",
+                "example":"Example: Per the table earlier in this section Peter knows that Beck’s Outcome of 3 was “amazing,” but still needs to know the specifics of his success. Brandon starts by asking the first question: what are the best and worst possible consequences of Beck inquiring about House Hasting’s occupants and events? \n\n The best consequence, of course, is learning everything there is to know — or at least, all that Beck’s friends might be in a position to know (Brandon could reasonably rule that information that would upset the overall story simply isn’t available outside the House). In this case Brandon anticipated the Crew would investigate House Hasting and has a short list of things in mind already. The best consequence is that they learn all of them. \n\n The worst consequence, on the other hand, isn’t just learning nothing, but word getting back to House Hasting that the Crew is asking questions about the keep. This would put keep guards on alert and generally make the Crew’s job much, much harder. ",
+                "part3":"The second question is pretty straightforward but requires a bit of quick thinking. You’re looking to gauge 4 positive Outcomes for success (0 to 3), and 4 negative Outcomes for failure (–1 to –4). Remember, you’ve already got the best- and worst-case scenarios nailed down, and the stages should fluidly lead up to those extremes. Ideally, each Outcome on the way to ultimate success or failure should represent a unique consequence that’s a bit better than the one before and a bit worse than the one to follow.",
+                "example2":"Example: Brandon continues with the second question: between learning everything on the short list of discoveries and alerting House Hasting to the Crew’s inquiries, what are the stages of success and failure? \n\n The four positive Outcomes are easy: Brandon has made sure there are at least five things Beck can learn about House Hasting and rated them in order from easiest to hardest to learn, and also takes into consideration that certain facts offer the Crew more of an advantage than others, hedging those up the scale. At an Outcome of 0 Beck learns one detail, and one additional detail is learned for each point of positive Outcome (so two details at Outcome 1, three at Outcome 2, and four at Outcome 3, and all five details at the best possible Outcome of 4). \n\n The negative Outcomes are just as easy. If the worst possible consequence is House Hasting learning about the Crew’s interest, then each point of negative Outcome puts them one step closer to that discovery. The easiest way to scale this is to invert the positive Outcome (a trick you’ll find is often helpful): each point of negative Outcome reveals a fact about the Crew, or better yet, just about Beck (as he’s the one sticking his neck out for the information, and it’s assumed from the game’s conversation that he’s working alone at this point). \n\n Fortunately, Beck succeeded with his roll, so the Crew’s identities are safe... for now",
+                "part4":"Now that you understand how to assign Outcomes, it’s time for the all-important caveat: you only have to consider a fraction of this with each action. \n\n Outcome always comes after the roll is made; it’s already clear whether the roll succeeded or failed, so the other half of the scale can be ignored. The fringes of the scale should be readily evident in most cases, and the rest should only take a moment to puzzle out, if that’s where the Outcome falls.",
+                "example3":"Example: Following the example of Beck’s inquiries, his success makes the whole negative side of the equation irrelevant. Further, the roll is about gaining information and the Outcome scale of that is obvious from the outset: 1 fact at Outcome 0 and 1 more for each point of positive Outcome. All that could have been worked out in seconds, eliminating the need to walk through the questions.",
+                "part5":"In the end, Outcome is just another tool to help the Narrator and other players develop moments in their shared story. As with all rules, the Narrator has the final say, but the rest of the play group is encouraged to add details and liven up the ongoing conversation, so long as none of them abuse the opportunity to gain an unfair advantage.","example4":"Example: Let’s say Beck’s roll failed and Brandon is describing the Hero’s friends growing worried about the inquiries and clamming up. Some of the description might intentionally allude to certain friends being inclined to alert House Hasting to the Crew’s interest, which is a fair way for Brandon to illustrate Beck’s failure without necessarily confirming what’s going to happen. It gets the other players worried but leaves the story open enough that Brandon can take the failure in another direction later, if needed. \n\n Now let’s say that one of the players suggests that House Hasting knowing about the inquiries might actually work in the Crew’s favor — the Heroes could move while the House leaned on the whistle-blowers for more details. While this might be a reasonable extension of the circumstances, it’s not supported by the fact that Beck’s roll failed, so Brandon would be well within his rights to veto the idea.",
+                "part6":"It’s best to keep an open mind and look beyond the action when describing an Outcome. Consider the character’s relative ability in comparison to what he or she is trying to do, as well as the little details that might help define success or failure. Where is the character in the game world and how do the surroundings impact the action? Can the action impact nearby characters or vice versa? \n\n See if you can “decorate” greater Outcomes with little flourishes to help show off how impressive the success is, and look for ways to “tarnish” lesser Outcomes with flavorful slips, missteps, and minor foibles. Remember that Heroes don’t often fail in Scadrial, and when they do the event should absolutely be portrayed as a “moment” — not the worst thing that could possibly happen, of course (unless they scored the worst possible Outcome), but definitely worth taking a breath or two to ramp up the tension and introduce some new obstacles or dangers, maybe even for the whole Crew. \n\n The Narrator’s final description should include just enough detail to keep everyone at the edge of their seats, dying to hear what happens next, but not so much that the group can’t wait for the moment to pass.",
+                "example5":"Example: Beck’s success is “amazing” and Brandon already knows he’s going to award Peter four details about House Hasting’s occupants and events. In order, these details are...",
+                "examplePoints":[
+                    {
+                        "point":"...that the keep is unusually quiet for this time of year. No events are planned in the coming days."
+                    },
+                    {
+                        "point":"...that despite this, the keep has taken on more guards, including a few extra hazekillers."
+                    },
+                    {
+                        "point":"...that all but a few Hasting nobles are away from Luthadel at the moment. "
+                    },
+                    {
+                        "point":"...that the only guests at the keep right now are Carrow and Cordal Bylerum."
+                    }
+                ],
+                "example6":"The fifth detail that Brandon had planned, and which goes unlearned, is that the Bylerum Boys are at the keep trying (once again) to press their way into the Luthadel social scene. As usual, there’s always another secret, and in this case Brandon has specifically left certain details out of the mix no matter how successful the Outcome. Specifically, there’s no chance Beck will be told why the keep is so quiet, why so many nobles are away, or why the keep is so heavily guarded. The answer to all these questions is in fact the same: it’s because the Bylerums are visiting. (None of the nobles trust or particularly like the Boys, but they’re not keen to insult them either — any more than they’re going to trust a couple manipulative Mistborn in their keep without some extra bodies to protect their holdings.) These details are left to the players to work out, based on the facts they can glean through friends.",
+                "part7":"Here’s a sample of how Beck’s success might work into the conversation, complete with a couple flourishes Brandon thinks are fitting for the Outcome...",
+                "conversation":"Brandon: “Beck reaches out to several longtime associates in the Luthadel underground. He visits the Archway Tavern, leaving discreet marks at several predetermined locations so those with an ear to the ground know he’s in the market for information. After several conversations and more than a few friendly rounds, he returns a few boxings lighter and a few shades pinker in the cheeks.” At Peter’s quizzical look, Brandon adds, “Beck can hold his liquor, but he isn’t very good at hiding it.” \n Peter (nodding at the interesting character quirk and making a mental note that it could become a Trait in the future): “So what do I learn?” \n Brandon (affecting a slightly tipsy voice for an unnamed informant): “Keep Hasting? Nothing’s happening there these days, that’s what. Everyone’s cleared out.” \n Peter (falling into character for the pivotal conversation): “There’s no one there? Why?” \n Brandon (informant): “Don’t know. Half the keep’s dark, though. It’s like all the nobles decided it was a good time to travel. Strange, though... I hear they’ve hired even more guards than usual.” \n Peter (Beck): “Really? Any idea why?” \n Brandon (informant): “No idea. Maybe it’s to protect those guests who arrived last night. They seem important, at least. They’ve got the whole north wing of the keep to themselves.” \n Peter (Beck): “Guests, eh? Who are they?” \n Brandon (still acting as the informant) looks nervously to each side, as if worried someone’s watching, and then says, “You’re not going to tell anyone I said any of this, are you?” Before Peter can respond, he jovially adds, “Of course you’re not! Everyone knows you can trust Beck to keep his trap shut.” \n Peter (Beck): “The guests?” \n Brandon (informant): “They’re a couple Mistborn from down south. Call themselves the Bylerum Boys. That’s all I know about ‘em, though. Hey! Care for another round?”",
+                "example7":"Example: If Beck’s roll had failed spectacularly, it might be easy to fully reveal the whole Crew to House Hasting and immediately put the Heroes on the defensive — easy, but not necessarily fair or fun. As mentioned in the example for scaling Outcome, it might be a stronger choice to limit Hasting’s discoveries to Beck alone, which doesn’t necessarily cripple the Crew’s ability to continue the job, but does make it harder whenever Beck’s involved. \n\n Even then, no failure should shut a player and his or her Hero out of the game entirely, so in this case Brandon should start thinking about ways Hasting can use what it learns about Beck to hassle and harry the Crew. Maybe the captain of Hasting’s guard sends some men to question Beck’s family, or take them into custody (something else for the Crew to deal with alongside their other endeavors)"
+            },
+            "not":{
+                "part1":"As we mentioned at the start of the Outcome section, many actions won’t suggest multiple stages of success or failure, and in these cases the Narrator shouldn’t use Outcome, rather describing what happens based on whether the player rolled a matching set with a high enough number to beat the Difficulty. As the decision to use Outcome always happens after the roll is made, and often only happens in the Narrator’s mind, the other players may not even realize its use was ever in question. Indeed, they may not even recognize Outcome when the Narrator does use it.",
+                "example":"Example: Let’s say Brandon needed to withhold knowledge that the Bylerum Boys are the only guests at Keep Hasting, leaving only three very similar pieces of information to be found. He might not care to use Outcome in this case, instead offering all three details with any success. He might even have them prepped with a couple more items as an Outcome list, and decide at the last minute to go with the simpler yes/no approach to keep the conversation moving at a decent clip.",
+                "part2":"...that arise from the failure. These complications can add depth and challenge to the narrative, pushing the characters to adapt and react to unforeseen obstacles or setbacks."
+            }
+        }
     ]
 }
