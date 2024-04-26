@@ -55,6 +55,10 @@ header {
   #info {
     width: auto;
   }
+
+  #fitting {
+    width: auto;
+  }
 }
 
 /* IDs */
@@ -138,6 +142,11 @@ header {
   text-align: center;
   width: 100%;
 }
+
+#fitting {
+  width: 100%;
+}
+
 
 #head-button {
   border: none;

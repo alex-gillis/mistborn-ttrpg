@@ -68,7 +68,7 @@ function Menu() {
             { myPage === 2 && <Cultures /> }
             { myPage === 3 && <Conflicts /> }
             { myPage === 4 && myMetals[0] && myBasics[0] && <Metallurgy basics={myBasics} metals={myMetals} /> }
-            { myPage === 5 && <Reference /> }
+            { myPage === 5 && <Reference creation={myCreations} /> }
         </>
     );
 }

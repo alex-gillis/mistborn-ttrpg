@@ -6,7 +6,8 @@
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "xcopy assets build\\assets /E /I /Y && gh-pages -d build",
+    "deploy": "xcopy assets dist\\assets /E /I /Y && gh-pages -d dist",
+    "send": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",

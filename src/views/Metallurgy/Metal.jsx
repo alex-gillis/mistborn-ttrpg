@@ -30,32 +30,35 @@ function Metal(props) {
 
   return (
     < >
-      <h2>{ props.metal.name }</h2>
-      <h4>{ props.metal.category } / { props.metal.firstQuality } / { props.metal.secondQuality }</h4>
-      <div className='centerAlphabet'>
-        <div id="steelAlphabet">
-          <img id="alphabet" src={ props.metal.allomancy.icon } alt={myReference} />
+      <div>
+        <h2>{ props.metal.name }</h2>
+        <h4>{ props.metal.category } / { props.metal.firstQuality } / { props.metal.secondQuality }</h4>
+        <div className='centerAlphabet'>
+          <div id="steelAlphabet">
+            <img id="alphabet" src={ props.metal.allomancy.icon } alt={myReference} />
+          </div>
+          <div id='fitting'>
+            <span>{ props.metal.rarity }</span>
+          </div>
         </div>
-        <div>
-          { props.metal.rarity }
+        <br/>
+        <div id='filters'>
+          <button id="filter-button" className={myAllo ? 'selected' : 'unselected'} onClick={() => viewAllo()}>Allomancy</button>
+          <button id="filter-button" className={myFeru ? 'selected' : 'unselected'} onClick={() => viewFeru()}>Feruchemy</button>
+          <button id="filter-button" className={myTwins ? 'selected' : 'unselected'} onClick={() => viewTwins()}>Compounding</button>
+          <button id="filter-button" className={myHema ? 'selected' : 'unselected'} onClick={() => viewHema()}>Hemalurgy</button>
         </div>
-      </div>
-      <br/>
-      <div id='filters'>
-        <button id="filter-button" className={myAllo ? 'selected' : 'unselected'} onClick={() => viewAllo()}>Allomancy</button>
-        <button id="filter-button" className={myFeru ? 'selected' : 'unselected'} onClick={() => viewFeru()}>Feruchemy</button>
-        <button id="filter-button" className={myHema ? 'selected' : 'unselected'} onClick={() => viewHema()}>Hemalurgy</button>
-        <button id="filter-button" className={myTwins ? 'selected' : 'unselected'} onClick={() => viewTwins()}>Compounding</button>
-      </div>
 
-      <br/>
-      {myAllo && <Allomancy metal={ props.metal }/>}
-      <br/>
-      {myFeru && <Feruchemy metal={ props.metal }/>}
-      <br/>
-      {myHema && <Hemalurgy metal={ props.metal }/>}
-      <br/>
-      {myTwins && <Compound metal={ props.metal } info={ props.info[3] }/>}
+        <br/>
+        {myAllo && <Allomancy metal={ props.metal }/>}
+        <br/>
+        {myFeru && <Feruchemy metal={ props.metal }/>}
+        <br/>
+        {myTwins && <Compound metal={ props.metal } info={ props.info[3] }/>}
+        <br/>
+        {myHema && <Hemalurgy metal={ props.metal }/>}
+        
+      </div>
     </>
   )
 }

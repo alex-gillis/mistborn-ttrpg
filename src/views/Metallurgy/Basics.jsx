@@ -44,13 +44,13 @@ function Basics(props) {
       <div id='filters'>
         <button id="filter-button" className={myAllo ? 'selected' : 'unselected'} onClick={() => viewAllo()}>Allomancy</button>
         <button id="filter-button" className={myFeru ? 'selected' : 'unselected'} onClick={() => viewFeru()}>Feruchemy</button>
-        <button id="filter-button" className={myHema ? 'selected' : 'unselected'} onClick={() => viewHema()}>Hemalurgy</button>
         <button id="filter-button" className={myTwins ? 'selected' : 'unselected'} onClick={() => viewTwins()}>Twinborns</button>
+        <button id="filter-button" className={myHema ? 'selected' : 'unselected'} onClick={() => viewHema()}>Hemalurgy</button>
       </div>
       {myAllo && <Basomancy info={ props.info[0] }/>}
       {myFeru && <Basochemy info={ props.info[1] }/>}
-      {myHema && <Basolurgy info={ props.info[2] }/>}
       {myTwins && <Basictwins info={ props.info[3] }/>}
+      {myHema && <Basolurgy info={ props.info[2] }/>}
     </>
   )
 }

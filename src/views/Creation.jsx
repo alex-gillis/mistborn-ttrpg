@@ -3,7 +3,7 @@
 import { useState } from 'react';
 import Samples from './Creation/Samples';
 import Starting from './Creation/Starting';
-import Terms from './Creation/Terms';
+import Terms from './Reference/Terms';
 import Build from './Creation/Build';
 import Improvement from './Creation/Improvement';
 
@@ -17,7 +17,6 @@ function Creation(props) {
     const pages = [
         { title: 'Getting Started', className: myPage === 0 ? 'selected' : 'unselected', onClick: () => handlePage(0) },
         { title: 'Sample Characters', className: myPage === 1 ? 'selected' : 'unselected', onClick: () => handlePage(1) },
-        { title: 'Game Terms', className: myPage === 2 ? 'selected' : 'unselected', onClick: () => handlePage(2) },
         { title: 'Building Characters', className: myPage === 3 ? 'selected' : 'unselected', onClick: () => handlePage(3) },
         { title: 'Improving Characters', className: myPage === 4 ? 'selected' : 'unselected', onClick: () => handlePage(4) }
     ];
