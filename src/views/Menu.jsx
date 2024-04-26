@@ -1,12 +1,12 @@
 /* eslint-disable react/jsx-key */
-import Metallurgy from './Metallurgy';
-import Creation from './Creation';
-import Cultures from './Cultures';
-import Conflicts from './Conflicts';
-import Intro from './Intro';
-import '../styles/App.css';
+import Metallurgy from './Main/Metallurgy';
+import Creation from './Main/Creation';
+import Cultures from './Main/Cultures';
+import Rules from './Main/Rules';
+import Intro from './Main/Intro';
+import Reference from './Main/Reference';
 import { useState, useEffect } from 'react';
-import Reference from './Reference';
+import '../styles/App.css';
 
 function Menu() {
     const [myMetals, setMetals] = useState([]);
@@ -47,7 +47,7 @@ function Menu() {
         { title: 'Home', className: myPage === 0 ? 'selected' : 'unselected', onClick: () => handlePage(0) },
         { title: 'Creation', className: myPage === 1 ? 'selected' : 'unselected', onClick: () => handlePage(1) },
         { title: 'Cultures', className: myPage === 2 ? 'selected' : 'unselected', onClick: () => handlePage(2) },
-        { title: 'Conflicts', className: myPage === 3 ? 'selected' : 'unselected', onClick: () => handlePage(3) },
+        { title: 'Rules', className: myPage === 3 ? 'selected' : 'unselected', onClick: () => handlePage(3) },
         { title: 'Metallurgy', className: myPage === 4 ? 'selected' : 'unselected', onClick: () => handlePage(4) },
         { title: 'Reference', className: myPage === 5 ? 'selected' : 'unselected', onClick: () => handlePage(5) },
     ];
@@ -66,7 +66,7 @@ function Menu() {
             { myPage === 0 && <Intro /> }
             { myPage === 1 && <Creation creation={myCreations} propped={myProps[0]} rogues={myRogues} /> }
             { myPage === 2 && <Cultures /> }
-            { myPage === 3 && <Conflicts /> }
+            { myPage === 3 && <Rules /> }
             { myPage === 4 && myMetals[0] && myBasics[0] && <Metallurgy basics={myBasics} metals={myMetals} /> }
             { myPage === 5 && <Reference creation={myCreations} /> }
         </>

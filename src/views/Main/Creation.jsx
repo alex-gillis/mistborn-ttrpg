@@ -1,11 +1,11 @@
 /* eslint-disable react/prop-types */
 /* eslint-disable react/jsx-key */
 import { useState } from 'react';
-import Samples from './Creation/Samples';
-import Starting from './Creation/Starting';
-import Terms from './Reference/Terms';
-import Build from './Creation/Build';
-import Improvement from './Creation/Improvement';
+import Samples from '../Creation/Samples';
+import Starting from '../Creation/Starting';
+import Terms from '../Reference/Terms';
+import Build from '../Creation/Build';
+import Improvement from '../Creation/Improvement';
 
 function Creation(props) {
     const [myPage, setPage] = useState(0);

@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
 /* eslint-disable react/jsx-key */
 import { useState } from 'react';
-import Terms from './Reference/Terms';
+import Terms from '../Reference/Terms';
 
 function Reference(props) {
   const [myPage, setPage] = useState(0);

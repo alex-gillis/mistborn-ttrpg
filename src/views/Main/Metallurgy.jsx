@@ -1,8 +1,8 @@
 /* eslint-disable react/prop-types */
 /* eslint-disable react/jsx-key */
 import { useState } from 'react';
-import Metal from './Metallurgy/Metal';
-import Basics from './Metallurgy/Basics';
+import Metal from '../Metallurgy/Metal';
+import Basics from '../Metallurgy/Basics';
 
 function Metallurgy(props) {
   // getJSONData(metalJSON, collectMetals, onError);

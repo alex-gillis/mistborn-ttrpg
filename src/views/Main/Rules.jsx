@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-function Conflicts() {
+function Rules() {
 
   return (
     < >
@@ -8,5 +8,5 @@ function Conflicts() {
   )
 }
   
-  export default Conflicts
+  export default Rules
   
