@@ -1,7 +1,7 @@
 /* eslint-disable react/jsx-key */
 /* eslint-disable react/prop-types */
 
-import Parts from "./Modules/Parts";
+import Parts from "../../Modules/Parts";
 
 function Four(props) {
     return (

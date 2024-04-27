@@ -1,10 +1,10 @@
 /* eslint-disable react/jsx-key */
 /* eslint-disable react/prop-types */
 
-import Names from "./Modules/Names";
-import Resilience from "./Modules/Resilience";
-import Props from "./Modules/Props";
-import Backstory from "./Modules/Backstory";
+import Names from "../../Modules/Names";
+import Resilience from "../../Modules/Resilience";
+import Props from "../../Modules/Props";
+import Backstory from "../../Modules/Backstory";
 
 function Five(props) {
     return (

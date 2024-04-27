@@ -1,9 +1,9 @@
 /* eslint-disable react/jsx-key */
 /* eslint-disable react/prop-types */
-import Question from "./Modules/Question";
-import Another from "./Modules/Another";
-import Example from "./Modules/Example";
-import TableTwo from "./Modules/TableTwo";
+import Question from "../../Modules/Question";
+import Another from "../../Modules/Another";
+import Example from "../../Modules/Example";
+import TableTwo from "../../Modules/TableTwo";
 
 function Three(props) {
     return (

@@ -1,6 +1,6 @@
 /* eslint-disable react/jsx-key */
 /* eslint-disable react/prop-types */
-import Table from "./Modules/Table";
+import Table from "../../Modules/Table";
 
 function One(props) {
     return (

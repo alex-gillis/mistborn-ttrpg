@@ -11,7 +11,7 @@ function Reference(props) {
   }
 
   const pages = [
-    { title: 'Game Terms', className: myPage === 0 ? 'selected' : 'unselected', onClick: () => handlePage(2) }
+    { title: 'Game Terms', className: myPage === 0 ? 'selected' : 'unselected', onClick: () => handlePage(0) }
   ];
 
   return (

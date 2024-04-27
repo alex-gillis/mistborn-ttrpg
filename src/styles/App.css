@@ -138,6 +138,10 @@ header {
   display: flex;
 }
 
+#example {
+  font-style: italic;
+}
+
 #filters {
   text-align: center;
   width: 100%;
