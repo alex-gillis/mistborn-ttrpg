@@ -48,6 +48,7 @@ function Basictwins(props) {
             <br/>
             { props.info.rules.compounder }
             <br/>
+            <br/>
             <table id="buildTable" className="propTable">
                 <thead>
                     <tr>

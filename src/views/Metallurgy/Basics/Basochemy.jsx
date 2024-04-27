@@ -14,6 +14,8 @@ function Basochemy(props) {
             { props.info.ferrings }
             <h2>Ferrings in Society</h2>
             { props.info.society }
+            <br/>
+            <br/>
             <div id="brandon">
                 { props.info.nicknames }
                 <table>
@@ -33,6 +35,8 @@ function Basochemy(props) {
             </div>
             <h2>Ferrings in Society</h2>
             { props.info.terris }
+            <br/>
+            <br/>
             <div id="brandon">
                 <h4>What about full Feruchemists?</h4>
                 { props.info.full }
@@ -60,6 +64,8 @@ function Basochemy(props) {
             { props.info.breathers }
             <h2>Storing Capacity</h2>
             { props.info.capacity }
+            <br/>
+            <br/>
             <table>
                 <tbody>
                     <tr>

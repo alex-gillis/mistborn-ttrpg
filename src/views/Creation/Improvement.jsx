@@ -1,201 +1,42 @@
-/* eslint-disable react/jsx-key */
 /* eslint-disable react/prop-types */
+/* eslint-disable react/jsx-key */
+import { useState } from 'react';
+import Basics from './Improvement/Basics';
+import How from './Improvement/How';
+import Spending from './Improvement/Spending';
+
 function Improvement(props) {
+    const [mySection, setSecion] = useState(0);
+  
+    function handleSection(sctNum) {
+      setSecion(sctNum);
+    }
+
+    const sections = [
+      { title: 'Improvement Basics', onClick: () => handleSection(0) },
+      { title: 'How to Advanceme', onClick: () => handleSection(1) },
+      { title: 'Spending Advancements', onClick: () => handleSection(2) }
+    ];
 
     return (
-      < >
-        <h1>Improving Heroes</h1>
-        <div id="desc">
-            {props.improvement.improving}
-            <br/>
-            <br/>
-            <div id="brandon">
-                <h4>Experienced Heroes</h4>
-                {props.improvement.brandon}
-            </div>
-            <br/>
-            {props.improvement.improvingTwo}
-            <h2>How a Hero Advances</h2>
-            {props.improvement.advances}
-            <h3>Earning Advancements</h3>
-            {props.improvement.earning}
-            <br/><br/>
-            {props.improvement.advancements.map((advancement, index) => (
-            <div key={index}>
-                <span id="italicked">{advancement.example}</span> <br/>
-                {advancement.explain}
-                <br/><br/>
-            </div>
-            ))}
-            <div id="brandon">
-                <h4>From Brandon</h4>
-                {props.improvement.brandon2}
-            </div>
-            <br/>
-            {props.improvement.advancements2.map((advancement, index) => (
-            <div key={index}>
-                <span id="italicked">{advancement.example}</span> <br/>
-                {advancement.explain}
-                <br/><br/>
-            </div>
-            ))}
-            <h3>The Rate and Limits of Advancement</h3>
-            {props.improvement.rate}
-            <br/><br/>
-            <div id="italicked">
-                {props.improvement.example}
-            </div>
-            <br/>
-            {props.improvement.limit}
-            <br/>
-            <div id="italicked">
-                {props.improvement.example2}
-            </div>
-            <br/>
-            <div id="brandon">
-                <h4>From Brandon</h4>
-                {props.improvement.brandon3}
-            </div>
-            <h3>Spending Advancements</h3>
-            {props.improvement.spending}
-            <table id="buildTable" className="propTable">
-                <tbody>
-                    <tr>
-                        <th>Improvement</th>
-                        <th>Cost</th>
-                        <th>Description</th>
-                    </tr>
-                    {props.improvement.advOptions.map((advancement, index) => (
-                    <tr key={index}>
-                        <td>{advancement.improvement}</td>
-                        <td>{advancement.cost}</td>
-                        <td>{advancement.description}</td>
-                    </tr>
-                    ))}
-                </tbody>
-            </table>
-            <br/>
-            {props.improvement.spending2}
-            <br/><br/>
-            <div id="italicked">
-                {props.improvement.example3}
-            </div>
-            <br/>
-            <div id="italicked">
-                {props.improvement.example4}
-            </div>
-            <h3 id="italicked">2 Advancements</h3>
-            <span id="bold">{props.improvement.advancement2.title}</span>
-            {props.improvement.advancement2.description}
-            <br/>
-            <h3 id="italicked">4 Advancements</h3>
-            <span id="bold">{props.improvement.advancement4.title1}</span>
-            {props.improvement.advancement4.description}
-            <ul>
-                {props.improvement.advancement4.options?.map((myOption, index) => (
-                    <li key={index}>
-                        {myOption.option}
-                    </li>
-                ))}
-            </ul>
-            {props.improvement.advancement4.description2}
-            <br/><br/>
-            <span id="bold">{props.improvement.advancement4.title2}</span>
-            {props.improvement.advancement4.description3}
-            <h3 id="italicked">5 Advancements</h3>
-            <span id="bold">{props.improvement.advancement5.title1}</span>
-            {props.improvement.advancement5.description1}
-            <br/>
-            <span id="bold">{props.improvement.advancement5.title2}</span>
-            {props.improvement.advancement5.description2}
-            <br/>
-            <h3 id="italicked">6 Advancements</h3>
-            <span id="bold">{props.improvement.advancement6.title1}</span>
-            {props.improvement.advancement6.description1}
-            <br/><br/>
-            <div id="italicked">
-                {props.improvement.advancement6.example1}
-            </div>
-            {props.improvement.advancement6.description2}
-            <br/><br/>
-            <span id="bold">{props.improvement.advancement6.title2}</span>
-            {props.improvement.advancement6.description3}
-            <ul>
-                {props.improvement.advancement6.increases?.map((myOption, index) => (
-                    <li key={index}>
-                        {myOption.option}
-                    </li>
-                ))}
-            </ul>
-            {props.improvement.advancement6.description4}
-            <br/>
-            <h3 id="italicked">10 Advancements</h3>
-            <span id="bold">{props.improvement.advancement10.title1}</span>
-            {props.improvement.advancement10.description1}
-            <br/><br/>
-            <span id="bold">{props.improvement.advancement10.title2}</span>
-            {props.improvement.advancement10.description2}
-            <br/><br/>
-            <div id="italicked">
-                {props.improvement.advancement10.example}
-            </div>
-            <br/>
-            {props.improvement.advancement10.description3}
-            <br/>
-            <h3 id="italicked">15 Advancements</h3>
-            <span id="bold">{props.improvement.advancement15.title}</span>
-            {props.improvement.advancement15.description}
-            <br/>
-            <h3 id="italicked">20 Advancements</h3>
-            <span id="bold">{props.improvement.advancement20.title1}</span>
-            {props.improvement.advancement20.description1}
-            <br/>
-            <div id="italicked">
-                {props.improvement.advancement20.example}
-            </div>
-            {props.improvement.advancement20.description2}
-            <br/><br/>
-            <span id="bold">{props.improvement.advancement20.title2}</span>
-            {props.improvement.advancement20.description3}
-            <br/><br/>
-            <div id="italicked">
-                {props.improvement.advancement20.example2}
-            </div>
-            <br/>
-            {props.improvement.advancement20.description4}
-            <br/>
-            <h3 id="italicked">20 Advancements</h3>
-            <span id="bold">{props.improvement.advancementVari.title}</span>
-            {props.improvement.advancementVari.description1}
-            <br/>
-            <ul>
-                {props.improvement.advancementVari.spikeTypes?.map((myOption, index) => (
-                    <li key={index}>
-                        <span id="italicked">{myOption.name}: </span>{myOption.desc}
-                    </li>
-                ))}
-            </ul>
-            <br/>
-            {props.improvement.advancementVari.description2}
-            <br/>
-            <div id="italicked">
-                {props.improvement.advancement20.example1}
-            </div>
-            <br/>
-            {props.improvement.advancementVari.description3}
-            <br/>
-            <div id="italicked">
-                {props.improvement.advancement20.example2}
-            </div>
-            <br/>
-            <div id="brandon">
-                <h4>From Brandon</h4>
-                {props.improvement.brandon}
-            </div>
+        < >
+
+        <ol id='list'>
+          {sections.map((section, index) => (
+            <li  id="nav-list" className='basicBuild' key={index}>
+              <button className="index-button" onClick={section.onClick}>
+                <span id="bold">{section.title}</span>
+              </button>
+            </li>
+          ))}
+        </ol> 
+        <div id='buildInfo'>
+            {mySection === 0  && <Basics improvement={props.improvement}/>}
+            {mySection === 1  && <How improvement={props.improvement}/>}
+            {mySection === 2  && <Spending improvement={props.improvement}/>}
         </div>
-      </>
+        </>
     )
-  }
-  
-  export default Improvement
-  
+}
+
+export default Improvement

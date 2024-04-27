@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
 function Basomancy(props) { 
     let myOptions = props.info.options;
-    let myCharge = props.info.chargesSizes;
+    let myCharge = props.info.chargeSizes;
     let myRates = props.info.rates
 
     return (
@@ -63,6 +63,7 @@ function Basomancy(props) {
             { props.info.pureTox }
             <h2>Burn Rate & Flaring </h2>
             { props.info.burnrate }
+            <br/><br/>
             <table>
                 <tbody>
                     <tr>
