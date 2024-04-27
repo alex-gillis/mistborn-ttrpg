@@ -6884,6 +6884,8 @@
     ],
     "game":[
         {
+            "id":0,
+            "name":"Game Basics",
             "basic":{
                 "part1":"Playing the Mistborn Adventure Game is a little like having a conversation with your friends, except that each of you is playing a role (the one you may have just created with the tools in the Building Heroes section). One of you, the Narrator, sets the scene by briefly describing your surroundings, and he or she also controls all the characters the rest of you aren’t playing (which may sound like a lot of work, but most of them aren’t as detailed as the Heroes). \n\n Some of the conversation involves speaking “in character,” which means that, for as long as you’re comfortable, everything you say also comes out of your character’s mouth in the game world. Some players like to adopt accents and mannerisms to portray their character as well, though it’s not required. The Narrator may use this trick to help the other players identify which character he or she is portraying at any given moment, and this can really help the game flow more fluidly. \n\n The rest of the conversation involves description, usually of what your character is doing. In a narrative game like this, which doesn’t use a play board or pieces to signify where the characters are, description keeps everyone’s mental picture of the game world the same, or at least as close as two readers of the same novel. \n\n Here’s a brief example of how a common Mistborn Adventure Game session might open...",
                 "example":"Brandon settles into his favorite chair. \n - Brandon: “Thanks for coming everyone! I really want to applaud you all for last session. Your Crew came together wonderfully. Let’s dive right in!” \n - Peter (playing with some of his dice): “Where do we start?” \n - Brandon: “Have you decided on a name for the Crew yet?” \n - Isaac (from the kitchen, as he’s grabbing everyone drinks): “Peter and I were thinking we could use the number of us in the name.” \n - Ben (looking up from his latest masterpiece, a portrait of his Hero, Sev): “We’re always watching the nobility for signs of weakness. Maybe we can refer to each other as ‘Eyes’?”  \n - Emily (stifling a laugh): “The Four Eyes? That won’t work.”  \n - Peter: “The Nine Eyes. That way we have some room to add folks.” \n - Brandon: “Justin might join next week. He has some ideas for a Terris steward named Gavon.” \n - Emily: “The Nine Eyes Crew it is then! What’s our first job?” \n - Brandon (checking his notes): “You’ve been contacted through discreet channels by a pair of Mistborn—” \n - Peter (eyes narrowing): “Nobles?” \n - Brandon: “Yes, but you have it on good authority they’re too busy living the high life to pay much attention to anyone else.” \n - Ben: “So they’re spoiled little rich kids. Awesome.” \n - Brandon: “They’re also offering a king’s ransom for what looks like a pretty simple job.” \n - Ben: “Liars too?” \n - Brandon: “You might be able to mount that rebellion you’re planning in the Farmost Dominance...” \n - Peter: “Well then, our doors and ears are open. Aren’t they Sev?” \n - Ben shoots Peter a thoughtful glance and everyone realizes Peter’s just slipped into character. \n - Ben (in the gruff voice he’s adopting for Sev): “I still don’t trust them.” \n - Brandon (adjusting his voice as well): “Who? Us? We’re just two legitimate employers with a lot of money and a reasonable offer...” \n - Brandon (miming the newcomer’s fist around a sack of boxings and resuming his natural voice): “You hear the tell-tale rattle of coins. The sack’s full.” \n - Emily (in a voice she’s trying out for JeHoy): “How much?” \n - Brandon (in character, and narrowing his eyes mischievously): “Enough.”",
@@ -7191,6 +7193,564 @@
                 "part4":"The Narrator must approve Nudges before they’re added to the story, and you may choose new Nudges to replace any the Narrator declines. The Narrator may sometimes suggest other options, including other ways for you to combine or spend Nudges for more spectacular results. Additional rules and guidelines for the Narrator are provided in Book 3 (see page 453).",
                 "part5":"Nudges have only one effect when your roll fails: each reduces the number of Complications that are introduced, before they’re chosen. Nudging Complications below 0 has no effect (as once you’re down to no Complications, you’ve done all you can to mitigate your character’s failure without reversing it, and that’s beyond even fate’s control).",
                 "example2":"Example: Following up with the example in the Complications section, Peter could have used his two Nudges to eliminate both Complications from an Outcome of –2, or all but one from an Outcome of –3. In the latter case, this would eliminate Brandon’s opportunity to have Hastings collect Beck’s family, as there wouldn’t be justification for a Crew-wide Complication."
+            }
+        },
+        {
+            "id":1,
+            "name":"Contests",
+            "intro":{
+                "part1":"Not all rolls are simple Challenges against fixed opposition — just as often, the Heroes face down enemies in races, debates, tactical ploys, and other competitions that test their skills directly against other characters without intending them harm. These (largely) non-violent head-to-head competitions are called Contests. (When the goal is to hurt the opposition, you’re looking at a Conflict, and the special rules for those start on page 167.) \n\n In a Contest, the opposing characters declare actions, form pools, and roll the dice as usual. The character with the highest numbered set wins the Contest.",
+                "example":"Example: While Beck is out pressing the flesh for information, Sev indulges in a little light thievery, sneaking onto the Keep Hasting grounds. He hopes to determine where the case might be held, and how to draw any guards away from it. \n\n Sev has none of Beck’s findings to go on and doesn’t realize the keep is as well guarded as it is, and Brandon rules that given the extra manpower, this will be resolved as a Contest, with Sev’s roll opposed by the house guard. \n\n Brandon asks how Sev will approach the keep, and Ben describes a nonchalant stroll down nearby streets followed by a quick but careful canvas of the grounds, sticking to trees and other cover. Ben points out that Sev waits for nightfall and stays at least 50 paces from the keep at all times. \n\n Ben rolls 8 dice (Wits 6 + his “thief” and “cautious” Traits) and gets a set of 4’s with 1 Nudge. Brandon rolls 5 dice (Wits 4 + their “protect the House” Trait) and gets a set of 2’s with 3 Nudges (two 2’s and three 6’s). Sev handily wins the Contest.",
+                "part2":"In the event of a tie (e.g., two sets with the same number, or no matching sets at all), the character with the most Nudges wins. If those are tied as well, the Contest is a stalemate for now and continues into the next Beat (unless one or both characters decide to call it quits or the Contest ends for another reason).",
+                "example2":"Example: If Ben had rolled a set of 2’s or Brandon had rolled a set of 4’s, the Contest would be tied. In this case, Nudges would determine the victor, and assuming just as many Nudges were rolled, this would mean the guards would have (barely) come out ahead."
+            },
+            "extended":{
+                "part1":"Many Contests can’t be resolved with a single action or in a single Beat. Military battles aren’t decided by a single command, and games of shelldry are rarely finished in just one play. Chases often take characters through many locations and involve several dramatic moments before they’re done, and the intricate confidence schemes of the novels would break down with just one ruse. Contests like these demand multiple rounds of give and take and numerous tense decisions from those involved, and should ideally present plenty of opportunities for each side to gain and lose ground until one comes out the victor. In all these cases, it’s best to use an Extended Contest. \n\n At the start of an Extended Contest, the Narrator decides how many successes are needed to win: at least two and as many as five. This choice is based on the complexity of the task and how important the Narrator feels it is to the story — the higher the complexity and the greater the importance, the more successes the Narrator should assign (with six or more being excessive and likely to devolve into a tedious exercise). \n\n The Narrator may choose the number of successes secretly if he or she wants to keep the other players unsure how close anyone is to winning, or if it’s appropriate to the story (when the characters actually can’t tell how close anyone is to winning). \n\n An Extended Contest then unfolds alongside the ongoing conversation, with each participant rolling once per Beat. The first character to get the final success wins the Contest — much like a race. If both characters get the final success in the same Beat, the character with the most Nudges wins (though only by a very narrow margin). If the Nudges are also tied, the Contest continues into a new Beat with no clear winner. \n\n Except for rare instances where the Narrator determines that additional activities are possible, participants in an Extended Contest may not also perform other actions — the Contest demands their full attention.",
+                "part2":"Extended Contests can sometimes portray lengthy activities with periodic downtime, like contentious, multi-session Assembly debates or protracted sieges intent on starving out the defenders. Some characters may be able to slip away between critical moments without jeopardizing the Contest, in which case the Narrator should warn them that if they’re not back in time they won’t be able to contribute (and whether the Contest may be forfeit as a result). The Narrator may or may not let the characters know when the next roll is being made (as sometimes it won’t be evident). \n\n Taking other actions without leaving the Contest area doesn’t risk losing; in those cases, the Narrator can just continue play according to the characters’ actions, resuming the Contest with its next Beat. Smaller Beats can be used for actions taken in the intervening time."
+            },
+            "other":{
+                "part1":"The following additional rules apply during Contests.",
+                "ruled":[
+                    {
+                        "title":"Contests with multiple participants",
+                        "desc":"Sometimes a Contest involves multiple characters on one or both sides. In these cases, everyone rolls and only the best Result on each side is used. When the number of characters on a side confers an advantage, the Narrator may also give that side a Circumstance die (see page 141).",
+                        "example":"Example: If JeHoy had accompanied Sev, Emily would roll as well and the best of their Results would be used. JeHoy would roll 5 dice (possibly 6 if Sev ordered her to come along and Brandon approved her “serve my contract faithfully” Trait), and if she scored a set of 5’s (beating Sev’s set of 4’s), her Result would be used instead. \n\n Meanwhile, if Brandon had ruled that the captain of the house guard was involved — possibly because he’s nervous after disposing of a particular skaa woman’s body near the Canton of Finance — he might roll once for the captain and once for the guards, keeping the best Result, or he might only roll for the captain, adding a Circumstance die because he’s supervising so many guards on the night’s watch."
+                    },
+                    {
+                        "title":"Contests with three or more sides",
+                        "desc":"Contests with more than two sides are handled a little differently. Each side declares one action (possibly in secret if it makes sense for the story), and rolls are made normally. Any actions that succeed and aren’t in direct conflict with another action are automatically successful, while conflicting actions are resolved like any other Contest.",
+                        "example":"Example: Let’s say that Sev and the guards are both being watched by a skaa spy named Rone, who has infiltrated the Keep for the resistance. Rone scores a Result of 3 with 1 Nudge. The guards don’t know Rone’s a spy, so Rone succeeds against them. Meanwhile, Sev’s Result is 4, so he notices Rone watching him carefully and can react accordingly."
+                    },
+                    {
+                        "title":"Contests and Difficulty",
+                        "desc":"Difficulty is rarely used in Contests — each side’s roll effectively becomes the Difficulty for opponents’ rolls — but some rare tasks are tough enough that some or even all of the competitors may not succeed, let alone win (for example, when two Allomancers try to control the same horde of koloss through Soothing). In these cases, the Narrator applies Difficulty as in a Challenge, and the Contest stalls, or possibly fails, unless at least one character succeeds (regardless of the Results and Nudges rolled). Characters who fail may also face unfortunate consequences, as appropriate to the task at hand. Difficulty may sometimes apply to only one side of a Contest, as fits the situation.",
+                        "example":"Example: If Sev’s effort followed Beck’s inquiries, and Beck failed his roll and alerted House Hasting that someone was interested in the keep, Brandon might assign a Difficulty to reflect the guards’ raised readiness. In this case, the Difficulty would only apply to Sev, and unless his Result was equal or higher, the guards’ attention would keep him from learning anything (maybe because he can’t approach close enough without being spotted, or because he has to keep moving to stay out of their view). Still, not beating the Difficulty wouldn’t necessarily mean Sev is spotted — that still only happens if the guards win the Contest."
+                    },
+                    {
+                        "title":"Contests and Outcome",
+                        "desc":"To determine the Outcome of a Contest between two sides, subtract the winner’s Result from the loser’s Result (again, treating the loser’s Result as a Difficulty).",
+                        "example":"Example: Sev won the Contest against the House guards with a Result of 4 against their 2. The Outcome is 2."
+                    }
+                ],
+                "part2":"With three or more sides, you can figure out an Outcome between any one side and each other side, though you’ll only want to do this when the detail is absolutely required. Most often, only the Outcome between the overall winner and loser will be helpful. \n\n No matter how many sides there are, Difficulty broadens the Outcome range and allows for greater degrees of failure (which is appropriate given the increased hardship). \n\n How do you apply Outcome in a Contest? Read on..."
+            },
+            "describe":{
+                "part1":"Describing a Contest works a lot like describing any other roll (see page 144), except that it’s less about how well a single character performs than how well two characters perform against each other. With a Contest’s Outcome in hand, you want to ask two critical questions:",
+                "points":[
+                    {
+                        "point":"What are the best and worst possible showings in the Contest?"
+                    },
+                    {
+                        "point":"Within those limits, what are the possible degrees of performance?"
+                    }
+                ],
+                "part2":"Assuming no Difficulty, the Outcome range of a Contest is fairly narrow (0 to 5, as no negative Outcomes are possible) but the process remains the same: find the extremes by asking the first question and use the stages from the second question to gauge the participants’ personal and/or relative achievement.",
+                "example":"Example: In the interest of keeping things moving along quickly and not jumping through a bunch of unnecessary mental hoops, Brandon focuses on Sev’s perspective for this description (he is, after all, a Hero who just bested a group of Extras). \n\n With a best showing of Sev answering both his questions without being spotted, and a worst showing of alerting the house guard without learning anything, Brandon quickly sets each answer to an Outcome (2 for the most likely location of the case, and 4 for the best way to draw guards away from it), and assigns the other Outcomes to remaining details that may come in handy (0 and 1 reveal initial details about the keep’s floor plan as seen from the outside, and 3 and 5 reveal the numbers and positions of guards at the study and potential attack point). \n\n Ben and Brandon talk out Sev getting a sense of the keep’s floor plan and pinning down the case’s location before he withdraws back to the Crew’s hideout, the keep’s guards none the wiser.",
+                "part3":"Relative achievement will commonly be all that matters to move the story forward, but you may occasionally find the added detail of personal achievement a blessing to the narrative, especially if you want to describe a Contest from multiple viewpoints.",
+                "example2":"Example: If JeHoy had accompanied Sev, it might be helpful to know what each of them learned independently, especially if they split up and/or if one of them alerts the guards and the other doesn’t.",
+                "part4":"The Narrator typically takes point with Contest descriptions, though everyone can and should contribute as usual. An interesting exception occurs with Contests between player characters, however; in these cases we recommend letting these players lead the description, with the Narrator and other players retaining their veto power (see page 133).",
+                "part5":"When three or more sides are involved, it’s best to focus only on relative Outcome, as the number of personal Outcomes can explode quickly and bog the conversation down to a crawl. Start with the relative Outcome between the overall winner and the overall loser, folding participants who place in the middle into the larger description.",
+                "example3":"Example: In a foot race between four people, the fastest and most evocative way to describe the action is to start with the overall winner (the fastest runner), and the overall loser (the slowest runner), and use their relative Outcome to stage the other two runners between them.",
+                "extended":[
+                    {
+                        "part":"During an Extended Contest, the conversation shifts away from the traditionally freeform pace to a more directed and structured round-table format. Every Beat is an opportunity for new description, and the landscape can change dramatically from one moment to the next. This is the defining feature of an Extended Contest and should be played up as much as possible as the competition unfolds.",
+                        "example":"Example: Garik settles in for a game of shelldry against his old rival Bint. Rather than resolve the whole game with a single opposed roll, the Narrator decides the first character with two successes wins it all. Beats are set to ten minutes each, and in each Beat, the characters describe their strategies and roll with an appropriate score (Charm when distracting, Wits when counting, Resources when relying on a betting strategy, and Spirit when bluffing). \n\n To keep things interesting and prevent anyone from relying only on their strongest score, the Narrator also reduces a character’s pool by 1 die the second time a character uses the same strategy, by 2 dice the third time, and so on. This represents the character’s opponent picking up on tells and other cues as he or she falls back on a familiar approach."
+                    },
+                    {
+                        "part":"A great way to enhance an Extended Contest is by raising the stakes with each new Beat. This can be a facet of the story...",
+                        "example":"Example: In the second Beat of our shelldry game, Bint’s goons drag in Garik’s lovely companion Harrah, and seat her uncomfortably close to a Coinshot and a neat pile of clips. The implication is clear, and suddenly Garik has some hard thinking to do."
+                    },
+                    {
+                        "part":"...or a matter of introducing and/or raising the Contest’s Difficulty...",
+                        "example":"Example: Distracted by Harrah’s arrival, Garik fails to notice Bint’s friends at the bar spike one of his drinks. His vision blurs and the Narrator also assigns him a Difficulty of 3 for the rest of the game."
+                    },
+                    {
+                        "part":"No matter how pivotal an Extended Contest becomes, however, it’s critical not to sideline players whose characters are outside the match. Remember that their characters can still act while the Contest is happening, and their actions may even impact the Contest on occasion.",
+                        "example":"Example: Fortunately, Garik’s companion Harrah is a Rioter, and in the third Beat, she flares Zinc to dramatically spike Garik’s fear of losing. As the adrenaline kicks in and counters the poison, his vision clears, and so the Difficulty is removed."
+                    },
+                    {
+                        "part":"Sometimes the Narrator may even rule that uninvolved characters enter a Contest, in which case the newcomers begin contributing in the next Beat (entering the Contest counts as their action in this Beat).",
+                        "example":"Example: Despite clear vision, it still looks like Garik’s going to lose the third Beat, and most likely the game as well — at least until another of Bint’s rivals shows up and demands to join (recognizing that entering the game this late means playing at a disadvantage). Bint agrees and the Narrator rules that the first character with three successes wins the game. The Contest continues into a fourth Beat with Bint having two successes, Garik having one, and the newcomer starting with none."
+                    },
+                    {
+                        "part":"The opposite is also possible: a character may be removed from a Contest at the Narrator’s discretion — usually as a result of another character’s action — in which case the removed character’s next chance to act comes in the following Beat (exiting the Contest also counts as an action).",
+                        "example":"Example: The newcomer convinces Bint to let him take Garik’s place instead. They’re still playing to three successes, and the newcomer is still two successes behind, but Garik can act outside the game starting in the fifth Beat."
+                    }
+                ],
+                "split":"Even when uninvolved characters don’t impact a Contest, they should still get the chance to do something in every Beat and descriptions of their actions should still be folded into the conversation. This may result in a split focus, with descriptions alternating between the Contest and any other details, similar to what you see in any movie or TV show when scenes occur in two or more locations. \n\n This is a particularly advanced storytelling technique and shouldn’t be attempted until everyone’s comfortable with the roleplaying process and their characters. Even then you may find it helpful to use a few key phrases when switching focus (“Meanwhile, at the...” or “The group at the...”). These should be specific enough that the new point of focus is clear, though with only two points of focus you can usually get away with much looser dialog (“Meanwhile...” or “The others...”). \n\n Screenwriters, novelists, and other storytellers also rely on a variety of details about each location and the actions occurring there, which is another way you can reinforce where the conversation is focused at any given time. Knowing that one part of the conversation is a chase along a canal while another is a fight within a noble house library offers tremendous flexibility with your descriptions, not only letting you immediately set the focus by including just one word (“water” vs. “books,” for example), but also offering many new ways to embellish on the action. This is of course true with any part of the conversation — the more detail you add, the easier descriptions become, and the more invested everyone becomes in the story. \n\n The Narrator should always lead switches of focus unless your group is very adept at handing off the conversational reins, and also accepting and easy-going enough to shrug off any moments of unexpected friction that may develop (if one person talks over another, for example).",
+                "script":{
+                    "part1":"The Narrator can make Extended Contests more flavorful by scripting them ahead of time (say, if he or she knows a chase will be coming up in the next session, or wants to have a mildly generic one planned just in case). \n\n A Contest script lays out the dice pools used in each Beat, along with a little flavor to pre-load descriptions. Complications may also be pre-determined for each Beat, in case any crop up.",
+                    "example":"Example: The Narrator expects the Crew to track a smuggler in an upcoming session, and knows the smuggler will bolt at the first sign of trouble. With this in mind, a chase script is prepared that can fit in any part of the city. The first side to three successes wins the Contest (catching the smuggler or evading the characters, respectively). With this structure, the longest the chase might go is seven Beats... \n\n The first Beat is a breakneck run through open terrain: Physique vs. Physique, with Complications ranging from bystanders getting in the way to hitting a slick stretch of road. \n\n The second Beat is a zig-zag through a market square: Wits vs. Wits, with possible Complications including an animal wandering into the character’s path or a muscle cramp from twisting the wrong way. \n\n In the third Beat the smuggler tries to slip into a crowd exiting a building: he uses his Charm vs. the Heroes’ Wits, with his most likely Complication being the crowd recoiling from him, and possibly even calling for help. The Heroes’ Complications might involve a lot more people spilling out of the building, making it more and more difficult to spot their prey. \n\n The fourth Beat finds the smuggler rushing into the building: back to Physique vs. Physique, with the Complications involving various ways the occupants react poorly to the intruders (stepping in their way or attempting to trip them, upending furniture in front of them, etc.). \n\n The fifth Beat spills out the back of the building and into a sea of hung laundry fluttering on lines across a narrow intersection of multiple alleys: it’s the smuggler’s Physique (to gain as much ground as possible) vs. the Heroes’ Wits (to pick up on tiny signs pointing them down the right alley). Complications can involve characters being caught up in laundry and struggling to rip it off them, confusing echoes off the intersection walls, and momentary blindness as the sun peeks out from between high rooftops. \n\n The sixth Beat is long push up steep tower stairs: Spirit vs. Spirit to represent that it’s more about endurance than strength, and Complications being steps shattering underfoot or birds nesting in the tower being spooked by the rushing characters and flying out in front of them. \n\n The seventh and final Beat — if the chase lasts this long — brings the smuggler to the top of the tower, where he’s set up an emergency safe house. If the chase has lasted this long, this Beat’s a tie-breaker and the Narrator can go for broke: instead of more running, the smuggler sets off a trap, collapsing part of the tower wall at the top of the stairs. Unless they win the Beat, the Heroes are swept into the open center of the tower and plummet to the floor with the debris. They each lose 3 Health and the smuggler escapes. \n\n Of course, Powers might be swapped in at any logical point: Steel or Iron replacing Physique at any point when an Allomancer might get as much speed from Pushing or Pulling as merely running, for example, or Electrum in place of Wits, especially in the fifth Beat when the Heroes are forced to choose (and possibly guess) between alleys. \n\n For simplicity’s sake, the Narrator sets each Complication, no matter the flavor, to a 1-die penalty in the following Beat.",
+                    "part2":"The Narrator may also add a time limit, which is useful when scripting Contests with looming consequences for either or both parties if they don’t reach the winning number of successes before the clock runs out.",
+                    "example2":"Example: Another chase might take place in a burning building. Though it’s also “first to three” any characters still inside lose 1 Health at the start of the fourth Beat, 2 at the start of the fifth, and so on. In this scenario it’s entirely possible a physically weak character may never make it out alive, especially if the chase involves three or more sides. \n\n Of course, even with a script in hand the Narrator should always feel comfortable deviating from his or her plan as inspiration and opportunities for heroism arise."
+                }
+            },
+            "sample":{
+                "parts":[
+                    {
+                        "desc":"Here are some Contests you might find in a typical Mistborn game. Some are flagged as Extended, which only means that they’re usually Extended — they can always become single-roll Contests when appropriate, or when the Narrator wants to speed them up.",
+                        "example":"Example: A foot race is listed as usually extended, but sometimes it’s best for everyone involved to make a single roll, note the winner, loser, and everyone in-between, and move on with the story."
+                    },
+                    {
+                        "desc":"Also, when more than one Attribute, Standing, or Power is listed for a side, the Narrator chooses the one that best fits the situation at hand.",
+                        "example":"Example: When intimidating, a character may use Charm (if appealing to the target’s desire to leave) or Physique (if appealing to the target’s desire not to be hurt anymore)."
+                    },
+                    {
+                        "desc":"Finally, the Narrator should always feel comfortable swapping out any Attribute, Standing, or Power listed here or in any other Contest (or Challenge, or Conflict). The situations the Crew will face are myriad and the Narrator’s ability to represent them with the rules should be as well.",
+                        "example":"Example: Bribery is listed as a Resources vs. Resources Contest, representing one character’s attempt to sway another with wealth or other incentives, but the roll could just as easily become Wits vs. Spirit when one character tries to convince another of the inherent logic in his or her offer."
+                    }
+                ],
+                "attribute":[
+                    {
+                        "point":"Arm wrestling: Physique vs. Physique"
+                    },
+                    {
+                        "point":"Trickery: Wits vs. Wits"
+                    },
+                    {
+                        "point":"Lying: Charm (liar) vs. Wits (listener)"
+                    },
+                    {
+                        "point":"Seduction: Charm vs. Charm"
+                    },
+                    {
+                        "point":"Intimidation: Charm or Physique (intimidator) vs. Wits or Physique (intimidated)"
+                    },
+                    {
+                        "point":"Sneaking past a guard: Physique (sneaker) vs. Wits (guard)"
+                    },
+                    {
+                        "point":"Racing in a foot chase (Extended): Physique vs. Physique"
+                    },
+                    {
+                        "point":"Running a confidence scheme (Extended): Charm (con-man) vs. Wits (mark)"
+                    }
+                ],
+                "standing":[
+                    {
+                        "point":"Making a skeptic believe: Spirit vs. Spirit"
+                    },
+                    {
+                        "point":"Bribery: Resources (briber) vs. Resources (bribed)"
+                    },
+                    {
+                        "point":"Swaying a bribed jury: Influences (advocate) vs. Resources (jury) "
+                    },
+                    {
+                        "point":"Impressing a mystic with wealth: Resources (wealthy man) vs. Spirit (mystic)"
+                    },
+                    {
+                        "point":"Convincing a crowd it’s the end of the world: Spirit (convincer) vs. Influence (naysayers)"
+                    },
+                    {
+                        "point":"Debating at the Assembly (possibly Extended): Influence vs. Influence"
+                    },
+                    {
+                        "point":"Conducting a legal trial (Extended): Influence vs. Influence"
+                    },
+                    {
+                        "point":"Tricking Ruin into revealing a plan (Extended): Spirit (tricker) vs. Wits (Ruin)"
+                    }
+                ],
+                "power":[
+                    {
+                        "point":"Winning a Steelpush duel: Steel vs. Steel"
+                    },
+                    {
+                        "point":"Detecting the location of an Allomancer burning metals: Bronze (Seeker) vs. Copper (Smoker) "
+                    },
+                    {
+                        "point":" Perfectly imitating a mimicked character: Mimic (kandra) vs. Wits (observer)"
+                    },
+                    {
+                        "point":"Pulling a metal weapon from someone’s hand: Iron (Allomancer) vs. Physique (wielder)"
+                    },
+                    {
+                        "point":"Competing for a crowd with Rioting and Soothing: Zinc (Rioter) vs. Brass (Soother)"
+                    },
+                    {
+                        "point":"Subtly manipulating emotions over time (Extended): Zinc or Brass (Allomancer) vs. Wits (mark)"
+                    }
+                ]
+            }
+        },
+        {
+            "id":2,
+            "name":"Conflicts",
+            "intro":{
+                "part1":"Not every situation can be resolved through peaceful means; sometimes there’s no choice other than violence, humiliation, or harassment. When one or more characters seek to harm each other — physically (injuring body), socially (impugning reputation), or mentally (breaking down resolve) — it’s time for a Conflict. There are many types of Conflicts, from fistfights and Allomancers hurling steel projectiles at enemies (both Physical Conflicts) to mudslinging campaigns and caustic Assembly battles (Social Conflicts) to brutal interrogations and vicious head games (Mental Conflicts). Some of the many other possible examples include:",
+                "points":[
+                    {
+                        "point":"Any attack, including Allomancy or Feruchemy used to harm"
+                    },
+                    {
+                        "point":"All forms of slander"
+                    },
+                    {
+                        "point":"Attempts to undermine an opponent’s confidence"
+                    },
+                    {
+                        "point":"A wrestling match in which contestants are trying to injure each other (a wrestling match without the threat of bloodshed is a Contest)"
+                    },
+                    {
+                        "point":"Belittling an enemy"
+                    },
+                    {
+                        "point":"A chase in which one or more characters use weapons to slow down or even kill the competition (a chase without violence is a Contest)"
+                    },
+                    {
+                        "point":"Emotional Allomancy to control a koloss or kandra"
+                    },
+                    {
+                        "point":"Torture"
+                    }
+                ],
+                "part2":"All these actions seek to wound someone physically, socially, or spiritually, causing a loss of Resilience (Health, Reputation, or Willpower, respectively). This is what defines a Conflict.",
+                "brief":{
+                    "part":"The following sections cover Conflicts in detail but here’s a simple overview of the steps involved. We recommend you refer back to this section as you read through the full rules.",
+                    "list":[
+                        {
+                            "step":"Set Up",
+                            "substeps":[
+                                {
+                                    "step":"Is the Conflict physical, social, or mental?"
+                                },
+                                {
+                                    "step":"What’s at stake and what’s the scope?"
+                                }
+                            ]
+                        },
+                        {
+                            "step":"Frame the Scene",
+                            "substeps":[
+                                {
+                                    "step":"Identify starting Attributes, Standings, Powers, and Resiliences"
+                                },
+                                {
+                                    "step":"Add details"
+                                }
+                            ]
+                        },
+                        {
+                            "step":"Group Extras",
+                            "substeps":[]
+                        },
+                        {
+                            "step":"Conflict Rounds",
+                            "substeps":[
+                                {
+                                    "step":"(Lowest to Highest Wits) Declare Actions and Determine Action Dice"
+                                },
+                                {
+                                    "step":"(Highest to Lowest Action Dice) Resolve Actions"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            "setup":{
+                "part1":"When a Conflict breaks out, the Narrator establishes a few key points of reference for everyone, starting with two questions:",
+                "points":[
+                    {
+                        "point":"What’s the nature of the Conflict? Is it physical, social, or mental?"
+                    },
+                    {
+                        "point":"What’s at stake? Why are the characters fighting, and what does victory look like for each side?"
+                    }
+                ],
+                "part2":"The answers to these questions may seem synonymous but what’s important here are the story implications. A boxing match and a sword duel are both physical fights but the match is far more likely to end with someone unconscious, while the duel may very well end someone’s life. Likewise, slandering a noble’s good name may see him ousted from his position, while convincing the Obligators that he’s been stealing from the Lord Ruler may land him in prison, or worse. \n\n It isn’t important whether Allomancy, Feruchemy, or other powers are being used, though how powers are being used may inform the Narrator’s answers. For example, an Allomantic duel in which two Coinshots are trying to fling the same meat cleaver at each other is clearly a Physical Conflict, with the loser standing to suffer physical injury. Conversely, two Steel Allomancers demonstrating their powers to win a prized spot in a celebrated crew stand to win or lose in a very different way.",
+                "example":"Example: With the legwork out of the way, the Nine Eyes Crew launches its scheme with an explosive distraction — a concentrated attack on the Keep Hasting guest rooms where the Bylerum Boys are staying. (Sev’s reconnaissance didn’t reveal the best place to attack, but Beck knows the Bylerums are the keep’s only guests. He’s also pretty sure they’re setting the Crew up, and he plans to preemptively return the favor. Regardless, the attack should keep the keep’s guards busy while the real action goes down elsewhere.) \n\n The distraction is spearheaded by a Mistborn named Koel and a Thug named Thorrow, who’ve worked with Beck before (they’re also run by two new players joining the game in the third session). Carrow and Cordal haven’t seen these two before, which Beck figures is best (no need to tip the Crew’s hand just yet). Besides, a surprise attack by a third party might nudge the Bylerums to reveal their true colors. \n\n Brandon sets up the Conflict: it’s physical (no surprise there), and everyone’s lives are on the line (the Bylerum Boys aren’t likely to pull any punches, nor are the house guards, and Koel and Thorrow would be suicidal to leap into that fray without fully committing). Even so, Beck’s instructions are pretty clear: the goal isn’t necessarily to kill the Bylerums or the guards — it’s just to keep everyone busy and away from the study on the other side of the building.",
+                "part3":"Finally, be sure to define the scale and scope of what’s at stake. It’s easy to get carried away here, letting a single Conflict turn the tide of an entire war, or putting a newcomer in a critical seat of power among the noble houses, but that spoils the drama and excitement of a well-paced story. Look at each Conflict as one chapter of the larger saga; consider the situations and challenges that might naturally arise from any side winning before anyone starts rolling dice.",
+                "example2":"Example: It would be all too easy to blow this Conflict way out of proportion, keeping track of every room and combatant in the keep, but it’s far easier — and the stronger choice for the story at hand — to focus just on what matters in the moment. Thus Brandon narrows the view to just the distraction: a Conflict that’s fairly contained, spanning a few guest rooms and an adjoining hallway, and involving just two Crew members (albeit two rather powerful ones) facing off against the Bylerum Boys, the three house guards assigned to them, and a non-combatant noble."
+            },
+            "frame":{
+                "part1":"Once the Conflict’s nature and stakes are established, the Narrator describes the scene’s set-up from the perspectives of both the players and their characters. The players are primarily interested in the nuts and bolts — which of their characters’ Resiliences is at stake and which Attributes, Standings, Powers, and other game rules apply — while the characters are in the thick of it, their Resiliences on the line and story consequences close at hand. Everyone needs to know what they have to do and what they stand to win or lose. \n\n This is also everyone’s opportunity to add minor details to the scene, just as they would with any other description (see page 131). As usual, players may veto anything related to their characters, and the Narrator may veto or approve anything at all. \n\n With a Conflict it’s almost always best for players to keep descriptions to what their characters can see and sense, as the chance of taking unfair advantage of the situation spikes significantly the further a player’s description wanders outside the character’s personal awareness.",
+                "example":"Example: As the action starts with the Heroes’ arrival, Brandon has the players kick off the Conflict’s description. He asks a pointed question such that the players’ answer will automatically frame the scene...",
+                "brandon":"- Brandon: “Beck’s plan demands that the distraction start just after the sun sets, early enough that the mists are still gathering. The keep’s guest rooms are in their own wing, with windows facing out to the northeast and southwest. Again, this is a Physical Conflict, which means you’ll primarily be relying on Physique and your Powers, and most attacks will target Health. What’s your approach?” \n - Becky (playing Koel): “I think our best bet is to hit them hard.” \n - Paul (playing ever-cautious Thorrow): “Which floor are the Bylerums on?” \n - Brandon (making it up as he goes along): “Third.” \n - Becky: “I could Steelpush through the window. We could catch them by surprise.” \n - Paul: “I suppose I could Burn Pewter and leap up after you.” \n - Brandon (in the interest of keeping the story moving): “Sure. No roll required.” \n - Paul (perking up knowing there’s no chance the dice will end their plan before it even gets started): “Awesome. Let’s do this.” \n - Brandon: “Once inside the keep’s outer wall, the two of you hustle across the grounds. You stick to the shadows through your approach, only revealing yourselves as you arc up through the night air, smashing through two adjacent windows into the same guest room...”",
+                "part2":"Note that the Narrator and other players are only concerned at this point with what the Conflict looks like at its outset. Every Conflict unfolds differently and actions and reactions the characters take can quickly steer the action in unforeseen directions. This is one of the most exciting aspects of any roleplaying game and it’s especially true in the Final Empire, where sudden and unexpected twists lurk behind every corner."
+            },
+            "grouping":{
+                "part1":"You may recall that characters can act together in a Contest, using the best of their Results (see page 157). This is also possible in a Conflict and it’s recommended for Extras, whose actions aren’t supposed to frequently turn the tide. Grouping Extras also simplifies description and speeds Conflict resolution, which is extremely helpful when you’re juggling more than a few characters. Fortunately, it’s perfectly plausible for most Extras to act together: military units follow orders as a group, just like politicians band together to argue a single stance.",
+                "example1":"Example: The Keep Hasting house guards are Extras, and Brandon decides to group them together whenever any of them fight together in the building. This will dramatically speed up the distraction Conflict, as well as any other activities that happen during the raid.",
+                "part2":"Sometimes a group of Extras will fall under a Hero’s command: when they answer to him or her on a crew, for example, or when they’re hired by the Hero as mercenaries or rabble rousers. Even in these cases it’s critical to remember that Extras are ultimately controlled by the Narrator, who should take the Extras’ personalities, beliefs, and goals into consideration when deciding their actions. Despite their less prominent position in the story, Extras have free will and they can say no, change their minds, or do something entirely unexpected, as fits their view of the situation.",
+                "example2":"Example: Thorrow fights with the Crew for many reasons, but his loyalty has been tested of late. He’s had more than one attractive offer from a revolutionary group in the north, and he’s even worked with them once or twice to see what he might be getting into. He likes their leader, a dour but intent fellow named Gaid, but he worries about the group’s unity. On both jobs he’s taken with them it seemed like some of their hired hands — regulars by Gaid’s telling — were ready to back out at the first sign of real trouble. \n\n This background is the perfect set-up for an example of Extras acting on their own. Let’s say Paul and Brandon have set this storyline up on the side, and that Brandon controls Gaid and his hired hands as a foil and several Extras, respectively. Gaid wants to see how Thorrow takes to leadership in the group, so he lets the Thug run things on his own for a small job. \n\n At some point Thorrow has to make some tough calls that place some or all of the hired hands in immediate, mortal danger. Do they automatically follow his every order, even though it may lead to one or more of them getting hurt or even killed? Not necessarily. Thorrow’s new to the group, and it’s entirely reasonable that some or even all of the hired hands are nervous about his presence, or even suspicious of his motives. There may be resentment that he was put in charge of them in the first place. Any of these reasons are enough for dissent in the ranks, and Brandon’s well within his rights to credibly portray that in the story by having one or more of the hired hands refuse Thorrow’s orders.",
+                "part3":"Heroes and Villains always act independently, as their actions define Conflicts. Grouping them undermines their impact and diminishes their status as movers and shakers in the story."
+            },
+            "round":{
+                "intro":"Conflicts unfold in Conflict Rounds (or “rounds” for short), and each of these rounds is the length of a single Beat. During a round each Hero, Villain, and Extra group may act once, declaring and resolving their actions as follows.",
+                "step1":{
+                    "part1":"At the start of each round, the Narrator and other players describe their characters’ intended actions. They start with the character with the lowest Wits and end with the character with the highest Wits (allowing characters who react most quickly to go last). When characters have the same Wits, the Narrator chooses their order, commonly favoring character(s) whose locations are unknown, and those with a logical or plausible chance to react before their opponents. These favored characters describe their actions last (so they know their opponents’ actions before deciding their own). \n\n Regardless of their Wits, characters who are surprised — perhaps due to a failed Contest before the start of the Conflict — always declare their actions before the characters getting the drop on them. \n\n Without surprise, Extras in groups tend to telegraph their actions and rarely get the drop on Heroes and Villains. When a group of Extras includes characters with different Wits scores, the group declares based on the lowest Wits among them.",
+                    "example1":"Example: Koel and Thorrow get the drop on the Bylerum Boys, interrupting a private chat they’re having with the only Hasting who remained behind, a taciturn bureaucrat named Ignus. Three house guards are posted in the hallway outside. Brandon breaks down the order: Ignus is the first to declare, with Wits 2 (there’s a reason he was the one left behind). Then come Cordal Bylerum (Wits 3), the house guards (Wits 4), Carrow Bylerum (Wits 5), Koel (Wits 3 with surprise), and finally Thorrow (Wits 4 with surprise).",
+                    "brandon":"- Brandon (getting things started): “You land inside the room, a few paces away from the Bylerum Boys and a wiry noble with a stern countenance.” He continues, speaking for Ignus: “The noble doesn’t look like a fighter, and he confirms it by ducking for cover under a heavy table.”\n - Brandon (continuing with the first of the Bylerum Boys): “Cordal flings several coins at Koel, clearly planning to Steelpush. That’ll be Steel targeting Health…” \n - Becky (smiling): “This oughta be good.” \n - Brandon (shifting to the house guards): “Two guards burst in from the hallway. They carry spears but won’t be able to attack until next round, as they’re taking two steps toward you. You also hear rapid footfalls moving away from the room outside.” Brandon’s decided the third guard is acting on standing orders from Ignus and is on his way to alert the keep’s hazekillers. \n - Brandon (finishing up with the other Mistborn): “Carrow sizes Thorrow up for a half-moment, draws an obsidian dagger, and steps toward him.”\n - Paul: “Clever boy. Get too close and I won’t be able to use my spear. Too bad I go first.”\n - Brandon: “His attack will be Physique targeting Health. You’re up, Koel.”\n - Becky: “I also Steelpush Cordal’s coins, away from me.”\n - Brandon: “No problem. That’s your Steel vs. his attack then, but while Cordal’s targeting your Health you’re reacting with a defense. What else would you like to do?”\n - Becky: “I get to do more?”\n - Brandon: “Countering the Steelpush is a reaction. You’re still due your action for the round.”\n - Becky: “Ah. What are the walls made of in here?”\n - Brandon (thinking on his feet — he hasn’t considered this before): “Wood.”\n - Becky: “After I Push the coins aside…”\n - Brandon: “If you Push the coins aside…”\n - Becky: “Sure. Can I fling them through the wall at the fleeing guard?”\n - Brandon: “Or you can throw your own, yes. The Difficulty will be high; the coins may not even get through to the hallway.”\n - Becky: “Is the Difficulty from the wall or the fact that I can’t see through it?”\n - Brandon: “Both.”\n - Becky: “Will the heightened senses from burning Tin help?”\n - Brandon: “You’d normally need the Blindsight Stunt here, but because it amuses me” — this being one of the most powerful Narrator justifications of all — “I’ll lower the Difficulty by 1 if you burn Tin. The louder echoes off the door and hallway walls will help you pinpoint the guard’s location through the wall.”\n - Becky: “Excellent. I’ll do that.”\n - Brandon: “Alright. Thorrow?”\n - Paul: “I sweep my spear at Carrow’s legs. Hopefully I’ll trip him before he gets to me.”\n - Brandon: “Physique targeting Health, and you’ll need two Nudges for the trip. Let’s grab some dice.”",
+                    "part2":"Notice the variety of actions being taken there. Conflicts can involve lots of characters and it won’t always be important that everyone focus exclusively on hurting the opposition; some characters will take unrelated actions that still support their side. As another example, in a pitched battle deep in a noble house basement a Lurcher may choose not to attack the hazekillers coming after his crew so he can instead Pull open the cell holding their captured ally. Remember, in a roleplaying game you can attempt practically anything so long as it makes sense given the details already in play. \n\n As each action is described, the Narrator makes the choices necessary to form a dice pool, just as with any other roll. Working with the player, the Narrator decides which Attribute, Standing, or Power is most pivotal and determines whether any Traits, Tools, Circumstances, and other rules apply (see page 138 and the Conflict sections on pages 193–230). Remember that catching a Beat does not grant any additional dice (see the sidebar on page 142).",
+                    "part3":"IMPORTANT: These dice are not yet a pool and you may have any number of them. They’re called Action Dice and are used to form pools for various actions you take throughout the Conflict Round. Place the dice on or near the labeled part of your character sheet.",
+                    "part4":"Some common sources of Action Dice, based on intended actions: ",
+                    "points":[
+                        {
+                            "point":"Physically attacking another character: Physique"
+                        },
+                        {
+                            "point":"Attacking with Allomancy or Feruchemy: Appropriate metal"
+                        },
+                        {
+                            "point":"Taunting an enemy: Charm"
+                        },
+                        {
+                            "point":"Performing a feint or stalling for time: Wits"
+                        },
+                        {
+                            "point":"Wrestling with a foe: Physique"
+                        },
+                        {
+                            "point":"Controlling a koloss or kandra with emotional Allomancy: Brass or Zinc"
+                        },
+                        {
+                            "point":"Distracting someone: Charm"
+                        },
+                        {
+                            "point":"Torturing someone: Wits or Physique"
+                        },
+                        {
+                            "point":"Leveraging a mark’s poverty to shame him (or her): Resources"
+                        },
+                        {
+                            "point":"Slandering someone: Influence"
+                        },
+                        {
+                            "point":"Threatening an enemy: Spirit"
+                        },
+                        {
+                            "point":"Bribery: Resources"
+                        },
+                        {
+                            "point":"Rallying support in a crowd: Influence"
+                        },
+                        {
+                            "point":"Belittling someone: Spirit"
+                        }
+                    ],
+                    "part5":"A character may sometimes choose not to take any overt action, instead committing all of his or her effort to defending from incoming attacks. In this case the character gains no Action Dice. Instead, he or she receives Defense Dice, which are figured just like Action Dice and are based on how the character is guarding against attacks. For example, dodging or hunkering behind a shield are governed by Physique, while guarding against tricks relies on Wits, and steeling oneself against emotional trauma falls to Spirit. Traits, Tools, and Circumstances are applied just as with any other action.",
+                    "part6":"Some actions require no roll at all (e.g. reading when quick or precise comprehension isn’t an issue, turning a crank that doesn’t require a great deal of strength, and so on). These actions don’t produce Action Dice, so the character gains none of those, and he or she only gains Defense Dice if attacked. These Defense Dice are always based on the type of attack, as a character preoccupied by other actions isn’t able to focus attention on guarding, and can’t choose how to defend. Physical attacks produce the defender’s Physique in Defense Dice, social attacks produce the defender’s Charm in Defense Dice, and mental attacks produce the defender’s Wits in Defense Dice. Traits, Tools, and Circumstances are applied as with any other action, but are defined by the character’s reaction to the attack.",
+                    "part7":"With all this in mind, let’s take a look at what this means for our friends in Keep Hasting...",
+                    "example2":"Example: Brandon runs down the line with everyone’s first actions, in the order they’re declared... \n\n Ignus is actively defending under the table, so he doesn’t get Action Dice. Instead, he receives a pile of Defense Dice based on his Physique of 3. His “sniveling coward” Trait applies here, and Brandon gives him an additional Tool die for the table, so Ignus has 5 Defense Dice. \n\n Cordal Bylerum is using Steel to Push coins at Koel. His Steel is 6 and he has no applicable Traits. The coins are necessary for the action, so they don’t count as Tools (without them the action simply isn’t possible), and Brandon rules that no other Circumstances apply either (Cordal being surprised is covered by the adjusted order in which everyone declared actions). Cordal has 6 Action Dice. \n\n Carrow Bylerum has Physique 4 (boosted to 9 because he’s burning Pewter), and benefits from the “agile tumbler” Trait. Again, the dagger doesn’t so much help his attack as facilitate it, so it doesn’t offer a Tools bonus, but he’s both attacking a character with greater reach and taking a step this round (see page 196), and two adverse conditions cost him a die. Carrow has 9 Action Dice. \n\n The guards are all moving (one toward the hazekillers and the other two through the door and into the room). None of them have to roll, so they gain no Action Dice and will only gain Defense Dice if attacked. \n\n Koel is reacting to Cordal’s Steelpush and then Pushing on her own. The reaction is ignored when gathering Action Dice, so Brandon focuses on her action. She has Steel 4 with no help from Traits or Tools, and she doesn’t benefit from Circumstances either. Koel has 4 Action Dice. \n\n Finally, Thorrow has a whopping 12 Action Dice (6 for Physique, increased to 11 because he’s burning Pewter, and 1 for his “spear fighter” Trait). \n\n Of course, all this is usually determined as each character declares an action. We only break it down separately here so you can clearly see what’s involved with each part of the process.",
+                    "part8":"At this time the Narrator also declares whether each action is a Challenge (uncontested by the target) or a Contest (opposed by the target). This is important when applying additional rules and when determining what options are available to each target (i.e. whether they can react or defend). In general, any attack is automatically a Contest unless there’s a reason the target can’t fight back (he or she is unconscious or restrained, for example). \n\n The Narrator may also assign a Difficulty if there’s more than a small chance the action may not succeed at all. \n\n Both these factors play a role during Step 2.",
+                    "example3":"Example: Again briefly running through the declared actions in the Crew’s diversionary attack... \n\n Ignus’ action is purely defensive. He only rolls as a reaction if someone attacks him. \n\n Thorrow and Carrow’s actions are Contests targeting each other, and neither has a Difficulty (as straightforward attacks, it’s merely an issue of whether they hit). \n\n Cordal’s Steelpush is also a Contest, in this case against Koel’s Steel. There’s no Difficulty here — the coins are definitely going somewhere; all that’s in question is where they wind up. \n\n Koel’s attack is a Contest as well (her Steel against the guard’s Physique), but in her case there is a Difficulty as the coins are being shot blind and through the wall. Brandon had originally planned to assign a Difficulty of 4 but since Koel is burning Tin he reduces it to 3. \n\n The guards’ actions don’t demand rolls. \n\n Once again, all this generally happens as actions are declared, but we’ve separated the various decisions in our example so you can see how each piece works."
+                },
+                "step2":{
+                    "part1":"Actions are taken in a different order than they’re declared. They start with the character or group with the most Action Dice and end with the character or group with the least Action Dice (allowing characters with the greatest ability to go first). Characters with the same number of Action Dice act simultaneously.",
+                    "example1":"Example: Thorrow’s attack is resolved first, as he has 12 Action Dice, and then Carrow moves to attack him with 9 Action Dice. Cordal’s Steelpush is resolved next as he has 6 Action Dice, and Koel follows with 4 Action Dice. Ignus and the guards aren’t doing anything that needs to be resolved, so they’re left out until and unless they have to defend.",
+                    "part2":"As each character’s turn comes up, the player may react to all the declarations and actions so far. There are three options: ",
+                    "part3":"In this case, the player forms a pool for the declared action from his or her available Action Dice. Like any other pool, this one must fall between 2 and 10 dice. \n\n Even if the player has 10 or fewer Action Dice, he or she may still want to hold some back, as any dice left after forming a pool are used to defend against incoming attacks. Especially when facing several hostile declared actions, it can be extremely helpful to withhold Action Dice for defense rather than go with the bigger pool to get something done. \n\n Action Dice remaining after forming a pool become Defense Dice and are moved to that area on the character sheet.",
+                    "example2":"Example: For the rest of this section, we’ll mainly focus on the fight between Thorrow and Carrow. A full example of this Conflict’s early rounds can be found in the Physical Conflicts section (see page 199). \n\n Thorrow forms a pool of 8 dice to attack Carrow, converting the other 4 to Defense Dice. That’s probably plenty given that only Carrow might attack him this round — assuming, of course, that Thorrow’s attack doesn’t take him down first (all the more reason to go big with the attack pool).",
+                    "part4":"Alternatively, the player may declare a new action instead (the action declared in Step 1 doesn’t happen). This is dangerous, as it costs the character precious moments and dramatically impacts his or her performance. \n\n The character’s Action Dice are immediately refigured for the new action and halved (rounding up), and the character now goes at the very end of the round (as if he or she has only 1 Action Die). \n\n Defense Dice are what remains after this new action is taken, per the rules described earlier in this section. \n\n Each character may do this only once per round, and no character may do this if their new action produces only 2 Action Dice (as they would only have 1 die after their new total is halved, and that’s not enough to form a pool).",
+                    "example3":"Example: Rather than go through with his attack on Carrow, Thorrow might choose to help Koel take out the running guard, throwing his spear through the wall (it’s only wood and he’s a Pewterarm). As this would be a new action, Thorrow’s Action Dice would be refigured — also to 12, as all the same factors are in play for this alternate attack — and then halved, rounding up (to 6). The throw would also occur at the end of the round.",
+                    "part5":"Whether performing the action originally declared in Step 1 or a new action declared since, the player may always choose not to act at all. This ends the character’s chance to act in this round, and converts all of his or her Action Dice into Defense Dice.",
+                    "example4":"Example: Thorrow could also choose not to attack Carrow or do anything else, converting all 12 of his Action Dice into Defense Dice.",
+                    "part6":"As each action occurs, first look at whether it’s a Challenge or Contest, as the rules vary a bit for each. A Challenge is resolved like any basic roll — that is, a matching set that also beats the Difficulty (if any) is a success (see What’s the Outcome? on page 144).",
+                    "example5":"Example: If the door to the guest room were locked from the inside, the guards in the hallway would have to break it down to enter. This would be a Challenge and therefore an unopposed roll, likely with a Difficulty based on the sturdiness of the door.",
+                    "part7":"If the action is a Contest, the target may defend, though it isn’t required. The dice used to defend are based on whether the target has acted yet in this round:",
+                    "points":[
+                        {
+                            "name":"If the target has not yet acted,",
+                            "desc":"he or she may spend between 2 and 10 Action Dice to defend, and the new (lower) Action Dice total is immediately used to refigure his or her spot in the turn order. As you may already have surmised, this makes attacking a target an excellent way to keep them occupied, thus preventing them from doing anything else."
+                        },
+                        {
+                            "name":"If the target has already acted,",
+                            "desc":"he or she may spend between 2 and 10 Defense Dice to defend (assuming, of course, he or she has any Defense Dice left, or started with any in the first place)."
+                        }
+                    ],
+                    "gain":{
+                        "part1":"The process of gaining and spending Action and Defense Dice can be confusing at first but in practice it’s pretty easy. The process boils down to...",
+                        "points":[
+                            {
+                                "point":"Player declares action"
+                            },
+                            {
+                                "point":"Narrator identifies items on character sheet and any modifiers used to generate Action Dice (if the character is doing something that produces dice, like attacking or actively defending)"
+                            },
+                            {
+                                "point":"(Optional) Player may change action, in which case the Narrator repeats process to generate Action Dice, halving them (rounding up)"
+                            },
+                            {
+                                "point":"(Optional) Player may act, spending between 2 and 10 Action Dice; the rest become Defense Dice become Defense Dice"
+                            },
+                            {
+                                "point":"Action or Defense Dice may be spent in pools of 2 to 10 to defend against any incoming attacks"
+                            }
+                        ],
+                        "part2":"At any time, you'll have only one pile of dice on your sheet, its size determined by the primary thing you're trying to accomplish in the round (attacking, actively defending, or something else). The only exception is when you perform an action that produces no Action Dice, in which case you'll only need dice when attacked, and those (Defense Dice) will be determined by the incoming attack. \n\n Your dice pile may move around and sometimes get renamed, but at the end of the day, that's just to make things easier for you to grasp, and for us to explain. The most important thing to remember is this... \n\n Once dice are spent for anything, they're out of play. This means that Action Dice used to defend may not be later used to act or defend, and Defense Dice used to defend may not be later used to defend again. Every character has only so much attention to pay to the task at hand and all the things going on nearby, and eventually the chaos overwhelms even the greatest Heroes (and Villains, and Extras). Knowing when to spend dice and how long to hold on to them is a key element in getting ahead in the rough and tumble world of Scadrial."
+                    },
+                    "part8":"Any target may choose not to defend, in which case the attack is automatically successful so long as the attacker rolls a matching set. \n\n In any case, the choice to defend and the number of dice spent must be settled before anyone rolls any dice (no one gets to wait and see what their opponent rolls before committing their dice). \n\n A character may only defend once against each action, though he or she may defend against any number of actions in each round (so long as dice are available to do so). \n\n The Contest succeeds if the attacker scores a higher Result than the target and beats the Difficulty (if any). Nudges break ties as usual, and tied Nudges mean the struggle continues into the next Conflict Round.",
+                    "example6":"Example: Thorrow’s target Carrow has not yet acted in this round, so he can devote between 2 and all 9 of his Action Dice to defending. He wants to get an attack of his own in, so he only devotes 4 of his Action Dice to defending. \n\n Both characters roll, Thorrow getting a Result of 3 with four Nudges — more than enough to knock Carrow off his feet, as planned. This assumes that Thorrow’s attack hits, of course, which brings us to Carrow’s roll: a Result of 3 with one Nudge. With a tied roll, Nudges decide the victor, so Thorrow’s attack hits and Carrow goes down.",
+                    "part9":"Most successful actions are handled the same as any basic Challenge or Contest, and all the rules and guidance for determining their Outcomes, impacts on the story, and descriptions still apply in a Conflict. \n\n Attacks have a special Outcome, which is detailed under Damage and Defeat. Remember, an attack can be any Challenge or Contest intended to harm another character."
+                },
+                "damage":{
+                    "part1":"With a successful attack, the target character suffers 1 damage, plus 1 additional damage per Nudge applied, plus any bonuses from equipment. Damage has a variety of effects, and for all of them, it’s important to remember the Resilience targeted by the attack, which was determined during Step 1 of each Conflict Round.",
+                    "example1":"Thorrow’s hit inflicts 1 base damage, plus 2 for the spear, plus 2 for the remaining two Nudges after knocking Carrow off his feet, for a total of 5. Brandon ruled earlier that this attack targets Carrow’s Health.",
+                    "part2":"Extras are bit players in the story and defeated when they suffer even 1 damage. By and large you won’t even bother tracking damage for Extras — they’re usually just overpowered on the way to more important things. In fact, some particularly large-scale Conflicts may see Heroes and Villains brushing aside several Extras with each successful attack (see Epic Conflicts, page 188). \n\n Heroes and Villains, on the other hand, can usually stand their own, and this is where their Resilience scores come into play. Damage inflicted on a Hero or Villain reduces the target Resilience by the same amount. Write the damage on the character’s sheet, in the box provided (which is kept separate so you never lose track of the character’s full Resilience score). Damage is cumulative, so be sure to add it to any the character has already suffered. \n\n Damage can wound or defeat a character, as shown in the following sections.",
+                    "another":{
+                        "part1":"Not liking all that division? You might prefer to multiply instead...",
+                        "points":[
+                            {
+                                "point":"Double the damage and compare it to the character’s Resilience before it’s reduced. If the double damage is equal or higher, the character is “gravely wounded” and gains a Grave Burden."
+                            },
+                            {
+                                "point":"Now double the damage again (double the doubled damage) and compare it a second time. If this is equal to or higher than the character’s current Resilience, he or she is “seriously wounded” and gains a Serious Burden."
+                            }
+                        ],
+                        "part2":"Don’t forget to reduce the character’s Resilience after you’re done checking for Burdens. ",
+                        "example":"Example:Thorrow inflicted 5 damage. We double it to 10 and compare it to Carrow’s Health of 13. That’s not enough for a Grave Burden, so we double the damage again, to 20, and compare it a second time. This does beat Carrow’s Health, so he’s seriously wounded and gains a Serious Burden. \n\n After these comparisons, Carrow’s Health is reduced from 13 to 8, as usual."
+                    }
+                },
+                "wounded":{
+                    "part1":"If a single attack inflicts damage equal to or greater than 1/4 the target Resilience (rounded up), the character gains a Serious Burden — a negative Trait that represents a physical injury, social obstacle, or bit of psychological baggage left behind by the assault. \n\n If a single attack inflicts damage equal to or greater than 1/2 the target Resilience (rounded up), the character gains a Grave Burden, which is a bit more debilitating than a Serious Burden and represents a more dire and lasting physical, social, or psychological injury. \n\n Both these thresholds are figured using the character’s current Resilience score, which may be lower than the full value due to previous damage and other factors. This means that a character who’s already been through the ringer is easier to weigh down with new problems.",
+                    "example1":"Example: Carrow’s Pewter-boosted Health is 13 and Thorrow’s attack reduces it to 8. The damage is equal to 1/4 Carrow’s current Health, rounded up (5), but less than 1/2 his Health, rounded up (7), so Carrow gains a Serious Burden. \n\n If Carrow had previously been injured and his Health were 8 when this attack hit, the damage would be more than 1/2 Carrow’s Health, rounded up (4), and he would have gained a Grave Burden instead.",
+                    "part2":"A character may be wounded multiple times in a Conflict (and gain a new Burden each time), but each attack may inflict only one wound. This means that even when a character suffers enough damage to gain a Grave Burden (equal to or greater than 1/2 his or her current Resilience), a Serious Burden is not also gained.",
+                    "example2":"Example: Let’s say that Thorrow had dedicated all four Nudges to damage, inflicting a total of 7. This would have been enough to inflict a Grave Burden, but Carrow would not also suffer a Serious Burden in the same attack.",
+                    "part3":"Burdens and their effects are fully described on page 184. They also linger for a while, as described in the Recovery section on page 187."
+                },
+                "defeat":{
+                    "part1":"When a character loses the last of a Resilience he or she is “defeated,” with the following effects:",
+                    "points":[
+                        {
+                            "point":"The stakes established at the Conflict’s outset are applied (see page 168)."
+                        },
+                        {
+                            "point":"The character may gain a Grave or Mortal Burden, as the attacker prefers (see page 184)."
+                        },
+                        {
+                            "point":"The character suffers one of three fates, depending on which Resilience was targeted..."
+                        }
+                    ],
+                    "zero":[
+                        {
+                            "title":"Incapacitated (0 Health)",
+                            "part":"The character is left unconscious, dying, or dead (attacker’s choice). An unconscious character wakes at a dramatically appropriate moment chosen by the Narrator, and a dying character expires either after a period that makes sense to the Narrator given the attack, or whenever the character suffers more damage than he or she has Health remaining (this may mean the character dies immediately, denying the attacker’s chance to show mercy). \n\n A dying character may also be saved with a successful Wits 3 roll. This stabilizes the character but does not recover any Health. \n\n A character with 0 Health loses two dice when making rolls with any Attribute. This includes any character knocked unconscious who wakes before recovering at least 1 Health, and any character saved from death who hasn’t yet healed back to 1 or more Health.",
+                            "example":"Example: Carrow has 8 Health remaining and will be incapacitated if he suffers another 8 damage. Let’s say that after a couple rounds Thorrow lands a final blow that takes Carrow’s Health down to 0. Thorrow would choose whether the final hit knocks Carrow unconscious, kills him, or leaves him dying, and if Carrow is the last combatant facing the Heroes they’d win the fight (satisfying the stakes set up at the start of the Conflict). \n\n Thorrow would also be able to leave Carrow with either a Grave or Mortal Burden as he prefers, or he could show mercy and choose to inflict no Burden at all. \n\n Finally, until Carrow’s Health once again rises to 1 or higher he would lose two dice when making Physique, Charm, and Wits rolls."
+                        },
+                        {
+                            "title":"Disgraced (0 Reputation)",
+                            "part":"The character is sufficiently shamed that he or she can no longer rely on the power afforded by worldly status. Favors are denied and contacts refuse to help. Liberties and indulgences are withdrawn, and sources of capital and privilege vanish. Perhaps worst of all, the character is shunned even by fate, abandoned by luck and destiny. \n\n A character with 0 Reputation loses two dice when making rolls with any Standing. The road back to respect and dignity may be long, but the character only suffers this penalty until his Reputation rises back to 1 or higher.",
+                            "example":"Example: There’s bad blood between two merchants at the edge of Luthadel, and one of them finally succumbs to the other’s slander, his Reputation falling to 0. The stakes of this long-running Social Conflict have been defined as the number of customers visiting each merchant’s shop, and so the winner steals the last of the loser’s clients. \n\n Being practical above all else, the winner also leaves the loser with a Mortal Burden, which will make it much harder for him to rebuild. Of course, that won’t be possible at all until the loser recovers at least 1 Reputation (the stakes ensure that), and until then, the loser also has two fewer dice with all Resources, Influence, and Spirit rolls."
+                        },
+                        {
+                            "title":"Devastated (0 Willpower)",
+                            "part":"The character is demoralized, unable to resist acting on a single emotion or impulse suggested by the attacker. Though this cannot urge the character to willingly commit suicide, grievously injure loved ones, or perform similarly heinous acts, it’s entirely possible the fallout from the forced decision or action may lead to death, or something equally nasty. \n\n A character with 0 Willpower loses two dice when making rolls with any Power. Without the resolve or self-control represented by at least 1 Willpower, the character isn’t going to be getting the most out of any Allomancy, Feruchemy, Hemalurgy, or shapeshifting at his or her disposal.",
+                            "example":"Example: Following the previous (Disgraced) example, the winning merchant isn’t satisfied with just driving the loser out of business — he also embarks on a lengthy harassment campaign to force the man out of the city. He eventually wins this Mental Conflict as well, driving the hapless loser’s Willpower down to 0. The loser gives up on his shop and leaves Luthadel, hoping for better prospects elsewhere. This time the winner leaves the loser with no Burden. He’s driven the man away for good, and that’s enough. \n\n If the loser had Powers, he would lose two dice with rolls to use them until he regained at least 1 Willpower."
+                        }
+                    ],
+                    "brandon":"Heroes sometimes wind up defeated well before a Conflict ends. In these cases, consider letting a fallen Hero take the reins as storyteller for a while. It keeps him or her involved and invested, and lets the rest of you focus on what’s right in front of your character(s). Plus, there’s less chance the defeated Hero will get distracted by something outside the game before the Conflict’s over."
+                },
+                "burdens":{
+                    "part1":"Burdens are temporary negative Traits inflicted by powerful or decisive attacks. They represent the physical injuries, social obstacles, and psychological baggage a character grapples with afterward, and like most significant trials they offer excellent opportunities for growth. \n\n Burdens vary from Traits in several ways. To start they come in three severities, each with progressively more impact on story and rolls:",
+                    "types":[
+                        {
+                            "name":"Serious Burdens",
+                            "desc":"are relatively fleeting issues (e.g. physical bruises or sprains; embarrassment or censure; depression or nightmares), and add 1 die to appropriate rolls."
+                        },
+                        {
+                            "name":"Grave Burdens",
+                            "desc":"are lasting impediments (e.g. broken bones or internal damage; fines or Obligator investigations; compulsion or delusions), and add 2 dice to appropriate rolls."
+                        },
+                        {
+                            "name":"Mortal Burdens",
+                            "desc":" are profound, permanent impairments (e.g. lost or useless body parts; forfeiture of holdings or exile; obsession or paranoia), and add 3 dice to appropriate rolls."
+                        }
+                    ],
+                    "parts":[
+                        {
+                            "part":"More examples are provided in the Physical, Social, and Mental Conflicts sections (see pages 193, 209, and 219, respectively). \n\n Characters don’t choose their Burdens; instead they’re assigned by the attacker who inflicts them, based on the tactic used. For example, an attacker inflicting a physical Burden with a sword might describe it as a “forearm gash” (if it’s Serious), a “cracked wrist” (if it’s Grave), or a “severed hand” (if it’s Mortal). \n\n As with any Trait the Narrator must approve the Burden before it’s assigned, and so some back and forth may occur as the specifics are hammered out.",
+                            "example":"Example: Back to the Keep Hasting fight, Thorrow’s first attack on Carrow inflicts a Serious Burden. Paul gets a bit overzealous and describes Carrow collapsing to the hard floor, his leg snapping under his weight. This would be fine for a Mortal Burden, or maybe even a Grave one, but it’s a bit too much for a Serious one. Brandon adjusts the description to a deep puncture wound in Carrow’s thigh."
+                        },
+                        {
+                            "part":"Burdens can be applied to any roll, though they only add dice (they’re never applied as detriments). Opponents will usually find more ways to take advantage of a character’s Burdens than he or she will, though finding ways to make the most of one’s shortcomings is a hallmark of greatness and definitely worthy of the extra dice — assuming the Narrator agrees, of course.",
+                            "example":"Example: Later in the fight, Carrow is still prone on the floor and Thorrow tries to stomp him. He tells Brandon he’s aiming for the wound in Carrow’s thigh, taking advantage of the Bylerum’s reduced mobility. Brandon approves this and Thorrow gains a die with his attack."
+                        },
+                        {
+                            "part":"Happily for those carting Burdens around, they’re great learning experiences. The first time in each session when anyone gains dice from a character’s Burden, the character immediately gains a single Advancement. This is true whether the Burden is applied by the character or an opponent, so there’s even more reason to explore one’s weaknesses. It does, after all, make one stronger.",
+                            "example":"Example: The previous example is the first time anyone’s taken advantage of Carrow’s thigh wound, so Carrow gains a single Advancement. Even if the Burden were Grave (and therefore granted Thorrow two dice for the attack), Carrow would still only earn a single Advancement."
+                        }
+                    ],
+                    "part2":"Burdens are a great way to highlight pivotal moments in your stories. They introduce lingering details that offer continuity from encounter to encounter. They give attackers a chance to leave calling cards when the dice roll their way. They remind players of moments their characters pressed when they maybe should have yielded. Perhaps best of all, they give everyone a little something more to talk about in the ongoing conversation, which means more chances for your characters to take on a life of their own. \n\n Characters may carry any number of Burdens, though only one impacting each body part, social crisis, or mental dilemma. Serious and Grave Burdens fade with time, as detailed in Recovery (see right). Mortal Burdens are forever, unless the character spends Advancements to overcome them (see page 122)."
+                },
+                "yield":{
+                    "part1":"Conflicts are dangerous; between damage, Burdens, and the looming threat of defeat there are many reasons to avoid them. Fortunately there’s a way out, though not without a price. There’s always a price. \n\n As his or her action in any round, a character may yield, offering some or all of the stakes established in Step 1 of the Conflict in exchange for a safe withdrawal (the character may actually offer anything, even something that wasn’t originally discussed, assuming he or she can actually deliver). \n\n The opposition may accept, refuse, or demand more, and isn’t obliged to honor the original stakes or make offers within their bounds. Indeed, there’s no particular reason the opposition has to be in any way reasonable (the character is, after all, showing weakness, so it’s not like it’s a seller’s market). \n\n Negotiations may occur with the Narrator and players speaking in character (in the story), or out of character (over their sheets, with an expectation that the conversation will come back to their characters once a deal is in place). Both parties must agree for any deal to move forward and the Narrator must approve anything before the Conflict may end. \n\n If a deal is reached the Conflict immediately ends and any story (and possibly rules) implications from the deal are set in motion; otherwise the Conflict continues with a new action chosen by the character who sought to yield. \n\n Yielding in combat often means surrender, and that can translate into capture or even death. Of course, the Narrator should usually offer yielding Heroes a fighting chance to escape, though not always right away (captivity is excellent grist for moving stories). \n\n By contrast, yielding in other types of Conflicts rarely has a set consequence; every situation is unique and every bargain comes with its own set of terms. Consider the feuding merchants examples on pages 183–184...",
+                    "points":[
+                        {
+                            "point":"In the Social Conflict, the loser might offer not to sell to anyone from certain parts of the city, and the winner might demand more and more, until the loser’s only left with a few regulars from immediately neighboring blocks."
+                        },
+                        {
+                            "point":"The Mental Conflict might end with the loser agreeing to nearly any demand to end the harassment, from closing his shop so he can stay in Luthadel, to closing his shop and working in the winner’s establishment for a time."
+                        }
+                    ],
+                    "part2":"Yielding can sometimes be used as a way to “pause” rather than end a Conflict, an attacker pulling back just long enough to regroup. This is a dangerous strategy unless the attacker is sure the target won’t recover too much before the Conflict — or rather, a new identical Conflict — gets started. There are ways around this issue, of course, like having the target of a Mental Conflict tied up in a dungeon, or keeping the targets of a Physical or Social Conflict too busy to lick their wounds, which brings us to..."
+                },
+                "recovery":{
+                    "part1":"Though the Narrator may sometimes replenish a single point of Resilience under the right conditions (a point of Health during a lull in a long battle, a point of Willpower at a particularly uplifting moment for the character’s side, or a point of Reputation for a selfless act in full view of a crowd), the most common ways to recover are time and Breathers. Characters naturally recover 1 of each Resilience per day. Certain magic — particularly Pewter Allomancy and Feruchemical goldminds — can accelerate this process (see pages 299 and 355). Additionally, during a Short Breather, a character…",
+                    "points":[
+                        {
+                            "point":"…recovers half of any lost Health, rounded up, though only if he or she sits the Breather out (doing nothing of note beyond resting)."
+                        },
+                        {
+                            "point":"...recovers half of any lost Reputation or Willpower, rounded up. This occurs whether he or she sits the Breather out or not. "
+                        }
+                    ],
+                    "part2":"In a Long Breather, a character recovers all lost Health, Reputation, and Willpower. ",
+                    "example1":"Example: Thorrow’s initial attack on Carrow inflicts 5 damage, reducing his Health from 13 to 8. This is an inflated Health total, however, because Carrow’s burning Pewter. If the fight somehow ends there, Carrow’s Pewter burn will eventually wear off and his Health will return to its normal maximum of 9, with the damage reducing that to 6. If Brandon calls no Long Breathers for at least five days, Carrow would fully heal in that time (1 Health per day). Alternately, if Brandon were to call a Short Breather right after the fight and Carrow spends that time resting, he would recover 3 Health and would fully heal over the following 2 days.",
+                    "part3":"Serious and Grave Burdens fade slowly, and are only helped by Long Breathers. Each time a character spends a Long Breather doing nothing but recuperating in an appropriate fashion (bed rest and therapy for physical Burden, campaigning and reparations for a social Burden, or soul searching and introspection for a mental Burden), a Serious or Grave Burden’s severity lessens by one degree (a Grave Burden becomes Serious, or a Serious Burden is lost). A character may only concentrate on a single Burden in each Long Breather; any others the character may have linger until he or she can dedicate a later Long Breather to them.",
+                    "example2":"Example: Carrow’s punctured thigh (a Serious Burden) heals during the first Long Breather he sits out. If it were a Grave Burden instead, he’d have to sit out two Long Breathers for it to fully heal, and if he suffered another Burden in the fight — or indeed, at any time before the thigh wound fully healed — he’d have to decide which Burden to tend in each Long Breather.",
+                    "part4":"Mortal Burdens may only be healed by spending Advancements or with the help of particularly powerful magic, such as Gold Feruchemy (see page 355), Pewter Allomancy (see page 299), Aluminum Feruchemy (see page 338), and Duralumin Feruchemy (see page 343). Without such aid, they’re permanent reminders of dark times in the character’s life.",
+                    "brandon":"Some large-scale Conflicts, like the Siege of Luthadel or Vin’s raid on House Hasting, can quickly bog down if you keep track of every character involved. In these cases you can keep the pace brisk by letting Heroes and Villains attack Extra groups instead of individuals. Each successful attack defeats 1 Extra in the group per point of damage. Add this rule and before you know it Heroes and Villains will be mowing through minions and mooks on their way to the real action!"
+                },
+                "complications":{
+                    "part1":"Attackers aren’t immune to the odd snag. Complications are figured for attacks in the same way as for any other roll (the Narrator makes the calls and each point of negative Outcome justifies a single Complication that affects just the acting character, while an Outcome of –3 or worse may trigger a single Complication that affects the character and all allies in the area). All the other rules and guidance for Complications also apply in a Conflict (see page 149), though there are a few more ways to use them:",
+                    "points":[
+                        {
+                            "points":"The character immediately loses 1 Defense Die (e.g. he or she is backed into a corner or becomes unsteady in a physical fight; flubs a speech or reveals a hint of deceit in a Reputation bid; or betrays a moment of weakness with a bead of sweat or twitch of the eye during a test of wills)."
+                        },
+                        {
+                            "points":"The character loses use of a Prop and must spend 1 action retrieving it (e.g. buries a weapon in a wall or loses a vial under a table)."
+                        },
+                        {
+                            "points":"The character suffers an unfortunate misstep (e.g. wildly overextends an attack or is thrown through a window)."
+                        }
+                    ],
+                    "part2":"Under the right circumstances any of these Complications may be applied more than once (the character loses 2 or more Defense Dice, loses 2 or more Props, or suffers 2 or more missteps). Every Complication should come with some penalty, of course, so avoid costing a character more of anything than he or she has. For example, you wouldn’t want to apply three Defense Dice Complications to a character with only two Defense Dice — though you could use that –3 Outcome to cost everyone on the character’s side a Defense Die. Justify it with a good bit of story and that’s a proper Complication! \n\n Also, be careful about using Complications to reduce a character’s Resilience during a Conflict. As shown to the left it’s a valid option, but it should be used sparingly here. Resilience is regularly and repeatedly under assault already and adding damage for every little foible can get old quickly. That said, a minor bruise from a clumsy fall down a short stairwell, the embarrassment of an unfortunate slip of the tongue, or taking a hit to ego after a moment of personal weakness are all great heroic setbacks and can really add to the experience — again, so long as they don’t come up too often.",
+                    "example":"Example: If Thorrow’s spear sweep hadn’t hit Carrow but had instead missed by 2 (his Physique Result was 2 lower than Carrow’s), he would have suffered two Complications. Brandon might use these to have Carrow slam his foot down on the spear, pinning it to the floor (one Complication), and have Thorrow lose a Defense Die as he regains his footing (the second Complication)."
+                },
+                "nudges":{
+                    "part1":"Nudges also work the same in Conflicts (offering perks or negating Complications), and there are more ways to apply Nudges when attacking: ",
+                    "points":[
+                        {
+                            "point":"Inflict 1 extra damage (as already described in the Outcomes, Damage, and Resilience section)"
+                        },
+                        {
+                            "point":"Eliminate one of the target’s Action or Defense Dice (from what remains after the attack)"
+                        },
+                        {
+                            "point":"Gain a bonus Action Die in the following round (which also counts toward turn order)"
+                        },
+                        {
+                            "point":"Gain an insight about the Conflict or target (i.e. a new detail or hint from the Narrator) "
+                        },
+                        {
+                            "point":"Add a dramatic flourish (e.g. leave a small scar or sever a pack strap)"
+                        }
+                    ],
+                    "part2":"The same attack may be Nudged the same way more than once, and with three or more Nudges you can spend them all to catch a Beat, immediately gaining another action before anyone else can act. \n\n As usual, the Narrator must approve all Nudges, even if you’re spending them to catch a Beat.",
+                    "example":"Example: Thorrow’s actual attack inflicted 5 damage because he used two of his four Nudges to knock Carrow off his feet. He could alternately have increased his damage to 7, reduced Carrow’s Action or Defense Dice by 4, or gained 4 Action Dice the next round. He could even have mixed and matched these benefits, spending Nudges on a combination of things, like increasing his damage to 6 and gaining 1 Action Die the next round. He could even keep his damage at 5, slice open Carrow’s favorite shirt (a dramatic flourish), and ask where the running guard might be headed (though Brandon wouldn’t be obliged to answer, and could ask Thorrow to use that Nudge on something else instead)."
+                },
+                "describe":{
+                    "part1":"Earlier advice for tailoring description is equally helpful here — much of every Conflict is made up of Challenges and Contests, after all — and the details you need to get started should be evident once you’ve set up and framed the scene. There are, however, several other things to consider once a Conflict is underway. \n\n First there’s the question of pacing. The Conflict rules are very structured, with characters acting, resolving, and defending in carefully controlled ways, but there’s no reason the description needs to follow suit. You can describe every action and defense as it’s resolved, taking a granular approach to the Conflict’s story, but this is only really helpful if you put the effort in to make each of them memorable and unique. Here’s an example...",
+                    "brandon":"- Paul (as Thorrow): “I sweep my spear at Carrow’s right knee, knocking him off his feet, and then I stab the point into his thigh for good measure.” \n - Brandon: “Carrow twists, trying to escape your skilled attack, but his effort is ultimately futile and he collapses, howling in pain as the spear tip pierces his leg. ‘You’ll pay for that, Thug!’ he screams, and you sense that he just might mean it.”",
+                    "part2":"Without this level of detail you’re better off closely grouping actions and defenses, and sticking to quick details, like this...",
+                    "brandon2":"- Paul: “Thorrow sweeps his spear at Carrow’s right knee, knocking him off his feet, and then he stabs the point into Carrow’s thigh for good measure.” \n - Brandon: “The Bylerum howls in pain and glares menacingly at his attacker.”",
+                    "part3":"Many groups may find even that tedious, instead keeping the focus wide and general through most of a Conflict and letting the highlights emerge naturally through conversation...",
+                    "brandon3":"- Brandon: “Thorrow dominates at the battle’s outset, easily besting Carrow and leaving him with a little reminder of their scuffle...”",
+                    "part4":"Other groups may want to focus only on damage, defining consequences for each successful attack and using those as a backbone for the Conflict’s description. This offers a highly cinematic flavor in which every moment in the spotlight matters and the story naturally escalates from high point to higher point until the Conflict inevitably reaches a zenith and levels out before the next chapter. \n\n Becky (describing the whole first round of the Conflict): “Amid the frenzied chaos of the battle, Thorrow drops Carrow and stabs his spear into the Mistborn’s thigh. The Bylerum’s scream echoes through the guest rooms, loud enough that no one but Koel notices the fight’s first victim...” \n\n Still, other groups may want to keep the conversation going through a Conflict but save the ultimate description for the very end. This offers the greatest forethought, analysis, and control but it can be disorienting for some, as details can and probably will change before you reach a consensus on what actually happens. We call this the “recap method” and it often flows more smoothly if you appoint a storyteller, preferably one with a flair for the dramatic and a sense of what entertains. It’s his or her job to present one unified version of the Conflict’s events, told with as much campfire gusto as possible, to bring everyone back onto the same page and get them psyched up for the next part of the story... \n\n Anyone (as appropriate or inspired): “A fight erupts as Koel and Thorrow land inside the guest room, a few paces away from the Bylerum Boys and a wiry noble with a stern countenance. The noble doesn’t look like a fighter, and he confirms it by ducking for cover under a heavy table as two guards burst in from the hallway. Weapons are brandished and coins fly...” \n\n The storyteller and Narrator don’t have to be one and the same, and with enough interest, the storyteller role can even shift from player to player with each Conflict. The main thing to remember is that no matter who’s telling the story, the veto rules are always in effect (see page 133). This allows the Narrator to keep the overall plot on track and prevents the storyteller from veering into territory any of the other players (or characters) find objectionable. \n\n Another consideration if you’re thinking of rotating the storyteller role: it can result in somewhat varied tone and presentation, as each player has his or her own style and preferences. Some groups enjoy this while others find it pulls them out of the narrative. As with all suggestions here, your group should weigh the options and go with what best suits their strengths and desired flavor of play.",
+                    "brandon4":"You may want to lavish great detail on some Conflicts, but it shouldn’t often be necessary. It depends on your play group and the style they prefer. In my games, I usually keep the focus wide and general, as shown in the third example, but there’s a time and a place for all methods."
+                }
             }
         }
     ]
