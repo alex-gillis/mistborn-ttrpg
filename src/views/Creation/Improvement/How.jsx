@@ -5,7 +5,7 @@ function How(props) {
     return (
       < >
         <div id="desc">
-            <h2>How a Hero Advances</h2>
+            <h1>How a Hero Advances</h1>
             {props.improvement.advances}
             <h3>Earning Advancements</h3>
             {props.improvement.earning}

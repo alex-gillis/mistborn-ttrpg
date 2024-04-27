@@ -5,7 +5,7 @@ function Spending(props) {
     return (
       < >
         <div>
-            <h2>Spending Advancements</h2>
+            <h1>Spending Advancements</h1>
             {props.improvement.spending}
             <br/> <br/>
             <table id="buildTable" className="propTable">

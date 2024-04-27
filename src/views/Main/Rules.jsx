@@ -2,6 +2,8 @@
 /* eslint-disable react/jsx-key */
 import { useState } from 'react';
 import Basics from '../Rules/Basics';
+import Contests from '../Rules/Contests';
+import Conflicts from '../Rules/Conflicts';
 
 function Rules(props) {
   const [myPage, setPage] = useState(0);
@@ -12,7 +14,9 @@ function Rules(props) {
 
 
   const pages = [
-    { title: 'Game Basics', className: myPage === 0 ? 'selected' : 'unselected', onClick: () => handlePage(2) }
+    { title: 'Basics', className: myPage === 0 ? 'selected' : 'unselected', onClick: () => handlePage(0) },
+    { title: 'Contests', className: myPage === 1 ? 'selected' : 'unselected', onClick: () => handlePage(1) },
+    { title: 'Conflicts', className: myPage === 2 ? 'selected' : 'unselected', onClick: () => handlePage(2) }
   ];
 
   return (
@@ -26,6 +30,8 @@ function Rules(props) {
         </div>
         <div id='creation' >
             { myPage === 0 && <Basics game={props.game[0]} />}
+            { myPage === 1 && <Contests game={props.game[1]} />}
+            { myPage === 2 && <Conflicts game={props.game[2]} />}
         </div>
         
     </>

@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
 /* eslint-disable react/jsx-key */
 
-function Points(props) {
+function BigPoints(props) {
     // getJSONData(metalJSON, collectMetals, onError);
   
     return (
@@ -17,5 +17,5 @@ function Points(props) {
     )
   }
   
-  export default Points
+  export default BigPoints
   

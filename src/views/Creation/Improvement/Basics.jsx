@@ -5,7 +5,7 @@ function Basics(props) {
     return (
       < >
         <div id="desc">
-            <h2>Improving Heroes</h2>
+            <h1>Improving Heroes</h1>
             {props.improvement.improving}
             <br/>
             <br/>
