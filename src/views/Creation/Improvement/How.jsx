@@ -26,7 +26,7 @@ function How(props) {
             <div key={index}>
                 <span id="italicked">{advancement.example}</span> <br/>
                 {advancement.explain}
-                <br/><br/>
+                <br/>
             </div>
             ))}
             <h3>The Rate and Limits of Advancement</h3>

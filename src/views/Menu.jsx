@@ -47,9 +47,9 @@ function Menu() {
 
     const pages = [
         { title: 'Home', className: myPage === 0 ? 'selected' : 'unselected', onClick: () => handlePage(0) },
-        { title: 'Creation', className: myPage === 1 ? 'selected' : 'unselected', onClick: () => handlePage(1) },
-        { title: 'Cultures', className: myPage === 2 ? 'selected' : 'unselected', onClick: () => handlePage(2) },
-        { title: 'Rules', className: myPage === 3 ? 'selected' : 'unselected', onClick: () => handlePage(3) },
+        { title: 'Rules', className: myPage === 1 ? 'selected' : 'unselected', onClick: () => handlePage(1) },
+        { title: 'Creation', className: myPage === 2 ? 'selected' : 'unselected', onClick: () => handlePage(2) },
+        { title: 'Cultures', className: myPage === 3 ? 'selected' : 'unselected', onClick: () => handlePage(3) },
         { title: 'Metallurgy', className: myPage === 4 ? 'selected' : 'unselected', onClick: () => handlePage(4) },
         { title: 'Reference', className: myPage === 5 ? 'selected' : 'unselected', onClick: () => handlePage(5) },
     ];
@@ -66,9 +66,9 @@ function Menu() {
             </header>
             
             { myPage === 0 && <Intro /> }
-            { myPage === 1 && <Creation creation={myCreations} propped={myProps[0]} rogues={myRogues} /> }
-            { myPage === 2 && <Cultures /> }
-            { myPage === 3 && <Rules game={myGames}/> }
+            { myPage === 1 && <Rules game={myGames}/> }
+            { myPage === 2 && <Creation creation={myCreations} propped={myProps[0]} rogues={myRogues} /> }
+            { myPage === 3 && <Cultures /> }
             { myPage === 4 && myMetals[0] && myBasics[0] && <Metallurgy basics={myBasics} metals={myMetals} /> }
             { myPage === 5 && <Reference creation={myCreations} /> }
         </>
