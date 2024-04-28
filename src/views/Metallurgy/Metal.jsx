@@ -49,13 +49,9 @@ function Metal(props) {
           <button id="filter-button" className={myHema ? 'selected' : 'unselected'} onClick={() => viewHema()}>Hemalurgy</button>
         </div>
 
-        <br/>
         {myAllo && <Allomancy metal={ props.metal }/>}
-        <br/>
         {myFeru && <Feruchemy metal={ props.metal }/>}
-        <br/>
         {myTwins && <Compound metal={ props.metal } info={ props.info[3] }/>}
-        <br/>
         {myHema && <Hemalurgy metal={ props.metal }/>}
         
       </div>

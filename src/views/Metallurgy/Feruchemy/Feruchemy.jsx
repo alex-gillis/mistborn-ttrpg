@@ -27,6 +27,7 @@ function Feruchemy(props) {
             </tbody>
         </table>
         <Gunplay metal={props.metal} />
+        <br/>
       </>
     )
   }

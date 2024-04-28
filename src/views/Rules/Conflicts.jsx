@@ -7,6 +7,12 @@ import Frame from './Conflicts/Frame';
 import Groups from './Conflicts/Groups';
 import Round from './Conflicts/Round';
 import Damage from './Conflicts/Damage';
+import Burden from './Conflicts/Burden';
+import Yield from './Conflicts/Yield';
+import Recovery from './Conflicts/Recovery';
+import Describe from './Conflicts/Describe';
+import Nudges from './Conflicts/Nudges';
+import Complications from './Conflicts/Complications';
 
 function Conflicts(props) {
     const [mySection, setSecion] = useState(0);
@@ -49,6 +55,12 @@ function Conflicts(props) {
             {mySection === 3  && <Groups grouping={props.game.grouping}/>}
             {mySection === 4  && <Round round={props.game.round}/>}
             {mySection === 5  && <Damage damage={props.game.round.damage} wounded={props.game.round.wounded} defeat={props.game.round.defeat} />}
+            {mySection === 6  && <Burden burdens={props.game.round.burdens}/>}
+            {mySection === 7  && <Yield yield={props.game.round.yield}/>}
+            {mySection === 8  && <Recovery recovery={props.game.round.recovery} />}
+            {mySection === 9  && <Complications complications={props.game.round.complications}/>}
+            {mySection === 10  && <Nudges nudges={props.game.round.nudges}/>}
+            {mySection === 11  && <Describe describe={props.game.round.describe} />}
         </div>
         </>
     )

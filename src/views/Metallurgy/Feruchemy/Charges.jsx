@@ -4,7 +4,7 @@ function Charges(props) {
     if (props.metal.feruchemy.store === undefined || props.metal.feruchemy.store === "") {
         return (
           < >
-            <h4>Feruchemy</h4>
+            <h2>Feruchemy</h2>
             { props.metal.feruchemy.lore }
           </>
         )
@@ -12,7 +12,7 @@ function Charges(props) {
 
     return (
       < >
-        <h4>Feruchemy</h4>
+        <h2>Feruchemy</h2>
         { props.metal.feruchemy.lore }
         <h4>Rules</h4>
         <span id="bolder">Storing charges in a { props.metal.name }mind:</span> { props.metal.feruchemy.store }

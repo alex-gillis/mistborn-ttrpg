@@ -14,7 +14,7 @@ function Allomancy(props) {
     
     return (
       < >
-        <h4>Allomancy</h4>
+        <h2>Allomancy</h2>
         { props.metal.allomancy.lore }
         
         <br/>
@@ -31,6 +31,7 @@ function Allomancy(props) {
         <Savant metal={props.metal} />
         <Stunts metal={props.metal} />
         <Gunplay metal={props.metal} />
+        <br/>
       </>
     )
   }

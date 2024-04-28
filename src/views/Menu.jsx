@@ -1,5 +1,4 @@
 /* eslint-disable react/jsx-key */
-import Metallurgy from './Main/Metallurgy';
 import Creation from './Main/Creation';
 import Cultures from './Main/Cultures';
 import Rules from './Main/Rules';
@@ -50,8 +49,7 @@ function Menu() {
         { title: 'Rules', className: myPage === 1 ? 'selected' : 'unselected', onClick: () => handlePage(1) },
         { title: 'Creation', className: myPage === 2 ? 'selected' : 'unselected', onClick: () => handlePage(2) },
         { title: 'Cultures', className: myPage === 3 ? 'selected' : 'unselected', onClick: () => handlePage(3) },
-        { title: 'Metallurgy', className: myPage === 4 ? 'selected' : 'unselected', onClick: () => handlePage(4) },
-        { title: 'Reference', className: myPage === 5 ? 'selected' : 'unselected', onClick: () => handlePage(5) },
+        { title: 'References', className: myPage === 4 ? 'selected' : 'unselected', onClick: () => handlePage(4) },
     ];
 
 
@@ -69,8 +67,7 @@ function Menu() {
             { myPage === 1 && <Rules game={myGames}/> }
             { myPage === 2 && <Creation creation={myCreations} propped={myProps[0]} rogues={myRogues} /> }
             { myPage === 3 && <Cultures /> }
-            { myPage === 4 && myMetals[0] && myBasics[0] && <Metallurgy basics={myBasics} metals={myMetals} /> }
-            { myPage === 5 && <Reference creation={myCreations} /> }
+            { myPage === 4 && <Reference basics={myBasics} creation={myCreations} metals={myMetals} /> }
         </>
     );
 }

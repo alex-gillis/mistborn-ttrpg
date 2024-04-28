@@ -1,6 +1,7 @@
 /* eslint-disable react/prop-types */
 /* eslint-disable react/jsx-key */
 import { useState } from 'react';
+import Metallurgy from '../Main/Metallurgy';
 import Terms from '../Reference/Terms';
 
 function Reference(props) {
@@ -11,7 +12,8 @@ function Reference(props) {
   }
 
   const pages = [
-    { title: 'Game Terms', className: myPage === 0 ? 'selected' : 'unselected', onClick: () => handlePage(0) }
+    { title: 'Metallurgy', className: myPage === 0 ? 'selected' : 'unselected', onClick: () => handlePage(0) },
+    { title: 'Game Terms', className: myPage === 1 ? 'selected' : 'unselected', onClick: () => handlePage(1) }
   ];
 
   return (
@@ -24,7 +26,8 @@ function Reference(props) {
             ))}
         </div>
         <div id='creation' >
-            { myPage === 0 && <Terms gameTerms={props.creation[2].gameTerms}/> }
+            { myPage === 0 && props.metals[0] && props.basics[0] && <Metallurgy basics={props.basics} metals={props.metals} /> }
+            { myPage === 1 && <Terms gameTerms={props.creation[2].gameTerms}/> }
         </div>
         
     </>

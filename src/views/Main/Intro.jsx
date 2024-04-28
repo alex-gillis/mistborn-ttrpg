@@ -14,7 +14,7 @@ function Intro()
       <>  
         <div>
             <div id="intro">
-                <h2>Introduction to the Final Empire</h2>
+                <h1>Introduction to the Final Empire</h1>
                 Imagine a world, much like our own a few hundred years ago — a world of men, of cobblestone roads and horse drawn carriages, of majestic manor houses and sprawling plantations and massive cities packed with soldiers and citizens, beggars and noblemen, artisans and thieves. <br/>
                 <br/>
                 But then imagine something has gone direly amiss. Thick black clouds blot out the sun, belched by titanic volcanoes dotting the horizon. Rather than rain, ash falls from the sky, always, every day... It stains the buildings, chokes the rivers, and blankets the land like a sea of stained snow. Imagine there are no flowers, no green grass or leafy trees — only stunted brown undergrowth struggling to reach the meager light of a dim red sky. <br/>
@@ -49,7 +49,7 @@ function Intro()
                 
                 {spoilersVisible && (
                     <div id="spoiler">
-                    <h2>To a World Remade</h2>
+                    <h1>To a World Remade</h1>
                         It has been 300 years since Scadrial was remade. 
                         <br/>
                         Three centuries ago, with the world teetering on the brink of annihilation brought about by the dark god Ruin, the humble Terris keeper Sazed took up the power of both Ruin and Preservation and became a new god — <span id='bold'>Harmony</span>. Drawing deeply from his knowledge of the beliefs and histories of the past, Harmony used the moment of this <span id='bold'>Final Ascension</span> to correct the catastrophic mistakes made by the Lord Ruler a thousand years before. He set the planet back in its proper orbit, correcting the climate and eliminating the need for constant ashfall to protect against the harsh rays of the sun. He rejuvenated the land and restored many plants and animals that had gone extinct. He created a region of bountiful land, and then ringed it with mighty mountain ranges to keep it safe from flood and drought. He made what few souls still lived — skaa, noble, Terrisman, kandra, and koloss alike — whole again and granted them his wisdom in his <span id='bold'>Words of Founding</span>. Then he set them free to rebuild what a thousand years of darkness and terror had destroyed. <br/> 

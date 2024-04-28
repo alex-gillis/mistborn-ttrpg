@@ -7,11 +7,12 @@ function Compound(props) {
     
     return (
       < >
-        <h4>Compounding</h4>
+        <h2>Compounding</h2>
         { props.info.compounded }
         <div>
           <Stunts metal={props.metal} />
         </div>
+        <br/>
       </>
     )
   }

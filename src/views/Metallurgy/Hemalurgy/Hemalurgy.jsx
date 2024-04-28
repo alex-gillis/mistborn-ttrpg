@@ -6,12 +6,13 @@ import Spikes from "./Spikes"
 function Hemalurgy(props) {
     return (
       < >
-        <h4>Hemalurgy</h4>
+        <h2>Hemalurgy</h2>
         { props.metal.hemalurgy.lore }
         <br/>
         <Spikes metal={ props.metal } />
         <br/>
         <Blessing bless={ props.metal.hemalurgy.blessing } />
+        <br/>
       </>
     )
   }
