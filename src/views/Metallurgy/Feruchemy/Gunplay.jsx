@@ -14,7 +14,7 @@ function Gunplay(props) {
             {myGunplay?.map((myGun, index) => (
                 <div key={index}>   
                     <span id="bolder">{myGun.name}:</span> {myGun.description}
-                    <br/>
+                    <br/><br/>
                 </div>
             ))}
           </>

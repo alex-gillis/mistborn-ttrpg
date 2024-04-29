@@ -47,9 +47,9 @@ function Character(props) {
                         <tr>
                             <td colSpan={1}>Charm</td>
                             <td id="centered" colSpan={1}>{props.rogue.charm}</td>
-                            <td colSpan={1}>Charm</td>
+                            <td colSpan={1}>Influence</td>
                             <td id="centered" colSpan={1}>{props.rogue.influence}</td>
-                            <td colSpan={1}>Charm</td>
+                            <td colSpan={1}>Reputation</td>
                             <td id="centered" colSpan={1}>{props.rogue.charm + props.rogue.influence}</td>
                         </tr>
                         <tr>
@@ -57,7 +57,7 @@ function Character(props) {
                             <td id="centered" colSpan={1}>{props.rogue.wits}</td>
                             <td colSpan={1}>Spirit</td>
                             <td id="centered" colSpan={1}>{props.rogue.spirit}</td>
-                            <td colSpan={1}>Charm</td>
+                            <td colSpan={1}>Willpower</td>
                             <td id="centered" colSpan={1}>{props.rogue.wits + props.rogue.spirit}</td>
                         </tr>
                     </tbody>

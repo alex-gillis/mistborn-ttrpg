@@ -1415,7 +1415,7 @@
             "allomancy": {
                 "icon": "./assets/alphabet/allomancy/Bendalloy.svg",
                 "lore": "A Misting who can burn Bendalloy is called a Slider. \n\n Burning Bendalloy lets an Allomancer speed time in the immediate vicinity. The character perceives this area as a faintly shimmering “bubble,” outside which everything grinds past at a snail’s pace. He or she can move around inside but leaving the bubble destroys it, snapping everything back to real time. \n\n Those outside the bubble have trouble seeing it, and view the Allomancer and everything else inside the area as non-stop blurs of motion. Anyone other than the Allomancer who enters the area speeds up, and any of them who leave slow down. This experience is jarring for most people, like being caught in the current of a fast-moving river. \n\n The bubble also renders most physical attacks futile, as objects entering and leaving — whether held or thrown — are cast askew. \n\n Bendalloy is generally considered more useful than Cadmium in a number of ways. Those in a Bendalloy bubble act and react with much greater speed than those outside, seizing the initiative with aplomb and dodging attacks with ease. They can filch items in a split-second, complete a disguise before anyone knows they’re making the attempt, and perform complex tasks like cracking safes and conducting research in a fraction of the “usual” time. For all these reasons and more, Bendalloy is a favorite tool of assassins, thieves, and anyone else who relies on the element of surprise. ",
-                "rules": "While burning Bendalloy, you may create a “time-bubble” centered on yourself, within which time speeds up — for each minute outside, a number of minutes may pass inside up to 10 × your Bendalloy rating (i.e. with a Bendalloy rating of 4, up to 40 minutes may pass inside for each minute outside). You must set the time differential when the bubble is created, and it remains the same until the bubble is dismissed or destroyed. You must also choose the bubble’s area, which can extend outward up to 10 paces (Close Range). \n\n Characters and objects crossing into or out of the time-bubble are jolted by the experience... \n\n - Any living being entering or exiting is momentarily disoriented, losing a Beat (see page 136). \n\n - A physical attack made through the bubble, whether held or thrown, is robbed of its kinetic energy, often with an audible “pop.” This makes these attacks nearly impossible to land, and grants the defender — whether it’s you or someone else — a number of “free dice” equal to your Bendalloy rating with each roll made to defend. \n\n Additionally, characters inside the bubble gain the following benefits. \n\n - Your Bendalloy rating is added to each character’s Wits score for the purpose of declaring actions in a Conflict (see page 172). This does not impact the character’s Wits score under any other circumstances. \n\n -  Each time a character in the bubble takes an action against a character outside it, he or she gains a number of dice with that action equal to your Bendalloy rating. \n\n Should your bubble overlap another Bendalloy bubble, the time differential of the overlapping area is equal to the sum of both. Thus, if a bubble set to one minute outside for every 20 minutes inside overlapped with a bubble set to one minute outside for every 5 minutes inside, 25 minutes would pass in the overlapping area for every one minute in the outside world. \n\n If your bubble overlaps a Cadmium bubble, time is either faster in the overlapping area (if your time differential is higher than that of the Cadmium bubble), or slower (if the Cadmium bubble’s time differential is higher). The actual differential is equal to the higher minus t",
+                "rules": "While burning Bendalloy, you may create a “time-bubble” centered on yourself, within which time speeds up — for each minute outside, a number of minutes may pass inside up to 10 × your Bendalloy rating (i.e. with a Bendalloy rating of 4, up to 40 minutes may pass inside for each minute outside). You must set the time differential when the bubble is created, and it remains the same until the bubble is dismissed or destroyed. You must also choose the bubble’s area, which can extend outward up to 10 paces (Close Range). \n\n Characters and objects crossing into or out of the time-bubble are jolted by the experience... \n\n - Any living being entering or exiting is momentarily disoriented, losing a Beat (see page 136). \n\n - A physical attack made through the bubble, whether held or thrown, is robbed of its kinetic energy, often with an audible “pop.” This makes these attacks nearly impossible to land, and grants the defender — whether it’s you or someone else — a number of “free dice” equal to your Bendalloy rating with each roll made to defend. \n\n Additionally, characters inside the bubble gain the following benefits. \n\n - Your Bendalloy rating is added to each character’s Wits score for the purpose of declaring actions in a Conflict (see page 172). This does not impact the character’s Wits score under any other circumstances. \n\n - Each time a character in the bubble takes an action against a character outside it, he or she gains a number of dice with that action equal to your Bendalloy rating. \n\n Should your bubble overlap another Bendalloy bubble, the time differential of the overlapping area is equal to the sum of both. Thus, if a bubble set to one minute outside for every 20 minutes inside overlapped with a bubble set to one minute outside for every 5 minutes inside, 25 minutes would pass in the overlapping area for every one minute in the outside world. \n\n If your bubble overlaps a Cadmium bubble, time is either faster in the overlapping area (if your time differential is higher than that of the Cadmium bubble), or slower (if the Cadmium bubble’s time differential is higher). The actual differential is equal to the higher minus t",
                 "specialRules": [],
                 "burnRate": "Bendalloy burns at a rate of 5 minutes per charge (that pass for you), or 30 seconds per charge while flared.",
                 "flaredEffect": "Flaring Bendalloy provides no additional benefits beyond increasing your Bendalloy rating",
@@ -2551,7 +2551,7 @@
                     "description": "A character has three Attributes — Physique, Charm, and Wits — which gauge his or her innate ability with physical, social, and intellectual tasks. Each Attribute is rated from 2 to 6 dice, with more dice representing more ability."
                 },
                 {
-                    "term": "Beat ",
+                    "term": "Beat",
                     "description": "The ongoing conversation that serves as the engine of the Mistborn Adventure Game is divided into time periods called Beats. Generally a character may act once in each Beat. The actual length of each Beat is arbitrary and chosen by the Narrator, based on the needs of the situation at hand (when more detail is needed, the Beats get shorter). Beats can range from a few seconds each to minutes, hours, days, weeks, months, or even years (if, say, the Crew focuses on prolonged actions that don’t require much description)."
                 },
                 {
@@ -5540,7 +5540,7 @@
             ],
             "era2":[
                 {
-                    "propType":"weapons",
+                    "propType":"Weapons",
                     "props":[
                         {
                             "id":10,
@@ -6329,9 +6329,9 @@
                     "influence":2,
                     "spirit":4,
                     "traits":{
-                        "drive":"Make the nobility suffer",
+                        "drive":"Make the Nobility Suffer",
                         "profession":"Bodyguard",
-                        "speciality":"Spear fighter",
+                        "speciality":"Spear Fighter",
                         "feature":"Heavily Scarred",
                         "personality":"Determined",
                         "extras":[]
@@ -6390,7 +6390,7 @@
                     "influence":4,
                     "spirit":6,
                     "traits":{
-                        "drive":"Empower the week",
+                        "drive":"Empower the weak",
                         "profession":"Survivorist preacher",
                         "speciality":"Allomancy expert",
                         "feature":"Scarred forearms",
@@ -7760,7 +7760,7 @@
                 "part1":"As in the Mistborn novels, physical combat is swift, bloody, and dynamic, rewarding creative use of magic and Traits to get the upper hand. The most common Tools in use are weapons and armor, both of which are detailed later in this section. Terrain plays an important role as well, not only because combats require the most detailed track of where characters are but also because many common Circumstances are prompted by the characters’ surroundings (when they benefit from cover, for example, or take higher ground). \n\n Beats (Conflict Rounds) tend to last 5–10 seconds, depending on the fight’s intensity (the quicker the attacks come, the shorter the Beats should be).",
                 "brandon":"There’s a careful balance here. Combat should be dramatic and interesting, with the players describing how they utilize their characters’ Traits, surroundings, and other factors as part of what they’re doing. The Narrator should encourage awesome actions and reward them when the characters make them work. \n\n At the same time, it’s important to remember that combat is often brutal and quick. Even a tough hero can be knocked out of a fight with one or two hits when facing superior enemies, or if the situation suddenly turns against them. This isn’t a ‘fight everything that moves’ game — combat is dangerous and should be entered with care. When it happens though, it should always have a strong narrative flair."
             },
-            "physical":{
+            "injuries":{
                 "part1":"Physical damage is easy to picture: each successful attack is a solid hit that batters, punctures, hacks, or otherwise harms the target. Single points of damage represent mild wounds and the higher the damage the more severe the resulting injury (barring a Burden or defeat overriding a basic description, of course). \n\n Speaking of physical Burdens, here are a few examples...",
                 "serious":[
                     {
@@ -7843,7 +7843,7 @@
                 "part2":"Certain Burdens have been omitted from these lists — namely any that would permanently cripple the game experience, like paralysis and permanent blindness. With the Narrator’s permission these may be appropriate for Villains, but they should never be applied to Heroes unless the players want the story to venture into very dark and difficult territory."
             },
             "circumstances":{
-                "part1":"In combat, characters can take advantage of a wide range of Circumstances, from beneficial terrain to sound tactics to clever tricks. Of course, all these things can also be used against them, making combat about leveraging what’s around you and making sure your enemies don’t do the same. Some favorable combat conditions include...",
+                "part1":"In combat, characters can take advantage of a wide range of Circumstances, from beneficial terrain to sound tactics to clever tricks. Of course, all these things can also be used against them, making combat about leveraging what’s around you and making sure your enemies don’t do the same. ",
                 "favourable":[
                     {
                         "point":"Character springs an ambush on his or her target (generally with a successful Wits vs. Wits Contest)"
@@ -8094,11 +8094,11 @@
                 },
                 "disarming":{
                     "part1":"Wresting a weapon, shield, or other item out of another character’s hand(s) is a",
-                    "hightlight":"Physique vs. Physique Contest. ",
+                    "highlight":"Physique vs. Physique Contest. ",
                     "part2":"With success the item falls to the wielder’s feet, and if the acting character also scores two or more Nudges he can use them to seize the item. "
                 },
                 "grapple":{
-                    "part1":"Grabbing and attempting to pin another character is also ",
+                    "part1":"Grabbing and attempting to pin another character is also",
                     "highlight":"Physique vs. Physique.",
                     "part2":"If the acting character succeeds, the target is immobilized and may attempt no actions other than trying to get free. This means the target may only spend Action Dice for this purpose (and only once per round), and may not spend Defense Dice at all until he or she wins a subsequent Physique Contest against the character (incoming attacks hit with any matched set unless the character uses Defense Dice to protect the target). \n\n A character holding a target immobile may take one step in any direction each round, though it counts as an adverse condition (see page 141). While holding a target immobile, a character may not perform other actions, including attacks."
                 }
