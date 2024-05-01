@@ -8207,6 +8207,367 @@
                     }
                 ]
             }
+        },
+        {
+            "id":4,
+            "name":"Social",
+            "intro":{
+                "part1":"Clout and station are everything in the Final Empire: noble houses clash to curry favor and wealth from the Lord Ruler; plantation owners compete for Obligator-approved contracts; and idle youth gossip and slander at grandiose balls, trading secrets and lies for fleeting attention and fame. Even outside respected society the vicious social ladder persists: the skaa have their squabbles; merchants and tradesmen compete for the best customers; and weaving between all these social strata, criminals and rebellious upstarts scheme to get ahead, settle scores, and plant seeds of dissent. \n\n Social Conflicts are about smearing the enemy’s integrity in the eyes of others, which often also has the happy effect of elevating the winner’s position in the process. This makes a social struggle very different than a physical combat or a mind game; here it isn’t just about winning — it’s about the opposition losing, preferably with the biggest audience possible. Thus",
+                "highlight1":"it’s important to always keep track of who might see or hear each action and defense, and to consider not only their starting opinions but also how they might react to various strategies from both sides.",
+                "part2":"Ardent supporters are hard to sway, but if a character can make a case that their champion has someone else’s interests at heart, or that his or her views or actions don’t match their own, the delicate relationship can crumble. Less devoted advocates are easier to impress, but turning them doesn’t wound the target as dearly. While luring the uninitiated to one’s side is always helpful, it’s also a long and arduous path to victory.",
+                "highlight2":"Audiences are factored into Social Conflicts in two very different ways.",
+                "part3":"Most directly they’re a driving part of descriptions, as their reactions and shifts in opinion are the primary gauge for how each character and side is faring. This can take many forms, from word of mouth in various social circles to responses from various characters or groups to the general tenor regarding the winner(s) and loser(s) of each Conflict Round.",
+                "example1":"Example: One reason the Bylerum Boys are visiting Luthadel is to shore up support, and possibly sponsorship, with one or more of the Great Houses. Unbeknownst to them, however, this effort is opposed by two Crew members named Sayna and Damosi, who are seeding doubt and distrust for the Bylerums in the same quarters. This is a great example of a Social Conflict, and the audience is all of Luthadel, or at least the powerful nobles acting as gatekeepers for entry into the city’s illustrious social scene.",
+                "part4":"The Conflict rules keep this simple and abstract, each character having just one Reputation score to represent their social footing across the whole of Scadrial, but you may want to introduce groups and individuals whose stances diverge, as this enriches the world and makes it more believable and entertaining.",
+                "example2":"Example: The Bylerum Boys do everything together and so it’s reasonable the Narrator might treat them as a single character in Social Conflicts, using the highest or lowest of their Reputation scores as appropriate to the situation. It’s also reasonable that their Reputation might account for their standing across the whole of the known world, but Brandon finds it much more interesting for the people in various areas to view the Boys differently. This doesn’t mean Brandon has to keep track of separate Reputation scores and attitudes for every city, region, or group. Instead, he defaults to one prevailing attitude about the Boys everywhere and notes variations as they emerge in the story. After this Social Conflict between the Bylerum Boys and members of the Nine Eyes Crew, for example, it’s likely some in Luthadel will view the Bylerum Boys a bit differently than before.",
+                "part5":"This also supports the other way audiences play into Social Conflicts: as the primary way to judge the reception of any Traits, Tools, and Circumstances that are used. Of these, Traits have perhaps the most vital impact, as the right qualities can make or break a character in the eyes of the people; it often isn’t just about putting the right face forward but also leveraging strengths when they’re in favor and downplaying them when they’re not. Tools are less critical and often play no role at all, but secrets... Secrets can mean joyous salvation or ultimate downfall. A well-timed revelation can become a propagandist’s artisan brush, painting a character or opponent just the right color at just the right time to turn heads and change minds.",
+                "highlight3":"Revealing a damaging Minor Secret about an opponent immediately inflicts 2 Reputation damage, and revealing a damaging Major Secret immediately inflicts 4 Reputation damage.",
+                "part6":"This damage is applied the moment the audience is made aware of the Secret — no matter when that occurs in the Conflict Round — and so the target may wind up with a fresh Burden or even disgraced (eliminated from the Conflict) before the round can be completed. Given the importance of having just the right audience, many actions taken in a Social Conflict involve gathering observers and arranging slights and revelations that best speak to them. In fact this is an excellent job for the rest of the Crew and a great way to keep the story lively on several fronts in what could otherwise become a one-man (or one-woman) show.",
+                "highlight4":"Beats (Conflict Rounds) are typically measured in hours to days, weeks, or even months,",
+                "part7":"Which makes this activity ideal as part of the backdrop of an ongoing game. A Crew can undertake many jobs spanning a single Social Conflict — some of them supporting the effort and others unrelated — and the principle characters headlining a Conflict are just as free to pursue other endeavors, so long as the Narrator doesn’t deem a particular period crucial to the Conflict’s success. Indeed, a single Social Conflict may include several Physical and Mental Conflicts, plus any number of other activities, before it reaches its conclusion."
+            },
+            "injury":{
+                "part1":"Social damage represents a gradual decay of the target’s public prominence, and each successful attack is a productive campaign toward that end. Single points of damage may indicate individuals or groups with only minor influence turning their backs on the target, while higher amounts of damage escalate the number and importance of those abandoning the victim. \n\n The options for social Burdens are many and varied but here are some to get you started...",
+                "serious":[
+                    {
+                        "point":"Embarrassed"
+                    },
+                    {
+                        "point":"Doubted"
+                    },
+                    {
+                        "point":"Censured"
+                    },
+                    {
+                        "point":"Local or passing scandal"
+                    },
+                    {
+                        "point":"Turmoil within Crew, noble house, or other group"
+                    },
+                    {
+                        "point":"Seizure of select personal possessions, or a handful of skaa servants"
+                    },
+                    {
+                        "point":"Targeted by opportunistic criminal"
+                    },
+                    {
+                        "point":"Obligator interest (a distraction, with no real merit)"
+                    }
+                ],
+                "grave":[
+                    {
+                        "point":"Humiliated"
+                    },
+                    {
+                        "point":"Criticized"
+                    },
+                    {
+                        "point":"Fined"
+                    },
+                    {
+                        "point":"Citywide or persistent scandal"
+                    },
+                    {
+                        "point":"Ejected from Crew, noble house, or other group"
+                    },
+                    {
+                        "point":"Seizure of a holding and all its contents, or all skaa servants"
+                    },
+                    {
+                        "point":"Targeted by opportunistic Crew"
+                    },
+                    {
+                        "point":"Obligator investigation (with potentially serious charges)"
+                    }
+                ],
+                "mortal":[
+                    {
+                        "point":"Shunned or exiled"
+                    },
+                    {
+                        "point":"Mocked"
+                    },
+                    {
+                        "point":"Denied right to own skaa"
+                    },
+                    {
+                        "point":"Pervasive or unforgettable scandal"
+                    },
+                    {
+                        "point":"Branded enemy by Crew, noble house, or other group"
+                    },
+                    {
+                        "point":"Forfeiture of a holding and all its contents, or all skaa servants"
+                    },
+                    {
+                        "point":"Targeted by opportunistic noble house or military force"
+                    },
+                    {
+                        "point":"Obligator manhunt (found guilty of something)"
+                    }
+                ],
+                "part2":"Burdens that remove a character from play or prevent a Hero from functioning effectively as a member of a Crew have been left out. These include prison detention and death sentences, among others. In some games, these may be appropriate for Villains, however. Chat with the Narrator to determine if these Burdens are right for your group and story."
+            },
+            "circumstances":{
+                "part1":"Social Conflicts take many forms, and relevant Circumstances vary for each. Some Circumstances apply to every Social Conflict, however, primarily those involving the stances on each side and how they’re presented to observers. Keeping in mind that the most important consideration when applying Circumstances is how the audience views them.",
+                "favourable":[
+                    {
+                        "point":"Audience is predisposed to believe the character’s stance"
+                    },
+                    {
+                        "point":"Character has proven trustworthy in the past"
+                    },
+                    {
+                        "point":"Character’s stance is well-reasoned or well-supported (e.g. by hard evidence)"
+                    },
+                    {
+                        "point":"Character’s stance is appealing"
+                    },
+                    {
+                        "point":"Character’s stance is presented at the right time (e.g. a call for revolt shortly after a target in power has persecuted a hero of the people)"
+                    },
+                    {
+                        "point":"Character’s stance is presented at the right place (e.g. at a monument to the audience’s beliefs)"
+                    }
+                ],
+                "adverse":[
+                    {
+                        "point":"Character has proven deceitful in the past"
+                    },
+                    {
+                        "point":"Character’s stance is ludicrous or farcical"
+                    },
+                    {
+                        "point":"Character’s stance is disagreeable"
+                    },
+                    {
+                        "point":"Character’s stance is presented at the wrong time (e.g. a call for revolt shortly after a target in power has brutally killed a hero of the people to send a message to his or her followers)"
+                    },
+                    {
+                        "point":"Character’s stance is presented at the wrong place (e.g. at a monument to the target’s strength)"
+                    }
+                ],
+                "part2":"Again, be careful not to apply the same conditions to both sides of a roll (e.g., in an attacker’s favor and against his or her target), and to leave the strength of each character or side’s Reputation to their Resilience (and the modifiers applied when it drops to 2 or below). \n\n Also remember that audiences are comprised of impressionable people with many viewpoints, and that an audience’s prevailing opinion may not be fair, kind, or even rational. An angry mob whipped into a frenzy may not look fondly on anyone attacking a champion of their perspective, even when they would otherwise find that champion objectionable. Again, priming an audience can be fantastic grist for play leading up to resolving any Conflict Round.",
+                "brandon":"It may be tempting to consider a player’s impassioned (or fumbling) presentation when applying Circumstance modifiers in a Social or Mental Conflict. It’s only natural — everything about the character’s stance and its delivery come from the player, but it’s just as important to remember that players have different strengths and weaknesses, just like their characters. Some are great at strategy, others weave amazing stories with just a few details, and still others can casually drop straight into character and deliver incredible dialog with sublime eloquence and conviction. \n\n Everyone needs to be rewarded for what they bring to the table, and if you’re going to offer dice to the skilled speaker you need to do the same for the tactician, the storyteller, and everyone else. This isn’t to say that you shouldn’t reward strong role play — just that part of the Narrator’s job is being fair, and that often means keeping an eye out for all the amazing things the other players offer."
+            },
+            "tactics":{
+                "part1":"A single Social Conflict may span many rounds, and just as in combat, the participants’ approaches may shift and evolve as the struggle unfolds. Here are a few sample tactics that might be employed in any Social Conflict and the rules to go with them.",
+                "assassination":{
+                    "part1":"Equally popular with young, social-climbing nobles and cunning crew leaders, this tactic relies on rumor mongering, blackmail, and outright lies to shatter a rival’s standing. Character assassination is typically resolved with ",
+                    "highlight":"Charm or Wits vs. Influence, ",
+                    "part2":"And success helps to alienate the target by ridiculing and scorning him before his fellows. Characters attempting this action benefit from Traits like “Good Listener” or “Inviting” (to learn what people are saying about the target), “Master Manipulator” or “Clever Liar” (to warp or exaggerate findings as desired), and “Silver-Tongued” or “Smiling Devil” (to sell the slander). \n\n As the goal is simply ruination, the best Secrets to reveal are those that sully the target’s good name, preferably in the eyes of as many supporters as possible. Strong Circumstances include the target making questionable mistakes or being caught in a lie, while admired allies and transparency support a target’s defense."
+                },
+                "campaign":{
+                    "part1":"In the Byzantine world of Imperial politics and business, lords frequently jockey for position and support. Most of these negotiations are reasonably harmless but a few explode into full-blown mudslinging, both sides striving to elevate or cement their rank and silence or remove threats to their station. \n\n Dirty campaigning is most often resolved with ",
+                    "highlight":"Influence vs. Influence, ",
+                    "part2":"Though Charm or Wits may come into play on either side when a campaign takes the high or low road, respectively. Winning a round with this action earns valuable political capital or weakens the opponent’s place in the hierarchy, or both. Winning the Conflict with this action can oust or demote the opponent, and possibly claim the character a new office or title as well. \n\n Helpful Traits include “Insightful” or “Brilliant Strategist” (to craft a compelling platform or message), “Savvy Negotiator” or “Polished Speaker” (to deliver it), and “Caustic” or “Doomsayer” (to convince those in power that the opponent shouldn’t be). \n\n Secrets should also speak to those in power — the people with the ability to determine who sits in each seat — and the very best Secrets show the opponent either can’t or won’t do what’s expected in a seat, or that he or she doesn’t share ideals with those in charge. Ideal Circumstances say the opposite about the character, and reinforce the opponent’s ineptitude or disloyalty."
+                },
+                "duels":{
+                    "part1":"Though backbiting is part of the game in high society, some insults are simply too much for a lord or lady to brook, and honor duels are a way to keep responses in check. Rather than let the situation escalate out of control, polite parties can agree to a ritual duel with the canes favored by many in the Final Empire. To keep everyone honest and because there’s no victory in solitude, an audience is mandatory, making this very much a social exchange despite its physical nature. \n\n Honor duels are fought like combats and Beats shrink accordingly.",
+                    "highlight":"Physique is the Attribute of the day for both parties, and damage is applied to Reputation.",
+                    "part2":"The first character to 0 winds up skulking away with a bruised ego and a healthy dose of shame, and if the damage was high enough to also reduce his or her Health to 0 — if it had been applied there, as in any normal combat — a stretch of bed rest may also be in order. \n\n “Skillful Swordsman” or “Burly Brawler” may help during an honor duel, as might “Sneaky when Armed” or “Dirty Fighter” if the character’s willing to risk losing a point of Reputation if he or she is found out. “Flashy Fighter” or “Cane Dueler” might also come in handy, the former if the character prefers a bit of ostentatious flair in his or her duels. \n\n Secrets rarely contribute directly to an honor duel, though cane fights are sometimes used to draw attention for the unveiling of a particularly juicy reveal. There’s nothing like delivering that final knockout blow to a Villain just as he realizes you’ve destroyed him, or so Crews say. It’s one of their favorite Circumstances, in fact — right up there with convincing an ex-lover to insult an opponent’s sexual prowess in front of his or her latest obsession."
+                },
+                "brandon":"The Mistborn books feature nighttime assassinations and physical conflicts, but also a great deal of party-going and social interaction. I suggest you indulge in the roleplaying opportunities available at balls, political campaigns, and similar situations. Take advantage of the game’s engine being a conversation and see if you can steer it toward helpful topics, warm up to potential allies, influence others who might be listening, or pry a secret or two out of an unsuspecting mark. \n\n Social Conflicts can be intimate or sprawling but the conversation is always just your playgroup — real people matching wits and merging ideas. Amazing things can happen when you embrace that dynamic and let it guide your story. \n\n Whatever you do, though, I strongly suggest you avoid getting into an insult contest with Hoid."
+            },
+            "example":{
+                "sample":"One reason the Bylerum Boys are visiting Luthadel is to shore up support, and possibly sponsorship, with one or more of the Great Houses. Unbeknownst to them, however, this effort is opposed by two Crew members named Sayna and Damosi, who are seeding doubt and distrust for the Bylerums in the same quarters. This is a great example of a Social Conflict, with an audience of all Luthadel, or at least the powerful nobles acting as gatekeepers for entry into the city’s illustrious social scene.  \n\n The Bylerum Boys do everything together, so Brandon decides to treat them as a single character here, using the highest or lowest of their Reputation scores as appropriate to the situation. Brandon also rules that the Conflict will only directly impact the Bylerums’ standing within the capital city, though he expects fallout may be felt across the Final Empire (Luthadel is the center of everything, after all). \n\n At least at first, the Conflict only involves the Bylerums and the two Crew members (who are working together, and therefore use the best of their rolls). Brandon sets the Beats to “several hours” apiece, which offers enough flexibility for the story to grow organically and allows him to shift the length from Beat to Beat without overly disrupting the perspective. \n\n The first round starts up shortly before the raid on Keep Hasting (detailed in the Physical Conflicts section), and focuses primarily on an intimate gala hosted by House Elariel. Sayna’s alter ego Lady Sabelle has a standing invite to Elariel gatherings, and she brings Damosi along ostensibly as her manservant, though his great knowledge of Luthadel should come in handy as they manipulate the Luthadel luminaries in attendance. Also, Damosi’s never experienced a noble gala like this one before, and he appreciates the additional insight about the upper crust of the Luthadel’s social strata. As a Keeper assigned by the Synod to learn as much as possible about the city, this is an opportunity he simply can’t pass up. \n\n Sayna’s opening salvo involves seemingly “innocent” gossip about the “newcomers staying at Keep Hasting,” and the “dubious things she’s heard about them” in her travels outside the city. She tells anyone who’ll listen that she’s heard they’re “lazy parasites happily riding the coattails of anyone unfortunate enough to associate with them,” and notes that nearly all the Hasting nobles “fled the city rather than spend any time with them.”  \n\n This is straight character assassination and Sayna’s not being coy about it. Brandon decides it’s all about her delivery: her Charm vs. the Bylerums’ Influence. This is true even though the Bylerums aren’t present — their Reputation speaks for itself, which is enough not only to justify a defense roll but to effectively counter-attack if Sayna loses any rolls (tarnishing her Reputation and possibly branding her a troublemaker).  \n\n For simplicity’s sake, Brandon decides the Conflict will unfold like a series of Contests — there are only two sides, and in both cases they’re only producing one Result each. Brandon also rules that revealing the Hasting nobles’ reaction to the Bylerums counts as a Minor Secret, and so any Reputation damage Sayna and Damosi inflict in the first round will increase by 2. \n\n Sayna’s “con woman” Trait applies, and while Brandon decides her tactics are a bit too forward for her to also apply her knack for “disarming innuendo,” he lets her fall back on the fact that she’s “confident.” He also lets her use Zinc instead of Charm on the grounds that while her words will spark suspicions about the Bylerums, her Rioting may fan them into a fire. With a Zinc of 5 and two Traits supporting her effort, Sayna has 7 Action Dice. \n\n Damosi spends the first round among the skaa servants at the gala, making friends and spreading the same rumors. He’s previously stored 12 charges in a Duraluminmind and taps 3 of them to gain 3 dice with his Charm roll, bringing him to 6 Action Dice. \n\n The Bylerums’ Influence is only 4 (they haven’t made very strong inroads anywhere), and since no one knows anything about them, there aren’t any Circumstances to help or hurt their defense. All their Traits focus elsewhere, so they’re stuck with just 4 Action Dice. \n\n Sayna and Damosi resolve their actions first. She rolls two 6’s, two 4’s, one 3, and two 2’s — a Result of 4 with two Nudges, and he rolls one 5, two 3’s, two 2’s, and one 1 — a result of 3 with no Nudges. Brandon rolls for the Bylerums and gets two 4’s, one 2, and one 1 — a Result of 4 with no Nudges. Sayna’s Result is the best between the Heroes, and though her Result ties the Bylerums’ defense, she wins out with Nudges. The Heroes’ efforts are successful, and in the hours leading up to the raid, the nobility (and their servants) are already speaking ill of Carrow and Cordal Bylerum. \n\n The Heroes devote both Nudges to damage (needing to turn the nobility against the Bylerums quickly), which means the Bylerums lose a total of 5 Reputation (base 1, plus 2 for Nudges, plus 2 for the Minor Secret the Heroes revealed). The Bylerums’ full Reputation is 8 (they’re not incredibly charming either), and so this not only brings them to less than half but leaves them with a Grave Burden, which Brandon and the Heroes discuss, settling on “Humiliation.” \n\n As the gala winds down for the night, the raid on Keep Hasting spins up across the city. The Crew’s scheme is off to a fine start."
+            }
+        },
+        {
+            "id":5,
+            "name":"Mental",
+            "intro":{
+                "part1":"The first and most critical thing to know about Mental Conflicts is what they’re not: ",
+                "points":[
+                    {
+                        "point":"Mental Conflicts are not mind control. It’s true that defeat can potentially compel a target to act outside his or her typical mindset, but this doesn’t mean the target is emotionally shattered or a slave. Defeat merely compels the target to act on one emotion or impulse, nothing more. In all likelihood, the target will immediately regret any action that directly violates his or her personal values, which may be enough for the target to come looking for payback, perhaps in kind."
+                    },
+                    {
+                        "point":"Mental Conflicts should not be your destination for all efforts to convince or coerce. Most of the time a Challenge is enough, and against Extras you may even want to go with a no-frills Challenge."
+                    },
+                    {
+                        "point":"Finally, Mental Conflicts are not a replacement for roleplay. In fact, there’s more reason to let roleplay guide the application of Circumstance dice here than in any other Conflict (though social struggles come in a close second)."
+                    }
+                ],
+                "part2":"So what are Mental Conflicts then? They’re intended for any competition in which the character is seeking to profoundly or dramatically impact the target’s thinking and responses for a time, especially if the tactics used are likely to inflict emotional or psychological trauma along the way. Most emotional Allomancy falls into this category, as do insidious acts like terrorism and torture. Seduction is often an unlikely candidate as well, if only because enticement of the heart and mind is often too intimate, fragile, and telling for a single roll. \n\n Mental Conflicts are a little like combat: the drama is one-on-one, and the only way an audience generally gets involved is as leverage (there’s nothing like dragging friends and family into a mind game to really push the envelope). Also, set up and framing are paramount, though not to establish where everyone is and what they’re carrying. Here you need to clearly define the emotion or impulse the Conflict is manipulating, as this will be your touchstone for every resolution and description to the bitter end. \n\n Remember, this isn’t about deciding the one thing the target must do — it’s about identifying a feeling or urge you think will produce the desired act."
+            },
+            "injury":{
+                "part1":"Mental damage slowly erodes resolve, each successful attack whittling away at the target’s psyche until he or she has no choice but to give in to the attacker’s demands. Single points of damage trigger moments of self-doubt and indulgence in the attacker’s ideas, while higher damage may leave the target struggling with fundamental questions of identity, self-worth, and personal values. Enough damage can even prompt a significant personality change or psychotic break. Mental Burdens run the full gamut; if the brain can conceive it, a target can fall victim to it...",
+                "serious":[
+                    {
+                        "point":"Depression or withdrawal"
+                    },
+                    {
+                        "point":"Uncommon phobia (e.g. kandra or plants)"
+                    },
+                    {
+                        "point":"Flashbacks"
+                    },
+                    {
+                        "point":"Fascination"
+                    },
+                    {
+                        "point":"Nightmares"
+                    },
+                    {
+                        "point":"Anxiety"
+                    },
+                    {
+                        "point":"Temporary amnesia (a day or less"
+                    },
+                    {
+                        "point":"Dramatic outbursts"
+                    }
+                ],
+                "grave":[
+                    {
+                        "point":"Violent mood swings"
+                    },
+                    {
+                        "point":"Common phobia (e.g. Terris people or metal)"
+                    },
+                    {
+                        "point":"Delusions or dementia"
+                    },
+                    {
+                        "point":"Compulsion"
+                    },
+                    {
+                        "point":"Night terrors"
+                    },
+                    {
+                        "point":"Nausea"
+                    },
+                    {
+                        "point":"Temporary amnesia (many days or longer)"
+                    },
+                    {
+                        "point":"Mania"
+                    }
+                ],
+                "mortal":[
+                    {
+                        "point":"Split personality"
+                    },
+                    {
+                        "point":"Omnipresent phobia (e.g. skaa or ash)"
+                    },
+                    {
+                        "point":"Hallucinations"
+                    },
+                    {
+                        "point":"Obsession"
+                    },
+                    {
+                        "point":"Blackouts"
+                    },
+                    {
+                        "point":"Paranoia"
+                    },
+                    {
+                        "point":"Permanent amnesia"
+                    },
+                    {
+                        "point":"Mute"
+                    }
+                ],
+                "part2":"As usual Burdens that deny free will or shut down the game are not included. On the mental end these include catatonia and suicidal tendencies. Either of these might be appropriate for Villains, with the Narrator’s approval."
+            },
+            "circumstances":{
+                "part1":"Despite its inherently hostile intentions, a Mental Conflict relies heavily on the character’s relationship with the target. The more the target believes the character’s claims, whether they’re promises or threats, the more inclined he or she will be to go along with the plan.",
+                "favourable":[
+                    {
+                        "point":"Target’s risk is slight (e.g. loss of irrelevant item or betraying an oft-violated principle)"
+                    },
+                    {
+                        "point":"Target’s incentive is great (e.g. coveted prize or long-sought achievement)"
+                    },
+                    {
+                        "point":"Character has previously delivered on promises made to the target"
+                    },
+                    {
+                        "point":"Character’s approach is novel or clever"
+                    },
+                    {
+                        "point":"Character’s approach is careful and measured"
+                    },
+                    {
+                        "point":"Character can back up any threats he or she makes (or so the target believes)"
+                    },
+                    {
+                        "point":"Character has twice as much time as needed for planning and preparation"
+                    }
+                ],
+                "adverse":[
+                    {
+                        "point":"Target’s risk is great (e.g. loss of loved one or betraying a cherished ideal)"
+                    },
+                    {
+                        "point":"Target’s incentive is slight (e.g. unexciting prize or immaterial achievement)"
+                    },
+                    {
+                        "point":"Character has previously broken promises made to the target"
+                    },
+                    {
+                        "point":"Character’s approach is uninspired or predictable"
+                    },
+                    {
+                        "point":"Character’s approach is reckless and rushed"
+                    },
+                    {
+                        "point":"Character’s threats, if any, appear hollow to the target"
+                    },
+                    {
+                        "point":"Character has half as much time as needed for planning and preparation"
+                    }
+                ],
+                "part2":"Apply each condition for or against the character, but not both, and be sure not to factor in the target’s Resilience or Burdens as Circumstances, as they’re already impacting his or her dice.",
+                "brandon":"Mental Conflicts occasionally target multiple characters at once. When this happens each target rolls and the best of their results is used — just like any group of characters working together (see page 157). Beyond a few characters this becomes quite cumbersome, however, and in these cases we recommend rolling once for everyone, awarding a free Nudge for every 10 characters in the crowd (maximum 5 free Nudges). This should only be done with Extras, of course — Heroes and Villains are far too important for this treatment."
+            },
+            "tactics":{
+                "intro":"A diverse range of strategies is perhaps more important in a Mental Conflict than in any other, as it can keep the target on edge, unsure what to expect next and uneasy about his or her future. Couple this with an array of options that can take anywhere from moments to minutes to weeks and you’re looking at a highly unpredictable time frame.",
+                "blackmail":{
+                    "part1":"A favorite of con men and less-principled crews, blackmail exploits a Secret to coerce the target, which in addition to general stress may also force an action of the blackmailer’s choice (e.g. threats of a noble’s infidelity could be leveraged to lift his or her crackdown of a skaa slum). This eliminates the chance to use the Secret to inflict Willpower damage, and only forces the desired action if the blackmailer wins the round",
+                    "highlight1":"(Charm vs. Spirit).",
+                    "part2":"Blackmail can also be used to simply harass (without demanding action), and a character or Crew can harass through other means as well (by regularly intercepting a noble house’s shipments of metal, or arranging repeated events that annoy a character or complicate his or her life). Because there are so many ways to harass, the specific Attributes or Standings in play may vary, though most provocations of this type involve",
+                    "highlight2":"Wits, Influence, or Spirit vs. the target’s Spirit.",
+                    "part3":"One of the most effective harassment techniques is actually one-sided, with the target unsure who’s responsible for his or her troubles, or unaware there’s a common source at all. In these cases, the target may defend as usual but may only act on information at his or her disposal. This may prevent counter-attacks until the aggressor is identified. \n\n A target on the losing end of a blackmail or harassment round may become frustrated or more easily lose his or her temper, and the Narrator should take this into consideration when applying Circumstances, and sometimes Traits. A target losing a Conflict to blackmail or harassment may be coerced or browbeaten to action, though again, this isn’t a method of circumventing free will — the target may still refuse and accept the consequences (the Secret being revealed, continued aggravation, or whatever else the character has in mind). Many times blackmail or harassment will result in the target yielding long before his or her Willpower is gone, however, and it’s perfectly reasonable for an attacker to plan for that.",
+                    "highlight3":"Beat lengths can shift dramatically",
+                    "part4":"when blackmail and harassment are employed, the duration of the conflict can vary based on the complexity of the attacker’s scheme. For example, what starts with a Crew breaking into a character’s home and stealing several crucial items (and a Beat of a single night, unless the scene is portrayed moment to moment like a combat) may escalate to the Crew setting up unwanted detours and delays during a vital trip for the character (and the Beats shifting to a day or more). \n\n Traits a blackmailer or harasser may benefit from include “Keen Observer” or “Cutting Quips” (to pin down the most effective way to get under the target’s skin), “Ingenious Mind” or “Puzzle Master” (to erect complex traps), and “Favors the Shadows” or “Always One Step Ahead” (to stay undetected)."
+                },
+                "torture":{
+                    "part1":"The goal of interrogation is to break a captive’s mind so information or a confession may be extracted. Torture is often used in much the same way but resorts to breaking the captive’s body as well. Both can be used without a goal beyond breaking the target, mentally or physically, and all these tactics are regularly employed by guards, Obligators, and Inquisitors across the Final Empire.",
+                    "highlight1":"Both interrogation and torture attack the target’s Willpower",
+                    "part2":"the former with Wits and the latter with Physique (or sometimes Charm, as when promising to end a target’s suffering or offering other incentives). Winning a round with either tactic may elicit minor details and cracks in the target’s composure, and if the Conflict is won in this fashion the target is no longer able to resist the attacker’s demands and releases the information or confesses as prescribed. \n\n This is a rare exception to the rule that every character maintains free will, as the target is momentarily so overwhelmed by the experience that he or she loses control. Indeed, the target may assume a previous stance, or a new one, as soon as he or she recovers — which is why many attackers keep these tactics going long after a target submits, if they don’t outright eliminate the target as soon as they have what they need.  \n\n There’s a flip side to the equation as well — as interrogation and torture involve direct interaction.",
+                    "highlight2":"the target can launch counter-attacks against Willpower",
+                    "part3":"Usually with Spirit or Wits but sometimes with Charm (laughing off the instigator’s efforts), or even Influence or Resources (offering the instigator something to rethink the Conflict). Victories in each round show cracks in the instigator’s resolve, and if the target wins the Conflict the instigator becomes disinterested or disillusioned, realizes the effort is futile, or simply gives up the fight, at least until he or she recovers some Willpower. \n\n Obviously",
+                    "highlight3":"interrogation and torture aren’t the stuff of Heroes",
+                    "part4":"and the Narrator should take great care when entertaining such tactics from characters claiming to stand on the side of right. Traits applied to the effort may take on new meaning, no longer supporting gallant actions, and repeated use may even swap a Trait out for a more fitting term. Advancements may not be merited when interrogation and torture are used to earn them. If word spreads that a “Hero” resorted to such wicked techniques, the Narrator may even be within his or her rights to apply as much Reputation damage to the instigator(s) as the target suffers in Willpower, and any instigator disgraced in the process may find him or herself branded an enemy by honorable friends and allies.",
+                    "highlight4":"The Narrator determines the Beat length of interrogation or torture",
+                    "part5":"again, based on the specific methods used. A “friendly conversation” could hit high points (i.e., the ends of rounds) every few moments or every few hours, depending on the aggressiveness of the interviewer(s) and the evasiveness of the target. Torture might be administered as quick bursts of torment between questions or demands, or days of cruelty leading up to crucial moments in a longer campaign of mental assault. \n\n Traits supporting interrogation and torture include “Reads Body Language” and “Smells Weakness” (to know the right questions to ask), “Biting Commentary” and “Hits Where it Hurts” (to “ask” in the right way), and “Gifted Storyteller” and “Intimidating Demeanor” (to illustrate the consequences or answering “incorrectly”)."
+                },
+                "seduction":{
+                    "part1":"At the “lighter” end of the Mental Conflict spectrum are seduction and tests of will, both of which are called upon frequently by nobles, swindlers, duelists, and even skaa (though usually only targeting their own). These tactics are grouped together as their methods and goals are very similar. Seductions aren’t always romantic, and when you consider that many of the most prestigious trade negotiations are little more than each side trying to entice the other with stronger and stronger offers, or that many duelists never draw their weapons, instead preferring to win or lose in their target's eyes, the comparison becomes clear.",
+                    "highlight1":"Seduction usually resolves with Charm vs. Spirit",
+                    "part2":"Though an attacker may want to spice things up with Wits (“You know you want to...”), Influence or Resources (“I can make it worth your while...”), or even Physique if the encounter is amorous (“Are you really going to pass this up?”).",
+                    "highlight2":"Tests of will are usually handled with Spirit vs. Spirit",
+                    "part3":"Though there’s always room for debate (Wits vs. Spirit), to show what’s on offer (Charm vs. Spirit), or to barter for the target’s cooperation (Influence or Resources vs. Spirit). Winning a round with either tactic means a moment of hesitation on the other side, while winning the Conflict can sway the opposition (at least for a time), win an argument or debate, close a lucrative deal (at least from the winner’s perspective), or yes, even convince the object of a character’s affections that he or she should give the character a chance (or make it very clear to a losing character that said object is not, and won’t ever be, interested).",
+                    "highlight3":"Beat lengths are determined by the specific approach",
+                    "part4":"As usual, though seductions and tests of will are more likely to happen alongside or even during combat than any other mental conflict. Points and counterpoints can often be made in the blink of an eye and some Conflicts of this nature are actually won with the blink of an eye, especially when it betrays inner hesitation or conviction. \n\n Many Traits are helpful during seductions and tests of will, whether they’re romantic or not. Consider “Shrewd Bargainer,” “Dashing Duelist,” or “Animal Magnetism” (to win over the target with charisma), “Power Broker,” “Blood on My Hands,” or “Burly Protector” (to win them over with strength), or “Artful Presenter,” “Never Flinches,” or “Cool and Collected” (to win them over with confidence)."
+                },
+                "emotion":{
+                    "part1":"Emotional Allomancy is often considered harmless (if somewhat nefarious). It’s used primarily to push feelings someone already has and make their decisions easier, but it can also be used in overt and invasive ways to bend or even break a victim’s will. Flared Soothing, for example, deadens the target from others, leaving him or her a near-sociopath, while flared Rioting can cause a person already in the right mood to fly into a virtually mindless state of frenzy. \n\n When an Allomancer flares Brass or Zinc, he or she rolls",
+                    "highlight1":"the metal vs. the targets Spirit, attacking the target’s Willpower",
+                    "part2":"and in many cases — especially when the target is high-profile or the consequences are pivotal to the plot — the Narrator may call for a Mental Conflict. As rounds are won, the target grows more and more detached or hysterical until, when and if the Conflict is won, he or she falls into a catatonic depression (if Soothed) or lashes out with extreme passion (if Rioted). \n\n A lot of the time the target may not even be consciously aware of this manipulation but",
+                    "highlight2":" his or her mind still gets to defend itself",
+                    "part3":"And this is represented with standard Conflict resolution (including counter-attacks using Spirit against the attacker’s Brass or Zinc). Each time a target wins a round, the attacker’s certainty wavers until eventually he or she gives up the attempt (at 0 Willpower).",
+                    "highlight3":"Beat lengths tend to be very short for emotional Allomancy",
+                    "part4":"Ranging in seconds, this technique is often used as part of other Conflicts, whether mental, social, or physical. \n\n Only very specific Traits help with emotional Allomancy. “Calming Voice” can sometimes help when flaring Brass, just as “Sarcastic Instigator” may periodically play into flaring Zinc. The most important question when applying Traits here is whether they help promote the desired feeling in the target. \n\n For more about Zinc and Brass, including how to flare them, see pages 325 and 331, respectively."
+                }
+            },
+            "example":{
+                "sample":"Not content to merely send two highly trained, well-equipped fighters into Keep Hasting, Crew leader Beck backs them up with more Crew members, one of which is the kandra shapeshifter JeHoy. The shapeshifter is smuggled into the keep by another Crew member, Gavon, who already works there as a steward, and once inside JeHoy assumes the form of a skaa servant woman who was recently murdered to cover up her torrid affair with the keep’s captain of the guard. \n\n (Beck learned of the skaa woman’s death and followed the lead back to her grieving brother, and he promised vengeance for the survivor if he could borrow the dead woman’s bones for a time. Though confused and disgusted, the brother was ultimately won over by Beck’s determination, and he provided the bones that JeHoy now uses to assume the dead woman’s form.) \n\n In the hours leading up to the raid on Keep Hasting, JeHoy periodically appears as the servant girl, though only when no one but the captain of the guard can see her. Beck hopes that the captain will become so preoccupied with visions of his dead lover that he’ll ignore his duties. \n\n This part of the story unfolds as a Mental Conflict between just two characters — JeHoy and the captain of the Keep Hasting guard — with the captain’s mental stability hanging in the balance. \n\n Brandon sets the Beats to an hour apiece, which means the whole of the Conflict will be over before the raid begins. Despite this, none of the players will know exactly what comes of JeHoy’s victory (or loss) until Koel and Thorrow are on the scene. \n\n In the first round, JeHoy appears to the captain in the late afternoon, as he’s drilling the men. She keeps her distance, hovering in a distant doorway but making sure she’s close enough for him to clearly make her out. She pulls away as he approaches, and she’s gone before he can follow. \n\n This is harassment, pitting JeHoy’s Wits of 5 against the captain’s Spirit of 4. JeHoy’s “infiltrator” Trait applies, and Brandon also rules that the risk to the captain is so high if the servant actually lived, that JeHoy gains a Circumstance die as well. JeHoy has 7 Action Dice, while the captain has 4. To keep this simple, Brandon sets this Conflict up as a series of Contests as well. \n\n JeHoy rolls one 5, one 4, three 3’s, and two 1’s — a Result of 3 with no Nudges, and the captain rolls two 5’s and two 2’s — a Result of 5 with no Nudges. The captain wins the first round, dismissing the vision as a trick of the late afternoon sun. JeHoy suffers 1 Willpower damage from discouragement. This drops her from 9 to 8 Willpower — not enough for a Burden. \n\n The second round occurs at dinner, and JeHoy decides it’s time for a bit of a scene. She appears as the servant woman again, this time drawing the captain’s attention as she carries a platter into the kitchen. The Action Dice are the same, and this time JeHoy wins with a Result of 3 with three Nudges. She commits only one Nudge to damage, pouring the other two into eliminating the captain’s Action Dice during the third round, which she hopes will end this once and for all. \n\n The captain’s Willpower drops from 8 to 6, enough to inflict a Serious Burden, which both Brandon and JeHoy agree should manifest as heightened anxiety. The captain rushes into the kitchen, screaming about the woman no one’s seen in days, and the other servants do what they can to avoid him for the rest of the night. \n\n As the third round starts the captain is holed up in his private rooms, drinking more than he should (Brandon decides this is a great way to showcase his lower Action Dice). The captain’s trying to forget the woman he’s been seeing all day but his mind drifts to her anyway... To the winsome smile she would sneak at him when the nobles weren’t looking... To the tiny ashprints her feet would leave as they walked together late at night... And to the locket he gave her days before he had to kill her... The one he left on her body as a final apology for all the pain he’d brought into her life. \n\n The locket sitting on his pillow as he stumbles into his bedroom! \n\n The servant girl’s brother also loaned Beck the locket, and JeHoy has left it for the captain to find as what she hopes will be a masterstroke in her ploy. \n\n Brandon gives her a Tools die, and with the extra die she gets by applying the captain’s new Burden she’s rolling 9 dice this round against the captain’s paltry 2. She gets three 6’s, three 5’s, two 3’s, and one 1 — a Result of 5’s with three Nudges, while the captain gets nothing (one 4 and a 2). JeHoy could spend all three Nudges to inflict 4 Willpower damage, but she only needs 3 for a Grave Burden and has an interesting suggestion for the remaining Nudge. \n\n The captain races out of his rooms, screaming his lover’s name, and"
+            }
         }
     ]
 }
