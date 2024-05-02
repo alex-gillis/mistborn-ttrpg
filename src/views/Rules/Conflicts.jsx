@@ -21,6 +21,7 @@ import Range from './Physical/Range';
 import Weapon from './Physical/Weapons';
 import Armor from './Physical/Armor';
 import PhyTactics from './Physical/Tactics';
+import Guns from './Physical/Guns';
 import Sample from './Physical/Sample';
 // Social Imports
 import SocIntro from './Social/Intro';
@@ -64,7 +65,8 @@ function Conflicts(props) {
       { title: 'Range & Movement', onClick: () => handleSection(15) },
       { title: 'Weapons & Armor', onClick: () => handleSection(16) },
       { title: 'Combat Tactics', onClick: () => handleSection(17) },
-      { title: 'Combat Sample', onClick: () => handleSection(18) }
+      { title: 'Guns & Gunplay', onClick: () => handleSection(29) },
+      { title: 'Combat Example', onClick: () => handleSection(18) }
     ];
 
     const socials = [
@@ -72,7 +74,7 @@ function Conflicts(props) {
       { title: 'Social Damage', onClick: () => handleSection(20) },
       { title: 'Circumstances', onClick: () => handleSection(21) },
       { title: 'Social Tactics', onClick: () => handleSection(22) },
-      { title: 'Combat Sample', onClick: () => handleSection(23) }
+      { title: 'Combat Example', onClick: () => handleSection(23) }
     ];
 
     const mentals = [
@@ -80,7 +82,7 @@ function Conflicts(props) {
       { title: 'Mental Damage', onClick: () => handleSection(25) },
       { title: 'Circumstances', onClick: () => handleSection(26) },
       { title: 'Mental Tactics', onClick: () => handleSection(27) },
-      { title: 'Combat Sample', onClick: () => handleSection(28) }
+      { title: 'Combat Example', onClick: () => handleSection(28) }
     ];
 
     return (
@@ -141,6 +143,7 @@ function Conflicts(props) {
             {mySection === 16  && <Weapon weapons={props.phys.weapons}/>}
             {mySection === 16  && <Armor armor={props.phys.armor}/>}
             {mySection === 17  && <PhyTactics tactics={props.phys.tactics}/>}
+            {mySection === 29  && <Guns gunplay={props.phys.gunplay}/>}
             {mySection === 18  && <Sample sample={props.phys.sample}/>}
             {/* Social Conflict Section */}
             {mySection === 19  && <SocIntro intro={props.soci.intro}/>}

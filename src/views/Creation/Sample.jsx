@@ -13,7 +13,7 @@ function Sample(props) {
           {props.hero.info}
         </div>
         <div id="sampleDisplay">
-            <div>
+            <div className="sheet">
                 {/* <img className="heroSample" src={props.hero.sheet} alt={altSheet}/>
                 <br/>
                 <span className="sampleText" id="bolder">{props.hero.name}`s Character sheet</span>

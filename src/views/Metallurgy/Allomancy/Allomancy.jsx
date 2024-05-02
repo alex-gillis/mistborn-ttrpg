@@ -26,6 +26,7 @@ function Allomancy(props) {
               <SpecialRule rule={myRule} />
             </div>
         ))}
+        <br/>
         <Burn metal={props.metal} />
         <Flare metal={props.metal} />
         <Savant metal={props.metal} />

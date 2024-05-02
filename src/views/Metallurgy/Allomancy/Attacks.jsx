@@ -5,9 +5,11 @@ function Attack(props) {
             < >
             <br/>
             <br/>
-            <span id="bolder">Ironpulling Attacks:</span>
-              <table>
+              <table id="brandon">
                 <tbody>
+                  <tr>
+                      <th colSpan={3} className="centered">Ironpulling Attacks</th>
+                  </tr>
                   <tr>
                       <th>Object</th>
                       <th>Damage</th>
@@ -38,9 +40,11 @@ function Attack(props) {
             < >
             <br/>
             <br/>
-            <span id="bolder">Steelpushing Attacks:</span>
-              <table>
+            <table id="brandon">
                 <tbody>
+                  <tr>
+                      <th colSpan={3} className="centered">Steelpushing Attacks</th>
+                  </tr>
                   <tr>
                       <th>Object</th>
                       <th>Damage</th>
@@ -72,7 +76,7 @@ function Attack(props) {
             < >
             <br/>
             <br/>
-              <table>
+            <table id="brandon">
                 <tbody>
                   <tr>
                       <th>Difficulty</th>
@@ -100,7 +104,6 @@ function Attack(props) {
                   </tr>
                 </tbody>
               </table>
-            <br/>
             </>
     
         ) 
@@ -109,7 +112,7 @@ function Attack(props) {
             < >
             <br/>
             <br/>
-              <table>
+            <table id="brandon">
                 <tbody>
                   <tr>
                       <th>Difficulty</th>
@@ -137,7 +140,6 @@ function Attack(props) {
                   </tr>
                 </tbody>
               </table>
-            <br/>
             </>
     
         ) 
@@ -146,7 +148,7 @@ function Attack(props) {
             < >
             <br/>
             <br/>
-              <table>
+            <table id="brandon">
                 <tbody>
                   <tr>
                       <th>Difficulty</th>
@@ -174,14 +176,12 @@ function Attack(props) {
                   </tr>
                 </tbody>
               </table>
-            <br/>
             </>
     
         ) 
     } else  {
         return ( 
         < >
-            <br/>
         </>
         )
     }

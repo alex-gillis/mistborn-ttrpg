@@ -3,8 +3,8 @@ function Stunt(props) {
 
     return (
       < >
-        <span id="bolder">{props.stunt.name}:</span> {props.stunt.description}
-        <br/><br/>
+        <li><span id="bolder">{props.stunt.name}:</span> {props.stunt.description}</li>
+        <br/>
       </>
     )
   }

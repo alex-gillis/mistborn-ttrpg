@@ -8,10 +8,9 @@ function Character(props) {
                 <span id="bold" className="concept">Concept:</span> <span id="italicked">{props.rogue.concept}</span>
             </div>
             <div className="wiggleRoom" id="necessary">
-                    <span id="bold">Crew Name:</span> <span id="italicked">{props.rogue.crew}</span>
-                    <span id="bold" className="concept">Cause:</span> <span id="italicked">{props.rogue.cause}</span>
-                    <span id="bold" className="concept">Target:</span> <span id="italicked">{props.rogue.target}</span>
-                    <span id="bold" className="concept">Method:</span> <span id="italicked">{props.rogue.method}</span>
+                    <span id="bold">Crew Name:</span> <span id="italicked">{props.rogue.crew}</span><span id="bold" className="concept">Cause:</span> <span id="italicked">{props.rogue.cause}</span>
+                    <br/>
+                    <span id="bold" className="concept">Target:</span> <span id="italicked">{props.rogue.target}</span><span id="bold" className="concept">Method:</span> <span id="italicked">{props.rogue.method}</span>
             </div>
             <div className="wiggleRoom">
                 <span id="bold">Race:</span> <span id="italicked">{props.rogue.race}</span>
@@ -103,7 +102,7 @@ function Character(props) {
                                 <td>Stunts</td>
                             </tr>
                                 {props.rogue.powers.map((item, index) => (
-                                    <tr key={index}>
+                                    <tr key={index} className="justified">
                                         <td>{item.power}</td>
                                         <td>{item.type}</td>
                                         <td>{item.rating}</td>

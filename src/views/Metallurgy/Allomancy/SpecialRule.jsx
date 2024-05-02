@@ -3,7 +3,7 @@ function SpecialRule(props) {
 
     return (
       < >
-        <span id="bolder">{props.rule.name}: </span>{props.rule.rule}
+        <span id="bolder">{props.rule.name}:</span> {props.rule.rule}
         <br/>
       </>
     )

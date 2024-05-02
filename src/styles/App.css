@@ -120,7 +120,7 @@ header {
 }
 
 #character {
-  text-align: left;
+  text-align: center;
   max-width: 700px;
   height: 85%;
 }
@@ -312,6 +312,7 @@ header {
 .heroSample {
   width: 85%;
   height: 85%;
+  min-width: 250px;
 }
 
 .index-button {
@@ -327,6 +328,10 @@ header {
 
 .index-button:hover {
   opacity: 1;
+}
+
+.justified {
+  text-align: justify;
 }
 
 .propTable {
@@ -352,6 +357,15 @@ header {
 
 .selected:hover {
   opacity: 1;
+}
+
+.sheet {
+  border-color: white;
+  border-top-style: double;
+  border-bottom-style: double;
+  border-right-style: dotted;
+  border-left-style: dotted;
+  margin-right: 25px;
 }
 
 .unselected {

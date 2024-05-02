@@ -12,11 +12,13 @@ function Stunts(props) {
       return (
         < >
           <h4>Allomantic { props.metal.name } Stunts</h4>
-          {myStunts?.map((myStunt, index) => (
-              <div key={index}>
-                <Stunt stunt={myStunt} />
-              </div>
-          ))}
+          <ul>
+            {myStunts?.map((myStunt, index) => (
+                <li key={index}>
+                  <Stunt stunt={myStunt} />
+                </li>
+            ))}
+          </ul>
         </>
       )
     }
