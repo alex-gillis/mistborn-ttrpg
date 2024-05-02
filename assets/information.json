@@ -5316,6 +5316,7 @@
     ],
     "propped": [ 
         {
+            "title":"Sample Equipment",
             "era1": [
                 {
                     "propType": "Weapons",
@@ -5922,6 +5923,1069 @@
             ],
             "firstNote": "* Each time you choose this item, the maximum number of Props you may have drops by 1 (e.g. your maximum Props drops by 2 if you choose both a stone spear and a large wooden shield).",
             "secondNote": "** The Narrator may let you choose from a broader selection of metals if more have been discovered (this may depend on when your story occurs, or different factors if your story diverges from what’s in the novels). Choosing these items may reduce your maximum Props by 1 or even 2 if the Narrator determines that these additional metals are particularly powerful or scarce (such as Duralumin).",
+            "thirdNote":"† Only koloss and koloss-blooded characters make take this as a Prop"
+        },       
+        {
+            "title":"Full Equipment",
+            "era1": [
+                {
+                    "propType": "Melee Weapons",
+                    "props":[
+                        {
+                            "id":0,
+                            "item":"Club",
+                            "desc":"Favored weapon of rebels and thugs; contains no metal",
+                            "difficulty":"1",
+                            "damage":"+1",
+                            "range":"Touch / Striking"
+                        },
+                        {
+                            "id":1,
+                            "item":"Dagger",
+                            "desc":"Steel blade favored by thieves and assassins",
+                            "difficulty":"1",
+                            "damage":"+1",
+                            "range":"Touch / Touch"
+                        },
+                        {
+                            "id":2,
+                            "item":"Dueling cane",
+                            "desc":"Stone-headed cane carried by nobles for defense and duels; contains no metal",
+                            "difficulty":"2",
+                            "damage":"+2",
+                            "range":"Touch / Striking"
+                        },
+                        {
+                            "id":3,
+                            "item":"Hammer",
+                            "desc":"Two-handed working man’s hammer",
+                            "difficulty":"1",
+                            "damage":"+1",
+                            "range":"Touch / Striking"
+                        },
+                        {
+                            "id":4,
+                            "item":"Koloss blade †",
+                            "desc":"Massive chopping blade prized by the koloss",
+                            "difficulty":"4",
+                            "damage":"+4",
+                            "range":"Striking / Striking"
+                        },
+                        {
+                            "id":5,
+                            "item":"Obsidian axe",
+                            "desc":"Signature weapon of Steel Inquisitors; contains no metal",
+                            "difficulty":"4",
+                            "damage":"+3",
+                            "range":"Striking / Striking"
+                        },
+                        {
+                            "id":6,
+                            "item":"Obsidian dagger",
+                            "desc":"Popular weapon of Mistborn, often carried in pairs; contains no metal",
+                            "difficulty":"2",
+                            "damage":"+1",
+                            "range":"Touch / Touch"
+                        },
+                        {
+                            "id":7,
+                            "item":"Spear",
+                            "desc":"Iron-tipped spear favored by hunters, rebels, and soldiers",
+                            "difficulty":"2",
+                            "damage":"+2",
+                            "range":"Striking / Striking"
+                        },
+                        {
+                            "id":8,
+                            "item":"Staff",
+                            "desc":"Favored weapon of rebels and thugs; contains no metal",
+                            "difficulty":"1",
+                            "damage":"+1",
+                            "range":"Striking / Striking"
+                        },
+                        {
+                            "id":9,
+                            "item":"Stone hammer",
+                            "desc":"Rare hammer used by kandra guardians; contains no metal",
+                            "difficulty":"4",
+                            "damage":"+3",
+                            "range":"Touch / Striking"
+                        },
+                        {
+                            "id":10,
+                            "item":"Stone spear",
+                            "desc":"Flint or obsidian-tipped spear; contains no metal",
+                            "difficulty":"3",
+                            "damage":"+2",
+                            "range":"Striking / Striking"
+                        },
+                        {
+                            "id":11,
+                            "item":"Sword",
+                            "desc":"Steel blade carried by guards and soldiers",
+                            "difficulty":"2",
+                            "damage":"+2",
+                            "range":"Touch / Striking"
+                        }
+                    ]
+                },
+                {
+                    "propType": "Ranged Weapons",
+                    "props":[
+                        {
+                            "id":12,
+                            "item":"Bow and flint arrows",
+                            "desc":"Effective ranged weapon against Allomancers; contains no metal",
+                            "difficulty":"3",
+                            "damage":"+2",
+                            "range":"Close / Long"
+                        },
+                        {
+                            "id":13,
+                            "item":"Bow and steel arrows",
+                            "desc":"Primary ranged weapon of common soldiers ",
+                            "difficulty":"2",
+                            "damage":"+2",
+                            "range":"Close / Long"
+                        },
+                        {
+                            "id":14,
+                            "item":"Catapult",
+                            "desc":"Hurls massive stones; exclusively used by armies",
+                            "difficulty":"5",
+                            "damage":"+4",
+                            "range":"Medium / Extreme"
+                        },
+                        {
+                            "id":15,
+                            "item":"Dagger",
+                            "desc":"Steel blade favored by thieves and assassins",
+                            "difficulty":"1",
+                            "damage":"+1",
+                            "range":"Striking / Close"
+                        },
+                        {
+                            "id":16,
+                            "item":"Obsidian dagger",
+                            "desc":"Popular weapon of Mistborn, often carried in pairs; contains no metal",
+                            "difficulty":"2",
+                            "damage":"+1",
+                            "range":"Striking / Close"
+                        },
+                        {
+                            "id":17,
+                            "item":"Spear",
+                            "desc":"Iron-tipped spear favored by hunters, rebels, and soldiers",
+                            "difficulty":"2",
+                            "damage":"+2",
+                            "range":"Close / Medium"
+                        },
+                        {
+                            "id":18,
+                            "item":"Stone Spear",
+                            "desc":"Flint or obsidian-tipped spear; contains no metal",
+                            "difficulty":"3",
+                            "damage":"+2",
+                            "range":"Close / Medium"
+                        }
+                    ]
+                },
+                {
+                    "propType": "Armor",
+                    "props":[
+                        {   
+                            "id": 19,
+                            "item": "Leather / Padded",
+                            "desc": "Layered armor favored by thieves, Allomancers, and hazekillers",
+                            "difficulty":"2",
+                            "absorb":"1"
+                        },
+                        {   
+                            "id": 20,
+                            "item": "Steel mail",
+                            "desc": "Chain and leather armor worn by guards and soldiers",
+                            "difficulty":"3",
+                            "absorb":"2"
+                        },
+                        {   
+                            "id": 21,
+                            "item": "Steel plate *",
+                            "desc": "Heavy breastplate worn by the wealthiest and most foolhardy leaders",
+                            "difficulty":"4",
+                            "absorb":"3"
+                        }
+                    ]
+                },
+                {
+                    "propType": "Shields",
+                    "props":[
+                        {   
+                            "id": 22,
+                            "item": "Small metal shield",
+                            "desc": "Standard shield of soldiery",
+                            "difficulty":"1",
+                            "defense":"1"
+                        },
+                        {   
+                            "id": 23,
+                            "item": "Small wooden shield",
+                            "desc": "Sturdy shield carried by Lurchers; contains no metal",
+                            "difficulty":"2",
+                            "defense":"1"
+                        },
+                        {   
+                            "id": 24,
+                            "item": "Large metal shield *",
+                            "desc": "Used by cavalry and for ceremony",
+                            "difficulty":"2",
+                            "defense":"2"
+                        },
+                        {   
+                            "id": 25,
+                            "item": "Large wooden shield *",
+                            "desc": "Almost exclusively used by hazekillers; contains no metal",
+                            "difficulty":"3",
+                            "defense":"2"
+                        }
+                    ]
+                },
+                {
+                    "propType": "Animals, Mounts, & Vehicles",
+                    "props":[
+                        {   
+                            "id": 26,
+                            "item": "Pet",
+                            "desc": "Cats, dogs, and wolfhounds kept by the sentimental and wealthy",
+                            "difficulty":"1"
+                        },
+                        {   
+                            "id": 27,
+                            "item": "Cart",
+                            "desc": "Two-wheeled cart used by laborers and craftsmen",
+                            "difficulty":"1"
+                        },
+                        {   
+                            "id": 28,
+                            "item": "Horse",
+                            "desc": "Riding mount common to wealthy skaa, nobles, and military",
+                            "difficulty":"2"
+                        },
+                        {   
+                            "id": 29,
+                            "item": "Horse & carriage",
+                            "desc": "Enclosed four-person vehicle favored by nobility",
+                            "difficulty":"3"
+                        },
+                        {   
+                            "id": 30,
+                            "item": "Barge",
+                            "desc": "Main vehicle of commerce and military transport; may carry fifty men or five tons of cargo",
+                            "difficulty":"4"
+                        }
+                    ]
+                },
+                {
+                    "propType": "Tools",
+                    "props":[
+                        {   
+                            "id": 31,
+                            "item": "Banned book *",
+                            "desc": "Contains information on a topic banned by the Lord Ruler",
+                            "difficulty":"3"
+                        },
+                        {   
+                            "id": 32,
+                            "item": "Bottle of wine / ale",
+                            "desc": "Popular with bon vivants of all classes; used for loosening tongues and inhibitions",
+                            "difficulty":"1"
+                        },
+                        {   
+                            "id": 33,
+                            "item": "Craftsman’s tools",
+                            "desc": "Supports one occupation (e.g. carpentry, metallurgy, etc.)",
+                            "difficulty":"1"
+                        },
+                        {   
+                            "id": 34,
+                            "item": "Disguise",
+                            "desc": "Helpful when concealing or impersonating one person’s identity",
+                            "difficulty":"2"
+                        },
+                        {   
+                            "id": 35,
+                            "item": "Formal clothing or jewelry",
+                            "desc": "Useful when blending in at high society events like Imperial gatherings and balls",
+                            "difficulty":"2"
+                        },
+                        {   
+                            "id": 36,
+                            "item": "Lockpicks",
+                            "desc": "Useful when picking locks",
+                            "difficulty":"2"
+                        },
+                        {   
+                            "id": 37,
+                            "item": "Medical supplies",
+                            "desc": "Useful for treating wounds and during certain Mental Conflicts (see page 219)",
+                            "difficulty":"2"
+                        },
+                        {   
+                            "id": 38,
+                            "item": "Mistcloak",
+                            "desc": "A symbol of a Mistborn’s station; useful when concealing oneself in the mists",
+                            "difficulty":"2"
+                        },
+                        {   
+                            "id": 39,
+                            "item": "Pocket watch",
+                            "desc": "A popular symbol of wealth; keeps good time",
+                            "difficulty":"2"
+                        },
+                        {   
+                            "id": 40,
+                            "item": "Pen and blank book",
+                            "desc": "Vital tools of the scribe",
+                            "difficulty":"1"
+                        },
+                        {   
+                            "id": 41,
+                            "item": "Rope and grapple",
+                            "desc": "Helpful when climbing, crossing gaps, or binding someone",
+                            "difficulty":"1"
+                        },
+                        {   
+                            "id": 42,
+                            "item": "Writing steel",
+                            "desc": "Thin sheets of steel for inscribing sacred information, which cannot be altered by metaphysical powers (such as Ruin)",
+                            "difficulty":"2"
+                        }
+                    ]
+                },
+                {
+                    "propType": "Implements",
+                    "props":[
+                        {   
+                            "id": 43,
+                            "item": "Atium bead",
+                            "desc": "Allows kandra to imitate one specific person or animal",
+                            "difficulty":"5"
+                        },
+                        {   
+                            "id": 44,
+                            "item": "Bones (1 set)",
+                            "desc": "Allows kandra to imitate one specific person or animal",
+                            "difficulty":"3"
+                        },
+                        {   
+                            "id": 45,
+                            "item": "Metalminds (3)",
+                            "desc": "Each metalmind allows a Feruchemist (only) to store in and tap from one metal: Brass, Bronze, Copper, Iron, Pewter, Steel, Tin, or Zinc; each single metalmind Prop consists of three physical metalminds, each of one different metal",
+                            "difficulty":"3"
+                        },
+                        {   
+                            "id": 46,
+                            "item": "Misting vial *",
+                            "desc": "Contains 3 charges of Brass, Bronze, Copper, Iron, Pewter, Steel, Tin, or Zinc (choose only one metal)",
+                            "difficulty":"1"
+                        },
+                        {   
+                            "id": 47,
+                            "item": "Mistborn vial *",
+                            "desc": "Contains 1 charge of Brass, Bronze, Copper, Iron, Pewter, Steel, Tin, and Zinc (1 charge of each metal)",
+                            "difficulty":"2"
+                        },
+                        {   
+                            "id": 48,
+                            "item": "Sack of copper clips / set of horseshoes",
+                            "desc": "Coins or other metal objects used by Coinshots and Mistborn for Steeljumping or as weapons (Damage: +1; Min / Max Range: Striking / Medium)",
+                            "difficulty":"1"
+                        }
+                    ]
+                }
+            ],
+            "era2":[
+                {
+                    "propType": "Firearms",
+                    "props":[
+                        {
+                            "id":0,
+                            "item":"Cohnvave Two-Shot",
+                            "desc":"These tiny pistols are designed to fit into a coat sleeve or purse, and be drawn at a moment’s notice. They lack both range and firepower, but their speed and concealability make them excellent “last-ditch” weapons.",
+                            "props":"1",
+                            "difficulty":"1*",
+                            "damage":"+1",
+                            "capacity":"2 shots",
+                            "range":"Touch / Close"
+                        },
+                        {
+                            "id":1,
+                            "item":"Disguised gun",
+                            "desc":"This small, simple, single-shot gun is built into a cane, umbrella, carpetbag, or other mundane item, making it the ideal weapon for an assassin. However, a disguised gun’s ungainly construction makes it difficult to use properly; it cannot be Aimed (see page 133) and all attacks with this weapon suffer a 1 die penalty, as if the weapon is an inferior Tool (see the Mistborn Adventure Game, page 142). The cost of a disguised gun includes a simple object like an umbrella, but not a more complicated or useful object like photographic equipment, or another weapon such as a koloss sword.",
+                            "props":"1",
+                            "difficulty":"2*",
+                            "damage":"+1",
+                            "capacity":"1 shot",
+                            "range":"Touch / Close"
+                        },
+                        {
+                            "id":2,
+                            "item":"Granger 30-30 Rifle",
+                            "desc":"These common single-shot rifles benefit from extremely long range and high accuracy, but take time to reload. This latter feature means they are quickly falling out of favor for multi-shot rifles, but some sharpshooters maintain that the Granger’s greater accuracy is worth the inconvenience.",
+                            "props":"1",
+                            "difficulty":"2",
+                            "damage":"+3",
+                            "capacity":"1 shot",
+                            "range":"Close / Extreme"
+                        },
+                        {
+                            "id":3,
+                            "item":"Heispel Autoloader",
+                            "desc":"These tiny pistols are designed to fit into a coat sleeve or purse, and be drawn at a moment’s notice. They lack both range and firepower, but their speed and concealability make them excellent “last-ditch” weapons.",
+                            "props":"2",
+                            "difficulty":"1*",
+                            "damage":"+1",
+                            "capacity":"2 shots",
+                            "range":"Touch / Close"
+                        },
+                        {
+                            "id":4,
+                            "item":"Heispel Pump shotgun",
+                            "desc":"",
+                            "props":"1",
+                            "difficulty":"2*",
+                            "damage":"+2",
+                            "capacity":"8 shots",
+                            "range":"Close / Medium"
+                        },
+                        {
+                            "id":5,
+                            "item":"Immerling 44 revolver",
+                            "desc":"",
+                            "props":"1",
+                            "difficulty":"2",
+                            "damage":"+2",
+                            "capacity":"4 shots",
+                            "range":"Close / Medium"
+                        },
+                        {
+                            "id":6,
+                            "item":"Immerling Multi-Shot rifle",
+                            "desc":"",
+                            "props":"1",
+                            "difficulty":"3",
+                            "damage":"+3",
+                            "capacity":"8 shots",
+                            "range":"Close / Long"
+                        },
+                        {
+                            "id":7,
+                            "item":"Koloss arquebus †",
+                            "desc":"",
+                            "props":"1",
+                            "difficulty":"2",
+                            "damage":"+3",
+                            "capacity":"1 shot",
+                            "range":"Close / Medium"
+                        },
+                        {
+                            "id":8,
+                            "item":"Riesfel shotgun",
+                            "desc":"",
+                            "props":"1",
+                            "difficulty":"2",
+                            "damage":"+3",
+                            "capacity":"2 shots",
+                            "range":"Close / Medium"
+                        },
+                        {
+                            "id":9,
+                            "item":"Rotary Gun",
+                            "desc":"",
+                            "props":"N/A",
+                            "difficulty":"4*",
+                            "damage":"+4",
+                            "capacity":"10 salvoes",
+                            "range":"Close / Long"
+                        },
+                        {
+                            "id":10,
+                            "item":"Sterrion 36 revolver",
+                            "desc":"",
+                            "props":"1",
+                            "difficulty":"2*",
+                            "damage":"+2",
+                            "capacity":"6 shots",
+                            "range":"Close / Medium"
+                        },
+                        {
+                            "id":11,
+                            "item":"Terringul 27 revolver",
+                            "desc":"",
+                            "props":"1",
+                            "difficulty":"1",
+                            "damage":"+1",
+                            "capacity":"6 shots",
+                            "range":"Close / Medium"
+                        },
+                        {
+                            "id":12,
+                            "item":"Heispel Longshot",
+                            "desc":"Long-barreled pistol with range comparable to a rifle",
+                            "props":"1",
+                            "difficulty":"3",
+                            "damage":"+2",
+                            "capacity":"4 shots",
+                            "range":"Close / Long"
+                        },
+                        {
+                            "id":13,
+                            "item":"''Rioting'' 22",
+                            "desc":"A common, cheap pistol",
+                            "props":"1",
+                            "difficulty":"1",
+                            "damage":"+1",
+                            "capacity":"6 shots",
+                            "range":"Close / Medium"
+                        },
+                        {
+                            "id":14,
+                            "item":"Terringul Ripper Automatic Pistol",
+                            "desc":"Autoloading pistol that fires single shots or a salvo",
+                            "props":"1",
+                            "difficulty":"4*",
+                            "damage":"+1 or 1 salvo",
+                            "capacity":"12 shots",
+                            "range":"Close / Medium"
+                        }
+                    ]
+                },
+                {
+                    "propType": "Firearm Customization",
+                    "props":[
+                        {
+                            "id":15,
+                            "item":"Allomancer Holdout",
+                            "desc":"Grip conceals chamber with 1 charge of a single metal; requires Wits 4 Challenge to discover",
+                            "props":"+1",
+                            "difficulty":"2 or +1"
+                        },
+                        {
+                            "id":16,
+                            "item":"Allomancer Safety",
+                            "desc":"Gun is locked until the user succeeds on a Steel 3 or Iron 3 Challenge",
+                            "props":"",
+                            "difficulty":""
+                        },
+                        {
+                            "id":16,
+                            "item":"",
+                            "desc":"",
+                            "props":"",
+                            "difficulty":""
+                        },
+                        {
+                            "id":16,
+                            "item":"",
+                            "desc":"",
+                            "props":"",
+                            "difficulty":""
+                        },
+                        {
+                            "id":16,
+                            "item":"",
+                            "desc":"",
+                            "props":"",
+                            "difficulty":""
+                        },
+                        {
+                            "id":16,
+                            "item":"",
+                            "desc":"",
+                            "props":"",
+                            "difficulty":""
+                        },
+                        {
+                            "id":16,
+                            "item":"",
+                            "desc":"",
+                            "props":"",
+                            "difficulty":""
+                        },
+                        {
+                            "id":16,
+                            "item":"",
+                            "desc":"",
+                            "props":"",
+                            "difficulty":""
+                        },
+                        {
+                            "id":16,
+                            "item":"",
+                            "desc":"",
+                            "props":"",
+                            "difficulty":""
+                        },
+                        {
+                            "id":16,
+                            "item":"",
+                            "desc":"",
+                            "props":"",
+                            "difficulty":""
+                        },
+                        {
+                            "id":16,
+                            "item":"",
+                            "desc":"",
+                            "props":"",
+                            "difficulty":""
+                        },
+                        {
+                            "id":16,
+                            "item":"",
+                            "desc":"",
+                            "props":"",
+                            "difficulty":""
+                        }
+                    ]
+                },
+                {
+                    "propType": "Customized Ammunition",
+                    "props":[
+                        {
+                            "id":12,
+                            "item":"Bow and flint arrows",
+                            "desc":"Effective ranged weapon against Allomancers; contains no metal",
+                            "difficulty":"3",
+                            "damage":"+2",
+                            "range":"Close / Long"
+                        },
+                        {
+                            "id":13,
+                            "item":"Bow and steel arrows",
+                            "desc":"Primary ranged weapon of common soldiers ",
+                            "difficulty":"2",
+                            "damage":"+2",
+                            "range":"Close / Long"
+                        },
+                        {
+                            "id":14,
+                            "item":"Catapult",
+                            "desc":"Hurls massive stones; exclusively used by armies",
+                            "difficulty":"5",
+                            "damage":"+4",
+                            "range":"Medium / Extreme"
+                        },
+                        {
+                            "id":15,
+                            "item":"Dagger",
+                            "desc":"Steel blade favored by thieves and assassins",
+                            "difficulty":"1",
+                            "damage":"+1",
+                            "range":"Striking / Close"
+                        },
+                        {
+                            "id":16,
+                            "item":"Obsidian dagger",
+                            "desc":"Popular weapon of Mistborn, often carried in pairs; contains no metal",
+                            "difficulty":"2",
+                            "damage":"+1",
+                            "range":"Striking / Close"
+                        },
+                        {
+                            "id":17,
+                            "item":"Spear",
+                            "desc":"Iron-tipped spear favored by hunters, rebels, and soldiers",
+                            "difficulty":"2",
+                            "damage":"+2",
+                            "range":"Close / Medium"
+                        },
+                        {
+                            "id":18,
+                            "item":"Stone Spear",
+                            "desc":"Flint or obsidian-tipped spear; contains no metal",
+                            "difficulty":"3",
+                            "damage":"+2",
+                            "range":"Close / Medium"
+                        }
+                    ]
+                },
+                {
+                    "propType": "Melee Weapons",
+                    "props":[
+                        {
+                            "id":0,
+                            "item":"Club",
+                            "desc":"Favored weapon of rebels and thugs; contains no metal",
+                            "difficulty":"1",
+                            "damage":"+1",
+                            "range":"Touch / Striking"
+                        },
+                        {
+                            "id":1,
+                            "item":"Dagger",
+                            "desc":"Steel blade favored by thieves and assassins",
+                            "difficulty":"1",
+                            "damage":"+1",
+                            "range":"Touch / Touch"
+                        },
+                        {
+                            "id":2,
+                            "item":"Dueling cane",
+                            "desc":"Stone-headed cane carried by nobles for defense and duels; contains no metal",
+                            "difficulty":"2",
+                            "damage":"+2",
+                            "range":"Touch / Striking"
+                        },
+                        {
+                            "id":3,
+                            "item":"Hammer",
+                            "desc":"Two-handed working man’s hammer",
+                            "difficulty":"1",
+                            "damage":"+1",
+                            "range":"Touch / Striking"
+                        },
+                        {
+                            "id":4,
+                            "item":"Koloss blade †",
+                            "desc":"Massive chopping blade prized by the koloss",
+                            "difficulty":"4",
+                            "damage":"+4",
+                            "range":"Striking / Striking"
+                        },
+                        {
+                            "id":5,
+                            "item":"Obsidian axe",
+                            "desc":"Signature weapon of Steel Inquisitors; contains no metal",
+                            "difficulty":"4",
+                            "damage":"+3",
+                            "range":"Striking / Striking"
+                        },
+                        {
+                            "id":6,
+                            "item":"Obsidian dagger",
+                            "desc":"Popular weapon of Mistborn, often carried in pairs; contains no metal",
+                            "difficulty":"2",
+                            "damage":"+1",
+                            "range":"Touch / Touch"
+                        },
+                        {
+                            "id":7,
+                            "item":"Spear",
+                            "desc":"Iron-tipped spear favored by hunters, rebels, and soldiers",
+                            "difficulty":"2",
+                            "damage":"+2",
+                            "range":"Striking / Striking"
+                        },
+                        {
+                            "id":8,
+                            "item":"Staff",
+                            "desc":"Favored weapon of rebels and thugs; contains no metal",
+                            "difficulty":"1",
+                            "damage":"+1",
+                            "range":"Striking / Striking"
+                        },
+                        {
+                            "id":9,
+                            "item":"Stone hammer",
+                            "desc":"Rare hammer used by kandra guardians; contains no metal",
+                            "difficulty":"4",
+                            "damage":"+3",
+                            "range":"Touch / Striking"
+                        },
+                        {
+                            "id":10,
+                            "item":"Stone spear",
+                            "desc":"Flint or obsidian-tipped spear; contains no metal",
+                            "difficulty":"3",
+                            "damage":"+2",
+                            "range":"Striking / Striking"
+                        },
+                        {
+                            "id":11,
+                            "item":"Sword",
+                            "desc":"Steel blade carried by guards and soldiers",
+                            "difficulty":"2",
+                            "damage":"+2",
+                            "range":"Touch / Striking"
+                        }
+                    ]
+                },
+                {
+                    "propType": "Ranged Weapons",
+                    "props":[
+                        {
+                            "id":12,
+                            "item":"Bow and flint arrows",
+                            "desc":"Effective ranged weapon against Allomancers; contains no metal",
+                            "difficulty":"3",
+                            "damage":"+2",
+                            "range":"Close / Long"
+                        },
+                        {
+                            "id":13,
+                            "item":"Bow and steel arrows",
+                            "desc":"Primary ranged weapon of common soldiers ",
+                            "difficulty":"2",
+                            "damage":"+2",
+                            "range":"Close / Long"
+                        },
+                        {
+                            "id":14,
+                            "item":"Catapult",
+                            "desc":"Hurls massive stones; exclusively used by armies",
+                            "difficulty":"5",
+                            "damage":"+4",
+                            "range":"Medium / Extreme"
+                        },
+                        {
+                            "id":15,
+                            "item":"Dagger",
+                            "desc":"Steel blade favored by thieves and assassins",
+                            "difficulty":"1",
+                            "damage":"+1",
+                            "range":"Striking / Close"
+                        },
+                        {
+                            "id":16,
+                            "item":"Obsidian dagger",
+                            "desc":"Popular weapon of Mistborn, often carried in pairs; contains no metal",
+                            "difficulty":"2",
+                            "damage":"+1",
+                            "range":"Striking / Close"
+                        },
+                        {
+                            "id":17,
+                            "item":"Spear",
+                            "desc":"Iron-tipped spear favored by hunters, rebels, and soldiers",
+                            "difficulty":"2",
+                            "damage":"+2",
+                            "range":"Close / Medium"
+                        },
+                        {
+                            "id":18,
+                            "item":"Stone Spear",
+                            "desc":"Flint or obsidian-tipped spear; contains no metal",
+                            "difficulty":"3",
+                            "damage":"+2",
+                            "range":"Close / Medium"
+                        }
+                    ]
+                },
+                {
+                    "propType": "Armor",
+                    "props":[
+                        {   
+                            "id": 19,
+                            "item": "Leather / Padded",
+                            "desc": "Layered armor favored by thieves, Allomancers, and hazekillers",
+                            "difficulty":"2",
+                            "absorb":"1"
+                        },
+                        {   
+                            "id": 20,
+                            "item": "Steel mail",
+                            "desc": "Chain and leather armor worn by guards and soldiers",
+                            "difficulty":"3",
+                            "absorb":"2"
+                        },
+                        {   
+                            "id": 21,
+                            "item": "Steel plate *",
+                            "desc": "Heavy breastplate worn by the wealthiest and most foolhardy leaders",
+                            "difficulty":"4",
+                            "absorb":"3"
+                        }
+                    ]
+                },
+                {
+                    "propType": "Shields",
+                    "props":[
+                        {   
+                            "id": 22,
+                            "item": "Small metal shield",
+                            "desc": "Standard shield of soldiery",
+                            "difficulty":"1",
+                            "defense":"1"
+                        },
+                        {   
+                            "id": 23,
+                            "item": "Small wooden shield",
+                            "desc": "Sturdy shield carried by Lurchers; contains no metal",
+                            "difficulty":"2",
+                            "defense":"1"
+                        },
+                        {   
+                            "id": 24,
+                            "item": "Large metal shield *",
+                            "desc": "Used by cavalry and for ceremony",
+                            "difficulty":"2",
+                            "defense":"2"
+                        },
+                        {   
+                            "id": 25,
+                            "item": "Large wooden shield *",
+                            "desc": "Almost exclusively used by hazekillers; contains no metal",
+                            "difficulty":"3",
+                            "defense":"2"
+                        }
+                    ]
+                },
+                {
+                    "propType": "Animals, Mounts, & Vehicles",
+                    "props":[
+                        {   
+                            "id": 26,
+                            "item": "Pet",
+                            "desc": "Cats, dogs, and wolfhounds kept by the sentimental and wealthy",
+                            "difficulty":"1"
+                        },
+                        {   
+                            "id": 27,
+                            "item": "Cart",
+                            "desc": "Two-wheeled cart used by laborers and craftsmen",
+                            "difficulty":"1"
+                        },
+                        {   
+                            "id": 28,
+                            "item": "Horse",
+                            "desc": "Riding mount common to wealthy skaa, nobles, and military",
+                            "difficulty":"2"
+                        },
+                        {   
+                            "id": 29,
+                            "item": "Horse & carriage",
+                            "desc": "Enclosed four-person vehicle favored by nobility",
+                            "difficulty":"3"
+                        },
+                        {   
+                            "id": 30,
+                            "item": "Barge",
+                            "desc": "Main vehicle of commerce and military transport; may carry fifty men or five tons of cargo",
+                            "difficulty":"4"
+                        }
+                    ]
+                },
+                {
+                    "propType": "Tools",
+                    "props":[
+                        {   
+                            "id": 31,
+                            "item": "Banned book *",
+                            "desc": "Contains information on a topic banned by the Lord Ruler",
+                            "difficulty":"3"
+                        },
+                        {   
+                            "id": 32,
+                            "item": "Bottle of wine / ale",
+                            "desc": "Popular with bon vivants of all classes; used for loosening tongues and inhibitions",
+                            "difficulty":"1"
+                        },
+                        {   
+                            "id": 33,
+                            "item": "Craftsman’s tools",
+                            "desc": "Supports one occupation (e.g. carpentry, metallurgy, etc.)",
+                            "difficulty":"1"
+                        },
+                        {   
+                            "id": 34,
+                            "item": "Disguise",
+                            "desc": "Helpful when concealing or impersonating one person’s identity",
+                            "difficulty":"2"
+                        },
+                        {   
+                            "id": 35,
+                            "item": "Formal clothing or jewelry",
+                            "desc": "Useful when blending in at high society events like Imperial gatherings and balls",
+                            "difficulty":"2"
+                        },
+                        {   
+                            "id": 36,
+                            "item": "Lockpicks",
+                            "desc": "Useful when picking locks",
+                            "difficulty":"2"
+                        },
+                        {   
+                            "id": 37,
+                            "item": "Medical supplies",
+                            "desc": "Useful for treating wounds and during certain Mental Conflicts (see page 219)",
+                            "difficulty":"2"
+                        },
+                        {   
+                            "id": 38,
+                            "item": "Mistcloak",
+                            "desc": "A symbol of a Mistborn’s station; useful when concealing oneself in the mists",
+                            "difficulty":"2"
+                        },
+                        {   
+                            "id": 39,
+                            "item": "Pocket watch",
+                            "desc": "A popular symbol of wealth; keeps good time",
+                            "difficulty":"2"
+                        },
+                        {   
+                            "id": 40,
+                            "item": "Pen and blank book",
+                            "desc": "Vital tools of the scribe",
+                            "difficulty":"1"
+                        },
+                        {   
+                            "id": 41,
+                            "item": "Rope and grapple",
+                            "desc": "Helpful when climbing, crossing gaps, or binding someone",
+                            "difficulty":"1"
+                        },
+                        {   
+                            "id": 42,
+                            "item": "Writing steel",
+                            "desc": "Thin sheets of steel for inscribing sacred information, which cannot be altered by metaphysical powers (such as Ruin)",
+                            "difficulty":"2"
+                        }
+                    ]
+                },
+                {
+                    "propType": "Implements",
+                    "props":[
+                        {   
+                            "id": 43,
+                            "item": "Atium bead",
+                            "desc": "Allows kandra to imitate one specific person or animal",
+                            "difficulty":"5"
+                        },
+                        {   
+                            "id": 44,
+                            "item": "Bones (1 set)",
+                            "desc": "Allows kandra to imitate one specific person or animal",
+                            "difficulty":"3"
+                        },
+                        {   
+                            "id": 45,
+                            "item": "Metalminds (3)",
+                            "desc": "Each metalmind allows a Feruchemist (only) to store in and tap from one metal: Brass, Bronze, Copper, Iron, Pewter, Steel, Tin, or Zinc; each single metalmind Prop consists of three physical metalminds, each of one different metal",
+                            "difficulty":"3"
+                        },
+                        {   
+                            "id": 46,
+                            "item": "Misting vial *",
+                            "desc": "Contains 3 charges of Brass, Bronze, Copper, Iron, Pewter, Steel, Tin, or Zinc (choose only one metal)",
+                            "difficulty":"1"
+                        },
+                        {   
+                            "id": 47,
+                            "item": "Mistborn vial *",
+                            "desc": "Contains 1 charge of Brass, Bronze, Copper, Iron, Pewter, Steel, Tin, and Zinc (1 charge of each metal)",
+                            "difficulty":"2"
+                        },
+                        {   
+                            "id": 48,
+                            "item": "Sack of copper clips / set of horseshoes",
+                            "desc": "Coins or other metal objects used by Coinshots and Mistborn for Steeljumping or as weapons (Damage: +1; Min / Max Range: Striking / Medium)",
+                            "difficulty":"1"
+                        }
+                    ]
+                }
+            ],
+            "firstNote": "* These weapons are harder to find in the Roughs, where the Diffculty to buy them increases by 1.",
+            "secondNote":"** This weapon can be fired as a normal firearm (using shots), or as a rotary gun (using a salvo). Firing a salvo requires at least 10 shots.",
             "thirdNote":"† Only koloss and koloss-blooded characters make take this as a Prop"
         }
     ],
