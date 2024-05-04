@@ -9681,11 +9681,9 @@
             "id":6,
             "name":"Standings",
             "intro":{
-                "part":"What makes heroes so special isn’t just their individual skill or magical powers, but the fact they can make a tangible difference in their world. In the Mistborn novels we see heroes rise above their humble beginnings as thieves, stewards, and disfavored sons to become ambassadors, religious figures, emperors, legendary heroes, and ultimately decide the fate of the entire world. This element of mattering — of not only having skill but the ability to change the circumstances around you — is called",
-                "highlight":"Standing."
-            },
-            "standing":{
-                "part1":"A character’s three Standings — Influence, Resources, and Spirit — work very much like Attributes, though each is rated between 2 and 10 dice. These can be rolled in Challenges, Contests, and Conflicts as normal, and using Standings in this way doesn’t change the number of dice available. \n\n Alternatively, a character may “spend” his or her Standings for the chance (a Challenge roll) to acquire various benefits during play: Influence may be spent to nurture political connections and request favors; Resources may be spent for physical goods and services; and Spirit may be spent for fresh chances when other avenues have been exhausted.\n\n Specific examples of spending each Standing are provided in the following sections, and the Narrator and other players will likely come up with many more. However, no matter what the character wants, there are two steps to spending a die of Standing:",
+                "part1":"What makes heroes so special isn’t just their individual skill or magical powers, but the fact they can make a tangible difference in their world. In the Mistborn novels we see heroes rise above their humble beginnings as thieves, stewards, and disfavored sons to become ambassadors, religious figures, emperors, legendary heroes, and ultimately decide the fate of the entire world. This element of mattering — of not only having skill but the ability to change the circumstances around you — is called",
+                "highlight":"Standing.",
+                "part2":"A character’s three Standings — Influence, Resources, and Spirit — work very much like Attributes, though each is rated between 2 and 10 dice. These can be rolled in Challenges, Contests, and Conflicts as normal, and using Standings in this way doesn’t change the number of dice available. \n\n Alternatively, a character may “spend” his or her Standings for the chance (a Challenge roll) to acquire various benefits during play: Influence may be spent to nurture political connections and request favors; Resources may be spent for physical goods and services; and Spirit may be spent for fresh chances when other avenues have been exhausted.\n\n Specific examples of spending each Standing are provided in the following sections, and the Narrator and other players will likely come up with many more. However, no matter what the character wants, there are two steps to spending a die of Standing:",
                 "points":[
                     {
                         "point":"The character rolls a Challenge with his current dice in the Standing (against the Difficulty listed in the following sections, along with any other rules listed there, or with a Difficulty and rules determined by the Narrator)."
@@ -9694,10 +9692,379 @@
                         "point":"The score of the Standing used drops by 1, even if the Challenge fails. "
                     }
                 ],
-                "part2":"Thus a character may only spend a Standing that’s 2 or higher before the Challenge is made. Remember, no roll is possible with less than two dice, and rolling a Challenge with a Standing of 2 drops that Standing low enough that it’s only contributing 1 die. Once a Standing drops to 1, the character is stymied on that front until the next Breather, when he or she can recoup.",
+                "part3":"Thus a character may only spend a Standing that’s 2 or higher before the Challenge is made. Remember, no roll is possible with less than two dice, and rolling a Challenge with a Standing of 2 drops that Standing low enough that it’s only contributing 1 die. Once a Standing drops to 1, the character is stymied on that front until the next Breather, when he or she can recoup.",
                 "example1":"Example: Sayna has a Resources score of 3. After spending 1 Resources to acquire an item this score drops to 2, making it impossible for her to acquire more items (or spend Resources for anything else) until her score refreshes at the next Breather.",
-                "part3":"Though the Narrator may sometimes replenish a single point of Standing under the right conditions (a point of Resources when the character receives a sudden and unexpected windfall, or a point of Influence when a powerful noble speaks highly of the character in public), the most common ways to recover are time and Breathers. \n\n Characters naturally recover 1 of each Standing per day. \n\n Additionally, during a Short Breather, a character recovers half of each spent Standing, rounded up. This occurs whether the character sits the Breather out or not. In a Long Breather, a character recovers all spent Standings.",
+                "part4":"Though the Narrator may sometimes replenish a single point of Standing under the right conditions (a point of Resources when the character receives a sudden and unexpected windfall, or a point of Influence when a powerful noble speaks highly of the character in public), the most common ways to recover are time and Breathers. \n\n Characters naturally recover 1 of each Standing per day. \n\n Additionally, during a Short Breather, a character recovers half of each spent Standing, rounded up. This occurs whether the character sits the Breather out or not. In a Long Breather, a character recovers all spent Standings.",
                 "example2":"Example: Beck has spent 4 of his 6 Influence. If Brandon calls no Long Breathers for at least three days, he will recover the full utility of his status in that time (1 Influence per day). Alternately, if Brandon were to call a Short Breather Beck would recover 2 Influence then and the remaining point a day after."
+            },
+            "resources":{
+                "part1":"In the Mistborn saga, Heroes rarely concern themselves with treasure; their aspirations typically look beyond wealth and their troubles go way beyond their pocketbooks. Still, money talks in the Final Empire, particularly in the highest halls of power. A character’s Resources dice cover his or her worldly possessions and the ability to gain more. \n\n You may attempt a Resources Challenge when you try to:",
+                "points":[
+                    {
+                        "point":"Bribe a guard"
+                    },
+                    {
+                        "point":"Assemble an army"
+                    },
+                    {
+                        "point":"Outfit your Crew for its next exploit"
+                    },
+                    {
+                        "point":"Secure the services of a kandra"
+                    },
+                    {
+                        "point":"Host a lavish event"
+                    },
+                    {
+                        "point":"Appeal to a noble’s greed"
+                    },
+                    {
+                        "point":"Buy the silence of an unflattering witness"
+                    },
+                    {
+                        "point":"Impress someone with your wealth"
+                    },
+                    {
+                        "point":"Bid for a contract"
+                    },
+                    {
+                        "point":"Get hold of some atium"
+                    },
+                    {
+                        "point":"Rebuild a ruined town"
+                    }
+                ],
+                "part2":"Characters with high Resources include successful noble lords, high-ranking Obligators, and connected financiers and merchants, while those with low Resources include beggars, thieves, and plantation skaa.",
+                "props":{
+                    "part":"Props are 'permanent' equipment a character always has on hand, and each character typically carries a number equal to his or her Resources. When a Prop is used or lost in play, the character automatically regains another identical Prop 'off screen' during the next Long Breather—unless, of course, the Narrator determines there's a reason replacements can't be found (e.g., a character is nowhere near a source of the Prop, or he or she is imprisoned). Props can be swapped out during Long Breathers."
+                },
+                "bribes":{
+                    "part":"Everyone has a price — the trick is figuring out what it is. For some, it’s coin, but for others, it may be a favor, title, information, or even access to the character’s Resources for a time, or for a specific purpose. \n\n A character may attempt a Resources Challenge to bribe an Extra to take one action of the character’s choice (this doesn’t work on Heroes or Villains — to bribe them, you have to actually make them a deal they agree with). The Difficulty depends on the Extra’s reluctance to perform the task. \n\n The Narrator also uses the Extra’s reluctance to determine roughly how long he or she keeps quiet about a successful exchange (the greater the reluctance, the shorter the time), though the character may spend Nudges to lengthen the silence. As the Narrator makes this determination secretly, any Nudges used for this purpose are spent blindly, though the character knows that each Nudge spent increases the silence by its original duration. As a happy exception, a character who scores three or more Nudges may spend all of them to convince the Extra to stay silent forever. \n\n After this attempt, and regardless of success, the character’s Resources score drops by 1, as usual.",
+                    "example":"Example: As the Nine Eyes Crew’s “man on the inside” at Keep Hasting, it falls to Gavon to confirm the case is located in the private study, as Sev surmised. He approaches a guard posted there and offers him more than a week’s pay for just a peek inside (“my curiosity’s killing me!”). \n\n Brandon decides the guard is indifferent (it’s just a study, after all), which means a Difficulty of 2. Gavon spends 1 Resources (of 4) and gathers a pool. He benefits from the “fast-talker” Trait and rolls 5 dice, getting one 6, one 5, and three 3’s — a Result of 3 with one Nudge, and a success! The guard steps aside and Gavon sneaks in, going to work. \n\n Just in case, Gavon commits the Nudge to keeping the guard quiet for a little longer. He doesn’t know exactly what effect this will have, but the raid is planned for the next day and he doesn’t want the guard talking before then. Brandon privately decides the guard wouldn’t originally talk for at least a day, assuming there’s nothing to spook him, and Gavon’s Nudge doubles that time.",
+                    "title":"Reluctance / Examples",
+                    "table":[
+                        {
+                            "one":"1",
+                            "two":"Predisposed: Act upholds current laws, supports the Extra's morals, or presents an opportunity for personal gain (e.g., getting back at a rival or lying to a mutual enemy)."
+                        },
+                        {
+                            "one":"2",
+                            "two":"Indifferent: Act breaks no known laws and doesn’t violate the Extra’s morals or harm anyone the Extra cares about (e.g., revealing a Minor Secret of little apparent import, feigning ignorance about the Crew — assuming they aren’t clearly criminals — or granting access to an exclusive event)."
+                        },
+                        {
+                            "one":"3",
+                            "two":"Wary: Act could break laws or violate the Extra’s morals, or only harms “bad people” (e.g., betraying a friend or ally, or handing over an item stolen from an enemy)."
+                        },
+                        {
+                            "one":"4",
+                            "two":"Reluctant: Act clearly breaks laws, violates the Extra’s morals, or harms anyone (e.g., revealing a Major or damaging Secret, harboring a known fugitive, or granting access to the Imperial armory)."
+                        },
+                        {
+                            "one":"5",
+                            "two":"Opposed: Act flagrantly breaks laws or violates the Extra’s morals, or could harm the Extra (e.g., betraying a loved one or committing treason)."
+                        }
+                    ]
+                },
+                "equipment":{
+                    "part":"It’s not uncommon for Heroes to find themselves in need of additional gear or tools midway between Breathers. Fortunately, they can fall back on their pocketbooks and supporters. \n\n A character may attempt a Resources Challenge to acquire one additional item, rolling against the Difficulty listed on pages 235–237. With success, the character gains the desired item and each Nudge may be used to acquire one additional copy of it. \n\n Equipment gained in this way is kept until used or lost, or until the next Long Breather (whichever comes first). \n\n After this attempt, and regardless of success, the character’s Resources score drops by 1, as usual.",
+                    "brandon":"You may have noticed the Mistborn Adventure Game doesn’t include descriptions of coin or prices, even though “boxings” and “copper clips” are mentioned in the novels. The rules fold money as Resources dice for a variety of reasons, chiefly because the stars of the Mistborn trilogy never use or worry about it (except to fire at their enemies or fuel Steeljumps, and we’ve covered those uses elsewhere). \n\n Also, as a true fantasy epic, the series’ viewpoint is positioned above such petty details. Money is here as it appears in the books — it’s something some characters have, and many pursue, but it’s ultimately less of a goal or statistic than a driving force in the narrative. Like their literary cousins, the Heroes of your saga are concerned with what they’re doing and the fate of the world around them, not the number of coins in their pockets or how much loot they’ve stashed back at their hideout. \n\n This doesn’t mean money doesn’t exist in our Final Empire — quite the contrary — but the rules keep the details light and focused on the plot, as it should be. When you need to represent characters having extra money, an extra Resources die or two is a good replacement for counting coins. Keep it simple: one die for a minor boon and two for a major windfall (and never more lest money start to dominate and ultimately render rolling irrelevant). The Narrator should also keep expenditures in mind, as any coin in hand will eventually be spent, reducing or eliminating these bonus Resources dice.",
+                    "example":"Example: Koel hits the streets before the Keep Hasting raid, looking for a bead of atium. This has a very high Difficulty (5), but this is why Becky invested so heavily in her Resources score (also 5). She spends and rolls, but fails with two 6’s, one 3, and two 2’s — a Result of 2 with two Nudges. She spends and rolls again, this time with only 4 dice, and gets two 5’s, one 4, and one 2 — a Result of 5 with no Nudges. It’s enough, and her Resources score settles in at 3. The deal was steep and she paid too much, but Koel has what she needs. If she doesn’t use it during the raid, she can sell it back (explaining its loss at the next Long Breather)."
+                },
+                "services":{
+                    "part1":"Heroes can’t be everywhere at once, nor can they do everything themselves, but they can often find someone to do a job for the right price. A character may attempt a Resources Challenge to secure a service, or individuals to conduct a service. The Difficulty depends on the scope or rarity of the service, and any service secured lasts until completed or for 1 week, plus one additional week per Nudge spent (whichever comes first).",
+                    "brandon":"It’s fine if one or more of the characters’ goals includes getting rich — after all, what thieving crew doesn’t care about money? — but hopefully this is just one of their aspirations. Just like real people, characters should want many things, and play time should be split accordingly. Even when the characters do chase money, you should avoid counting coin or keeping track of purchases. Becoming rich in Scadrial isn’t about the handful of clips you lift from a nobleman’s pocket or the trinket you score from a merchant — it’s about grand jobs and getting ahead in the world. In game terms, just a high Resources score is probably enough.",
+                    "part2":"Individuals employed to conduct a service work only on the task they’re hired for, and refuse to make unrelated rolls or provide additional help unless duly compensated. After this attempt, and regardless of success, the character’s Resources score drops by 1, as usual.",
+                    "example":"Example: Beck knows he’ll become a target once House Hasting and the Bylerums discover his Crew’s to blame for stealing the heirloom, so he arranges for a barge trip out of Luthadel. This is an expensive service with a Difficulty of 3, but Beck isn’t worried with a Resources score of 4 and his “well connected” Trait. He makes the Challenge, getting two 4’s, one 3, and two 1’s — a Result of 4 with no Nudges. The barge will be waiting for him the night of the raid.",
+                    "title":"Scope or Rarity / Examples",
+                    "table":[
+                        {
+                            "one":"1",
+                            "two":"Affordable / Common: Reserve a private room, travel by horse, or employ a team of skaa laborers"
+                        },
+                        {
+                            "one":"2",
+                            "two":"Costly / Uncommon: Have a message delivered in absolute secrecy, travel by carriage, or employ a bodyguard"
+                        },
+                        {
+                            "one":"3",
+                            "two":"Expensive / Scarce: Hire a private tutor, travel by barge, or employ a thieving crew"
+                        },
+                        {
+                            "one":"4",
+                            "two":"Very Expensive / Rare: Host a grand ball, travel with an armed entourage, or employ a team of hazekillers"
+                        },
+                        {
+                            "one":"5",
+                            "two":"Extravagant / Very Rare: Rebuild a village, travel with the Lord Ruler’s entourage, or employ a kandra"
+                        }
+                    ]
+                },
+                "forces":{
+                    "part1":"The Empire’s wealthiest figures often need to defend their assets, making house guards, mercenary bands, and full-fledged armies vital tools even before the Collapse. During the New Empire, kings and barons rely ever more heavily upon armed forces to repel roving bands of koloss and the predations of ambitious bandits and rival lords. \n\n An assembled force includes soldiers and Extras. Soldiers are the faceless hordes on a battlefield, lingering in the background until they’re needed for large-scale conflicts. Assembled Extras are outstanding or “named” bit players — officers like Demoux or soldiers like Gloradel — who may be given direct, individual orders so long as their force remains intact.",
+                    "highlight":"Only a character with six or more dice of Resources may attempt to assemble forces.",
+                    "part2":"So long as this requirement is met before Resources are spent (as usual), the character makes a Resources Challenge against a Difficulty based on the number of soldiers desired. Each Nudge may be used to boost the number of soldiers assembled by 50% (Nudges have no impact on Extras assembled). An assembled force remains intact until defeated in battle, until the next Long Breather, or until the Narrator determines it’s no longer viable or relevant to the story. \n\n After this attempt, and regardless of success, the character’s Resources score drops by 1, as usual.",
+                    "title":"Force / Soldiers & Examples",
+                    "table":[
+                        {
+                            "one":"1",
+                            "two":"Unit: 20 soldiers / 1 Extra"
+                        },
+                        {
+                            "one":"2",
+                            "two":"War Band: 100 soldiers / 2 Extras"
+                        },
+                        {
+                            "one":"3",
+                            "two":"Company: 500 soldiers / 3 Extras"
+                        },
+                        {
+                            "one":"4",
+                            "two":"Regiment: 1,000 soldiers / 4 Extras"
+                        },
+                        {
+                            "one":"5",
+                            "two":"Army: 10,000 soldiers / 5 Extras"
+                        }
+                    ],
+                    "example":"Example: As expected, it doesn’t take the Bylerum Boys long to realize the Nine Eyes have double-crossed them. It also doesn’t take them long to track Beck down — he’s on a barge traveling through Urbain territory. Knowing they have to act fast and aggressively if they want to recover their prize, the Bylerums play the best card they have — they alert House Hasting to Beck’s position, knowing they’ll throw everything they have at the Crew leader’s apprehension. \n\n Hasting nobles assemble a full regiment of troops in the area, ordering them to stop and search barges until Beck is found. A noble House can pull this off easily, but it’s beyond the Bylerums’ Resources (they have scores of 4 each). Let’s assume for a moment that their Resources were 2 higher The Challenge would have a Difficulty of 4. Let’s also say they were to roll two 6’s, one five, and three 4’s — a Result of 4 with two Nudges. In this case, the Bylerums would summon a regiment of 2,000 soldiers with 4 Extras, who would hunt for Beck until defeated or until the next Long Breather. \n\n Instead, the Bylerums have to hope Hasting’s troops will catch Beck, and that they can somehow find a way to reclaim their heirloom. The hunt is on!"
+                }
+            },
+            "influence":{
+                "part1":"Nothing gets done in the Empire without a little quid pro quo — such is the price of politics — but for the person with the right connections, nearly anything can be had. A character’s Influence dice represent his or her political and social position, network of contacts, bureaucratic authority, and popularity. \n\n You may attempt an Influence Challenge when you try to:",
+                "points":[
+                    {
+                        "point":"Win a political debate"
+                    },
+                    {
+                        "point":"Broker an agreement or treaty"
+                    },
+                    {
+                        "point":"Defend someone at trial"
+                    },
+                    {
+                        "point":"Win support for an idea"
+                    },
+                    {
+                        "point":"Get a law changed or suspended"
+                    },
+                    {
+                        "point":"Rally troops to fight"
+                    },
+                    {
+                        "point":"Tear down a noble house’s reputation"
+                    },
+                    {
+                        "point":"Call in a favor from a friend"
+                    },
+                    {
+                        "point":"Convince an organization to join your side"
+                    }
+                ],
+                "part2":"Characters with high Influence include generals, powerful lords, religious figures, and community leaders, while those with low Influence include rank and file soldiers, laborers, farmers, and cutpurses.",
+                "lies":{
+                    "part":"Under the table dealings are the stock-in-trade of clever nobles, merchants, and power-brokers in the Final Empire. Influential figures are adept at covering their tracks — and getting others to do the dirty work for them. \n\n A character may attempt an Influence Challenge to temporarily suppress an event. The Difficulty is based on the event’s scale (the area in which people would normally take notice) or import (how noteworthy it would normally be to people who take notice). \n\n The Narrator also uses the event’s scale and import to determine roughly how long the event stays buried (the larger the scale and greater the import, the shorter the cover-up), though the character may spend Nudges to lengthen this time. As the Narrator makes this determination secretly any Nudges used for this purpose are spent blindly, though the character knows that each Nudge spent increases the cover-up by its original duration. As a happy exception, a character who scores three or more Nudges may spend all of them to suppress the event forever. \n\n Knowledge of a suppressed event may become a Secret, at the Narrator’s discretion. \n\n After this attempt, and regardless of success, the character’s Influence score drops by 1, as usual.",
+                    "title":"Scale or Import / Examples",
+                    "table":[
+                        {
+                            "one":"1",
+                            "two":"House or Establishment / Insignificant Event: Death of a small-time underworld figure or a change to an oft-ignored law"
+                        },
+                        {
+                            "one":"2",
+                            "two":"House or Establishment / Insignificant Event: Death of a small-time underworld figure or a change to an oft-ignored law"
+                        },
+                        {
+                            "one":"3",
+                            "two":"City / Notable Event: Death of an influential Obligator or the institution of new trade regulations"
+                        },
+                        {
+                            "one":"4",
+                            "two":"Dominance / Remarkable Event: Death of a powerful noble lord or open war between rival houses"
+                        },
+                        {
+                            "one":"5",
+                            "two":"World / Staggering Event: Death of the Lord Ruler or a Great House’s betrayal of the Empire"
+                        }
+                    ],
+                    "example":"Example: Given the focus on finding Beck and recovering the stolen case, Hasting nobles leave the job of covering the theft up to a minor noble named Wren. The Difficulty is 3 and Wren’s Influence is 5. He makes the Challenge, rolling five 3’s — a Result of 3 with no Nudges — and so he manages to cover the event up, for now at least. Unfortunately, with no Nudges to spend, that’s the best Wren can do — he has to cross his fingers and hope. \n\n Brandon considers the state of things and if the Crew doesn’t interfere (again), he thinks the cover up will probably last at least a week — long enough for everyone to forget why they cared. Seriously though, when does the Crew not interfere?"
+                },
+                "favors":{
+                    "part":"Every character has a personal network — people who know people, who know people, who get things done. Characters can work these connections to call in assistance when it’s needed most. \n\n A character may attempt an Influence Challenge to call in a favor. The Difficulty is based on the difficulty or risk involved in providing the favor. \n\n The Narrator also uses this information to determine how far the collaborator is willing to go to help (the greater the difficulty or risk, the more hesitant he or she may be), though the character may spend Nudges to strengthen the collaborator’s commitment. As the Narrator makes this determination secretly any Nudges used for this purpose are spent blindly, though the character knows that each Nudge spent is having a marked impact on the collaborator’s dedication. As a happy exception, a character who scores three or more Nudges may spend all of them to have the collaborator see the favor through to the very end. \n\n The Narrator always has final say as to which favors can be called in. Using this ability to end-run a major plot or reveal a vital Secret undermines the tension and enjoyment of the narrative and shouldn’t be approved. \n\n After this attempt, and regardless of success, the character’s Influence score drops by 1, as usual.",
+                    "title":"Diffculty or Risk / Examples",
+                    "table":[
+                        {
+                            "one":"1",
+                            "two":"Simple / No Risk: Grant access to a skaa’s home; provide the names of Extras in a noble’s employ; offer information about rarely-used trade routes"
+                        },
+                        {
+                            "one":"2",
+                            "two":"Challenging / Low Risk: Grant access to a skaa merchant’s home; provide the name of a noble’s illegitimate child; offer information about an enemy’s army"
+                        },
+                        {
+                            "one":"3",
+                            "two":"Difficult / Some Risk: Grant access to a noble lord’s house; provide the name of a noble’s secret lover; offer information about inner workings of the Steel Ministry"
+                        },
+                        {
+                            "one":"4",
+                            "two":"Very Hard / Great Risk: Grant access to a Steel Ministry facility; provide the name of a rebel skaa leader; offer information about lord’s treasure vault"
+                        },
+                        {
+                            "one":"5",
+                            "two":"Nearly Impossible / Mortal Risk: Grant access to Kredik Shaw; provide the real name of a Steel Inquisitor; offer first-hand information about clandestine deal to overthrow the Lord Ruler"
+                        }
+                    ],
+                    "example":"Example: Brandon expects Sayna will be the one to upset House Hasting’s concealment of the raid but it’s actually Sev. He receives a detailed inventory of the study from Gavon (who snuck in thanks to a bribed guard), omits mention of the case the Crew stole, and passes the remainder along to every burglar, rat, fence, and other miscreant in the city. For good measure he also boasts that the Nine Eyes “walked right in and took what they wanted,” which he hopes will not only spur others to do the same but also act as a feather in the Crew’s cap the next time they’re negotiating for a job. \n\n Brandon decides that Sev is calling in many favors from friends with the right connections, and while he doesn’t think it’s a particularly hard sell (Difficulty 2), he also rules that word of the Crew’s raid will only spread if Sev’s Challenge Result beats “another Result” (the noble Wren’s effort to cover the raid up in the previous example, which scored a Result of 3 with no Nudges). \n\n Sev has an Influence score of 4 and applies the “capitalize on all opportunities” Trait. He rolls 5 dice, getting three 6’s and two 4’s — a Result of 4 with three Nudges! Not only does Sev’s network come through and spread the word, they solidly sell the idea that the Nine Eyes bested House Hasting and stole something impressive. \n\n Wren’s efforts sadly go to waste, and he’ll suffer in the Hasting ranks for not preventing a costly black eye for the House — especially as more and more would-be raiders press their luck at the keep."
+                },
+                "rallying":{
+                    "part":"The skaa are greatly oppressed and most others in the Final Empire are deeply entrenched in long-held positions and ways, but leaders have always been able to rally like-minded fellows to their cause, if only for a short while. This option is all about bringing groups of people together — in some cases very large groups that can dramatically alter a story’s resolution in the area. The people can be rallied for nearly any purpose, be it political, social, or something else, so long as it’s something that gets their attention. \n\n A character may attempt an Influence Challenge to gather a crowd at a location or as witnesses to an event, such as a speech, judgment, or duel. This Challenge has no Difficulty; rather, the Result determines the size of the crowd gathered. \n\n Note this doesn’t impact what the gathered characters see or hear (that depends on what comes next), or what the crowd thinks of it, though each Nudge spent adds a die with subsequent Influence checks to sway the crowd’s opinion, and spending three or more Nudges sets the crowd’s starting opinion (its predisposition) to whatever the character wants. \n\n After this attempt, and regardless of success, the character’s Influence score drops by 1, as usual.",
+                    "title":"Crowd Size / Examples",
+                    "table":[
+                        {
+                            "one":"1",
+                            "two":"Tiny: Onlookers within line of sight; 25 or fewer people"
+                        },
+                        {
+                            "one":"2",
+                            "two":"Small: Population of a village; 100–200 people"
+                        },
+                        {
+                            "one":"3",
+                            "two":"Medium: Population of a small town; 500 people"
+                        },
+                        {
+                            "one":"4",
+                            "two":"Large: Population of a large town; 1,000 people"
+                        },
+                        {
+                            "one":"5",
+                            "two":"Massive: Population of a small city; 10,000 or more people"
+                        }
+                    ],
+                    "example":"Example: The Crew’s scheme is shaping up nicely: the Hasting nobles are spread thin addressing rumors that they’ve allied with a minor House of ill repute, that they’re massing forces near the borders of longtime rival House Urbain, and that a small-time Crew has raided their biggest and most secure holding, making off with a priceless prize. \n\n As the final pieces of the puzzle come together and the other Great Houses convene to discuss possible sanctions, Sayna and Damosi discreetly urge skaa and nobles alike to gather for the verdict. As before, the Heroes work together, using the best of their Results. \n\n Sayna’s Influence is 4 and she sells Brandon that her “confident” Trait should apply. She rolls 5 dice, getting one 6, two 3’s and two 1’s — a Result of 3 with one Nudge. Damosi has an Influence of 3 and rolls two 4’s and one 1 — a Result of 4 with no Nudges. Given that the final stage of the Crew’s plan will focus on the court of public opinion, the Heroes choose Sayna’s lower Result with one Nudge. \n\n Outside the Assembly Hall, a crowd of several hundred forms, their minds already turned against Hasting and its allies."
+                },
+                "laws":{
+                    "part1":"The labyrinthine bureaucracies of the Final Empire and the contentious battles of the Assembly are dominated by the most skillful and prestigious politicians, whose whim can transform the laws of the land.",
+                    "highlight":"Only a character with six or more dice of Influence may attempt to change, suspend, or create laws.",
+                    "part2":"So long as this requirement is met before Influence is spent (as usual), the character may make an Influence Challenge against a Difficulty based on the intricacy or impact of the change. \n\n New and altered laws tend to waffle and mutate for a time as the Steel Ministry, Assembly, and other interested parties debate and lobby for their preferences, and all too often in the Final Empire things revert back to the way of before, especially when a change threatens the status quo. The Narrator determines the final form of any particular piece of legislature and how long it takes to settle into that form, based on the needs of the greater story. However, the character may spend Nudges to lengthen this debate (prolonging his or her preferred version of the law), and a character lucky enough to score three or more Nudges may spend all of them to quash debate and cement the new or altered law for good. \n\n After this attempt, and regardless of success, the character’s Influence score drops by 1, as usual.",
+                    "title":"Intricacy or Impact / Examples",
+                    "table":[
+                        {
+                            "one":"1",
+                            "two":"Simple / Negligible: Change the definition of fraud or trespassing; suspend a curfew; create a new trade ordinance"
+                        },
+                        {
+                            "one":"2",
+                            "two":"Involved / Minor: Change the definition of theft or bribery; suspend the decree of a minor lord; create a new title"
+                        },
+                        {
+                            "one":"3",
+                            "two":"Elaborate / Significant: Change the definition of assault or kidnapping; suspend a jail sentence; create a day of rest"
+                        },
+                        {
+                            "one":"4",
+                            "two":"Convoluted / Major: Change the definition of murder or arson; suspend an execution; create a new holiday"
+                        },
+                        {
+                            "one":"5",
+                            "two":"Byzantine / Radical: Change the definition of heresy or treason; suspend the decree of a king or emperor; create a new territory"
+                        }
+                    ],
+                    "example":"Example: The Crew’s scheme finally reaches fruition as Beck’s allies deliver a slim package to a meeting of the Great Houses as representatives are launching into a discussion of Hasting’s recent missteps. The package contains reams of evidence, some manufactured but most legitimate, showing Carrow and Cordal Bylerum at the center of all the unfortunate business at hand: they wormed their way into the city, lying about their status and what they could offer in exchange for sponsorship from Hasting; they urged Hasting to mobilize troops near Urbain borders; and they even hired the Crew that raided the keep, playing the victim when they were behind the whole affair! \n\n Beck and the Crew have planned this from the outset. It’s the masterstroke of a long and complex plan, and all that remains is to convince the nobility (and the people of Luthadel) that the Bylerums should be held accountable for all of it — everything they did and didn’t do — and that they should receive the full measure of Imperial sanction for their misdeeds. Only then, with Hasting occupied fending off criminals at every turn and the Bylerums on the run, can the Crew rest easy — at least until the next job. \n\n Brandon decides this is an elaborate manipulation of the Imperial system, with a Difficulty of 3. Beck’s the one spearheading the effort, which is why it’s possible — he’s the only member of the Crew with an Influence score high enough to attempt the Challenge (6), and the fact that he’s “known as an upright citizen” means he might actually have a chance to pull this off despite the fact that he’s not present and the Bylerums are still in town and able to defend themselves (two adverse conditions that cost him a die). \n\n Beck rolls 6 dice, getting three 6’s and three 3’s — a Result of 3 with three Nudges! That’s not only enough to condemn the Bylerums within the most powerful noble circles, but also enough to permanently ban them from the capital. An Obligator investigation is launched in the coming days, as Carrow and Cordal flee Luthadel in shame, and soon they’ll have to answer to the rest of their House as to why so many of their contracts are falling through, and so many of their assets are being seized. \n\n Hasting’s troops withdrawn, Beck can return home, where he and the Crew can plan their next great scheme.",
+                    "brandon":"In the Final Empire, the Lord Ruler's primary concerns lie in maintaining control over the noble houses, suppressing the skaa population, and retaining power over information. He pays little heed to the day-to-day governance of the empire or the nuances of religious worship, as long as his overarching goals are met. However, if something does capture his attention, his response is typically swift and merciless. Consequently, while corruption may be rampant in the government, it often goes unnoticed due to the Lord Ruler's disinterest in minor affairs. \n\n It's worth noting that Inquisitors, due to the alterations in their thinking imposed by the Lord Ruler, are exceptionally difficult to bribe or influence. Their unwavering loyalty to the Lord Ruler makes them resistant to outside manipulation. However, other individuals within the empire's hierarchy are susceptible to bribery and influence, presenting opportunities for those savvy enough to exploit them."
+                }
+            },
+            "spirit":{
+                "part1":"In addition to gauging confidence and luck, a character’s Spirit dice also represent his or her inner strength, link to the metaphysical realm, and perception and understanding of the grand design. They also let players tap a host of cool game effects like gaining a hint when the Crew’s stuck, quickly recovering from damage, changing the conversation on the fly, and even retrying a failed roll. \n\n You may attempt a Spirit Challenge when you try to:",
+                "points":[
+                    {
+                        "point":"Intuit the correct answer from two or more conflicting ones"
+                    },
+                    {
+                        "point":"Keep your composure in the face of great adversity"
+                    },
+                    {
+                        "point":"Find a purpose against overwhelming odds"
+                    },
+                    {
+                        "point":"Convince someone of a larger plan for them or the world"
+                    },
+                    {
+                        "point":"Catch a lucky break"
+                    },
+                    {
+                        "point":"Commune with metaphysical powers"
+                    },
+                    {
+                        "point":"Understand the nature of your destiny or the universe"
+                    }
+                ],
+                "part2":"Characters with high Spirit include holy men, prophesied heroes, and the very lucky or intuitive, while those with low Spirit include cold-blooded killers and anyone with low self-confidence or suffering from great trauma, plus those whom fate has dealt a poor hand.",
+                "hints":{
+                    "part":"Spirit defines a character’s intuition and sensitivity to the world. By trusting his or her gut, or having faith in a greater destiny, a character can sometimes find answers in unlikely places. \n\n A character may attempt a Spirit Challenge to request a hint from the Narrator, commonly by asking a single question. The Difficulty is based on how informative or relevant the hint or answer is in the current situation. With success, the Narrator answers, focusing only on the specific question or request and offering nothing more. After hearing the Narrator’s response, the character may spend any number of Nudges to ask the same number of follow-up questions. \n\n Like any rule, requesting a hint is intended to help move the conversation along, not to replace it. The Narrator may refuse any question, request, or follow-up without consequence if answering would derail the plot, reveal a Secret, or otherwise impede the story. Influence dice are not lost for a refused question unless the Narrator determines that refusing offers enough information for the character to make an educated guess about the situation (e.g. refusing to answer the question “Is this character a Villain?”). \n\n After this attempt, and regardless of success, the character’s Spirit score drops by 1, as usual.",
+                    "title":"Detail or Relevance / Example Questions",
+                    "table":[
+                        {
+                            "one":"1",
+                            "two":"Limited / Broad: “Is he acting strangely?” or “What is the crowd’s general mood?”"
+                        },
+                        {
+                            "one":"2",
+                            "two":"Alluding / General: “Do I have a gut feeling about this guy?” or “Is there anything I might be able to use here?”"
+                        },
+                        {
+                            "one":"3",
+                            "two":"Enlightening / Close: “What does this guy do for a living?” or “Is there a weapon in the room?”"
+                        },
+                        {
+                            "one":"4",
+                            "two":"Revealing / Specific: “What sort of man is he?” or “Which of these two doorways should I choose?"
+                        },
+                        {
+                            "one":"5",
+                            "two":"Definitive / Exact: “What’s his next move?” or “Where would Lord Penrod hide his vault?"
+                        }
+                    ],
+                    "example":"Example: Koel watches in horror as Thorrow and two guards are thrown from a third-story window, but when she reaches the pile of corpses below, the Thug’s body is nowhere to be found. There are signs of more fighting and plenty of blood, but the trail goes cold away from the keep. Koel frantically searches neighboring streets and comes up empty before she decides she needs a hint from Brandon. \n\n She knows that a question like, “Where could Thorrow have gone?” would be too much to manage with a Spirit of 3, so she keeps it simple: “Do I think Thorrow’s alive?” she asks, and Brandon assigns a Difficulty of 2. Being “pragmatic,” Koel gains a die, and she rolls 4 dice, getting one 6, one 5, and two 3’s — a Result of 3 with one Nudge. \n\n “He may well be,” Brandon answers, and Koel breathes a sigh of relief. The Nudge also grants her one follow-up question that’s no more detailed; she thinks on it for a moment and smiles. \n\n “Who else knew about the raid?” she asks, but she’s really just seeking confirmation. She already knows where to look next."
+                },
+                "break":{
+                    "part1":"Providence smiles on everyone eventually but some Heroes know just when (and how) to ask. A character may attempt a Spirit Challenge to add or modify a crucial detail about the current situation. The Difficulty is based on the detail’s impact on the conversation or plausibility in context (the more it changes things or the less likely it is, the harder the Challenge). Each Nudge spent on a successful roll allows the character to add one new (not altered, but new) detail that’s directly caused by the first addition or change.",
+                    "example":"Example: A character cornered in the back room of a tavern makes a Spirit Challenge to establish that the owner of the establishment was previously a weaponsmith, and then spends two Nudges to find a couple of his creations in a cabinet. If the character’s going down, at least she won’t be unarmed.",
+                    "part2":"Altering a detail that’s already part of the ongoing conversation — as opposed to simply introducing a new detail that doesn’t contradict anything that’s already in play — is called “dramatic editing.” It requires Narrator approval and boosts the Difficulty by 2 (meaning that major, unlikely, radical, and far-fetched details cannot be swapped in to replace established parts of the conversation). Dramatic editing demands that the Narrator and all players be comfortable with revisionist storytelling, and may not work for many groups. It isn’t recommended for beginning players. \n\n After this attempt, and regardless of success, the character’s Spirit score drops by 1, as usual.",
+                    "example2":"Example: Gavon remains behind at Keep Hasting to monitor the situation there, and in case the Crew needs additional help from the inside. For a little while he worries that the guard he bribed to let him into the private study might mention their deal (and he might, especially given all the pressure the nobles place on the guards after the raid and the inventory of the study going public). \n\n Then the player running Gavon strikes on a rather clever way to make sure the guard never talks again — he suggests that Gavon might catch a lucky break in that the guard was killed during the raid. Brandon can see this but given that many more guards survived than perished that night he assigns the Challenge a Difficulty of 3. \n\n Gavon has a Spirit of 5 and rolls one 6, three 4’s, one 2, and one 1 — a Result of 4 with one Nudge. This is enough for him to catch the lucky break, and he spends the Nudge to add a bit of flavor... \n\n The guard not only died that night, he was one of the two guards thrown out a window with Thorrow. If it weren’t for Carrow’s enthusiastic attack, maybe Gavon wouldn’t be alive today.",
+                    "title":"Impact or Plausability / Example Questions",
+                    "table":[
+                        {
+                            "one":"1",
+                            "two":"Negligible / Believable: Mild inclement weather starts up or the color of a lady’s dress is different than it was"
+                        },
+                        {
+                            "one":"2",
+                            "two":"Minor / Reasonable: A guard leaves his sword belt unbuckled or an earthquake rocks the base of an ashmount"
+                        },
+                        {
+                            "one":"3",
+                            "two":"Significant / Dubious: A guard leaves his sword hanging on his chair or the character produces an item he or she never mentioned before"
+                        },
+                        {
+                            "one":"4",
+                            "two":"Major / Unlikely: A guard falls asleep on the job or that key the character found just happens to work in this lock"
+                        },
+                        {
+                            "one":"5",
+                            "two":"Radical / Far-Fetched: A noble house alarm fails just as the Crew makes its escape or a mistwraith arrives the moment before a gravely wounded character is attacked by a superior opponent (and now everyone has to deal with the creature)"
+                        }
+                    ]
+                },
+                "surviving":{
+                    "part":"Life on Scadrial is indeed harsh, but resilient individuals can sometimes defy the odds and emerge victorious against all challenges. \n\n A character may attempt a Spirit Challenge to recover one of their Resiliences that has been diminished by damage or other adverse circumstances, provided it is currently at 5 or lower. This option is not available if the Resilience is already at 6 or higher, as such a situation wouldn't constitute defying the odds. The Difficulty of the challenge is equal to the current Resilience score, with a minimum of 1. Upon success, the character immediately regains 1 Resilience point, plus an additional point for each Nudge spent. \n\n This option remains accessible even if one or more of the character's Resiliences has been depleted to 0, or if they are already incapacitated or facing defeat in some manner (e.g., unconscious, dying, disgraced, etc.). However, succeeding in this challenge does not restart a failed Conflict; rather, it enables the character to bounce back more swiftly and potentially manage any repercussions from their setback. \n\n Regardless of the outcome, the character's Spirit score decreases by 1 after this attempt, as is customary.",
+                    "example":"Example: Koel arrives at the residence of the sole individual privy to the details of the raid: the brother of the servant girl JeHoy has been masquerading as. As she suspected, the brother divulges that he assisted Thorrow in escaping from the keep and has been tending to his injuries, though the situation has been dire. He recounts, 'Once his Pewter wore off, he was near death.' \n\n Thorrow's Pewter ability, with a rating of 5, sustained him until he reached the brother's abode. However, thereafter, his Health plummeted to 0, and he teetered on the brink of death. In a bid to endure against overwhelming odds, Thorrow made a Spirit Challenge to stave off demise. Rolling his 4 dice, he obtained one 3, one 2, and two 1's — resulting in a total of 1 with no Nudges, narrowly averting death's grasp. His Health promptly increased by 1, and he has since been slowly recuperating."
+                },
+                "last":{
+                    "part1":"Heroes intimately linked to their surroundings often transcend mere luck; they possess an innate destiny to triumph, tapping into forces greater than themselves to defy fate, even in the face of seemingly insurmountable odds.",
+                    "highlight":"Only a character with six or more dice of Spirit may call upon this option.",
+                    "part2":"Once this condition is fulfilled, a character can expend 1 Spirit to make another attempt at any roll. However, they do not receive any additional dice from Traits, Tools, Circumstances, or other modifiers; only their raw ability is at play (consider it a final act of sheer determination). The new Result supersedes the original, even if it proves less favorable, and the Outcome is adjusted accordingly. \n\n This option can even be invoked after an Outcome has been determined, though in such cases, the cost increases to 2 Spirit, reflecting the substantial effort required to rewrite history. \n\n After this endeavor, regardless of its success, the character's Spirit score diminishes by 1, following the usual pattern.",
+                    "example":"Example: Outside the Assembly Hall, Sayna and Damosi strive to incite the crowd they've gathered, aiming to cultivate as much animosity towards the Bylerums among the common folk as Beck's revelations have aroused among the nobility. Despite the crowd being somewhat predisposed to turn against someone (thanks to the earlier Nudge spent to gather them), their attempt to sway them completely falls flat — a meager Result of 1, accompanied by four Nudges, against a Difficulty of 3. \n\n Brandon describes the crowd slowly dispersing, their fervor waning rapidly. However, Sayna refuses to accept defeat so easily. She didn't go to such lengths just to let the Bylerum Boys slip quietly out of the city without a spectacle to remember! Determined, she decides to make a last-ditch effort, spending 1 Spirit from her pool of 6. \n\n With no assistance from Damosi this time, and unable to benefit from any Traits or the earlier Nudge, Sayna makes her Influence roll. She relies solely on her base Influence score of 4, hoping for the best. The dice are cast, and to her relief, she rolls three 5s and one 2 — a Result of 5 with no Nudges. It seems the Bylerum Boys will indeed face a barrage of rotten fruit as they depart the city, ensuring that their troublesome deeds won't be forgotten anytime soon."
+                }
             }
         }
     ]
