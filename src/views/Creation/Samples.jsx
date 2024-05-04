@@ -21,7 +21,7 @@ function Samples(props) {
     <>
       <div>
         <ol id="list">
-        <h2>Era 1 Heroes</h2>
+        <h2 className='notButter'>Era 1 Heroes</h2>
           {myEra1 && myEra1.map((myHero, index) => (
             <li  id="nav-list" className='samples' key={index}>
               <button className="index-button" onClick={() => changeSample(myHero.id)}>

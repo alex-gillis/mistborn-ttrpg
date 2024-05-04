@@ -102,14 +102,14 @@ function Character(props) {
                                 <td>Stunts</td>
                             </tr>
                                 {props.rogue.powers.map((item, index) => (
-                                    <tr key={index} className="justified">
+                                    <tr key={index}>
                                         <td>{item.power}</td>
                                         <td>{item.type}</td>
                                         <td>{item.rating}</td>
-                                        <td>
+                                        <td className="justified">
                                         {item.stunts?.map((item, index) => (
                                             <span key={index}>
-                                                <span id="bold">{item.stunt}</span> {item.desc}
+                                                <span id="bold">{item.stunt}</span> - {item.desc}
                                                 <br/>
                                             </span>
                                         ))}

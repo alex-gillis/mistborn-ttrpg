@@ -4,8 +4,6 @@
 
 import Character from "../Reference/Bestiary/Character"
 function Sample(props) {
-    // const altSheet = props.hero.name + "`s Character sheet"
-
     return (
       < >
         <h1>{props.hero.name}</h1>
@@ -14,10 +12,6 @@ function Sample(props) {
         </div>
         <div id="sampleDisplay">
             <div className="sheet">
-                {/* <img className="heroSample" src={props.hero.sheet} alt={altSheet}/>
-                <br/>
-                <span className="sampleText" id="bolder">{props.hero.name}`s Character sheet</span>
-                <br/> */}
                 <Character rogue={props.rogue} />
             </div>
             <div>

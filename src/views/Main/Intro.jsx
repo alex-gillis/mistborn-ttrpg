@@ -33,7 +33,7 @@ function Intro()
                 <br/>
                 This is the world of Mistborn. <br/>
                 
-                <h2>**************</h2>
+                <h2 className='notButter'>* * * * * * * * * * * * * * * * * * * * </h2>
                 Welcome to the Mistborn Adventure Game, a storytelling experience based on the New York Times best-selling novel series by Brandon Sanderson. With this book you can join one of Scadrial’s underground crews, a team of like-minded individuals drawn from all walks of society to pursue fame, fortune, or a greater cause you all share.<br/>
                 <br/>
                 Your hero brings special tools to the crew — possibly great fighting skill, a knack for politics, or command of Allomancy, Feruchemy, or Hemalurgy, the magic disciplines of the land. Together with your crewmates you pursue schemes and build a legend in the streets and fields of the Final Empire. <br/>
