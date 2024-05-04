@@ -1,4 +1,4 @@
-# Mistborn Tabletop Compendium
+# Mistborn Adventure Game Compendium
 Welcome to the Mistborn Tabletop Compendium! Delve into the secrets of Scadrial with ease, whether you're a novice Mistborn or a seasoned Allomancer.
 
 ## Introduction
