@@ -14,6 +14,7 @@ function Menu() {
     const [myProps, setProps] = useState([]);
     const [myRogues, setRogues] = useState([]);
     const [myGames, setGames] = useState([]);
+    const [myStunts, setStunts] = useState([]);
 
 
     useEffect(() => {
@@ -30,6 +31,7 @@ function Menu() {
             setProps (data.propped);
             setRogues (data.rogues);
             setGames (data.game);
+            setStunts (data.stunts);
         } catch (error) {
             console.error('Error fetching data:', error);
         }
@@ -67,7 +69,7 @@ function Menu() {
             { myPage === 1 && <Rules game={myGames}/> }
             { myPage === 2 && <Creation creation={myCreations} propped={myProps[0]} rogues={myRogues} /> }
             { myPage === 3 && <Cultures /> }
-            { myPage === 4 && <Reference basics={myBasics} creation={myCreations} metals={myMetals} /> }
+            { myPage === 4 && <Reference basics={myBasics} creation={myCreations} metals={myMetals} stunts={myStunts}/> }
         </>
     );
 }
