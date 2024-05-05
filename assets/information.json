@@ -9681,11 +9681,9 @@
             "id":6,
             "name":"Standings",
             "intro":{
-                "part":"What makes heroes so special isn’t just their individual skill or magical powers, but the fact they can make a tangible difference in their world. In the Mistborn novels we see heroes rise above their humble beginnings as thieves, stewards, and disfavored sons to become ambassadors, religious figures, emperors, legendary heroes, and ultimately decide the fate of the entire world. This element of mattering — of not only having skill but the ability to change the circumstances around you — is called",
-                "highlight":"Standing."
-            },
-            "standing":{
-                "part1":"A character’s three Standings — Influence, Resources, and Spirit — work very much like Attributes, though each is rated between 2 and 10 dice. These can be rolled in Challenges, Contests, and Conflicts as normal, and using Standings in this way doesn’t change the number of dice available. \n\n Alternatively, a character may “spend” his or her Standings for the chance (a Challenge roll) to acquire various benefits during play: Influence may be spent to nurture political connections and request favors; Resources may be spent for physical goods and services; and Spirit may be spent for fresh chances when other avenues have been exhausted.\n\n Specific examples of spending each Standing are provided in the following sections, and the Narrator and other players will likely come up with many more. However, no matter what the character wants, there are two steps to spending a die of Standing:",
+                "part1":"What makes heroes so special isn’t just their individual skill or magical powers, but the fact they can make a tangible difference in their world. In the Mistborn novels we see heroes rise above their humble beginnings as thieves, stewards, and disfavored sons to become ambassadors, religious figures, emperors, legendary heroes, and ultimately decide the fate of the entire world. This element of mattering — of not only having skill but the ability to change the circumstances around you — is called",
+                "highlight":"Standing.",
+                "part2":"A character’s three Standings — Influence, Resources, and Spirit — work very much like Attributes, though each is rated between 2 and 10 dice. These can be rolled in Challenges, Contests, and Conflicts as normal, and using Standings in this way doesn’t change the number of dice available. \n\n Alternatively, a character may “spend” his or her Standings for the chance (a Challenge roll) to acquire various benefits during play: Influence may be spent to nurture political connections and request favors; Resources may be spent for physical goods and services; and Spirit may be spent for fresh chances when other avenues have been exhausted.\n\n Specific examples of spending each Standing are provided in the following sections, and the Narrator and other players will likely come up with many more. However, no matter what the character wants, there are two steps to spending a die of Standing:",
                 "points":[
                     {
                         "point":"The character rolls a Challenge with his current dice in the Standing (against the Difficulty listed in the following sections, along with any other rules listed there, or with a Difficulty and rules determined by the Narrator)."
@@ -9694,11 +9692,1254 @@
                         "point":"The score of the Standing used drops by 1, even if the Challenge fails. "
                     }
                 ],
-                "part2":"Thus a character may only spend a Standing that’s 2 or higher before the Challenge is made. Remember, no roll is possible with less than two dice, and rolling a Challenge with a Standing of 2 drops that Standing low enough that it’s only contributing 1 die. Once a Standing drops to 1, the character is stymied on that front until the next Breather, when he or she can recoup.",
+                "part3":"Thus a character may only spend a Standing that’s 2 or higher before the Challenge is made. Remember, no roll is possible with less than two dice, and rolling a Challenge with a Standing of 2 drops that Standing low enough that it’s only contributing 1 die. Once a Standing drops to 1, the character is stymied on that front until the next Breather, when he or she can recoup.",
                 "example1":"Example: Sayna has a Resources score of 3. After spending 1 Resources to acquire an item this score drops to 2, making it impossible for her to acquire more items (or spend Resources for anything else) until her score refreshes at the next Breather.",
-                "part3":"Though the Narrator may sometimes replenish a single point of Standing under the right conditions (a point of Resources when the character receives a sudden and unexpected windfall, or a point of Influence when a powerful noble speaks highly of the character in public), the most common ways to recover are time and Breathers. \n\n Characters naturally recover 1 of each Standing per day. \n\n Additionally, during a Short Breather, a character recovers half of each spent Standing, rounded up. This occurs whether the character sits the Breather out or not. In a Long Breather, a character recovers all spent Standings.",
+                "part4":"Though the Narrator may sometimes replenish a single point of Standing under the right conditions (a point of Resources when the character receives a sudden and unexpected windfall, or a point of Influence when a powerful noble speaks highly of the character in public), the most common ways to recover are time and Breathers. \n\n Characters naturally recover 1 of each Standing per day. \n\n Additionally, during a Short Breather, a character recovers half of each spent Standing, rounded up. This occurs whether the character sits the Breather out or not. In a Long Breather, a character recovers all spent Standings.",
                 "example2":"Example: Beck has spent 4 of his 6 Influence. If Brandon calls no Long Breathers for at least three days, he will recover the full utility of his status in that time (1 Influence per day). Alternately, if Brandon were to call a Short Breather Beck would recover 2 Influence then and the remaining point a day after."
+            },
+            "resources":{
+                "part1":"In the Mistborn saga, Heroes rarely concern themselves with treasure; their aspirations typically look beyond wealth and their troubles go way beyond their pocketbooks. Still, money talks in the Final Empire, particularly in the highest halls of power. A character’s Resources dice cover his or her worldly possessions and the ability to gain more. \n\n You may attempt a Resources Challenge when you try to:",
+                "points":[
+                    {
+                        "point":"Bribe a guard"
+                    },
+                    {
+                        "point":"Assemble an army"
+                    },
+                    {
+                        "point":"Outfit your Crew for its next exploit"
+                    },
+                    {
+                        "point":"Secure the services of a kandra"
+                    },
+                    {
+                        "point":"Host a lavish event"
+                    },
+                    {
+                        "point":"Appeal to a noble’s greed"
+                    },
+                    {
+                        "point":"Buy the silence of an unflattering witness"
+                    },
+                    {
+                        "point":"Impress someone with your wealth"
+                    },
+                    {
+                        "point":"Bid for a contract"
+                    },
+                    {
+                        "point":"Get hold of some atium"
+                    },
+                    {
+                        "point":"Rebuild a ruined town"
+                    }
+                ],
+                "part2":"Characters with high Resources include successful noble lords, high-ranking Obligators, and connected financiers and merchants, while those with low Resources include beggars, thieves, and plantation skaa.",
+                "props":{
+                    "part":"Props are 'permanent' equipment a character always has on hand, and each character typically carries a number equal to his or her Resources. When a Prop is used or lost in play, the character automatically regains another identical Prop 'off screen' during the next Long Breather—unless, of course, the Narrator determines there's a reason replacements can't be found (e.g., a character is nowhere near a source of the Prop, or he or she is imprisoned). Props can be swapped out during Long Breathers."
+                },
+                "bribes":{
+                    "part":"Everyone has a price — the trick is figuring out what it is. For some, it’s coin, but for others, it may be a favor, title, information, or even access to the character’s Resources for a time, or for a specific purpose. \n\n A character may attempt a Resources Challenge to bribe an Extra to take one action of the character’s choice (this doesn’t work on Heroes or Villains — to bribe them, you have to actually make them a deal they agree with). The Difficulty depends on the Extra’s reluctance to perform the task. \n\n The Narrator also uses the Extra’s reluctance to determine roughly how long he or she keeps quiet about a successful exchange (the greater the reluctance, the shorter the time), though the character may spend Nudges to lengthen the silence. As the Narrator makes this determination secretly, any Nudges used for this purpose are spent blindly, though the character knows that each Nudge spent increases the silence by its original duration. As a happy exception, a character who scores three or more Nudges may spend all of them to convince the Extra to stay silent forever. \n\n After this attempt, and regardless of success, the character’s Resources score drops by 1, as usual.",
+                    "example":"Example: As the Nine Eyes Crew’s “man on the inside” at Keep Hasting, it falls to Gavon to confirm the case is located in the private study, as Sev surmised. He approaches a guard posted there and offers him more than a week’s pay for just a peek inside (“my curiosity’s killing me!”). \n\n Brandon decides the guard is indifferent (it’s just a study, after all), which means a Difficulty of 2. Gavon spends 1 Resources (of 4) and gathers a pool. He benefits from the “fast-talker” Trait and rolls 5 dice, getting one 6, one 5, and three 3’s — a Result of 3 with one Nudge, and a success! The guard steps aside and Gavon sneaks in, going to work. \n\n Just in case, Gavon commits the Nudge to keeping the guard quiet for a little longer. He doesn’t know exactly what effect this will have, but the raid is planned for the next day and he doesn’t want the guard talking before then. Brandon privately decides the guard wouldn’t originally talk for at least a day, assuming there’s nothing to spook him, and Gavon’s Nudge doubles that time.",
+                    "title":"Reluctance / Examples",
+                    "table":[
+                        {
+                            "one":"1",
+                            "two":"Predisposed: Act upholds current laws, supports the Extra's morals, or presents an opportunity for personal gain (e.g., getting back at a rival or lying to a mutual enemy)."
+                        },
+                        {
+                            "one":"2",
+                            "two":"Indifferent: Act breaks no known laws and doesn’t violate the Extra’s morals or harm anyone the Extra cares about (e.g., revealing a Minor Secret of little apparent import, feigning ignorance about the Crew — assuming they aren’t clearly criminals — or granting access to an exclusive event)."
+                        },
+                        {
+                            "one":"3",
+                            "two":"Wary: Act could break laws or violate the Extra’s morals, or only harms “bad people” (e.g., betraying a friend or ally, or handing over an item stolen from an enemy)."
+                        },
+                        {
+                            "one":"4",
+                            "two":"Reluctant: Act clearly breaks laws, violates the Extra’s morals, or harms anyone (e.g., revealing a Major or damaging Secret, harboring a known fugitive, or granting access to the Imperial armory)."
+                        },
+                        {
+                            "one":"5",
+                            "two":"Opposed: Act flagrantly breaks laws or violates the Extra’s morals, or could harm the Extra (e.g., betraying a loved one or committing treason)."
+                        }
+                    ]
+                },
+                "equipment":{
+                    "part":"It’s not uncommon for Heroes to find themselves in need of additional gear or tools midway between Breathers. Fortunately, they can fall back on their pocketbooks and supporters. \n\n A character may attempt a Resources Challenge to acquire one additional item, rolling against the Difficulty listed on pages 235–237. With success, the character gains the desired item and each Nudge may be used to acquire one additional copy of it. \n\n Equipment gained in this way is kept until used or lost, or until the next Long Breather (whichever comes first). \n\n After this attempt, and regardless of success, the character’s Resources score drops by 1, as usual.",
+                    "brandon":"You may have noticed the Mistborn Adventure Game doesn’t include descriptions of coin or prices, even though “boxings” and “copper clips” are mentioned in the novels. The rules fold money as Resources dice for a variety of reasons, chiefly because the stars of the Mistborn trilogy never use or worry about it (except to fire at their enemies or fuel Steeljumps, and we’ve covered those uses elsewhere). \n\n Also, as a true fantasy epic, the series’ viewpoint is positioned above such petty details. Money is here as it appears in the books — it’s something some characters have, and many pursue, but it’s ultimately less of a goal or statistic than a driving force in the narrative. Like their literary cousins, the Heroes of your saga are concerned with what they’re doing and the fate of the world around them, not the number of coins in their pockets or how much loot they’ve stashed back at their hideout. \n\n This doesn’t mean money doesn’t exist in our Final Empire — quite the contrary — but the rules keep the details light and focused on the plot, as it should be. When you need to represent characters having extra money, an extra Resources die or two is a good replacement for counting coins. Keep it simple: one die for a minor boon and two for a major windfall (and never more lest money start to dominate and ultimately render rolling irrelevant). The Narrator should also keep expenditures in mind, as any coin in hand will eventually be spent, reducing or eliminating these bonus Resources dice.",
+                    "example":"Example: Koel hits the streets before the Keep Hasting raid, looking for a bead of atium. This has a very high Difficulty (5), but this is why Becky invested so heavily in her Resources score (also 5). She spends and rolls, but fails with two 6’s, one 3, and two 2’s — a Result of 2 with two Nudges. She spends and rolls again, this time with only 4 dice, and gets two 5’s, one 4, and one 2 — a Result of 5 with no Nudges. It’s enough, and her Resources score settles in at 3. The deal was steep and she paid too much, but Koel has what she needs. If she doesn’t use it during the raid, she can sell it back (explaining its loss at the next Long Breather)."
+                },
+                "services":{
+                    "part1":"Heroes can’t be everywhere at once, nor can they do everything themselves, but they can often find someone to do a job for the right price. A character may attempt a Resources Challenge to secure a service, or individuals to conduct a service. The Difficulty depends on the scope or rarity of the service, and any service secured lasts until completed or for 1 week, plus one additional week per Nudge spent (whichever comes first).",
+                    "brandon":"It’s fine if one or more of the characters’ goals includes getting rich — after all, what thieving crew doesn’t care about money? — but hopefully this is just one of their aspirations. Just like real people, characters should want many things, and play time should be split accordingly. Even when the characters do chase money, you should avoid counting coin or keeping track of purchases. Becoming rich in Scadrial isn’t about the handful of clips you lift from a nobleman’s pocket or the trinket you score from a merchant — it’s about grand jobs and getting ahead in the world. In game terms, just a high Resources score is probably enough.",
+                    "part2":"Individuals employed to conduct a service work only on the task they’re hired for, and refuse to make unrelated rolls or provide additional help unless duly compensated. After this attempt, and regardless of success, the character’s Resources score drops by 1, as usual.",
+                    "example":"Example: Beck knows he’ll become a target once House Hasting and the Bylerums discover his Crew’s to blame for stealing the heirloom, so he arranges for a barge trip out of Luthadel. This is an expensive service with a Difficulty of 3, but Beck isn’t worried with a Resources score of 4 and his “well connected” Trait. He makes the Challenge, getting two 4’s, one 3, and two 1’s — a Result of 4 with no Nudges. The barge will be waiting for him the night of the raid.",
+                    "title":"Scope or Rarity / Examples",
+                    "table":[
+                        {
+                            "one":"1",
+                            "two":"Affordable / Common: Reserve a private room, travel by horse, or employ a team of skaa laborers"
+                        },
+                        {
+                            "one":"2",
+                            "two":"Costly / Uncommon: Have a message delivered in absolute secrecy, travel by carriage, or employ a bodyguard"
+                        },
+                        {
+                            "one":"3",
+                            "two":"Expensive / Scarce: Hire a private tutor, travel by barge, or employ a thieving crew"
+                        },
+                        {
+                            "one":"4",
+                            "two":"Very Expensive / Rare: Host a grand ball, travel with an armed entourage, or employ a team of hazekillers"
+                        },
+                        {
+                            "one":"5",
+                            "two":"Extravagant / Very Rare: Rebuild a village, travel with the Lord Ruler’s entourage, or employ a kandra"
+                        }
+                    ]
+                },
+                "forces":{
+                    "part1":"The Empire’s wealthiest figures often need to defend their assets, making house guards, mercenary bands, and full-fledged armies vital tools even before the Collapse. During the New Empire, kings and barons rely ever more heavily upon armed forces to repel roving bands of koloss and the predations of ambitious bandits and rival lords. \n\n An assembled force includes soldiers and Extras. Soldiers are the faceless hordes on a battlefield, lingering in the background until they’re needed for large-scale conflicts. Assembled Extras are outstanding or “named” bit players — officers like Demoux or soldiers like Gloradel — who may be given direct, individual orders so long as their force remains intact.",
+                    "highlight":"Only a character with six or more dice of Resources may attempt to assemble forces.",
+                    "part2":"So long as this requirement is met before Resources are spent (as usual), the character makes a Resources Challenge against a Difficulty based on the number of soldiers desired. Each Nudge may be used to boost the number of soldiers assembled by 50% (Nudges have no impact on Extras assembled). An assembled force remains intact until defeated in battle, until the next Long Breather, or until the Narrator determines it’s no longer viable or relevant to the story. \n\n After this attempt, and regardless of success, the character’s Resources score drops by 1, as usual.",
+                    "title":"Force / Soldiers & Examples",
+                    "table":[
+                        {
+                            "one":"1",
+                            "two":"Unit: 20 soldiers / 1 Extra"
+                        },
+                        {
+                            "one":"2",
+                            "two":"War Band: 100 soldiers / 2 Extras"
+                        },
+                        {
+                            "one":"3",
+                            "two":"Company: 500 soldiers / 3 Extras"
+                        },
+                        {
+                            "one":"4",
+                            "two":"Regiment: 1,000 soldiers / 4 Extras"
+                        },
+                        {
+                            "one":"5",
+                            "two":"Army: 10,000 soldiers / 5 Extras"
+                        }
+                    ],
+                    "example":"Example: As expected, it doesn’t take the Bylerum Boys long to realize the Nine Eyes have double-crossed them. It also doesn’t take them long to track Beck down — he’s on a barge traveling through Urbain territory. Knowing they have to act fast and aggressively if they want to recover their prize, the Bylerums play the best card they have — they alert House Hasting to Beck’s position, knowing they’ll throw everything they have at the Crew leader’s apprehension. \n\n Hasting nobles assemble a full regiment of troops in the area, ordering them to stop and search barges until Beck is found. A noble House can pull this off easily, but it’s beyond the Bylerums’ Resources (they have scores of 4 each). Let’s assume for a moment that their Resources were 2 higher The Challenge would have a Difficulty of 4. Let’s also say they were to roll two 6’s, one five, and three 4’s — a Result of 4 with two Nudges. In this case, the Bylerums would summon a regiment of 2,000 soldiers with 4 Extras, who would hunt for Beck until defeated or until the next Long Breather. \n\n Instead, the Bylerums have to hope Hasting’s troops will catch Beck, and that they can somehow find a way to reclaim their heirloom. The hunt is on!"
+                }
+            },
+            "influence":{
+                "part1":"Nothing gets done in the Empire without a little quid pro quo — such is the price of politics — but for the person with the right connections, nearly anything can be had. A character’s Influence dice represent his or her political and social position, network of contacts, bureaucratic authority, and popularity. \n\n You may attempt an Influence Challenge when you try to:",
+                "points":[
+                    {
+                        "point":"Win a political debate"
+                    },
+                    {
+                        "point":"Broker an agreement or treaty"
+                    },
+                    {
+                        "point":"Defend someone at trial"
+                    },
+                    {
+                        "point":"Win support for an idea"
+                    },
+                    {
+                        "point":"Get a law changed or suspended"
+                    },
+                    {
+                        "point":"Rally troops to fight"
+                    },
+                    {
+                        "point":"Tear down a noble house’s reputation"
+                    },
+                    {
+                        "point":"Call in a favor from a friend"
+                    },
+                    {
+                        "point":"Convince an organization to join your side"
+                    }
+                ],
+                "part2":"Characters with high Influence include generals, powerful lords, religious figures, and community leaders, while those with low Influence include rank and file soldiers, laborers, farmers, and cutpurses.",
+                "lies":{
+                    "part":"Under the table dealings are the stock-in-trade of clever nobles, merchants, and power-brokers in the Final Empire. Influential figures are adept at covering their tracks — and getting others to do the dirty work for them. \n\n A character may attempt an Influence Challenge to temporarily suppress an event. The Difficulty is based on the event’s scale (the area in which people would normally take notice) or import (how noteworthy it would normally be to people who take notice). \n\n The Narrator also uses the event’s scale and import to determine roughly how long the event stays buried (the larger the scale and greater the import, the shorter the cover-up), though the character may spend Nudges to lengthen this time. As the Narrator makes this determination secretly any Nudges used for this purpose are spent blindly, though the character knows that each Nudge spent increases the cover-up by its original duration. As a happy exception, a character who scores three or more Nudges may spend all of them to suppress the event forever. \n\n Knowledge of a suppressed event may become a Secret, at the Narrator’s discretion. \n\n After this attempt, and regardless of success, the character’s Influence score drops by 1, as usual.",
+                    "title":"Scale or Import / Examples",
+                    "table":[
+                        {
+                            "one":"1",
+                            "two":"House or Establishment / Insignificant Event: Death of a small-time underworld figure or a change to an oft-ignored law"
+                        },
+                        {
+                            "one":"2",
+                            "two":"House or Establishment / Insignificant Event: Death of a small-time underworld figure or a change to an oft-ignored law"
+                        },
+                        {
+                            "one":"3",
+                            "two":"City / Notable Event: Death of an influential Obligator or the institution of new trade regulations"
+                        },
+                        {
+                            "one":"4",
+                            "two":"Dominance / Remarkable Event: Death of a powerful noble lord or open war between rival houses"
+                        },
+                        {
+                            "one":"5",
+                            "two":"World / Staggering Event: Death of the Lord Ruler or a Great House’s betrayal of the Empire"
+                        }
+                    ],
+                    "example":"Example: Given the focus on finding Beck and recovering the stolen case, Hasting nobles leave the job of covering the theft up to a minor noble named Wren. The Difficulty is 3 and Wren’s Influence is 5. He makes the Challenge, rolling five 3’s — a Result of 3 with no Nudges — and so he manages to cover the event up, for now at least. Unfortunately, with no Nudges to spend, that’s the best Wren can do — he has to cross his fingers and hope. \n\n Brandon considers the state of things and if the Crew doesn’t interfere (again), he thinks the cover up will probably last at least a week — long enough for everyone to forget why they cared. Seriously though, when does the Crew not interfere?"
+                },
+                "favors":{
+                    "part":"Every character has a personal network — people who know people, who know people, who get things done. Characters can work these connections to call in assistance when it’s needed most. \n\n A character may attempt an Influence Challenge to call in a favor. The Difficulty is based on the difficulty or risk involved in providing the favor. \n\n The Narrator also uses this information to determine how far the collaborator is willing to go to help (the greater the difficulty or risk, the more hesitant he or she may be), though the character may spend Nudges to strengthen the collaborator’s commitment. As the Narrator makes this determination secretly any Nudges used for this purpose are spent blindly, though the character knows that each Nudge spent is having a marked impact on the collaborator’s dedication. As a happy exception, a character who scores three or more Nudges may spend all of them to have the collaborator see the favor through to the very end. \n\n The Narrator always has final say as to which favors can be called in. Using this ability to end-run a major plot or reveal a vital Secret undermines the tension and enjoyment of the narrative and shouldn’t be approved. \n\n After this attempt, and regardless of success, the character’s Influence score drops by 1, as usual.",
+                    "title":"Diffculty or Risk / Examples",
+                    "table":[
+                        {
+                            "one":"1",
+                            "two":"Simple / No Risk: Grant access to a skaa’s home; provide the names of Extras in a noble’s employ; offer information about rarely-used trade routes"
+                        },
+                        {
+                            "one":"2",
+                            "two":"Challenging / Low Risk: Grant access to a skaa merchant’s home; provide the name of a noble’s illegitimate child; offer information about an enemy’s army"
+                        },
+                        {
+                            "one":"3",
+                            "two":"Difficult / Some Risk: Grant access to a noble lord’s house; provide the name of a noble’s secret lover; offer information about inner workings of the Steel Ministry"
+                        },
+                        {
+                            "one":"4",
+                            "two":"Very Hard / Great Risk: Grant access to a Steel Ministry facility; provide the name of a rebel skaa leader; offer information about lord’s treasure vault"
+                        },
+                        {
+                            "one":"5",
+                            "two":"Nearly Impossible / Mortal Risk: Grant access to Kredik Shaw; provide the real name of a Steel Inquisitor; offer first-hand information about clandestine deal to overthrow the Lord Ruler"
+                        }
+                    ],
+                    "example":"Example: Brandon expects Sayna will be the one to upset House Hasting’s concealment of the raid but it’s actually Sev. He receives a detailed inventory of the study from Gavon (who snuck in thanks to a bribed guard), omits mention of the case the Crew stole, and passes the remainder along to every burglar, rat, fence, and other miscreant in the city. For good measure he also boasts that the Nine Eyes “walked right in and took what they wanted,” which he hopes will not only spur others to do the same but also act as a feather in the Crew’s cap the next time they’re negotiating for a job. \n\n Brandon decides that Sev is calling in many favors from friends with the right connections, and while he doesn’t think it’s a particularly hard sell (Difficulty 2), he also rules that word of the Crew’s raid will only spread if Sev’s Challenge Result beats “another Result” (the noble Wren’s effort to cover the raid up in the previous example, which scored a Result of 3 with no Nudges). \n\n Sev has an Influence score of 4 and applies the “capitalize on all opportunities” Trait. He rolls 5 dice, getting three 6’s and two 4’s — a Result of 4 with three Nudges! Not only does Sev’s network come through and spread the word, they solidly sell the idea that the Nine Eyes bested House Hasting and stole something impressive. \n\n Wren’s efforts sadly go to waste, and he’ll suffer in the Hasting ranks for not preventing a costly black eye for the House — especially as more and more would-be raiders press their luck at the keep."
+                },
+                "rallying":{
+                    "part":"The skaa are greatly oppressed and most others in the Final Empire are deeply entrenched in long-held positions and ways, but leaders have always been able to rally like-minded fellows to their cause, if only for a short while. This option is all about bringing groups of people together — in some cases very large groups that can dramatically alter a story’s resolution in the area. The people can be rallied for nearly any purpose, be it political, social, or something else, so long as it’s something that gets their attention. \n\n A character may attempt an Influence Challenge to gather a crowd at a location or as witnesses to an event, such as a speech, judgment, or duel. This Challenge has no Difficulty; rather, the Result determines the size of the crowd gathered. \n\n Note this doesn’t impact what the gathered characters see or hear (that depends on what comes next), or what the crowd thinks of it, though each Nudge spent adds a die with subsequent Influence checks to sway the crowd’s opinion, and spending three or more Nudges sets the crowd’s starting opinion (its predisposition) to whatever the character wants. \n\n After this attempt, and regardless of success, the character’s Influence score drops by 1, as usual.",
+                    "title":"Crowd Size / Examples",
+                    "table":[
+                        {
+                            "one":"1",
+                            "two":"Tiny: Onlookers within line of sight; 25 or fewer people"
+                        },
+                        {
+                            "one":"2",
+                            "two":"Small: Population of a village; 100–200 people"
+                        },
+                        {
+                            "one":"3",
+                            "two":"Medium: Population of a small town; 500 people"
+                        },
+                        {
+                            "one":"4",
+                            "two":"Large: Population of a large town; 1,000 people"
+                        },
+                        {
+                            "one":"5",
+                            "two":"Massive: Population of a small city; 10,000 or more people"
+                        }
+                    ],
+                    "example":"Example: The Crew’s scheme is shaping up nicely: the Hasting nobles are spread thin addressing rumors that they’ve allied with a minor House of ill repute, that they’re massing forces near the borders of longtime rival House Urbain, and that a small-time Crew has raided their biggest and most secure holding, making off with a priceless prize. \n\n As the final pieces of the puzzle come together and the other Great Houses convene to discuss possible sanctions, Sayna and Damosi discreetly urge skaa and nobles alike to gather for the verdict. As before, the Heroes work together, using the best of their Results. \n\n Sayna’s Influence is 4 and she sells Brandon that her “confident” Trait should apply. She rolls 5 dice, getting one 6, two 3’s and two 1’s — a Result of 3 with one Nudge. Damosi has an Influence of 3 and rolls two 4’s and one 1 — a Result of 4 with no Nudges. Given that the final stage of the Crew’s plan will focus on the court of public opinion, the Heroes choose Sayna’s lower Result with one Nudge. \n\n Outside the Assembly Hall, a crowd of several hundred forms, their minds already turned against Hasting and its allies."
+                },
+                "laws":{
+                    "part1":"The labyrinthine bureaucracies of the Final Empire and the contentious battles of the Assembly are dominated by the most skillful and prestigious politicians, whose whim can transform the laws of the land.",
+                    "highlight":"Only a character with six or more dice of Influence may attempt to change, suspend, or create laws.",
+                    "part2":"So long as this requirement is met before Influence is spent (as usual), the character may make an Influence Challenge against a Difficulty based on the intricacy or impact of the change. \n\n New and altered laws tend to waffle and mutate for a time as the Steel Ministry, Assembly, and other interested parties debate and lobby for their preferences, and all too often in the Final Empire things revert back to the way of before, especially when a change threatens the status quo. The Narrator determines the final form of any particular piece of legislature and how long it takes to settle into that form, based on the needs of the greater story. However, the character may spend Nudges to lengthen this debate (prolonging his or her preferred version of the law), and a character lucky enough to score three or more Nudges may spend all of them to quash debate and cement the new or altered law for good. \n\n After this attempt, and regardless of success, the character’s Influence score drops by 1, as usual.",
+                    "title":"Intricacy or Impact / Examples",
+                    "table":[
+                        {
+                            "one":"1",
+                            "two":"Simple / Negligible: Change the definition of fraud or trespassing; suspend a curfew; create a new trade ordinance"
+                        },
+                        {
+                            "one":"2",
+                            "two":"Involved / Minor: Change the definition of theft or bribery; suspend the decree of a minor lord; create a new title"
+                        },
+                        {
+                            "one":"3",
+                            "two":"Elaborate / Significant: Change the definition of assault or kidnapping; suspend a jail sentence; create a day of rest"
+                        },
+                        {
+                            "one":"4",
+                            "two":"Convoluted / Major: Change the definition of murder or arson; suspend an execution; create a new holiday"
+                        },
+                        {
+                            "one":"5",
+                            "two":"Byzantine / Radical: Change the definition of heresy or treason; suspend the decree of a king or emperor; create a new territory"
+                        }
+                    ],
+                    "example":"Example: The Crew’s scheme finally reaches fruition as Beck’s allies deliver a slim package to a meeting of the Great Houses as representatives are launching into a discussion of Hasting’s recent missteps. The package contains reams of evidence, some manufactured but most legitimate, showing Carrow and Cordal Bylerum at the center of all the unfortunate business at hand: they wormed their way into the city, lying about their status and what they could offer in exchange for sponsorship from Hasting; they urged Hasting to mobilize troops near Urbain borders; and they even hired the Crew that raided the keep, playing the victim when they were behind the whole affair! \n\n Beck and the Crew have planned this from the outset. It’s the masterstroke of a long and complex plan, and all that remains is to convince the nobility (and the people of Luthadel) that the Bylerums should be held accountable for all of it — everything they did and didn’t do — and that they should receive the full measure of Imperial sanction for their misdeeds. Only then, with Hasting occupied fending off criminals at every turn and the Bylerums on the run, can the Crew rest easy — at least until the next job. \n\n Brandon decides this is an elaborate manipulation of the Imperial system, with a Difficulty of 3. Beck’s the one spearheading the effort, which is why it’s possible — he’s the only member of the Crew with an Influence score high enough to attempt the Challenge (6), and the fact that he’s “known as an upright citizen” means he might actually have a chance to pull this off despite the fact that he’s not present and the Bylerums are still in town and able to defend themselves (two adverse conditions that cost him a die). \n\n Beck rolls 6 dice, getting three 6’s and three 3’s — a Result of 3 with three Nudges! That’s not only enough to condemn the Bylerums within the most powerful noble circles, but also enough to permanently ban them from the capital. An Obligator investigation is launched in the coming days, as Carrow and Cordal flee Luthadel in shame, and soon they’ll have to answer to the rest of their House as to why so many of their contracts are falling through, and so many of their assets are being seized. \n\n Hasting’s troops withdrawn, Beck can return home, where he and the Crew can plan their next great scheme.",
+                    "brandon":"In the Final Empire, the Lord Ruler's primary concerns lie in maintaining control over the noble houses, suppressing the skaa population, and retaining power over information. He pays little heed to the day-to-day governance of the empire or the nuances of religious worship, as long as his overarching goals are met. However, if something does capture his attention, his response is typically swift and merciless. Consequently, while corruption may be rampant in the government, it often goes unnoticed due to the Lord Ruler's disinterest in minor affairs. \n\n It's worth noting that Inquisitors, due to the alterations in their thinking imposed by the Lord Ruler, are exceptionally difficult to bribe or influence. Their unwavering loyalty to the Lord Ruler makes them resistant to outside manipulation. However, other individuals within the empire's hierarchy are susceptible to bribery and influence, presenting opportunities for those savvy enough to exploit them."
+                }
+            },
+            "spirit":{
+                "part1":"In addition to gauging confidence and luck, a character’s Spirit dice also represent his or her inner strength, link to the metaphysical realm, and perception and understanding of the grand design. They also let players tap a host of cool game effects like gaining a hint when the Crew’s stuck, quickly recovering from damage, changing the conversation on the fly, and even retrying a failed roll. \n\n You may attempt a Spirit Challenge when you try to:",
+                "points":[
+                    {
+                        "point":"Intuit the correct answer from two or more conflicting ones"
+                    },
+                    {
+                        "point":"Keep your composure in the face of great adversity"
+                    },
+                    {
+                        "point":"Find a purpose against overwhelming odds"
+                    },
+                    {
+                        "point":"Convince someone of a larger plan for them or the world"
+                    },
+                    {
+                        "point":"Catch a lucky break"
+                    },
+                    {
+                        "point":"Commune with metaphysical powers"
+                    },
+                    {
+                        "point":"Understand the nature of your destiny or the universe"
+                    }
+                ],
+                "part2":"Characters with high Spirit include holy men, prophesied heroes, and the very lucky or intuitive, while those with low Spirit include cold-blooded killers and anyone with low self-confidence or suffering from great trauma, plus those whom fate has dealt a poor hand.",
+                "hints":{
+                    "part":"Spirit defines a character’s intuition and sensitivity to the world. By trusting his or her gut, or having faith in a greater destiny, a character can sometimes find answers in unlikely places. \n\n A character may attempt a Spirit Challenge to request a hint from the Narrator, commonly by asking a single question. The Difficulty is based on how informative or relevant the hint or answer is in the current situation. With success, the Narrator answers, focusing only on the specific question or request and offering nothing more. After hearing the Narrator’s response, the character may spend any number of Nudges to ask the same number of follow-up questions. \n\n Like any rule, requesting a hint is intended to help move the conversation along, not to replace it. The Narrator may refuse any question, request, or follow-up without consequence if answering would derail the plot, reveal a Secret, or otherwise impede the story. Influence dice are not lost for a refused question unless the Narrator determines that refusing offers enough information for the character to make an educated guess about the situation (e.g. refusing to answer the question “Is this character a Villain?”). \n\n After this attempt, and regardless of success, the character’s Spirit score drops by 1, as usual.",
+                    "title":"Detail or Relevance / Example Questions",
+                    "table":[
+                        {
+                            "one":"1",
+                            "two":"Limited / Broad: “Is he acting strangely?” or “What is the crowd’s general mood?”"
+                        },
+                        {
+                            "one":"2",
+                            "two":"Alluding / General: “Do I have a gut feeling about this guy?” or “Is there anything I might be able to use here?”"
+                        },
+                        {
+                            "one":"3",
+                            "two":"Enlightening / Close: “What does this guy do for a living?” or “Is there a weapon in the room?”"
+                        },
+                        {
+                            "one":"4",
+                            "two":"Revealing / Specific: “What sort of man is he?” or “Which of these two doorways should I choose?"
+                        },
+                        {
+                            "one":"5",
+                            "two":"Definitive / Exact: “What’s his next move?” or “Where would Lord Penrod hide his vault?"
+                        }
+                    ],
+                    "example":"Example: Koel watches in horror as Thorrow and two guards are thrown from a third-story window, but when she reaches the pile of corpses below, the Thug’s body is nowhere to be found. There are signs of more fighting and plenty of blood, but the trail goes cold away from the keep. Koel frantically searches neighboring streets and comes up empty before she decides she needs a hint from Brandon. \n\n She knows that a question like, “Where could Thorrow have gone?” would be too much to manage with a Spirit of 3, so she keeps it simple: “Do I think Thorrow’s alive?” she asks, and Brandon assigns a Difficulty of 2. Being “pragmatic,” Koel gains a die, and she rolls 4 dice, getting one 6, one 5, and two 3’s — a Result of 3 with one Nudge. \n\n “He may well be,” Brandon answers, and Koel breathes a sigh of relief. The Nudge also grants her one follow-up question that’s no more detailed; she thinks on it for a moment and smiles. \n\n “Who else knew about the raid?” she asks, but she’s really just seeking confirmation. She already knows where to look next."
+                },
+                "break":{
+                    "part1":"Providence smiles on everyone eventually but some Heroes know just when (and how) to ask. A character may attempt a Spirit Challenge to add or modify a crucial detail about the current situation. The Difficulty is based on the detail’s impact on the conversation or plausibility in context (the more it changes things or the less likely it is, the harder the Challenge). Each Nudge spent on a successful roll allows the character to add one new (not altered, but new) detail that’s directly caused by the first addition or change.",
+                    "example":"Example: A character cornered in the back room of a tavern makes a Spirit Challenge to establish that the owner of the establishment was previously a weaponsmith, and then spends two Nudges to find a couple of his creations in a cabinet. If the character’s going down, at least she won’t be unarmed.",
+                    "part2":"Altering a detail that’s already part of the ongoing conversation — as opposed to simply introducing a new detail that doesn’t contradict anything that’s already in play — is called “dramatic editing.” It requires Narrator approval and boosts the Difficulty by 2 (meaning that major, unlikely, radical, and far-fetched details cannot be swapped in to replace established parts of the conversation). Dramatic editing demands that the Narrator and all players be comfortable with revisionist storytelling, and may not work for many groups. It isn’t recommended for beginning players. \n\n After this attempt, and regardless of success, the character’s Spirit score drops by 1, as usual.",
+                    "example2":"Example: Gavon remains behind at Keep Hasting to monitor the situation there, and in case the Crew needs additional help from the inside. For a little while he worries that the guard he bribed to let him into the private study might mention their deal (and he might, especially given all the pressure the nobles place on the guards after the raid and the inventory of the study going public). \n\n Then the player running Gavon strikes on a rather clever way to make sure the guard never talks again — he suggests that Gavon might catch a lucky break in that the guard was killed during the raid. Brandon can see this but given that many more guards survived than perished that night he assigns the Challenge a Difficulty of 3. \n\n Gavon has a Spirit of 5 and rolls one 6, three 4’s, one 2, and one 1 — a Result of 4 with one Nudge. This is enough for him to catch the lucky break, and he spends the Nudge to add a bit of flavor... \n\n The guard not only died that night, he was one of the two guards thrown out a window with Thorrow. If it weren’t for Carrow’s enthusiastic attack, maybe Gavon wouldn’t be alive today.",
+                    "title":"Impact or Plausability / Example Questions",
+                    "table":[
+                        {
+                            "one":"1",
+                            "two":"Negligible / Believable: Mild inclement weather starts up or the color of a lady’s dress is different than it was"
+                        },
+                        {
+                            "one":"2",
+                            "two":"Minor / Reasonable: A guard leaves his sword belt unbuckled or an earthquake rocks the base of an ashmount"
+                        },
+                        {
+                            "one":"3",
+                            "two":"Significant / Dubious: A guard leaves his sword hanging on his chair or the character produces an item he or she never mentioned before"
+                        },
+                        {
+                            "one":"4",
+                            "two":"Major / Unlikely: A guard falls asleep on the job or that key the character found just happens to work in this lock"
+                        },
+                        {
+                            "one":"5",
+                            "two":"Radical / Far-Fetched: A noble house alarm fails just as the Crew makes its escape or a mistwraith arrives the moment before a gravely wounded character is attacked by a superior opponent (and now everyone has to deal with the creature)"
+                        }
+                    ]
+                },
+                "surviving":{
+                    "part":"Life on Scadrial is indeed harsh, but resilient individuals can sometimes defy the odds and emerge victorious against all challenges. \n\n A character may attempt a Spirit Challenge to recover one of their Resiliences that has been diminished by damage or other adverse circumstances, provided it is currently at 5 or lower. This option is not available if the Resilience is already at 6 or higher, as such a situation wouldn't constitute defying the odds. The Difficulty of the challenge is equal to the current Resilience score, with a minimum of 1. Upon success, the character immediately regains 1 Resilience point, plus an additional point for each Nudge spent. \n\n This option remains accessible even if one or more of the character's Resiliences has been depleted to 0, or if they are already incapacitated or facing defeat in some manner (e.g., unconscious, dying, disgraced, etc.). However, succeeding in this challenge does not restart a failed Conflict; rather, it enables the character to bounce back more swiftly and potentially manage any repercussions from their setback. \n\n Regardless of the outcome, the character's Spirit score decreases by 1 after this attempt, as is customary.",
+                    "example":"Example: Koel arrives at the residence of the sole individual privy to the details of the raid: the brother of the servant girl JeHoy has been masquerading as. As she suspected, the brother divulges that he assisted Thorrow in escaping from the keep and has been tending to his injuries, though the situation has been dire. He recounts, 'Once his Pewter wore off, he was near death.' \n\n Thorrow's Pewter ability, with a rating of 5, sustained him until he reached the brother's abode. However, thereafter, his Health plummeted to 0, and he teetered on the brink of death. In a bid to endure against overwhelming odds, Thorrow made a Spirit Challenge to stave off demise. Rolling his 4 dice, he obtained one 3, one 2, and two 1's — resulting in a total of 1 with no Nudges, narrowly averting death's grasp. His Health promptly increased by 1, and he has since been slowly recuperating."
+                },
+                "last":{
+                    "part1":"Heroes intimately linked to their surroundings often transcend mere luck; they possess an innate destiny to triumph, tapping into forces greater than themselves to defy fate, even in the face of seemingly insurmountable odds.",
+                    "highlight":"Only a character with six or more dice of Spirit may call upon this option.",
+                    "part2":"Once this condition is fulfilled, a character can expend 1 Spirit to make another attempt at any roll. However, they do not receive any additional dice from Traits, Tools, Circumstances, or other modifiers; only their raw ability is at play (consider it a final act of sheer determination). The new Result supersedes the original, even if it proves less favorable, and the Outcome is adjusted accordingly. \n\n This option can even be invoked after an Outcome has been determined, though in such cases, the cost increases to 2 Spirit, reflecting the substantial effort required to rewrite history. \n\n After this endeavor, regardless of its success, the character's Spirit score diminishes by 1, following the usual pattern.",
+                    "example":"Example: Outside the Assembly Hall, Sayna and Damosi strive to incite the crowd they've gathered, aiming to cultivate as much animosity towards the Bylerums among the common folk as Beck's revelations have aroused among the nobility. Despite the crowd being somewhat predisposed to turn against someone (thanks to the earlier Nudge spent to gather them), their attempt to sway them completely falls flat — a meager Result of 1, accompanied by four Nudges, against a Difficulty of 3. \n\n Brandon describes the crowd slowly dispersing, their fervor waning rapidly. However, Sayna refuses to accept defeat so easily. She didn't go to such lengths just to let the Bylerum Boys slip quietly out of the city without a spectacle to remember! Determined, she decides to make a last-ditch effort, spending 1 Spirit from her pool of 6. \n\n With no assistance from Damosi this time, and unable to benefit from any Traits or the earlier Nudge, Sayna makes her Influence roll. She relies solely on her base Influence score of 4, hoping for the best. The dice are cast, and to her relief, she rolls three 5s and one 2 — a Result of 5 with no Nudges. It seems the Bylerum Boys will indeed face a barrage of rotten fruit as they depart the city, ensuring that their troublesome deeds won't be forgotten anytime soon."
+                }
             }
+        }
+    ],
+    "stunts":[
+        {
+            "title":"Allomancy",
+            "id":0,
+            "stunts":[
+                {
+                    "name": "Blindsight (Trait)",
+                    "type":"Allomancy",
+                    "req":"Tin",
+                    "description": "Your senses are so acute that you can feel vibrations through the floor, use sound as a sort of “sonar,” and sense the movement of air on your skin. This lets you move and act normally even in complete darkness, when blindfolded, and any other time you’re left sightless. You still cannot take action that requires sight, however, like reading or distinguishing color. In addition to its story implications and descriptive applications, this Stunt grants the “Blindsight” Trait while you’re burning or flaring Tin."
+                },
+                {
+                    "name": "Focused Sense",
+                    "type":"Allomancy",
+                    "req":"Tin",
+                    "description": "While burning Tin you add one additional die with rolls relying on one sense (chosen when acquired this Stunt). You may gain this Stunt up to five times, once for each sense."
+                },
+                {
+                    "name": "Piercing Sight (Trait)",
+                    "type":"Allomancy",
+                    "req":"Tin",
+                    "description": "While burning Tin you can see twice as far through mists, and may also see clearly through thin objects like sheer curtains, dirtied windows, or murky water. In addition to its story implications and descriptive applications, this Stunt grants the “Piercing Sight” Trait while you’re burning or flaring Tin."
+                },
+                {
+                    "name": "Sense Memory",
+                    "type":"Allomancy",
+                    "req":"Tin",
+                    "description": "You have near-perfect memory with a single sense, letting you identify familiar voices or smells, distinguish forged signatures from real ones you’ve seen before, and so forth. No roll is required for these actions — they’re automatically successful. You may gain this Stunt up to five times, once for each sense."
+                },
+                {
+                    "name": "Tin-ker",
+                    "type":"Allomancy",
+                    "req":"Tin",
+                    "description": "By using your finely-honed sense. you can detect structural and manufacturing defects in a mechanical object or device, allowing you to quickly disable it. While burning Tin, the Difficulty of all rolls to disable simple objects such as a locks, door hinges, or pulleys is reduced by 2, while the Difficulty of rolls to disable more complex objects such as guns, automobiles, or electrical systems is reduced by 1. In either case, this Difficulty cannot be reduced below 1."
+                },
+                {
+                    "name": "Lie Detector (Trait)",
+                    "type":"Allomancy",
+                    "req":"Tin",
+                    "description": "By using smell, sight, and hearing to detect slight changes in a person’s demeanor, you can better determine whether or not they are telling the truth. In addition to the story implications and descriptive applications, this Stunt grants the “Allomantic Lie Detector” Trait while you’re burning or flaring Tin."
+                },
+                {
+                    "name": "Denser Tissues",
+                    "type":"Allomancy",
+                    "req":"Pewter",
+                    "description": "While burning Pewter, your flesh becomes tougher and denser, and you suffer 1 less damage from physical attacks. You may take this Stunt a second time, reducing the damage you suffer from physical attacks by 1 more (for a maximum total of 2)."
+                },
+                {
+                    "name": "Extreme Speed",
+                    "type":"Allomancy",
+                    "req":"Pewter",
+                    "description": "You can run as fast as a galloping race horse (approximately 40 mph). During each Beat, you may take up to 2 steps toward or away from a target without penalty, or you may choose not to gain any Action or Defense dice for the round to take 3 steps toward or away from a target."
+                },
+                {
+                    "name": "Inhuman Endurance (Trait)",
+                    "type":"Allomancy",
+                    "req":"Pewter",
+                    "description": "You may exert yourself for a number of days up to your Pewter rating without suffering Pewter drag. In addition to its story implications and descriptive applications, this Stunt grants the “Inhuman Endurance” Trait while you’re burning or flaring Pewter."
+                },
+                {
+                    "name": "Prodigious Strength",
+                    "type":"Allomancy",
+                    "req":"Pewter",
+                    "description": "While burning Pewter, you add an additional die with Physique rolls involving physical strength, including lifting and moving objects, and wielding heavy weapons. You may take this Stunt twice."
+                },
+                {
+                    "name": "Unconscious Burning",
+                    "type":"Allomancy",
+                    "req":"Pewter",
+                    "description": "You automatically burn Pewter when unconscious, though only if also injured (i.e. you don’t automatically burn Pewter when sleeping). Each Pewter charge burned in this fashion lasts for three hours, and the only benefits it conveys are increased Health, accelerated healing, and avoiding Pewter drag. It has no effect on Physique rolls or dice pools. This special Pewter burn stops immediately when you regain consciousness."
+                }, 
+                {
+                    "name": "Improved Redirection",
+                    "type":"Allomancy",
+                    "req":"Iron",
+                    "description": "You gain 1 “free” die when reacting with Iron (see above). You may take this Stunt one additional time, increasing your “free” dice to 2."
+                },
+                {
+                    "name": "Increased Velocity",
+                    "type":"Allomancy",
+                    "req":"Iron",
+                    "description": "You may Pull objects at a velocity of up to 250 mph, and the damage they inflict increases by +1. "
+                },
+                {
+                    "name": "Ironslide",
+                    "type":"Allomancy",
+                    "req":"Iron",
+                    "description": "You may Pull yourself at a heavy object at breakneck speed. During each Beat, you may Ironpull to take up to 2 steps toward or away from a target without penalty, or you may choose not to gain any Action or Defense dice for the round to take 3 steps toward or away from a target."
+                },
+                {
+                    "name": "Long Range",
+                    "type":"Allomancy",
+                    "req":"Iron",
+                    "description": "You detect and may Pull metal objects out to 300 paces (Long Range)."
+                },
+                {
+                    "name": "Multiple Targets",
+                    "type":"Allomancy",
+                    "req":"Iron",
+                    "description": "You have finer control of your Ironpulling, and may simultaneously Pull a number of individual metal objects up to your Iron rating."
+                },
+                {
+                    "name": "Increased Velocity",
+                    "type":"Allomancy",
+                    "req":"Steel",
+                    "description": "You may Push objects at a velocity of up to 250 mph, and the damage they inflict increases by +1."
+                },
+                {
+                    "name": "Long Range",
+                    "type":"Allomancy",
+                    "req":"Steel",
+                    "description": "You detect and may Push metal objects out to 300 paces (Long Range)."
+                },
+                {
+                    "name": "Multiple Targets",
+                    "type":"Allomancy",
+                    "req":"Steel",
+                    "description": "You have finer control of your Steelpushing, and may simultaneously Push a number of individual metal objects up to your Steel rating."
+                },
+                {
+                    "name": "Reflect Ranged Attack",
+                    "type":"Allomancy",
+                    "req":"Steel",
+                    "description": "When reacting with Steel, you can Push a ranged attack targeting you toward a different target within range (as opposed to merely away from you and toward nothing in particular). This requires you to win the Contest and spend 2 Nudges; winning the Contest with less than 2 Nudges does not allow you to reflect the attack. No matter how many Nudges you spend, you may not reflect the attack toward the attacker."
+                },
+                {
+                    "name": "Steel Running",
+                    "type":"Allomancy",
+                    "req":"Steel",
+                    "description": "By Pushing off the metals in your environment, you can move as fast as a galloping race horse (approximately 40 mph). During each Beat, you may Steelpush to take up to 2 steps toward or away from a target without penalty, or you may choose not to gain any Action or Defense dice for the round to take 3 steps toward or away from a target."
+                },
+                {
+                    "name": "Extend Mental Protection",
+                    "type":"Allomancy",
+                    "req":"Copper",
+                    "description": "All characters in your coppercloud benefit from the same resistance you have to emotional Allomancy. "
+                },
+                {
+                    "name": "Increased Mental Protection",
+                    "type":"Allomancy",
+                    "req":"Copper",
+                    "description": "A character who uses emotional (Brass or Zinc) Allomancy against you loses a number of dice equal to your Copper rating plus 2, rather than equal to your Copper rating. "
+                },
+                {
+                    "name": "Iron Will",
+                    "type":"Allomancy",
+                    "req":"Copper",
+                    "description": "While burning Copper, you ignore 1 point of Willpower damage from each successful attack. You may take this Stunt one additional time, increasing the Willpower damage you ignore to 2."
+                },
+                {
+                    "name": "Larger Coppercloud",
+                    "type":"Allomancy",
+                    "req":"Copper",
+                    "description": "Your coppercloud extends out to 100 paces in all directions (Medium Range)."
+                },
+                {
+                    "name": "Smaller Coppercloud",
+                    "type":"Allomancy",
+                    "req":"Copper",
+                    "description": "You can restrict the size of your Coppercloud to a smaller area, thus keeping a lower profile. Your Coppercloud can be reduced from 10 to as small as 1 pace from you (Striking Range) if you choose."
+                },
+                {
+                    "name": "Broad Seeking",
+                    "type":"Allomancy",
+                    "req":"Bronze",
+                    "description": "When rolling Bronze to learn how a detected Allomancer is using his or her Power, your standard option (ask a single question about one Allomancer to determine a Difficulty) is replaced with two new ones:\n\n - You may simply roll targeting any one detected Allomancer without asking a question, learning everything that your Result allows (i.e. with a Result of 4, you learn all simple, basic, detailed, and specific information about that one Allomancer).\n\n - You may alternately ask one question about all Allomancers in range, and with success against that question’s Difficulty you learn the answer about all of them (e.g. if you sensed three Allomancers in range, you could ask what Stunts they’re using and with a Bronze Result of 3 or higher you would learn that information about all three of them)"
+                },
+                {
+                    "name": "Increased Range",
+                    "type":"Allomancy",
+                    "req":"Bronze",
+                    "description": "Your detection range increases from 100 paces (Medium Range) to 300 paces (Long Range). You may take this Stunt a second time, extending your range to 1,000 paces (Extreme Range). "
+                },
+                {
+                    "name": "Subconscious Seeking",
+                    "type":"Allomancy",
+                    "req":"Bronze",
+                    "description": "While burning Bronze, you detect Allomantic activity within range without having to concentrate, which lets you take other actions at the same time and, as any other actions allow, perceive your immediate physical surroundings as normal. "
+                },
+                {
+                    "name": "Affect Crowd",
+                    "type":"Allomancy",
+                    "req":"Zinc",
+                    "description": "While burning Zinc, you may simultaneously Riot a number of people up to 20 × your Zinc rating, though you lose 2 dice with all Zinc rolls when manipulating multiple characters at once (see page 223 for more information about crowds). You may not use this Stunt while flaring Zinc."
+                },
+                {
+                    "name": "Enduring Emotions",
+                    "type":"Allomancy",
+                    "req":"Zinc",
+                    "description": "Emotions you Riot linger for up to an hour after you stop focusing on the victim."
+                },
+                {
+                    "name": "Focused Emotion",
+                    "type":"Allomancy",
+                    "req":"Zinc",
+                    "description": "Choose one emotion when you gain this Stunt (e.g. love, lust, rage, etc.). Your Zinc rating increases by 1 when you Riot this emotion. You may take this Stunt any number of times, but only once per emotion."
+                },
+                {
+                    "name": "Humiliating Hysteria",
+                    "type":"Allomancy",
+                    "req":"Zinc",
+                    "description": "When flaring Zinc, you may attack Reputation instead of Willpower, with each round won representing the bad name your target acquires due to his or her erratic behavior, and ultimate victory representing everyone cutting the target off, at least for the time being. "
+                },
+                {
+                    "name": "Medium Range",
+                    "type":"Allomancy",
+                    "req":"Zinc",
+                    "description": "You may Riot targets within 100 paces (Medium Range)."
+                },
+                {
+                    "name": "Tug Emotion",
+                    "type":"Allomancy",
+                    "req":"Zinc",
+                    "description": "You subtly Riot nearly everyone around you when burning Zinc. At these times you gain one die with Charm rolls. You do not gain this bonus with any roll that also gains dice due to Rioted emotions (i.e. you may not stack this benefit with the basic use of Zinc)."
+                },
+                {
+                    "name": "Piercing Rioting",
+                    "type":"Allomancy",
+                    "req":"Zinc",
+                    "description": "Your Rioting is powerful enough that you can even influence those using Aluminum to shield themselves. When you attempt to Riot another character’s emotions, you may spend 4 Nudges to ignore the effects of any aluminum gear they are wearing (such as aluminum-lined hats)."
+                },
+                {
+                    "name": "Affect Crowd",
+                    "type":"Allomancy",
+                    "req":"Brass",
+                    "description": "While burning Brass, you may simultaneously Soothe a number of people up to 20 × your Brass rating, though you lose 2 dice with all Brass rolls when manipulating multiple characters at once (see page 223 for more information about crowds). You may not use this Stunt while flaring Brass."
+                },
+                {
+                    "name": "Enduring Emotions",
+                    "type":"Allomancy",
+                    "req":"Brass",
+                    "description": "Emotions you Soothe linger for up to an hour after you stop focusing on the victim."
+                },
+                {
+                    "name": "Focused Emotion",
+                    "type":"Allomancy",
+                    "req":"Brass",
+                    "description": "Choose one emotion when you gain this Stunt (e.g. love, lust, rage, etc.). Your Brass rating increases by 1 when you Soothe this emotion. You may take this Stunt any number of times, but only once per emotion."
+                },
+                {
+                    "name": "Medium Range",
+                    "type":"Allomancy",
+                    "req":"Brass",
+                    "description": "You may Soothe targets within 100 paces (Medium Range)."
+                },
+                {
+                    "name": "Push Emotion",
+                    "type":"Allomancy",
+                    "req":"Brass",
+                    "description": "You subtly Soothe nearly everyone around you when burning Brass. At these times you gain one die with Charm rolls. You do not gain this bonus with any roll that also gains dice due to Soothed emotions (i.e. you may not stack this benefit with the basic use of Brass)."
+                },
+                {
+                    "name": "Piercing Soothing",
+                    "type":"Allomancy",
+                    "req":"Brass",
+                    "description": "Your Soothing is powerful enough that you can even influence those using Aluminum to shield themselves. When you attempt to Soothe another character’s emotions, you may spend 4 Nudges to ignore the effects of any aluminum gear they are wearing (such as aluminum-lined hats). "
+                },
+                {
+                    "name": "Defensive Leeching",
+                    "type":"Allomancy",
+                    "req":"Chromium",
+                    "description": "You may burn Chromium as a reaction to an incoming attack. When an Allomancer hits or otherwise makes skin-to-skin contact with you, you may immediately burn Chromium, depleting the attacker’s charges the moment the attack is resolved. Should the attacker also be burning Chromium, both your charges are simultaneously consumed as the attack is resolved. You can take this Stunt a second time, gaining the ability to reactively burn Chromium with such speed that you can burn through an opponent’s stored metal charges before his or her attack is resolved. If the opponent has also taken this Stunt twice, both your metal stores are consumed as usual."
+                },
+                {
+                    "name": "Multiple Targets",
+                    "type":"Allomancy",
+                    "req":"Chromium",
+                    "description": "You may consume the metal stores of any number of characters you’re touching, at a cost of 1 Chromium charge per target. "
+                },
+                {
+                    "name": "Limited Nicroburst",
+                    "type":"Allomancy",
+                    "req":"Nicrosil",
+                    "description": "When you burn Nicrosil, you learn the metals your target is currently burning, though not the number of charges the target has stored for each metal. You may choose to ignore one metal your target is currently burning, leaving any charges of that metal unaffected by the burst. You may not ignore the only metal your target has stored, as that would mean no charges are consumed and no power is generated to fuel the burst."
+                },
+                {
+                    "name": "Multiple Targets",
+                    "type":"Allomancy",
+                    "req":"Nicrosil",
+                    "description": "You may consume the metal stores of any number of characters you’re touching, rather than just one. "
+                },
+                {
+                    "name": "Selective Nicroburst",
+                    "type":"Allomancy",
+                    "req":"Nicrosil",
+                    "description": "When you burn Nicrosil, you may choose the metal your target must use for his or her next action (though not how it’s used, if there are multiple options). "
+                },
+                {
+                    "name": "Golden Will",
+                    "type":"Allomancy",
+                    "req":"Gold",
+                    "description": "You’re perfectly comfortable recalling multiple lives, and so you don’t lose Willpower when burning Gold. "
+                },
+                {
+                    "name": "Hindsight",
+                    "type":"Allomancy",
+                    "req":"Gold",
+                    "description": "The power of hindsight informs your present decisions, often very well. While burning Gold, you gain 1 die with Wits rolls."
+                },
+                {
+                    "name": "Instinctive Burning",
+                    "type":"Allomancy",
+                    "req":"Electrum",
+                    "description": "You instinctively start burning Electrum in response to threats, gaining Defense Dice from Electrum whenever you’re attacked — even when you aren’t aware of the impending attack (e.g. when you’re ambushed or attacked in your sleep). This grants no extra benefit if you’re attacked while already burning Electrum. "
+                },
+                {
+                    "name": "Long-Range Bubble",
+                    "type":"Allomancy",
+                    "req":"Cadmium",
+                    "description": "Your Cadmium bubbles may extend outward up to 300 paces (Long Range)."
+                },
+                {
+                    "name": "Slower Time",
+                    "type":"Allomancy",
+                    "req":"Bendalloy",
+                    "description": "The time differential within your bubbles may be set to up to 40 × your Cadmium rating (i.e. with a Cadmium rating of 4, one minute inside the bubble may equal up to 160 minutes outside)."
+                },
+                {
+                    "name": "Faster Time",
+                    "type":"Allomancy",
+                    "req":"Bendalloy",
+                    "description": "The time differential within your bubbles may be set to up to 20 × your Bendalloy rating (i.e. with a Bendalloy rating of 3, one minute outside the bubble may equal up to 60 minutes inside). "
+                }, 
+                {
+                    "name": "Medium-Range Bubble",
+                    "type":"Allomancy",
+                    "req":"Bendalloy",
+                    "description": "Your Bendalloy bubbles may extend outward up to 100 paces (Medium Range). "
+                }, 
+                {
+                    "name": "Bend Time",
+                    "type":"Allomancy",
+                    "req":"Bendalloy",
+                    "description": "You use your Bendalloy instinctively to make the most of every second. While burning Bendalloy, you can Catch a Beat when you score 2 or more Nudges, rather than 3 or more Nudges as normal (see the Mistborn Adventure Game, page 154). Note you must still spend all your Nudges to Catch a Beat, however!"
+                },
+                {
+                    "name": "Atium Advantage",
+                    "type":"Allomancy",
+                    "req":"Atium",
+                    "description": "When burning Atium, you may reduce the pool of a character defending or reacting to one of your actions by 2 dice. If this reduces the pool to less than 2 dice, the character’s defense or reaction automatically fails."
+                },
+                {
+                    "name": "Atium Nudge",
+                    "type":"Allomancy",
+                    "req":"Atium",
+                    "description": "When burning Atium, you may reduce your rating with the metal by 2 to gain 1 free Nudge with each roll you make in the current Beat. You may take this Stunt multiple times, each time increasing the amount you can reduce your Atium rating by 2, and the free Nudges you gain with this round’s rolls by 1 (so if you take the Stunt twice, you may reduce your Atium rating by 2 to gain 1 free Nudge with this round’s rolls or you can reduce your Atium rating by 4 to gain 2 free Nudges with this round’s rolls, and so on)."
+                }
+            ]
+        },
+        {
+            "title":"Gunplay",
+            "id":1,
+            "stunts":[
+                {
+                    "name": "Tinslinger",
+                    "type":"Gunplay",
+                    "req":"Tin Allomancy",
+                    "description": "Your hand-eye coordination exceeds all human capacities. When burning Tin and your declared action is a firearm attack, you may form your dice pool using your Tin rating (rather than Physique, as normal). "
+                },
+                {
+                    "name": "Windwhisper Shot",
+                    "type":"Gunplay",
+                    "req":"Tin Feruchemy",
+                    "description": "You can draw on stored hearing to make a shot at someone you can’t see. When you make a ranged attack, you may tap 10 charges of hearing to make your attack even if you’re left sightless, or to ignore all adverse conditions and negative Circumstances related to cover, concealment, low light, and other visual impairments (see the Mistborn Adventure Game, pages 197). Additionally, you may spend 5 charges of hearing to gain a single “free” Nudge when using the Ricochet Stunt"
+                },
+                {
+                    "name": "Trick Shooting",
+                    "type":"Gunplay",
+                    "req":"Tin Feruchemy",
+                    "description": "Your incredible visual acuity lets you make tough shots with ease. When you make a Called Shot or Fan a revolver (see the Mistborn Adventure Game page 201, and page 134 of this book), you may tap 10 charges of sight to gain a single “free” Nudge on your roll. "
+                },
+                {
+                    "name": "Acrobatic Shooting",
+                    "type":"Gunplay",
+                    "req":"Pewter Allomancy",
+                    "description": "Your hand-eye coordination exceeds all human capacities. When burning Tin and your declared action is a firearm attack, you may form your dice pool using your Tin rating (rather than Physique, as normal). "
+                },
+                {
+                    "name": "Steady Hand",
+                    "type":"Gunplay",
+                    "req":"Pewter Feruchemy",
+                    "description": "Your hands are as strong and steady as steel. When you make an Aimed attack, you may tap 10 charges of strength to retain your Aiming bonus (see page 133). Additionally, you may also tap 10 charges of strength to retain your Aiming bonus during a Round in which you move farther than 1 Step."
+                },
+                {
+                    "name": "Bulletpush",
+                    "type":"Gunplay",
+                    "req":"Steel Allomancy",
+                    "description": "While burning Steel, you may subtly Steelpush a bullet you fire to give it much greater penetration. While burning Steel, all attacks you make with firearms reduce the amount of damage absorbed by the target’s armor or Powers by 1/2, rounded down (e.g., a Pewterarm with the Denser Tissues Stunt, which absorbs 1 damage, would instead absorb no damage, while a character wearing armor that absorbs 2 damage would instead absorb only 1). This Stunt can be combined with the Increased Velocity Stunt"
+                },
+                {
+                    "name": "Steel Bubble",
+                    "type":"Gunplay",
+                    "req":"Steel Allomancy",
+                    "description": "You can burn Steel to create a bubble that Pushes away all metal not in direct contact with you — including any bullets fired at you. While using this Stunt, all damage you, and anyone within Grappling Range of you, suffer from attacks made by metal weapons (including bullets) is reduced by onehalf your Steel rating, rounded down (e.g., if you had a Steel rating of 5, you would reduce the damage of all attacks made by metal weapons against you by 2). Maintaining a Steel bubble is considered an active defense that counts as your action for a Beat (see the Mistborn Adventure Game, page 177) . You can take this Stunt up to two additional times: the second time allowing you to extend your Steel bubble out to Striking Range of you; and the third time allowing you to extend your bubble out to Close Range."
+                },
+                {
+                    "name": "Steelrunner Draw",
+                    "type":"Gunplay",
+                    "req":"Steel Feruchemy",
+                    "description": "Only two types of people try to outdraw you — the foolish and the dead. When you Quick Draw, you may tap 10 charges of physical speed to attack with your full dice pool, rather than your dice pool minus 2 as normal (see page 136). Additionally, when you tie with your opponent during a Pistol Duel, you may immediately tap 5 charges of physical speed to win the Contest by 1 (see page 135). If both you and your opponent use this Stunt, the effects cancel one another out. "
+                },
+                {
+                    "name": "Steelrunner Reload",
+                    "type":"Gunplay",
+                    "req":"Steel Feruchemy",
+                    "description": " You can instantly reload nearly any weapon. Once per Beat when you fire the last shot in your gun, you may spend 5 charges of physical speed to Reload it without taking an action (see page 136)."
+                },
+                {
+                    "name": "Steelrunner Shot",
+                    "type":"Gunplay",
+                    "req":"Steel Feruchemy",
+                    "description": "You can unleash your blinding physical speed to fire a gun twice with a single action. By tapping 20 charges of physical speed, you can split your dice pool to make 2 attacks with the same gun. These attacks may be against the same or different targets. While using this Stunt, you gain no benefits of Aiming with either attack."
+                },
+                {
+                    "name": "Archivist Shot",
+                    "type":"Gunplay",
+                    "req":"Copper Feruchemy",
+                    "description": "You can draw upon observation to better take on opponents. Once per Beat, if you have fought or observed an opponent fight in a previous combat, you can use this Stunt to gain one of two benefits: 1) when shot at by a previously-observed opponent, tap 2 charges of memory to add a single Defense die to your pool; or 2) when shooting at a previously-observed opponent, tap 2 charges of memory to cause that opponent’s Defense pool against your attack to shrink by 1 (to a minimum of 2)."
+                },
+                {
+                    "name": "Seeking Shot",
+                    "type":"Gunplay",
+                    "req":"Copper Allomancy",
+                    "description": "You use your ability to sense Allomancy to enhance your aim against targets burning metals. While burning Bronze, if you make a ranged attack at an Allomancer currently burning a metal, you ignore all adverse conditions and negative Circumstances related to cover, concealment, low light, and other visual impairments (see the Mistborn Adventure Game, pages 197). Additionally, you need 1 fewer Nudge to succeed with a Called Shot or the Ricochet Stunt when attacking an Allomancer currently burning a metal, to a minimum of 1 Nudge (see the Mistborn Adventure Game, page 201, and page 138). This Stunt has no effect against targets within a Coppercloud."
+                },
+                {
+                    "name": "Riot Aim (Reaction)",
+                    "type":"Gunplay",
+                    "req":"Zinc Allomancy",
+                    "description": "Once per Beat when you are the target of a firearm attack, you may Riot the shooter’s emotions to try and throw off their aim. This is a Reaction (see the Mistborn Adventure Game, page 177), and grants you a number of dice for your Reaction roll equal to your Zinc Rating. You may add Action or Defense Dice to this pool if you like, though you may not roll more than 10 dice, as usual. If your Reaction Result beats the attacker’s Result, you may reduce the number of damage you suffer from this attack equal to the Outcome. With success you may also spend 3 Nudges to reduce the shooter’s next Action Dice pool by one-half your Zinc Rating, rounded down (as he or she struggles to regain control of his or her emotions). "
+                },
+                {
+                    "name": "Sparker Shot",
+                    "type":"Gunplay",
+                    "req":"Zinc Feruchemy",
+                    "description": "You can draw on your greater acuity to effectively multitask during a gunfight. When you use the Dual Wielding or Fast Aiming Stunts, you may spend 5 charges of mental speed so that your action occurs during Step 2 of the Round at its normal count, rather than as if your dice pool is only half as large as it actually is (see page 137). Additionally, during a Pistol Duel, you can spend 1 charge of mental speed to use your Wits during the current round of a Pistol Duel (rather than using the lower of your Physique or Wits, as normal)."
+                }, 
+                {
+                    "name": "Trace Shot",
+                    "type":"Gunplay",
+                    "req":"Zinc Feruchemy",
+                    "description": "Your amazing mental speed lets you backtrack a shot to its shooter in the blink of an eye. Once per Beat, you may tap 10 charges of mental speed to see the trail left by a bullet as it moves through the air. You can see exactly where a shot came from, allowing you to pick an assassin out of a crowd or spot a sniper lurking on a rooftop a few blocks away."
+                },
+                {
+                    "name": "Soothe Aim (Reaction)",
+                    "type":"Gunplay",
+                    "req":"Brass Allomancy",
+                    "description": "Once per Beat when you are the target of a firearm attack, you may Soothe the shooter’s emotions to try and throw off their aim. This is a Reaction (see the Mistborn Adventure Game, page 177), and grants you a number of dice for your Reaction roll equal to your Brass Rating. You may add Action or Defense Dice to this pool if you like, though you may not roll more than 10 dice, as usual. If your Reaction Result beats the attacker’s Result, you may reduce the number of damage you suffer from this attack equal to the Outcome. With success you may also spend 3 Nudges to reduce the shooter’s next Action Dice pool by one-half your Brass Rating, rounded down (as he or she struggles to regain control of his or her emotions). "
+                },
+                {
+                    "name": "Heat Weapon",
+                    "type":"Gunplay",
+                    "req":"Brass Feruchemy",
+                    "description": "You can channel your warmth to make an enemy’s weapon too hot to handle or even to damage the weapon itself. Once per Beat when attempting to Disarm an adjacent opponent of a metal weapon, you may tap 10 charges of warmth to add 2 dice to your roll (see the Mistborn Adventure Game, page 201). Alternatively, you may choose to superheat the weapon, temporarily breaking it and causing the wielder to suffer 1 damage per 20 charges tapped. The Difficulty to repair the weapon is equal to 1 per 20 charges tapped (to a maximum of 5)."
+                },
+                {
+                    "name": "Lucky Shot",
+                    "type":"Gunplay",
+                    "req":"Chromium Feruchemy",
+                    "description": "Your shots always seem to hit in the most improbable ways. Once per Beat, when making a Called Shot, you may tap 10 charges of luck to gain a single “free” Nudge on your roll (see the Mistborn Adventure Game, page 201). Additionally, you may tap 10 or more charges of luck to either reduce the Difficulty of a shot or the final Result of any rolls to defend against this attack by 1 per 10 charges of luck spent (to a minimum Difficulty of 1). This Stunt can be combined with both the Marksmanship gunplay Stunt and with Aiming to make even more impressive shots (see pages 137 and 133)!"
+                },
+                {
+                    "name": "Bloodmaker Grit",
+                    "type":"Gunplay",
+                    "req":"Gold Feruchemy",
+                    "description": "When you are in a Pistol Duel and are Defeated or suffer a Grave or Mortal Burden by an opponent’s attack, you may tap 10 charges of health to make your attack (instead of being “knocked out” of the duel, as normal). After your attack is resolved, you immediately suffer the results of your Burden or defeat."
+                },
+                {
+                    "name": "Premptive Shot",
+                    "type":"Gunplay",
+                    "req":"Electrum Allomancy",
+                    "description": "You can use your predictive abilities to gun down dangerous combatants before they can strike. At the beginning of each Conflict Round while burning Electrum, you may designate one opponent you are tracking. During this round, if your designated opponent acts and you have not yet acted, you mayimmediately declare a new action which must be a ranged attack against that opponent (see the Mistborn Adventure Game, page 180). This attack occurs immediately before the opponent’s action, rather than at the end of the round as normal (you still must reconfigure and halve your Action Dice for this action, however)."
+                },
+                {
+                    "name": "Pinnacle Shot",
+                    "type":"Gunplay",
+                    "req":"Electrum Feruchemy",
+                    "description": "You can tap large amounts of determination to temporarily reduce the effects of injury and distraction from your shooting. At the beginning of each Conflict Round, you may tap 10 or more charges of determination to ignore all adverse conditions and negative Circumstances related to stress and distraction, as well as the effects of 1 Burden per 10 determination tapped, until the end of the Round."
+                },
+                {
+                    "name": "Pulsing Shot",
+                    "type":"Gunplay",
+                    "req":"Cadmium Allomancy",
+                    "description": "You’ve practiced extensively to calculate the deviation of your attacks across a time-bubble more precisely. When you make a firearm attack against a target outside of your time-bubble, the number of “free dice” the target gains to defend is only equal to one-half your Cadmium rating, rounded up (rather than equal to your Cadmium rating, as normal)."
+                },
+                {
+                    "name": "Gasper Shot",
+                    "type":"Gunplay",
+                    "req":"Cadmium Feruchemy",
+                    "description": "You can suppress your need to breathe in order to make difficult shots with longarms. When making an Aimed attack with a rifle (see page 133), you may tap 10 charges of breath to gain one “free” Nudge on your roll. "
+                },
+                {
+                    "name": "Sliding Shot",
+                    "type":"Gunplay",
+                    "req":"Bendalloy Allomancy",
+                    "description": "You’ve practiced extensively to calculate the deviation of your attacks across a time-bubble more precisely. When you make a firearm attack against a target outside of your time-bubble, the number of “free dice” the target gains to defend is only equal to one-half your Bendalloy rating, rounded up (rather than equal to your Bendalloy rating, as normal)."
+                },
+                {
+                    "name": "Dual Wielding",
+                    "type":"Gunplay",
+                    "req":"None",
+                    "description": "You can fire a pistol in each hand as a single action. Divide your dice pool into an attack with each gun however you like, just as if you were making 2 attacks. These attacks may be against the same or different targets. While dual wielding, you gain no benefits of Aiming with either attack, and your action occurs in Step 2 of this Round as if your dice pool is only half as large as it actually is, rounded down (see the Mistborn Adventure Game, page 179).",
+                    "example":"Example: During Step 1, Kevin’s character Viktr declares he’s going to use his Dual Wielding Stunt to make 2 attacks with his Sterrions (one in each hand). The Narrator declares Viktr gets 5 Action Dice this round. Kevin splits Viktr’s 5 dice into two smaller pools — one attack with 3 dice, and a second with 2 dice. However, because Viktr is using this Stunt, his action occurs in Step 2 as if he had only 2 dice (one-half of his 5 Action Dice, rounded down) in his pool."
+                },
+                {
+                    "name": "Fast Aiming",
+                    "type":"Gunplay",
+                    "req":"None",
+                    "description": "You can draw a bead on a target very quickly. You may Aim and fire in the same Beat, just as if you had Aimed in the previous Beat (see page 133). However, the extra time required means your action occurs in Step 2 of this Round as if your dice pool is only half as large as it actually is, rounded down (see the Mistborn Adventure Game, page 179).",
+                    "example":"Example: Becky wants her character, Luhyl, to take a quickly Aimed shot at a fleeing bandit. During Step 1, she declares Luhyl’s going to use his Fast Aiming Stunt, and the Narrator decides Luhyl gets 4 Action Dice for this action. However, because Luhyl is using this Stunt, his action occurs in Step 2 as if he had only 2 dice (one half of his 4 Action Dice) in his pool."
+                },
+                {
+                    "name": "Heavy Weapons",
+                    "type":"Gunplay",
+                    "req":"None",
+                    "description": "You excel at using large firearms. You can fire a gun with the Magnum Force improvement without penalty, even if your Physique is 4 or lower. Additionally, when shooting a rotary gun, you may designate up to 2 extra targets with your attack (e.g., up to your Wits +2)."
+                },
+                {
+                    "name": "Improved Fanning",
+                    "type":"Gunplay",
+                    "req":"None",
+                    "description": "You are quite skilled at controlling a fanned gun. When you Fan a revolver, you need 1 fewer Nudge to succeed (e.g., inflict the weapon’s damage twice as long as you succeed with 1 Nudge, or inflict it three times if you succeed with 3 Nudges)."
+                },
+                {
+                    "name": "Long Shot",
+                    "type":"Gunplay",
+                    "req":"None",
+                    "description": "You can fire your rifle at targets normally outside the weapon’s range. When you Aim a rifle, your Range increases by one (to a maximum of Extreme Range). "
+                },
+                {
+                    "name": "Marksmanship",
+                    "type":"Gunplay",
+                    "req":"None",
+                    "description": "If you’ve Aimed, you need 1 fewer Nudge to succeed with a Called Shot (see the Mistborn Adventure Game, page 201). You can’t combine this Stunt with the Fast Aiming Stunt."
+                },
+                {
+                    "name": "Quicker Draw",
+                    "type":"Gunplay",
+                    "req":"None",
+                    "description": "You can Quick Draw a one-handed pistol, or knife without any penalty to your dice pool. Additionally, you can choose whether to use your Physique or Wits during each round of a pistol duel (rather than using the lower, as normal)."
+                },
+                {
+                    "name": "Ricochet",
+                    "type":"Gunplay",
+                    "req":"None",
+                    "description": "Most people try to hit targets directly, but your understanding of angles allows you to exploit other options while shooting. If you Aim before firing, you can declare you are trying to ricochet your shot off a surface and strike a target out of line of sight. If the attack succeeds with at least two Nudges, you are able to hit a target you cannot see. However, if you don’t score at least 2 Nudges with this attack, your attack misses — such are the difficulties of trick shooting."
+                },
+                {
+                    "name": "Speed Loading (Reaction)",
+                    "type":"Gunplay",
+                    "req":"None",
+                    "description": "You can reload your guns very quickly. Once per Beat when you fire the last shot in your gun, you may attempt to quickly reload it. This is a Reaction (see the Mistborn Adventure Game, page 177), and grants you a number of dice for your Reaction roll equal to your Physique. You may add Action or Defense Dice to this pool if you’d like, though you may not roll more than 10 dice, as usual. Roll your pool; you reload a number of shots equal to your Result, +1 for each Nudge you get, up to the weapon’s Capacity (e.g., if you used this Stunt and got a Result of 3 and 1 Nudge on your roll, you would reload 4 rounds total)."
+                }
+            ]
+        },
+        {
+            "title":"Gunsmithing",
+            "id":2,
+            "stunts":[
+                {
+                    "name": "Create Guns",
+                    "type":"Gunsmithing",
+                    "req":"None",
+                    "description": "You can make guns from raw materials, allowing you to create any standard, commonly used firearm. Additionally, you gain 1 free Prop, which must be a gun chosen from the Firearms table on pages 115-116."
+                },
+                {
+                    "name": "Create Custom Ammo",
+                    "type":"Gunsmithing",
+                    "req":"None",
+                    "description": "You can make all custom ammunition, including aluminum ammo, armor-piercing ammo, hollow-point rounds, and incendiary shells. Additionally, you gain 1 free Prop, which must be one of the listed ammunition types above, chosen from the Customized Ammunition table on page 122."
+                },
+                {
+                    "name": "Create Hazekiller Ammo",
+                    "type":"Gunsmithing",
+                    "req":"None",
+                    "description": "You can create specialized anti-Allomancer ammunition, including Coinshot, Lurcher, Pewterarm, and Tineye rounds. Additionally, you gain 1 free Prop, which must be one type of Hazekiller ammunition chosen from the Customized Ammunition table on page 122."
+                },
+                {
+                    "name": "Customize Guns",
+                    "type":"Gunsmithing",
+                    "req":"None",
+                    "description": "Choose an option from the Customized Firearms table on page 119. You can add this option to a gun using the gunsmithing rules. Additionally, you gain 1 free Prop, which must be spent to add the chosen customization to a gun you’ve chosen as a Prop. You may take this Stunt multiple times, each time designating a different Customized Firearm option, and allowing you to add that customization to a gun you’ve chosen as a Prop."
+                },
+                {
+                    "name": "Industrious Craftsman",
+                    "type":"Gunsmithing",
+                    "req":"None",
+                    "description": "You excel when you set your mind to things. When you succeed on a roll to create or customize guns or ammo, you gain 1 “free” Nudge to your roll. This Nudge can only be spent to choose the exact same benefit and/or product chosen at the initial roll (e.g., if you chose to create an Immerling 44 as the initial benefit of your gunsmithing roll, you must spend this “free” Nudge to create an additional Immerling 44)."
+                }
+            ]
+        },
+        {
+            "title":"Compounding",
+            "id":3,
+            "stunts":[
+                {
+                    "name":"Spatial Sense",
+                    "type":"Compounding",
+                    "req":"Tin Allomancy & Feruchemy",
+                    "description":"By spending 10 or more Compounded charges of touch or hearing, you can detect the precise locations of people, machines, animals, and anything else moving within a single structure; by spending more charges, you can detect all objects, whether they are moving or not. The number of charges required depends on the size of the structure:",
+                    "table":[
+                        {
+                            "one":"Structure Size",
+                            "two":"Charges to Detect Movement",
+                            "three":"Charges to Detect All"
+                        },
+                        {
+                            "one":"Small (1-room cabin, small cave)",
+                            "two":"20",
+                            "three":"30"
+                        },
+                        {
+                            "one":"Average (Small store, 2-bedroom house)",
+                            "two":"30",
+                            "three":"40"
+                        },
+                        {
+                            "one":"Large (locomotive car, large house or store)",
+                            "two":"40",
+                            "three":"60"
+                        },
+                        {
+                            "one":"Huge (large cave, governmental building)",
+                            "two":"60",
+                            "three":"80"
+                        },
+                        {
+                            "one":"Massive (large mansion, full-sized factory)",
+                            "two":"80",
+                            "three":"100"
+                        }
+                    ]
+                },
+                {
+                    "name":"Penetrating Vision",
+                    "type":"Compounding",
+                    "req":"Tin Allomancy & Feruchemy",
+                    "description":"By spending 60 Compounded charges of sight, your vision grows so acute that you can peer between the motes that make up solid matter; you can see through most solid objects. Using this Stunt allows you to see clearly through anything but metal — though you can clearly see the outline of metal you are unable to peer through."
+                },
+                {
+                    "name":"Earthshaker",
+                    "type":"Compounding",
+                    "req":"Pewter Allomancy & Feruchemy",
+                    "description":"By spending Compounded charges of strength and forfeiting all other actions during a Beat, you can stamp or pound on the ground, shaking the earth and potentially destroying whatever your limbs land on. The quake affects all characters within 3–10 paces of you (Close Range). The number of charges spent determines the Difficulty of Physique rolls they must make to stay on their feet, and the damage they suffer if they fail the roll:",
+                    "table":[
+                        {
+                            "one":"Compounded",
+                            "two":"Physique Difficulty",
+                            "three":"Damage on Failure"
+                        },
+                        {
+                            "one":"40",
+                            "two":"1",
+                            "three":"0"
+                        },
+                        {
+                            "one":"70",
+                            "two":"2",
+                            "three":"1"
+                        },
+                        {
+                            "one":"100",
+                            "two":"3",
+                            "three":"2"
+                        },
+                        {
+                            "one":"130",
+                            "two":"4",
+                            "three":"3"
+                        }
+                    ]
+                },
+                {
+                    "name":"Vaulting Leap",
+                    "type":"Compounding",
+                    "req":"Pewter Allomancy & Feruchemy",
+                    "description":"By spending 10 or more Compounded charges of strength, you can jump long distances. For every 10 charges of Compounded Pewter you tap, you move 1 Step (see the Mistborn Adventure Game, page 198). This movement does not count as an adverse condition as normal. During a Conflict, you can make no more than one vaulting leap per Beat."
+                },
+                {
+                    "name":"Full Stop",
+                    "type":"Compounding",
+                    "req":"Iron Allomancy & Feruchemy",
+                    "description":"By spending 20 or more Compounded charges of weight, you can make a moving conveyance carrying you come to a complete stop, or even to crash. The Compounded charges required to stop and/or damage depends on the size of the conveyance. A stopped vehicle is stuck for one full Beat (as it has to pull its legs or wheels free from mud, or bail water taken on from your weight shift), while a crashed vehicle can no longer move (as you break the horse’s back, shatter a wagon or horseless carriage’s axles, or sink the ship).",
+                    "table":[
+                        {
+                            "one":"Conveyance Size",
+                            "two":"Charges to Stop",
+                            "three":"Charges to Crash"
+                        },
+                        {
+                            "one":"Small (man)",
+                            "two":"20",
+                            "three":"30"
+                        },
+                        {
+                            "one":"Average (small cart, horse)",
+                            "two":"30",
+                            "three":"40"
+                        },
+                        {
+                            "one":"Large (horseless carriage, full-size wagon)",
+                            "two":"40",
+                            "three":"60"
+                        },
+                        {
+                            "one":"Huge (small locomotive, small ship)",
+                            "two":"60",
+                            "three":"80"
+                        },
+                        {
+                            "one":"Massive (large locomotive, barge)",
+                            "two":"80",
+                            "three":"100"
+                        }
+                    ]
+                },
+                {
+                    "name":"Ironrend",
+                    "type":"Compounding",
+                    "req":"Iron Allomancy & Feruchemy",
+                    "description":"By Compounding 20 or more charges of Iron, you may simultaneously root yourself in place with Feruchemy and power a massive Ironpull to tear apart a complex metal object instantly. The size of the object determines how many Compounded charges have to be spent in order to rend it. \n\n There are some limitations to this ability, however. Only machines and other objects composed of multiple parts can be rent. Simple items such as a koloss blade, which is a single massive piece of metal, can’t be torn apart. This process also puts a great physical strain on you, particularly when the object is heavier than yourself; you suffer damage based on the size of the object being rent. Finally, if you rend an item someone is holding, the holder must succeed on a Physique 3 Challenge to prevent the item from being disassembled.",
+                    "table":[
+                        {
+                            "one":"Object Size",
+                            "two":"Charges to Rend",
+                            "three":"Damage Suffered"
+                        },
+                        {
+                            "one":"Small (music box, lock, revolver)",
+                            "two":"30",
+                            "three":"0"
+                        },
+                        {
+                            "one":"Medium (chandelier, rifle, stove)",
+                            "two":"60",
+                            "three":"1"
+                        },
+                        {
+                            "one":"Large (horseless carriage)",
+                            "two":"100",
+                            "three":"2"
+                        },
+                        {
+                            "one":"Massive (train car)",
+                            "two":"150",
+                            "three":"3"
+                        }
+                    ]
+                },
+                {
+                    "name":"Bullet Dodge (Reaction)",
+                    "type":"Compounding",
+                    "req":"Steel Allomancy & Feruchemy",
+                    "description":"By spending Compounded charges of Speed, you can easily dodge attacks made with metal projectiles and objects, including bullets. When you’re attacked with a metal object (such as a bullet or steel-headed arrow), you may spend 10 Compounded charges of Steel to gain two additional Defense Dice against that attack. This is a Reaction (see the Mistborn Adventure Game, page 177). These dice are separate from your Action Dice, but you can still spend Action Dice to add to this pool and tap charges to add dice, Nudges, and Outcome increases. You may use this Stunt any number of times per Beat (provided you keep Compounding your steelmind, of course)."
+                },
+                {
+                    "name":"Extra Action",
+                    "type":"Compounding",
+                    "req":"Steel Allomancy & Feruchemy",
+                    "description":"Once per Beat, during Step 1 of a Conflict, you may tap 40 Compounded charges of Steel to take two actions during Step 2 (see the Mistborn Adventure Game, page 179). Both your declared actions must be physical feats that can use the same dice pool (such as kicking a foe’s legs out from under him and attacking him with a knife, or driving a carriage along a ridge and shooting your pursuer between the eyes). Note this Stunt does not increase the number of Action Dice you get — only the number of actions you can take. You resolve your first action based on your Action Dice as normal, and the second action at the end of the round (as if your Action Dice were 0). When you take these actions, your movements are inhumanly fast, making it impossible to hide your use of powers from observers. \n\n Additionally, the strain of this movement takes a major toll on your body. Each time you use this Stunt during a Conflict after the first, you suffer 1 damage and must tap an additional 10 Compounded charges of speed. This damage can’t be prevented in any way (such as from armor, Powers, etc.). These penalties are cumulative (thus, using this Stunt the third time during a Conflict inflicts 2 damage and costs you 60 Compounded charges)."
+                },
+                {
+                    "name":"Stitched Memories",
+                    "type":"Compounding",
+                    "req":"Copper Allomancy & Feruchemy",
+                    "description":"By spending 20 or more charges of Compounded memory, you can synthesize several accounts of an event you’ve only heard retellings of, just as though you were there (i.e., you can synthesize two eyewitness accounts of an event and relive it as it happened, finding the truth of the situation). Using this Stunt requires you to spend 20 Compounded charges of memory, plus 10 additional Compounded charges for every 5 minutes the event lasted (rounded up). No matter the length of the event you are recreating, reliving this stitched memory only takes one Beat."
+                },
+                {
+                    "name":"Physical Mimicry",
+                    "type":"Compounding",
+                    "req":"Copper Allomancy & Feruchemy",
+                    "description":"By spending 20 Compounded charges of memory, you can imitate any action that you’ve seen once, as long as you saw it clearly. This includes complex physical tasks such as a secret handshake, running a locomotive engine, or modifying and reassembling a revolver. \n\n Note that knowing how to perform one task doesn’t help you perform related tasks, since you don’t necessarily understand everything you’re doing — you can merely mimic it. For instance, if you’ve watched an artist draw a lovely sketch of a particular house, you could draw the exact same house in exactly the same manner…but knowing how to draw that house wouldn’t help you draw a different scene. Additionally, your mimicry is limited by your actual physical abilities; while you can replicate the motions of a Pewter-fueled punch, your body can’t necessarily pull it off!"
+                },
+                {
+                    "name":"Presence of Mind (Reaction)",
+                    "type":"Compounding",
+                    "req":"Bronze Allomancy & Feruchemy",
+                    "description":"By spending Compounded Bronze, you may steel your will. When you’re aware of another character’s attempts to influence you with emotional Allomancy, you can spend 10 Compounded charges of Bronze to gain two additional Defense Dice against that Power or attack. This is a Reaction (see the Mistborn Adventure Game, page 177). These dice are separate from your Action Dice, but you may add Action Dice to this pool and tap charges to add dice, Nudges, and increase Outcome as normal. You may use this Stunt any number of times per Beat (provided you keep Compounding your bronzemind, of course). \n\n Additionally, you may use this Stunt to recover Willpower during a Short Breather, at a cost of 20 Compounded charges per point of Willpower. This recovery is above and beyond those points normally gained during a Short Breather."
+                },
+                {
+                    "name":"Inhuman Endurance",
+                    "type":"Compounding",
+                    "req":"Bronze Allomancy & Feruchemy",
+                    "description":"Your Compounding allows you to exhibit koloss-like endurance in a number of situations. By spending Compounded charges of Bronze, you may ignore the effects of one Burden related to tiredness or fatigue for the next 3 Beats (see the Mistborn Adventure Game, page 187). The number of Compounded charges you must spend depends on the severity of the Burden; ignoring a Serious Burden costs 10 Compounded charges; ignoring a Grave Burden costs 20 Compounded charges; and ignoring a Mortal Burden costs 30 Compounded charges. \n\n Additionally, when you’re physically Incapacitated, you can tap 40 Compounded charges to remain awake for 1 additional Beat, even when you’re on the brink of death (see the Mistborn Adventure Game, page 185). \n\n Finally, you recover the standard amount of Health during Short Breathers, even if you don’t sit out for the Breather."
+                },
+                {
+                    "name":"Inhuman Insight",
+                    "type":"Compounding",
+                    "req":"Zinc Allomancy & Feruchemy",
+                    "description":"You think so fast that you can process and understand the world in ways impossible for ordinary humans to understand. At the beginning of Step 1 of a Conflict, you may spend 10 Compounded charges of mental speed to declare your action as if you had Wits 11 (see the Mistborn Adventure Game, page 174). Additionally, you may take this action at any point in Step 2 that you wish — going first, last, or immediately after any other action. You cannot interrupt another character’s action in this way, and if you choose to act at the same time as another character using this Stunt, your actions occur simultaneously. \n\n Additionally, you may spend 10 Compounded charges of Zinc to ignore the effects of declaring a new action during a Conflict."
+                },
+                {
+                    "name":"Inhuman Endurance",
+                    "type":"Compounding",
+                    "req":"Zinc Allomancy & Feruchemy",
+                    "example":"Example: Sam’s Twinborn character Raymund is trying to figure out why a lawkeeper killed an honest businessman and disappeared. Thinking for a moment, the Narrator decides Raymund will need to spend 40 Compounded charges to get to the heart of the matter: 10 to find out that the businessman was in debt to a land baron; then 10 to discover that the lawkeeper fancied the businessman’s sister; then 10 to know the businessman promised his sister’s hand in marriage to the baron; and 10 more to learn that the lawkeeper and sister ran off together.",
+                    "description":"By spending 10 or more Compounded charges of mental speed, you can make complicated logical connections rapidly (such as discovering a secret about a situation, determining weaknesses in a plan, sussing out a connection between two people, etc.). Making these lateral links costs 10 Compounded charges, plus an additional 10 for each correct logical leap you have to make (usually because you lack information). The Narrator tells you each logical leap you make, and you may continue tapping charges until you find out what you were looking for, until you run out of Compounded charges, or until you give up on finding the answer. "
+                },
+                {
+                    "name":"Kindling Touch",
+                    "type":"Compounding",
+                    "req":"Brass Allomancy & Feruchemy",
+                    "description":"By spending 30 or more Compounded charges of warmth, you can release extreme heat from a specific portion of your body (typically your hands). Spending 30 Compounded charges of Brass allows you to char wood, ignite cloth and explosive fuses, or melt soft metals like gold, bronze, silver, lead, or aluminum; spending 40 Compounded charges, you can cause wood to burst into flame or work iron and steel as if it were in a blacksmith’s fire."
+                },
+                {
+                    "name":"Protective Heat",
+                    "type":"Compounding",
+                    "req":"Brass Allomancy & Feruchemy",
+                    "description":"By spending 10 Compounded charges of warmth, you begin to shimmer and glow with heat, causing anyone who touches you this Beat to suffer 1 damage. By spending 30 Compounded charges of warmth, those touching you instead suffer 2 damage, and wooden weapons that hit you burst into flame before making contact, inflicting no damage. Using this Stunt will destroy any clothing and gear that isn’t fireproofed, leaving you clad only in shimmering waves of heat."
+                },
+                {
+                    "name":"Mental Barricade",
+                    "type":"Compounding",
+                    "req":"Aluminum Allomancy & Feruchemy",
+                    "description":"By spending 40 Compounded charges of identity, you shake off outside influences on your mental state, temporarily ignoring all mental Burdens and becoming immune to mental manipulation (including emotional Allomancy) for the current Beat. You may continue this protection by spending 10 more Compounded charges per Beat thereafter."
+                },
+                {
+                    "name":"Perfect Rapport",
+                    "type":"Compounding",
+                    "req":"Duralumin Allomancy & Feruchemy",
+                    "description":"By spending 20 Compounded charges of connection, you may deepen your sensitivity to the point where you can share feelings with all other characters within 10 paces (Close Range). Willing characters automatically share everything with you; you can sense the feelings of unwilling or hostile characters only by beating them in a Wits vs. Wits Contest. Using this ability doesn’t allow you to read each other's thoughts, but you can sense one another’s intended courses of action, how the others feel about different people nearby, and the like. \n\n This effect lasts 1 minute + an additional minute per 20 additional Compounded charges you spend, or until you choose to end the effect. You may also extend the area of this effect out to all characters within 100 paces (Medium Range) by spending an additional 20 Compounded charges."
+                },
+                {
+                    "name":"Jinx",
+                    "type":"Compounding",
+                    "req":"Chromium Allomancy & Feruchemy",
+                    "description":"By spending 10 or more Compounded charges of luck, you can bend the fortunes of others nearby, spoiling the luck of a single nearby character. This character is the closest character to you within 10 paces (Close Range); select randomly if two or more characters are the same distance from you. This character immediately suffers narrative effects of bad luck similar to a Feruchemist storing luck and also suffers an adverse condition on his or her next roll; if that next roll is also a Spirit roll, the character’s dice pool for that roll also shrinks by 1. \n\n Alternatively, you may spend 30 Compounded charges of Chromium to instead cause the closest character to suffer 2 adverse conditions to his or her next roll, and if that roll is a Spirit roll, his or her dice pool also shrinks by 2."
+                },
+                {
+                    "name":"Uncanny Luck",
+                    "type":"Compounding",
+                    "req":"Chromium Allomancy & Feruchemy",
+                    "description":"You may use your Compounded Chromium to greatly enhance your fortune. By spending 10 Compounded charges of luck, you may add a single Nudge to any roll you make, rather than just those related to luck or Spirit, as normal."
+                },
+                {
+                    "name":"Convert Allomancy",
+                    "type":"Compounding",
+                    "req":"Nicrosil Allomancy & Feruchemy",
+                    "description":"Since Nicrosil Compounders can very rarely tap other metalminds (at least, without Hemalurgy), most learn to burn Nicrosil in order to replenish their nicrosilminds. Once per Beat when burning Nicrosil, you may choose to convert 1 Allomantic charge into 10 Feruchemical charges, instead of using it for its Allomantic effect. You may store these charges as investiture, just as if you were storing extra Compounded charges."
+                },
+                {
+                    "name":"Mimic Feruchemy",
+                    "type":"Compounding",
+                    "req":"Nicrosil Allomancy & Feruchemy",
+                    "example":"Example: Jeff’s Twinborn character Halyrn has the Mimic Feruchemy (Pewter) Stunt. When Halyrn Compounds Nicrosil, he can choose to either generate 2 charges of strength, or 10 charges of investiture. Charges of strength generated by Halyrn’s Compounding must be used immediately and cannot be stored. \n\n You can take this Stunt multiple times, each time choosing one additional type of metal you can mimic.",
+                    "description":"By Compounding Nicrosil, you can unlock hidden Feruchemical prowess deep within your being, as if you could use a different Feruchemical metal. When you choose this Stunt, select a Feruchemical metal other than Nicrosil. When you Compound charges of investiture, you can choose to generate 2 Feruchemical charges of your chosen metal per charge Compounded, rather than 10 charges of investiture as normal. Charges generated in this way are used as if you possessed that Feruchemical metal, but must be spent immediately and cannot be stored in a nicrosilmind for later."
+                },
+                {
+                    "name":"Deathless",
+                    "type":"Compounding",
+                    "req":"Gold Allomancy & Feruchemy",
+                    "description":"By spending 100 Compounded charges of Gold, you either: immediately lose all Physical Burdens; recover 6 Health; overcome instant death; or flush a lethal poison from your system. Using this Stunt allows you to survive even if shot through the brain, but cannot be used if you are beheaded, dissolved in acid, or blown to bits."
+                },
+                {
+                    "name":"Underdog’s Grit",
+                    "type":"Compounding",
+                    "req":"Electrum Allomancy & Feruchemy",
+                    "description":"By spending Compounded charges of determination, you can rise to nearly any challenge. When you attempt a roll with a Difficulty equal to or greater than the number of dice in your dice pool (e.g., you must roll 4 dice against a Difficulty 5), or are in a Contest or Conflict Round with a character whose dice pool is greater than your own (e.g., your opponent would roll 7 dice while you only roll 5), you may add additional dice to your dice pool by spending 20 Compound charges of determination per die added. However, you may not increase your dice pool to be greater than the Difficulty (if a Challenge) or than your opponent’s dice pool (if in a Contest or Conflict) using this Stunt — the best you can do is bring yourself even with the challenge!"
+                },
+                {
+                    "name":"Slow Breath",
+                    "type":"Compounding",
+                    "req":"Cadmium Allomancy & Feruchemy",
+                    "description":"Your body bridges the gap of Allomantic and Feruchemical Cadmium to vastly slow your breathing. When you store breath, you only lose 1 die per 2 charges stored with Physique rolls related to endurance, and can store a number of charges of breath per hour equal to your Cadmium rating (rather than storing the lower of your Cadmium rating or your Physique score minus 1 as normal)."
+                },
+                {
+                    "name":"Alter Appearance",
+                    "type":"Compounding",
+                    "req":"Bendalloy Allomancy & Feruchemy",
+                    "description":"You can selectively gain weight in different areas of your body to change how you look. For every 10 Compounded charges of caloric energy you spend, you gain 1 die to rolls to conceal your appearance for 1 hour. Additionally, you can selectively move this weight around on your body, allowing you to appear muscular, skinny, slender with a pot belly, or generally well-padded. You cannot appear to be another gender, nor can you appear to be a specific person. You may end this effect by spending one Beat reverting to your normal form (in a rather dramatic and disturbing display of power)."
+                }
+            ]
         }
     ]
 }
