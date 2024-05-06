@@ -9,7 +9,11 @@ function Stunts(props) {
   const [myGuns, setGuns] = useState(true);
   const [mySmith, setSmith] = useState(true);
   const [myCompound, setCompound] = useState(true);
-  const [myStunts, setStunts] = useState(props.stunts[0].stunts.concat(props.stunts[1].stunts).concat(props.stunts[2].stunts).concat(props.stunts[3].stunts));
+  const [myCultural, setCultural] = useState(true);
+  const [myHomeland, setHomeland] = useState(true);
+  const [myStunts, setStunts] = useState(props.stunts[0].stunts.concat(props.stunts[1].stunts)
+                                .concat(props.stunts[2].stunts).concat(props.stunts[3].stunts)
+                                .concat(props.stunts[4].stunts).concat(props.stunts[5].stunts));
 
   useEffect(() => {
     let newStunts = [];
@@ -17,8 +21,10 @@ function Stunts(props) {
     if (myGuns) newStunts = newStunts.concat(props.stunts[1].stunts);
     if (mySmith) newStunts = newStunts.concat(props.stunts[2].stunts);
     if (myCompound) newStunts = newStunts.concat(props.stunts[3].stunts);
+    if (myCultural) newStunts = newStunts.concat(props.stunts[4].stunts);
+    if (myHomeland) newStunts = newStunts.concat(props.stunts[5].stunts);
     setStunts(sortByMultipleComponents(newStunts, ['name', 'type', 'req']));
-  }, [myAllo, myGuns, mySmith, myCompound, props.stunts]);
+  }, [myAllo, myGuns, mySmith, myCompound, props.stunts, myCultural, myHomeland]);
 
   function handleSelection(sctNum) {
     setSelection(sctNum);
@@ -40,7 +46,9 @@ function Stunts(props) {
     { title: 'Allomancy', select: myAllo, onClick: () => setAllo(!myAllo) },
     { title: 'Gun Tricks', select: myGuns, onClick: () => setGuns(!myGuns) },
     { title: 'Gunsmithing', select: mySmith, onClick: () => setSmith(!mySmith) },
-    { title: 'Compounding', select: myCompound, onClick: () => setCompound(!myCompound) }
+    { title: 'Compounding', select: myCompound, onClick: () => setCompound(!myCompound) },
+    { title: 'Cultural', select: myCultural, onClick: () => setCultural(!myCultural) },
+    { title: 'Homeland', select: myHomeland, onClick: () => setHomeland(!myHomeland) }
   ];
 
   return (
@@ -55,14 +63,14 @@ function Stunts(props) {
             <h3 className='notButter'>Stunts</h3>
             <div className='reference-side'>
               <table id='centered'>
-                  <thead className='reference-width'>
+                  <thead className='reference-width' id='reference-size'>
                       <tr>
                         <th className='reference-item'>
                           <button id='tableButton' onClick={() => setStunts(sortByMultipleComponents(myStunts, ['name', 'type', 'req']))}>
-                            Stunt Name
+                            <span className='righter'>Stunt Name</span>
                           </button>
                         </th>
-                        <th className='reference-item'>
+                        <th className='reference-middle'>
                           <button id='tableButton' onClick={() => setStunts(sortByMultipleComponents(myStunts, ['type', 'name', 'req']))}>
                             Type
                           </button>

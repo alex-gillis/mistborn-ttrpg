@@ -6,7 +6,7 @@ function Table(props) {
         <table id="buildTable">
             <tbody>
                 {props.info?.map((myObject, index) => (
-                    <tr key={index}>
+                    <tr key={index} className={index % 2 === 0 ? 'evenRow' : 'oddRow'}>
                         <td id="buildRow">{myObject.one}</td>
                         <td id="buildRow">{myObject.two}</td>
                         <td id="buildRow">{myObject.three}</td>

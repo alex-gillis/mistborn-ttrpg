@@ -30,7 +30,7 @@ function Props(props) {
                                 <th colSpan="2"><h4>{myProp.propType}</h4></th>
                             </tr>
                             {myProp.props?.map((myItem, propIndex) => (
-                                <tr key={propIndex}>
+                                <tr key={propIndex} className={propIndex % 2 === 0 ? 'evenRow' : 'oddRow'}>
                                     <td>{myItem.item}: </td>
                                     <td id="propDesc">{myItem.desc}</td>
                                 </tr>

@@ -2,6 +2,7 @@
 /* eslint-disable react/jsx-key */
 
 import Table from "../../Modules/Table"
+import Points from "../../Modules/BigPoint"
 
 function Stunt(props) {
 
@@ -21,6 +22,9 @@ function Stunt(props) {
               )}
               {props.stunt.table && (
                   <Table info={props.stunt.table} />
+              )}
+              {props.stunt.points && (
+                  <Points points={props.stunt.points} />
               )}
           </div>
 
