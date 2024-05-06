@@ -4,6 +4,7 @@ import { useState } from 'react';
 import Metallurgy from '../Main/Metallurgy';
 import Terms from '../Reference/Terms';
 import Stunts from '../Reference/Stunts';
+import Props from '../Reference/Props';
 
 function Reference(props) {
   const [myPage, setPage] = useState(0);
@@ -15,7 +16,8 @@ function Reference(props) {
   const pages = [
     { title: 'Metallurgy', className: myPage === 0 ? 'selected' : 'unselected', onClick: () => handlePage(0) },
     { title: 'Stunts', className: myPage === 1 ? 'selected' : 'unselected', onClick: () => handlePage(1) },
-    { title: 'Game Terms', className: myPage === 2 ? 'selected' : 'unselected', onClick: () => handlePage(2) }
+    { title: 'Props', className: myPage === 2 ? 'selected' : 'unselected', onClick: () => handlePage(2) },
+    { title: 'Game Terms', className: myPage === 3 ? 'selected' : 'unselected', onClick: () => handlePage(3) }
   ];
 
   return (
@@ -30,7 +32,8 @@ function Reference(props) {
         <div id='creation' >
             { myPage === 0 && props.metals[0] && props.basics[0] && <Metallurgy basics={props.basics} metals={props.metals} /> }
             { myPage === 1 && <Stunts stunts={props.stunts}/> }
-            { myPage === 2 && <Terms gameTerms={props.creation[2].gameTerms}/> }
+            { myPage === 2 && <Props propped={props.propped}/> }
+            { myPage === 3 && <Terms gameTerms={props.creation[2].gameTerms}/> }
         </div>
         
     </>

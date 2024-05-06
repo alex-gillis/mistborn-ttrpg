@@ -6305,392 +6305,6 @@
             ],
             "era2":[
                 {
-                    "propType": "Firearms",
-                    "props":[
-                        {
-                            "id":0,
-                            "item":"Cohnvave Two-Shot",
-                            "desc":"These tiny pistols are designed to fit into a coat sleeve or purse, and be drawn at a moment’s notice. They lack both range and firepower, but their speed and concealability make them excellent “last-ditch” weapons.",
-                            "type":"Firearm",
-                            "props":"1",
-                            "difficulty":"1",
-                            "damage":"+1",
-                            "capacity":"2 shots",
-                            "range":"Touch / Close",
-                            "note":"These weapons are harder to find in the Roughs, where the Diffculty to buy them increases by 1."
-                        },
-                        {
-                            "id":1,
-                            "item":"Disguised gun",
-                            "desc":"This small, simple, single-shot gun is built into a cane, umbrella, carpetbag, or other mundane item, making it the ideal weapon for an assassin. However, a disguised gun’s ungainly construction makes it difficult to use properly; it cannot be Aimed (see page 133) and all attacks with this weapon suffer a 1 die penalty, as if the weapon is an inferior Tool (see the Mistborn Adventure Game, page 142). The cost of a disguised gun includes a simple object like an umbrella, but not a more complicated or useful object like photographic equipment, or another weapon such as a koloss sword.",
-                            "type":"Firearm",
-                            "props":"1",
-                            "difficulty":"2",
-                            "damage":"+1",
-                            "capacity":"1 shot",
-                            "range":"Touch / Close",
-                            "note":"These weapons are harder to find in the Roughs, where the Diffculty to buy them increases by 1."
-                        },
-                        {
-                            "id":2,
-                            "item":"Granger 30-30 Rifle",
-                            "desc":"These common single-shot rifles benefit from extremely long range and high accuracy, but take time to reload. This latter feature means they are quickly falling out of favor for multi-shot rifles, but some sharpshooters maintain that the Granger’s greater accuracy is worth the inconvenience.",
-                            "type":"Firearm",
-                            "props":"1",
-                            "difficulty":"2",
-                            "damage":"+3",
-                            "capacity":"1 shot",
-                            "range":"Close / Extreme"
-                        },
-                        {
-                            "id":3,
-                            "item":"Heispel Autoloader",
-                            "desc":"These tiny pistols are designed to fit into a coat sleeve or purse, and be drawn at a moment’s notice. They lack both range and firepower, but their speed and concealability make them excellent “last-ditch” weapons.",
-                            "type":"Firearm",
-                            "props":"2",
-                            "difficulty":"1",
-                            "damage":"+1",
-                            "capacity":"2 shots",
-                            "range":"Touch / Close",
-                            "note":"These weapons are harder to find in the Roughs, where the Diffculty to buy them increases by 1."
-                        },
-                        {
-                            "id":4,
-                            "item":"Heispel Pump shotgun",
-                            "desc":"The pinnacle of shotgun technology, this firearm replaces the traditional break-action of older style shotguns like the Riesfel with a sliding “pump” which ejects a spent shell and loads another from the 8-round tube magazine. Some custom models rack another round on both the forward and reverse motion, to allow creative Allomancers to reload “hands free” by Pushing or Pulling on the slide.",
-                            "type":"Firearm",
-                            "props":"1",
-                            "difficulty":"2",
-                            "damage":"+2",
-                            "capacity":"8 shots",
-                            "range":"Close / Medium",
-                            "note":"These weapons are harder to find in the Roughs, where the Diffculty to buy them increases by 1."
-                        },
-                        {
-                            "id":5,
-                            "item":"Immerling 44 revolver",
-                            "desc":"Immerling’s “thunder-handed” pistol boasts the largest caliber of any mass-produced revolver on the market, at the expense of capacity. The gun’s heavy recoil makes it harder to wield (they’re rarely used in pairs), but it makes up for its handling in stopping power and general intimidation. Pewterarms tend to use Immerlings to the exclusion of other pistols, since their great strength can handle the kick more readily.",
-                            "type":"Firearm",
-                            "props":"1",
-                            "difficulty":"2",
-                            "damage":"+2",
-                            "capacity":"4 shots",
-                            "range":"Close / Medium"
-                        },
-                        {
-                            "id":6,
-                            "item":"Immerling Multi-Shot rifle",
-                            "desc":"The Immerling Multi-Shot is a lever-action repeating rifle, with a cylindrical magazine of eight rounds running below the barrel. Loading the weapon requires the shooter to simply swing the lever forward, ejecting the empty cartridge and loading the next. The high capacity and rate of fire means Immerlings are rapidly replacing single-shot rifles as the go-to weapon for denizens of the Roughs.",
-                            "type":"Firearm",
-                            "props":"1",
-                            "difficulty":"3",
-                            "damage":"+3",
-                            "capacity":"8 shots",
-                            "range":"Close / Long"
-                        },
-                        {
-                            "id":7,
-                            "item":"Koloss arquebus",
-                            "desc":"While most koloss and koloss-blooded prefer a blade to 'dishonorable' weapons such as firearms, some more progressive tribes have adopted the rugged arquebus as an alternative to bow & arrows. The weapon's simplicity and use of gunpowder rather than cartridges allows the shooter to substitute improvised 'shot' such as rocks, scrap metal, and flint for standard lead ball ammunition in a pinch.",
-                            "type":"Firearm",
-                            "props":"1",
-                            "difficulty":"2",
-                            "damage":"+3",
-                            "capacity":"1 shot",
-                            "range":"Close / Medium",
-                            "note":"Only koloss and koloss-blooded characters may take this as a Prop"
-                        },
-                        {
-                            "id":8,
-                            "item":"Riesfel shotgun",
-                            "desc":"The Riesfel is typical of the wide array of break-action shotguns available on the market. It features two barrels, side by side, firing 10-gauge shot pellets courtesy of dual action triggers that let the user shoot one barrel at a time, or both at once. When empty, the gun must be 'broken' open by turning down and emptying the barrels before firing again. Some shooters — particularly criminals — have taken to sawing off the barrels, which decreases the range but makes the shotgun much easier to conceal (an example of the Small customization — see page 119).",
-                            "type":"Firearm",
-                            "props":"1",
-                            "difficulty":"2",
-                            "damage":"+3",
-                            "capacity":"2 shots",
-                            "range":"Close / Medium"
-                        },
-                        {
-                            "id":9,
-                            "item":"Rotary Gun",
-                            "desc":"Rotary guns, predecessors of the machine gun of Earth, use hand-cranked rotating chambers to fire a large number of bullets very quickly — so fast, in fact, that they fire bursts of bullets called “salvoes” rather than individual shots. This large and bulky weapon is either mounted on wheels, on the deck of a ship, or in some similar permanent emplacement. Effective use of a rotary gun requires a crew of three people: one to crank, another to reload, and a third to aim. See “Firing a Rotary Gun” on page 134 for rules about using this weapon.",
-                            "type":"Firearm",
-                            "props":"N/A",
-                            "difficulty":"4",
-                            "damage":"+4",
-                            "capacity":"10 salvoes",
-                            "range":"Close / Long",
-                            "note":"These weapons are harder to find in the Roughs, where the Diffculty to buy them increases by 1."
-                        },
-                        {
-                            "id":10,
-                            "item":"Sterrion 36 revolver",
-                            "desc":"Lurcher engineer Ranette Sterrion has established the new standard for revolvers with the Sterrion 36, a six-shot, .36-caliber pistol with excellent range and stopping power. Each Sterrion is hand-made and difficult to find outside of Elendel, but their exceptional efficiency and reliability ensures they remain equally popular with gunslingers in the Roughs and many Elendel constables.",
-                            "type":"Firearm",
-                            "props":"1",
-                            "difficulty":"2",
-                            "damage":"+2",
-                            "capacity":"6 shots",
-                            "range":"Close / Medium",
-                            "note":"These weapons are harder to find in the Roughs, where the Diffculty to buy them increases by 1."
-                        },
-                        {
-                            "id":11,
-                            "item":"Terringul 27 revolver",
-                            "desc":"The Terringul revolver lacks the Sterrion’s reputation, as well as its punch, due to a smaller caliber and less-meticulous construction. It is still used because many shooters find the Terringul is much easier to conceal, and can be drawn and fired much more quickly than the bulkier Sterrion. Like the Sterrion 36, this revolver holds six rounds in the chamber.",
-                            "type":"Firearm",
-                            "props":"1",
-                            "difficulty":"1",
-                            "damage":"+1",
-                            "capacity":"6 shots",
-                            "range":"Close / Medium"
-                        },
-                        {
-                            "id":12,
-                            "item":"Heispel Longshot",
-                            "desc":"The Longshot is an exotic pistol with a design reminiscent of a mare’s leg and a handgun. It features a long barrel, a tubular magazine, a pistol grip, and a cocking lever instead of revolving chambers. While somewhat unwieldy for a pistol and more expensive compared to a repeating rifle, the Longshot's exceptionally long barrel provides it with a range similar to that of a rifle, all while firing common pistol ammunition. Despite its quirks and shortcomings, the Longshot remains a favored choice among wealthy gunslingers who value its unique appearance and standout performance.",
-                            "type":"Firearm",
-                            "props":"1",
-                            "difficulty":"3",
-                            "damage":"+2",
-                            "capacity":"4 shots",
-                            "range":"Close / Long"
-                        },
-                        {
-                            "id":13,
-                            "item":"“Rioting” 22",
-                            "desc":"The “Rioting” is an affordable, low-caliber revolver that has gained popularity among the lower classes of Elendel. It offers similar firepower to a Terringul 27 but is smaller and more easily concealable, making it a preferred choice among gangsters and tough individuals. Despite its relatively inexpensive construction materials, the “Rioting” is well-made for its price range and is known for its reliability, rarely experiencing jams during use.",
-                            "type":"Firearm",
-                            "props":"1",
-                            "difficulty":"1",
-                            "damage":"+1",
-                            "capacity":"6 shots",
-                            "range":"Close / Medium"
-                        },
-                        {
-                            "id":14,
-                            "item":"Terringul Ripper Automatic Pistol",
-                            "desc":"The Terringul Ripper is an experimental handgun designed to showcase Terringul's ability to innovate in the firearms market. Unlike traditional revolvers, it features a spring-loaded box magazine in a “half-moon” shape, similar to the Heispel Autoloader. This unique design allows for incredibly fast firing rates, rivaling even rotary guns for brief periods. \n\n The Ripper offers two modes of attack: single shots, similar to standard firearms, or salvoes, akin to rotary guns. To unleash a salvo, at least 10 shots must be fired. Unlike rotary guns, the Ripper does not require a loader or cranker, eliminating associated penalties. However, standard rules and limitations for salvo fire still apply.",
-                            "props":"1",
-                            "type":"Firearm",
-                            "difficulty":"4*",
-                            "damage":"+1 or 1 salvo",
-                            "capacity":"12 shots",
-                            "range":"Close / Medium"
-                        }
-                    ]
-                },
-                {
-                    "propType": "Firearm Customization",
-                    "props":[
-                        {
-                            "id":15,
-                            "item":"Allomancer Holdout",
-                            "desc":"The grip of this weapon conceals a tiny, hidden chamber just big enough to hold a single charge of one metal of the owner’s choice (as used by Allomancer Jak in the opening fiction to this book). Discovering the compartment is quite difficult, requiring the searcher to succeed on a Wits 4 Challenge to notice it if they are not aware. Retrieving the charge from the compartment is an action, and after it is used, the charge of metal is replenished during the next Long Breather.",
-                            "type":"Firearm Customizations",
-                            "props":"+1",
-                            "difficulty":"2 or +1",
-                            "note":"The minimum Difficulty of purchasing this weapon is equal to the number shown or the base Difficulty of the weapon plus all modifiers from customizations, whichever is higher (to a maximum of 5). This Difficulty is also used when gunsmithing."
-                        },
-                        {
-                            "id":16,
-                            "item":"Allomancer Safety",
-                            "desc":"A concealed metal mechanism within the gun acts as a hidden safety which can only be tripped by Lurchers or Coinshots. The safety is automatically set and the gun cannot be fired unless the wielder first succeeds on a Difficulty 3 roll using the appropriate form of Allomancy (Steel 3 for Coinshot safeties, or Iron 3 for Lurcher safeties). Designate which type of safety this is when this customization is purchased or chosen as a Prop. Disarming an Allomancer safety is not considered an action, and once disarmed, the wielder does not need to roll again unless he or she drops or puts the weapon away.",
-                            "type":"Firearm Customizations",
-                            "props":"+1",
-                            "difficulty":"3 or +1",
-                            "note":"The minimum Difficulty of purchasing this weapon is equal to the number shown or the base Difficulty of the weapon plus all modifiers from customizations, whichever is higher (to a maximum of 5). This Difficulty is also used when gunsmithing."
-                        },
-                        {
-                            "id":17,
-                            "item":"Aluminum Frame",
-                            "desc":"Weapons made of aluminum alloys are both rare and highly useful, thanks to their Allomantically inert state. Aluminum guns are also much lighter than other weapons, making them easier to carry and conceal, at the cost of range and stopping power. Weapons with this customization cannot be detected or affected by Allomancy (including Allomantic Steelpushes or Ironpulls). When this customization is applied to a weapon chosen as a Prop, these qualities also apply to the gun’s ammunition. Guns with this customization have their Range reduced by one (minimum Close), and their damage reduced by 1 (minimum +1). Creating an Aluminum Frame requires a great deal of the metal, so the character must have an aluminum ingot in order to add this customization through gunsmithing.",
-                            "type":"Firearm Customizations",
-                            "props":"+1",
-                            "difficulty":"4 or +1",
-                            "note":"The minimum Difficulty of purchasing this weapon is equal to the number shown or the base Difficulty of the weapon plus all modifiers from customizations, whichever is higher (to a maximum of 5). This Difficulty is also used when gunsmithing."
-                        },
-                        {
-                            "id":18,
-                            "item":"Extra Capacity",
-                            "desc":"Cannot be applied to disguised guns or guns with the Aluminum Frame customization. The weapon is made from high-quality metal that allows the gunsmith to use less material without making the gun too bulky, increasing the weapon’s Capacity by 2.",
-                            "type":"Firearm Customizations",
-                            "props":"+1",
-                            "difficulty":"3 or +1",
-                            "note":"The minimum Difficulty of purchasing this weapon is equal to the number shown or the base Difficulty of the weapon plus all modifiers from customizations, whichever is higher (to a maximum of 5). This Difficulty is also used when gunsmithing."
-                        },
-                        {
-                            "id":19,
-                            "item":"Hair Trigger",
-                            "desc":"The trigger of this gun is exceptionally sensitive, offering the shooter a slight advantage when speed is crucial. During a Conflict, if a character declares an attack action with this weapon, their attack occurs in Step 2 of the Round as if their dice pool were 2 dice larger. For example, if Grinnel has 4 dice for an attack with a pistol equipped with a Hair Trigger, he would act in Step 2 as if he had 6 dice in his pool.",
-                            "type":"Firearm Customizations",
-                            "props":"+1",
-                            "difficulty":"2 or +1",
-                            "note":"The minimum Difficulty of purchasing this weapon is equal to the number shown or the base Difficulty of the weapon plus all modifiers from customizations, whichever is higher (to a maximum of 5). This Difficulty is also used when gunsmithing."
-                        },
-                        {
-                            "id":20,
-                            "item":"Invarian Chambers",
-                            "desc":"Revolvers Only. This modification adds 2 'locked' chambers to the revolver's cylinder, which can be switched at will by flipping a release at the base of the cylinder. It allows the shooter to keep 2 types of ammunition in the same weapon without reloading, such as normal rounds in the main chamber and specialized rounds in the secondary chamber. However, reloading each set of chambers requires a different Reload action, thus taking 2 Reloads to load both the main and secondary chambers.",
-                            "type":"Firearm Customizations",
-                            "props":"+1",
-                            "difficulty":"3 or +1",
-                            "note":"The minimum Difficulty of purchasing this weapon is equal to the number shown or the base Difficulty of the weapon plus all modifiers from customizations, whichever is higher (to a maximum of 5). This Difficulty is also used when gunsmithing."
-                        },
-                        {
-                            "id":21,
-                            "item":"Long Range",
-                            "desc":"This gun has a longer barrel and improved rifling to allow it to fire one Range band further, to a maximum of Extreme",
-                            "type":"Firearm Customizations",
-                            "props":"+1",
-                            "difficulty":"2 or +1",
-                            "note":"The minimum Difficulty of purchasing this weapon is equal to the number shown or the base Difficulty of the weapon plus all modifiers from customizations, whichever is higher (to a maximum of 5). This Difficulty is also used when gunsmithing."
-                        },
-                        {
-                            "id":22,
-                            "item":"Magnum Force",
-                            "desc":"This gun is designed to use ammunition containing extra gunpowder and heavier bullets, resulting in +1 additional damage per shot. However, weaker shooters struggle to control this weapon's massive kick; when a shooter with a Physique of 4 or less attacks with this weapon, their pool shrinks by 1 die.",
-                            "type":"Firearm Customizations",
-                            "props":"+1",
-                            "difficulty":"3 or +1",
-                            "note":"The minimum Difficulty of purchasing this weapon is equal to the number shown or the base Difficulty of the weapon plus all modifiers from customizations, whichever is higher (to a maximum of 5). This Difficulty is also used when gunsmithing."
-                        },
-                        {
-                            "id":23,
-                            "item":"Metalmind Grip",
-                            "desc":"The metal core of this gun's handgrip is composed of a pure metal capable of serving as a metalmind. Select a single Feruchemical metal; this weapon is regarded as a metalmind of that type, capable of storing up to 25 charges.",
-                            "type":"Firearm Customizations",
-                            "props":"+1",
-                            "difficulty":"3 or +1",
-                            "note":"The minimum Difficulty of purchasing this weapon is equal to the number shown or the base Difficulty of the weapon plus all modifiers from customizations, whichever is higher (to a maximum of 5). This Difficulty is also used when gunsmithing."
-                        },
-                        {
-                            "id":24,
-                            "item":"Perfect Balance",
-                            "desc":"This gun is meticulously tuned and precisely customized to facilitate trick shots. If a character possesses the Aimed stunt, they require 1 fewer Nudge to succeed with a Called Shot.",
-                            "type":"Firearm Customizations",
-                            "props":"+1",
-                            "difficulty":"3 or +1",
-                            "note":"The minimum Difficulty of purchasing this weapon is equal to the number shown or the base Difficulty of the weapon plus all modifiers from customizations, whichever is higher (to a maximum of 5). This Difficulty is also used when gunsmithing."
-                        },
-                        {
-                            "id":25,
-                            "item":"Small",
-                            "desc":"This modification alters the construction of the gun, allowing it to be more compact and easier to hide. The weapon gains the 'Concealable' trait, providing advantages when attempting to hide or conceal the gun for covert purposes.",
-                            "type":"Firearm Customizations",
-                            "props":"+1",
-                            "difficulty":"2 or +1",
-                            "note":"The minimum Difficulty of purchasing this weapon is equal to the number shown or the base Difficulty of the weapon plus all modifiers from customizations, whichever is higher (to a maximum of 5). This Difficulty is also used when gunsmithing."
-                        },
-                        {
-                            "id":26,
-                            "item":"Tinsights",
-                            "desc":"This modification enhances the weapon with precisely aligned telescopic sights, improving accuracy when aiming. When a character aims the weapon, the difficulty of the aimed shot or the final result of any rolls to defend against this attack is reduced by an additional 1 (for a total reduction of 2 in most cases), to a minimum difficulty of 1. Note that this customization cannot be combined with the Fast Aiming gunplay Stunt.",
-                            "type":"Firearm Customizations",
-                            "props":"+1",
-                            "difficulty":"3 or +1",
-                            "note":"The minimum Difficulty of purchasing this weapon is equal to the number shown or the base Difficulty of the weapon plus all modifiers from customizations, whichever is higher (to a maximum of 5). This Difficulty is also used when gunsmithing."
-                        }
-                    ]
-                },
-                {
-                    "propType": "Customized Ammunition",
-                    "props":[
-                        {
-                            "item":"Aluminum (10)",
-                            "desc":"Aluminum ammunition, similar to aluminum guns, is impervious to detection or influence by Allomancy, providing the shooter with an element of surprise. However, this advantage comes with a trade-off: when used with a non-aluminum weapon, aluminum rounds have reduced range and stopping power. In such cases, their range is decreased by one (to a minimum of Close), and their damage is reduced by 1 (to a minimum of +1).",
-                            "type":"Custom Ammo",
-                            "props":"1",
-                            "difficulty":"3"
-                        },
-                        {
-                            "item":"Armor-Piercing (10)",
-                            "desc":"Armor-piercing ammunition, crafted from hardened steel instead of lead, possesses the capability to penetrate most types of armor and cover. When a target is struck by armor-piercing ammunition, the amount of damage absorbed by their armor or Powers is reduced by half, rounded down. For example, a Pewterarm with the Denser Tissues Stunt, normally absorbing 1 damage, would instead absorb no damage, while a character wearing armor that absorbs 2 damage would only absorb 1.",
-                            "type":"Custom Ammo",
-                            "props":"1",
-                            "difficulty":"2"
-                        },
-                        {
-                            "item":"Hollow-Point Rounds (10)",
-                            "desc":"Pistols and Rifles Only. Hollow-point rounds are bullets with a hole drilled in their tip, which causes them to expand upon impact, inflicting grievous damage to flesh-and-blood targets. However, these rounds have a downside: they flatten and deform upon striking a hard surface, preventing them from ricocheting or penetrating cover or armor.  \n\n When fired, a gun loaded with hollow-point rounds inflicts an additional +1 damage against living targets. However, the damage absorption provided by armor is doubled against these rounds. For instance, a leather duster, which normally absorbs 1 point of damage, would absorb 2 points of damage from hollow-point rounds. Damage absorption provided by other sources, such as Powers and Stunts, remains unaffected. Additionally, shooters cannot utilize the Ricochet gunplay Stunt when firing hollow-point rounds.",
-                            "type":"Custom Ammo",
-                            "props":"1",
-                            "difficulty":"2"
-                        },
-                        {
-                            "item":"Incendiary Shells (10)",
-                            "desc":"(Shotguns Only). These shotgun shells contain large amounts of phosphorus, which ignites upon firing, leaving a trail of smoke and flame behind them. Sometimes, the target itself may catch fire. \n\n A shotgun loaded with incendiary shells inflicts an additional +1 damage. However, the damage absorption provided by armor is doubled against them. For example, a leather duster, which normally absorbs 1 point of damage, would absorb 2 points of damage from this attack. Damage absorption provided by other sources, such as Powers and Stunts, remains unaffected. \n\n Additionally, with a Nudge, the shooter may set a target hit by these shells on fire. This could involve setting cloth or paper alight, damaging clothing, or even causing a drum of oil or fuel to explode.",
-                            "type":"Custom Ammo",
-                            "props":"1",
-                            "difficulty":"2"
-                        },
-                        {
-                            "item":"Coinshot (10)",
-                            "desc":"The bullets feature ceramic tips that are engineered to detach from the metal jacket upon being Pushed by a Coinshot, allowing them to maintain their trajectory. This design element adds a crucial element of surprise, as Coinshots typically rely on detecting metal in projectiles to block them, inadvertently playing into the shooter's strategy. Notably, these rounds are impervious to manipulation by Allomantic Steel or its associated Stunts, including Steel Deflection as described in the Mistborn Adventure Game (page 313).",
-                            "type":"Custom Ammo",
-                            "props":"1",
-                            "difficulty":"2"
-                        },
-                        {
-                            "item":"Lurcher (10)",
-                            "desc":"Lurcher Ammunition operates in contrast to Coinshot ammunition, featuring a ceramic body surrounding a metal core, designed to fragment upon impact with the target, such as a Lurcher's shield or plate armor. This fragmentation results in razor-sharp shrapnel dispersing in all directions. When a Lurcher utilizes Allomantic Iron or one of its associated Stunts, like Iron Redirection as outlined in the Mistborn Adventure Game (page 307), to Pull on this ammunition, the final target of the round and all characters within Striking Range of them suffer 1 damage from the airborne debris, in addition to any other effects of the shot.",
-                            "type":"Custom Ammo",
-                            "props":"1",
-                            "difficulty":"3"
-                        },
-                        {
-                            "item":"Tineye (10)",
-                            "desc":"Tineye Ammunition serves the specific purpose of neutralizing Tineyes and Windwhisper Ferrings while they employ their abilities. These rounds are distinguished by their augmented gunpowder content, resulting in a brilliant flash upon firing, and a unique vented jacket design that generates a whistling sound during flight and a 'screaming' effect upon impact as air vents out. This effect proves incapacitating to individuals nearby who are burning Tin or have utilized sight or hearing through a tinmind in the current or preceding Conflict Round. Within a range of 10 paces (Close Range) from either the shooter or the target, individuals must successfully pass a Physique 1 Challenge each time the weapon is discharged or suffer a loss of 2 action dice in Step 2 of the subsequent Conflict Round, grappling with sensory overload.",
-                            "type":"Custom Ammo",
-                            "props":"1",
-                            "difficulty":"3"
-                        },
-                        {
-                            "item":"Pewterarm (10)",
-                            "desc":"Pewterarm Ammunition is characterized by its frangible heads, which fragment into needle-like shards upon impact, causing wounds that are both more challenging and slower to heal. This property proves effective against both Bloodmakers and the titular Pewterarms. When fired from a gun, Pewterarm Ammunition inflicts an additional +1 damage. However, the protective capacity of armor against these rounds is doubled, meaning that armor absorbs twice the usual amount of damage inflicted (for example, a leather duster, which normally absorbs 1 point of damage, would absorb 2 points of damage from this type of attack). Damage absorption provided by other sources such as Powers and Stunts remains unaffected. Furthermore, damage inflicted by these rounds bypasses the bonus Health granted by burning Pewter or tapping Gold, effectively targeting the individual's 'base' Health rather than any augmented version, and cannot be healed using either Power; instead, recovery must occur naturally as described in the Mistborn Adventure Game (page 189).",
-                            "type":"Custom Ammo",
-                            "props":"1",
-                            "difficulty":"3"
-                        },
-                        {
-                            "item":"Aluminum Bolt (10)",
-                            "desc":"These bolts are tipped with aluminum points. Like Pewterarm bolts, they’re constructed to break into shards on impact. They have the same effect as Pewterarm bolts, but also can’t be redirected using Steel or Iron or otherwise detected or affected by Allomancy.",
-                            "type":"Custom Ammo",
-                            "props":"2",
-                            "difficulty":"4"
-                        },
-                        {
-                            "item":"Coinshot Bolt (10)",
-                            "desc":"Similar to Coinshot bullets, these bolts have metal in the nock. When a Coinshot pushes on the bolt, the nock comes free and the business end of the bolt continues on its course.",
-                            "type":"Custom Ammo",
-                            "props":"1",
-                            "difficulty":"2"
-                        },
-                        {
-                            "item":"Pewterarm Bolt (10)",
-                            "desc":"Similar to Pewterarm rounds, these bolts shatter into shards on impact, making wounds harder to heal by Bloodmakers and Pewterarms. A shot with a Pewterarm bolt inflicts an additional +1 Damage; however, the damage absorption provided by armor is doubled against them (e.g., a leather duster, which absorbs 1 damage normally, would absorb 2 damage from this attack). Damage absorption provided by other sources, such as Powers and Stunts, is not affected. Additionally, damage from these rounds ignores the bonus Health provided by burning Pewter or tapping Gold (essentially, the damage goes against the Pewterarm or Bloodmaker’s “base” Health rather than the increased version) and cannot be healed using either Power; rather, it must be recovered naturally (see the Mistborn Adventure Game, page 189).",
-                            "type":"Custom Ammo",
-                            "props":"1",
-                            "difficulty":"3"
-                        },
-                        {
-                            "item":"Thug Shot (10)",
-                            "desc":"A particularly crude form of firearm ammunition, thug shot takes its name from Pewter Mistings because, like them, it’s considered the most expedient, brute force method of causing damage. A thug shot bullet is oversized and noticeably heavier than a regular bullet, causing greater harm if it hits, but sacrificing range in the process.",
-                            "type":"Custom Ammo",
-                            "props":"1",
-                            "difficulty":"2"
-                        },
-                        {
-                            "item":"Tineye Bolt (10)",
-                            "desc":"Similar to Tineye bullets, these bolts are built to whistle in flight to deafen anyone burning Tin, or who has tapped sight or hearing from a tinmind in the current or previous Conflict Round. Anyone within 10 paces (Close Range) of the shooter or the target must succeed on a Physique 1 Challenge each time a Tineye bolt is fired or lose 2 action dice in Step 2 of the next Conflict Round.",
-                            "type":"Custom Ammo",
-                            "props":"1",
-                            "difficulty":"3"
-                        }
-                    ]
-                },
-                {
                     "propType": "Melee Weapons",
                     "props":[
                         {
@@ -7431,6 +7045,7 @@
                         {   
                             "item": "Ornate metalmind (large)",
                             "desc": "The vast increase in the number of Feruchemists during The Alloy of Law era has increased the availability and diversity of metalminds available to them. Now, metalminds of all sizes and levels of quality — from cheap stamped-metalminds available in Roughs general stores to high-fashion jewelry metalminds — can be found nearly anywhere. \n\n Fancy average-size metalmind which also counts as a Formal Jewelry tool",
+                            "type":"Implements",
                             "props":"2",
                             "difficulty":"4",
                             "note":"This equipment is even harder to find in the Roughs, where the Difficulty to buy it increases by 1."
@@ -7458,6 +7073,392 @@
                             "props":"1",
                             "difficulty":"3",
                             "note":"This equipment is even harder to find in the Roughs, where the Difficulty to buy it increases by 1."
+                        }
+                    ]
+                },
+                {
+                    "propType": "Firearms",
+                    "props":[
+                        {
+                            "id":0,
+                            "item":"Cohnvave Two-Shot",
+                            "desc":"These tiny pistols are designed to fit into a coat sleeve or purse, and be drawn at a moment’s notice. They lack both range and firepower, but their speed and concealability make them excellent “last-ditch” weapons.",
+                            "type":"Firearm",
+                            "props":"1",
+                            "difficulty":"1",
+                            "damage":"+1",
+                            "capacity":"2 shots",
+                            "range":"Touch / Close",
+                            "note":"These weapons are harder to find in the Roughs, where the Diffculty to buy them increases by 1."
+                        },
+                        {
+                            "id":1,
+                            "item":"Disguised gun",
+                            "desc":"This small, simple, single-shot gun is built into a cane, umbrella, carpetbag, or other mundane item, making it the ideal weapon for an assassin. However, a disguised gun’s ungainly construction makes it difficult to use properly; it cannot be Aimed (see page 133) and all attacks with this weapon suffer a 1 die penalty, as if the weapon is an inferior Tool (see the Mistborn Adventure Game, page 142). The cost of a disguised gun includes a simple object like an umbrella, but not a more complicated or useful object like photographic equipment, or another weapon such as a koloss sword.",
+                            "type":"Firearm",
+                            "props":"1",
+                            "difficulty":"2",
+                            "damage":"+1",
+                            "capacity":"1 shot",
+                            "range":"Touch / Close",
+                            "note":"These weapons are harder to find in the Roughs, where the Diffculty to buy them increases by 1."
+                        },
+                        {
+                            "id":2,
+                            "item":"Granger 30-30 Rifle",
+                            "desc":"These common single-shot rifles benefit from extremely long range and high accuracy, but take time to reload. This latter feature means they are quickly falling out of favor for multi-shot rifles, but some sharpshooters maintain that the Granger’s greater accuracy is worth the inconvenience.",
+                            "type":"Firearm",
+                            "props":"1",
+                            "difficulty":"2",
+                            "damage":"+3",
+                            "capacity":"1 shot",
+                            "range":"Close / Extreme"
+                        },
+                        {
+                            "id":3,
+                            "item":"Heispel Autoloader",
+                            "desc":"These tiny pistols are designed to fit into a coat sleeve or purse, and be drawn at a moment’s notice. They lack both range and firepower, but their speed and concealability make them excellent “last-ditch” weapons.",
+                            "type":"Firearm",
+                            "props":"2",
+                            "difficulty":"1",
+                            "damage":"+1",
+                            "capacity":"2 shots",
+                            "range":"Touch / Close",
+                            "note":"These weapons are harder to find in the Roughs, where the Diffculty to buy them increases by 1."
+                        },
+                        {
+                            "id":4,
+                            "item":"Heispel Pump shotgun",
+                            "desc":"The pinnacle of shotgun technology, this firearm replaces the traditional break-action of older style shotguns like the Riesfel with a sliding “pump” which ejects a spent shell and loads another from the 8-round tube magazine. Some custom models rack another round on both the forward and reverse motion, to allow creative Allomancers to reload “hands free” by Pushing or Pulling on the slide.",
+                            "type":"Firearm",
+                            "props":"1",
+                            "difficulty":"2",
+                            "damage":"+2",
+                            "capacity":"8 shots",
+                            "range":"Close / Medium",
+                            "note":"These weapons are harder to find in the Roughs, where the Diffculty to buy them increases by 1."
+                        },
+                        {
+                            "id":5,
+                            "item":"Immerling 44 revolver",
+                            "desc":"Immerling’s “thunder-handed” pistol boasts the largest caliber of any mass-produced revolver on the market, at the expense of capacity. The gun’s heavy recoil makes it harder to wield (they’re rarely used in pairs), but it makes up for its handling in stopping power and general intimidation. Pewterarms tend to use Immerlings to the exclusion of other pistols, since their great strength can handle the kick more readily.",
+                            "type":"Firearm",
+                            "props":"1",
+                            "difficulty":"2",
+                            "damage":"+2",
+                            "capacity":"4 shots",
+                            "range":"Close / Medium"
+                        },
+                        {
+                            "id":6,
+                            "item":"Immerling Multi-Shot rifle",
+                            "desc":"The Immerling Multi-Shot is a lever-action repeating rifle, with a cylindrical magazine of eight rounds running below the barrel. Loading the weapon requires the shooter to simply swing the lever forward, ejecting the empty cartridge and loading the next. The high capacity and rate of fire means Immerlings are rapidly replacing single-shot rifles as the go-to weapon for denizens of the Roughs.",
+                            "type":"Firearm",
+                            "props":"1",
+                            "difficulty":"3",
+                            "damage":"+3",
+                            "capacity":"8 shots",
+                            "range":"Close / Long"
+                        },
+                        {
+                            "id":7,
+                            "item":"Koloss arquebus",
+                            "desc":"While most koloss and koloss-blooded prefer a blade to 'dishonorable' weapons such as firearms, some more progressive tribes have adopted the rugged arquebus as an alternative to bow & arrows. The weapon's simplicity and use of gunpowder rather than cartridges allows the shooter to substitute improvised 'shot' such as rocks, scrap metal, and flint for standard lead ball ammunition in a pinch.",
+                            "type":"Firearm",
+                            "props":"1",
+                            "difficulty":"2",
+                            "damage":"+3",
+                            "capacity":"1 shot",
+                            "range":"Close / Medium",
+                            "note":"Only koloss and koloss-blooded characters may take this as a Prop"
+                        },
+                        {
+                            "id":8,
+                            "item":"Riesfel shotgun",
+                            "desc":"The Riesfel is typical of the wide array of break-action shotguns available on the market. It features two barrels, side by side, firing 10-gauge shot pellets courtesy of dual action triggers that let the user shoot one barrel at a time, or both at once. When empty, the gun must be 'broken' open by turning down and emptying the barrels before firing again. Some shooters — particularly criminals — have taken to sawing off the barrels, which decreases the range but makes the shotgun much easier to conceal (an example of the Small customization — see page 119).",
+                            "type":"Firearm",
+                            "props":"1",
+                            "difficulty":"2",
+                            "damage":"+3",
+                            "capacity":"2 shots",
+                            "range":"Close / Medium"
+                        },
+                        {
+                            "id":9,
+                            "item":"Rotary Gun",
+                            "desc":"Rotary guns, predecessors of the machine gun of Earth, use hand-cranked rotating chambers to fire a large number of bullets very quickly — so fast, in fact, that they fire bursts of bullets called “salvoes” rather than individual shots. This large and bulky weapon is either mounted on wheels, on the deck of a ship, or in some similar permanent emplacement. Effective use of a rotary gun requires a crew of three people: one to crank, another to reload, and a third to aim. See “Firing a Rotary Gun” on page 134 for rules about using this weapon.",
+                            "type":"Firearm",
+                            "props":"N/A",
+                            "difficulty":"4",
+                            "damage":"+4",
+                            "capacity":"10 salvoes",
+                            "range":"Close / Long",
+                            "note":"These weapons are harder to find in the Roughs, where the Diffculty to buy them increases by 1."
+                        },
+                        {
+                            "id":10,
+                            "item":"Sterrion 36 revolver",
+                            "desc":"Lurcher engineer Ranette Sterrion has established the new standard for revolvers with the Sterrion 36, a six-shot, .36-caliber pistol with excellent range and stopping power. Each Sterrion is hand-made and difficult to find outside of Elendel, but their exceptional efficiency and reliability ensures they remain equally popular with gunslingers in the Roughs and many Elendel constables.",
+                            "type":"Firearm",
+                            "props":"1",
+                            "difficulty":"2",
+                            "damage":"+2",
+                            "capacity":"6 shots",
+                            "range":"Close / Medium",
+                            "note":"These weapons are harder to find in the Roughs, where the Diffculty to buy them increases by 1."
+                        },
+                        {
+                            "id":11,
+                            "item":"Terringul 27 revolver",
+                            "desc":"The Terringul revolver lacks the Sterrion’s reputation, as well as its punch, due to a smaller caliber and less-meticulous construction. It is still used because many shooters find the Terringul is much easier to conceal, and can be drawn and fired much more quickly than the bulkier Sterrion. Like the Sterrion 36, this revolver holds six rounds in the chamber.",
+                            "type":"Firearm",
+                            "props":"1",
+                            "difficulty":"1",
+                            "damage":"+1",
+                            "capacity":"6 shots",
+                            "range":"Close / Medium"
+                        },
+                        {
+                            "id":12,
+                            "item":"Heispel Longshot",
+                            "desc":"The Longshot is an exotic pistol with a design reminiscent of a mare’s leg and a handgun. It features a long barrel, a tubular magazine, a pistol grip, and a cocking lever instead of revolving chambers. While somewhat unwieldy for a pistol and more expensive compared to a repeating rifle, the Longshot's exceptionally long barrel provides it with a range similar to that of a rifle, all while firing common pistol ammunition. Despite its quirks and shortcomings, the Longshot remains a favored choice among wealthy gunslingers who value its unique appearance and standout performance.",
+                            "type":"Firearm",
+                            "props":"1",
+                            "difficulty":"3",
+                            "damage":"+2",
+                            "capacity":"4 shots",
+                            "range":"Close / Long"
+                        },
+                        {
+                            "id":13,
+                            "item":"“Rioting” 22",
+                            "desc":"The “Rioting” is an affordable, low-caliber revolver that has gained popularity among the lower classes of Elendel. It offers similar firepower to a Terringul 27 but is smaller and more easily concealable, making it a preferred choice among gangsters and tough individuals. Despite its relatively inexpensive construction materials, the “Rioting” is well-made for its price range and is known for its reliability, rarely experiencing jams during use.",
+                            "type":"Firearm",
+                            "props":"1",
+                            "difficulty":"1",
+                            "damage":"+1",
+                            "capacity":"6 shots",
+                            "range":"Close / Medium"
+                        },
+                        {
+                            "id":14,
+                            "item":"Terringul Ripper Automatic Pistol",
+                            "desc":"The Terringul Ripper is an experimental handgun designed to showcase Terringul's ability to innovate in the firearms market. Unlike traditional revolvers, it features a spring-loaded box magazine in a “half-moon” shape, similar to the Heispel Autoloader. This unique design allows for incredibly fast firing rates, rivaling even rotary guns for brief periods. \n\n The Ripper offers two modes of attack: single shots, similar to standard firearms, or salvoes, akin to rotary guns. To unleash a salvo, at least 10 shots must be fired. Unlike rotary guns, the Ripper does not require a loader or cranker, eliminating associated penalties. However, standard rules and limitations for salvo fire still apply.",
+                            "props":"1",
+                            "type":"Firearm",
+                            "difficulty":"4",
+                            "damage":"+1 or 1 salvo",
+                            "capacity":"12 shots",
+                            "range":"Close / Medium"
+                        }
+                    ]
+                },
+                {
+                    "propType": "Firearm Customization",
+                    "props":[
+                        {
+                            "id":15,
+                            "item":"Allomancer Holdout",
+                            "desc":"The grip of this weapon conceals a tiny, hidden chamber just big enough to hold a single charge of one metal of the owner’s choice (as used by Allomancer Jak in the opening fiction to this book). Discovering the compartment is quite difficult, requiring the searcher to succeed on a Wits 4 Challenge to notice it if they are not aware. Retrieving the charge from the compartment is an action, and after it is used, the charge of metal is replenished during the next Long Breather.",
+                            "type":"Customizations",
+                            "props":"+1",
+                            "difficulty":"2 or +1",
+                            "note":"The minimum Difficulty of purchasing this weapon is equal to the number shown or the base Difficulty of the weapon plus all modifiers from customizations, whichever is higher (to a maximum of 5). This Difficulty is also used when gunsmithing."
+                        },
+                        {
+                            "id":16,
+                            "item":"Allomancer Safety",
+                            "desc":"A concealed metal mechanism within the gun acts as a hidden safety which can only be tripped by Lurchers or Coinshots. The safety is automatically set and the gun cannot be fired unless the wielder first succeeds on a Difficulty 3 roll using the appropriate form of Allomancy (Steel 3 for Coinshot safeties, or Iron 3 for Lurcher safeties). Designate which type of safety this is when this customization is purchased or chosen as a Prop. Disarming an Allomancer safety is not considered an action, and once disarmed, the wielder does not need to roll again unless he or she drops or puts the weapon away.",
+                            "type":"Customizations",
+                            "props":"+1",
+                            "difficulty":"3 or +1",
+                            "note":"The minimum Difficulty of purchasing this weapon is equal to the number shown or the base Difficulty of the weapon plus all modifiers from customizations, whichever is higher (to a maximum of 5). This Difficulty is also used when gunsmithing."
+                        },
+                        {
+                            "id":17,
+                            "item":"Aluminum Frame",
+                            "desc":"Weapons made of aluminum alloys are both rare and highly useful, thanks to their Allomantically inert state. Aluminum guns are also much lighter than other weapons, making them easier to carry and conceal, at the cost of range and stopping power. Weapons with this customization cannot be detected or affected by Allomancy (including Allomantic Steelpushes or Ironpulls). When this customization is applied to a weapon chosen as a Prop, these qualities also apply to the gun’s ammunition. Guns with this customization have their Range reduced by one (minimum Close), and their damage reduced by 1 (minimum +1). Creating an Aluminum Frame requires a great deal of the metal, so the character must have an aluminum ingot in order to add this customization through gunsmithing.",
+                            "type":"Customizations",
+                            "props":"+1",
+                            "difficulty":"4 or +1",
+                            "note":"The minimum Difficulty of purchasing this weapon is equal to the number shown or the base Difficulty of the weapon plus all modifiers from customizations, whichever is higher (to a maximum of 5). This Difficulty is also used when gunsmithing."
+                        },
+                        {
+                            "id":18,
+                            "item":"Extra Capacity",
+                            "desc":"Cannot be applied to disguised guns or guns with the Aluminum Frame customization. The weapon is made from high-quality metal that allows the gunsmith to use less material without making the gun too bulky, increasing the weapon’s Capacity by 2.",
+                            "type":"Customizations",
+                            "props":"+1",
+                            "difficulty":"3 or +1",
+                            "note":"The minimum Difficulty of purchasing this weapon is equal to the number shown or the base Difficulty of the weapon plus all modifiers from customizations, whichever is higher (to a maximum of 5). This Difficulty is also used when gunsmithing."
+                        },
+                        {
+                            "id":19,
+                            "item":"Hair Trigger",
+                            "desc":"The trigger of this gun is exceptionally sensitive, offering the shooter a slight advantage when speed is crucial. During a Conflict, if a character declares an attack action with this weapon, their attack occurs in Step 2 of the Round as if their dice pool were 2 dice larger. For example, if Grinnel has 4 dice for an attack with a pistol equipped with a Hair Trigger, he would act in Step 2 as if he had 6 dice in his pool.",
+                            "type":"Customizations",
+                            "props":"+1",
+                            "difficulty":"2 or +1",
+                            "note":"The minimum Difficulty of purchasing this weapon is equal to the number shown or the base Difficulty of the weapon plus all modifiers from customizations, whichever is higher (to a maximum of 5). This Difficulty is also used when gunsmithing."
+                        },
+                        {
+                            "id":20,
+                            "item":"Invarian Chambers",
+                            "desc":"Revolvers Only. This modification adds 2 'locked' chambers to the revolver's cylinder, which can be switched at will by flipping a release at the base of the cylinder. It allows the shooter to keep 2 types of ammunition in the same weapon without reloading, such as normal rounds in the main chamber and specialized rounds in the secondary chamber. However, reloading each set of chambers requires a different Reload action, thus taking 2 Reloads to load both the main and secondary chambers.",
+                            "type":"Customizations",
+                            "props":"+1",
+                            "difficulty":"3 or +1",
+                            "note":"The minimum Difficulty of purchasing this weapon is equal to the number shown or the base Difficulty of the weapon plus all modifiers from customizations, whichever is higher (to a maximum of 5). This Difficulty is also used when gunsmithing."
+                        },
+                        {
+                            "id":21,
+                            "item":"Long Range",
+                            "desc":"This gun has a longer barrel and improved rifling to allow it to fire one Range band further, to a maximum of Extreme",
+                            "type":"Customizations",
+                            "props":"+1",
+                            "difficulty":"2 or +1",
+                            "note":"The minimum Difficulty of purchasing this weapon is equal to the number shown or the base Difficulty of the weapon plus all modifiers from customizations, whichever is higher (to a maximum of 5). This Difficulty is also used when gunsmithing."
+                        },
+                        {
+                            "id":22,
+                            "item":"Magnum Force",
+                            "desc":"This gun is designed to use ammunition containing extra gunpowder and heavier bullets, resulting in +1 additional damage per shot. However, weaker shooters struggle to control this weapon's massive kick; when a shooter with a Physique of 4 or less attacks with this weapon, their pool shrinks by 1 die.",
+                            "type":"Customizations",
+                            "props":"+1",
+                            "difficulty":"3 or +1",
+                            "note":"The minimum Difficulty of purchasing this weapon is equal to the number shown or the base Difficulty of the weapon plus all modifiers from customizations, whichever is higher (to a maximum of 5). This Difficulty is also used when gunsmithing."
+                        },
+                        {
+                            "id":23,
+                            "item":"Metalmind Grip",
+                            "desc":"The metal core of this gun's handgrip is composed of a pure metal capable of serving as a metalmind. Select a single Feruchemical metal; this weapon is regarded as a metalmind of that type, capable of storing up to 25 charges.",
+                            "type":"Customizations",
+                            "props":"+1",
+                            "difficulty":"3 or +1",
+                            "note":"The minimum Difficulty of purchasing this weapon is equal to the number shown or the base Difficulty of the weapon plus all modifiers from customizations, whichever is higher (to a maximum of 5). This Difficulty is also used when gunsmithing."
+                        },
+                        {
+                            "id":24,
+                            "item":"Perfect Balance",
+                            "desc":"This gun is meticulously tuned and precisely customized to facilitate trick shots. If a character possesses the Aimed stunt, they require 1 fewer Nudge to succeed with a Called Shot.",
+                            "type":"Customizations",
+                            "props":"+1",
+                            "difficulty":"3 or +1",
+                            "note":"The minimum Difficulty of purchasing this weapon is equal to the number shown or the base Difficulty of the weapon plus all modifiers from customizations, whichever is higher (to a maximum of 5). This Difficulty is also used when gunsmithing."
+                        },
+                        {
+                            "id":25,
+                            "item":"Small",
+                            "desc":"This modification alters the construction of the gun, allowing it to be more compact and easier to hide. The weapon gains the 'Concealable' trait, providing advantages when attempting to hide or conceal the gun for covert purposes.",
+                            "type":"Customizations",
+                            "props":"+1",
+                            "difficulty":"2 or +1",
+                            "note":"The minimum Difficulty of purchasing this weapon is equal to the number shown or the base Difficulty of the weapon plus all modifiers from customizations, whichever is higher (to a maximum of 5). This Difficulty is also used when gunsmithing."
+                        },
+                        {
+                            "id":26,
+                            "item":"Tinsights",
+                            "desc":"This modification enhances the weapon with precisely aligned telescopic sights, improving accuracy when aiming. When a character aims the weapon, the difficulty of the aimed shot or the final result of any rolls to defend against this attack is reduced by an additional 1 (for a total reduction of 2 in most cases), to a minimum difficulty of 1. Note that this customization cannot be combined with the Fast Aiming gunplay Stunt.",
+                            "type":"Customizations",
+                            "props":"+1",
+                            "difficulty":"3 or +1",
+                            "note":"The minimum Difficulty of purchasing this weapon is equal to the number shown or the base Difficulty of the weapon plus all modifiers from customizations, whichever is higher (to a maximum of 5). This Difficulty is also used when gunsmithing."
+                        }
+                    ]
+                },
+                {
+                    "propType": "Customized Ammunition",
+                    "props":[
+                        {
+                            "item":"Aluminum (10)",
+                            "desc":"Aluminum ammunition, similar to aluminum guns, is impervious to detection or influence by Allomancy, providing the shooter with an element of surprise. However, this advantage comes with a trade-off: when used with a non-aluminum weapon, aluminum rounds have reduced range and stopping power. In such cases, their range is decreased by one (to a minimum of Close), and their damage is reduced by 1 (to a minimum of +1).",
+                            "type":"Custom Ammo",
+                            "props":"1",
+                            "difficulty":"3"
+                        },
+                        {
+                            "item":"Armor-Piercing (10)",
+                            "desc":"Armor-piercing ammunition, crafted from hardened steel instead of lead, possesses the capability to penetrate most types of armor and cover. When a target is struck by armor-piercing ammunition, the amount of damage absorbed by their armor or Powers is reduced by half, rounded down. For example, a Pewterarm with the Denser Tissues Stunt, normally absorbing 1 damage, would instead absorb no damage, while a character wearing armor that absorbs 2 damage would only absorb 1.",
+                            "type":"Custom Ammo",
+                            "props":"1",
+                            "difficulty":"2"
+                        },
+                        {
+                            "item":"Hollow-Point Rounds (10)",
+                            "desc":"Pistols and Rifles Only. Hollow-point rounds are bullets with a hole drilled in their tip, which causes them to expand upon impact, inflicting grievous damage to flesh-and-blood targets. However, these rounds have a downside: they flatten and deform upon striking a hard surface, preventing them from ricocheting or penetrating cover or armor.  \n\n When fired, a gun loaded with hollow-point rounds inflicts an additional +1 damage against living targets. However, the damage absorption provided by armor is doubled against these rounds. For instance, a leather duster, which normally absorbs 1 point of damage, would absorb 2 points of damage from hollow-point rounds. Damage absorption provided by other sources, such as Powers and Stunts, remains unaffected. Additionally, shooters cannot utilize the Ricochet gunplay Stunt when firing hollow-point rounds.",
+                            "type":"Custom Ammo",
+                            "props":"1",
+                            "difficulty":"2"
+                        },
+                        {
+                            "item":"Incendiary Shells (10)",
+                            "desc":"(Shotguns Only). These shotgun shells contain large amounts of phosphorus, which ignites upon firing, leaving a trail of smoke and flame behind them. Sometimes, the target itself may catch fire. \n\n A shotgun loaded with incendiary shells inflicts an additional +1 damage. However, the damage absorption provided by armor is doubled against them. For example, a leather duster, which normally absorbs 1 point of damage, would absorb 2 points of damage from this attack. Damage absorption provided by other sources, such as Powers and Stunts, remains unaffected. \n\n Additionally, with a Nudge, the shooter may set a target hit by these shells on fire. This could involve setting cloth or paper alight, damaging clothing, or even causing a drum of oil or fuel to explode.",
+                            "type":"Custom Ammo",
+                            "props":"1",
+                            "difficulty":"2"
+                        },
+                        {
+                            "item":"Coinshot (10)",
+                            "desc":"The bullets feature ceramic tips that are engineered to detach from the metal jacket upon being Pushed by a Coinshot, allowing them to maintain their trajectory. This design element adds a crucial element of surprise, as Coinshots typically rely on detecting metal in projectiles to block them, inadvertently playing into the shooter's strategy. Notably, these rounds are impervious to manipulation by Allomantic Steel or its associated Stunts, including Steel Deflection as described in the Mistborn Adventure Game (page 313).",
+                            "type":"Custom Ammo",
+                            "props":"1",
+                            "difficulty":"2"
+                        },
+                        {
+                            "item":"Lurcher (10)",
+                            "desc":"Lurcher Ammunition operates in contrast to Coinshot ammunition, featuring a ceramic body surrounding a metal core, designed to fragment upon impact with the target, such as a Lurcher's shield or plate armor. This fragmentation results in razor-sharp shrapnel dispersing in all directions. When a Lurcher utilizes Allomantic Iron or one of its associated Stunts, like Iron Redirection as outlined in the Mistborn Adventure Game (page 307), to Pull on this ammunition, the final target of the round and all characters within Striking Range of them suffer 1 damage from the airborne debris, in addition to any other effects of the shot.",
+                            "type":"Custom Ammo",
+                            "props":"1",
+                            "difficulty":"3"
+                        },
+                        {
+                            "item":"Tineye (10)",
+                            "desc":"Tineye Ammunition serves the specific purpose of neutralizing Tineyes and Windwhisper Ferrings while they employ their abilities. These rounds are distinguished by their augmented gunpowder content, resulting in a brilliant flash upon firing, and a unique vented jacket design that generates a whistling sound during flight and a 'screaming' effect upon impact as air vents out. This effect proves incapacitating to individuals nearby who are burning Tin or have utilized sight or hearing through a tinmind in the current or preceding Conflict Round. Within a range of 10 paces (Close Range) from either the shooter or the target, individuals must successfully pass a Physique 1 Challenge each time the weapon is discharged or suffer a loss of 2 action dice in Step 2 of the subsequent Conflict Round, grappling with sensory overload.",
+                            "type":"Custom Ammo",
+                            "props":"1",
+                            "difficulty":"3"
+                        },
+                        {
+                            "item":"Pewterarm (10)",
+                            "desc":"Pewterarm Ammunition is characterized by its frangible heads, which fragment into needle-like shards upon impact, causing wounds that are both more challenging and slower to heal. This property proves effective against both Bloodmakers and the titular Pewterarms. When fired from a gun, Pewterarm Ammunition inflicts an additional +1 damage. However, the protective capacity of armor against these rounds is doubled, meaning that armor absorbs twice the usual amount of damage inflicted (for example, a leather duster, which normally absorbs 1 point of damage, would absorb 2 points of damage from this type of attack). Damage absorption provided by other sources such as Powers and Stunts remains unaffected. Furthermore, damage inflicted by these rounds bypasses the bonus Health granted by burning Pewter or tapping Gold, effectively targeting the individual's 'base' Health rather than any augmented version, and cannot be healed using either Power; instead, recovery must occur naturally as described in the Mistborn Adventure Game (page 189).",
+                            "type":"Custom Ammo",
+                            "props":"1",
+                            "difficulty":"3"
+                        },
+                        {
+                            "item":"Aluminum Bolt (10)",
+                            "desc":"These bolts are tipped with aluminum points. Like Pewterarm bolts, they’re constructed to break into shards on impact. They have the same effect as Pewterarm bolts, but also can’t be redirected using Steel or Iron or otherwise detected or affected by Allomancy.",
+                            "type":"Custom Ammo",
+                            "props":"2",
+                            "difficulty":"4"
+                        },
+                        {
+                            "item":"Coinshot Bolt (10)",
+                            "desc":"Similar to Coinshot bullets, these bolts have metal in the nock. When a Coinshot pushes on the bolt, the nock comes free and the business end of the bolt continues on its course.",
+                            "type":"Custom Ammo",
+                            "props":"1",
+                            "difficulty":"2"
+                        },
+                        {
+                            "item":"Pewterarm Bolt (10)",
+                            "desc":"Similar to Pewterarm rounds, these bolts shatter into shards on impact, making wounds harder to heal by Bloodmakers and Pewterarms. A shot with a Pewterarm bolt inflicts an additional +1 Damage; however, the damage absorption provided by armor is doubled against them (e.g., a leather duster, which absorbs 1 damage normally, would absorb 2 damage from this attack). Damage absorption provided by other sources, such as Powers and Stunts, is not affected. Additionally, damage from these rounds ignores the bonus Health provided by burning Pewter or tapping Gold (essentially, the damage goes against the Pewterarm or Bloodmaker’s “base” Health rather than the increased version) and cannot be healed using either Power; rather, it must be recovered naturally (see the Mistborn Adventure Game, page 189).",
+                            "type":"Custom Ammo",
+                            "props":"1",
+                            "difficulty":"3"
+                        },
+                        {
+                            "item":"Thug Shot (10)",
+                            "desc":"A particularly crude form of firearm ammunition, thug shot takes its name from Pewter Mistings because, like them, it’s considered the most expedient, brute force method of causing damage. A thug shot bullet is oversized and noticeably heavier than a regular bullet, causing greater harm if it hits, but sacrificing range in the process.",
+                            "type":"Custom Ammo",
+                            "props":"1",
+                            "difficulty":"2"
+                        },
+                        {
+                            "item":"Tineye Bolt (10)",
+                            "desc":"Similar to Tineye bullets, these bolts are built to whistle in flight to deafen anyone burning Tin, or who has tapped sight or hearing from a tinmind in the current or previous Conflict Round. Anyone within 10 paces (Close Range) of the shooter or the target must succeed on a Physique 1 Challenge each time a Tineye bolt is fired or lose 2 action dice in Step 2 of the next Conflict Round.",
+                            "type":"Custom Ammo",
+                            "props":"1",
+                            "difficulty":"3"
                         }
                     ]
                 }

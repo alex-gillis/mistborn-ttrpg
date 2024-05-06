@@ -69,7 +69,7 @@ function Menu() {
             { myPage === 1 && <Rules game={myGames}/> }
             { myPage === 2 && <Creation creation={myCreations} propped={myProps[0]} rogues={myRogues} /> }
             { myPage === 3 && <Cultures /> }
-            { myPage === 4 && <Reference basics={myBasics} creation={myCreations} metals={myMetals} stunts={myStunts}/> }
+            { myPage === 4 && <Reference basics={myBasics} creation={myCreations} metals={myMetals} stunts={myStunts} propped={myProps[1]}/> }
         </>
     );
 }

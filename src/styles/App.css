@@ -148,9 +148,9 @@ header {
 }
 
 #reference-info {
-  border-color: goldenrod;
+  border-color: #242424;
   border-style: solid;
-  border-width: 0.75px;
+  border-width: 7px;
   padding-left: 15px;
   padding-right: 15px;
   padding-bottom: 5px;
@@ -221,10 +221,9 @@ header {
 }
 
 #table-list {
-  min-width: 150px;
-  padding-left: 1.5rem;
+  min-width: 600px;
   text-align: center;
-  max-height: 675px;
+  max-height: 640px;
   overflow-y: scroll;
   list-style-type: none;
 }::-webkit-scrollbar {
@@ -234,6 +233,16 @@ header {
   border-radius: 10px;
 }::-webkit-scrollbar-thumb:hover {
   background-color: #555;
+}
+
+#prop-list {
+  margin-top: 5px;
+  padding-right: 5px;
+  min-width: 500px;
+  text-align: center;
+  max-height: 780px;
+  overflow-y: scroll;
+  list-style-type: none;
 }
 
 #nav-list {
@@ -434,6 +443,29 @@ header {
   border-radius: 0px; 
   cursor: pointer;
   background-color: transparent;
+  font-size: 15px;
+  height: 100%;
+  width: 100%;
+  color: rgba(255, 255, 255, 0.87);
+}
+
+#filterSelected {
+  border: 0.05px solid goldenrod; 
+  border-radius: 0px; 
+  cursor: pointer;
+  background-color: transparent;
+  font-size: smaller;
+  height: 100%;
+  width: 100%;
+  color: goldenrod;
+}
+
+#filterUnselected {
+  border: 0.05px solid rgba(255, 255, 255, 0.87); 
+  border-radius: 0px; 
+  cursor: pointer;
+  background-color: transparent;
+  font-size: smaller;
   height: 100%;
   width: 100%;
   color: rgba(255, 255, 255, 0.87);
@@ -470,17 +502,15 @@ header {
 }
 
 .reference-side {
-  margin-left: 25px;
-  margin-right: 25px;
+  margin-left: 15px;
 } 
 
 .reference-width {
   max-width: 540px;
-  margin-left: 100px;
 }
 
 #reference-size {
-  max-width: 400px;
+  min-width: 600px;
   margin-left: 76.83px;
   margin-right: 76.83px;
 }
@@ -495,4 +525,20 @@ header {
 
 .righter {
   text-align: right;
+}
+
+.ref-one {
+  min-width: 200px;
+}
+
+.ref-two {
+  min-width: 250px;
+}
+
+.ref-three {
+  min-width: 110px;
+}
+
+.ref-four {
+  min-width: 85px;
 }
