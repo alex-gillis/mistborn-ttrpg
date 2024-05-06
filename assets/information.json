@@ -7246,7 +7246,7 @@
                             "desc":"The Terringul Ripper is an experimental handgun designed to showcase Terringul's ability to innovate in the firearms market. Unlike traditional revolvers, it features a spring-loaded box magazine in a “half-moon” shape, similar to the Heispel Autoloader. This unique design allows for incredibly fast firing rates, rivaling even rotary guns for brief periods. \n\n The Ripper offers two modes of attack: single shots, similar to standard firearms, or salvoes, akin to rotary guns. To unleash a salvo, at least 10 shots must be fired. Unlike rotary guns, the Ripper does not require a loader or cranker, eliminating associated penalties. However, standard rules and limitations for salvo fire still apply.",
                             "props":"1",
                             "type":"Firearm",
-                            "difficulty":"4*",
+                            "difficulty":"4",
                             "damage":"+1 or 1 salvo",
                             "capacity":"12 shots",
                             "range":"Close / Medium"
