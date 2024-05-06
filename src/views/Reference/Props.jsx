@@ -104,23 +104,25 @@ function Props(props) {
     <div className='padderTop'>
       <div id='diagram'>
         <div id='reference-table'>
-            <h3 className='notButter'>Stunts</h3>
+            <h3 className='notButter'>Props</h3>
             <div>
               <table>
-                <tr>
-                  {filters.map((filter, index) => (
-                    <td>
-                      <button key={index} id={filter.select ? 'filterSelected' : 'filterUnselected'} onClick={filter.onClick}>{filter.title}</button>
-                    </td>
-                  ))}
-                </tr>
-                <tr>
-                  {filtersTwo.map((filter, index) => (
-                    <td>
-                      <button key={index} id={filter.select ? 'filterSelected' : 'filterUnselected'} onClick={filter.onClick}>{filter.title}</button>
-                    </td>
-                  ))}
-                </tr>
+                <tbody>
+                  <tr>
+                    {filters.map((filter, index) => (
+                      <td key={index}>
+                        <button id={filter.select ? 'filterSelected' : 'filterUnselected'} onClick={filter.onClick}>{filter.title}</button>
+                      </td>
+                    ))}
+                  </tr>
+                  <tr>
+                    {filtersTwo.map((filter, index) => (
+                      <td key={index}>
+                        <button id={filter.select ? 'filterSelected' : 'filterUnselected'} onClick={filter.onClick}>{filter.title}</button>
+                      </td>
+                    ))}
+                  </tr>
+                </tbody>
               </table>
             </div>
             <div className='reference-side'>
@@ -182,7 +184,6 @@ function Props(props) {
                 </table>
             </div>
         </div>
-        
         <div id='reference-info'>
             <Prop prop={myProps[mySelection]} />
         </div>

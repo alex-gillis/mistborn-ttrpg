@@ -223,7 +223,7 @@ header {
 #table-list {
   min-width: 600px;
   text-align: center;
-  max-height: 640px;
+  max-height: 625px;
   overflow-y: scroll;
   list-style-type: none;
 }::-webkit-scrollbar {
@@ -511,8 +511,6 @@ header {
 
 #reference-size {
   min-width: 600px;
-  margin-left: 76.83px;
-  margin-right: 76.83px;
 }
 
 .reference-item {
@@ -529,16 +527,20 @@ header {
 
 .ref-one {
   min-width: 200px;
+  max-width: 31.01%;
 }
 
 .ref-two {
   min-width: 250px;
+  max-width: 38.76%;
 }
 
 .ref-three {
   min-width: 110px;
+  max-width: 17.05%;
 }
 
 .ref-four {
   min-width: 85px;
+  max-width: 13.18%;
 }

@@ -44,7 +44,7 @@ function Stunts(props) {
 
   const filters = [
     { title: 'Allomancy', select: myAllo, onClick: () => setAllo(!myAllo) },
-    { title: 'Gun Tricks', select: myGuns, onClick: () => setGuns(!myGuns) },
+    { title: 'Gunplay', select: myGuns, onClick: () => setGuns(!myGuns) },
     { title: 'Gunsmithing', select: mySmith, onClick: () => setSmith(!mySmith) },
     { title: 'Compounding', select: myCompound, onClick: () => setCompound(!myCompound) },
     { title: 'Cultural', select: myCultural, onClick: () => setCultural(!myCultural) },
@@ -52,15 +52,23 @@ function Stunts(props) {
   ];
 
   return (
-    <div>
-      <div className='padderTop'>
-        {filters.map((filter, index) => (
-          <button key={index} className={filter.select ? 'selected' : 'unselected'} onClick={filter.onClick}>{filter.title}</button>
-        ))}
-      </div>
+    <div className='padderTop'>
       <div id='diagram'>
         <div id='reference-table'>
             <h3 className='notButter'>Stunts</h3>
+            <div>
+              <table>
+                <tbody>
+                  <tr>
+                    {filters.map((filter, index) => (
+                      <td key={index}>
+                        <button id={filter.select ? 'filterSelected' : 'filterUnselected'} onClick={filter.onClick}>{filter.title}</button>
+                      </td>
+                    ))}
+                  </tr>
+                </tbody>
+              </table>
+            </div>
             <div className='reference-side'>
               <table id='centered'>
                   <thead className='reference-width' id='reference-size'>
