@@ -69,21 +69,21 @@ function Stunts(props) {
                 </tbody>
               </table>
             </div>
-            <div className='reference-side'>
+            <div>
               <table id='centered'>
                   <thead className='reference-width' id='reference-size'>
                       <tr>
-                        <th className='reference-item'>
+                        <th className='ref-item'>
                           <button id='tableButton' onClick={() => setStunts(sortByMultipleComponents(myStunts, ['name', 'type', 'req']))}>
                             <span className='righter'>Stunt Name</span>
                           </button>
                         </th>
-                        <th className='reference-middle'>
+                        <th className='ref-middle'>
                           <button id='tableButton' onClick={() => setStunts(sortByMultipleComponents(myStunts, ['type', 'name', 'req']))}>
                             Type
                           </button>
                         </th>
-                        <th className='reference-item'>
+                        <th className='ref-item'>
                           <button id='tableButton' onClick={() => setStunts(sortByMultipleComponents(myStunts, ['req', 'name', 'type']))}>
                             Requirements
                           </button>

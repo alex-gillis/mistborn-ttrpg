@@ -29,7 +29,7 @@ function Reference(props) {
                 </button>
             ))}
         </div>
-        <div id='creation' >
+        <div id='creation' className='marginTop'>
             { myPage === 0 && props.metals[0] && props.basics[0] && <Metallurgy basics={props.basics} metals={props.metals} /> }
             { myPage === 1 && <Stunts stunts={props.stunts}/> }
             { myPage === 2 && <Props propped={props.propped}/> }

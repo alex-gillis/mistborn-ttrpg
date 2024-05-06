@@ -5,8 +5,8 @@ function Starting(props) {
 
     return (
       < >
-        <div id="starting">
-            <h1>Getting Started</h1>
+        <div id="starting" className='marginTop'>
+            <h1 className="notButter">Getting Started</h1>
             {props.create.info}
             <h2>If You`ve Never Played An RPG Before...</h2>
             {props.create.neverPlayed}

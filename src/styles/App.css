@@ -2,6 +2,8 @@
 h1 {
   text-align: center;
   text-decoration: underline;
+  padding-top: 20px;
+  margin-bottom: 20px;
 }
 
 h2 {
@@ -127,7 +129,7 @@ header {
 
 #creation {
   padding-bottom: 35px;
-  padding-top: 75px;
+  padding-top: 30px;
 }
 
 #desc {
@@ -173,6 +175,7 @@ header {
 #head-button {
   border: none;
   text-align: center;
+  font-size: smaller;
   padding-bottom: 1-px;
   padding-top: 10px;
   width: 135px;
@@ -221,7 +224,8 @@ header {
 }
 
 #table-list {
-  min-width: 600px;
+  min-width: 580px;
+  max-width: 695px;
   text-align: center;
   max-height: 625px;
   overflow-y: scroll;
@@ -301,7 +305,7 @@ header {
 }
 
 #startHead {
-  padding-top: 50px;
+  padding-top: 35px;
   text-align: center;
   position: fixed;
   max-width: 1280px;
@@ -397,6 +401,10 @@ header {
   border-color: #35465c;
 }
 
+.lefter {
+  text-align: left;
+}
+
 .propTable {
   column-count: 2;
   column-gap: 75px;
@@ -413,6 +421,11 @@ header {
   margin: auto;
   margin-bottom: 15px;
   text-align: center;
+}
+
+.marginTop {
+  margin-top: 30px;
+  margin-bottom: 0px;
 }
 
 #sampleText {
@@ -457,6 +470,7 @@ header {
   font-size: smaller;
   height: 100%;
   width: 100%;
+  min-width: 100px;
   color: goldenrod;
 }
 
@@ -501,28 +515,23 @@ header {
   width:160px;
 }
 
-.reference-side {
-  margin-left: 15px;
-} 
-
 .reference-width {
   max-width: 540px;
 }
 
 #reference-size {
   min-width: 600px;
+  width: 100%;
+  margin-left: 0px;
+  margin-right: 0px;
 }
 
-.reference-item {
+.ref-item {
   min-width: 200px;
 }
 
-.reference-middle {
+.ref-middle {
   min-width: 150px;
-}
-
-.righter {
-  text-align: right;
 }
 
 .ref-one {
@@ -531,16 +540,20 @@ header {
 }
 
 .ref-two {
-  min-width: 250px;
+  min-width: 228px;
   max-width: 38.76%;
 }
 
 .ref-three {
-  min-width: 110px;
+  min-width: 142px;
   max-width: 17.05%;
 }
 
 .ref-four {
-  min-width: 85px;
+  min-width: 95px;
   max-width: 13.18%;
+}
+
+.ref-five {
+  min-width: 37px;
 }

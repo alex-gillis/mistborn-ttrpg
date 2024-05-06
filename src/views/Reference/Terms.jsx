@@ -5,8 +5,7 @@ function Terms(props) {
 
   return (
     <>
-    <br/>
-    <h1>Game Terms</h1>
+    <h1 className="notButter">Game Terms</h1>
       {props.gameTerms.map((myTerm, index) => (
         <div id="terms" key={index}>
               <span id='bolder'>{myTerm.term}:</span> {myTerm.description}

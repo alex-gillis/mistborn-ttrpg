@@ -104,10 +104,14 @@ function Props(props) {
     <div className='padderTop'>
       <div id='diagram'>
         <div id='reference-table'>
-            <h3 className='notButter'>Props</h3>
-            <div>
-              <table>
+            <div >
+              <table id='reference-size' className='reference-width'>
                 <tbody>
+                  <tr>
+                    <td colSpan={10}>
+                      <h3 className='notButter'>Props</h3>
+                    </td>        
+                  </tr>
                   <tr>
                     {filters.map((filter, index) => (
                       <td key={index}>
@@ -125,9 +129,9 @@ function Props(props) {
                 </tbody>
               </table>
             </div>
-            <div className='reference-side'>
-              <table id='centered'>
-                  <thead className='reference-width' id='reference-size'>
+            <div>
+              <table className='reference-width'>
+                  <tbody>
                       <tr>
                         <th className='ref-one'>
                           <button id='tableButton' onClick={() => setProps(sortByMultipleComponents(myProps, ['item', 'type', 'props', 'difficulty']))}>
@@ -149,13 +153,15 @@ function Props(props) {
                             Difficulty
                           </button>
                         </th>
+                        <th className='ref-five'>
+                        </th>
                       </tr>
-                  </thead>
+                  </tbody>
               </table>
             </div>
             <div id='table-list'>
-                <table id='centered'>
-                    <tbody id='table-list' className='reference-width'>
+                <table id='reference-size' className='reference-width'>
+                    <tbody>
                         {myProps && myProps.map((section, index) => (
                         <tr key={index} className={index % 2 === 0 ? 'evenRow' : 'oddRow'}>
                             <td className='ref-one'>
