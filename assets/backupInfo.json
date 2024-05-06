@@ -1,0 +1,1161 @@
+{
+    "era2":[
+        {
+            "propType": "Melee Weapons",
+            "props":[
+                {
+                    "item":"Aluminum Sword",
+                    "desc":"A modern take on the sidearms of a simpler time, this thin cutting blade has replaced the dueling cane as a powerful statement of the wielder’s wealth and status.",
+                    "type":"Melee",
+                    "props":"2",
+                    "difficulty":"3",
+                    "damage":"+2",
+                    "range":"Touch / Striking"
+                },
+                {
+                    "item":"Knucklebones",
+                    "desc":"A colorful name for a brutal tool, a set of knucklebones is a one-piece weapon similar to brass knuckles (see the Alloy of Law Campaign Setting & Game Supplement, page 123). They consist of a ridge of hardwood that spans across the front of the knuckles, dramatically increasing an individual’s punching ability. Though brass knuckles are more popular, non-metallic knucklebones are useful since they can’t be Pushed, Pulled, or detected by Allomancy. Some knucklebones are crafted from bone or ivory instead of wood.",
+                    "type":"Melee",
+                    "props":"1",
+                    "difficulty":"1",
+                    "damage":"+1",
+                    "range":"Touch / Touch"
+                },
+                {
+                    "item":"True Body Weapon (small)",
+                    "desc":"Kandra who use artificial bones called true bodies sometimes incorporate weapons so they are armed at all times. Most kandra consider this practice in conflict with serving Harmony in his Preservation aspect, but some add these true body weapons as a measure of last resort or as a tool to be used when Harmony’s ends require a fight. \n\n True body weapons are made of the same material as the true body and are usually housed in the kandra’s forearm. Small true body weapons like spiked knuckles can be used simply by parting the flesh around the weapon; larger versions like maces and swords are accessed by temporarily removing the hand. Styles and sizes vary, though most kandra prefer flanged clubs (like a mace) to bladed weapons. \n\n Only kandra can gain a true body weapon as a Prop, and then only if they also have a True Body (see page 82). A kandra with the Custom True Body Stunt gains free Props that can also be spent to choose true body weapons (see page 28). Small true body weapons are always available to the kandra, much like the natural claws or teeth of an animal; equipping large true body weapons, however, requires the kandra’s entire action in a Conflict Round or a minute out of combat, as the kandra must first remove a hand to do so.",
+                    "type":"Melee",
+                    "props":"1",
+                    "difficulty":"3",
+                    "damage":"+2",
+                    "range":"Touch / Touch",
+                    "note":"True body weapons can’t be purchased, and can be chosen by Props only by kandra."
+                },
+                {
+                    "item":"True Body Weapon (large)",
+                    "desc":"Kandra who use artificial bones called true bodies sometimes incorporate weapons so they are armed at all times. Most kandra consider this practice in conflict with serving Harmony in his Preservation aspect, but some add these true body weapons as a measure of last resort or as a tool to be used when Harmony’s ends require a fight. \n\n True body weapons are made of the same material as the true body and are usually housed in the kandra’s forearm. Small true body weapons like spiked knuckles can be used simply by parting the flesh around the weapon; larger versions like maces and swords are accessed by temporarily removing the hand. Styles and sizes vary, though most kandra prefer flanged clubs (like a mace) to bladed weapons. \n\n Only kandra can gain a true body weapon as a Prop, and then only if they also have a True Body (see page 82). A kandra with the Custom True Body Stunt gains free Props that can also be spent to choose true body weapons (see page 28). Small true body weapons are always available to the kandra, much like the natural claws or teeth of an animal; equipping large true body weapons, however, requires the kandra’s entire action in a Conflict Round or a minute out of combat, as the kandra must first remove a hand to do so.",
+                    "type":"Melee",
+                    "props":"1",
+                    "difficulty":"4",
+                    "damage":"+3",
+                    "range":"Touch / Striking",
+                    "note":"True body weapons can’t be purchased, and can be chosen by Props only by kandra."
+                },
+                {
+                    "item":"Delibitation Syringe",
+                    "desc":"A colorful name for a brutal tool, a set of knucklebones is a one-piece weapon similar to brass knuckles (see the Alloy of Law Campaign Setting & Game Supplement, page 123). They consist of a ridge of hardwood that spans across the front of the knuckles, dramatically increasing an individual’s punching ability. Though brass knuckles are more popular, non-metallic knucklebones are useful since they can’t be Pushed, Pulled, or detected by Allomancy. Some knucklebones are crafted from bone or ivory instead of wood.",
+                    "type":"Melee",
+                    "props":"2",
+                    "difficulty":"4",
+                    "damage":"+0",
+                    "range":"Touch / Touch",
+                    "note":"*A debilitation syringe may only be purchased from kandra or chosen as a Prop by kandra."
+                },
+                {
+                    "item":"Dueling Cane",
+                    "desc":"Dueling canes remain as common an armament as they were in the Lord Ruler’s day, but they’re no longer the purveyance of the nobility alone. Lower cost and a preponderance of craftsmen have greatly increased the availability of canes, and it’s not uncommon to see them in the hands of street ruffians, shopkeepers, and constables.",
+                    "type":"Melee",
+                    "props":"1",
+                    "difficulty":"1",
+                    "damage":"+2",
+                    "range":"Touch / Striking"
+                },
+                {
+                    "item":"Koloss Blades",
+                    "desc":"A modern take on the sidearms of a simpler time, this thin cutting blade has replaced the dueling cane as a powerful statement of the wielder’s wealth and status.",
+                    "type":"Melee",
+                    "props":"2",
+                    "difficulty":"4",
+                    "note":"Only koloss-blooded and koloss can take koloss weapons as Props.",
+                    "damage":"+4",
+                    "range":"Striking / Striking"
+                },
+                {
+                    "item":"Koloss Cleavers",
+                    "desc":"A modern take on the sidearms of a simpler time, this thin cutting blade has replaced the dueling cane as a powerful statement of the wielder’s wealth and status.",
+                    "type":"Melee",
+                    "props":"1",
+                    "difficulty":"3",
+                    "note":"Only koloss-blooded and koloss can take koloss weapons as Props.",
+                    "damage":"+3",
+                    "range":"Striking / Striking"
+                },
+                {
+                    "item":"Brass knuckles",
+                    "desc":"An easily-concealed weapon for those who love fisticuffs; can be made of different metals to serve as a small metalmind (25).",
+                    "type":"Melee",
+                    "props":"1",
+                    "difficulty":"1",
+                    "damage":"+2",
+                    "range":"Touch / Touch"
+                },
+                {
+                    "item":"Club or Staff",
+                    "desc":"A simple weapon used in desperation; contains no metal",
+                    "type":"Melee",
+                    "props":"1",
+                    "difficulty":"1",
+                    "damage":"+1",
+                    "range":"Touch / Striking"
+                },
+                {
+                    "item":"Hammer",
+                    "desc":"A working man’s hammer",
+                    "type":"Melee",
+                    "props":"2",
+                    "difficulty":"3",
+                    "damage":"+3",
+                    "range":"Touch / Striking"
+                },
+                {
+                    "item":"Hunting Knife",
+                    "desc":"An extremely large steel knife",
+                    "type":"Melee",
+                    "props":"1",
+                    "difficulty":"2",
+                    "damage":"+2",
+                    "range":"Touch / Striking",
+                    "thrown":"Striking / Close"
+                },
+                {
+                    "item":"Obsidian Hatchet",
+                    "desc":"Obsidian knives remain popular weapons thanks to their low cost and utility in fighting Allomancers. New manufacturing techniques have introduced a greater diversity of styles, which include dueling swords, scimitars, cavalry sabers, and even hatchets.",
+                    "type":"Melee",
+                    "props":"1",
+                    "difficulty":"2",
+                    "damage":"+1",
+                    "range":"Touch / Striking",
+                    "thrown":"Striking / Close"
+                },
+                {
+                    "item":"Obsidian Knife",
+                    "desc":"Obsidian knives remain popular weapons thanks to their low cost and utility in fighting Allomancers. New manufacturing techniques have introduced a greater diversity of styles, which include dueling swords, scimitars, cavalry sabers, and even hatchets.",
+                    "type":"Melee",
+                    "props":"1",
+                    "difficulty":"2",
+                    "damage":"+1",
+                    "range":"Touch / Touch",
+                    "thrown":"Striking / Close"
+                },
+                {
+                    "item":"Obsidian Spear",
+                    "desc":"Obsidian knives remain popular weapons thanks to their low cost and utility in fighting Allomancers. New manufacturing techniques have introduced a greater diversity of styles, which include dueling swords, scimitars, cavalry sabers, and even hatchets.",
+                    "type":"Melee",
+                    "props":"1",
+                    "difficulty":"3",
+                    "damage":"+2",
+                    "range":"Touch / Striking",
+                    "thrown":"Close / Medium"
+                }
+            ]
+        },
+        {
+            "propType": "Ranged Weapons",
+            "props":[
+                {
+                    "item":"Bow and obsidian arrows",
+                    "desc":"Effective ranged weapon against Allomancers; contains no metal",
+                    "type":"Ranged",
+                    "props":"2",
+                    "difficulty":"3",
+                    "damage":"+2",
+                    "range":"Close / Long"
+                },
+                {
+                    "item":"Crossbow and obsidian arrows",
+                    "desc":"Crossbows are an elegant fusion of older ranged weapons and modern firearms. Weapons designers have created repeater crossbows that hold multiple shots, as well as compound crossbows with great range and effectiveness. Like the standard bows, they often use components that metalborn can’t affect with Allomancy, and their silence means that shooters can often take their quarry by surprise.",
+                    "type":"Ranged",
+                    "props":"2",
+                    "difficulty":"4",
+                    "damage":"+2",
+                    "range":"Close / Extreme"
+                },
+                {
+                    "item":"Crossbow and obsidian arrows",
+                    "desc":"Crossbows are an elegant fusion of older ranged weapons and modern firearms. Weapons designers have created repeater crossbows that hold multiple shots, as well as compound crossbows with great range and effectiveness. Like the standard bows, they often use components that metalborn can’t affect with Allomancy, and their silence means that shooters can often take their quarry by surprise.",
+                    "type":"Ranged",
+                    "props":"2",
+                    "difficulty":"4",
+                    "damage":"+2",
+                    "range":"Close / Extreme"
+                },
+                {
+                    "item":"Dynamite (1 thrown stick)",
+                    "desc":"Encompassing all sorts of hand-held explosives, sticks of dynamite are popular amongst miners and Roughs bandits. Unlike most other weapons, dynamite inflicts explosive damage (see “Explosions and Explosive Damage”).",
+                    "type":"Ranged",
+                    "props":"1",
+                    "difficulty":"1",
+                    "damage":"5/2",
+                    "note":"Explosives & Explosive Damage \n The new technologies available to people during The Alloy of Law era have also introduced new types of damage — one of the most noteworthy is explosive damage. The most common source of explosions is dynamite, which is used for mining and as an improvised weapon, but other events such as bombs, gunpowder accidents, and exploding train boilers all present danger to those nearby. \n\n Explosions are unlike other attacks in two ways. First, the amount of damage dealt by an explosion is set, based on how close a character is to the center of the explosion (or the target of the explosive attack). Explosive damage is expressed as 2 values: an explosion’s primary damage is the amount of damage characters closer to the center suffer, while its secondary damage is the amount suffered by characters further away. Each number is followed by a note indicating at what Range from the target the primary and secondary damage are inflicted. \n\n Characters caught in the area of an explosion may attempt to escape damage by making a Physique roll, reducing the damage suffered by the Result, to a minimum of 0 (e.g., a Result of 3 on the Physique roll reduces the damage suffered by 3). During a Conflict, this roll is considered a Reaction and used in place of the normal Defense roll (you may add Action or Defense Dice to this pool if you’d like, though you may not roll more than 10 dice, as usual). The following are several common types of explosions:",
+                    "table":[
+                        {
+                            "one":"Explosive or Event",
+                            "two":"Primary Damage",
+                            "three":"Secondary Damage"
+                        },
+                        {
+                            "one":"Box of Dynamite / Barrel of Gunpowder",
+                            "two":"7 (Close)",
+                            "three":"3 (Medium)"
+                        },
+                        {
+                            "one":"Dynamite (stick)",
+                            "two":"5 (Striking)",
+                            "three":"2 (Close)"
+                        },
+                        {
+                            "one":"Horseless carriage boiler",
+                            "two":"5 (Close)",
+                            "three":"3 (Medium)"
+                        },
+                        {
+                            "one":"Locomotive boiler",
+                            "two":"8 (Close)",
+                            "three":"6 (Medium)"
+                        }
+                    ],
+                    "range":"Close / Extreme"
+                },
+                {
+                    "item":"Lasso",
+                    "desc":"Frontier folk sometimes use cattle lassoes as a form of non-lethal ranged weapon. If the attacker hits with this weapon, he or she may immediately try to Disarm or Grapple the target, just as if the target were in physical reach (see the Mistborn Adventure Game, page 201).",
+                    "type":"Ranged",
+                    "props":"1",
+                    "difficulty":"1",
+                    "damage":"-",
+                    "range":"Striking / Medium"
+                },
+                {
+                    "item":"Hand-Crossbow",
+                    "desc":"Similar to a crossbow, a hand-crossbow is designed to hold a single bolt, but is compact and can be held and shot with one hand. A hand-crossbow typically has a ceramic mechanism for releasing the string. Likewise, a crossbow bolt has a wooden shaft and a sharp ceramic head. In places where new bolts aren’t readily available (such as the Roughs), crossbow owners often use obsidian-tipped bolts.",
+                    "type":"Ranged",
+                    "props":"1",
+                    "difficulty":"1",
+                    "damage":"+1",
+                    "capacity":"1 shot",
+                    "range":"Close / Medium"
+                },
+                {
+                    "item":"Repeating Crossbow",
+                    "desc":"This variation on the crossbow comes with a wooden drum that can be loaded with up to 6 bolts. The user can pump a slide on the crossbow to rotate the drum and reset the string, swiftly reloading the weapon. This allows it to be fired multiple times in a row without reloading, similar to firing a revolver.",
+                    "type":"Ranged",
+                    "props":"3",
+                    "difficulty":"3",
+                    "damage":"+1",
+                    "capacity":"6 shots",
+                    "range":"Close / Medium"
+                }
+            ]
+        },
+        {
+            "propType": "Armor",
+            "props":[
+                {   
+                    "item": "Bulletproof vest",
+                    "desc": "Wearer is immune to the effects of Brass and Zinc Allomancy",
+                    "type":"Armor",
+                    "props":"1",
+                    "difficulty":"3"
+                },
+                {   
+                    "item": "Leather duster",
+                    "desc": "Wearer is immune to the effects of Brass and Zinc Allomancy",
+                    "type":"Armor",
+                    "props":"1",
+                    "difficulty":"3"
+                },
+                {   
+                    "item": "Lurcher Plate",
+                    "desc": "Various companies have designed bulletproof vests, usually consisting of metal plates worn beneath regular clothing; though bulky and uncomfortable, they prove effective at stopping (or at least blunting the impact of) low caliber rounds. Lurchers, in particular, often use bulletproof vests to help stop bullets, which they simply Pull toward their center mass.",
+                    "type":"Armor",
+                    "props":"2",
+                    "difficulty":"4"
+                },
+                {   
+                    "item": "Mistcoat",
+                    "desc": "A symbol of Allomancers and Twinborn; absorbs 1 damage from physical attacks; also counts as a Tool for hiding in the mists",
+                    "type":"Armor",
+                    "props":"1",
+                    "difficulty":"3"
+                }
+            ]
+        },
+        {
+            "propType": "Shields",
+            "props":[
+                {   
+                    "item": "Small wooden shield",
+                    "desc": "Sturdy hand-held shield used by Allomancers and koloss; contains no metal; adds 1 die to defense rolls against physical attacks.",
+                    "type":"Shields",
+                    "props":"1",
+                    "difficulty":"3"
+                },
+                {   
+                    "item": "Large metal shield",
+                    "desc": "Used by strike-busters and constables; adds 2 dice to defense rolls against physical attack",
+                    "type":"Shields",
+                    "props":"2",
+                    "difficulty":"2"
+                },
+                {   
+                    "item": "Small wooden shield",
+                    "desc": "Sturdy hand-held shield used by Allomancers and koloss; contains no metal; adds 1 die to defense rolls against physical attacks.",
+                    "type":"Shields",
+                    "props":"2",
+                    "difficulty":"3"
+                }
+            ]
+        },
+        {
+            "propType": "Animals, Mounts, & Vehicles",
+            "props":[
+                {   
+                    "item": "Pet or small working animal",
+                    "desc": "Cats, bloodhounds, and similar animals",
+                    "type":"Animals, Mounts, & Vehicles",
+                    "props":"1",
+                    "difficulty":"1"
+                },
+                {   
+                    "item": "Cart or wagon",
+                    "desc": "Two-wheeled cart used to haul passengers or cargo",
+                    "type":"Animals, Mounts, & Vehicles",
+                    "props":"1",
+                    "difficulty":"1"
+                },
+                {   
+                    "item": "Horse",
+                    "desc": "The common mode of transport in the Roughs, and a luxury in the city",
+                    "type":"Animals, Mounts, & Vehicles",
+                    "props":"1",
+                    "difficulty":"2"
+                },
+                {   
+                    "item": "Horse & carriage or wagon",
+                    "desc": "An enclosed four-person vehicle used everywhere",
+                    "type":"Animals, Mounts, & Vehicles",
+                    "props":"2",
+                    "difficulty":"3"
+                },
+                {   
+                    "item": "Horseless carriage",
+                    "desc": "A state-of-the-art mechanical conveyance powered by gasoline; carries up to 3 passengers plus driver. \n\n A precursor to the automobile of our world, the horseless carriage represents the future of personal transport in Scadrial. Unlike the locomotive, the horseless carriage uses an internal combustion engine to move about. As a younger technology, however, these engines require frequent maintenance and are quite expensive, making them a bit rarer and substantially less popular in the Roughs. Well-known types include the first commercial model, the Briggs Harmony, and the reliable, elegant, brass-and-steel Tekiel Zephyr.",
+                    "type":"Animals, Mounts, & Vehicles",
+                    "props":"2",
+                    "difficulty":"4",
+                    "note":"This equipment is even harder to find in the Roughs, where the Difficulty to buy it increases by 1."
+                },
+                {   
+                    "item": "Pack animal",
+                    "desc": "Rugged donkey, mule, or goat suited to moving supplies",
+                    "type":"Animals, Mounts, & Vehicles",
+                    "props":"1",
+                    "difficulty":"1"
+                },
+                {   
+                    "item": "Rail pass",
+                    "desc": "Railway lines are arterial forms of travel and commerce in the Elendel Basin, and the fastest, most direct form of transit available to everybody. The Difficulty listed is for a second-class ticket; if the Heroes wish to travel in style or get a private cabin, increase the Difficulty by 1.",
+                    "type":"Animals, Mounts, & Vehicles",
+                    "props":"1",
+                    "difficulty":"1"
+                },
+                {   
+                    "item": "Barge",
+                    "desc": "Common commercial transport; may carry fifty men or five tons of cargo",
+                    "type":"Animals, Mounts, & Vehicles",
+                    "props":"N/A",
+                    "difficulty":"4"
+                },
+                {   
+                    "item": "Locomotive",
+                    "desc": "Powerful steam-engine and 3 cars; may carry 150 men or 20 tons of cargo",
+                    "type":"Animals, Mounts, & Vehicles",
+                    "props":"N/A",
+                    "difficulty":"5",
+                    "note":"This equipment is even harder to find in the Roughs, where the Difficulty to buy it increases by 1."
+                },
+                {   
+                    "item": "Malwish Airship",
+                    "desc": "Made of wood and shaped somewhat like boats with flat bottoms, airships allow the Malwish to travel and conquer by air. Malwish airships contain sufficient metal that they can be propelled through the air with Steelpushes. For long-term flight, cores of a metallic fuel called ettmetall simulate further Steelpushes. A Malwish airship moves at roughly the speed of a train, though some are faster than others, and one being pushed by a Coinshot might move faster.",
+                    "type":"Animals, Mounts, & Vehicles",
+                    "props":"N/A",
+                    "difficulty":"5",
+                    "note":" The Difficulty of purchasing or building these items outside Malwish lands increases by 1."
+                }
+            ]
+        },
+        {
+            "propType": "Tools",
+            "props":[
+                {   
+                    "item": "Aluminum-laced clothing",
+                    "desc": "Shirts, vests, cloaks, and other pieces of clothing laced with aluminum perform the same masking function that aluminum-laced hats do. Items hidden under them are rendered immune from Allomantic detection, allowing the wearer to take a Misting by surprise.",
+                    "type":"Tools",
+                    "props":"2",
+                    "difficulty":"3"
+                },
+                {   
+                    "item": "Aluminum-laced hat",
+                    "desc": "Rioters and Soothers possess the Allomantic ability to influence other people’s emotions. Hats and other headwear laced with aluminum render those Powers impotent. Anyone wearing an aluminum-laced head covering can’t be influenced by either Brass or Zinc Allomancy.",
+                    "type":"Tools",
+                    "props":"2",
+                    "difficulty":"3"
+                },
+                {   
+                    "item": "Primer box",
+                    "desc": "When exposed to active Allomancy, this device buzzes. Soon after, it can be thrown or moved, and after a few seconds begins to replicate the power it was exposed to. This can be used to power Malwish airships if charged with a Steelpush. \n\n If used in a conflict, an Allomancer can utilize the primer box while burning a metal and throw the device anywhere in Close range. On the next Conflict Round, the primer box triggers, repeating the power from its location, using the activating Allomancer’s Power Rating and the normal range for the Allomantic power. None of the Allomancer’s Stunts apply when the primer box triggers. Any Power that uses the Allomancer’s senses or attributes doesn’t transfer that information to the Allomancer. For example, using Iron would Pull, but using the primer box’s weight instead of the Allomancer’s, and it wouldn’t show the Allomancer blue lines leading to metal nearby. Likewise, using Tin with a primer box wouldn’t do the Allomancer any good. If it’s unclear whether a Power would work properly through a primer box, the Narrator makes the call.",
+                    "type":"Tools",
+                    "props":"3",
+                    "difficulty":"3"
+                },
+                {   
+                    "item": "Airship toolbox",
+                    "desc": "Making repairs to a Malwish airship requires specialized tools suitable for fixing delicate navigational instruments, harnessing yourself into a moving ship, and working with ettmetall, among other essential tasks.",
+                    "type":"Tools",
+                    "props":"1",
+                    "difficulty":"1"
+                },
+                {   
+                    "item": "Survivorist Robes",
+                    "desc": "These highly stylized robes are common among the more pious — some might say zealous — members of the Survivorist faith. In the first days after the rebirth of the world, many chose to wear garments similar to those once worn by the Survivor: a robe known as a mistcloak. Over the years the design has changed to become more practical and more symbolic of the Survivor’s life and activities. The robes are shawl-like, draping across the shoulder and hanging down in strips much like the original mistcloaks, and have extensive stitching on the sleeves to evoke a pattern of scars.",
+                    "type":"Tools",
+                    "props":"1",
+                    "difficulty":"1"
+                },
+                {   
+                    "item": "Tinningdar",
+                    "desc": "These garments are a traditional outgrowth of the Terris culture, commonplace in any Terris enclave but also popular among some socialite circles during certain times of the year. A traditional tinningdar is a flowing robe made of overlapping “V” shapes in alternating colors. Most Terrisfolk use them to represent familial lines or otherwise relate to lineage, but fashionistas who have appropriated them use the format to create a brilliant array of color and pattern.",
+                    "type":"Tools",
+                    "props":"1",
+                    "difficulty":"1"
+                },
+                {   
+                    "item": "Aluminum ingot",
+                    "desc": "Contains enough aluminum to manufacture 1 rifle or shotgun; 2 pistols; or 20 aluminum rounds",
+                    "type":"Tools",
+                    "props":"1",
+                    "difficulty":"3",
+                    "note":"This equipment is even harder to find in the Roughs, where the Difficulty to buy it increases by 1."
+                },
+                {   
+                    "item": "Soonie Pup",
+                    "desc": "Currently one of the most popular children’s toys in the world, the Soonie pup is a stuffed toy dog that virtually all children except the very poorest have at some point during their childhood. The name heralds back to the kandra TenSoon, a figure of myth and legend from the time before the rebirth of the world, alleged to have served as the Guardian of the Ascendant Warrior. Soonie pups vary wildly in color and pattern, but the essential wolfhound shape is largely the same.",
+                    "type":"Tools",
+                    "props":"1",
+                    "difficulty":"1"
+                },
+                {   
+                    "item": "Bottle of wine/rotgut",
+                    "desc": "Popular with roughnecks and bon vivants from all walks of life",
+                    "type":"Tools",
+                    "props":"1",
+                    "difficulty":"1"
+                },
+                {   
+                    "item": "Coinshot or Lurcher lock",
+                    "desc": "Much like the gun safeties of the same name, Coinshot and Lurcher locks are sophisticated puzzles that can only be opened by succeeding on a Difficulty 3 roll using the appropriate form of Allomancy (Steel 3 for Coinshot locks, or Iron 3 for Lurcher locks). Designate which type of lock this is when the lock is purchased or chosen as a Prop.",
+                    "type":"Tools",
+                    "props":"1",
+                    "difficulty":"3",
+                    "note":"This equipment is even harder to find in the Roughs, where the Difficulty to buy it increases by 1."
+                },
+                {   
+                    "item": "Craftsman’s tools",
+                    "desc": "Supports one occupation (e.g., carpentry, metallurgy, etc.)",
+                    "type":"Tools",
+                    "props":"1",
+                    "difficulty":"1"
+                },
+                {   
+                    "item": "Deck of cards",
+                    "desc": "A gambler’s best friend and useful tool for cheating",
+                    "type":"Tools",
+                    "props":"1",
+                    "difficulty":"1"
+                },
+                {   
+                    "item": "Disguise",
+                    "desc": "Helpful when concealing or impersonating one person’s identity",
+                    "type":"Tools",
+                    "props":"1",
+                    "difficulty":"2"
+                },
+                {   
+                    "item": "Formal clothing or jewelry",
+                    "desc": "Useful when blending into high society events like formal dances and gatherings",
+                    "type":"Tools",
+                    "props":"1",
+                    "difficulty":"2"
+                },
+                {   
+                    "item": "Glider coat",
+                    "desc": "The glider coat looks like a normal duster, but conceals a special feature; with a sharp tug, the sides of the coat expand into makeshift glider wings, which can be connected to the coat’s cuffs and secured to the legs. Flying Coinshots and Lurchers can use these coats to help guide their trajectory and stay aloft longer, affording them what is essentially limited flight. Glider coats are even more popular with Skimmer Ferrings, who can simply store weight in their ironminds and flap their arms to fly like a bird. The only reason glider coats haven’t caught on with more folk is their cost and their need to be specifically tailored to their owners.",
+                    "type":"Tools",
+                    "props":"2",
+                    "difficulty":"4",
+                    "note":"This equipment is even harder to find in the Roughs, where the Difficulty to buy it increases by 1."
+                },
+                {   
+                    "item": "Gunsmith’s workshop",
+                    "desc": "This fully-stocked, immobile location provides a gunsmith with all the tools he or she needs (bellows and coke oven, forge, machining equipment, etc.) to create firearms. In game terms, a gunsmith’s workshop works like any other Tool, but is required for using many gunsmithing Stunts (see page 138).",
+                    "type":"Tools",
+                    "props":"1",
+                    "difficulty":"4"
+                },
+                {   
+                    "item": "Holy book or symbol",
+                    "desc": "Sign of one’s commitment to a faith, such as a Survivorist spear or Pathist earring",
+                    "type":"Tools",
+                    "props":"1",
+                    "difficulty":"1"
+                },
+                {   
+                    "item": "Hunter's Traps",
+                    "desc": "Snares and other traps useful for catching small game",
+                    "type":"Tools",
+                    "props":"1",
+                    "difficulty":"2"
+                },
+                {   
+                    "item": "Lockpicks",
+                    "desc": "Useful when picking locks",
+                    "type":"Tools",
+                    "props":"1",
+                    "difficulty":"2"
+                },
+                {   
+                    "item": "Medical supplies",
+                    "desc": "Useful for treating wounds and during certain mental conflicts ",
+                    "type":"Tools",
+                    "props":"1",
+                    "difficulty":"1"
+                },
+                {   
+                    "item": "Pen and blank book",
+                    "desc": "Vital tools for a novelist or journalist",
+                    "type":"Tools",
+                    "props":"1",
+                    "difficulty":"1"
+                },
+                {   
+                    "item": "Pewterarm lock",
+                    "desc": "Pewterarm locks have a reinforced mechanism requiring great strength to use. Even with the key, you must be a Pewterarm or Brute Feruchemist to operate the lock. The locks are often tailored to different levels of ability, with varying degrees of strength to the lock.",
+                    "type":"Tools",
+                    "props":"1",
+                    "difficulty":"3",
+                    "note":"This equipment is even harder to find in the Roughs, where the Difficulty to buy it increases by 1."
+                },
+                {   
+                    "item": "Pen and blank book",
+                    "desc": "Vital tools for a novelist or journalist",
+                    "type":"Tools",
+                    "props":"1",
+                    "difficulty":"1"
+                },
+                {   
+                    "item": "Photographic equipment",
+                    "desc": "This gear includes not only a bulky camera, tripod, and flashlamp, but also photographic plates and the chemicals necessary to develop them. Many photographers are entrepreneurs in the Roughs, selling photos to families; lawkeepers sometimes make use of them to record vital pieces of evidence and mug shots.",
+                    "type":"Tools",
+                    "props":"1",
+                    "difficulty":"1"
+                },
+                {   
+                    "item": "Pocketwatch",
+                    "desc": "A small timepiece that keeps good time",
+                    "type":"Tools",
+                    "props":"1",
+                    "difficulty":"1"
+                },
+                {   
+                    "item": "Prospector’s gear",
+                    "desc": "Picks, pans, and other gear useful for mining and dredging up metals",
+                    "type":"Tools",
+                    "props":"1",
+                    "difficulty":"1"
+                },
+                {   
+                    "item": "Rope and grapple",
+                    "desc": "Helpful when climbing, crossing gaps, or binding someone",
+                    "type":"Tools",
+                    "props":"1",
+                    "difficulty":"1"
+                },
+                {   
+                    "item": "Snake oil",
+                    "desc": "A convincing-looking “miracle cure” or tonic useful for putting one over on the rubes.",
+                    "type":"Tools",
+                    "props":"1",
+                    "difficulty":"1"
+                },
+                {   
+                    "item": "Sound Dampeners",
+                    "desc": "This large metallic tube is fitted onto the end of a rifle to eliminate its sound and hide the shooter’s location. They’re bulky and quite heavy, but popular with assassins and other professional criminals. This Tool can only be used when a shooter’s trying to conceal a gunshot.",
+                    "type":"Tools",
+                    "props":"2",
+                    "difficulty":"3",
+                    "note":"This equipment is even harder to find in the Roughs, where the Difficulty to buy it increases by 1."
+                },
+                {   
+                    "item": "Survival gear",
+                    "desc": " Backpack, compass, maps, and appropriate clothing for explorers and guides",
+                    "type":"Tools",
+                    "props":"1",
+                    "difficulty":"2"
+                }
+            ]
+        },
+        {
+            "propType": "Implements",
+            "props":[
+                {   
+                    "item": "Bones (1 set)",
+                    "desc": "Allows kandra to imitate 1 specific person or animal",
+                    "type":"Implements",
+                    "props":"1",
+                    "difficulty":"3"
+                },
+                {   
+                    "item": "Aluminum True Body",
+                    "desc": "A specially crafted skeleton made exclusively for kandra, a true body represents the individual kandra’s unique tastes and personality. True bodies can be created from various substances, usually wood, stone, or crystal. They can be made of metal, though they seldom are since it can be detected by Allomancy. Rarely, a wealthy kandra could have a true body made of Aluminum. \n\n Only kandra can gain a true body as a Prop. A kandra with the Custom True Body Stunt gains free Props that can also be spent to choose a true body and true body weapons (see page 79). \n\n An expensive, handcrafted skeleton made of aluminum; absorbs 2 damage from physical attacks; cannot be detected or affected by Allomancy.",
+                    "type":"Implements",
+                    "props":"3",
+                    "difficulty":"-"
+                },
+                {   
+                    "item": "Metal/Stone True Body",
+                    "desc": "A specially crafted skeleton made exclusively for kandra, a true body represents the individual kandra’s unique tastes and personality. True bodies can be created from various substances, usually wood, stone, or crystal. They can be made of metal, though they seldom are since it can be detected by Allomancy. Rarely, a wealthy kandra could have a true body made of Aluminum. \n\n Only kandra can gain a true body as a Prop. A kandra with the Custom True Body Stunt gains free Props that can also be spent to choose a true body and true body weapons (see page 79). \n\n A handcrafted skeleton made of tin, steel, or exotic stone; absorbs 2 damage from physical attacks.",
+                    "type":"Implements",
+                    "props":"2",
+                    "difficulty":"-"
+                },
+                {   
+                    "item": "Wooden True Body",
+                    "desc": "A specially crafted skeleton made exclusively for kandra, a true body represents the individual kandra’s unique tastes and personality. True bodies can be created from various substances, usually wood, stone, or crystal. They can be made of metal, though they seldom are since it can be detected by Allomancy. Rarely, a wealthy kandra could have a true body made of Aluminum. \n\n Only kandra can gain a true body as a Prop. A kandra with the Custom True Body Stunt gains free Props that can also be spent to choose a true body and true body weapons (see page 79). \n\n A handcrafted skeleton made of wood; absorbs 1 damage from physical attacks; contains no metal.",
+                    "type":"Implements",
+                    "props":"1",
+                    "difficulty":"-"
+                },
+                {   
+                    "item": "Brass and Iron universal metalmind",
+                    "desc": "These coin-shaped medallions are created from four different metals, dividing the face of the amulet into concentric rings. They let the wearer tap an attribute already stored in the metalmind and to store an attribute in an empty metalmind. The most common universal metalmind allows tapping heat and storing weight. Two common types of metalmind are detailed in the table, but the Narrator might introduce other types using the guidelines for other universal metalminds. Rarely, a universal metalmind can contain three metals, but never more. A person can benefit from only one universal metalmind at a time. Even a Ferring, Misting, or Twinborn can benefit from a universal metalmind. The structure of universal metalminds is described in full on page 34. \n\n Grants Brass Feruchemy 3 and Iron Feruchemy 3; contains 25 charges of warmth and an empty 25-charge Ironmind.",
+                    "type":"Implements",
+                    "props":"1",
+                    "difficulty":"2",
+                    "note":"The Difficulty of purchasing or building these items outside Malwish lands increases by 1."
+                },
+                {   
+                    "item": "Brass and Duralumin universal metalmind",
+                    "desc": "These coin-shaped medallions are created from four different metals, dividing the face of the amulet into concentric rings. They let the wearer tap an attribute already stored in the metalmind and to store an attribute in an empty metalmind. The most common universal metalmind allows tapping heat and storing weight. Two common types of metalmind are detailed in the table, but the Narrator might introduce other types using the guidelines for other universal metalminds. Rarely, a universal metalmind can contain three metals, but never more. A person can benefit from only one universal metalmind at a time. Even a Ferring, Misting, or Twinborn can benefit from a universal metalmind. The structure of universal metalminds is described in full on page 34. \n\n Grants Brass Feruchemy 3 and Duralumin Feruchemy 3; contains 25 charges of warmth and an empty 25-charge Duraluminmind; while storing connection, wearer can understand languages native to the land he’s in.",
+                    "type":"Implements",
+                    "props":"1",
+                    "difficulty":"2",
+                    "note":"The Difficulty of purchasing or building these items outside Malwish lands increases by 1."
+                },
+                {   
+                    "item": "Duralumin and Iron universal metalmind",
+                    "desc": "These coin-shaped medallions are created from four different metals, dividing the face of the amulet into concentric rings. They let the wearer tap an attribute already stored in the metalmind and to store an attribute in an empty metalmind. The most common universal metalmind allows tapping heat and storing weight. Two common types of metalmind are detailed in the table, but the Narrator might introduce other types using the guidelines for other universal metalminds. Rarely, a universal metalmind can contain three metals, but never more. A person can benefit from only one universal metalmind at a time. Even a Ferring, Misting, or Twinborn can benefit from a universal metalmind. The structure of universal metalminds is described in full on page 34. \n\n Grants Duralumin Feruchemy 3 and Iron Feruchemy 3; contains an empty 25-charge Duraluminmind and an empty 25-charge Ironmind; while storing connection, wearer can understand languages native to the land he’s in.",
+                    "type":"Implements",
+                    "props":"1",
+                    "difficulty":"2",
+                    "note":"The Difficulty of purchasing or building these items outside Malwish lands increases by 1."
+                },
+                {   
+                    "item": "Universal metalmind (2 metals)",
+                    "desc": "These coin-shaped medallions are created from four different metals, dividing the face of the amulet into concentric rings. They let the wearer tap an attribute already stored in the metalmind and to store an attribute in an empty metalmind. The most common universal metalmind allows tapping heat and storing weight. Two common types of metalmind are detailed in the table, but the Narrator might introduce other types using the guidelines for other universal metalminds. Rarely, a universal metalmind can contain three metals, but never more. A person can benefit from only one universal metalmind at a time. Even a Ferring, Misting, or Twinborn can benefit from a universal metalmind. The structure of universal metalminds is described in full on page 34. \n\n Grants two types of Feruchemy 3; contains two 25-charge metalminds, defined as fully-charged or empty when purchased.",
+                    "type":"Implements",
+                    "props":"1",
+                    "difficulty":"2",
+                    "note":"Universal metalminds can only be purchased in Malwish lands, and only Malwish characters can take them as Props."
+                },
+                {   
+                    "item": "Universal metalmind (3 metals)",
+                    "desc": "These coin-shaped medallions are created from four different metals, dividing the face of the amulet into concentric rings. They let the wearer tap an attribute already stored in the metalmind and to store an attribute in an empty metalmind. The most common universal metalmind allows tapping heat and storing weight. Two common types of metalmind are detailed in the table, but the Narrator might introduce other types using the guidelines for other universal metalminds. Rarely, a universal metalmind can contain three metals, but never more. A person can benefit from only one universal metalmind at a time. Even a Ferring, Misting, or Twinborn can benefit from a universal metalmind. The structure of universal metalminds is described in full on page 34. \n\n Grants three types of Feruchemy 3; contains three 25-charge metalminds, defined as fully-charged or empty when purchased.",
+                    "type":"Implements",
+                    "props":"1",
+                    "difficulty":"2",
+                    "note":"Universal metalminds can only be purchased in Malwish lands, and only Malwish characters can take them as Props."
+                },
+                {   
+                    "item": "Copper clips, horse-shoes, or iron bars",
+                    "desc": "Metal objects used by Coinshots for Steeljumping or as weapons",
+                    "type":"Implements",
+                    "props":"1",
+                    "difficulty":"1"
+                },
+                {   
+                    "item": "Metalminds (3, average)",
+                    "desc": "The vast increase in the number of Feruchemists during The Alloy of Law era has increased the availability and diversity of metalminds available to them. Now, metalminds of all sizes and levels of quality — from cheap stamped-metalminds available in Roughs general stores to high-fashion jewelry metalminds — can be found nearly anywhere. \n\n Each metalmind allows a Feruchemist (only) to store in and tap from one metal; each single metalmind item consists of three physical metalminds of the Feruchemist’s choice, each holding 100 charges.",
+                    "type":"Implements",
+                    "props":"1",
+                    "difficulty":"2",
+                    "note":"This equipment is even harder to find in the Roughs, where the Difficulty to buy it increases by 1."
+                },
+                {   
+                    "item": "Metalminds (4, small)",
+                    "desc": "The vast increase in the number of Feruchemists during The Alloy of Law era has increased the availability and diversity of metalminds available to them. Now, metalminds of all sizes and levels of quality — from cheap stamped-metalminds available in Roughs general stores to high-fashion jewelry metalminds — can be found nearly anywhere. \n\n As average metalminds, but includes 4 physical items which each hold 25 charges.",
+                    "type":"Implements",
+                    "props":"1",
+                    "difficulty":"2",
+                    "note":"This equipment is even harder to find in the Roughs, where the Difficulty to buy it increases by 1."
+                },
+                {   
+                    "item": "Metalminds (2, large)",
+                    "desc": "The vast increase in the number of Feruchemists during The Alloy of Law era has increased the availability and diversity of metalminds available to them. Now, metalminds of all sizes and levels of quality — from cheap stamped-metalminds available in Roughs general stores to high-fashion jewelry metalminds — can be found nearly anywhere. \n\n As average metalminds, but includes 2 physical items which each hold 200 charges.",
+                    "type":"Implements",
+                    "props":"1",
+                    "difficulty":"3",
+                    "note":"This equipment is even harder to find in the Roughs, where the Difficulty to buy it increases by 1."
+                },
+                {   
+                    "item": "Metalminds (1, huge)",
+                    "desc": "The vast increase in the number of Feruchemists during The Alloy of Law era has increased the availability and diversity of metalminds available to them. Now, metalminds of all sizes and levels of quality — from cheap stamped-metalminds available in Roughs general stores to high-fashion jewelry metalminds — can be found nearly anywhere. \n\n As average metalminds, but includes 1 physical item which holds 500 charges.",
+                    "type":"Implements",
+                    "props":"1",
+                    "difficulty":"3",
+                    "note":"This equipment is even harder to find in the Roughs, where the Difficulty to buy it increases by 1."
+                },
+                {   
+                    "item": "Doubled Metalmind (small)",
+                    "desc": "This metalmind uses extremely pure metals and braided forging to create a vast Feruchemical reserve in a small size. A doubled metalmind is considered one size larger when determining its storage capacity (see the Mistborn Adventure Game, page 282) — thus, a single earring could store 100 charges, a bracelet or set of rings 200 charges, and one weighing several pounds up to 500 charges! Doubled metalminds are especially appreciated by compounding Twinborn, who can draw on these high-quality implements for much longer than standard metalminds. Unfortunately, such quality is costly, but many Ferrings find it worth the expense.\n\n Small-size metalmind that holds 100 charges of a single metal",
+                    "type":"Implements",
+                    "props":"1",
+                    "difficulty":"3",
+                    "note":"This equipment is even harder to find in the Roughs, where the Difficulty to buy it increases by 1."
+                },
+                {   
+                    "item": "Doubled metalmind (average)",
+                    "desc": "This metalmind uses extremely pure metals and braided forging to create a vast Feruchemical reserve in a small size. A doubled metalmind is considered one size larger when determining its storage capacity (see the Mistborn Adventure Game, page 282) — thus, a single earring could store 100 charges, a bracelet or set of rings 200 charges, and one weighing several pounds up to 500 charges! Doubled metalminds are especially appreciated by compounding Twinborn, who can draw on these high-quality implements for much longer than standard metalminds. Unfortunately, such quality is costly, but many Ferrings find it worth the expense. \n\n Average-size metalmind that holds 200 charges of a single metal",
+                    "type":"Implements",
+                    "props":"1",
+                    "difficulty":"3",
+                    "note":"This equipment is even harder to find in the Roughs, where the Difficulty to buy it increases by 1."
+                },
+                {   
+                    "item": "Doubled metalmind (large)",
+                    "desc": "This metalmind uses extremely pure metals and braided forging to create a vast Feruchemical reserve in a small size. A doubled metalmind is considered one size larger when determining its storage capacity (see the Mistborn Adventure Game, page 282) — thus, a single earring could store 100 charges, a bracelet or set of rings 200 charges, and one weighing several pounds up to 500 charges! Doubled metalminds are especially appreciated by compounding Twinborn, who can draw on these high-quality implements for much longer than standard metalminds. Unfortunately, such quality is costly, but many Ferrings find it worth the expense. \n\n  Large-sized metalmind that holds 500 charges of a single metal",
+                    "type":"Implements",
+                    "props":"2",
+                    "difficulty":"4",
+                    "note":"This equipment is even harder to find in the Roughs, where the Difficulty to buy it increases by 1."
+                },
+                {   
+                    "item": "Ornate metalmind (large)",
+                    "desc": "The vast increase in the number of Feruchemists during The Alloy of Law era has increased the availability and diversity of metalminds available to them. Now, metalminds of all sizes and levels of quality — from cheap stamped-metalminds available in Roughs general stores to high-fashion jewelry metalminds — can be found nearly anywhere. \n\n Fancy average-size metalmind which also counts as a Formal Jewelry tool",
+                    "props":"2",
+                    "difficulty":"4",
+                    "note":"This equipment is even harder to find in the Roughs, where the Difficulty to buy it increases by 1."
+                },
+                {   
+                    "item": "Metalmind clothing",
+                    "desc": "By weaving clothing or shoes with metallic thread, any outfit can be turned into a simple metalmind. This practice is confined mainly to formal clothing but can be added to nearly any sort of clothing the owner wishes. This clothing will only be identified as anything more than fancy dress with close scrutiny; even then the observer must succeed on a Wits 4 Challenge in order to discover it’s a metalmind. The downside of metalmind clothing is its low storage capacity — a mere 25 charges.",
+                    "type":"Implements",
+                    "props":"2",
+                    "difficulty":"2",
+                    "note":"This equipment is even harder to find in the Roughs, where the Difficulty to buy it increases by 1."
+                },
+                {   
+                    "item": "Misting vial/pouch",
+                    "desc": "Contains 3 charges of a single metal",
+                    "type":"Implements",
+                    "props":"1",
+                    "difficulty":"3",
+                    "note":"This equipment is even harder to find in the Roughs, where the Difficulty to buy it increases by 1."
+                },
+                {   
+                    "item": "Twinborn’s kit",
+                    "desc": "This set of a single average-sized metalmind (which holds 100 charges) and a Misting pouch is tailor-made for Twinborn, giving them the tools vital to their Powers in a single item.",
+                    "type":"Implements",
+                    "props":"1",
+                    "difficulty":"3",
+                    "note":"This equipment is even harder to find in the Roughs, where the Difficulty to buy it increases by 1."
+                }
+            ]
+        },
+        {
+            "propType": "Firearms",
+            "props":[
+                {
+                    "id":0,
+                    "item":"Cohnvave Two-Shot",
+                    "desc":"These tiny pistols are designed to fit into a coat sleeve or purse, and be drawn at a moment’s notice. They lack both range and firepower, but their speed and concealability make them excellent “last-ditch” weapons.",
+                    "type":"Firearm",
+                    "props":"1",
+                    "difficulty":"1",
+                    "damage":"+1",
+                    "capacity":"2 shots",
+                    "range":"Touch / Close",
+                    "note":"These weapons are harder to find in the Roughs, where the Diffculty to buy them increases by 1."
+                },
+                {
+                    "id":1,
+                    "item":"Disguised gun",
+                    "desc":"This small, simple, single-shot gun is built into a cane, umbrella, carpetbag, or other mundane item, making it the ideal weapon for an assassin. However, a disguised gun’s ungainly construction makes it difficult to use properly; it cannot be Aimed (see page 133) and all attacks with this weapon suffer a 1 die penalty, as if the weapon is an inferior Tool (see the Mistborn Adventure Game, page 142). The cost of a disguised gun includes a simple object like an umbrella, but not a more complicated or useful object like photographic equipment, or another weapon such as a koloss sword.",
+                    "type":"Firearm",
+                    "props":"1",
+                    "difficulty":"2",
+                    "damage":"+1",
+                    "capacity":"1 shot",
+                    "range":"Touch / Close",
+                    "note":"These weapons are harder to find in the Roughs, where the Diffculty to buy them increases by 1."
+                },
+                {
+                    "id":2,
+                    "item":"Granger 30-30 Rifle",
+                    "desc":"These common single-shot rifles benefit from extremely long range and high accuracy, but take time to reload. This latter feature means they are quickly falling out of favor for multi-shot rifles, but some sharpshooters maintain that the Granger’s greater accuracy is worth the inconvenience.",
+                    "type":"Firearm",
+                    "props":"1",
+                    "difficulty":"2",
+                    "damage":"+3",
+                    "capacity":"1 shot",
+                    "range":"Close / Extreme"
+                },
+                {
+                    "id":3,
+                    "item":"Heispel Autoloader",
+                    "desc":"These tiny pistols are designed to fit into a coat sleeve or purse, and be drawn at a moment’s notice. They lack both range and firepower, but their speed and concealability make them excellent “last-ditch” weapons.",
+                    "type":"Firearm",
+                    "props":"2",
+                    "difficulty":"1",
+                    "damage":"+1",
+                    "capacity":"2 shots",
+                    "range":"Touch / Close",
+                    "note":"These weapons are harder to find in the Roughs, where the Diffculty to buy them increases by 1."
+                },
+                {
+                    "id":4,
+                    "item":"Heispel Pump shotgun",
+                    "desc":"The pinnacle of shotgun technology, this firearm replaces the traditional break-action of older style shotguns like the Riesfel with a sliding “pump” which ejects a spent shell and loads another from the 8-round tube magazine. Some custom models rack another round on both the forward and reverse motion, to allow creative Allomancers to reload “hands free” by Pushing or Pulling on the slide.",
+                    "type":"Firearm",
+                    "props":"1",
+                    "difficulty":"2",
+                    "damage":"+2",
+                    "capacity":"8 shots",
+                    "range":"Close / Medium",
+                    "note":"These weapons are harder to find in the Roughs, where the Diffculty to buy them increases by 1."
+                },
+                {
+                    "id":5,
+                    "item":"Immerling 44 revolver",
+                    "desc":"Immerling’s “thunder-handed” pistol boasts the largest caliber of any mass-produced revolver on the market, at the expense of capacity. The gun’s heavy recoil makes it harder to wield (they’re rarely used in pairs), but it makes up for its handling in stopping power and general intimidation. Pewterarms tend to use Immerlings to the exclusion of other pistols, since their great strength can handle the kick more readily.",
+                    "type":"Firearm",
+                    "props":"1",
+                    "difficulty":"2",
+                    "damage":"+2",
+                    "capacity":"4 shots",
+                    "range":"Close / Medium"
+                },
+                {
+                    "id":6,
+                    "item":"Immerling Multi-Shot rifle",
+                    "desc":"The Immerling Multi-Shot is a lever-action repeating rifle, with a cylindrical magazine of eight rounds running below the barrel. Loading the weapon requires the shooter to simply swing the lever forward, ejecting the empty cartridge and loading the next. The high capacity and rate of fire means Immerlings are rapidly replacing single-shot rifles as the go-to weapon for denizens of the Roughs.",
+                    "type":"Firearm",
+                    "props":"1",
+                    "difficulty":"3",
+                    "damage":"+3",
+                    "capacity":"8 shots",
+                    "range":"Close / Long"
+                },
+                {
+                    "id":7,
+                    "item":"Koloss arquebus",
+                    "desc":"While most koloss and koloss-blooded prefer a blade to 'dishonorable' weapons such as firearms, some more progressive tribes have adopted the rugged arquebus as an alternative to bow & arrows. The weapon's simplicity and use of gunpowder rather than cartridges allows the shooter to substitute improvised 'shot' such as rocks, scrap metal, and flint for standard lead ball ammunition in a pinch.",
+                    "type":"Firearm",
+                    "props":"1",
+                    "difficulty":"2",
+                    "damage":"+3",
+                    "capacity":"1 shot",
+                    "range":"Close / Medium",
+                    "note":"Only koloss and koloss-blooded characters may take this as a Prop"
+                },
+                {
+                    "id":8,
+                    "item":"Riesfel shotgun",
+                    "desc":"The Riesfel is typical of the wide array of break-action shotguns available on the market. It features two barrels, side by side, firing 10-gauge shot pellets courtesy of dual action triggers that let the user shoot one barrel at a time, or both at once. When empty, the gun must be 'broken' open by turning down and emptying the barrels before firing again. Some shooters — particularly criminals — have taken to sawing off the barrels, which decreases the range but makes the shotgun much easier to conceal (an example of the Small customization — see page 119).",
+                    "type":"Firearm",
+                    "props":"1",
+                    "difficulty":"2",
+                    "damage":"+3",
+                    "capacity":"2 shots",
+                    "range":"Close / Medium"
+                },
+                {
+                    "id":9,
+                    "item":"Rotary Gun",
+                    "desc":"Rotary guns, predecessors of the machine gun of Earth, use hand-cranked rotating chambers to fire a large number of bullets very quickly — so fast, in fact, that they fire bursts of bullets called “salvoes” rather than individual shots. This large and bulky weapon is either mounted on wheels, on the deck of a ship, or in some similar permanent emplacement. Effective use of a rotary gun requires a crew of three people: one to crank, another to reload, and a third to aim. See “Firing a Rotary Gun” on page 134 for rules about using this weapon.",
+                    "type":"Firearm",
+                    "props":"N/A",
+                    "difficulty":"4",
+                    "damage":"+4",
+                    "capacity":"10 salvoes",
+                    "range":"Close / Long",
+                    "note":"These weapons are harder to find in the Roughs, where the Diffculty to buy them increases by 1."
+                },
+                {
+                    "id":10,
+                    "item":"Sterrion 36 revolver",
+                    "desc":"Lurcher engineer Ranette Sterrion has established the new standard for revolvers with the Sterrion 36, a six-shot, .36-caliber pistol with excellent range and stopping power. Each Sterrion is hand-made and difficult to find outside of Elendel, but their exceptional efficiency and reliability ensures they remain equally popular with gunslingers in the Roughs and many Elendel constables.",
+                    "type":"Firearm",
+                    "props":"1",
+                    "difficulty":"2",
+                    "damage":"+2",
+                    "capacity":"6 shots",
+                    "range":"Close / Medium",
+                    "note":"These weapons are harder to find in the Roughs, where the Diffculty to buy them increases by 1."
+                },
+                {
+                    "id":11,
+                    "item":"Terringul 27 revolver",
+                    "desc":"The Terringul revolver lacks the Sterrion’s reputation, as well as its punch, due to a smaller caliber and less-meticulous construction. It is still used because many shooters find the Terringul is much easier to conceal, and can be drawn and fired much more quickly than the bulkier Sterrion. Like the Sterrion 36, this revolver holds six rounds in the chamber.",
+                    "type":"Firearm",
+                    "props":"1",
+                    "difficulty":"1",
+                    "damage":"+1",
+                    "capacity":"6 shots",
+                    "range":"Close / Medium"
+                },
+                {
+                    "id":12,
+                    "item":"Heispel Longshot",
+                    "desc":"The Longshot is an exotic pistol with a design reminiscent of a mare’s leg and a handgun. It features a long barrel, a tubular magazine, a pistol grip, and a cocking lever instead of revolving chambers. While somewhat unwieldy for a pistol and more expensive compared to a repeating rifle, the Longshot's exceptionally long barrel provides it with a range similar to that of a rifle, all while firing common pistol ammunition. Despite its quirks and shortcomings, the Longshot remains a favored choice among wealthy gunslingers who value its unique appearance and standout performance.",
+                    "type":"Firearm",
+                    "props":"1",
+                    "difficulty":"3",
+                    "damage":"+2",
+                    "capacity":"4 shots",
+                    "range":"Close / Long"
+                },
+                {
+                    "id":13,
+                    "item":"“Rioting” 22",
+                    "desc":"The “Rioting” is an affordable, low-caliber revolver that has gained popularity among the lower classes of Elendel. It offers similar firepower to a Terringul 27 but is smaller and more easily concealable, making it a preferred choice among gangsters and tough individuals. Despite its relatively inexpensive construction materials, the “Rioting” is well-made for its price range and is known for its reliability, rarely experiencing jams during use.",
+                    "type":"Firearm",
+                    "props":"1",
+                    "difficulty":"1",
+                    "damage":"+1",
+                    "capacity":"6 shots",
+                    "range":"Close / Medium"
+                },
+                {
+                    "id":14,
+                    "item":"Terringul Ripper Automatic Pistol",
+                    "desc":"The Terringul Ripper is an experimental handgun designed to showcase Terringul's ability to innovate in the firearms market. Unlike traditional revolvers, it features a spring-loaded box magazine in a “half-moon” shape, similar to the Heispel Autoloader. This unique design allows for incredibly fast firing rates, rivaling even rotary guns for brief periods. \n\n The Ripper offers two modes of attack: single shots, similar to standard firearms, or salvoes, akin to rotary guns. To unleash a salvo, at least 10 shots must be fired. Unlike rotary guns, the Ripper does not require a loader or cranker, eliminating associated penalties. However, standard rules and limitations for salvo fire still apply.",
+                    "props":"1",
+                    "type":"Firearm",
+                    "difficulty":"4*",
+                    "damage":"+1 or 1 salvo",
+                    "capacity":"12 shots",
+                    "range":"Close / Medium"
+                }
+            ]
+        },
+        {
+            "propType": "Firearm Customization",
+            "props":[
+                {
+                    "id":15,
+                    "item":"Allomancer Holdout",
+                    "desc":"The grip of this weapon conceals a tiny, hidden chamber just big enough to hold a single charge of one metal of the owner’s choice (as used by Allomancer Jak in the opening fiction to this book). Discovering the compartment is quite difficult, requiring the searcher to succeed on a Wits 4 Challenge to notice it if they are not aware. Retrieving the charge from the compartment is an action, and after it is used, the charge of metal is replenished during the next Long Breather.",
+                    "type":"Firearm Customizations",
+                    "props":"+1",
+                    "difficulty":"2 or +1",
+                    "note":"The minimum Difficulty of purchasing this weapon is equal to the number shown or the base Difficulty of the weapon plus all modifiers from customizations, whichever is higher (to a maximum of 5). This Difficulty is also used when gunsmithing."
+                },
+                {
+                    "id":16,
+                    "item":"Allomancer Safety",
+                    "desc":"A concealed metal mechanism within the gun acts as a hidden safety which can only be tripped by Lurchers or Coinshots. The safety is automatically set and the gun cannot be fired unless the wielder first succeeds on a Difficulty 3 roll using the appropriate form of Allomancy (Steel 3 for Coinshot safeties, or Iron 3 for Lurcher safeties). Designate which type of safety this is when this customization is purchased or chosen as a Prop. Disarming an Allomancer safety is not considered an action, and once disarmed, the wielder does not need to roll again unless he or she drops or puts the weapon away.",
+                    "type":"Firearm Customizations",
+                    "props":"+1",
+                    "difficulty":"3 or +1",
+                    "note":"The minimum Difficulty of purchasing this weapon is equal to the number shown or the base Difficulty of the weapon plus all modifiers from customizations, whichever is higher (to a maximum of 5). This Difficulty is also used when gunsmithing."
+                },
+                {
+                    "id":17,
+                    "item":"Aluminum Frame",
+                    "desc":"Weapons made of aluminum alloys are both rare and highly useful, thanks to their Allomantically inert state. Aluminum guns are also much lighter than other weapons, making them easier to carry and conceal, at the cost of range and stopping power. Weapons with this customization cannot be detected or affected by Allomancy (including Allomantic Steelpushes or Ironpulls). When this customization is applied to a weapon chosen as a Prop, these qualities also apply to the gun’s ammunition. Guns with this customization have their Range reduced by one (minimum Close), and their damage reduced by 1 (minimum +1). Creating an Aluminum Frame requires a great deal of the metal, so the character must have an aluminum ingot in order to add this customization through gunsmithing.",
+                    "type":"Firearm Customizations",
+                    "props":"+1",
+                    "difficulty":"4 or +1",
+                    "note":"The minimum Difficulty of purchasing this weapon is equal to the number shown or the base Difficulty of the weapon plus all modifiers from customizations, whichever is higher (to a maximum of 5). This Difficulty is also used when gunsmithing."
+                },
+                {
+                    "id":18,
+                    "item":"Extra Capacity",
+                    "desc":"Cannot be applied to disguised guns or guns with the Aluminum Frame customization. The weapon is made from high-quality metal that allows the gunsmith to use less material without making the gun too bulky, increasing the weapon’s Capacity by 2.",
+                    "type":"Firearm Customizations",
+                    "props":"+1",
+                    "difficulty":"3 or +1",
+                    "note":"The minimum Difficulty of purchasing this weapon is equal to the number shown or the base Difficulty of the weapon plus all modifiers from customizations, whichever is higher (to a maximum of 5). This Difficulty is also used when gunsmithing."
+                },
+                {
+                    "id":19,
+                    "item":"Hair Trigger",
+                    "desc":"The trigger of this gun is exceptionally sensitive, offering the shooter a slight advantage when speed is crucial. During a Conflict, if a character declares an attack action with this weapon, their attack occurs in Step 2 of the Round as if their dice pool were 2 dice larger. For example, if Grinnel has 4 dice for an attack with a pistol equipped with a Hair Trigger, he would act in Step 2 as if he had 6 dice in his pool.",
+                    "type":"Firearm Customizations",
+                    "props":"+1",
+                    "difficulty":"2 or +1",
+                    "note":"The minimum Difficulty of purchasing this weapon is equal to the number shown or the base Difficulty of the weapon plus all modifiers from customizations, whichever is higher (to a maximum of 5). This Difficulty is also used when gunsmithing."
+                },
+                {
+                    "id":20,
+                    "item":"Invarian Chambers",
+                    "desc":"Revolvers Only. This modification adds 2 'locked' chambers to the revolver's cylinder, which can be switched at will by flipping a release at the base of the cylinder. It allows the shooter to keep 2 types of ammunition in the same weapon without reloading, such as normal rounds in the main chamber and specialized rounds in the secondary chamber. However, reloading each set of chambers requires a different Reload action, thus taking 2 Reloads to load both the main and secondary chambers.",
+                    "type":"Firearm Customizations",
+                    "props":"+1",
+                    "difficulty":"3 or +1",
+                    "note":"The minimum Difficulty of purchasing this weapon is equal to the number shown or the base Difficulty of the weapon plus all modifiers from customizations, whichever is higher (to a maximum of 5). This Difficulty is also used when gunsmithing."
+                },
+                {
+                    "id":21,
+                    "item":"Long Range",
+                    "desc":"This gun has a longer barrel and improved rifling to allow it to fire one Range band further, to a maximum of Extreme",
+                    "type":"Firearm Customizations",
+                    "props":"+1",
+                    "difficulty":"2 or +1",
+                    "note":"The minimum Difficulty of purchasing this weapon is equal to the number shown or the base Difficulty of the weapon plus all modifiers from customizations, whichever is higher (to a maximum of 5). This Difficulty is also used when gunsmithing."
+                },
+                {
+                    "id":22,
+                    "item":"Magnum Force",
+                    "desc":"This gun is designed to use ammunition containing extra gunpowder and heavier bullets, resulting in +1 additional damage per shot. However, weaker shooters struggle to control this weapon's massive kick; when a shooter with a Physique of 4 or less attacks with this weapon, their pool shrinks by 1 die.",
+                    "type":"Firearm Customizations",
+                    "props":"+1",
+                    "difficulty":"3 or +1",
+                    "note":"The minimum Difficulty of purchasing this weapon is equal to the number shown or the base Difficulty of the weapon plus all modifiers from customizations, whichever is higher (to a maximum of 5). This Difficulty is also used when gunsmithing."
+                },
+                {
+                    "id":23,
+                    "item":"Metalmind Grip",
+                    "desc":"The metal core of this gun's handgrip is composed of a pure metal capable of serving as a metalmind. Select a single Feruchemical metal; this weapon is regarded as a metalmind of that type, capable of storing up to 25 charges.",
+                    "type":"Firearm Customizations",
+                    "props":"+1",
+                    "difficulty":"3 or +1",
+                    "note":"The minimum Difficulty of purchasing this weapon is equal to the number shown or the base Difficulty of the weapon plus all modifiers from customizations, whichever is higher (to a maximum of 5). This Difficulty is also used when gunsmithing."
+                },
+                {
+                    "id":24,
+                    "item":"Perfect Balance",
+                    "desc":"This gun is meticulously tuned and precisely customized to facilitate trick shots. If a character possesses the Aimed stunt, they require 1 fewer Nudge to succeed with a Called Shot.",
+                    "type":"Firearm Customizations",
+                    "props":"+1",
+                    "difficulty":"3 or +1",
+                    "note":"The minimum Difficulty of purchasing this weapon is equal to the number shown or the base Difficulty of the weapon plus all modifiers from customizations, whichever is higher (to a maximum of 5). This Difficulty is also used when gunsmithing."
+                },
+                {
+                    "id":25,
+                    "item":"Small",
+                    "desc":"This modification alters the construction of the gun, allowing it to be more compact and easier to hide. The weapon gains the 'Concealable' trait, providing advantages when attempting to hide or conceal the gun for covert purposes.",
+                    "type":"Firearm Customizations",
+                    "props":"+1",
+                    "difficulty":"2 or +1",
+                    "note":"The minimum Difficulty of purchasing this weapon is equal to the number shown or the base Difficulty of the weapon plus all modifiers from customizations, whichever is higher (to a maximum of 5). This Difficulty is also used when gunsmithing."
+                },
+                {
+                    "id":26,
+                    "item":"Tinsights",
+                    "desc":"This modification enhances the weapon with precisely aligned telescopic sights, improving accuracy when aiming. When a character aims the weapon, the difficulty of the aimed shot or the final result of any rolls to defend against this attack is reduced by an additional 1 (for a total reduction of 2 in most cases), to a minimum difficulty of 1. Note that this customization cannot be combined with the Fast Aiming gunplay Stunt.",
+                    "type":"Firearm Customizations",
+                    "props":"+1",
+                    "difficulty":"3 or +1",
+                    "note":"The minimum Difficulty of purchasing this weapon is equal to the number shown or the base Difficulty of the weapon plus all modifiers from customizations, whichever is higher (to a maximum of 5). This Difficulty is also used when gunsmithing."
+                }
+            ]
+        },
+        {
+            "propType": "Customized Ammunition",
+            "props":[
+                {
+                    "item":"Aluminum (10)",
+                    "desc":"Aluminum ammunition, similar to aluminum guns, is impervious to detection or influence by Allomancy, providing the shooter with an element of surprise. However, this advantage comes with a trade-off: when used with a non-aluminum weapon, aluminum rounds have reduced range and stopping power. In such cases, their range is decreased by one (to a minimum of Close), and their damage is reduced by 1 (to a minimum of +1).",
+                    "type":"Custom Ammo",
+                    "props":"1",
+                    "difficulty":"3"
+                },
+                {
+                    "item":"Armor-Piercing (10)",
+                    "desc":"Armor-piercing ammunition, crafted from hardened steel instead of lead, possesses the capability to penetrate most types of armor and cover. When a target is struck by armor-piercing ammunition, the amount of damage absorbed by their armor or Powers is reduced by half, rounded down. For example, a Pewterarm with the Denser Tissues Stunt, normally absorbing 1 damage, would instead absorb no damage, while a character wearing armor that absorbs 2 damage would only absorb 1.",
+                    "type":"Custom Ammo",
+                    "props":"1",
+                    "difficulty":"2"
+                },
+                {
+                    "item":"Hollow-Point Rounds (10)",
+                    "desc":"Pistols and Rifles Only. Hollow-point rounds are bullets with a hole drilled in their tip, which causes them to expand upon impact, inflicting grievous damage to flesh-and-blood targets. However, these rounds have a downside: they flatten and deform upon striking a hard surface, preventing them from ricocheting or penetrating cover or armor.  \n\n When fired, a gun loaded with hollow-point rounds inflicts an additional +1 damage against living targets. However, the damage absorption provided by armor is doubled against these rounds. For instance, a leather duster, which normally absorbs 1 point of damage, would absorb 2 points of damage from hollow-point rounds. Damage absorption provided by other sources, such as Powers and Stunts, remains unaffected. Additionally, shooters cannot utilize the Ricochet gunplay Stunt when firing hollow-point rounds.",
+                    "type":"Custom Ammo",
+                    "props":"1",
+                    "difficulty":"2"
+                },
+                {
+                    "item":"Incendiary Shells (10)",
+                    "desc":"(Shotguns Only). These shotgun shells contain large amounts of phosphorus, which ignites upon firing, leaving a trail of smoke and flame behind them. Sometimes, the target itself may catch fire. \n\n A shotgun loaded with incendiary shells inflicts an additional +1 damage. However, the damage absorption provided by armor is doubled against them. For example, a leather duster, which normally absorbs 1 point of damage, would absorb 2 points of damage from this attack. Damage absorption provided by other sources, such as Powers and Stunts, remains unaffected. \n\n Additionally, with a Nudge, the shooter may set a target hit by these shells on fire. This could involve setting cloth or paper alight, damaging clothing, or even causing a drum of oil or fuel to explode.",
+                    "type":"Custom Ammo",
+                    "props":"1",
+                    "difficulty":"2"
+                },
+                {
+                    "item":"Coinshot (10)",
+                    "desc":"The bullets feature ceramic tips that are engineered to detach from the metal jacket upon being Pushed by a Coinshot, allowing them to maintain their trajectory. This design element adds a crucial element of surprise, as Coinshots typically rely on detecting metal in projectiles to block them, inadvertently playing into the shooter's strategy. Notably, these rounds are impervious to manipulation by Allomantic Steel or its associated Stunts, including Steel Deflection as described in the Mistborn Adventure Game (page 313).",
+                    "type":"Custom Ammo",
+                    "props":"1",
+                    "difficulty":"2"
+                },
+                {
+                    "item":"Lurcher (10)",
+                    "desc":"Lurcher Ammunition operates in contrast to Coinshot ammunition, featuring a ceramic body surrounding a metal core, designed to fragment upon impact with the target, such as a Lurcher's shield or plate armor. This fragmentation results in razor-sharp shrapnel dispersing in all directions. When a Lurcher utilizes Allomantic Iron or one of its associated Stunts, like Iron Redirection as outlined in the Mistborn Adventure Game (page 307), to Pull on this ammunition, the final target of the round and all characters within Striking Range of them suffer 1 damage from the airborne debris, in addition to any other effects of the shot.",
+                    "type":"Custom Ammo",
+                    "props":"1",
+                    "difficulty":"3"
+                },
+                {
+                    "item":"Tineye (10)",
+                    "desc":"Tineye Ammunition serves the specific purpose of neutralizing Tineyes and Windwhisper Ferrings while they employ their abilities. These rounds are distinguished by their augmented gunpowder content, resulting in a brilliant flash upon firing, and a unique vented jacket design that generates a whistling sound during flight and a 'screaming' effect upon impact as air vents out. This effect proves incapacitating to individuals nearby who are burning Tin or have utilized sight or hearing through a tinmind in the current or preceding Conflict Round. Within a range of 10 paces (Close Range) from either the shooter or the target, individuals must successfully pass a Physique 1 Challenge each time the weapon is discharged or suffer a loss of 2 action dice in Step 2 of the subsequent Conflict Round, grappling with sensory overload.",
+                    "type":"Custom Ammo",
+                    "props":"1",
+                    "difficulty":"3"
+                },
+                {
+                    "item":"Pewterarm (10)",
+                    "desc":"Pewterarm Ammunition is characterized by its frangible heads, which fragment into needle-like shards upon impact, causing wounds that are both more challenging and slower to heal. This property proves effective against both Bloodmakers and the titular Pewterarms. When fired from a gun, Pewterarm Ammunition inflicts an additional +1 damage. However, the protective capacity of armor against these rounds is doubled, meaning that armor absorbs twice the usual amount of damage inflicted (for example, a leather duster, which normally absorbs 1 point of damage, would absorb 2 points of damage from this type of attack). Damage absorption provided by other sources such as Powers and Stunts remains unaffected. Furthermore, damage inflicted by these rounds bypasses the bonus Health granted by burning Pewter or tapping Gold, effectively targeting the individual's 'base' Health rather than any augmented version, and cannot be healed using either Power; instead, recovery must occur naturally as described in the Mistborn Adventure Game (page 189).",
+                    "type":"Custom Ammo",
+                    "props":"1",
+                    "difficulty":"3"
+                },
+                {
+                    "item":"Aluminum Bolt (10)",
+                    "desc":"These bolts are tipped with aluminum points. Like Pewterarm bolts, they’re constructed to break into shards on impact. They have the same effect as Pewterarm bolts, but also can’t be redirected using Steel or Iron or otherwise detected or affected by Allomancy.",
+                    "type":"Custom Ammo",
+                    "props":"2",
+                    "difficulty":"4"
+                },
+                {
+                    "item":"Coinshot Bolt (10)",
+                    "desc":"Similar to Coinshot bullets, these bolts have metal in the nock. When a Coinshot pushes on the bolt, the nock comes free and the business end of the bolt continues on its course.",
+                    "type":"Custom Ammo",
+                    "props":"1",
+                    "difficulty":"2"
+                },
+                {
+                    "item":"Pewterarm Bolt (10)",
+                    "desc":"Similar to Pewterarm rounds, these bolts shatter into shards on impact, making wounds harder to heal by Bloodmakers and Pewterarms. A shot with a Pewterarm bolt inflicts an additional +1 Damage; however, the damage absorption provided by armor is doubled against them (e.g., a leather duster, which absorbs 1 damage normally, would absorb 2 damage from this attack). Damage absorption provided by other sources, such as Powers and Stunts, is not affected. Additionally, damage from these rounds ignores the bonus Health provided by burning Pewter or tapping Gold (essentially, the damage goes against the Pewterarm or Bloodmaker’s “base” Health rather than the increased version) and cannot be healed using either Power; rather, it must be recovered naturally (see the Mistborn Adventure Game, page 189).",
+                    "type":"Custom Ammo",
+                    "props":"1",
+                    "difficulty":"3"
+                },
+                {
+                    "item":"Thug Shot (10)",
+                    "desc":"A particularly crude form of firearm ammunition, thug shot takes its name from Pewter Mistings because, like them, it’s considered the most expedient, brute force method of causing damage. A thug shot bullet is oversized and noticeably heavier than a regular bullet, causing greater harm if it hits, but sacrificing range in the process.",
+                    "type":"Custom Ammo",
+                    "props":"1",
+                    "difficulty":"2"
+                },
+                {
+                    "item":"Tineye Bolt (10)",
+                    "desc":"Similar to Tineye bullets, these bolts are built to whistle in flight to deafen anyone burning Tin, or who has tapped sight or hearing from a tinmind in the current or previous Conflict Round. Anyone within 10 paces (Close Range) of the shooter or the target must succeed on a Physique 1 Challenge each time a Tineye bolt is fired or lose 2 action dice in Step 2 of the next Conflict Round.",
+                    "type":"Custom Ammo",
+                    "props":"1",
+                    "difficulty":"3"
+                }
+            ]
+        }
+    ]
+}
