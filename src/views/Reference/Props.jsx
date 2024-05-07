@@ -5,7 +5,7 @@ import Prop from './Props/Prop';
 
 function Props(props) {
   const [mySelection, setSelection] = useState(0);
-  const [myEraOne, setEraOne] = useState(true);
+  const [myEraOne, setEraOne] = useState(false);
   const [myEraTwo, setEraTwo] = useState(true);
   const [myMelee, setMelee] = useState(true);
   const [myRanged, setRange] = useState(true);
@@ -22,13 +22,13 @@ function Props(props) {
   
   useEffect(() => {
     let newProps = [];
-    // newProps = newProps.concat(props.propped.era1[0].props);
-    // newProps = newProps.concat(props.propped.era1[1].props);
-    // newProps = newProps.concat(props.propped.era1[2].props);
-    // newProps = newProps.concat(props.propped.era1[3].props);
-    // newProps = newProps.concat(props.propped.era1[4].props);
-    // newProps = newProps.concat(props.propped.era1[5].props);
-    // newProps = newProps.concat(props.propped.era1[6].props);
+    newProps = newProps.concat(props.propped.era1[0].props);
+    newProps = newProps.concat(props.propped.era1[1].props);
+    newProps = newProps.concat(props.propped.era1[2].props);
+    newProps = newProps.concat(props.propped.era1[3].props);
+    newProps = newProps.concat(props.propped.era1[4].props);
+    newProps = newProps.concat(props.propped.era1[5].props);
+    newProps = newProps.concat(props.propped.era1[6].props);
 
     newProps = newProps.concat(props.propped.era2[0].props);
     newProps = newProps.concat(props.propped.era2[1].props);
@@ -41,17 +41,17 @@ function Props(props) {
     newProps = newProps.concat(props.propped.era2[8].props);
     newProps = newProps.concat(props.propped.era2[9].props);
     setProps(sortByMultipleComponents(newProps, ['item', 'type', 'props', 'difficulty']));
-  },[props.propped.era2]);
+  },[props.propped.era1, props.propped.era2]);
 
   useEffect(() => {
     let newProps = [];
-    // if (myEraOne && myMelee) newProps = newProps.concat(props.propped.era1[0].props);
-    // if (myEraOne && myRanged) newProps = newProps.concat(props.propped.era1[1].props);
-    // if (myEraOne && myArmor) newProps = newProps.concat(props.propped.era1[2].props);
-    // if (myEraOne && myShields) newProps = newProps.concat(props.propped.era1[3].props);
-    // if (myEraOne && myAnimal) newProps = newProps.concat(props.propped.era1[4].props);
-    // if (myEraOne && myTools) newProps = newProps.concat(props.propped.era1[5].props);
-    // if (myEraOne && myImplement) newProps = newProps.concat(props.propped.era1[6].props);
+    if (myEraOne && myMelee) newProps = newProps.concat(props.propped.era1[0].props);
+    if (myEraOne && myRanged) newProps = newProps.concat(props.propped.era1[1].props);
+    if (myEraOne && myArmor) newProps = newProps.concat(props.propped.era1[2].props);
+    if (myEraOne && myShields) newProps = newProps.concat(props.propped.era1[3].props);
+    if (myEraOne && myAnimal) newProps = newProps.concat(props.propped.era1[4].props);
+    if (myEraOne && myTools) newProps = newProps.concat(props.propped.era1[5].props);
+    if (myEraOne && myImplement) newProps = newProps.concat(props.propped.era1[6].props);
 
     if (myEraTwo && myMelee) newProps = newProps.concat(props.propped.era2[0].props);
     if (myEraTwo && myRanged) newProps = newProps.concat(props.propped.era2[1].props);
@@ -70,6 +70,11 @@ function Props(props) {
     setSelection(sctNum);
   }
 
+  function switchEra(){
+    setEraOne(!myEraOne); 
+    setEraTwo(!myEraTwo);
+  }
+
   function sortByMultipleComponents(items, components) {
     function compare(a, b) {
       for (let component of components) {
@@ -83,16 +88,16 @@ function Props(props) {
   }
 
   const filters = [
-    { title: 'Era One', select: myEraOne, onClick: () => setEraOne(!myEraOne) },
-    { title: 'Era Two', select: myEraTwo, onClick: () => setEraTwo(!myEraTwo) },
+    { title: 'Era One', select: myEraOne, onClick: () => switchEra()},
     { title: 'Melee', select: myMelee, onClick: () => setMelee(!myMelee) },
     { title: 'Ranged', select: myRanged, onClick: () => setRange(!myRanged) },
     { title: 'Armor', select: myArmor, onClick: () => setArmor(!myArmor) },
-    { title: 'Shields', select: myShields, onClick: () => setShields(!myShields) }
+    { title: 'Shields', select: myShields, onClick: () => setShields(!myShields) },
+    { title: 'Animals', select: myAnimal, onClick: () => setAnimal(!myAnimal) }
   ];
 
   const filtersTwo = [
-    { title: 'Animals', select: myAnimal, onClick: () => setAnimal(!myAnimal) },
+    { title: 'Era Two', select: myEraTwo, onClick: () => switchEra()},
     { title: 'Tools', select: myTools, onClick: () => setTools(!myTools) },
     { title: 'Implements', select: myImplement, onClick: () => setImplement(!myImplement) },
     { title: 'Guns', select: myGuns, onClick: () => setGuns(!myGuns) },
@@ -109,7 +114,7 @@ function Props(props) {
                 <tbody>
                   <tr>
                     <td colSpan={10}>
-                      <h3 className='notButter'>Props</h3>
+                      <h3 className='notButter'>Props of {myEraOne ? 'Era 1' : 'Era 2'}</h3>
                     </td>        
                   </tr>
                   <tr>
