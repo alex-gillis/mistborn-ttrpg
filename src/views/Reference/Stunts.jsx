@@ -71,7 +71,7 @@ function Stunts(props) {
             </div>
             <div>
               <table id='centered'>
-                  <thead className='reference-width' id='reference-size'>
+                  <thead id='reference-size' className='reference-width'>
                       <tr>
                         <th className='ref-item'>
                           <button id='tableButton' onClick={() => setStunts(sortByMultipleComponents(myStunts, ['name', 'type', 'req']))}>
@@ -83,10 +83,12 @@ function Stunts(props) {
                             Type
                           </button>
                         </th>
-                        <th className='ref-item'>
+                        <th className='ref-object'>
                           <button id='tableButton' onClick={() => setStunts(sortByMultipleComponents(myStunts, ['req', 'name', 'type']))}>
                             Requirements
                           </button>
+                        </th>
+                        <th className='ref-space'>
                         </th>
                       </tr>
                   </thead>
@@ -94,20 +96,20 @@ function Stunts(props) {
             </div>
             <div id='table-list'>
                 <table id='centered'>
-                    <tbody id='table-list' className='reference-width'>
+                    <tbody id='reference-size' className='reference-width'>
                         {myStunts && myStunts.map((section, index) => (
                         <tr key={index} className={index % 2 === 0 ? 'evenRow' : 'oddRow'}>
-                            <td>
+                            <td className='ref-item'>
                             <button id='tableButton' onClick={() => handleSelection(index)}>
                                 {section.name}
                             </button>
                             </td>
-                            <td>
+                            <td className='ref-middle'>
                             <button id='tableButton' onClick={() => handleSelection(index)}>
                                 {section.type}
                             </button>
                             </td>
-                            <td>
+                            <td className='ref-object'>
                             <button id='tableButton' onClick={() => handleSelection(index)}>
                                 {section.req}
                             </button>

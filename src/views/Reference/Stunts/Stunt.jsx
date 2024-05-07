@@ -11,8 +11,8 @@ function Stunt(props) {
       {props.stunt ? 
         <div>
           <h2 className="notButter">{props.stunt.name}</h2>
-          <h3 className="notButter">Type of Stunt: {props.stunt.type}</h3>
-          <h3 className="notButter">Stunt Requires: {props.stunt.req}</h3>
+          <h3 className="notButter">Type of Stunt: <span id="timid">{props.stunt.type}</span></h3>
+          <h3 className="notButter">Stunt Requires: <span id="timid">{props.stunt.req}</span></h3>
           <div>
               {props.stunt.description}
               <br/>

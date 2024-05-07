@@ -114,7 +114,7 @@ function Props(props) {
                 <tbody>
                   <tr>
                     <td colSpan={10}>
-                      <h3 className='notButter'>Props of {myEraOne ? 'Era 1' : 'Era 2'}</h3>
+                      <h3 className='notButter'>Props in {myEraOne ? 'Era 1' : 'Era 2'}</h3>
                     </td>        
                   </tr>
                   <tr>

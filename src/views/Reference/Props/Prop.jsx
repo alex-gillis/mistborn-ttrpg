@@ -7,7 +7,7 @@ function Prop(props) {
     return (
         <>
             {props.prop ? (
-                <div id='prop-list'>
+                <div>
                   <table>
                     <tbody>
                       <tr>
@@ -17,22 +17,22 @@ function Prop(props) {
                       </tr>
                       <tr>
                         <td colSpan={2}> 
-                          <h3 className="notButter">Type of Prop: {props.prop.type}</h3>
+                          <h3 className="notButter">Type of Prop: <span id="timid">{props.prop.type}</span></h3>
                         </td>
                       </tr>
                       <tr>
                         <td>
-                          <h3 className="notButter">Prop Cost: {props.prop.props}</h3>
+                          <h3 className="notButter">Prop Cost: <span id="timid">{props.prop.props}</span></h3>
                         </td>
                         <td>
-                          <h3 className="notButter">Difficulty: {props.prop.difficulty}</h3>
+                          <h3 className="notButter">Difficulty: <span id="timid">{props.prop.difficulty}</span></h3>
                         </td>
                       </tr>
                       {props.prop.damage && (
                         <tr>
                           <td colSpan={2}>
                             <h3 className="notButter">
-                              Weapon Damage: {props.prop.damage}
+                              Weapon Damage: <span id="timid">{props.prop.damage}</span>
                             </h3>
                           </td>
                         </tr>
@@ -40,7 +40,7 @@ function Prop(props) {
                       {props.prop.capacity && (
                         <tr>
                           <td colSpan={2}>
-                            <h3 className="notButter">Ammo Capacity: {props.prop.capacity}</h3>
+                            <h3 className="notButter">Ammo Capacity: <span id="timid">{props.prop.capacity}</span></h3>
                           </td>
                         </tr>
                       )}
@@ -48,7 +48,7 @@ function Prop(props) {
                         <tr>
                           <td colSpan={2}>
                             <h3 className="notButter">
-                                Range: {props.prop.range}
+                                Range: <span id="timid">{props.prop.range}</span>
                             </h3>
                           </td>
                         </tr>
@@ -56,7 +56,7 @@ function Prop(props) {
                       {props.prop.thrown && (
                         <tr>
                           <td colSpan={2}>
-                            <h3 className="notButter">Thrown Range: {props.prop.thrown}</h3>
+                            <h3 className="notButter">Thrown Range: <span id="timid">{props.prop.thrown}</span></h3>
                           </td>
                         </tr>
                       )}
@@ -67,15 +67,18 @@ function Prop(props) {
                         <br />
                         <br />
                         {props.prop.note && (
+                          <div id="brandon">
+                            <h5>Weapon Notes</h5>
                             <div id="example">
-                                {props.prop.note}
-                                <br/><br/>
-                                {props.prop.table && (
-                                    <div>
-                                        <Table info={props.prop.table} />
-                                    </div>
-                                )}
+                              {props.prop.note}
+                              {props.prop.table && (
+                                <div>
+                                  <br/><br/>
+                                  <Table info={props.prop.table} />
+                                </div>
+                              )}
                             </div>
+                          </div>
                         )}
                     </div>
                 </div>

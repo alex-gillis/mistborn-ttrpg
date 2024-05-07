@@ -156,13 +156,18 @@ header {
   padding-left: 15px;
   padding-right: 15px;
   padding-bottom: 5px;
-  margin-right: 50px;
+  margin-top: 5px;
   flex-grow: 2;
+  max-height: 780px;
+  min-width: 440px;
+  max-width: 440px;
+  overflow-y: scroll;
+  list-style-type: none;
 }
 
 #reference-table {
   flex-grow: 1; 
-  margin-right: 62px;
+  margin-right: 10px;
 }
 
 #filter-button{
@@ -211,7 +216,7 @@ header {
   min-width: 150px;
   position: fixed;
   padding-left: 1.5rem;
-  height: 465px;
+  height: 650px;
   overflow-y: scroll;
   list-style-type: none;
 }::-webkit-scrollbar {
@@ -337,6 +342,10 @@ header {
   margin-bottom: 15px;
   line-height: 1.1;
   font-size: large;
+}
+
+#timid {
+  font-weight: normal;
 }
 
 #secret {
@@ -527,11 +536,19 @@ header {
 }
 
 .ref-item {
-  min-width: 200px;
+  min-width: 220px;
 }
 
 .ref-middle {
   min-width: 150px;
+}
+
+.ref-object {
+  min-width: 220px;
+}
+
+.ref-space {
+  min-width: 5px;
 }
 
 .ref-one {
