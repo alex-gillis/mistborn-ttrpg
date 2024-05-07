@@ -52,7 +52,7 @@ function Stunts(props) {
   ];
 
   return (
-    <div className='padderTop'>
+    <div className='marginTop'>
       <div id='diagram'>
         <div id='reference-table'>
             <h3 className='notButter'>Stunts</h3>

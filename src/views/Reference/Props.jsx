@@ -101,7 +101,7 @@ function Props(props) {
   ];
 
   return (
-    <div className='padderTop'>
+    <div  className='marginTop'>
       <div id='diagram'>
         <div id='reference-table'>
             <div >
@@ -145,7 +145,7 @@ function Props(props) {
                         </th>
                         <th className='ref-three'>
                           <button id='tableButton' onClick={() => setProps(sortByMultipleComponents(myProps, ['props', 'item', 'type', 'difficulty']))}>
-                            Requirements
+                            Cost
                           </button>
                         </th>
                         <th className='ref-four'>

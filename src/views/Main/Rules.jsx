@@ -30,7 +30,7 @@ function Rules(props) {
                 </button>
             ))}
         </div>
-        <div id='creation' >
+        <div id='creation'>
             { myPage === 0 && <Basics game={props.game[0]} />}
             { myPage === 1 && <Contests game={props.game[1]} />}
             { myPage === 2 && <Conflicts game={props.game[2]} phys={props.game[3]} soci={props.game[4]} ment={props.game[5]} />}
