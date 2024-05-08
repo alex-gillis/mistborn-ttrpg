@@ -1,6 +1,6 @@
 /* eslint-disable react/jsx-key */
 import Creation from './Main/Creation';
-import Cultures from './Main/Cultures';
+import Lore from './Main/Lore';
 import Rules from './Main/Rules';
 import Intro from './Main/Intro';
 import Reference from './Main/Reference';
@@ -15,6 +15,7 @@ function Menu() {
     const [myRogues, setRogues] = useState([]);
     const [myGames, setGames] = useState([]);
     const [myStunts, setStunts] = useState([]);
+    const [myLore, setLore] = useState([]);
 
 
     useEffect(() => {
@@ -32,6 +33,7 @@ function Menu() {
             setRogues (data.rogues);
             setGames (data.game);
             setStunts (data.stunts);
+            setLore (data.lore);
         } catch (error) {
             console.error('Error fetching data:', error);
         }
@@ -50,7 +52,7 @@ function Menu() {
         { title: 'Home', className: myPage === 0 ? 'selected' : 'unselected', onClick: () => handlePage(0) },
         { title: 'Rules', className: myPage === 1 ? 'selected' : 'unselected', onClick: () => handlePage(1) },
         { title: 'Creation', className: myPage === 2 ? 'selected' : 'unselected', onClick: () => handlePage(2) },
-        { title: 'Cultures', className: myPage === 3 ? 'selected' : 'unselected', onClick: () => handlePage(3) },
+        { title: 'Lore', className: myPage === 3 ? 'selected' : 'unselected', onClick: () => handlePage(3) },
         { title: 'References', className: myPage === 4 ? 'selected' : 'unselected', onClick: () => handlePage(4) },
     ];
 
@@ -68,7 +70,7 @@ function Menu() {
             { myPage === 0 && <Intro /> }
             { myPage === 1 && <Rules game={myGames}/> }
             { myPage === 2 && <Creation creation={myCreations} propped={myProps[0]} rogues={myRogues} /> }
-            { myPage === 3 && <Cultures /> }
+            { myPage === 3 && <Lore lore={myLore} /> }
             { myPage === 4 && <Reference basics={myBasics} creation={myCreations} metals={myMetals} stunts={myStunts} propped={myProps[1]}/> }
         </>
     );

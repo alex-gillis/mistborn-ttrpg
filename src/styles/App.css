@@ -121,9 +121,16 @@ header {
   border-bottom-style: solid;
 }
 
+#centerIMG {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+
 #character {
   text-align: center;
-  max-width: 700px;
+  max-width: 550px;
+  min-width: 550px;
   height: 85%;
 }
 
@@ -210,13 +217,17 @@ header {
   font-style: italic;
 }
 
+#teeny {
+  font-size: small;
+}
+
 #list {
   margin-right: 25px;
   margin-top: 90px;
   min-width: 150px;
   position: fixed;
   padding-left: 1.5rem;
-  height: 650px;
+  height: 670px;
   overflow-y: scroll;
   list-style-type: none;
 }::-webkit-scrollbar {
@@ -378,10 +389,10 @@ header {
 }
 
 .heroSample {
-  width: 85%;
-  height: 85%;
-  min-width: 250px;
-  max-height: 700px;
+  width: 95%;
+  height: 95%;
+  min-width: 300px;
+  max-height: 750px;
 }
 
 .index-button {

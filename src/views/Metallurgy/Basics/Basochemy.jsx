@@ -1,4 +1,6 @@
 /* eslint-disable react/prop-types */
+import TableTwo from "../../Modules/TableTwo";
+
 function Basochemy(props) { 
     let myOptions = props.info.options;
     let myStorage = props.info.storage;
@@ -18,20 +20,8 @@ function Basochemy(props) {
             <br/>
             <div id="brandon">
                 { props.info.nicknames }
-                <table>
-                    <tbody>
-                        {props.info.types?.map((type, index) => (
-                            <tr key={index}>
-                                <td>
-                                    {type.one}
-                                </td>
-                                <td>
-                                    {type.two}
-                                </td>
-                            </tr>
-                        ))}
-                    </tbody>
-                </table>
+                <br/><br/>
+                <TableTwo info={props.info.types} />
             </div>
             <h2>Ferrings in Society</h2>
             { props.info.terris }

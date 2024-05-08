@@ -108,7 +108,7 @@ function Character(props) {
                                         <td>{item.rating}</td>
                                         <td className="justified">
                                         {item.stunts?.map((item, index) => (
-                                            <span key={index}>
+                                            <span key={index} id="teeny">
                                                 <span id="bold">{item.stunt}</span> - {item.desc}
                                                 <br/>
                                             </span>
