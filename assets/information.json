@@ -5932,100 +5932,117 @@
                     "propType": "Melee Weapons",
                     "props":[
                         {
-                            "id":0,
                             "item":"Club",
                             "desc":"Favored weapon of rebels and thugs; contains no metal",
+                            "type":"Melee",
+                            "props":"1",
                             "difficulty":"1",
                             "damage":"+1",
                             "range":"Touch / Striking"
                         },
                         {
-                            "id":1,
-                            "item":"Dagger",
-                            "desc":"Steel blade favored by thieves and assassins",
+                            "item":"Staff",
+                            "desc":"Favored weapon of rebels and thugs; contains no metal",
+                            "type":"Melee",
+                            "props":"1",
                             "difficulty":"1",
                             "damage":"+1",
-                            "range":"Touch / Touch"
+                            "range":"Striking / Striking"
                         },
                         {
-                            "id":2,
-                            "item":"Dueling cane",
+                            "item":"Dagger",
+                            "desc":"Steel blade favored by thieves and assassins",
+                            "type":"Melee",
+                            "props":"1",
+                            "difficulty":"1",
+                            "damage":"+1",
+                            "range":"Touch / Touch",
+                            "thrown":"Striking / Close"
+                        },
+                        {
+                            "item":"Dueling Cane",
                             "desc":"Stone-headed cane carried by nobles for defense and duels; contains no metal",
+                            "type":"Melee",
+                            "props":"1",
                             "difficulty":"2",
                             "damage":"+2",
                             "range":"Touch / Striking"
                         },
                         {
-                            "id":3,
                             "item":"Hammer",
                             "desc":"Two-handed working man’s hammer",
-                            "difficulty":"1",
-                            "damage":"+1",
+                            "type":"Melee",
+                            "props":"2",
+                            "difficulty":"3",
+                            "damage":"+3",
                             "range":"Touch / Striking"
                         },
                         {
-                            "id":4,
-                            "item":"Koloss blade †",
-                            "desc":"Massive chopping blade prized by the koloss",
+                            "item":"Koloss Blade",
+                            "desc":"Massive chopping blade prized by the Koloss",
+                            "type":"Melee",
+                            "props":"N/A",
                             "difficulty":"4",
                             "damage":"+4",
                             "range":"Striking / Striking"
                         },
                         {
-                            "id":5,
-                            "item":"Obsidian axe",
+                            "item":"Obsidian Axe",
                             "desc":"Signature weapon of Steel Inquisitors; contains no metal",
+                            "type":"Melee",
+                            "props":"N/A",
                             "difficulty":"4",
                             "damage":"+3",
                             "range":"Striking / Striking"
                         },
                         {
-                            "id":6,
-                            "item":"Obsidian dagger",
+                            "item":"Obsidian Dagger",
                             "desc":"Popular weapon of Mistborn, often carried in pairs; contains no metal",
+                            "type":"Melee",
+                            "props":"N/A",
                             "difficulty":"2",
                             "damage":"+1",
-                            "range":"Touch / Touch"
+                            "range":"Touch / Touch",
+                            "thrown":"Striking / Close"
                         },
                         {
-                            "id":7,
                             "item":"Spear",
                             "desc":"Iron-tipped spear favored by hunters, rebels, and soldiers",
+                            "type":"Melee",
+                            "props":"1",
                             "difficulty":"2",
                             "damage":"+2",
-                            "range":"Striking / Striking"
+                            "range":"Striking / Striking",
+                            "thrown":"Close / Medium"
                         },
                         {
-                            "id":8,
-                            "item":"Staff",
-                            "desc":"Favored weapon of rebels and thugs; contains no metal",
-                            "difficulty":"1",
-                            "damage":"+1",
-                            "range":"Striking / Striking"
-                        },
-                        {
-                            "id":9,
-                            "item":"Stone hammer",
+                            "item":"Stone Hammer",
                             "desc":"Rare hammer used by kandra guardians; contains no metal",
+                            "type":"Melee",
+                            "props":"N/A",
                             "difficulty":"4",
                             "damage":"+3",
                             "range":"Touch / Striking"
                         },
                         {
-                            "id":10,
-                            "item":"Stone spear",
+                            "item":"Stone Spear",
                             "desc":"Flint or obsidian-tipped spear; contains no metal",
+                            "type":"Melee",
+                            "props":"2",
                             "difficulty":"3",
                             "damage":"+2",
-                            "range":"Striking / Striking"
+                            "range":"Striking / Striking",
+                            "thrown":"Close / Medium"
                         },
                         {
-                            "id":11,
                             "item":"Sword",
                             "desc":"Steel blade carried by guards and soldiers",
+                            "type":"Melee",
+                            "props":"1",
                             "difficulty":"2",
                             "damage":"+2",
-                            "range":"Touch / Striking"
+                            "range":"Touch / Striking",
+                            "thrown":"Close / Medium"
                         }
                     ]
                 },
@@ -6033,60 +6050,31 @@
                     "propType": "Ranged Weapons",
                     "props":[
                         {
-                            "id":12,
                             "item":"Bow and flint arrows",
                             "desc":"Effective ranged weapon against Allomancers; contains no metal",
+                            "type":"Ranged",
+                            "props":"2",
                             "difficulty":"3",
                             "damage":"+2",
                             "range":"Close / Long"
                         },
                         {
-                            "id":13,
                             "item":"Bow and steel arrows",
-                            "desc":"Primary ranged weapon of common soldiers ",
+                            "desc":"Primary ranged weapon of common soldiers",
+                            "type":"Ranged",
+                            "props":"1",
                             "difficulty":"2",
                             "damage":"+2",
                             "range":"Close / Long"
                         },
                         {
-                            "id":14,
                             "item":"Catapult",
                             "desc":"Hurls massive stones; exclusively used by armies",
+                            "type":"Ranged",
+                            "props":"N/A",
                             "difficulty":"5",
                             "damage":"+4",
                             "range":"Medium / Extreme"
-                        },
-                        {
-                            "id":15,
-                            "item":"Dagger",
-                            "desc":"Steel blade favored by thieves and assassins",
-                            "difficulty":"1",
-                            "damage":"+1",
-                            "range":"Striking / Close"
-                        },
-                        {
-                            "id":16,
-                            "item":"Obsidian dagger",
-                            "desc":"Popular weapon of Mistborn, often carried in pairs; contains no metal",
-                            "difficulty":"2",
-                            "damage":"+1",
-                            "range":"Striking / Close"
-                        },
-                        {
-                            "id":17,
-                            "item":"Spear",
-                            "desc":"Iron-tipped spear favored by hunters, rebels, and soldiers",
-                            "difficulty":"2",
-                            "damage":"+2",
-                            "range":"Close / Medium"
-                        },
-                        {
-                            "id":18,
-                            "item":"Stone Spear",
-                            "desc":"Flint or obsidian-tipped spear; contains no metal",
-                            "difficulty":"3",
-                            "damage":"+2",
-                            "range":"Close / Medium"
                         }
                     ]
                 },
@@ -6094,25 +6082,25 @@
                     "propType": "Armor",
                     "props":[
                         {   
-                            "id": 19,
                             "item": "Leather / Padded",
-                            "desc": "Layered armor favored by thieves, Allomancers, and hazekillers",
-                            "difficulty":"2",
-                            "absorb":"1"
+                            "desc": "Layered armor favored by thieves, Allomancers, and hazekillers; absorbs 1 damage from physical attacks",
+                            "type":"Armor",
+                            "props":"1",
+                            "difficulty":"2"
                         },
                         {   
-                            "id": 20,
                             "item": "Steel mail",
-                            "desc": "Chain and leather armor worn by guards and soldiers",
-                            "difficulty":"3",
-                            "absorb":"2"
+                            "desc": "Chain and leather armor worn by guards and soldiers; absorbs 2 damage from physical attacks",
+                            "type":"Armor",
+                            "props":"1",
+                            "difficulty":"3"
                         },
                         {   
-                            "id": 21,
-                            "item": "Steel plate *",
-                            "desc": "Heavy breastplate worn by the wealthiest and most foolhardy leaders",
-                            "difficulty":"4",
-                            "absorb":"3"
+                            "item": "Steel plate",
+                            "desc": "Heavy breastplate worn by the wealthiest and most foolhardy leaders; absorbs 3 damage from physical attacks",
+                            "type":"Armor",
+                            "props":"2",
+                            "difficulty":"4"
                         }
                     ]
                 },
@@ -6120,32 +6108,32 @@
                     "propType": "Shields",
                     "props":[
                         {   
-                            "id": 22,
                             "item": "Small metal shield",
-                            "desc": "Standard shield of soldiery",
-                            "difficulty":"1",
-                            "defense":"1"
+                            "desc": "Standard shield of soldiery; adds 1 die to defense rolls against physical attack",
+                            "type":"Shields",
+                            "props":"1",
+                            "difficulty":"1"
                         },
                         {   
-                            "id": 23,
                             "item": "Small wooden shield",
-                            "desc": "Sturdy shield carried by Lurchers; contains no metal",
-                            "difficulty":"2",
-                            "defense":"1"
+                            "desc": "Sturdy shield carried by Lurchers; contains no metal; adds 1 die to defense rolls against physical attack",
+                            "type":"Shields",
+                            "props":"1",
+                            "difficulty":"2"
                         },
                         {   
-                            "id": 24,
-                            "item": "Large metal shield *",
+                            "item": "Large metal shield",
                             "desc": "Used by cavalry and for ceremony",
-                            "difficulty":"2",
-                            "defense":"2"
+                            "type":"Shields",
+                            "props":"2",
+                            "difficulty":"2"
                         },
                         {   
-                            "id": 25,
-                            "item": "Large wooden shield *",
+                            "item": "Large wooden shield",
                             "desc": "Almost exclusively used by hazekillers; contains no metal",
-                            "difficulty":"3",
-                            "defense":"2"
+                            "type":"Shields",
+                            "props":"2",
+                            "difficulty":"3"
                         }
                     ]
                 },
@@ -6153,33 +6141,38 @@
                     "propType": "Animals, Mounts, & Vehicles",
                     "props":[
                         {   
-                            "id": 26,
                             "item": "Pet",
                             "desc": "Cats, dogs, and wolfhounds kept by the sentimental and wealthy",
+                            "type":"Animals, Mounts, & Vehicles",
+                            "props":"1",
                             "difficulty":"1"
                         },
                         {   
-                            "id": 27,
                             "item": "Cart",
                             "desc": "Two-wheeled cart used by laborers and craftsmen",
+                            "type":"Animals, Mounts, & Vehicles",
+                            "props":"1",
                             "difficulty":"1"
                         },
                         {   
-                            "id": 28,
                             "item": "Horse",
                             "desc": "Riding mount common to wealthy skaa, nobles, and military",
+                            "type":"Animals, Mounts, & Vehicles",
+                            "props":"1",
                             "difficulty":"2"
                         },
                         {   
-                            "id": 29,
                             "item": "Horse & carriage",
                             "desc": "Enclosed four-person vehicle favored by nobility",
+                            "type":"Animals, Mounts, & Vehicles",
+                            "props":"2",
                             "difficulty":"3"
                         },
                         {   
-                            "id": 30,
                             "item": "Barge",
                             "desc": "Main vehicle of commerce and military transport; may carry fifty men or five tons of cargo",
+                            "type":"Animals, Mounts, & Vehicles",
+                            "props":"N/A",
                             "difficulty":"4"
                         }
                     ]
@@ -6188,75 +6181,87 @@
                     "propType": "Tools",
                     "props":[
                         {   
-                            "id": 31,
-                            "item": "Banned book *",
+                            "item": "Banned book",
                             "desc": "Contains information on a topic banned by the Lord Ruler",
+                            "type":"Tools",
+                            "props":"2",
                             "difficulty":"3"
                         },
                         {   
-                            "id": 32,
                             "item": "Bottle of wine / ale",
                             "desc": "Popular with bon vivants of all classes; used for loosening tongues and inhibitions",
+                            "type":"Tools",
+                            "props":"1",
                             "difficulty":"1"
                         },
                         {   
-                            "id": 33,
                             "item": "Craftsman’s tools",
                             "desc": "Supports one occupation (e.g. carpentry, metallurgy, etc.)",
+                            "type":"Tools",
+                            "props":"1",
                             "difficulty":"1"
                         },
                         {   
-                            "id": 34,
                             "item": "Disguise",
                             "desc": "Helpful when concealing or impersonating one person’s identity",
+                            "type":"Tools",
+                            "props":"1",
                             "difficulty":"2"
                         },
                         {   
-                            "id": 35,
                             "item": "Formal clothing or jewelry",
                             "desc": "Useful when blending in at high society events like Imperial gatherings and balls",
+                            "type":"Tools",
+                            "props":"1",
                             "difficulty":"2"
                         },
                         {   
-                            "id": 36,
                             "item": "Lockpicks",
                             "desc": "Useful when picking locks",
+                            "type":"Tools",
+                            "props":"1",
                             "difficulty":"2"
                         },
                         {   
-                            "id": 37,
                             "item": "Medical supplies",
                             "desc": "Useful for treating wounds and during certain Mental Conflicts (see page 219)",
+                            "type":"Tools",
+                            "props":"1",
                             "difficulty":"2"
                         },
                         {   
-                            "id": 38,
                             "item": "Mistcloak",
                             "desc": "A symbol of a Mistborn’s station; useful when concealing oneself in the mists",
+                            "type":"Tools",
+                            "props":"1",
                             "difficulty":"2"
                         },
                         {   
-                            "id": 39,
                             "item": "Pocket watch",
                             "desc": "A popular symbol of wealth; keeps good time",
+                            "type":"Tools",
+                            "props":"1",
                             "difficulty":"2"
                         },
                         {   
-                            "id": 40,
                             "item": "Pen and blank book",
                             "desc": "Vital tools of the scribe",
+                            "type":"Tools",
+                            "props":"1",
                             "difficulty":"1"
                         },
                         {   
-                            "id": 41,
                             "item": "Rope and grapple",
                             "desc": "Helpful when climbing, crossing gaps, or binding someone",
+                            "type":"Tools",
+                            "props":"1",
                             "difficulty":"1"
                         },
                         {   
-                            "id": 42,
                             "item": "Writing steel",
                             "desc": "Thin sheets of steel for inscribing sacred information, which cannot be altered by metaphysical powers (such as Ruin)",
+                            "type":"Tools",
+                            "props":"1",
                             "difficulty":"2"
                         }
                     ]
@@ -6265,39 +6270,48 @@
                     "propType": "Implements",
                     "props":[
                         {   
-                            "id": 43,
                             "item": "Atium bead",
                             "desc": "Allows kandra to imitate one specific person or animal",
+                            "type":"Implements",
+                            "props":"N/A",
                             "difficulty":"5"
                         },
                         {   
-                            "id": 44,
                             "item": "Bones (1 set)",
                             "desc": "Allows kandra to imitate one specific person or animal",
+                            "type":"Implements",
+                            "props":"1",
                             "difficulty":"3"
                         },
                         {   
-                            "id": 45,
                             "item": "Metalminds (3)",
                             "desc": "Each metalmind allows a Feruchemist (only) to store in and tap from one metal: Brass, Bronze, Copper, Iron, Pewter, Steel, Tin, or Zinc; each single metalmind Prop consists of three physical metalminds, each of one different metal",
-                            "difficulty":"3"
+                            "type":"Implements",
+                            "props":"1",
+                            "difficulty":"3",
+                            "note":"The Narrator may allow you to choose from a broader selection of metals if more have been discovered. This availability may depend on when your story occurs or other factors if your narrative diverges from what’s presented in the novels. Choosing these items may reduce your maximum Props by 1 or even 2 if the Narrator determines that these additional metals are particularly powerful or scarce, such as Duralumin."
                         },
                         {   
-                            "id": 46,
-                            "item": "Misting vial *",
+                            "item": "Misting vial",
                             "desc": "Contains 3 charges of Brass, Bronze, Copper, Iron, Pewter, Steel, Tin, or Zinc (choose only one metal)",
-                            "difficulty":"1"
+                            "type":"Implements",
+                            "props":"1",
+                            "difficulty":"1",
+                            "note":"The Narrator may allow you to choose from a broader selection of metals if more have been discovered. This availability may depend on when your story occurs or other factors if your narrative diverges from what’s presented in the novels. Choosing these items may reduce your maximum Props by 1 or even 2 if the Narrator determines that these additional metals are particularly powerful or scarce, such as Duralumin."
                         },
                         {   
-                            "id": 47,
-                            "item": "Mistborn vial *",
+                            "item": "Mistborn vial",
                             "desc": "Contains 1 charge of Brass, Bronze, Copper, Iron, Pewter, Steel, Tin, and Zinc (1 charge of each metal)",
-                            "difficulty":"2"
+                            "type":"Implements",
+                            "props":"1",
+                            "difficulty":"2",
+                            "note":"The Narrator may allow you to choose from a broader selection of metals if more have been discovered. This availability may depend on when your story occurs or other factors if your narrative diverges from what’s presented in the novels. Choosing these items may reduce your maximum Props by 1 or even 2 if the Narrator determines that these additional metals are particularly powerful or scarce, such as Duralumin."
                         },
                         {   
-                            "id": 48,
                             "item": "Sack of copper clips / set of horseshoes",
                             "desc": "Coins or other metal objects used by Coinshots and Mistborn for Steeljumping or as weapons (Damage: +1; Min / Max Range: Striking / Medium)",
+                            "type":"Implements",
+                            "props":"1",
                             "difficulty":"1"
                         }
                     ]
@@ -11728,6 +11742,234 @@
                     "description":"You’ve trained in taming and caring for animals in the harsh conditions of the Roughs. When you’re riding a horse or other animal, you don’t suffer adverse conditions from its motion. You gain an additional die on checks for calming or controlling animals. Lastly, you own a stable of animals. During a Breather, you can bring out enough horses to carry you, the rest of your Crew, and up to one companion."
                 }
             ]
+        }
+    ],
+    "lore":[
+        {
+            "reference":"Overview",
+            "opening":"Scadrial at the time of The Alloy of Law has changed dramatically since the time of Vin, Sazed, Kelsier, and Elend. Gone are the red skies, barren lands, and constant ashfalls that blot out the sun, replaced now with blue skies, lush plants, and pleasant weather similar to our own world. Gone are the Lord Ruler, the Steel Ministry, and its Steel Inquisitors, replaced by a government of freely-elected officials, constabulary, and lawkeepers all dedicated to protecting, rather than oppressing, the people. Gone is the systematic repression of technological and intellectual progress, now replaced with thriving industry, scholarship, art, and culture — and all the benefits that come with it. Gone are the brutal social and ethnic divides amongst Scadrial’s inhabitants, who now can intermingle, interact, and intermarry as their lives and love guide them. \n\n Yet despite these changes, there is much that has not changed about this land over the last three centuries. As darkness falls, mist still rises from the streets to cloak those who prowl them in mystery. Men with power still scheme and betray, seeking to line their pockets through the labors of others. A lucky few can still harness the powers of Allomancy or Feruchemy — sometimes both. A great and untamed wilderness surrounds the cities, where men and women still struggle to find a life or make a living. Koloss tribes — though freed from the will of the dark god Ruin — still prowl the remote plains, now living off the land and wandering at the fringes of society rather than invading it. Mysterious shapeshifters known as the Faceless Immortals still inhabit the dreams of children, and the thoughts of those who have seen something beyond the ken of mortals. And secrets are still dangerous, whether they are used as weapons, as protection, or as tools to turn the world upside down.",
+            "lands":{
+                "intro":"Harmony’s remaking of the world has radically changed the landscape of Scadrial from the times of the Lord Ruler. After moving Scadrial into a better cosmic location, Harmony was able to do away with many of the natural features the Lord Ruler had created to keep the planet from dying: ashmounts were flattened, the skies and seas were cleared of ash, and hardy brown plants were replaced with lush green vegetation. These changes — though they might seem small — have fundamentally shifted the way modern Scadrians live, work, and grow as a people and a society.",
+                "basin":{
+                    "name":"The Elendel Basin",
+                    "info":"Civilization is now centered in the Elendel Basin, located in the former Southern Dominance of the Final Empire. The Basin is a land of plenty, located much closer to the equator than the Final Empire; it’s adjacent to the sea, where the natural watershed from the mountains provides ample water and fertile soil for farming. The Basin was the nursery for the infant society of the Originators, and the breast which nursed its exceptional recovery and growth. \n\n Amongst the fertile farmland, seventeen cities grow. Chief among them is Elendel, the Cradle of Light, which sits on the shores of the Yomend Sea. Blessed with an industrious population and abundant resources, it forms a hub of trade and commerce for the entire Basin. Other cities have advanced along similar lines: their forms of government vary, but all of them benefit from prosperous trade and rapidly evolving technology. The Irongate River — a massive waterway originating in the Faleast Mountains — cuts the Basin neatly in two, facilitating travel and trade as well as providing plentiful fishing. \n\n Three mountain ranges surround the Basin, forming an almost perfectly circular barrier. The Channeral Range sits in the northwest, the Faleast Range in the northeast, and the Seran Range in the southeast. Two seas, the Yomend and the Lennes, form the Basin’s western border. All three mountain ranges offer abundant mineral resources, and a fair number of mining towns have sprung up among their peaks (along with the occasional trapper or hermit who travels there for the solitude). \n\n Those wishing to journey beyond the mountains have two basic options: the great Northern Gap sits between the Faleast and Channeral ranges, while the wider Ascendant Valley opens up between the Seran ranges and the sea. Both lead into the Roughs beyond the mountains, and feature railway lines into the more civilized corners.",
+                    "image":"./assets/Basin.PNG"
+                },
+                "roughs":{
+                    "name":"The Roughs",
+                    "info":"The lands beyond the mountains are dominated by the frontier region known as the Roughs: harsh terrain of barren deserts, broken hills, and the occasional marshlands, all entirely bereft of the Basin’s renowned bounty. Rain rarely falls here, and crops only grow through a lot of hard work and careful tending — but for the industrious and unscrupulous, there are fortunes to be found as well. \n\n Out of this rugged landscape, several communities and townships have sprung up, often without law enforcement or any semblance of government. Often, the only law in these hardscrabble communities is “might makes right,” as bandit gangs prey on unwary travelers and justice is doled out with the barrel of a gun. The line between good men and bad is often drawn in the thinnest of terms out in the Roughs, and sometimes it vanishes entirely. But even this imperfect place, dominated by petty desires and the great evils that spring from them, carries the potential for great futures and even greater heroism."
+                },
+                "wilds":{
+                    "name":"The Wilderness",
+                    "info":"Beyond the Basin and the Roughs, there are still many other frontiers that are yet to be truly explored and understood. These uncharted lands — ranging from the peaks of the mountains to the expanses of the seas — are filled with strange and dangerous beasts both real and imagined, and only the bravest and most foolhardy of Scadrians have dared to discover their secrets."
+                }
+            },
+            "people":{
+                "intro":"Perhaps the greatest changes to Scadrial after the events of the original Mistborn trilogy have been to the people — physically, mentally, spiritually, and socially. The genetic differences between skaa and noble and Terrisman — upheld for nearly a thousand years through the Lord Ruler’s careful planning — are essentially gone, thanks to intermarriage, economic opportunity, and social blending. All people are free to come together as they choose, be it through religious belief, business interests, shared politics, romantic entanglement, or ideas. Most importantly, the strict caste system that defined the Final Empire’s society has been erased, replaced by a much more egalitarian class system. While not everything is as good as it could be — prejudice and misunderstanding are still part of human nature — things are far better for modern Scadrians than they have ever been before.",
+                "history":{
+                    "name":"History",
+                    "info":"For people in The Alloy of Law era, history began with Harmony’s Final Ascension and remaking of the world — the Origin. Those who survived the tumultuous years that preceded it emerged to rebuild civilization, based on his Words of Founding. Together, the Originators founded cities, engaged in trade, and established new forms of government to rule their population. \n\n Naturally, conflicts arose between various factions, as personal ambitions and the desire for more territory tested the population’s unity. The fertility of the Basin limited the need to compete for resources, but some power hungry leaders saw the remade world as a chance to start a new empire, while others allowed festering resentments and perceived slights to boil over into open hostility. Conflicts flared throughout the first century of the new era, as growing city-states jockeyed for position and supremacy. \n\n They eventually settled into the system that now stands: cities with stable borders, interlinked in a series of mutually beneficial alliances. Commerce triumphed over territoriality. A complex series of treaties and agreements bound the cities together, creating stability and allowing technological advancement to flourish. By and large, the squabbles and attacks that defined the early years have vanished. \n\n With peace and prosperity came the need to explore this brave new world, particularly the Roughs beyond the great mountain ranges. Most of the hardy pioneers who first ventured there were never heard from again, but gradually more settlers arrived. Towns sprang up, railway lines appeared, and real government began to claim small areas from the gangs and bandits who previously ruled. \n\n Today, Scadrial has settled into a largely stable society, with an acknowledged social order, economy, and territory. Conflict erupts over resources, class strife, and economic disputes from time to time, but for modern citizens, history — and their future — is what they choose to make of it.",
+                    "legends":{
+                        "title":"Legends of Scadrial",
+                        "info":"Many of the heroes of the original Mistborn trilogy have become legends by the time of The Alloy of Law, mythic figures enshrined in the new religions and history of the world. Here’s a quick guide to some of the aliases these heroes and times are now known by:",
+                        "points":[
+                            {
+                                "name":"Vin,",
+                                "desc":"the Ascended Warrior, the Lady Heir"
+                            },
+                            {
+                                "name":"Breeze,",
+                                "desc":"the Counselor of Gods"
+                            },
+                            {
+                                "name":"Sazed,",
+                                "desc":"the Hero of Ages, Harmony."
+                            },
+                            {
+                                "name":"Elend Venture,",
+                                "desc":"the Last Emperor"
+                            },
+                            {
+                                "name":"Spook,",
+                                "desc":"the Survivor of Flames, Lord Mistborn"
+                            },
+                            {
+                                "name":"Kelsier,",
+                                "desc":"the Survivor, Survivor of Hathsin, Lord of the Mists"
+                            },
+                            {
+                                "name":"The Era of the Final Empire",
+                                "desc":"now referred to as the World of Ash"
+                            }
+                        ]
+                    }
+                },
+                "classes":[
+                    {
+                        "one":"The Nobility",
+                        "two":"At the top of Scadrian society stand the noble families, those whose ancestors thrived and who established their Houses among the elites. As in the days before the Collapse, it is they who by and large control land, business, and wealth, and thus the reins of power. They sit on the cities’ councils, make deals to build their wealth, form alliances to protect their interests, and scheme against their enemies in the elaborate web of politics that has continued for thousands of years. \n\n But the nobility of the modern day is a far cry from what it was in the time of the Lord Ruler. While many famous Houses from the pre-Origin days managed to survive into modern times, their prestige is no longer simply an extension of legal, genetic, and magical superiority. Nor is the power of Allomancy exclusively their birthright — in fact, magical ability is a vital part of all levels of society (see page 156). Though their positions afford them great comfort and means, nobles are subject to the same laws as common folk — the times of tormenting weaker people, or each other, with impunity are over… for the most part. \n\n Despite the necessities of realpolitik, not all nobles are selfish. Many of them understand their obligation to society, with thousands of workers and others of the underclass dependent upon their actions. Many more believe that their station offers opportunities to improve society, and a tradition of patronage for promising artisans, engineers, and craftspeople has become a widespread phenomenon."
+                    },
+                    {
+                        "one":"The Middle Class",
+                        "two":"While the nobility still exist in this new Scadrial, the same cannot be said for the skaa. The erstwhile laboring people of the world have been restored by Harmony to greater equality; now, common people are “common” because of the circumstances of their lives, rather than legal, economic, or social inferiority. This new space for opportunity has allowed those with skill and ambition to raise themselves up, far beyond the dreams of their skaa forbears. \n\n Since the Lord Ruler’s fall, a skilled middle class has arisen, thanks to new educational and vocational opportunities available in the cities. Craftspeople, entrepreneurs, inventors, and merchants have become the engine driving Scadrial’s technological revolution as they hone and expand their craft. At the same time, the freedom of expression enjoyed by clergy, scholars, and artists has allowed them to explore new ways of thinking and build a more progressive and just society. With this prosperity comes wealth and comfort; these innovators make up a new middle class that enjoys the rewards of their hard work in a way never afforded to the skaa. \n\n More importantly, the success of the growing middle class has allowed them to challenge the traditional roles of the nobility. Many city councils now offer seats to the representatives of various trade unions, while some individuals become powerful enough to claim seats on the council through their own influence. Some even more ambitious personalities seek loftier goals, hoping to use their success to found new noble Houses and catapult themselves far beyond their birth. Such aspirations do not go unnoticed by established Houses, and more than one such enthusiastic commoner have found their reputations and livelihoods quickly and brutally under assault by those who seek to maintain the status quo."
+                    },
+                    {
+                        "one":"The Lower Class",
+                        "two":"Unfortunately, even in a world of progress, there are still those who are left behind. The growing gaps between rich and poor, powerful and powerless have swallowed up many common folk who find the ideals put forth in the Words of Founding slowly going by the wayside. Those born with little money and few prospects must toil in mills, factories, and farms for a pittance, often living crammed in the teeming and crime-infested slums of the cities. \n\n For many of these poor souls, the easiest way out is to join the bandit gangs preying upon people like themselves, or to scrape together enough money for a ticket to the Roughs and a fresh start. Nevertheless, even the most destitute and desperate citizens live lives far richer and safer than those of the skaa who preceded them."
+                    },
+                    {
+                        "one":"Roughs Folk",
+                        "two":"Those who wish to escape the bounds of “proper” Scadrian society can follow a third way — heading out into the wilderness of the Roughs. These enterprising folk come from all walks of life: some are poor, others are rich; some come seeking a new life, while others are running from an old one; some seek adventure, and others simply want a quiet life and a small piece of land to call their own. \n\n What binds them all together is a spirit of independence, ingenuity to make do without help, and the toughness to carve out their own destiny. City folk consider Roughs-dwellers coarse, ill-mannered, insular, suspicious, or blunt…and to a degree, they’re right. Life in the Roughs is dangerous, under perpetual threat by wild animals, drought, bandits, koloss, and disease, and all the Roughs folk have is each other, for better or worse. For those strong and smart and resolved enough, however, the Roughs offer a unique opportunity to forge their own paths as they see fit."
+                    }
+                ],
+                "lingo":{
+                    "part1":"Just as the world of Mistborn has changed in the last 300 years, so has its slang. Here are some common words and phrases from this period: ",
+                    "points":[
+                        {
+                            "name":"Bad alloy:",
+                            "desc":"an ill omen, bad guy"
+                        },
+                        {
+                            "name":"Bleeder (derog.):",
+                            "desc":"a full koloss"
+                        },
+                        {
+                            "name":"Broadsheet boy:",
+                            "desc":"a newspaper boy, an innocent kid; also used sarcastically to refer to someone who states the obvious"
+                        },
+                        {
+                            "name":"Certain/special alloy:",
+                            "desc":"of high quality; a cut above (eg., 'That Bessie, she's a shooter of a certain alloy, eh?')"
+                        },
+                        {
+                            "name":"Conner:",
+                            "desc":"a constable; occasionally used to refer to lawkeepers by city folk"
+                        },
+                        {
+                            "name":"Full of ash:",
+                            "desc":"lie or exaggerate (e.g., 'Koloss? Here? You're full of ash!')"
+                        },
+                        {
+                            "name":"Get thunder:",
+                            "desc":"catch grief or be berated (e.g., 'When Tan finds out I crashed his new horseless carriage, I'm gonna get thunder.')"
+                        },
+                        {
+                            "name":"Git (derog.):",
+                            "desc":"a stupid, annoying, or childish person"
+                        },
+                        {
+                            "name":"Hard ore:",
+                            "desc":"a tough guy"
+                        },
+                        {
+                            "name":"Levergun:",
+                            "desc":"a repeating rifle"
+                        },
+                        {
+                            "name":"Mate, matey:",
+                            "desc":"friend, buddy (of either gender)"
+                        },
+                        {
+                            "name":"'Melt it down and forge it':",
+                            "desc":"get to the truth or core of a matter"
+                        },
+                        {
+                            "name":"Nugget:",
+                            "desc":"head"
+                        },
+                        {
+                            "name":"'Old habits make for strong steel':",
+                            "desc":"old habits are hard to break"
+                        },
+                        {
+                            "name":"Old Ironeyes:",
+                            "desc":"death"
+                        },
+                        {
+                            "name":"'With a pinch of copper':",
+                            "desc":"view something skeptically, or not take it literally"
+                        },
+                        {
+                            "name":"'Pound a brittle metal':",
+                            "desc":"belabor a point or touch a sore subject"
+                        },
+                        {
+                            "name":"'Rest with the Hero':",
+                            "desc":"rest in peace"
+                        },
+                        {
+                            "name":"Ruin, ruination:",
+                            "desc":"damn, damnation (e.g., 'Ruin these gits!')"
+                        },
+                        {
+                            "name":"'Rust and Ruin!':",
+                            "desc":"'Hell and damnation!'"
+                        },
+                        {
+                            "name":"Rusting (adj.):",
+                            "desc":"damned, worthless (e.g., 'This rusting pistol always jams!')"
+                        },
+                        {
+                            "name":"Scattergun:",
+                            "desc":"shotgun"
+                        },
+                        {
+                            "name":"'Shake hands with Ironeyes':",
+                            "desc":"to come to the end, to die"
+                        },
+                        {
+                            "name":"Slowboy (derog.):",
+                            "desc":"moron, ignoramus"
+                        },
+                        {
+                            "name":"'True as titanium':",
+                            "desc":"a sure bet, an absolute truth"
+                        },
+                        {
+                            "name":"Wheelgun:",
+                            "desc":"a revolver"
+                        }
+                    ],
+                    "part2":"There are also a number of religious exclamations and curses, with their roots in Scadrial’s new religions: ",
+                    "points2":[
+                        {
+                            "point":"'Damn you to Ironeyes's tomb!'"
+                        },
+                        {
+                            "point":"'Oh, Lord Harmony!'"
+                        },
+                        {
+                            "point":"'Hero help (you/me/us!)'"
+                        },
+                        {
+                            "point":"'Preservation's Wings!'"
+                        },
+                        {
+                            "point":"'Survivor above!'"
+                        },
+                        {
+                            "point":"'By the Survivor's (scar/spear)!'"
+                        },
+                        {
+                            "point":"'What in the Survivor's deadly name!'"
+                        }
+                    ]
+                },
+                "terris":"Approximately one-fifth of the Originators were Terrisfolk who lived through the apocalypse and became heirs to the Terris legacy of struggle and survival. From those meager few, Terris culture has become stronger than it has ever been, now both fully accepted by, and integrated with, everyday society. \n\n The thought of gelded Terrismen living in absolute servitude to the nobility is now a distant and unpleasant memory; today, Terrisfolk ply their trade as scholars, advisors, spiritual guides, and servants — as they have done since the days before the Origin — as well as farmers, craftspeople, artists, politicians, and constables. The influence of Terris culture can be seen everywhere: in popular fashion, in traditions of scholarship and stewardship, and particularly in the spread of Feruchemical abilities in the populace (see Ferrings, page 167). \n\n But this integration is balanced with the Terris desire to retain a distinct ethnic identity; as Scadrial’s oldest surviving culture, some see Terris ways as something they’re responsible for preserving, while others take them as a birthright. The mountains and hills surrounding the Basin are filled with small Terris enclaves, where more insular Terrisfolk choose to keep to the old ways far from the cities. Marriages between Terris and those of non-Terris descent still remain an uncommon occurrence, though the trend is gradually shifting as more and more Terris youth seek adventure and fortune among the greater Scadrian society.",
+                "kandra":"The end of the Lord Ruler and the calamity that followed also marked the end of the Contract, setting the kandra adrift after ten centuries of servitude. Those that sheltered with the last vestiges of humanity during the Final Ascension survived to see the rebirth of the world, but mysteriously disappeared shortly thereafter. Many of their fellow Originators thought the kandra might have died off, but there are rumored sightings of these strange creatures even today. Modern folk call these mysterious beings the Faceless Immortals, and they are believed to be servants of Harmony himself. An encounter with a Faceless Immortal is exceedingly rare in the modern day, for they only appear to those who need their assistance most. Those who ignore the Immortals’ divine messages do so at the most dire peril.",
+                "koloss":"Perhaps the most dramatic changes to any of Scadrial’s races during the Origin came to the koloss. Most of the koloss hordes the Lord Ruler used as terror troops were slain by Elend during the Final Ascension, but a choice few — including the koloss Human and his horde-mates — sheltered with the rest of the Originators. Harmony made them true-breeding to give them a chance at a more normal life, and freed them of their slavery by Ruin to choose their own destiny. \n\n In the three centuries since, koloss have become an accepted — if not always fully accepted — part of Scadrian society. The koloss now live in tribes, primarily in the Roughs, where they live a far less violent lifestyle than their ancestors. Those born to koloss parents, or with koloss heritage, often have a faint grey or blue cast to their complexion and are known as koloss-blooded. \n\n Most koloss-blooded live their entire lives in the tribes, accepting their iron spikes when they come of age to become “full” koloss, but many others choose to leave their tribes to live amongst humans. Some rare koloss-blooded can even inherit the power of Allomancy or Feruchemy, making for truly terrifying foes…or powerful allies."
+            },
+            "tech":"Scadrial has made tremendous strides in terms of technology since the times of the Final Empire. Once the Lord Ruler’s restrictions on technology and progress lifted, humanity was once again free to explore science and technologies that could improve their lives and economy. \n\n Money is one of the few things that hasn’t changed much in modern times (save for the fact that atium is now the stuff of legend, much less part of the economy). Most currency is issued from the Central Bank of Elendel, and comes in three denominations: coppers, or minted coins, are the smallest and most common form of currency (much like the Imperial clip); notes, or paper money, are used for larger transactions; and bars, typically made of gold, are the largest denomination. Pure metal bullion, particularly of rare or highly useful metals like Aluminum, Bendalloy, Electrum, or Nicrosil, is also a popular trade commodity. \n\n Modern Scadrial’s technology has advanced to a point very similar to that of Europe or North America in the mid-to-late 19th century. Industrialization is now widespread, and goods can be manufactured on a massive scale. Railways packed with steam-powered locomotives crisscross the land, allowing people and goods to move nearly anywhere quickly and efficiently. Revolvers and repeating rifles are now commonplace, and rotary guns and explosives are changing the face of conflict. \n\n Most cities in the Basin have paved or cobblestone streets, gas lighting, and sometimes even electric power. Horseless carriages and automobiles are new and exciting inventions that herald the promise of a bright future. \n\n The average citizen has reaped the fruits of these advancements. Homes are heated and dry, and the availability of electricity and gas are radically changing the comfort and convenience of life. Most people can travel cheaply and (comparatively) safely whenever they wish, thanks to the prominence of rail travel, and improved trade routes give normal folks greater access to fresh food and valuable trade goods. New inventions such as the phonograph, the typewriter, and the photographic camera continue to improve day-to-day life. Factories have recently moved to automation of many tasks, creating even more skilled jobs and higher-quality products at lower prices for all. \n\n Beyond mundane technologies, magic has also found its place in technology and business. With mass production of goods now common, vital implements such as purified metals and inexpensive metalminds suited for use in Allomancy and Feruchemy have become more widely available. Enterprising engineers have also developed new tools for augmenting Allomantic powers (such as gliding wings for granting Coinshots limited flight), or countering them (such as Aluminum bullets that cannot be Pushed or Pulled, or Aluminum-lined hats that deaden emotional Allomancy).",
+            "law":"The end of the Lord Ruler’s iron-fisted reign has had one very palpable downside: the rise of the criminal element. During the days of the Final Empire, thieving crews were often folk heroes whose daring raids on noble Houses and the centers of power served the cause of justice (at least tangentially). But with the absence of a vastly unfair social system, the Steel Ministry, and the ever-watchful eyes of its Obligators, crime has flooded back to fill in the cracks. In the cities, organized gangs battle the law and each other for control of such rackets as metal forgery, robbery, weapons smuggling, and extortion. \n\n In the Roughs, bandit crews sometimes operate like virtual kings, raising armies of goons, capturing mining and industrial operations, and even taking over entire towns. Fortunately, there are men and women willing to oppose thugs no matter where they operate. In the cities, law enforcement is typically the purview of the constabulary, which combines the functions of the old city watch with new and increasingly sophisticated investigative skills. Constables (also known as “conners”) patrol the streets, maintain public order, and respond to crimes and emergencies in progress. \n\n In Elendel and other larger Basin cities, new “consulting investigators” have joined the fight, specializing in applying logic and existing evidence to pinpoint suspects and apprehend them before they can strike again. In the Roughs, justice is administered by the lawkeepers: sheriffs fighting to keep the peace by any means at their disposal. Unlike constables, lawkeepers don’t answer to any central authority: while some stay in one place, most are roving defenders of order, working in conjunction with multiple municipalities to deal with whatever problems may arise. Some less charitable individuals are scarcely more than bounty hunters, perfectly willing to let a community suffer if it can’t scrape together the necessary notes. No matter the particulars of a lawkeeper’s ethics, in the Roughs each is the face of the law — which means they often play judge, jury, and executioner as the need arises.",
+            "belief":"During his thousand-year reign, the Lord Ruler went to great lengths to stamp out all forms of religion and faith. Countless beliefs were ruthlessly snuffed out, their practitioners executed, and their holy texts burned. The diligent efforts of Terrisfolk across the globe — acting in secret and often at great risk to their own lives — preserved the tenets of some of these religions, but the rest were lost to the sands of time, casualties of the Lord Ruler’s tyranny. \n\n The events surrounding the Lord Ruler’s demise led to the rise of several new forms of religion, which flourished and spread in the centuries that followed. Today, many of those early faiths constitute the primary forms of worship in the world, practiced by fanatics and secular adherents alike. The Church of the Survivor enshrines the words, deeds, and schemes of Kelsier, the Survivor of Hathsin; it emphasizes self-sufficiency, independent thought, and a reverence for the mists. The Path arose from the teachings of Harmony, and instructs its faithful, Pathians, to simply leave the world a better place than they found it and to regularly reflect on their place in it. Other faithful may cleave to the ancient dogmas of Trellagism, the secretive dark faith Sliverism, or Trellism’s upholding of exceptional people — especially Twinborn.",
+            "beasts":"Though the world of The Alloy of Law has changed radically, Harmony did not see fit to wipe any living creature from existence entirely — only to make whole that which wasn’t. For example, one of the greatest “monsters” of the World of Ash, the koloss, are no longer the mindless engines of destruction they once were, and now have something recognizable as a society (see page 259). \n\n Mistwraiths also have a place in the new world, living on the fringes of the Roughs as scavengers and occasionally apex predators. While their terrifying reputation has diminished somewhat along with popular fear of the mists, a feral mistwraith remains a brutal opponent that even the largest gun or most powerful Twinborn will struggle to take down. \n\n Aside from these more exotic beasts of the bygone world, the remade Scadrial is also home to many animals that died off in the Lord Ruler’s world. Mountain cats, bears, predatory birds, snakes, and other dangerous critters present a danger that, while not as memorable as mistwraiths, can easily fell the unwary.",
+            "magic":"Magic is a hallmark of Scadrian society; with the dissolution of the Final Empire, those with a talent for the Metallic Arts (also known as metalborn) were able to come out of the shadows and use their gifts without fear. The Originators included Allomancers, Feruchemists, and even Hemalurgic creatures, and they rebuilt their world as one where magic was not only accepted, but harnessed for the greater good of their fledgling society. \n\n But magic has definitely changed in the last 300 years. The Mistborn and Keepers, who could use the full spectrum of Allomancy and Feruchemy respectively, are now a memory, thanks to the interbreeding of Scadrial’s people and dilution of the magical bloodlines. Nearly all metalborn are either Mistings, who can use one Allomantic power, or Ferrings, who can use one Feruchemical power. Some can use both; these rare individuals are known as Twinborn. \n\n The upside of these changes is that the Metallic Arts are now available to people at all levels of society, and are writ large in all walks of life. Many business ventures depend upon Coinshot couriers, Pewter-using laborers, Lurcher bodyguards, Copper-tapping clerical workers, and so on to achieve their goals. Political leaders are always on the lookout for Rioters and Soothers lurking at the edges of campaign rallies and protests, and employ Smokers to protect their own interests. University students seek out Slider study partners to squeeze in a little more practice time before the big exam, Duralumin-tapping salesmen use their powers of connection to close deals, Bronze-burning constables seek out rogue Misting criminals, and Brass-tapping firefighters use their powers to walk through the flames relatively unscathed. The fact that a poor man is as likely as a noble to discover magical talents has provided new opportunity for those willing to use those gifts to raise themselves up and achieve great things, regardless of their birth."
+        },
+        {
+            "title":"The Basin"
+        },
+        {
+            "title":"The Roughs"
         }
     ]
 }
