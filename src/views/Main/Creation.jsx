@@ -33,7 +33,7 @@ function Creation(props) {
             { myPage === 0 && <Starting create={props.creation[0]}/> }
             { myPage === 1 && <Samples era1={props.creation[1].era1Samples} era2={props.creation[1].era2Samples} rogues={props.rogues}/> }
             { myPage === 2 && <Build start={props.creation[3]} building={props.creation[4]}  propped={props.propped} built={props.creation[6]} /> }
-            { myPage === 3 && <Improvement improvement={props.creation[5]} /> }
+            { myPage === 3 && <Improvement improvement={props.creation[5]} alloy={props.creation[7]} /> }
         </div>
         
     </>
