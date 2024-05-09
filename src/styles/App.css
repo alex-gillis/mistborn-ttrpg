@@ -74,6 +74,10 @@ header {
   word-spacing: normal;
 }
 
+#better {
+  font-size: large;
+}
+
 #bold {
   font-weight: bolder;
 }

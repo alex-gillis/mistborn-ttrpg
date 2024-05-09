@@ -15,16 +15,6 @@ function Elendel(props) {
       </div>
       <h2>Crime & Policing</h2>
       <div>{props.info.elendel.part2}</div>
-      <h2>Influential Groups</h2>
-      <div>{props.info.elendel.part3}</div>
-      <div>
-        {props.info.elendel.groups.map((section, index) => (
-            <div key={index}>
-                <br/>
-                <span id="bold">{section.name}</span> {section.desc}
-            </div>
-        ))}
-      </div>
       <h2>Notable Locations</h2>
       <div>{props.info.elendel.part4}</div>
       <div>
