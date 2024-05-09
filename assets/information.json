@@ -5312,6 +5312,122 @@
                     "part2":"Unsure where you might want to take your backstory? No problem. Jot down some ideas and keep them to yourself. Just be sure not to reveal them until you’re ready, as anything committed to the ongoing communal story becomes true fact — unless of course it’s a lie, or a misperception, or it leads to an unexpected secret. There’s always another secret..."
                 }
             }
+        },
+        {
+            "id":7,
+            "intro":"Just as Wax grew from a rebellious young nobleman into the Roughs-famous lawkeeper Waxillium Dawnshot, Wayne discovered he was not only a Bloodmaker Ferring but also a Slider Misting, or Marasi graduated from naïve student to accomplished young adventuress, so too will your Alloy of Law Hero grow and change over his or her career. \n\n Advancements in Alloy of Law stories are earned and spent exactly as Era 1 of the Mistborn Adventure Game rulebook. However, the improvements available to Heroes are significantly different: new metals (and the corresponding powers) have been discovered; the secrets of Hemalurgy have become even more obscured by time; new technologies have come to the fore, followed closely by the skills to use them; the Mistborn no longer exist, but Twinborn and Ferrings do.",
+            "advancements":{
+                "part1":"In the era of The Alloy of Law, there are several new types of improvements that players can purchase for their Heroes. All available improvements are listed in this chapter; the following table replaces the one found on page 122 of the Mistborn Adventure Game rulebook.",
+                "table":[
+                    {
+                        "one":"Change a Trait",
+                        "two":"2",
+                        "three":"Replace an existing Trait with a new one (of the same type if the old Trait is your Hero’s Drive, Profession, Specialty, Feature, or Personality)"
+                    },
+                    {
+                        "one":"Gain a new Stunt",
+                        "two":"4",
+                        "three":"Add a gunplay or gunsmithing Stunt to any character; an Allomancy or Allomantic shot Stunt to an Allomancer; a Feruchemical shot Stunt to a Feruchemist; a koloss-blooded Stunt to a koloss-blooded character; a Twinborn Stunt to a Twinborn; or a Compounding Stunt to a Twinborn who can use the same metal for both Allomancy and Feruchemy."
+                    },
+                    {
+                        "one":"Gain a new Trait",
+                        "two":"4",
+                        "three":"Add a new Trait to your Hero"
+                    },
+                    {
+                        "one":"Increase one Attribute",
+                        "two":"5",
+                        "three":"Increase your Hero’s Physique, Charm, or Wits by 1 die (maximum 6 dice)"
+                    },
+                    {
+                        "one":"Increase one Standing",
+                        "two":"5",
+                        "three":"Increase your Hero’s Influence, Resources, or Spirit by 1 die (maximum 10 dice)"
+                    },
+                    {
+                        "one":"Recover from a Mortal Burden",
+                        "two":"6",
+                        "three":"Ease one Mortal Burden to Grave"
+                    },
+                    {
+                        "one":"Increase Power rating",
+                        "two":"6",
+                        "three":"(Allomancers and Feruchemists only) Increase your Hero’s Allomancy rating with 1 metal by 1 (maximum 10), or your Hero’s Feruchemy rating with 1 metal by 1 (maximum 10)"
+                    },
+                    {
+                        "one":"Become a Misting savant",
+                        "two":"10",
+                        "three":"(Mistings with Allomancy rating 7+ only) Add the Savant ability for your Hero’s metal"
+                    },
+                    {
+                        "one":"Snap into a Misting",
+                        "two":"10",
+                        "three":"(Humans or koloss-blooded without Powers only) Become a Misting with an Allomancy rating of 4 in one metal"
+                    },
+                    {
+                        "one":"Become a Ferring",
+                        "two":"10",
+                        "three":"(Humans or koloss-blooded without Powers only) Become a Ferring with a Feruchemy rating of 4 in one metal"
+                    },
+                    {
+                        "one":"Become a Twinborn",
+                        "two":"15",
+                        "three":"(Humans or koloss-blooded with Allomancy or Feruchemy only) Gain the ability to use Allomancy or Feruchemy (whichever the character does not already possess) with a rating of 3 in one metal."
+                    },
+                    {
+                        "one":"Gain a Hemalurgic Spike",
+                        "two":"Varies",
+                        "three":"Add a Hemalurgic spike and its Power or benefits, plus its drawbacks"
+                    }
+                ],
+                "part2":"As in the Mistborn Adventure Game rulebook, you may make one (and only one) improvement to your character during each Long Breather. The Narrator must approve any improvement before you can add it to your Hero, but once he or she does you can simply erase a number of Advancement ticks equal to its cost and add the improvement to your character sheet. Keep reading for instructions when adding each improvement.",
+                "brandon":"Alloy of Law isn’t the only supplemental book for the Mistborn Adventure Game — as time passes, more supplements will become available which will also add new options for your Hero. The good news is very little is truly “gone” from Scadrial after Harmony’s remaking of the world, and character options from the time of the Lord Ruler could likely survive into the modern day…if they make sense for your character and story, of course. \n\n For example, Terris: Wrought of Copper contains a number of Advancements, including Stunts and Networks, which are designated as “Terris only.” Characters who have Feruchemical ability (which derives from the Terrisfolk), who chose Terris as their race, or whose background ties to Terris culture could all feasibly choose from these Stunts because of close ties or genetic traits they share with the Terrismen of old, provided the Narrator approves. The Networks (which tie to the Terris Synod and Resistance), on the other hand, have little pertinence in The Alloy of Law era, and so likely would be excluded by the Narrator",
+                "example":"Example: Parnell has earned 9 Advancements during the course of the Crew’s story, and now that the Heroes have finally reached a Long Breather, Filamena can spend some of those Advancements. She looks over the table and decides Parnell’s recent experiences scrapping with bad alloys would have toughened him up a bit. Filamena chooses the Dense Muscle koloss-blooded Stunt for Parnell, which Brandon okays, and erases 4 Advancements from her character sheet, leaving her with 5 remaining. Filamena is also interested in getting Parnell some more Physique to make him even stronger, but she’s already made one improvement to the young koloss-blooded and will have to wait until the next Long Breather to purchase it.",
+                "new":{
+                    "opener":"New Advancements available to Alloy of Law Heroes are found below. Any Advancements not specifically covered here are identical to those found in Era 1.",
+                    "four":{
+                        "name":"Gain a New Stunt",
+                        "part1":"Your Hero continues to test ways of using his or her skills or magic, learning new tricks and subtleties of their use. You may choose from eight types of Stunts, which are available to your Hero based on his or her Powers, race, and other aspects.",
+                        "points":[
+                            {
+                                "point":"Choose a new gunplay Stunt and record it in the Powers section of your character sheet."
+                            },
+                            {
+                                "point":"Choose a new gunsmithing Stunt and record it in the Powers section of your character sheet"
+                            },
+                            {
+                                "point":" (Allomancers) Choose a new Allomancy Stunt for the metal you can use and record it in the Powers section of your character sheet"
+                            },
+                            {
+                                "point":"(Allomancers) Choose a new Allomantic shot Stunt for the metal you can use and record it in the Powers section of your character sheet"
+                            },
+                            {
+                                "point":"(Feruchemists) Choose a new Feruchemical shot Stunt for the metal you can use and record it in the Powers section of your character sheet"
+                            },
+                            {
+                                "point":"(Koloss-blooded) Choose a new koloss-blooded Stunt and record it in the Powers section of your character sheet"
+                            },
+                            {
+                                "point":"(Compounder Twinborn) Choose a new Compounding Stunt you can use and record it in the Powers section of your character sheet"
+                            }
+                        ],
+                        "part2":"If your Hero has multiple Powers (e.g., he or she is a Twinborn), you may choose Stunts for any metals he or she can use, though this must be done separately (at a cost of 4 Advancements for each). You should record different types of Stunts on separate lines to keep them straight.",
+                        "example":"Example: As a Twinborn bounty hunter with Brass Allomancy and Bronze Feruchemy, Grinnel can choose from gunplay, gunsmithing, Brass Allomancy, Brass Allomantic shot, and Bronze Feruchemical shot Stunts. Meanwhile, Enid, a human with no Powers, may only select from gunplay or gunsmithing Stunts."
+                    },
+                    "remains":[
+                        {
+                            "title":"10 Advancements",
+                            "name":"Become a Ferring (humans and koloss-blooded without Powers only)",
+                            "desc":"Through self-discipline and reflection, your Hero discovers he or she can use the ancient art of Feruchemy. Add a Feruchemy rating of 4 with a single metal to the Powers section of your character sheet. Your Hero is now a Ferring and may improve his or her Feruchemy rating and learn Stunts like any other Ferrings (though not until the next Long Breather). \n\n This is one of the rarest improvements a character can obtain, and the Narrator isn’t likely to approve it unless you justify it with a supporting story that has a dramatic impact on your Hero (above and beyond developing a Feruchemical ability). The Narrator may even ask that you hold off until a Long Breather after such a story occurs, or until you can plausibly introduce one “off screen.” \n\n In any case, you should never take becoming a Ferring in stride; your Hero isn’t likely to be quite the same after such an experience, and the discovery of this ability can substantially change his or her life and how he or she interacts with the world. For example, if your Hero gains the ability to use one of the four Spiritual metals (Chromium, Nicrosil, Aluminum, & Duralumin), he or she may be contacted by the local leaders of the Terris community, who are both very interested in these abilities, and also invested in keeping knowledge of these abilities from becoming too widespread."
+                        },
+                        {
+                            "title":"15 Advancements",
+                            "name":"Become a Twinborn (humans with Allomancy or Feruchemy only)",
+                            "desc":"If the character is already a Misting, add a Feruchemy rating of 3 with a single metal to the Powers section of your character sheet. If the character is already a Ferring, add an Allomancy rating of 3 with a single metal to the Powers section of your character sheet. Your character is now a Twinborn and may improve his or her new power and learn Stunts like any other Twinborn (though not until the next Long Breather). \n\n If your new Power uses the same metal as your existing one (for example, if you have Gold Allomancy and use this improvement to gain Gold Feruchemy), you are a Compounder, which allows you to perform Compounding, and purchase Compounding Stunts (see page 177). \n\n Becoming a Twinborn is perhaps the rarest and most powerful improvement a character can obtain in Alloy of Law, and the Narrator isn’t likely to approve it unless you justify it with a supporting story that has a dramatic impact on your Hero (above and beyond becoming a Twinborn). These circumstances depend on the power the Hero wishes to develop: typically, a character who is already an Allomancer must spend time developing the same discipline and reflection that someone without Powers must perform to become a Ferring, while a character who is already a Ferring must suffer a moment of great turmoil or trauma to Snap an Allomantic ability. The Narrator may even ask that you hold off until a Long Breather after such a story occurs, or until you can plausibly introduce one “off screen.”"
+                        }
+                    ]
+                }
+            }
         }
     ],
     "propped": [ 
@@ -12169,7 +12285,7 @@
                     }
                 ]
             },
-            "sourthern":"Far to the south of the Basin, below the Seran mountain range, lie the mysterious Southern Roughs. While the Northern Roughs have been explored and settled for well over one hundred years, the Southern Roughs remain a land of unexplored opportunity, unsubstantiated rumor, and untold possibility. As the Narrator, the Southern Roughs represent a great place to explore and to be creative. The land certainly has human settlements, political struggles, and other locations to explore — so you can make them up! \n\n The population in the Southern Roughs is sparse, and the reach of the lawkeepers far weaker than in the north. Those that return from life in the Southern Roughs are often changed by the experience or won’t discuss much. Those that do report strange encounters, from abandoned settlements devoid both of life and signs of struggle, strange mechanical noises echoing through the desert nights, and giant Mistwraiths wearing bones of undiscovered creatures — stories that are often written off by Basin-folk as tall tales or hallucinations. \n\n It’s not particularly difficult to reach the Southern Roughs, but unlike the Northern Roughs — which has the town of Drypost as a “last stop” before leaving the Basin — the Southern Roughs has no point in the Basin that people depart from. The closest Basin city to the Southern pass is Garmet a hundred miles to the Northeast, and the closest city connected via railway to the pass is Doriel, over 300 miles away. However, as Scadrial’s great undiscovered country, there’s little doubt that the next great wave of exploration and adventure will focus on the Southern Roughs."
+            "southern":"Far to the south of the Basin, below the Seran mountain range, lie the mysterious Southern Roughs. While the Northern Roughs have been explored and settled for well over one hundred years, the Southern Roughs remain a land of unexplored opportunity, unsubstantiated rumor, and untold possibility. As the Narrator, the Southern Roughs represent a great place to explore and to be creative. The land certainly has human settlements, political struggles, and other locations to explore — so you can make them up! \n\n The population in the Southern Roughs is sparse, and the reach of the lawkeepers far weaker than in the north. Those that return from life in the Southern Roughs are often changed by the experience or won’t discuss much. Those that do report strange encounters, from abandoned settlements devoid both of life and signs of struggle, strange mechanical noises echoing through the desert nights, and giant Mistwraiths wearing bones of undiscovered creatures — stories that are often written off by Basin-folk as tall tales or hallucinations. \n\n It’s not particularly difficult to reach the Southern Roughs, but unlike the Northern Roughs — which has the town of Drypost as a “last stop” before leaving the Basin — the Southern Roughs has no point in the Basin that people depart from. The closest Basin city to the Southern pass is Garmet a hundred miles to the Northeast, and the closest city connected via railway to the pass is Doriel, over 300 miles away. However, as Scadrial’s great undiscovered country, there’s little doubt that the next great wave of exploration and adventure will focus on the Southern Roughs."
         }
     ]
 }
