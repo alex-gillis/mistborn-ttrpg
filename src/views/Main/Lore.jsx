@@ -2,6 +2,7 @@
 /* eslint-disable react/jsx-key */
 import { useState } from 'react';
 import Overview from '../Lore/Overview';
+import Locals from '../Lore/Locals';
 
 function Lore(props) {
     const [myPage, setPage] = useState(0);
@@ -11,7 +12,8 @@ function Lore(props) {
     }
 
     const pages = [
-        { title: 'Overview', className: myPage === 0 ? 'selected' : 'unselected', onClick: () => handlePage(0) }
+        { title: 'Overview', className: myPage === 0 ? 'selected' : 'unselected', onClick: () => handlePage(0) },
+        { title: 'Locations', className: myPage === 1 ? 'selected' : 'unselected', onClick: () => handlePage(1) }
     ];
     
     return (
@@ -25,6 +27,7 @@ function Lore(props) {
         </div>
         <div id="creation">
             { myPage === 0 && <Overview lore={props.lore[0]}/> }
+            { myPage === 1 && <Locals basin={props.lore[1]} roughs={props.lore[2]} />}
         </div>
         </>
     )

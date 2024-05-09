@@ -204,7 +204,7 @@ header {
 }
 
 #intro {
-  margin-top: 50px;
+  margin-top: 65px;
 }
 
 #inquisitor {
@@ -533,6 +533,10 @@ header {
 
 .oddRow {
   width:160px;
+}
+
+.necessary {
+  width: 100%;
 }
 
 .reference-width {
