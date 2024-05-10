@@ -27,7 +27,7 @@ function Lore(props) {
         </div>
         <div id="creation">
             { myPage === 0 && <Overview lore={props.lore[0]}/> }
-            { myPage === 1 && <Locals basin={props.lore[1]} roughs={props.lore[2]} />}
+            { myPage === 1 && <Locals basin={props.lore[1]} roughs={props.lore[2]} strange={props.lore[3]} />}
         </div>
         </>
     )

@@ -1,15 +1,19 @@
 /* eslint-disable react/prop-types */
 /* eslint-disable react/jsx-key */
 import { useState } from 'react';
-import Elendel from './Locals/Elendel';
-import Transport from './Locals/Transport';
-import Other from './Locals/Other';
-import Groups from './Locals/Groups';
-import Roughs from './Locals/Roughs';
-import Travel from './Locals/Travel';
-import Lawkeeper from './Locals/Lawkeeper';
-import Northern from './Locals/Northern';
-import Southern from './Locals/Southern';
+import Elendel from './Locals/Basin/Elendel';
+import Transport from './Locals/Basin/Transport';
+import Other from './Locals/Basin/Other';
+import Groups from './Locals/Basin/Groups';
+import Roughs from './Locals/Roughs/Roughs';
+import Travel from './Locals/Roughs/Travel';
+import Lawkeeper from './Locals/Roughs/Lawkeeper';
+import Northern from './Locals/Roughs/Northern';
+import Southern from './Locals/Roughs/Southern';
+import Frontier from './Locals/Frontiers/Frontier';
+import Mountains from './Locals/Frontiers/Mountains';
+import Deep from './Locals/Frontiers/Deep';
+import Oceans from './Locals/Frontiers/Oceans';
 
 function Locals(props) {
     const [mySection, setSecion] = useState(0);
@@ -33,6 +37,14 @@ function Locals(props) {
       { title: 'Southern Roughs', onClick: () => handleSection(8) }
     ];
 
+    const frontier = [
+      { title: 'The Frontiers', onClick: () => handleSection(9) },
+      { title: 'The Mountains', onClick: () => handleSection(10) },
+      { title: 'Deep Roughs', onClick: () => handleSection(11) },
+      { title: 'Oceans and Beyond', onClick: () => handleSection(12) }
+    ];
+
+
     return (
         < >
         <ol id='list'>
@@ -52,17 +64,31 @@ function Locals(props) {
               </button>
             </li>
           ))}
+          <h3>Stranger Frontiers</h3>
+          {frontier.map((section, index) => (
+            <li  id="nav-list" key={index}>
+              <button className="index-button" onClick={section.onClick}>
+                <span id="bold">{section.title}</span>
+              </button>
+            </li>
+          ))}
         </ol> 
         <div id='info'>
             { mySection === 0 && <Elendel info={props.basin} /> }
             { mySection === 1 && <Groups info={props.basin} /> }
             { mySection === 2 && <Transport info={props.basin.canals}/> }
             { mySection === 3 && <Other info={props.basin.other}/> }
+
             { mySection === 4 && <Roughs info={props.roughs}/> }
             { mySection === 5 && <Travel info={props.roughs.travel}/> }
             { mySection === 6 && <Lawkeeper info={props.roughs.lawkeeper}/> }
             { mySection === 7 && <Northern info={props.roughs.northern}/> }
             { mySection === 8 && <Southern info={props.roughs.southern}/> }
+
+            { mySection === 9 && <Frontier info={props.strange}/> }
+            { mySection === 10 && <Mountains info={props.strange.mountains}/> }
+            { mySection === 11 && <Deep info={props.strange.deep}/> }
+            { mySection === 12 && <Oceans info={props.strange.oceans}/> }
         </div>
         </>
     )
