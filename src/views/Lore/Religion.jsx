@@ -16,7 +16,7 @@ function Religion(props) {
 
     const religion = [
       { title: 'Belief & Worship', onClick: () => handleSection(0) },
-      { title: 'Church of the Survivor', onClick: () => handleSection(1) },
+      { title: 'Survivorism', onClick: () => handleSection(1) },
       { title: 'The Path', onClick: () => handleSection(2) },
       { title: 'Sliverism', onClick: () => handleSection(3) },
       { title: 'Trelagism & Trellism', onClick: () => handleSection(4) }
