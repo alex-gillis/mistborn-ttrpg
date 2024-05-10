@@ -26,6 +26,7 @@ function Metallurgy(props) {
     <>
       <div>
         <ol id="list" className='marginTop'>
+          <h3 className='notButter'>Metallurgy</h3>
           <li id="nav-list">
             <button className="index-button" onClick={() => changeBasics(0)}>
               <span id="bold">Basics</span>

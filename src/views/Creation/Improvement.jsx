@@ -28,6 +28,7 @@ function Improvement(props) {
         < >
 
         <ol id='list'>
+          <h3>Advancment</h3>
           {sections.map((section, index) => (
             <li  id="nav-list" className='basicBuild' key={index}>
               <button className="index-button" onClick={section.onClick}>

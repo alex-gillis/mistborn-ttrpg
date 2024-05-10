@@ -26,6 +26,7 @@ function Contests(props) {
         < >
 
         <ol id='list'>
+          <h3 className='notButter'>Contests</h3>
           {sections.map((section, index) => (
             <li  id="nav-list" key={index}>
               <button className="index-button" onClick={section.onClick}>

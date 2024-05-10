@@ -2,7 +2,6 @@
 /* eslint-disable react/jsx-key */
 
 function BigPoints(props) {
-    // getJSONData(metalJSON, collectMetals, onError);
   
     return (
       <>

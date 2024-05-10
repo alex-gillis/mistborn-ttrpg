@@ -21,7 +21,7 @@ function Samples(props) {
     <>
       <div>
         <ol id="list">
-        <h2 className='notButter'>Era 1 Heroes</h2>
+        <h3 className='notButter'>Era 1 Heroes</h3>
           {myEra1 && myEra1.map((myHero, index) => (
             <li  id="nav-list" className='samples' key={index}>
               <button className="index-button" onClick={() => changeSample(myHero.id)}>
@@ -29,7 +29,7 @@ function Samples(props) {
               </button>
             </li>
           ))}
-        <h2>Era 2 Heroes</h2>
+        <h3>Era 2 Heroes</h3>
           {myEra2 && myEra2.map((myHero, index) => (
             <li  id="nav-list" className='samples' key={index}>
               <button className="index-button" onClick={() => changeSample(myHero.id)}>
