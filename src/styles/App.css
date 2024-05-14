@@ -608,3 +608,35 @@ header {
 .pickUp {
   display: none;
 }
+
+.dropSelected {
+  background-color: #35465c;
+  border-bottom: 0.1px solid #35465c; 
+  opacity: 0.6;
+  transition: 0.3s;
+}
+
+.dropSelected:hover {
+  opacity: 1;
+}
+
+.dropUnselected {
+  background-color: #242424;
+  border-bottom: 0.1px solid #35465c; 
+  opacity: 0.6;
+  transition: 0.3s;
+}
+
+.dropUnselected:hover {
+  opacity: 1;
+}
+
+.isButter {
+  padding-top: 40px;
+  margin-left: 110px;
+  margin-right: 110px;
+  padding-right: 2rem;
+  margin-bottom: 35px;
+  max-width: 1080px;
+  width: auto;
+}
