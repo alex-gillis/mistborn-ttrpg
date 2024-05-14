@@ -11312,14 +11312,14 @@
                         {
                             "name":"Prototype Customization",
                             "desc":"Adding a prototype customization requires a Short Breather, and is a Resources challenge with a Difficulty equal to purchase Difficulty of the firearm (including any existing customizations and the new customization). You may only choose to apply a customization you already know how to build via the Customize Guns Stunt, and you may not choose Aluminum Frame, Perfect Balance, or Small (as each is too radical a change to make in the field). With failure, the gun becomes useless until it can be repaired over a Long Breather as normal; with success, apply the chosen customization to the weapon temporarily. This customization is temperamental as well as temporary, so when attacking with this weapon you must spend one Nudge, or else the effects of this customization are lost as soon as the attack is resolved. A gun can’t have more than one prototype customization at a time, and any prototype customizations are lost at the next Breather."
-                        },
-                        {
-                            "name": "Speedy Craftsman",
-                            "type":"Gunsmithing",
-                            "req":"None",
-                            "description": "Your familiarity with certain types of technologies lets you build and repair guns in record time. You can spend a Long Breather creating or customizing guns or ammo, even if that Long Breather is less than a week. All other rules for gunsmithing apply as normal (see pages 139-141 of the Alloy of Law Campaign Setting and Game Supplement)."
                         }
                     ]
+                },
+                {
+                    "name": "Speedy Craftsman",
+                    "type":"Gunsmithing",
+                    "req":"None",
+                    "description": "Your familiarity with certain types of technologies lets you build and repair guns in record time. You can spend a Long Breather creating or customizing guns or ammo, even if that Long Breather is less than a week. All other rules for gunsmithing apply as normal (see pages 139-141 of the Alloy of Law Campaign Setting and Game Supplement)."
                 }
             ]
         },
@@ -11857,6 +11857,13 @@
                     "req":"Roughs Dweller",
                     "description":"You’ve trained in taming and caring for animals in the harsh conditions of the Roughs. When you’re riding a horse or other animal, you don’t suffer adverse conditions from its motion. You gain an additional die on checks for calming or controlling animals. Lastly, you own a stable of animals. During a Breather, you can bring out enough horses to carry you, the rest of your Crew, and up to one companion."
                 }
+            ]
+        },
+        {
+            "title":"Network",
+            "id":6,
+            "stunts":[
+                
             ]
         }
     ],
@@ -12488,6 +12495,27 @@
                     "desc":"The Faceless Immortals, subjects of great speculation and wild rumor, are in actuality the kandra of the Final Empire. They once lived under Contract to the nobility as spies, but now they live in service to Harmony, bringing his word to the right ears. \n\n Like all the rest of Scadrial’s sapient races, the kandra were restored by Harmony during the Origin, gaining freedom from the influence of Ruin, effective immortality, and the free will they never really had. However, this rebirth came at a heavy price — the ability to reproduce. In gratitude, the kandra transferred the Contract which they held with the Lord Ruler to the true Hero of Ages. The Faceless Immortals take no other contracts or serve any other master — only Harmony, for whom they now act as eyes, ears, and hands in the mortal world. \n\n The Faceless Immortals operate under a different set of rules with Harmony than they did with the Lord Ruler. First and foremost, each Faceless Immortal is strictly forbidden from revealing his or her true identity to anyone directly; their role is observation, not intervention, and their messages are guidance, not directives. Secondly, Faceless Immortals are forbidden from killing under any circumstances, particularly other kandra. Gone are the fancy True Bodies of old; now, all kandra live in animal forms, though they often take the forms of departed humans when needed. Finally, Faceless Immortals must carry out Harmony’s orders, whenever and wherever they are given — an edict none dare defy, for Harmony is the kandra’s prophesied Hero of Ages they had waited over a thousand years to find."
                 }
             ]
+        },
+        {
+            "title":"people",
+            "koloss":{
+
+            },
+           "kandra":{
+
+           },
+           "malwish":{
+
+           },
+           "terris":{
+
+           } 
+        },
+        {
+            "title":"New Seren"
+        },
+        {
+            "title":"Technology"
         }
     ]
 }

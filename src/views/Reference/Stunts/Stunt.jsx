@@ -15,10 +15,12 @@ function Stunt(props) {
           <h3 className="notButter">Stunt Requires: <span id="timid">{props.stunt.req}</span></h3>
           <div>
               {props.stunt.description}
-              <br/>
-              <br/>
               {props.stunt.example && (
-                  <div id="example">{props.stunt.example}</div>
+                  <div id="example">
+                    <br/>
+                    <br/>
+                    {props.stunt.example}
+                  </div>
               )}
               {props.stunt.table && (
                   <Table info={props.stunt.table} />

@@ -12,10 +12,14 @@ function Basolurgy(props) {
             <h2>Kandra</h2>
             { props.info.kandra }
             <h2>Steel Inquisitors</h2>
-            <div id="diagram">
-                <div className="steelInfo">
-                    <img id="inquisitor" src="./assets/inqDiagram.png" alt="Steel Inquisitor Diagram" />
-                    <span id="bolder">A Visual Study of a Steel Inquisitor</span>
+            <div id="sampleDisplay">
+                <div id="centerIMG">
+                    <div>
+                        <img id="inquisitor" src="./assets/inqDiagram.png" alt="Steel Inquisitor Diagram" />
+                        <br/>
+                        <span className="sampleText"  id="bolder">A Visual Study of a Steel Inquisitor</span>
+                        <br/>
+                    </div>
                 </div>
                 <div id="steelInfo" >
                     { props.info.inquisitor }

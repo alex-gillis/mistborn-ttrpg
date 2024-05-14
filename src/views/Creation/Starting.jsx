@@ -17,7 +17,7 @@ function Starting(props) {
             </div>
             <h2>What you need to play</h2>
             {props.create.needPlay}
-            <h1>Your First Game</h1>
+            <h1 className="notButter">Your First Game</h1>
             <div id="filters">Eager to get started? Excellent. Here`s all you need to do.</div>
             <h2>Your Narrator</h2>
             {props.create.narrator}

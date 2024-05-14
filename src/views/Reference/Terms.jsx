@@ -6,13 +6,17 @@ function Terms(props) {
   return (
     <>
     <div className='marginTop'>
-      <h1 className="notButter">Game Terms</h1>
+      <div id="teeny">
+        <h1 className="notButter">Game Terms</h1>
+      </div>
+      <ul>
         {props.gameTerms.map((myTerm, index) => (
-          <div id="terms" key={index}>
-                <span id='bolder'>{myTerm.term}:</span> {myTerm.description}
-            <br/>
-          </div>
-        ))}
+          <li id="terms" key={index}>
+                <span id='bolder'>{myTerm.term}</span>
+                <span id='bold'>:</span> {myTerm.description}
+          </li>
+        ))} 
+      </ul>
     </div>
     </>
   )
