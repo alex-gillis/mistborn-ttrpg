@@ -592,3 +592,27 @@ header {
 .ref-five {
   min-width: 37px;
 }
+
+#secret {
+  margin: auto;
+  padding-top: 25px;
+  width: 50%;
+  font-size: large;
+}
+
+.dropDown {
+  background: #1a1a1a;
+}
+
+.pickUp {
+  display: none;
+}
+
+.dropSelected {
+  background-color: rgb(95, 95, 95);
+  opacity: 0.6;
+  transition: 0.3s;
+}
+.dropSelected:hover {
+  opacity: 1;
+}

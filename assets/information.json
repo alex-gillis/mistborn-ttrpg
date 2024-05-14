@@ -2409,7 +2409,7 @@
                     "name": "Beck",
                     "title": "Fixer & Crew Leader",
                     "sheet": "./assets/samples/Beck.png",
-                    "portrait": "./assets/samples/Beck-Portrait.png"
+                    "portrait": "../assets/samples/Beck-Portrait.png"
                 },
                 {
                     "id": 1,
@@ -2417,7 +2417,7 @@
                     "name": "Damosi",
                     "title": "Itinerant Keeper",
                     "sheet": "./assets/samples/Damosi.png",
-                    "portrait": "./assets/samples/Damosi-Portrait.png"
+                    "portrait": "../assets/samples/Damosi-Portrait.png"
                 },
                 {
                     "id": 2,
@@ -2425,7 +2425,7 @@
                     "name": "Gavon",
                     "title": "Inside Man",
                     "sheet": "./assets/samples/Gavon.png",
-                    "portrait": "./assets/samples/Gavon-Portrait.png"
+                    "portrait": "../assets/samples/Gavon-Portrait.png"
                 }, 
                 {
                     "id": 3,
@@ -2433,7 +2433,7 @@
                     "name": "JeHoy",
                     "title": "Contracted Kandra on Loan",
                     "sheet": "./assets/samples/JeHoy.png",
-                    "portrait": "./assets/samples/JeHoy-Portrait.png"
+                    "portrait": "../assets/samples/JeHoy-Portrait.png"
                 }, 
                 {
                     "id": 4,
@@ -2441,7 +2441,7 @@
                     "name": "Koel",
                     "title": "Fugitive Mistborn",
                     "sheet": "./assets/samples/Koel.png",
-                    "portrait": "./assets/samples/Koel-Portrait.png"
+                    "portrait": "../assets/samples/Koel-Portrait.png"
                 }, 
                 {
                     "id": 5,
@@ -2449,7 +2449,7 @@
                     "name": "Sayna",
                     "title": "Conwoman & Rioter",
                     "sheet": "./assets/samples/Sayna.png",
-                    "portrait": "./assets/samples/Sayna-Portrait.png"
+                    "portrait": "../assets/samples/Sayna-Portrait.png"
                 }, 
                 {
                     "id": 6,
@@ -2457,7 +2457,7 @@
                     "name": "Sev",
                     "title": "Soother Thief",
                     "sheet": "./assets/samples/Sev.png",
-                    "portrait": "./assets/samples/Sev-Portrait.png"
+                    "portrait": "../assets/samples/Sev-Portrait.png"
                 }, 
                 {
                     "id": 7,
@@ -2465,7 +2465,7 @@
                     "name": "Thorrow",
                     "title": "Thug Bodyguard",
                     "sheet": "./assets/samples/Thorrow.png",
-                    "portrait": "./assets/samples/Thorrow-Portrait.png"
+                    "portrait": "../assets/samples/Thorrow-Portrait.png"
                 }
             ],
             "era2Samples": [
@@ -2475,7 +2475,7 @@
                     "name": "Anders Colby",
                     "title":"Survivorist Preacher, Nicroburst Misting",
                     "sheet": "./assets/samples/Anders.png",
-                    "portrait": "./assets/samples/Anders-Portrait.png"
+                    "portrait": "../assets/samples/Anders-Portrait.png"
                 },
                 {
                     "id": 9,
@@ -2483,7 +2483,7 @@
                     "name": "“Bandy” Jann Geffenry",
                     "title":"Roughs Scout, Bendalloy Twinborn",
                     "sheet": "./assets/samples/Bandy.png",
-                    "portrait": "./assets/samples/Bandy-Portrait.png"
+                    "portrait": "../assets/samples/Bandy-Portrait.png"
                 },
                 {
                     "id": 10,
@@ -2491,7 +2491,7 @@
                     "name": "Enid Bellflower",
                     "title":"Gunsmith turned Lawkeeper",
                     "sheet": "./assets/samples/Enid.png",
-                    "portrait": "./assets/samples/Enid-Portrait.png"
+                    "portrait": "../assets/samples/Enid-Portrait.png"
                 },
                 {
                     "id": 11,
@@ -2499,7 +2499,7 @@
                     "name": "Grinnel Enfran",
                     "title":"Bounty Hunter & Brass/Bronze Twinborn",
                     "sheet": "./assets/samples/Grinnel.png",
-                    "portrait": "./assets/samples/Grinnel-Portrait.png"
+                    "portrait": "../assets/samples/Grinnel-Portrait.png"
                 },
                 {
                     "id": 12,
@@ -2507,7 +2507,7 @@
                     "name": "Janella Cett",
                     "title":"Troublemaking Gambler & Chromium Ferring",
                     "sheet": "./assets/samples/Janella.png",
-                    "portrait": "./assets/samples/Janella-Portrait.png"
+                    "portrait": "../assets/samples/Janella-Portrait.png"
                 },
                 {
                     "id": 13,
@@ -2515,7 +2515,7 @@
                     "name": "Maedra Dallewyl",
                     "title":"Traveling Reporter & Copper Ferring",
                     "sheet": "./assets/samples/Maedra.png",
-                    "portrait": "./assets/samples/Maedra-Portrait.png"
+                    "portrait": "../assets/samples/Maedra-Portrait.png"
                 },
                 {
                     "id": 14,
@@ -2523,7 +2523,7 @@
                     "name": "Parnell",
                     "title":"City-Educated Koloss-Blooded Scholar",
                     "sheet": "./assets/samples/Parnell.png",
-                    "portrait": "./assets/samples/Parnell-Portrait.png"
+                    "portrait": "../assets/samples/Parnell-Portrait.png"
                 },
                 {
                     "id": 15,
@@ -2531,7 +2531,7 @@
                     "name": "Sperry Odum",
                     "title":"Salesman, Grifter and Duralumin Ferring",
                     "sheet": "./assets/samples/Sperry.png",
-                    "portrait": "./assets/samples/Sperry-Portrait.png"
+                    "portrait": "../assets/samples/Sperry-Portrait.png"
                 }
             ]
         },

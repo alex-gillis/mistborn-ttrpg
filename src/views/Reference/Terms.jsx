@@ -5,7 +5,7 @@ function Terms(props) {
 
   return (
     <>
-    <div className='marginTop'>
+    <div id='creation' className='marginTop'>
       <div id="teeny">
         <h1 className="notButter">Game Terms</h1>
       </div>

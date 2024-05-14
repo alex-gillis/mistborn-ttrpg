@@ -2,9 +2,8 @@
 /* eslint-disable react/jsx-key */
 import { useState } from 'react';
 
-function Intro() 
-
-    {const [spoilersVisible, setSpoilersVisible] = useState(false);
+const Intro = () => {
+    const [spoilersVisible, setSpoilersVisible] = useState(false);
   
     function toggleSpoilers() {
         setSpoilersVisible(!spoilersVisible);

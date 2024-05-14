@@ -1,39 +1,39 @@
-/* eslint-disable react/prop-types */
-/* eslint-disable react/jsx-key */
-import { useState } from 'react';
-import Samples from '../Creation/Samples';
-import Starting from '../Creation/Starting';
-import Build from '../Creation/Build';
-import Improvement from '../Creation/Improvement';
+import { Outlet, useLocation, useNavigate } from "react-router-dom";
 
-function Creation(props) {
-    const [myPage, setPage] = useState(0);
-
-    function handlePage(pgNum) {
-        setPage(pgNum);
-    }
+const Creation = () =>{
+    const location = useLocation();
+    const pathname = location.pathname;
+    const navigate = useNavigate();
+  
+  
+    const handlePageChange = (link) => {
+      navigate(link);
+  };
 
     const pages = [
-        { title: 'Getting \n Started', className: myPage === 0 ? 'selected' : 'unselected', onClick: () => handlePage(0) },
-        { title: 'Sample \n Characters', className: myPage === 1 ? 'selected' : 'unselected', onClick: () => handlePage(1) },
-        { title: 'Building \n Characters', className: myPage === 2 ? 'selected' : 'unselected', onClick: () => handlePage(2) },
-        { title: 'Improving \n Characters', className: myPage === 3 ? 'selected' : 'unselected', onClick: () => handlePage(3) }
+        { title: 'Getting \n Started', link:"/mistborn-ttrpg/creation", className: pathname === "/mistborn-ttrpg/creation" ? 'selected' : 'unselected' },
+        { title: 'Sample \n Characters', link:"/mistborn-ttrpg/creation/samples", className: pathname === "/mistborn-ttrpg/creation/samples" ? 'selected' : 'unselected' },
+        { title: 'Building \n Characters', link:"/mistborn-ttrpg/creation/building", className: pathname === "/mistborn-ttrpg/creation/building" ? 'selected' : 'unselected' },
+        { title: 'Improving \n Characters', link:"/mistborn-ttrpg/creation/improvement", className: pathname === "/mistborn-ttrpg/creation/improvement" ? 'selected' : 'unselected' }
     ];
 
   return (
     <>
         <div id="startHead">
-            {pages.map((page, index) => (
-                <button key={index} id="head-button" className={page.className} onClick={page.onClick}>
-                    <span id="bold">{page.title}</span>
-                </button>
-            ))}
+          <nav>
+              {pages.map((page, index) => (
+                  <button key={index} id="head-button" className={page.className} onClick={() => handlePageChange(page.link)}>
+                      <span id="bold">{page.title}</span>
+                  </button>
+              ))}
+          </nav>
         </div>
         <div id='creation' >
-            { myPage === 0 && <Starting create={props.creation[0]}/> }
+            <Outlet />
+            {/* { myPage === 0 && <Starting create={props.creation[0]}/> }
             { myPage === 1 && <Samples era1={props.creation[1].era1Samples} era2={props.creation[1].era2Samples} rogues={props.rogues}/> }
             { myPage === 2 && <Build start={props.creation[3]} building={props.creation[4]}  propped={props.propped} built={props.creation[6]} /> }
-            { myPage === 3 && <Improvement improvement={props.creation[5]} alloy={props.creation[7]} /> }
+            { myPage === 3 && <Improvement improvement={props.creation[5]} alloy={props.creation[7]} /> } */}
         </div>
         
     </>

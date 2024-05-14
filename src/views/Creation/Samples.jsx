@@ -3,7 +3,7 @@
 import { useState } from 'react';
 import Sample from './Sample';
 
-function Samples(props) {
+const Samples = (props) => {
   // getJSONData(metalJSON, collectMetals, onError);
   const [myEra1] = useState(props.era1);
   const [myEra2] = useState(props.era2);

@@ -36,7 +36,7 @@ import MenCircumstance from './Mental/Circumstance';
 import MenExample from './Mental/Example';
 import MenTactics from './Mental/Tactics';
 
-function Conflicts(props) {
+const Conflicts = (props) => {
     const [mySection, setSecion] = useState(0);
   
     function handleSection(sctNum) {

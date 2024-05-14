@@ -12,7 +12,7 @@ import Outcome from './Sections/Outcome';
 import Complicate from './Sections/Complicate';
 import Nudges from './Sections/Nudges';
 
-function Basics(props) {
+const Basics = (props) => {
     const [mySection, setSecion] = useState(0);
   
     function handleSection(sctNum) {
