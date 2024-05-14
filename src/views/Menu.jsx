@@ -59,10 +59,10 @@ const Menu = () => {
             classDrop: mySection ? 'dropDown' : 'pickUp', 
             onClick: toggleMenu,
             subpages: [
-                { title: 'Metallurgy', link: "/mistborn-ttrpg/metallurgy", subclassName: metal ? 'dropSelected' : 'unselected' },
-                { title: 'Props', link: "/mistborn-ttrpg/props", subclassName: props ? 'dropSelected' : 'unselected' },
-                { title: 'Stunts', link: "/mistborn-ttrpg/stunts", subclassName: stunts ? 'dropSelected' : 'unselected' },
-                { title: 'Game Terms', link: "/mistborn-ttrpg/terms", subclassName: terms ? 'dropSelected' : 'unselected' }
+                { title: 'Metallurgy', link: "/mistborn-ttrpg/metallurgy", subclassName: metal ? 'selected' : 'unselected' },
+                { title: 'Props', link: "/mistborn-ttrpg/props", subclassName: props ? 'selected' : 'unselected' },
+                { title: 'Stunts', link: "/mistborn-ttrpg/stunts", subclassName: stunts ? 'selected' : 'unselected' },
+                { title: 'Game Terms', link: "/mistborn-ttrpg/terms", subclassName: terms ? 'selected' : 'unselected' }
             ]
         },
     ];
