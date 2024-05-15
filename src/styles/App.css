@@ -303,6 +303,7 @@ header {
   height: 100%;
   margin: 0 auto;
   text-align: justify;
+  text-align-last: center;
   white-space: pre-line;
   vertical-align: bottom;
 }
@@ -350,6 +351,7 @@ header {
   padding-left: 15px;
   padding-top: 25%;
   text-align: justify;
+  text-align-last: center;
 }
 
 #terms {
@@ -401,7 +403,7 @@ header {
 .index-button {
   border: none;
   background-color: transparent;
-  text-align: right;
+  text-align-last: right;
   padding: 0px;
   padding-right: 5px;
   width: 100%;
@@ -611,7 +613,6 @@ header {
 
 .dropSelected {
   background-color: #35465c;
-  border-bottom: 0.1px solid #35465c; 
   opacity: 0.6;
   transition: 0.3s;
 }
@@ -621,8 +622,8 @@ header {
 }
 
 .dropUnselected {
-  background-color: #242424;
-  border-bottom: 0.1px solid #35465c; 
+  color: #242424;
+  background-color: rgba(255, 255, 255, 0.87);
   opacity: 0.6;
   transition: 0.3s;
 }
