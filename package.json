@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "xcopy assets dist\\assets /E /I /Y && gh-pages -d dist",
+    "deploy": "xcopy assets dist\\assets /E /I /Y && xcopy 404.html dist /Y  && gh-pages -d dist",
     "send": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
