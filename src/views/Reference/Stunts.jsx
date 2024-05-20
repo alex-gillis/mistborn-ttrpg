@@ -71,8 +71,8 @@ function Stunts(props) {
                 </table>
               </div>
               <div>
-                <table id='centered'>
-                    <thead id='reference-size' className='reference-width'>
+                <table id='reference-size' className='reference-width'>
+                    <thead>
                         <tr>
                           <th className='ref-item'>
                             <button id='tableButton' onClick={() => setStunts(sortByMultipleComponents(myStunts, ['name', 'type', 'req']))}>
@@ -96,8 +96,8 @@ function Stunts(props) {
                 </table>
               </div>
               <div id='table-list'>
-                  <table id='centered'>
-                      <tbody id='reference-size' className='reference-width'>
+                <table id='reference-size' className='reference-width'>
+                      <tbody>
                           {myStunts && myStunts.map((section, index) => (
                           <tr key={index} className={index % 2 === 0 ? 'evenRow' : 'oddRow'}>
                               <td className='ref-item'>

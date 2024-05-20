@@ -28,6 +28,27 @@ const Menu = () => {
       setSelection(!mySelection);
     }
 
+    const rules = [
+        "/mistborn-ttrpg/rules",
+        "/mistborn-ttrpg/contests",
+        "/mistborn-ttrpg/conflicts",
+        "/mistborn-ttrpg/standing"
+    ]
+
+    const creation = [
+        "/mistborn-ttrpg/creation",
+        "/mistborn-ttrpg/samples",
+        "/mistborn-ttrpg/building",
+        "/mistborn-ttrpg/improvement"
+    ]
+
+    const lore = [
+        "/mistborn-ttrpg/lore",
+        "/mistborn-ttrpg/locations",
+        "/mistborn-ttrpg/history",
+        "/mistborn-ttrpg/religion"
+    ]
+
     const reference = [
         "/mistborn-ttrpg/metal",
         "/mistborn-ttrpg/props",
@@ -35,10 +56,9 @@ const Menu = () => {
         "/mistborn-ttrpg/terms"
     ];
 
-    const rules = pathname.includes("/mistborn-ttrpg/rules");
-    const creation = pathname.includes("/mistborn-ttrpg/creation");
-    const lore = pathname.includes("/mistborn-ttrpg/lore");
-
+    const ruleSelect = rules.some(path => pathname.includes(path));
+    const createSelect = creation.some(path => pathname.includes(path));
+    const loreSelect = lore.some(path => pathname.includes(path));
     const refSelect = reference.some(path => pathname.includes(path));
 
     const metal = pathname.includes("/mistborn-ttrpg/metal");
@@ -49,9 +69,9 @@ const Menu = () => {
 
     const pages = [
         { title: 'Home', link: "/mistborn-ttrpg/", className: pathname === "/mistborn-ttrpg/" ? 'selected' : 'unselected', onClick: handlePageChange },
-        { title: 'Rules', link: "/mistborn-ttrpg/rules", className: rules ? 'selected' : 'unselected', onClick: handlePageChange },
-        { title: 'Creation', link: "/mistborn-ttrpg/creation", className: creation ? 'selected' : 'unselected', onClick: handlePageChange },
-        { title: 'Lore', link: "/mistborn-ttrpg/lore", className: lore ? 'selected' : 'unselected', onClick: handlePageChange },
+        { title: 'Rules', link: "/mistborn-ttrpg/rules", className: ruleSelect ? 'selected' : 'unselected', onClick: handlePageChange },
+        { title: 'Creation', link: "/mistborn-ttrpg/creation", className: createSelect ? 'selected' : 'unselected', onClick: handlePageChange },
+        { title: 'Lore', link: "/mistborn-ttrpg/lore", className: loreSelect ? 'selected' : 'unselected', onClick: handlePageChange },
         // { title: 'References', link: "/mistborn-ttrpg/references", className: references ? 'selected' : 'unselected' }
         {
             title: 'References', 
