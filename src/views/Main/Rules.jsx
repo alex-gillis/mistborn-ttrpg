@@ -1,40 +1,35 @@
-/* eslint-disable react/prop-types */
-/* eslint-disable react/jsx-key */
-import { useState } from 'react';
-import Basics from '../Rules/Basics';
-import Contests from '../Rules/Contests';
-import Conflicts from '../Rules/Conflicts';
-import Standing from '../Rules/Standing';
+import { Outlet, useLocation, useNavigate } from "react-router-dom";
 
-function Rules(props) {
-  const [myPage, setPage] = useState(0);
+const Rules = () => {
+  const location = useLocation();
+  const pathname = location.pathname;
+  const navigate = useNavigate();
 
-  function handlePage(pgNum) {
-      setPage(pgNum);
-  }
 
+  const handlePageChange = (link) => {
+    navigate(link);
+};
 
   const pages = [
-    { title: 'Basics', className: myPage === 0 ? 'selected' : 'unselected', onClick: () => handlePage(0) },
-    { title: 'Contests', className: myPage === 1 ? 'selected' : 'unselected', onClick: () => handlePage(1) },
-    { title: 'Conflicts', className: myPage === 2 ? 'selected' : 'unselected', onClick: () => handlePage(2) },
-    { title: 'Standings', className: myPage === 3 ? 'selected' : 'unselected', onClick: () => handlePage(3) }
+    { title: 'Basics', link:"/mistborn-ttrpg/rules", className: pathname === "/mistborn-ttrpg/rules" ? 'selected' : 'unselected'},
+    { title: 'Contests', link:"/mistborn-ttrpg/contests", className: pathname === "/mistborn-ttrpg/contests" ? 'selected' : 'unselected' },
+    { title: 'Conflicts', link:"/mistborn-ttrpg/conflicts", className: pathname === "/mistborn-ttrpg/conflicts" ? 'selected' : 'unselected' },
+    { title: 'Standings', link:"/mistborn-ttrpg/standing", className: pathname === "/mistborn-ttrpg/standing" ? 'selected' : 'unselected' }
   ];
 
   return (
     <>
         <div id="startHead">
-            {pages.map((page, index) => (
-                <button key={index} id="head-button" className={page.className} onClick={page.onClick}>
-                    <span id="bold">{page.title}</span>
-                </button>
-            ))}
+          <nav>
+              {pages.map((page, index) => (
+                  <button key={index} id="head-button" className={page.className} onClick={() => handlePageChange(page.link)}>
+                      <span id="bold">{page.title}</span>
+                  </button>
+              ))}
+          </nav>
         </div>
         <div id='creation'>
-            { myPage === 0 && <Basics game={props.game[0]} />}
-            { myPage === 1 && <Contests game={props.game[1]} />}
-            { myPage === 2 && <Conflicts game={props.game[2]} phys={props.game[3]} soci={props.game[4]} ment={props.game[5]} />}
-            { myPage === 3 && <Standing game={props.game[6]} />}
+            <Outlet />
         </div>
         
     </>

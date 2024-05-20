@@ -20,7 +20,7 @@ import Three from './Era2/Three';
 import Four from './Era2/Four';
 import Five from './Era2/Five';
 
-function Build(props) {
+const Build = (props) => {
   const [myEra1] = useState(props.start.selectEra1);
   const [myEra2] = useState(props.start.selectEra2);
   const [myInfo, setInfo] = useState(0);

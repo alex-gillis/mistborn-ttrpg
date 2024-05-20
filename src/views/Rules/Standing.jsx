@@ -6,7 +6,7 @@ import Resources from './Standing/Resources'
 import Influence from './Standing/Influence'
 import Spirit from './Standing/Spirit';
 
-function Standing(props) {
+const Standing = (props) => {
     const [mySection, setSecion] = useState(0);
   
     function handleSection(sctNum) {

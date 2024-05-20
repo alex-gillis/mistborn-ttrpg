@@ -8,7 +8,7 @@ import Advancement from './Improvement/Advancement';
 import Improve from './Era2/Improve';
 import Advance from './Era2/Advance';
 
-function Improvement(props) {
+const Improvement = (props) => {
     const [mySection, setSecion] = useState(0);
   
     function handleSection(sctNum) {

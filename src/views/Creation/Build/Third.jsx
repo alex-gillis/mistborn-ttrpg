@@ -1,4 +1,7 @@
 /* eslint-disable react/jsx-key */
+
+import TableTwo from "../../Modules/TableTwo"
+
 /* eslint-disable react/prop-types */
 function Third(props) {
     return (
@@ -10,6 +13,7 @@ function Third(props) {
           <div key={index}>
             <h2>{index + 1}- {myQuestion.question}</h2>
             <div>{myQuestion.part1}</div>
+            <br/>
             <table id="buildTable">
               <tbody>
                 {myQuestion.table?.map((myItem, rowIndex) => (
@@ -21,6 +25,7 @@ function Third(props) {
                 ))}
               </tbody>
             </table>
+            <br/>
             <div>{myQuestion.part2}</div>
             <div id="italicked">{myQuestion.example1}</div>
             <div>{myQuestion.part3}</div>
@@ -40,11 +45,11 @@ function Third(props) {
         <div>{props.build.qSix2}</div>
         <br/>
         <div id="italicked">{props.build.example}</div>
+        <br/>
         <div id="brandon">
             <h4>From Brandon</h4>
             {props.build.brandon2}
         </div>
-        <br/>
         <h2>7- {props.build.qSeven}</h2>
         <div>{props.build.qSeven1}</div>
         <br/>
@@ -59,7 +64,6 @@ function Third(props) {
         <div id="italicked">{props.build.example3}</div>
         <br/>
         <div>{props.build.qSeven3}</div>
-        <br/>
         <h2>8- {props.build.qEight}</h2>
         <div>{props.build.qEight1}</div>
         <br/>
@@ -74,40 +78,31 @@ function Third(props) {
         <div id="italicked">{props.build.example4}</div>
         <br/>
         <div>{props.build.qEight3}</div>
-        <br/>
         <h2>9- What is the worst thing that ever happened to you?</h2>
         <div>{props.build.qNine1}</div>
-        <br/>
         {props.build.possibilities.map((myQ, index) => (
             <div key={index}>
                 <p id="italicked">{myQ.example}</p>
                 <p>{myQ.explain}</p>
             </div>
         ))}
-        <br/>
-        <table id="buildTable">
-            {props.build.extraPossible.map((myItem, index) => (
-                <tr key={index}>
-                    <td id="buildRow">{myItem.one}</td> 
-                    <td id="buildRow">{myItem.two}</td>
-                </tr> 
-            ))}
-        </table>
+        <TableTwo info={props.build.extraPossible} />
         <br/>
         <div>{props.build.qNine2}</div>
         <br/>
         <div id="italicked">{props.build.example5}</div>
-        <br/>
         <h2>10- What do you believe is your ultimate purpose?</h2>
         <div>{props.build.qTen1}</div>
         <br/>
         <table id="buildTable">
+          <tbody>
             {props.build.destiny.map((myItem, index) => (
                 <tr key={index}>
                     <td id="buildRow">{myItem.one}</td> 
                     <td id="buildRow">{myItem.two}</td>
                 </tr> 
             ))}
+          </tbody>
         </table>
         <br/>
         <div>{props.build.qTen2}</div>

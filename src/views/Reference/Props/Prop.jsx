@@ -62,14 +62,14 @@ function Prop(props) {
                       )}
                     </tbody>
                   </table>
-                    <div className="centered">
+                    <div className="justified">
                         {props.prop.desc}
                         <br />
                         <br />
                         {props.prop.note && (
                           <div id="brandon">
-                            <h5>Weapon Notes</h5>
-                            <div id="example">
+                            <h4>Weapon Notes</h4>
+                            <div>
                               {props.prop.note}
                               {props.prop.table && (
                                 <div>

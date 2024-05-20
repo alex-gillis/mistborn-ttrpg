@@ -52,80 +52,83 @@ function Stunts(props) {
   ];
 
   return (
-    <div className='marginTop'>
-      <div id='diagram'>
-        <div id='reference-table'>
-            <h3 className='notButter'>Stunts</h3>
-            <div>
-              <table>
-                <tbody>
-                  <tr>
-                    {filters.map((filter, index) => (
-                      <td key={index}>
-                        <button id={filter.select ? 'filterSelected' : 'filterUnselected'} onClick={filter.onClick}>{filter.title}</button>
-                      </td>
-                    ))}
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-            <div>
-              <table id='centered'>
-                  <thead id='reference-size' className='reference-width'>
-                      <tr>
-                        <th className='ref-item'>
-                          <button id='tableButton' onClick={() => setStunts(sortByMultipleComponents(myStunts, ['name', 'type', 'req']))}>
-                            <span className='righter'>Stunt Name</span>
-                          </button>
-                        </th>
-                        <th className='ref-middle'>
-                          <button id='tableButton' onClick={() => setStunts(sortByMultipleComponents(myStunts, ['type', 'name', 'req']))}>
-                            Type
-                          </button>
-                        </th>
-                        <th className='ref-object'>
-                          <button id='tableButton' onClick={() => setStunts(sortByMultipleComponents(myStunts, ['req', 'name', 'type']))}>
-                            Requirements
-                          </button>
-                        </th>
-                        <th className='ref-space'>
-                        </th>
-                      </tr>
-                  </thead>
-              </table>
-            </div>
-            <div id='table-list'>
-                <table id='centered'>
-                    <tbody id='reference-size' className='reference-width'>
-                        {myStunts && myStunts.map((section, index) => (
-                        <tr key={index} className={index % 2 === 0 ? 'evenRow' : 'oddRow'}>
-                            <td className='ref-item'>
-                            <button id='tableButton' onClick={() => handleSelection(index)}>
-                                {section.name}
-                            </button>
-                            </td>
-                            <td className='ref-middle'>
-                            <button id='tableButton' onClick={() => handleSelection(index)}>
-                                {section.type}
-                            </button>
-                            </td>
-                            <td className='ref-object'>
-                            <button id='tableButton' onClick={() => handleSelection(index)}>
-                                {section.req}
-                            </button>
-                            </td>
-                        </tr>
-                        ))}
-                    </tbody>
+    <div className='isButter' >
+      <div className='marginTop'>
+        <div id='diagram'>
+          <div id='reference-table'>
+              <h3 className='notButter'>Stunts</h3>
+              <div>
+                <table>
+                  <tbody>
+                    <tr>
+                      {filters.map((filter, index) => (
+                        <td key={index}>
+                          <button id={filter.select ? 'filterSelected' : 'filterUnselected'} onClick={filter.onClick}>{filter.title}</button>
+                        </td>
+                      ))}
+                    </tr>
+                  </tbody>
                 </table>
-            </div>
-        </div>
-        
-        <div id='reference-info'>
-            <Stunt stunt={myStunts[mySelection]} />
+              </div>
+              <div>
+                <table id='reference-size' className='reference-width'>
+                    <thead>
+                        <tr>
+                          <th className='ref-item'>
+                            <button id='tableButton' onClick={() => setStunts(sortByMultipleComponents(myStunts, ['name', 'type', 'req']))}>
+                              <span className='righter'>Stunt Name</span>
+                            </button>
+                          </th>
+                          <th className='ref-middle'>
+                            <button id='tableButton' onClick={() => setStunts(sortByMultipleComponents(myStunts, ['type', 'name', 'req']))}>
+                              Type
+                            </button>
+                          </th>
+                          <th className='ref-object'>
+                            <button id='tableButton' onClick={() => setStunts(sortByMultipleComponents(myStunts, ['req', 'name', 'type']))}>
+                              Requirements
+                            </button>
+                          </th>
+                          <th className='ref-space'>
+                          </th>
+                        </tr>
+                    </thead>
+                </table>
+              </div>
+              <div id='table-list'>
+                <table id='reference-size' className='reference-width'>
+                      <tbody>
+                          {myStunts && myStunts.map((section, index) => (
+                          <tr key={index} className={index % 2 === 0 ? 'evenRow' : 'oddRow'}>
+                              <td className='ref-item'>
+                              <button id='tableButton' onClick={() => handleSelection(index)}>
+                                  {section.name}
+                              </button>
+                              </td>
+                              <td className='ref-middle'>
+                              <button id='tableButton' onClick={() => handleSelection(index)}>
+                                  {section.type}
+                              </button>
+                              </td>
+                              <td className='ref-object'>
+                              <button id='tableButton' onClick={() => handleSelection(index)}>
+                                  {section.req}
+                              </button>
+                              </td>
+                          </tr>
+                          ))}
+                      </tbody>
+                  </table>
+              </div>
+          </div>
+          
+          <div id='reference-info'>
+              <Stunt stunt={myStunts[mySelection]} />
+          </div>
         </div>
       </div>
     </div>
+    
   );
 }
 

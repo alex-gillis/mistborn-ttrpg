@@ -1,7 +1,7 @@
 
 /* eslint-disable react/jsx-key */
 /* eslint-disable react/prop-types */
-function Starting(props) {
+const Starting = (props) => {
 
     return (
       < >

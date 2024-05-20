@@ -7,7 +7,7 @@ import Other from './Contests/Other';
 import Describing from './Contests/Describing';
 import Sample from './Contests/Sample';
 
-function Contests(props) {
+const Contests = (props) => {
     const [mySection, setSecion] = useState(0);
   
     function handleSection(sctNum) {

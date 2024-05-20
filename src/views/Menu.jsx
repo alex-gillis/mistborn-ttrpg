@@ -1,77 +1,120 @@
 /* eslint-disable react/jsx-key */
-import Creation from './Main/Creation';
-import Lore from './Main/Lore';
-import Rules from './Main/Rules';
-import Intro from './Main/Intro';
-import Reference from './Main/Reference';
-import { useState, useEffect } from 'react';
+// import Creation from './Main/Creation';
+// import Lore from './Main/Lore';
+// import Rules from './Main/Rules';
+// import Intro from './Main/Intro';
+// import Reference from './Main/Reference';
 import '../styles/App.css';
+import { Outlet, useLocation, useNavigate } from "react-router-dom";
+import { useState } from 'react';
 
-function Menu() {
-    const [myMetals, setMetals] = useState([]);
-    const [myBasics, setBasics] = useState([]);
-    const [myCreations, setCreations] = useState([]);
-    const [myProps, setProps] = useState([]);
-    const [myRogues, setRogues] = useState([]);
-    const [myGames, setGames] = useState([]);
-    const [myStunts, setStunts] = useState([]);
-    const [myLore, setLore] = useState([]);
-
-
-    useEffect(() => {
-        const getMetals = async () => {
-        try {
-            const response = await fetch('./assets/information.json'); 
-            if (!response.ok) {
-            throw new Error('Failed to fetch data');
-            }
-            const data = await response.json();
-            setMetals(data.metals); 
-            setBasics (data.basics);
-            setCreations (data.creation);
-            setProps (data.propped);
-            setRogues (data.rogues);
-            setGames (data.game);
-            setStunts (data.stunts);
-            setLore (data.lore);
-        } catch (error) {
-            console.error('Error fetching data:', error);
-        }
-        };
+const Menu = () => {
+    const location = useLocation();
+    const pathname = location.pathname;
+    const navigate = useNavigate();
     
-        getMetals();
-    }, []);
-    
-    const [myPage, setPage] = useState(0);
+    const [mySelection, setSelection] = useState(false);
 
-    function handlePage(pgNum) {
-        setPage(pgNum);
+    const handlePageChange = (link) => {
+        navigate(link);
+        setSelection(false);
+    };
+    
+    const handleRefPageChange = (link) => {
+        navigate(link);
+    };
+  
+    function toggleMenu() {
+      setSelection(!mySelection);
     }
 
-    const pages = [
-        { title: 'Home', className: myPage === 0 ? 'selected' : 'unselected', onClick: () => handlePage(0) },
-        { title: 'Rules', className: myPage === 1 ? 'selected' : 'unselected', onClick: () => handlePage(1) },
-        { title: 'Creation', className: myPage === 2 ? 'selected' : 'unselected', onClick: () => handlePage(2) },
-        { title: 'Lore', className: myPage === 3 ? 'selected' : 'unselected', onClick: () => handlePage(3) },
-        { title: 'References', className: myPage === 4 ? 'selected' : 'unselected', onClick: () => handlePage(4) },
+    const rules = [
+        "/mistborn-ttrpg/rules",
+        "/mistborn-ttrpg/contests",
+        "/mistborn-ttrpg/conflicts",
+        "/mistborn-ttrpg/standing"
+    ]
+
+    const creation = [
+        "/mistborn-ttrpg/creation",
+        "/mistborn-ttrpg/samples",
+        "/mistborn-ttrpg/building",
+        "/mistborn-ttrpg/improvement"
+    ]
+
+    const lore = [
+        "/mistborn-ttrpg/lore",
+        "/mistborn-ttrpg/locations",
+        "/mistborn-ttrpg/history",
+        "/mistborn-ttrpg/religion"
+    ]
+
+    const reference = [
+        "/mistborn-ttrpg/metal",
+        "/mistborn-ttrpg/props",
+        "/mistborn-ttrpg/stunts",
+        "/mistborn-ttrpg/terms"
     ];
 
+    const ruleSelect = rules.some(path => pathname.includes(path));
+    const createSelect = creation.some(path => pathname.includes(path));
+    const loreSelect = lore.some(path => pathname.includes(path));
+    const refSelect = reference.some(path => pathname.includes(path));
+
+    const metal = pathname.includes("/mistborn-ttrpg/metal");
+    const props = pathname.includes("/mistborn-ttrpg/props");
+    const stunts = pathname.includes("/mistborn-ttrpg/stunts");
+    const terms = pathname.includes("/mistborn-ttrpg/terms");
+    
+
+    const pages = [
+        { title: 'Home', link: "/mistborn-ttrpg/", className: pathname === "/mistborn-ttrpg/" ? 'selected' : 'unselected', onClick: handlePageChange },
+        { title: 'Rules', link: "/mistborn-ttrpg/rules", className: ruleSelect ? 'selected' : 'unselected', onClick: handlePageChange },
+        { title: 'Creation', link: "/mistborn-ttrpg/creation", className: createSelect ? 'selected' : 'unselected', onClick: handlePageChange },
+        { title: 'Lore', link: "/mistborn-ttrpg/lore", className: loreSelect ? 'selected' : 'unselected', onClick: handlePageChange },
+        // { title: 'References', link: "/mistborn-ttrpg/references", className: references ? 'selected' : 'unselected' }
+        {
+            title: 'References', 
+            className: refSelect || mySelection ? 'selected' : 'unselected',
+            classDrop: mySelection ? 'dropDown' : 'pickUp', 
+            onClick: toggleMenu,
+            subpages: [
+                { title: 'Metallurgy', link: "/mistborn-ttrpg/metallurgy", subclassName: metal ? 'dropSelected' : 'dropUnselected' },
+                { title: 'Props', link: "/mistborn-ttrpg/props", subclassName: props ? 'dropSelected' : 'dropUnselected' },
+                { title: 'Stunts', link: "/mistborn-ttrpg/stunts", subclassName: stunts ? 'dropSelected' : 'dropUnselected' },
+                { title: 'Game Terms', link: "/mistborn-ttrpg/terms", subclassName: terms ? 'dropSelected' : 'dropUnselected' }
+            ]
+        },
+    ];
 
     return (
         <>
             <header>
-                {pages.map((page, index) => (
-                    <button key={index} id="head-button" className={page.className} onClick={page.onClick}>
-                        <span id="bold">{page.title}</span>
-                    </button>
-                ))}
+                <nav>
+                    {pages.map((page, index) => (
+                        <span key={index}>
+                            {page.subpages ? (
+                                <span className="dropdown">
+                                    <button id="head-button" className={page.className} onClick={() => page.onClick(page.link)}>{page.title}</button>
+                                    <div className={page.classDrop} >
+                                        {page.subpages.map((subpage, subIndex) => (
+                                            <button id="head-button" className={subpage.subclassName} key={subIndex} onClick={() => handleRefPageChange(subpage.link)}>
+                                                {subpage.title}
+                                            </button>
+                                        ))}
+                                    </div>
+                                </span>
+                            ) : (
+                                <button id="head-button" className={page.className} onClick={() => page.onClick(page.link)}>
+                                    <span id="bold">{page.title}</span>
+                                </button>
+                            )}
+                        </span>
+                    ))}
+                </nav>
             </header>
-            
-            { myPage === 0 && <Intro /> }
-            { myPage === 1 && <Rules game={myGames}/> }
-            { myPage === 2 && <Creation creation={myCreations} propped={myProps[0]} rogues={myRogues} /> }
-            { myPage === 3 && <Lore lore={myLore} /> }
-            { myPage === 4 && <Reference basics={myBasics} creation={myCreations} metals={myMetals} stunts={myStunts} propped={myProps[1]}/> }
+
+            <Outlet />
         </>
     );
 }

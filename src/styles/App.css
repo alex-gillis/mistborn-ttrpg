@@ -1,4 +1,19 @@
 /* Elements */
+html {
+  position: relative;
+  background: url(../../assets/Symbols.png) center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover; 
+  height: 100%;
+}
+
+body {
+  height: 100%;
+}
+
 h1 {
   text-align: center;
   text-decoration: underline;
@@ -29,6 +44,10 @@ h5 {
   text-align: center;
 }
 
+li {
+  text-align-last: left;
+}
+
 th {
   text-decoration: underline;
 }
@@ -46,11 +65,30 @@ table {
 header {
   text-align: center;
   position: fixed;
-  max-width: 1280px;
+  max-width: 1275px;
   margin: auto;
   width: 100%;
   background-color: #1a1a1a;
   z-index: 2;
+}
+
+.spinner {
+  border: 16px solid #f3f3f3; 
+  border-top: 16px solid transparent;
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  animation: spin 2s linear infinite;
+  margin: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
 }
 
 @media only screen and (max-width: 1300px) {
@@ -141,6 +179,7 @@ header {
 #creation {
   padding-bottom: 15px;
   padding-top: 30px;
+  min-width: 1265px;
 }
 
 #desc {
@@ -301,10 +340,16 @@ header {
 #root {
   max-width: 1280px;
   height: 100%;
-  margin: 0 auto;
+  margin: 0px auto;
+  padding-left: 5px;
+  padding-right: 5px;
   text-align: justify;
+  text-align-last: center;
   white-space: pre-line;
   vertical-align: bottom;
+  background-color: #1a1a1a;
+  overflow-y: scroll;
+  list-style-type: none;
 }
 
 #sampleDisplay {
@@ -328,7 +373,7 @@ header {
   padding-top: 35px;
   text-align: center;
   position: fixed;
-  max-width: 1280px;
+  max-width: 1275px;
   width: 100%;
   background-color: #1a1a1a;
   z-index: 1;
@@ -350,11 +395,13 @@ header {
   padding-left: 15px;
   padding-top: 25%;
   text-align: justify;
+  text-align-last: center;
 }
 
 #terms {
   width: auto;
   margin-bottom: 15px;
+  margin-right: 15px;
   line-height: 1.1;
 }
 
@@ -401,7 +448,7 @@ header {
 .index-button {
   border: none;
   background-color: transparent;
-  text-align: right;
+  text-align-last: right;
   padding: 0px;
   padding-right: 5px;
   width: 100%;
@@ -505,6 +552,7 @@ header {
   font-size: smaller;
   height: 100%;
   width: 100%;
+  min-width: 100px;
   color: rgba(255, 255, 255, 0.87);
 }
 
@@ -591,4 +639,50 @@ header {
 
 .ref-five {
   min-width: 37px;
+}
+
+#secret {
+  margin: auto;
+  padding-top: 25px;
+  width: 50%;
+  font-size: large;
+}
+
+.dropDown {
+  background: #1a1a1a;
+}
+
+.pickUp {
+  display: none;
+}
+
+.dropSelected {
+  background-color: #35465c;
+  opacity: 0.6;
+  transition: 0.3s;
+}
+
+.dropSelected:hover {
+  opacity: 1;
+}
+
+.dropUnselected {
+  color: #242424;
+  background-color: rgba(255, 255, 255, 0.87);
+  opacity: 0.6;
+  transition: 0.3s;
+}
+
+.dropUnselected:hover {
+  opacity: 1;
+}
+
+.isButter {
+  padding-top: 40px;
+  margin-left: 50px;
+  margin-right: 110px;
+  padding-right: 2rem;
+  margin-bottom: 35px;
+  max-width: 1080px;
+  width: auto;
 }
