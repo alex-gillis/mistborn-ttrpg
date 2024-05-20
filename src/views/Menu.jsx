@@ -13,11 +13,11 @@ const Menu = () => {
     const pathname = location.pathname;
     const navigate = useNavigate();
     
-    const [mySection, setSecion] = useState(false);
+    const [mySelection, setSelection] = useState(false);
 
     const handlePageChange = (link) => {
         navigate(link);
-        setSecion(false);
+        setSelection(false);
     };
     
     const handleRefPageChange = (link) => {
@@ -25,7 +25,7 @@ const Menu = () => {
     };
   
     function toggleMenu() {
-      setSecion(!mySection);
+      setSelection(!mySelection);
     }
 
     const reference = [
@@ -39,7 +39,7 @@ const Menu = () => {
     const creation = pathname.includes("/mistborn-ttrpg/creation");
     const lore = pathname.includes("/mistborn-ttrpg/lore");
 
-    const isSelected = reference.some(path => pathname.includes(path));
+    const refSelect = reference.some(path => pathname.includes(path));
 
     const metal = pathname.includes("/mistborn-ttrpg/metal");
     const props = pathname.includes("/mistborn-ttrpg/props");
@@ -55,8 +55,8 @@ const Menu = () => {
         // { title: 'References', link: "/mistborn-ttrpg/references", className: references ? 'selected' : 'unselected' }
         {
             title: 'References', 
-            className: isSelected || mySection ? 'selected' : 'unselected',
-            classDrop: mySection ? 'dropDown' : 'pickUp', 
+            className: refSelect || mySelection ? 'selected' : 'unselected',
+            classDrop: mySelection ? 'dropDown' : 'pickUp', 
             onClick: toggleMenu,
             subpages: [
                 { title: 'Metallurgy', link: "/mistborn-ttrpg/metallurgy", subclassName: metal ? 'dropSelected' : 'dropUnselected' },
@@ -85,7 +85,6 @@ const Menu = () => {
                                     </div>
                                 </span>
                             ) : (
-                                // Render regular button if no subpages
                                 <button id="head-button" className={page.className} onClick={() => page.onClick(page.link)}>
                                     <span id="bold">{page.title}</span>
                                 </button>
@@ -96,8 +95,6 @@ const Menu = () => {
             </header>
 
             <Outlet />
-            
-            {/*{ myPage === 4 && <Reference basics={myBasics} creation={myCreations} metals={myMetals} stunts={myStunts} propped={myProps[1]}/> } */}
         </>
     );
 }

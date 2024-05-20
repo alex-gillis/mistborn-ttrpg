@@ -1,4 +1,19 @@
 /* Elements */
+html {
+  position: relative;
+  background: url(../../assets/Symbols.png) center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover; 
+  height: 100%;
+}
+
+body {
+  height: 100%;
+}
+
 h1 {
   text-align: center;
   text-decoration: underline;
@@ -50,7 +65,7 @@ table {
 header {
   text-align: center;
   position: fixed;
-  max-width: 1280px;
+  max-width: 1275px;
   margin: auto;
   width: 100%;
   background-color: #1a1a1a;
@@ -305,11 +320,16 @@ header {
 #root {
   max-width: 1280px;
   height: 100%;
-  margin: 0 auto;
+  margin: 0px auto;
+  padding-left: 5px;
+  padding-right: 5px;
   text-align: justify;
   text-align-last: center;
   white-space: pre-line;
   vertical-align: bottom;
+  background-color: #1a1a1a;
+  overflow-y: scroll;
+  list-style-type: none;
 }
 
 #sampleDisplay {
@@ -333,7 +353,7 @@ header {
   padding-top: 35px;
   text-align: center;
   position: fixed;
-  max-width: 1280px;
+  max-width: 1275px;
   width: 100%;
   background-color: #1a1a1a;
   z-index: 1;
@@ -361,6 +381,7 @@ header {
 #terms {
   width: auto;
   margin-bottom: 15px;
+  margin-right: 15px;
   line-height: 1.1;
 }
 
@@ -638,7 +659,7 @@ header {
 
 .isButter {
   padding-top: 40px;
-  margin-left: 110px;
+  margin-left: 50px;
   margin-right: 110px;
   padding-right: 2rem;
   margin-bottom: 35px;
