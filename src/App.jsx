@@ -51,7 +51,6 @@ function App() {
         setGames(data.game);
         setStunts(data.stunts);
         setLore(data.lore);
-        console.error("||| ------ DATA WAS RECIEVED ------ |||");
         setLoading(false);
       } catch (error) {
         console.error('Error fetching data:', error);
