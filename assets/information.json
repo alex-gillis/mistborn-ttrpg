@@ -11174,93 +11174,93 @@
                 {
                     "name": "Dual Wielding",
                     "type":"Gunplay",
-                    "req":"None",
+                    "req":"-",
                     "description": "You can fire a pistol in each hand as a single action. Divide your dice pool into an attack with each gun however you like, just as if you were making 2 attacks. These attacks may be against the same or different targets. While dual wielding, you gain no benefits of Aiming with either attack, and your action occurs in Step 2 of this Round as if your dice pool is only half as large as it actually is, rounded down (see the Mistborn Adventure Game, page 179).",
                     "example":"Example: During Step 1, Kevin’s character Viktr declares he’s going to use his Dual Wielding Stunt to make 2 attacks with his Sterrions (one in each hand). The Narrator declares Viktr gets 5 Action Dice this round. Kevin splits Viktr’s 5 dice into two smaller pools — one attack with 3 dice, and a second with 2 dice. However, because Viktr is using this Stunt, his action occurs in Step 2 as if he had only 2 dice (one-half of his 5 Action Dice, rounded down) in his pool."
                 },
                 {
                     "name": "Fast Aiming",
                     "type":"Gunplay",
-                    "req":"None",
+                    "req":"-",
                     "description": "You can draw a bead on a target very quickly. You may Aim and fire in the same Beat, just as if you had Aimed in the previous Beat (see page 133). However, the extra time required means your action occurs in Step 2 of this Round as if your dice pool is only half as large as it actually is, rounded down (see the Mistborn Adventure Game, page 179).",
                     "example":"Example: Becky wants her character, Luhyl, to take a quickly Aimed shot at a fleeing bandit. During Step 1, she declares Luhyl’s going to use his Fast Aiming Stunt, and the Narrator decides Luhyl gets 4 Action Dice for this action. However, because Luhyl is using this Stunt, his action occurs in Step 2 as if he had only 2 dice (one half of his 4 Action Dice) in his pool."
                 },
                 {
                     "name": "Heavy Weapons",
                     "type":"Gunplay",
-                    "req":"None",
+                    "req":"-",
                     "description": "You excel at using large firearms. You can fire a gun with the Magnum Force improvement without penalty, even if your Physique is 4 or lower. Additionally, when shooting a rotary gun, you may designate up to 2 extra targets with your attack (e.g., up to your Wits +2)."
                 },
                 {
                     "name": "Improved Fanning",
                     "type":"Gunplay",
-                    "req":"None",
+                    "req":"-",
                     "description": "You are quite skilled at controlling a fanned gun. When you Fan a revolver, you need 1 fewer Nudge to succeed (e.g., inflict the weapon’s damage twice as long as you succeed with 1 Nudge, or inflict it three times if you succeed with 3 Nudges)."
                 },
                 {
                     "name": "Long Shot",
                     "type":"Gunplay",
-                    "req":"None",
+                    "req":"-",
                     "description": "You can fire your rifle at targets normally outside the weapon’s range. When you Aim a rifle, your Range increases by one (to a maximum of Extreme Range). "
                 },
                 {
                     "name": "Marksmanship",
                     "type":"Gunplay",
-                    "req":"None",
+                    "req":"-",
                     "description": "If you’ve Aimed, you need 1 fewer Nudge to succeed with a Called Shot (see the Mistborn Adventure Game, page 201). You can’t combine this Stunt with the Fast Aiming Stunt."
                 },
                 {
                     "name": "Quicker Draw",
                     "type":"Gunplay",
-                    "req":"None",
+                    "req":"-",
                     "description": "You can Quick Draw a one-handed pistol, or knife without any penalty to your dice pool. Additionally, you can choose whether to use your Physique or Wits during each round of a pistol duel (rather than using the lower, as normal)."
                 },
                 {
                     "name": "Ricochet",
                     "type":"Gunplay",
-                    "req":"None",
+                    "req":"-",
                     "description": "Most people try to hit targets directly, but your understanding of angles allows you to exploit other options while shooting. If you Aim before firing, you can declare you are trying to ricochet your shot off a surface and strike a target out of line of sight. If the attack succeeds with at least two Nudges, you are able to hit a target you cannot see. However, if you don’t score at least 2 Nudges with this attack, your attack misses — such are the difficulties of trick shooting."
                 },
                 {
                     "name": "Speed Loading (Reaction)",
                     "type":"Gunplay",
-                    "req":"None",
+                    "req":"-",
                     "description": "You can reload your guns very quickly. Once per Beat when you fire the last shot in your gun, you may attempt to quickly reload it. This is a Reaction (see the Mistborn Adventure Game, page 177), and grants you a number of dice for your Reaction roll equal to your Physique. You may add Action or Defense Dice to this pool if you’d like, though you may not roll more than 10 dice, as usual. Roll your pool; you reload a number of shots equal to your Result, +1 for each Nudge you get, up to the weapon’s Capacity (e.g., if you used this Stunt and got a Result of 3 and 1 Nudge on your roll, you would reload 4 rounds total)."
                 },
                 {
                     "name": "Fancy Shootin’",
                     "type":"Gunplay",
-                    "req":"None",
+                    "req":"-",
                     "description": "You can make trick shots to impress people. This gives you one “free” Nudge any time you make a shot outside of a Conflict. This “free” Nudge can never be used to increase damage, nor can it be used to damage a character."
                 },
                 {
                     "name": "Legendary Gun",
                     "type":"Gunplay",
-                    "req":"None",
+                    "req":"-",
                     "description": "One of your guns has its own reputation, with a name known to every outlaw from Garmet to Weathering. For your legendary gun, choose one gun Prop you have, with a total purchase Difficulty after customizations equal to or less than your Influence. Name the chosen gun; you gain the “Legendary Gun (Gun’s Name)” Trait. Additionally, the first time you attack a target with your legendary gun during a Conflict, they suffer 2 Willpower damage (in addition to any Health lost by the attack), and you can spend Nudges rolled on successful attacks with your legendary gun to inflict extra Willpower damage (rather than the damage normally inflicted by that attack)."
                 },
                 {
                     "name": "Magic Bullet",
                     "type":"Gunplay",
-                    "req":"None",
+                    "req":"-",
                     "description": "You’re always well-equipped, often with just the right bullet for the occasion. Finding this bullet is a Resources Challenge with a Difficulty equal to that type of ammunition’s difficulty (or 1 if you just want normal ammunition instead of customized ammunition), which counts as an action during a Conflict. With success, you bring up one bullet of a type you choose, plus one more bullet for each Nudge you spend; with failure, you cannot use this benefit again until after the next Breather. You can keep the bullets or distribute any number of them to other people as part of the same action."
                 },
                 {
                     "name": "Mobile Arsenal",
                     "type":"Gunplay",
-                    "req":"None",
+                    "req":"-",
                     "description": "There’s no such thing as too many guns, so you always have a big stash near at hand. During a Short or Long Breather, you can swap out any firearms and/or customized ammunition Props for different firearms and/or customized ammunition costing an equal number of Props. You can use this ability even if you are sitting the Breather out (see the Mistborn Adventure Game, page 447). You cannot choose customized firearms from your mobile arsenal unless you either have the Customize Guns Stunt, or are recovering a customized weapon you exchanged at the mobile arsenal in the previous Breather."
                 },
                 {
                     "name": "Point Blank",
                     "type":"Gunplay",
-                    "req":"None",
+                    "req":"-",
                     "description": "You are skilled at using your guns at extremely close range. You can fire a gun with a minimum Range of Close at Striking Range instead. Attacks made with guns at Striking Range cannot be aimed. \n\n Additionally, you may use your gun as a melee weapon — a useful tactic when you’re out of ammo! A pistol used as a melee weapon has a Damage of +1 and min/max of Touch / Touch, while a rifle, shotgun, or other longarm has a Damage of +2 and a min/max range of Striking / Striking."
                 },
                 {
                     "name": "Ranged Disarm",
                     "type":"Gunplay",
-                    "req":"None",
+                    "req":"-",
                     "description": "With a pinpoint shot, you can shoot a gun or other item out of someone’s hand, or shoot a small item that’s on the ground to send it flying out of reach. This follows the standard rules for Disarming a Target (see the Mistborn Adventure Game, page 201), but is a Wits vs. Physique Contest if the item is held, or a Wits 2 Challenge if not. If the attempt succeeds, the target drops the item as normal for a Disarm; with 2 or more Nudges on the roll, you may also move the item up to 1 Step away from its original position and/or holder. \n\n You may combine a Ranged Disarm with a Quick Draw (see Alloy of Law Game Supplement & Campaign Setting, page 136)."
                 }
             ]
@@ -11272,37 +11272,37 @@
                 {
                     "name": "Create Guns",
                     "type":"Gunsmithing",
-                    "req":"None",
+                    "req":"-",
                     "description": "You can make guns from raw materials, allowing you to create any standard, commonly used firearm. Additionally, you gain 1 free Prop, which must be a gun chosen from the Firearms table on pages 115-116."
                 },
                 {
                     "name": "Create Custom Ammo",
                     "type":"Gunsmithing",
-                    "req":"None",
+                    "req":"-",
                     "description": "You can make all custom ammunition, including aluminum ammo, armor-piercing ammo, hollow-point rounds, and incendiary shells. Additionally, you gain 1 free Prop, which must be one of the listed ammunition types above, chosen from the Customized Ammunition table on page 122."
                 },
                 {
                     "name": "Create Hazekiller Ammo",
                     "type":"Gunsmithing",
-                    "req":"None",
+                    "req":"-",
                     "description": "You can create specialized anti-Allomancer ammunition, including Coinshot, Lurcher, Pewterarm, and Tineye rounds. Additionally, you gain 1 free Prop, which must be one type of Hazekiller ammunition chosen from the Customized Ammunition table on page 122."
                 },
                 {
                     "name": "Customize Guns",
                     "type":"Gunsmithing",
-                    "req":"None",
+                    "req":"-",
                     "description": "Choose an option from the Customized Firearms table on page 119. You can add this option to a gun using the gunsmithing rules. Additionally, you gain 1 free Prop, which must be spent to add the chosen customization to a gun you’ve chosen as a Prop. You may take this Stunt multiple times, each time designating a different Customized Firearm option, and allowing you to add that customization to a gun you’ve chosen as a Prop."
                 },
                 {
                     "name": "Industrious Craftsman",
                     "type":"Gunsmithing",
-                    "req":"None",
+                    "req":"-",
                     "description": "You excel when you set your mind to things. When you succeed on a roll to create or customize guns or ammo, you gain 1 “free” Nudge to your roll. This Nudge can only be spent to choose the exact same benefit and/or product chosen at the initial roll (e.g., if you chose to create an Immerling 44 as the initial benefit of your gunsmithing roll, you must spend this “free” Nudge to create an additional Immerling 44)."
                 },
                 {
                     "name": "Spit and Bailing Wire",
                     "type":"Gunsmithing",
-                    "req":"None",
+                    "req":"-",
                     "description": "You can creatively use common items and available materials to quickly repair a gun in the field or prototype a firearm customization.",
                     "points":[
                         {
@@ -11318,7 +11318,7 @@
                 {
                     "name": "Speedy Craftsman",
                     "type":"Gunsmithing",
-                    "req":"None",
+                    "req":"-",
                     "description": "Your familiarity with certain types of technologies lets you build and repair guns in record time. You can spend a Long Breather creating or customizing guns or ammo, even if that Long Breather is less than a week. All other rules for gunsmithing apply as normal (see pages 139-141 of the Alloy of Law Campaign Setting and Game Supplement)."
                 }
             ]
@@ -11330,7 +11330,7 @@
                 {
                     "name":"Spatial Sense",
                     "type":"Compounding",
-                    "req":"Tin Allomancy & Feruchemy",
+                    "req":"Tin Feruchemy & Allomancy",
                     "description":"By spending 10 or more Compounded charges of touch or hearing, you can detect the precise locations of people, machines, animals, and anything else moving within a single structure; by spending more charges, you can detect all objects, whether they are moving or not. The number of charges required depends on the size of the structure:",
                     "table":[
                         {
@@ -11368,13 +11368,13 @@
                 {
                     "name":"Penetrating Vision",
                     "type":"Compounding",
-                    "req":"Tin Allomancy & Feruchemy",
+                    "req":"Tin Feruchemy & Allomancy",
                     "description":"By spending 60 Compounded charges of sight, your vision grows so acute that you can peer between the motes that make up solid matter; you can see through most solid objects. Using this Stunt allows you to see clearly through anything but metal — though you can clearly see the outline of metal you are unable to peer through."
                 },
                 {
                     "name":"Earthshaker",
                     "type":"Compounding",
-                    "req":"Pewter Allomancy & Feruchemy",
+                    "req":"Pewter Feruchemy & Allomancy",
                     "description":"By spending Compounded charges of strength and forfeiting all other actions during a Beat, you can stamp or pound on the ground, shaking the earth and potentially destroying whatever your limbs land on. The quake affects all characters within 3–10 paces of you (Close Range). The number of charges spent determines the Difficulty of Physique rolls they must make to stay on their feet, and the damage they suffer if they fail the roll:",
                     "table":[
                         {
@@ -11407,13 +11407,13 @@
                 {
                     "name":"Vaulting Leap",
                     "type":"Compounding",
-                    "req":"Pewter Allomancy & Feruchemy",
+                    "req":"Pewter Feruchemy & Allomancy",
                     "description":"By spending 10 or more Compounded charges of strength, you can jump long distances. For every 10 charges of Compounded Pewter you tap, you move 1 Step (see the Mistborn Adventure Game, page 198). This movement does not count as an adverse condition as normal. During a Conflict, you can make no more than one vaulting leap per Beat."
                 },
                 {
                     "name":"Full Stop",
                     "type":"Compounding",
-                    "req":"Iron Allomancy & Feruchemy",
+                    "req":"Iron Feruchemy & Allomancy",
                     "description":"By spending 20 or more Compounded charges of weight, you can make a moving conveyance carrying you come to a complete stop, or even to crash. The Compounded charges required to stop and/or damage depends on the size of the conveyance. A stopped vehicle is stuck for one full Beat (as it has to pull its legs or wheels free from mud, or bail water taken on from your weight shift), while a crashed vehicle can no longer move (as you break the horse’s back, shatter a wagon or horseless carriage’s axles, or sink the ship).",
                     "table":[
                         {
@@ -11451,7 +11451,7 @@
                 {
                     "name":"Ironrend",
                     "type":"Compounding",
-                    "req":"Iron Allomancy & Feruchemy",
+                    "req":"Iron Feruchemy & Allomancy",
                     "description":"By Compounding 20 or more charges of Iron, you may simultaneously root yourself in place with Feruchemy and power a massive Ironpull to tear apart a complex metal object instantly. The size of the object determines how many Compounded charges have to be spent in order to rend it. \n\n There are some limitations to this ability, however. Only machines and other objects composed of multiple parts can be rent. Simple items such as a koloss blade, which is a single massive piece of metal, can’t be torn apart. This process also puts a great physical strain on you, particularly when the object is heavier than yourself; you suffer damage based on the size of the object being rent. Finally, if you rend an item someone is holding, the holder must succeed on a Physique 3 Challenge to prevent the item from being disassembled.",
                     "table":[
                         {
@@ -11484,123 +11484,123 @@
                 {
                     "name":"Bullet Dodge (Reaction)",
                     "type":"Compounding",
-                    "req":"Steel Allomancy & Feruchemy",
+                    "req":"Steel Feruchemy & Allomancy",
                     "description":"By spending Compounded charges of Speed, you can easily dodge attacks made with metal projectiles and objects, including bullets. When you’re attacked with a metal object (such as a bullet or steel-headed arrow), you may spend 10 Compounded charges of Steel to gain two additional Defense Dice against that attack. This is a Reaction (see the Mistborn Adventure Game, page 177). These dice are separate from your Action Dice, but you can still spend Action Dice to add to this pool and tap charges to add dice, Nudges, and Outcome increases. You may use this Stunt any number of times per Beat (provided you keep Compounding your steelmind, of course)."
                 },
                 {
                     "name":"Extra Action",
                     "type":"Compounding",
-                    "req":"Steel Allomancy & Feruchemy",
+                    "req":"Steel Feruchemy & Allomancy",
                     "description":"Once per Beat, during Step 1 of a Conflict, you may tap 40 Compounded charges of Steel to take two actions during Step 2 (see the Mistborn Adventure Game, page 179). Both your declared actions must be physical feats that can use the same dice pool (such as kicking a foe’s legs out from under him and attacking him with a knife, or driving a carriage along a ridge and shooting your pursuer between the eyes). Note this Stunt does not increase the number of Action Dice you get — only the number of actions you can take. You resolve your first action based on your Action Dice as normal, and the second action at the end of the round (as if your Action Dice were 0). When you take these actions, your movements are inhumanly fast, making it impossible to hide your use of powers from observers. \n\n Additionally, the strain of this movement takes a major toll on your body. Each time you use this Stunt during a Conflict after the first, you suffer 1 damage and must tap an additional 10 Compounded charges of speed. This damage can’t be prevented in any way (such as from armor, Powers, etc.). These penalties are cumulative (thus, using this Stunt the third time during a Conflict inflicts 2 damage and costs you 60 Compounded charges)."
                 },
                 {
                     "name":"Stitched Memories",
                     "type":"Compounding",
-                    "req":"Copper Allomancy & Feruchemy",
+                    "req":"Copper Feruchemy & Allomancy",
                     "description":"By spending 20 or more charges of Compounded memory, you can synthesize several accounts of an event you’ve only heard retellings of, just as though you were there (i.e., you can synthesize two eyewitness accounts of an event and relive it as it happened, finding the truth of the situation). Using this Stunt requires you to spend 20 Compounded charges of memory, plus 10 additional Compounded charges for every 5 minutes the event lasted (rounded up). No matter the length of the event you are recreating, reliving this stitched memory only takes one Beat."
                 },
                 {
                     "name":"Physical Mimicry",
                     "type":"Compounding",
-                    "req":"Copper Allomancy & Feruchemy",
+                    "req":"Copper Feruchemy & Allomancy",
                     "description":"By spending 20 Compounded charges of memory, you can imitate any action that you’ve seen once, as long as you saw it clearly. This includes complex physical tasks such as a secret handshake, running a locomotive engine, or modifying and reassembling a revolver. \n\n Note that knowing how to perform one task doesn’t help you perform related tasks, since you don’t necessarily understand everything you’re doing — you can merely mimic it. For instance, if you’ve watched an artist draw a lovely sketch of a particular house, you could draw the exact same house in exactly the same manner…but knowing how to draw that house wouldn’t help you draw a different scene. Additionally, your mimicry is limited by your actual physical abilities; while you can replicate the motions of a Pewter-fueled punch, your body can’t necessarily pull it off!"
                 },
                 {
                     "name":"Presence of Mind (Reaction)",
                     "type":"Compounding",
-                    "req":"Bronze Allomancy & Feruchemy",
+                    "req":"Bronze Feruchemy & Allomancy",
                     "description":"By spending Compounded Bronze, you may steel your will. When you’re aware of another character’s attempts to influence you with emotional Allomancy, you can spend 10 Compounded charges of Bronze to gain two additional Defense Dice against that Power or attack. This is a Reaction (see the Mistborn Adventure Game, page 177). These dice are separate from your Action Dice, but you may add Action Dice to this pool and tap charges to add dice, Nudges, and increase Outcome as normal. You may use this Stunt any number of times per Beat (provided you keep Compounding your bronzemind, of course). \n\n Additionally, you may use this Stunt to recover Willpower during a Short Breather, at a cost of 20 Compounded charges per point of Willpower. This recovery is above and beyond those points normally gained during a Short Breather."
                 },
                 {
                     "name":"Inhuman Endurance",
                     "type":"Compounding",
-                    "req":"Bronze Allomancy & Feruchemy",
+                    "req":"Bronze Feruchemy & Allomancy",
                     "description":"Your Compounding allows you to exhibit koloss-like endurance in a number of situations. By spending Compounded charges of Bronze, you may ignore the effects of one Burden related to tiredness or fatigue for the next 3 Beats (see the Mistborn Adventure Game, page 187). The number of Compounded charges you must spend depends on the severity of the Burden; ignoring a Serious Burden costs 10 Compounded charges; ignoring a Grave Burden costs 20 Compounded charges; and ignoring a Mortal Burden costs 30 Compounded charges. \n\n Additionally, when you’re physically Incapacitated, you can tap 40 Compounded charges to remain awake for 1 additional Beat, even when you’re on the brink of death (see the Mistborn Adventure Game, page 185). \n\n Finally, you recover the standard amount of Health during Short Breathers, even if you don’t sit out for the Breather."
                 },
                 {
                     "name":"Inhuman Insight",
                     "type":"Compounding",
-                    "req":"Zinc Allomancy & Feruchemy",
+                    "req":"Zinc Feruchemy & Allomancy",
                     "description":"You think so fast that you can process and understand the world in ways impossible for ordinary humans to understand. At the beginning of Step 1 of a Conflict, you may spend 10 Compounded charges of mental speed to declare your action as if you had Wits 11 (see the Mistborn Adventure Game, page 174). Additionally, you may take this action at any point in Step 2 that you wish — going first, last, or immediately after any other action. You cannot interrupt another character’s action in this way, and if you choose to act at the same time as another character using this Stunt, your actions occur simultaneously. \n\n Additionally, you may spend 10 Compounded charges of Zinc to ignore the effects of declaring a new action during a Conflict."
                 },
                 {
                     "name":"Inhuman Endurance",
                     "type":"Compounding",
-                    "req":"Zinc Allomancy & Feruchemy",
+                    "req":"Zinc Feruchemy & Allomancy",
                     "example":"Example: Sam’s Twinborn character Raymund is trying to figure out why a lawkeeper killed an honest businessman and disappeared. Thinking for a moment, the Narrator decides Raymund will need to spend 40 Compounded charges to get to the heart of the matter: 10 to find out that the businessman was in debt to a land baron; then 10 to discover that the lawkeeper fancied the businessman’s sister; then 10 to know the businessman promised his sister’s hand in marriage to the baron; and 10 more to learn that the lawkeeper and sister ran off together.",
                     "description":"By spending 10 or more Compounded charges of mental speed, you can make complicated logical connections rapidly (such as discovering a secret about a situation, determining weaknesses in a plan, sussing out a connection between two people, etc.). Making these lateral links costs 10 Compounded charges, plus an additional 10 for each correct logical leap you have to make (usually because you lack information). The Narrator tells you each logical leap you make, and you may continue tapping charges until you find out what you were looking for, until you run out of Compounded charges, or until you give up on finding the answer. "
                 },
                 {
                     "name":"Kindling Touch",
                     "type":"Compounding",
-                    "req":"Brass Allomancy & Feruchemy",
+                    "req":"Brass Feruchemy & Allomancy",
                     "description":"By spending 30 or more Compounded charges of warmth, you can release extreme heat from a specific portion of your body (typically your hands). Spending 30 Compounded charges of Brass allows you to char wood, ignite cloth and explosive fuses, or melt soft metals like gold, bronze, silver, lead, or aluminum; spending 40 Compounded charges, you can cause wood to burst into flame or work iron and steel as if it were in a blacksmith’s fire."
                 },
                 {
                     "name":"Protective Heat",
                     "type":"Compounding",
-                    "req":"Brass Allomancy & Feruchemy",
+                    "req":"Brass Feruchemy & Allomancy",
                     "description":"By spending 10 Compounded charges of warmth, you begin to shimmer and glow with heat, causing anyone who touches you this Beat to suffer 1 damage. By spending 30 Compounded charges of warmth, those touching you instead suffer 2 damage, and wooden weapons that hit you burst into flame before making contact, inflicting no damage. Using this Stunt will destroy any clothing and gear that isn’t fireproofed, leaving you clad only in shimmering waves of heat."
                 },
                 {
                     "name":"Mental Barricade",
                     "type":"Compounding",
-                    "req":"Aluminum Allomancy & Feruchemy",
+                    "req":"Aluminum Feruchemy & Allomancy",
                     "description":"By spending 40 Compounded charges of identity, you shake off outside influences on your mental state, temporarily ignoring all mental Burdens and becoming immune to mental manipulation (including emotional Allomancy) for the current Beat. You may continue this protection by spending 10 more Compounded charges per Beat thereafter."
                 },
                 {
                     "name":"Perfect Rapport",
                     "type":"Compounding",
-                    "req":"Duralumin Allomancy & Feruchemy",
+                    "req":"Duralumin Feruchemy & Allomancy",
                     "description":"By spending 20 Compounded charges of connection, you may deepen your sensitivity to the point where you can share feelings with all other characters within 10 paces (Close Range). Willing characters automatically share everything with you; you can sense the feelings of unwilling or hostile characters only by beating them in a Wits vs. Wits Contest. Using this ability doesn’t allow you to read each other's thoughts, but you can sense one another’s intended courses of action, how the others feel about different people nearby, and the like. \n\n This effect lasts 1 minute + an additional minute per 20 additional Compounded charges you spend, or until you choose to end the effect. You may also extend the area of this effect out to all characters within 100 paces (Medium Range) by spending an additional 20 Compounded charges."
                 },
                 {
                     "name":"Jinx",
                     "type":"Compounding",
-                    "req":"Chromium Allomancy & Feruchemy",
+                    "req":"Chromium Feruchemy & Allomancy",
                     "description":"By spending 10 or more Compounded charges of luck, you can bend the fortunes of others nearby, spoiling the luck of a single nearby character. This character is the closest character to you within 10 paces (Close Range); select randomly if two or more characters are the same distance from you. This character immediately suffers narrative effects of bad luck similar to a Feruchemist storing luck and also suffers an adverse condition on his or her next roll; if that next roll is also a Spirit roll, the character’s dice pool for that roll also shrinks by 1. \n\n Alternatively, you may spend 30 Compounded charges of Chromium to instead cause the closest character to suffer 2 adverse conditions to his or her next roll, and if that roll is a Spirit roll, his or her dice pool also shrinks by 2."
                 },
                 {
                     "name":"Uncanny Luck",
                     "type":"Compounding",
-                    "req":"Chromium Allomancy & Feruchemy",
+                    "req":"Chromium Feruchemy & Allomancy",
                     "description":"You may use your Compounded Chromium to greatly enhance your fortune. By spending 10 Compounded charges of luck, you may add a single Nudge to any roll you make, rather than just those related to luck or Spirit, as normal."
                 },
                 {
                     "name":"Convert Allomancy",
                     "type":"Compounding",
-                    "req":"Nicrosil Allomancy & Feruchemy",
+                    "req":"Nicrosil Feruchemy & Allomancy",
                     "description":"Since Nicrosil Compounders can very rarely tap other metalminds (at least, without Hemalurgy), most learn to burn Nicrosil in order to replenish their nicrosilminds. Once per Beat when burning Nicrosil, you may choose to convert 1 Allomantic charge into 10 Feruchemical charges, instead of using it for its Allomantic effect. You may store these charges as investiture, just as if you were storing extra Compounded charges."
                 },
                 {
                     "name":"Mimic Feruchemy",
                     "type":"Compounding",
-                    "req":"Nicrosil Allomancy & Feruchemy",
+                    "req":"Nicrosil Feruchemy & Allomancy",
                     "example":"Example: Jeff’s Twinborn character Halyrn has the Mimic Feruchemy (Pewter) Stunt. When Halyrn Compounds Nicrosil, he can choose to either generate 2 charges of strength, or 10 charges of investiture. Charges of strength generated by Halyrn’s Compounding must be used immediately and cannot be stored. \n\n You can take this Stunt multiple times, each time choosing one additional type of metal you can mimic.",
                     "description":"By Compounding Nicrosil, you can unlock hidden Feruchemical prowess deep within your being, as if you could use a different Feruchemical metal. When you choose this Stunt, select a Feruchemical metal other than Nicrosil. When you Compound charges of investiture, you can choose to generate 2 Feruchemical charges of your chosen metal per charge Compounded, rather than 10 charges of investiture as normal. Charges generated in this way are used as if you possessed that Feruchemical metal, but must be spent immediately and cannot be stored in a nicrosilmind for later."
                 },
                 {
                     "name":"Deathless",
                     "type":"Compounding",
-                    "req":"Gold Allomancy & Feruchemy",
+                    "req":"Gold Feruchemy & Allomancy",
                     "description":"By spending 100 Compounded charges of Gold, you either: immediately lose all Physical Burdens; recover 6 Health; overcome instant death; or flush a lethal poison from your system. Using this Stunt allows you to survive even if shot through the brain, but cannot be used if you are beheaded, dissolved in acid, or blown to bits."
                 },
                 {
                     "name":"Underdog’s Grit",
                     "type":"Compounding",
-                    "req":"Electrum Allomancy & Feruchemy",
+                    "req":"Electrum Feruchemy & Allomancy",
                     "description":"By spending Compounded charges of determination, you can rise to nearly any challenge. When you attempt a roll with a Difficulty equal to or greater than the number of dice in your dice pool (e.g., you must roll 4 dice against a Difficulty 5), or are in a Contest or Conflict Round with a character whose dice pool is greater than your own (e.g., your opponent would roll 7 dice while you only roll 5), you may add additional dice to your dice pool by spending 20 Compound charges of determination per die added. However, you may not increase your dice pool to be greater than the Difficulty (if a Challenge) or than your opponent’s dice pool (if in a Contest or Conflict) using this Stunt — the best you can do is bring yourself even with the challenge!"
                 },
                 {
                     "name":"Slow Breath",
                     "type":"Compounding",
-                    "req":"Cadmium Allomancy & Feruchemy",
+                    "req":"Cadmium Feruchemy & Allomancy",
                     "description":"Your body bridges the gap of Allomantic and Feruchemical Cadmium to vastly slow your breathing. When you store breath, you only lose 1 die per 2 charges stored with Physique rolls related to endurance, and can store a number of charges of breath per hour equal to your Cadmium rating (rather than storing the lower of your Cadmium rating or your Physique score minus 1 as normal)."
                 },
                 {
                     "name":"Alter Appearance",
                     "type":"Compounding",
-                    "req":"Bendalloy Allomancy & Feruchemy",
+                    "req":"Bendalloy Feruchemy & Allomancy",
                     "description":"You can selectively gain weight in different areas of your body to change how you look. For every 10 Compounded charges of caloric energy you spend, you gain 1 die to rolls to conceal your appearance for 1 hour. Additionally, you can selectively move this weight around on your body, allowing you to appear muscular, skinny, slender with a pot belly, or generally well-padded. You cannot appear to be another gender, nor can you appear to be a specific person. You may end this effect by spending one Beat reverting to your normal form (in a rather dramatic and disturbing display of power)."
                 }
             ]

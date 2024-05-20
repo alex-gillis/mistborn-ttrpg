@@ -605,11 +605,11 @@ header {
 }
 
 .ref-item {
-  min-width: 220px;
+  min-width: 230px;
 }
 
 .ref-middle {
-  min-width: 150px;
+  min-width: 220px;
 }
 
 .ref-object {
