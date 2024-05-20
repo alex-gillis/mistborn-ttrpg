@@ -33,6 +33,7 @@ function App() {
   const [myGames, setGames] = useState([]);
   const [myStunts, setStunts] = useState([]);
   const [myLore, setLore] = useState([]);
+  const [myLoading, setLoading] = useState(true); 
 
   useEffect(() => {
     const getData = async () => {
@@ -51,6 +52,7 @@ function App() {
         setStunts(data.stunts);
         setLore(data.lore);
         console.error("||| ------ DATA WAS RECIEVED ------ |||");
+        setLoading(false);
       } catch (error) {
         console.error('Error fetching data:', error);
       }
@@ -58,6 +60,10 @@ function App() {
   
     getData();
   }, []);
+  
+  if (myLoading) {
+    return <div className="spinner"></div>;
+  }
 
   return (
     <BrowserRouter>
@@ -66,21 +72,39 @@ function App() {
                 <Route index element={<Intro />} />
                 <Route path="/mistborn-ttrpg/rules" element={<Rules />}>
                     <Route index element={<RulesBasics game={myGames[0]} />} />
-                    <Route path="/mistborn-ttrpg/rules/contests" element={<Contests game={myGames[1]} />} />
-                    <Route path="/mistborn-ttrpg/rules/conflicts" element={<Conflicts game={myGames[2]} phys={myGames[3]} soci={myGames[4]} ment={myGames[5]} />} />
-                    <Route path="/mistborn-ttrpg/rules/standing" element={<Standing game={myGames[6]} />} />
+                </Route>
+                <Route path="/mistborn-ttrpg/contests" element={<Rules />}>
+                    <Route index element={<Contests game={myGames[1]} />} />
+                </Route>
+                <Route path="/mistborn-ttrpg/conflicts" element={<Rules />}>
+                    <Route index element={<Conflicts game={myGames[2]} phys={myGames[3]} soci={myGames[4]} ment={myGames[5]} />} />
+                </Route>
+                <Route path="/mistborn-ttrpg/standing" element={<Rules />}>
+                    <Route index element={<Standing game={myGames[6]} />} />
                 </Route>
                 <Route path="/mistborn-ttrpg/creation" element={<Creation />}>
                     <Route index element={<Starting create={myCreations[0]} />} />
-                    <Route path="/mistborn-ttrpg/creation/samples" element={<Samples era1={myCreations[1]?.era1Samples} era2={myCreations[1]?.era2Samples} rogues={myRogues}/> } />
-                    <Route path="/mistborn-ttrpg/creation/building" element={<Build start={myCreations[3]} building={myCreations[4]}  propped={myProps[0]} built={myCreations[6]} /> } />
-                    <Route path="/mistborn-ttrpg/creation/improvement" element={<Improvement improvement={myCreations[5]} alloy={myCreations[7]} /> } />
+                </Route>
+                <Route path="/mistborn-ttrpg/samples" element={<Creation />}>
+                    <Route index element={<Samples era1={myCreations[1]?.era1Samples} era2={myCreations[1]?.era2Samples} rogues={myRogues}/> } />
+                </Route>
+                <Route path="/mistborn-ttrpg/building" element={<Creation />}>
+                    <Route index element={<Build start={myCreations[3]} building={myCreations[4]}  propped={myProps[0]} built={myCreations[6]} /> } />
+                </Route>
+                <Route path="/mistborn-ttrpg/improvement" element={<Creation />}>
+                    <Route index element={<Improvement improvement={myCreations[5]} alloy={myCreations[7]} /> } />
                 </Route>
                 <Route path="/mistborn-ttrpg/lore" element={<Lore />}>
                     <Route index element={<Overview lore={myLore[0]} />} />
-                    <Route path="/mistborn-ttrpg/lore/locations" element={<Locals basin={myLore[1]} roughs={myLore[2]} strange={myLore[3]} />} />
-                    <Route path="/mistborn-ttrpg/lore/history" element={<History history={myLore[4]} />} />
-                    <Route path="/mistborn-ttrpg/lore/religion" element={<Religion religion={myLore[5]} />} />
+                </Route>
+                <Route path="/mistborn-ttrpg/locations" element={<Lore />}>
+                    <Route index element={<Locals basin={myLore[1]} roughs={myLore[2]} strange={myLore[3]} />} />
+                </Route>
+                <Route path="/mistborn-ttrpg/history" element={<Lore />}>
+                    <Route index element={<History history={myLore[4]} />} />
+                </Route>
+                <Route path="/mistborn-ttrpg/religion" element={<Lore />}>
+                    <Route index element={<Religion religion={myLore[5]} />} />
                 </Route>
                 <Route path="/mistborn-ttrpg/metallurgy" element={<Metallurgy basics={myBasics} metals={myMetals} />} />
                 <Route path="/mistborn-ttrpg/stunts" element={<Stunts stunts={myStunts}/>} />

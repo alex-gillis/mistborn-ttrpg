@@ -12,9 +12,9 @@ const Rules = () => {
 
   const pages = [
     { title: 'Basics', link:"/mistborn-ttrpg/rules", className: pathname === "/mistborn-ttrpg/rules" ? 'selected' : 'unselected'},
-    { title: 'Contests', link:"/mistborn-ttrpg/rules/contests", className: pathname === "/mistborn-ttrpg/rules/contests" ? 'selected' : 'unselected' },
-    { title: 'Conflicts', link:"/mistborn-ttrpg/rules/conflicts", className: pathname === "/mistborn-ttrpg/rules/conflicts" ? 'selected' : 'unselected' },
-    { title: 'Standings', link:"/mistborn-ttrpg/rules/standing", className: pathname === "/mistborn-ttrpg/rules/standing" ? 'selected' : 'unselected' }
+    { title: 'Contests', link:"/mistborn-ttrpg/contests", className: pathname === "/mistborn-ttrpg/contests" ? 'selected' : 'unselected' },
+    { title: 'Conflicts', link:"/mistborn-ttrpg/conflicts", className: pathname === "/mistborn-ttrpg/conflicts" ? 'selected' : 'unselected' },
+    { title: 'Standings', link:"/mistborn-ttrpg/standing", className: pathname === "/mistborn-ttrpg/standing" ? 'selected' : 'unselected' }
   ];
 
   return (
