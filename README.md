@@ -14,6 +14,11 @@ The Mistborn Tabletop Compendium serves as a centralized repository for all thin
 Comprehensive Content: Covers all aspects of the Mistborn Adventure Game, including character creation, Allomantic powers, Feruchemy, Hemalurgy, setting details, and more.
 - This project is a collaborative effort, and contributions from the Mistborn tabletop community are welcome and encouraged. Whether you've discovered a typo, have suggestions for additional content, or want to share your own homebrew creations, your input is invaluable. Simply fork the repository, make your changes, and submit a pull request. Together, we can make the Mistborn Tabletop Compendium the ultimate resource for Mistborn Adventure Game enthusiasts.
 
+## To Be Added 
+- Bestiary (Containing all example NPCs, Characters and Monsters)
+- Narrator Tools (Tools to help Narrator's Succeed, including Secrets & Bestiary)
+- More Content from Era 1 (Beyond the Core Rulebook, most of the content has been from Alloy of Law and Masks of the Past)
+
 ## Acknowledgments
 Special thanks to Crafty Games for creating the Mistborn Adventure Game and to Brandon Sanderson for his captivating Mistborn universe. Without their creative vision, this project would not be possible.
 
