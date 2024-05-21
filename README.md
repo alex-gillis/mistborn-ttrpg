@@ -10,14 +10,20 @@ Recognizing the need for accessible resources, I've embarked on creating this co
 The Mistborn Tabletop Compendium serves as a centralized repository for all things related to the Mistborn Adventure Game. From character creation and rules references to setting details and gameplay mechanics, this compendium aims to provide comprehensive and easy-to-access information for players and Game Masters.
 
 ## Features
-- Easy Navigation: Organized and structured for effortless navigation, allowing quick access to specific rules, abilities, and lore.
-Comprehensive Content: Covers all aspects of the Mistborn Adventure Game, including character creation, Allomantic powers, Feruchemy, Hemalurgy, setting details, and more.
-- This project is a collaborative effort, and contributions from the Mistborn tabletop community are welcome and encouraged. Whether you've discovered a typo, have suggestions for additional content, or want to share your own homebrew creations, your input is invaluable. Simply fork the repository, make your changes, and submit a pull request. Together, we can make the Mistborn Tabletop Compendium the ultimate resource for Mistborn Adventure Game enthusiasts.
+- **Easy Navigation**: Organized and structured for effortless navigation, allowing quick access to specific rules, abilities, and lore.
+- **Comprehensive Content**: Covers all aspects of the Mistborn Adventure Game, including character creation, Allomantic powers, Feruchemy, Hemalurgy, setting details, and more.
+ 
+This project is a collaborative effort, and contributions from the Mistborn tabletop community are welcome and encouraged. Whether you've discovered a typo, have suggestions for additional content, or want to share your own homebrew creations, your input is invaluable. Simply fork the repository, make your changes, and submit a pull request. Together, we can make the Mistborn Tabletop Compendium the ultimate resource for Mistborn Adventure Game enthusiasts.
 
-## To Be Added 
-- Bestiary (Containing all example NPCs, Characters and Monsters)
-- Narrator Tools (Tools to help Narrator's Succeed, including Secrets & Bestiary)
-- More Content from Era 1 (Beyond the Core Rulebook, most of the content has been from Alloy of Law and Masks of the Past)
+## To Be Added
+Exciting enhancements and expansions are on the horizon for the Mistborn Tabletop Compendium. Here's a sneak peek at what's coming next:
+
+- **Mobile Optimization**: Seamless browsing on your phone or tablet is on the way! Soon, you’ll be able to access the compendium's full potential on the go, ensuring you’re never far from the world of Mistborn, even when you’re away from your gaming table.
+- **Comprehensive Bestiary**: Prepare to meet the denizens of Scadrial like never before. This upcoming section will feature detailed profiles of NPCs, characters, and monsters, providing rich lore and stats to enhance your storytelling and gameplay.
+- **Narrator’s Toolkit**: Empower your campaigns with advanced tools designed specifically for Narrators. This section will include in-depth resources like plot hooks, secrets to enrich your narratives, and an expanded bestiary to challenge your players with new and exciting encounters.
+- **Era 1 Expansion**: Delve deeper into the original Mistborn trilogy with additional content from Era 1. Beyond the core rulebook, we'll be adding a wealth of new material inspired by the beloved first era, ensuring your adventures capture the essence of Vin, Kelsier, and the world they fought to save.
+
+Stay tuned as we continue to expand and refine the compendium. Your adventure in the world of Mistborn is just beginning!
 
 ## Acknowledgments
 Special thanks to Crafty Games for creating the Mistborn Adventure Game and to Brandon Sanderson for his captivating Mistborn universe. Without their creative vision, this project would not be possible.
