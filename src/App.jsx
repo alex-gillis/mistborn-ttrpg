@@ -23,6 +23,7 @@ import Metallurgy from './views/Main/Metallurgy';
 import Stunts from './views/Reference/Stunts';
 import Props from './views/Reference/Props';
 import Terms from './views/Reference/Terms';
+import People from './views/Lore/People';
 
 function App() {
   const [myMetals, setMetals] = useState([]);
@@ -98,6 +99,9 @@ function App() {
                 </Route>
                 <Route path="locations" element={<Lore />}>
                     <Route index element={<Locals basin={myLore[1]} roughs={myLore[2]} strange={myLore[3]} />} />
+                </Route>
+                <Route path="people" element={<Lore />}>
+                    <Route index element={<People />} />
                 </Route>
                 <Route path="history" element={<Lore />}>
                     <Route index element={<History history={myLore[4]} />} />

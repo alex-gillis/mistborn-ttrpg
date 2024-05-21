@@ -14,8 +14,9 @@ const Lore = () => {
     const pages = [
         { title: 'Overview', link:"/mistborn-ttrpg/lore", className: pathname === "/mistborn-ttrpg/lore" ? 'selected' : 'unselected' },
         { title: 'Locations', link:"/mistborn-ttrpg/locations", className: pathname === "/mistborn-ttrpg/locations" ? 'selected' : 'unselected' },
+        { title: 'People', link:"/mistborn-ttrpg/people", className: pathname === "/mistborn-ttrpg/people" ? 'selected' : 'unselected' },
         { title: 'History', link:"/mistborn-ttrpg/history", className: pathname === "/mistborn-ttrpg/history" ? 'selected' : 'unselected' },
-        { title: 'Religion', link:"/mistborn-ttrpg/religion", className: pathname === "/mistborn-ttrpg/religion" ? 'selected' : 'unselected' },
+        { title: 'Religion', link:"/mistborn-ttrpg/religion", className: pathname === "/mistborn-ttrpg/religion" ? 'selected' : 'unselected' }
     ];
     
     return (
