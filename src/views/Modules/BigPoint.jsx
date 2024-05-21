@@ -5,7 +5,7 @@ function BigPoints(props) {
   
     return (
       <>
-        <ul>
+        <ul style={{marginRight:"25px"}}>
             {props.points?.map((myObject, index) => (
                 <li key={index}>
                     <span id="bold">{myObject.name}</span> {myObject.desc}

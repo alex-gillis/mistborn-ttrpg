@@ -45,6 +45,7 @@ const Menu = () => {
     const lore = [
         "/mistborn-ttrpg/lore",
         "/mistborn-ttrpg/locations",
+        "/mistborn-ttrpg/people",
         "/mistborn-ttrpg/history",
         "/mistborn-ttrpg/religion"
     ]

@@ -7,6 +7,10 @@ function Appearance(props) {
       <>
       <h1>Koloss Appearance</h1>
       <div>{props.info.appearance}</div>
+      <div>
+        <br/>
+        <img style={{width:"500px"}} id="centerIMG" className="necessary" src={"./assets/icons/Koloss-Blooded.png"} /> 
+      </div>
       </>
     )
   }

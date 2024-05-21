@@ -1,9 +1,22 @@
 /* eslint-disable react/prop-types */
 /* eslint-disable react/jsx-key */
 import { useState } from 'react';
-import NoPage from '../Main/NoPage';
+import KolossOverview from './People/Koloss/Overview';
+import KolossAppearance from './People/Koloss/Appearance';
+import KolossHuman from './People/Koloss/Human';
+import KolossSociety from './People/Koloss/Society';
+import KolossPsychology from './People/Koloss/Psychology';
+import MistFerr from './People/Koloss/MistFerr';
+import Playing from './People/Koloss/Playing';
+import TerrisOverview from './People/Terris/Overview';
+import Structure from './People/Terris/Structure';
+import Community from './People/Terris/Community';
+import Outside from './People/Terris/Outside';
+import History from './People/Terris/History';
+import Villages from './People/Terris/Villages';
+import Fundamentalist from './People/Terris/Fundamental';
 
-function People() {
+function People(props) {
     const [mySection, setSecion] = useState(0);
   
     function handleSection(sctNum) {
@@ -45,9 +58,9 @@ function People() {
 
     const malwish = [
         { title: 'Overview', onClick: () => handleSection(24) },
-        { title: 'Culture', onClick: () => handleSection(25) },
-        { title: 'Technology', onClick: () => handleSection(26) },
-        { title: 'Characters', onClick: () => handleSection(27) }
+        { title: 'Malwish Culture', onClick: () => handleSection(25) },
+        { title: 'Malwish Technology', onClick: () => handleSection(26) },
+        { title: 'Playing a Malwish', onClick: () => handleSection(27) }
     ];
 
 
@@ -88,7 +101,21 @@ function People() {
           ))}
         </ol> 
         <div id='info'>
-            { mySection === 0 && <NoPage /> }
+            { mySection === 0 && <KolossOverview info={props.koloss} /> }
+            { mySection === 1 && <KolossAppearance info={props.koloss} /> }
+            { mySection === 2 && <KolossHuman info={props.koloss} /> }
+            { mySection === 3 && <KolossSociety info={props.koloss} /> }
+            { mySection === 4 && <KolossPsychology info={props.koloss} /> }
+            { mySection === 5 && <MistFerr info={props.koloss} /> }
+            { mySection === 6 && <Playing info={props.koloss.playing} /> }
+            
+            { mySection === 7 && <TerrisOverview info={props.terris} /> }
+            { mySection === 8 && <Structure info={props.terris.structure} /> }
+            { mySection === 9 && <Community info={props.terris} /> }
+            { mySection === 10 && <Outside info={props.terris} /> }
+            { mySection === 11 && <History info={props.terris} /> }
+            { mySection === 12 && <Villages info={props.terris} /> }
+            { mySection === 13 && <Fundamentalist info={props.terris} /> }
         </div>
         </>
     )

@@ -101,7 +101,7 @@ function App() {
                     <Route index element={<Locals basin={myLore[1]} roughs={myLore[2]} strange={myLore[3]} />} />
                 </Route>
                 <Route path="people" element={<Lore />}>
-                    <Route index element={<People />} />
+                    <Route index element={<People koloss={myLore[7].koloss} terris={myLore[7].terris} kandra={myLore[7].kandra} malwish={myLore[7].malwish} />} />
                 </Route>
                 <Route path="history" element={<Lore />}>
                     <Route index element={<History history={myLore[4]} />} />
