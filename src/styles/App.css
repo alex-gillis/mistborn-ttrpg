@@ -617,7 +617,7 @@ header {
 }
 
 .ref-space {
-  min-width: 5px;
+  min-width: 10px;
 }
 
 .ref-one {
@@ -641,7 +641,7 @@ header {
 }
 
 .ref-five {
-  min-width: 37px;
+  min-width: 10px;
 }
 
 #secret {

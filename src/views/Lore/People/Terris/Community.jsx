@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
 /* eslint-disable react/jsx-key */
 
-function Overview(props) {
+function Community(props) {
   
     return (
       <>
@@ -11,5 +11,5 @@ function Overview(props) {
     )
   }
   
-  export default Overview
+  export default Community
   
