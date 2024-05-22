@@ -23,7 +23,7 @@ function Playing(props) {
         See them all in:
         <div style={{margin:"0 auto"}}>
             <button onClick={() => handlePageChange(myLink)}>
-                <span id="bold">Stunts</span>
+                <span id="bold">Go to Stunts</span>
             </button>
         </div>
       </div>

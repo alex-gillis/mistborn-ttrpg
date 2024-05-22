@@ -5,11 +5,11 @@ function Appearance(props) {
   
     return (
       <>
-      <h1>Koloss Appearance</h1>
+      <h1>{props.info.race} Appearance</h1>
       <div>{props.info.appearance}</div>
       <div>
         <br/>
-        <img style={{width:"500px"}} id="centerIMG" className="necessary" src={"./assets/icons/Koloss-Blooded.png"} /> 
+        <img style={{maxWidth:"600px", maxHeight:"500px"}} id="centerIMG" className="necessary" src={props.info.image} /> 
       </div>
       </>
     )

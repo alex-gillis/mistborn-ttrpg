@@ -5,8 +5,8 @@ function Society(props) {
   
     return (
       <>
-      <h1>Koloss-Blooded Society</h1>
-      <div>{props.info.kolossSociety}</div>
+      <h1>{props.info.race} Society</h1>
+      <div>{props.info.ownSociety}</div>
       </>
     )
   }

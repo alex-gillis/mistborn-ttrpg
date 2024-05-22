@@ -1,15 +1,15 @@
 /* eslint-disable react/prop-types */
 /* eslint-disable react/jsx-key */
 
-function Overview(props) {
+function Harmony(props) {
   
     return (
       <>
-      <h1>Terris Enclave</h1>
-      <div>{props.info.intro}</div>
+      <h1>Kandra & Harmony</h1>
+      <div>{props.info.harmony}</div>
       </>
     )
   }
   
-  export default Overview
+  export default Harmony
   

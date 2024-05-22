@@ -5,7 +5,7 @@ function Overview(props) {
   
     return (
       <>
-      <h1>Those Who Leave</h1>
+      <h1>{props.info.title}</h1>
       <div>{props.info.intro}</div>
       </>
     )
