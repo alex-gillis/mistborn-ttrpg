@@ -60,7 +60,7 @@ function People(props) {
       { title: 'Overview', onClick: () => handleSection(14) },
       { title: 'Appearance', onClick: () => handleSection(15) },
       { title: 'In Human Society', onClick: () => handleSection(16) },
-      { title: 'In Koloss Society', onClick: () => handleSection(17) },
+      { title: 'In Kandra Society', onClick: () => handleSection(17) },
       { title: 'Identify', onClick: () => handleSection(18) },
       { title: 'Death', onClick: () => handleSection(19) },
       { title: 'Psychology', onClick: () => handleSection(20) },
