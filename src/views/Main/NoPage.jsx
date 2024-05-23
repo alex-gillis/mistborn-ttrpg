@@ -84,9 +84,11 @@ const NoPage = () => {
         <div id="secret">
         <br/>
         <h3 style={{ textAlign: 'left' }}>Wait, you aren`t supposed to be here! This is behind the scene! There`s things in the cosmere you aren`t supposed to see!</h3>
-        <h3 style={{ textAlign: 'left' }}>Anyway, here`s a random quote.</h3>
-          <h3 style={{ textAlign: 'left' }}>&quot;{randomItem.quote}&quot;</h3> 
-          <h3 className="notButter" style={{ textAlign: 'right', paddingRight: '40px' }}>- {randomItem.author} </h3>
+        <h3 id="better" style={{ textAlign: 'left' }}>Anyway, here`s a random quote.</h3>
+          <div id="italicked">
+            <h3 style={{ textAlign: 'left' }}>&quot;{randomItem.quote}&quot;</h3> 
+            <h3 className="notButter" style={{ textAlign: 'right', paddingLeft: '240px' }}>~ {randomItem.author} </h3>
+          </div>
         </div>
       </div>
       </>

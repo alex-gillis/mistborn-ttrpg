@@ -8,7 +8,7 @@ function Spending(props) {
             <h1>Spending Advancements</h1>
             {props.improvement.spending}
             <br/> <br/>
-            <table id="buildTable" className="propTable">
+            <table id="buildTable" className="propTable" style={{textAlign:"center"}}>
                 <tbody>
                     <tr>
                         <th>Improvement</th>

@@ -70,10 +70,10 @@ function People(props) {
     ];
 
     const malwish = [
-        { title: 'Overview', onClick: () => handleSection(24) },
-        { title: 'Malwish Culture', onClick: () => handleSection(25) },
-        { title: 'Malwish Technology', onClick: () => handleSection(26) },
-        { title: 'Playing a Malwish', onClick: () => handleSection(27) }
+      { title: 'Overview', onClick: () => handleSection(24) },
+      { title: 'Malwish Culture', onClick: () => handleSection(25) },
+      { title: 'Malwish Technology', onClick: () => handleSection(26) },
+      { title: 'Playing a Malwish', onClick: () => handleSection(27) }
     ];
 
 
@@ -140,7 +140,7 @@ function People(props) {
             { mySection === 21 && <Harmony info={props.kandra} /> }
             { mySection === 22 && <Hemalurgy info={props.kandra.hemalurgy} /> }
             { mySection === 23 && <KandraPlaying info={props.kandra.playing} /> }
-
+            
             { mySection === 24 && <Overview info={props.malwish} /> }
             { mySection === 25 && <Culture info={props.malwish.culture} /> }
             { mySection === 26 && <Technology info={props.malwish.technology} /> }

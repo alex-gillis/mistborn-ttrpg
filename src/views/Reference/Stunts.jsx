@@ -71,7 +71,7 @@ function Stunts(props) {
                 </table>
               </div>
               <div>
-                <table id='reference-size' className='reference-width'>
+                <table id='reference-size' className='reference-width' >
                     <thead>
                         <tr>
                           <th className='ref-item'>
@@ -95,7 +95,7 @@ function Stunts(props) {
                     </thead>
                 </table>
               </div>
-              <div id='table-list'>
+              <div id='table-list' style={{maxHeight:"695px"}}>
                 <table id='reference-size' className='reference-width'>
                       <tbody>
                           {myStunts && myStunts.map((section, index) => (

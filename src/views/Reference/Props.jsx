@@ -110,7 +110,7 @@ function Props(props) {
       <div  className='marginTop'>
         <div id='diagram'>
           <div id='reference-table'>
-              <div >
+              <div>
                 <table id='reference-size' className='reference-width'>
                   <tbody>
                     <tr>
@@ -119,6 +119,8 @@ function Props(props) {
                       </td>        
                     </tr>
                     <tr>
+                      <td className='ref-five'>
+                      </td>
                       {filters.map((filter, index) => (
                         <td key={index}>
                           <button id={filter.select ? 'filterSelected' : 'filterUnselected'} onClick={filter.onClick}>{filter.title}</button>
@@ -126,6 +128,8 @@ function Props(props) {
                       ))}
                     </tr>
                     <tr>
+                      <td className='ref-five'>
+                      </td>
                       {filtersTwo.map((filter, index) => (
                         <td key={index}>
                           <button id={filter.select ? 'filterSelected' : 'filterUnselected'} onClick={filter.onClick}>{filter.title}</button>
@@ -165,7 +169,7 @@ function Props(props) {
                     </tbody>
                 </table>
               </div>
-              <div id='table-list'>
+              <div id='table-list' style={{maxHeight:"650px"}}>
                   <table id='reference-size' className='reference-width'>
                       <tbody>
                           {myProps && myProps.map((section, index) => (

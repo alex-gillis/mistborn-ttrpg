@@ -7,7 +7,8 @@ function Improve(props) {
         <div>{props.info.intro}</div>
         <h2>Alloy of Law Advancements</h2>
         <div>{props.info.advancements.part1}</div>
-        <table id="buildTable" className="propTable">
+        <br/>
+        <table id="buildTable" className="propTable" style={{textAlign:"center"}}>
             <tbody>
                 <tr>
                     <th>Improvement</th>
@@ -23,12 +24,12 @@ function Improve(props) {
                 ))}
             </tbody>
         </table>
+        <br/>
         <div>{props.info.advancements.part2}</div>
+        <br/>
         <div>
             <h4>
-                Using Advancements From Other 
-                <br/> 
-                Mistborn Supplemetns
+                Using Advancements From Other Mistborn Supplements
             </h4>
             {props.info.advancements.brandon}
         </div>
