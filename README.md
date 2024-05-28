@@ -30,3 +30,5 @@ Special thanks to Crafty Games for creating the Mistborn Adventure Game and to B
 
 ## Get Started
 Ready to embark on your Mistborn tabletop adventure? Dive into the Mistborn Tabletop Compendium and unlock the secrets of Scadrial!
+[Try it Here]([URL](https://alex-gillis.github.io/mistborn-ttrpg/))
+
