@@ -23,16 +23,18 @@ function History(props) {
 
     return (
         < >
-        <ol id='list'>
-          <h3 className='notButter'>History & Society</h3>
-          {history.map((section, index) => (
-            <li  id="nav-list" key={index}>
-              <button className="index-button" onClick={section.onClick}>
-                <span id="bold">{section.title}</span>
-              </button>
-            </li>
-          ))}
-        </ol> 
+        <div className='mobMargin' style={{marginTop:"15px"}}>
+          <ol id='list'>
+            <h3>History & Society</h3>
+            {history.map((section, index) => (
+              <li  id="nav-list" key={index}>
+                <button className="index-button" onClick={section.onClick}>
+                  <span id="bold">{section.title}</span>
+                </button>
+              </li>
+            ))}
+          </ol>
+        </div> 
         <div id='info'>
             { mySection === 0 && <Society info={props.history} /> }
             { mySection === 1 && <Early info={props.history.early} /> }

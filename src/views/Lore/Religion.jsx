@@ -25,16 +25,18 @@ function Religion(props) {
 
     return (
         < >
-        <ol id='list'>
-          <h3 className='notButter'>Belief & Worship</h3>
-          {religion.map((section, index) => (
-            <li  id="nav-list" key={index}>
-              <button className="index-button" onClick={section.onClick}>
-                <span id="bold">{section.title}</span>
-              </button>
-            </li>
-          ))}
-        </ol> 
+        <div className='mobMargin' style={{marginTop:"15px"}}>
+          <ol id='list'>
+            <h3>Belief & Worship</h3>
+            {religion.map((section, index) => (
+              <li  id="nav-list" key={index}>
+                <button className="index-button" onClick={section.onClick}>
+                  <span id="bold">{section.title}</span>
+                </button>
+              </li>
+            ))}
+          </ol> 
+        </div>
         <div id='info'>
             { mySection === 0 && <Belief info={props.religion.intro} /> }
             { mySection === 1 && <Survivor info={props.religion.survivor} /> }

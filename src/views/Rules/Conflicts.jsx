@@ -87,40 +87,42 @@ const Conflicts = (props) => {
 
     return (
         < >
-        <ol id='list'>
-          <h3 className='notButter'>Basics</h3>
-          {sections.map((section, index) => (
-            <li  id="nav-list" key={index}>
-              <button className="index-button" onClick={section.onClick}>
-                <span id="bold">{section.title}</span>
-              </button>
-            </li>
-          ))}
-          <h3>Physical</h3>
-          {physicals.map((section, index) => (
-            <li  id="nav-list" key={index}>
-              <button className="index-button" onClick={section.onClick}>
-                <span id="bold">{section.title}</span>
-              </button>
-            </li>
-          ))}
-          <h3>Social</h3>
-          {socials.map((section, index) => (
-            <li  id="nav-list" key={index}>
-              <button className="index-button" onClick={section.onClick}>
-                <span id="bold">{section.title}</span>
-              </button>
-            </li>
-          ))}
-          <h3>Mental</h3>
-          {mentals.map((section, index) => (
-            <li  id="nav-list" key={index}>
-              <button className="index-button" onClick={section.onClick}>
-                <span id="bold">{section.title}</span>
-              </button>
-            </li>
-          ))}
-        </ol> 
+        <div className='mobMargin' style={{marginTop:"15px"}}>
+          <ol id='list'>
+            <h3>Basics</h3>
+            {sections.map((section, index) => (
+              <li  id="nav-list" key={index}>
+                <button className="index-button" onClick={section.onClick}>
+                  <span id="bold">{section.title}</span>
+                </button>
+              </li>
+            ))}
+            <h3>Physical</h3>
+            {physicals.map((section, index) => (
+              <li  id="nav-list" key={index}>
+                <button className="index-button" onClick={section.onClick}>
+                  <span id="bold">{section.title}</span>
+                </button>
+              </li>
+            ))}
+            <h3>Social</h3>
+            {socials.map((section, index) => (
+              <li  id="nav-list" key={index}>
+                <button className="index-button" onClick={section.onClick}>
+                  <span id="bold">{section.title}</span>
+                </button>
+              </li>
+            ))}
+            <h3>Mental</h3>
+            {mentals.map((section, index) => (
+              <li  id="nav-list" key={index}>
+                <button className="index-button" onClick={section.onClick}>
+                  <span id="bold">{section.title}</span>
+                </button>
+              </li>
+            ))}
+          </ol> 
+        </div>
         <div id='info'>
             {/* Conflict Basics Section */}
             {mySection === 0  && <Intro intro={props.game.intro}/>}

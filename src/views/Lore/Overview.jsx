@@ -27,16 +27,18 @@ function Overview(props) {
 
     return (
         < >
-        <ol id='list'>
-          <h3 className='notButter'>Overview</h3>
-          {sections.map((section, index) => (
-            <li  id="nav-list" key={index}>
-              <button className="index-button" onClick={section.onClick}>
-                <span id="bold">{section.title}</span>
-              </button>
-            </li>
-          ))}
-        </ol> 
+        <div className='mobMargin' style={{marginTop:"15px"}}>
+          <ol id='list'>
+            <h3>Overview</h3>
+            {sections.map((section, index) => (
+              <li  id="nav-list" key={index}>
+                <button className="index-button" onClick={section.onClick}>
+                  <span id="bold">{section.title}</span>
+                </button>
+              </li>
+            ))}
+          </ol> 
+        </div>
         <div id='info'>
             { mySection === 0 && <Opener lore={props.lore.opening} title={"A World Transformed"} /> }
             { mySection === 1 && <Lands lore={props.lore.lands}/> }

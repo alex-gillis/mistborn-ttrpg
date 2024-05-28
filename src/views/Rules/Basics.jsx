@@ -34,17 +34,18 @@ const Basics = (props) => {
 
     return (
         < >
-
-        <ol id='list'>
-          <h3 className='notButter'>Basics</h3>
-          {sections.map((section, index) => (
-            <li  id="nav-list" key={index}>
-              <button className="index-button" onClick={section.onClick}>
-                <span id="bold">{section.title}</span>
-              </button>
-            </li>
-          ))}
-        </ol> 
+        <div className='mobMargin' style={{marginTop:"15px"}}>
+          <ol id='list'>
+            <h3>Basics</h3>
+            {sections.map((section, index) => (
+              <li  id="nav-list" key={index}>
+                <button className="index-button" onClick={section.onClick}>
+                  <span id="bold">{section.title}</span>
+                </button>
+              </li>
+            ))}
+          </ol> 
+        </div>
         <div id='info'>
             {mySection === 0  && <Basic basic={props.game.basic}/>}
             {mySection === 1  && <Beats beat={props.game.beats} breath={props.game.breathers} />}

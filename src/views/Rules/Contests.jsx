@@ -24,17 +24,18 @@ const Contests = (props) => {
 
     return (
         < >
-
-        <ol id='list'>
-          <h3 className='notButter'>Contests</h3>
-          {sections.map((section, index) => (
-            <li  id="nav-list" key={index}>
-              <button className="index-button" onClick={section.onClick}>
-                <span id="bold">{section.title}</span>
-              </button>
-            </li>
-          ))}
-        </ol> 
+        <div className='mobMargin' style={{marginTop:"15px"}}>
+          <ol id='list'>
+            <h3>Contests</h3>
+            {sections.map((section, index) => (
+              <li  id="nav-list" key={index}>
+                <button className="index-button" onClick={section.onClick}>
+                  <span id="bold">{section.title}</span>
+                </button>
+              </li>
+            ))}
+          </ol> 
+        </div>
         <div id='info'>
             {mySection === 0  && <Intro intro={props.game.intro}/>}
             {mySection === 1  && <Extended extended={props.game.extended} />}

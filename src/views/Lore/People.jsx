@@ -79,40 +79,42 @@ function People(props) {
 
     return (
         < >
-        <ol id='list'>
-          <h3 className='notButter'>Koloss Tribes</h3>
-          {koloss.map((section, index) => (
-            <li id="nav-list" key={index}>
-              <button className="index-button" onClick={section.onClick}>
-                <span id="bold">{section.title}</span>
-              </button>
-            </li>
-          ))}
-          <h3>Terris Enclaves</h3>
-          {terris.map((section, index) => (
-            <li id="nav-list" key={index}>
-              <button className="index-button" onClick={section.onClick}>
-                <span id="bold">{section.title}</span>
-              </button>
-            </li>
-          ))}
-          <h3>Faceless Immortals</h3>
-          {kandra.map((section, index) => (
-            <li id="nav-list" key={index}>
-              <button className="index-button" onClick={section.onClick}>
-                <span id="bold">{section.title}</span>
-              </button>
-            </li>
-          ))}
-          <h3>Malwish People</h3>
-          {malwish.map((section, index) => (
-            <li id="nav-list" key={index}>
-              <button className="index-button" onClick={section.onClick}>
-                <span id="bold">{section.title}</span>
-              </button>
-            </li>
-          ))}
-        </ol> 
+        <div className='mobMargin' style={{marginTop:"15px"}}>
+          <ol id='list'>
+            <h3>Koloss Tribes</h3>
+            {koloss.map((section, index) => (
+              <li id="nav-list" key={index}>
+                <button className="index-button" onClick={section.onClick}>
+                  <span id="bold">{section.title}</span>
+                </button>
+              </li>
+            ))}
+            <h3>Terris Enclaves</h3>
+            {terris.map((section, index) => (
+              <li id="nav-list" key={index}>
+                <button className="index-button" onClick={section.onClick}>
+                  <span id="bold">{section.title}</span>
+                </button>
+              </li>
+            ))}
+            <h3>Faceless Immortals</h3>
+            {kandra.map((section, index) => (
+              <li id="nav-list" key={index}>
+                <button className="index-button" onClick={section.onClick}>
+                  <span id="bold">{section.title}</span>
+                </button>
+              </li>
+            ))}
+            <h3>Malwish People</h3>
+            {malwish.map((section, index) => (
+              <li id="nav-list" key={index}>
+                <button className="index-button" onClick={section.onClick}>
+                  <span id="bold">{section.title}</span>
+                </button>
+              </li>
+            ))}
+          </ol> 
+        </div>
         <div id='info'>
             { mySection === 0 && <Overview info={props.koloss} /> }
             { mySection === 1 && <Appearance info={props.koloss} /> }

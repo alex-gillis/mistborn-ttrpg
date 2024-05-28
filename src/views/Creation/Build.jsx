@@ -32,9 +32,9 @@ const Build = (props) => {
 
   return (
     <>
-      <div>
+      <div className='mobMargin' style={{marginTop:"15px"}}>
         <ol id="list">
-        <h3 className='notButter'>Era 1 Heroes</h3>
+        <h3>Era 1 Heroes</h3>
           {myEra1 && myEra1.map((mySelection, index) => (
             <li  id="nav-list" className='basicBuild' key={index}>
               <button className="index-button" onClick={() => changeSelect(mySelection.id)}>

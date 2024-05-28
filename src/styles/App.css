@@ -825,15 +825,15 @@ header {
     height: 85%;
     margin: auto;
   }
-
-  .mobMargin {
-    margin-top: 50px;
-  }
 }
   
 @media only screen and (max-width: 410px) {
   .mobExtra {
     margin-top: 75px;
+  }
+
+  .mobMargin {
+    margin-top: 50px;
   }
   
 }

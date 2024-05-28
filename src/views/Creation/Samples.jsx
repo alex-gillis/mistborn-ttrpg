@@ -19,7 +19,7 @@ const Samples = (props) => {
 
   return (
     <>
-      <div>
+      <div className='mobMargin'>
         <ol id="list">
         <h3 className='notButter'>Era 1 Heroes</h3>
           {myEra1 && myEra1.map((myHero, index) => (
