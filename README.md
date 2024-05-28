@@ -18,7 +18,6 @@ This project is a collaborative effort, and contributions from the Mistborn tabl
 ## To Be Added
 Exciting enhancements and expansions are on the horizon for the Mistborn Tabletop Compendium. Here's a sneak peek at what's coming next:
 
-- **Mobile Optimization**: Seamless browsing on your phone or tablet is on the way! Soon, you’ll be able to access the compendium's full potential on the go, ensuring you’re never far from the world of Mistborn, even when you’re away from your gaming table.
 - **Comprehensive Bestiary**: Prepare to meet the denizens of Scadrial like never before. This upcoming section will feature detailed profiles of NPCs, characters, and monsters, providing rich lore and stats to enhance your storytelling and gameplay.
 - **Narrator’s Toolkit**: Empower your campaigns with advanced tools designed specifically for Narrators. This section will include in-depth resources like plot hooks, secrets to enrich your narratives, and an expanded bestiary to challenge your players with new and exciting encounters.
 - **Era 1 Expansion**: Delve deeper into the original Mistborn trilogy with additional content from Era 1. Beyond the core rulebook, we'll be adding a wealth of new material inspired by the beloved first era, ensuring your adventures capture the essence of Vin, Kelsier, and the world they fought to save.
@@ -30,5 +29,4 @@ Special thanks to Crafty Games for creating the Mistborn Adventure Game and to B
 
 ## Get Started
 Ready to embark on your Mistborn tabletop adventure? Dive into the Mistborn Tabletop Compendium and unlock the secrets of Scadrial!
-[Try it Here]([URL](https://alex-gillis.github.io/mistborn-ttrpg/))
-
+[Try it Here](https://alex-gillis.github.io/mistborn-ttrpg/)
