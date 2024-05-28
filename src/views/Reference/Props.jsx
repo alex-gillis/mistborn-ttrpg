@@ -111,7 +111,7 @@ function Props(props) {
         <div id='diagram'>
           <div id='reference-table'>
               <div>
-                <table id='reference-size' className='reference-width'>
+                <table id='reference-size' className='reference-width' style={{margin:"auto"}}>
                   <tbody>
                     <tr>
                       <td colSpan={10}>
@@ -119,8 +119,6 @@ function Props(props) {
                       </td>        
                     </tr>
                     <tr>
-                      <td className='ref-five'>
-                      </td>
                       {filters.map((filter, index) => (
                         <td key={index}>
                           <button id={filter.select ? 'filterSelected' : 'filterUnselected'} onClick={filter.onClick}>{filter.title}</button>
@@ -128,8 +126,6 @@ function Props(props) {
                       ))}
                     </tr>
                     <tr>
-                      <td className='ref-five'>
-                      </td>
                       {filtersTwo.map((filter, index) => (
                         <td key={index}>
                           <button id={filter.select ? 'filterSelected' : 'filterUnselected'} onClick={filter.onClick}>{filter.title}</button>
@@ -140,63 +136,57 @@ function Props(props) {
                 </table>
               </div>
               <div>
-                <table className='reference-width'>
-                    <tbody>
-                        <tr>
-                          <th className='ref-one'>
-                            <button id='tableButton' onClick={() => setProps(sortByMultipleComponents(myProps, ['item', 'type', 'props', 'difficulty']))}>
-                              <span className='righter'>Item</span>
-                            </button>
-                          </th>
-                          <th className='ref-two'>
-                            <button id='tableButton' onClick={() => setProps(sortByMultipleComponents(myProps, ['type', 'item', 'props', 'difficulty']))}>
-                              Type
-                            </button>
-                          </th>
-                          <th className='ref-three'>
-                            <button id='tableButton' onClick={() => setProps(sortByMultipleComponents(myProps, ['props', 'item', 'type', 'difficulty']))}>
-                              Cost
-                            </button>
-                          </th>
-                          <th className='ref-four'>
-                            <button id='tableButton' onClick={() => setProps(sortByMultipleComponents(myProps, ['difficulty', 'item', 'type', 'props']))}>
-                              Difficulty
-                            </button>
-                          </th>
-                          <th className='ref-five'>
-                          </th>
+                <table>
+                  <thead id='table-list' className="scrolling-body" style={{height:"45px"}}>
+                      <tr>
+                        <th>
+                          <button id='tableButton' onClick={() => setProps(sortByMultipleComponents(myProps, ['item', 'type', 'props', 'difficulty']))}>
+                            Item
+                          </button>
+                        </th>
+                        <th>
+                          <button id='tableButton' onClick={() => setProps(sortByMultipleComponents(myProps, ['type', 'item', 'props', 'difficulty']))}>
+                            Type
+                          </button>
+                        </th>
+                        <th>
+                          <button id='tableButton' onClick={() => setProps(sortByMultipleComponents(myProps, ['props', 'item', 'type', 'difficulty']))}>
+                            Cost
+                          </button>
+                        </th>
+                        <th>
+                          <button id='tableButton' onClick={() => setProps(sortByMultipleComponents(myProps, ['difficulty', 'item', 'type', 'props']))}>
+                            Difficulty
+                          </button>
+                        </th>
+                      </tr>
+                    </thead>
+                    <tbody id='table-list' className="scrolling-body">
+                        {myProps && myProps.map((section, index) => (
+                        <tr key={index} className={index % 2 === 0 ? 'evenRow' : 'oddRow'}>
+                            <td>
+                              <button id='tableButton' onClick={() => handleSelection(index)}>
+                                  {section.item}
+                              </button>
+                            </td>
+                            <td>
+                              <button id='tableButton' onClick={() => handleSelection(index)}>
+                                  {section.type}
+                              </button>
+                            </td>
+                            <td>
+                              <button id='tableButton' onClick={() => handleSelection(index)}>
+                                  {section.props}
+                              </button>
+                            </td>
+                            <td>
+                              <button id='tableButton' onClick={() => handleSelection(index)}>
+                                  {section.difficulty}
+                              </button>
+                            </td>
                         </tr>
+                        ))}
                     </tbody>
-                </table>
-              </div>
-              <div id='table-list' style={{maxHeight:"650px"}}>
-                  <table id='reference-size' className='reference-width'>
-                      <tbody>
-                          {myProps && myProps.map((section, index) => (
-                          <tr key={index} className={index % 2 === 0 ? 'evenRow' : 'oddRow'}>
-                              <td className='ref-one'>
-                                <button id='tableButton' onClick={() => handleSelection(index)}>
-                                    {section.item}
-                                </button>
-                              </td>
-                              <td className='ref-two'>
-                                <button id='tableButton' onClick={() => handleSelection(index)}>
-                                    {section.type}
-                                </button>
-                              </td>
-                              <td className='ref-three'>
-                                <button id='tableButton' onClick={() => handleSelection(index)}>
-                                    {section.props}
-                                </button>
-                              </td>
-                              <td className='ref-four'>
-                                <button id='tableButton' onClick={() => handleSelection(index)}>
-                                    {section.difficulty}
-                                </button>
-                              </td>
-                          </tr>
-                          ))}
-                      </tbody>
                   </table>
               </div>
           </div>

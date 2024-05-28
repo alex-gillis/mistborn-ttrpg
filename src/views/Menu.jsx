@@ -191,15 +191,15 @@ const Menu = () => {
                             <span key={index}>
                                 {page.subpages ? (
                                     <span>
-                                            {page.subpages.map((subpage, subIndex) => (
-                                                <span key={subIndex}>
-                                                    <MenuItem onClick={handleMobClose}>
-                                                        <span style={{width:"102.5px"}} onClick={() => handleRefPageChange(subpage.link)}>
-                                                            <span id="bold">{subpage.title}</span>
-                                                        </span>
-                                                    </MenuItem>
-                                                </span>
-                                            ))}
+                                        {page.subpages.map((subpage, subIndex) => (
+                                            <span key={subIndex}>
+                                                <MenuItem onClick={handleMobClose}>
+                                                    <span style={{width:"102.5px"}} onClick={() => handleRefPageChange(subpage.link)}>
+                                                        <span id="bold">{subpage.title}</span>
+                                                    </span>
+                                                </MenuItem>
+                                            </span>
+                                        ))}
                                     </span>
                                 ) : (
                                     <MenuItem onClick={handleMobClose}>

@@ -530,9 +530,10 @@ header {
   cursor: pointer;
   background-color: transparent;
   font-size: 15px;
-  height: 100%;
-  width: 100%;
+  height: auto;
+  width: auto;
   color: #FFFFFFDE;
+  display: inline-block;
 }
 
 #filterSelected {
@@ -691,9 +692,20 @@ header {
   width: auto;
 }
 
-  .mobExtra {
-    margin-top: 0px;
-  }
+.mobExtra {
+  margin-top: 0px;
+}
+
+.scrolling-body {
+  display: block;
+  max-height: 650px;
+  overflow-y: auto;
+}
+.scrolling-body tr {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+}
 
 @media only screen and (max-width: 768px) {
   h1 {
@@ -714,7 +726,7 @@ header {
     min-width: 150px;
     max-width: 675px;
     margin: 0 auto;
-    margin-top: 50px;
+    margin-top: 10px;
     width: auto;
     max-height: 300px;
     padding-left: 1.5rem;
@@ -778,6 +790,9 @@ header {
     min-height: none;
     height: 300px;
   }
+  .scrolling-body {
+    max-height: 300px;
+  }
 
   .samples {
     width: auto;
@@ -812,7 +827,7 @@ header {
   }
 
   .mobMargin {
-    margin-top: 0px;
+    margin-top: 50px;
   }
 }
   

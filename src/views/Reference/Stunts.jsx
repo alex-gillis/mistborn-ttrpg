@@ -71,54 +71,48 @@ function Stunts(props) {
                 </table>
               </div>
               <div>
-                <table id='reference-size' className='reference-width' >
-                    <thead>
+                <table>
+                    <thead id='table-list' className="scrolling-body" style={{height:"45px"}}>
                         <tr>
-                          <th className='ref-item'>
+                          <th>
                             <button id='tableButton' onClick={() => setStunts(sortByMultipleComponents(myStunts, ['name', 'type', 'req']))}>
                               <span className='righter'>Stunt Name</span>
                             </button>
                           </th>
-                          <th className='ref-middle'>
+                          <th>
                             <button id='tableButton' onClick={() => setStunts(sortByMultipleComponents(myStunts, ['type', 'name', 'req']))}>
                               Type
                             </button>
                           </th>
-                          <th className='ref-object'>
+                          <th>
                             <button id='tableButton' onClick={() => setStunts(sortByMultipleComponents(myStunts, ['req', 'name', 'type']))}>
                               Requirements
                             </button>
                           </th>
-                          <th className='ref-space'>
-                          </th>
                         </tr>
                     </thead>
-                </table>
-              </div>
-              <div id='table-list' style={{maxHeight:"695px"}}>
-                <table id='reference-size' className='reference-width'>
-                      <tbody>
-                          {myStunts && myStunts.map((section, index) => (
-                          <tr key={index} className={index % 2 === 0 ? 'evenRow' : 'oddRow'}>
-                              <td className='ref-item'>
+                    <tbody id='table-list' className="scrolling-body">
+                        {myStunts && myStunts.map((section, index) => (
+                        <tr key={index} className={index % 2 === 0 ? 'evenRow' : 'oddRow'}>
+                            <td>
                               <button id='tableButton' onClick={() => handleSelection(index)}>
                                   {section.name}
                               </button>
-                              </td>
-                              <td className='ref-middle'>
+                            </td>
+                            <td>
                               <button id='tableButton' onClick={() => handleSelection(index)}>
                                   {section.type}
                               </button>
-                              </td>
-                              <td className='ref-object'>
+                            </td>
+                            <td>
                               <button id='tableButton' onClick={() => handleSelection(index)}>
                                   {section.req}
                               </button>
-                              </td>
-                          </tr>
-                          ))}
-                      </tbody>
-                  </table>
+                            </td>
+                        </tr>
+                        ))}
+                    </tbody>
+                </table>
               </div>
           </div>
           
