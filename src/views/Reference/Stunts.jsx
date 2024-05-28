@@ -53,7 +53,7 @@ function Stunts(props) {
 
   return (
     <div className='isButter' >
-      <div className='marginTop'>
+      <div>
         <div id='diagram'>
           <div id='reference-table'>
               <h3 className='notButter'>Stunts</h3>

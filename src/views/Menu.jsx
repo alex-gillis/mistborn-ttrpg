@@ -8,7 +8,31 @@ import '../styles/App.css';
 import { Outlet, useLocation, useNavigate } from "react-router-dom";
 import { useState } from 'react';
 
+import * as React from 'react';
+import Submenu from '@mui/material/Menu';
+import MenuItem from '@mui/material/MenuItem';
+
 const Menu = () => {
+    // Component Menu
+    const [anchorEl, setAnchorEl] = React.useState(null);
+    const mobOpen = Boolean(anchorEl);
+    const handleClick = (event) => {
+        setAnchorEl(event.currentTarget);
+    };
+    const handleClose = () => {
+        setAnchorEl(null);
+    };
+
+    const [anchorE2, setAnchorE2] = React.useState(null);
+    const regOpen = Boolean(anchorE2);
+    const handleRegClick = (event) => {
+        setAnchorEl(event.currentTarget);
+    };
+    const handleRegClose = () => {
+        setAnchorE2(null);
+    };
+
+    // Original Code
     const location = useLocation();
     const pathname = location.pathname;
     const navigate = useNavigate();
@@ -73,7 +97,6 @@ const Menu = () => {
         { title: 'Rules', link: "/mistborn-ttrpg/rules", className: ruleSelect ? 'selected' : 'unselected', onClick: handlePageChange },
         { title: 'Creation', link: "/mistborn-ttrpg/creation", className: createSelect ? 'selected' : 'unselected', onClick: handlePageChange },
         { title: 'Lore', link: "/mistborn-ttrpg/lore", className: loreSelect ? 'selected' : 'unselected', onClick: handlePageChange },
-        // { title: 'References', link: "/mistborn-ttrpg/references", className: references ? 'selected' : 'unselected' }
         {
             title: 'References', 
             className: refSelect || mySelection ? 'selected' : 'unselected',
@@ -90,20 +113,46 @@ const Menu = () => {
 
     return (
         <>
-            <header>
-                <nav>
+            <header> 
+                <nav id='regMenu'>
                     {pages.map((page, index) => (
                         <span key={index}>
                             {page.subpages ? (
-                                <span className="dropdown">
-                                    <button id="head-button" className={page.className} onClick={() => page.onClick(page.link)}>{page.title}</button>
-                                    <div className={page.classDrop} >
+                                <span>
+                                    <button
+                                        id="head-button" 
+                                        className={regOpen ? 'selected' : page.className} 
+                                        aria-controls={regOpen ? 'demo-positioned-menu' : undefined}
+                                        aria-haspopup="true"
+                                        aria-expanded={regOpen ? 'true' : undefined}
+                                        onClick={handleRegClick}
+                                    >
+                                        Reference
+                                    </button>
+                                    <Submenu
+                                        id="demo-positioned-menu"
+                                        anchorEl={anchorE2}
+                                        open={regOpen}
+                                        onClose={handleRegClose}
+                                        anchorOrigin={{
+                                        vertical: 'top',
+                                        horizontal: 'left',
+                                        }}
+                                        transformOrigin={{
+                                        vertical: 'top',
+                                        horizontal: 'left',
+                                        }}
+                                    >
                                         {page.subpages.map((subpage, subIndex) => (
-                                            <button id="head-button" className={subpage.subclassName} key={subIndex} onClick={() => handleRefPageChange(subpage.link)}>
-                                                {subpage.title}
-                                            </button>
+                                            <span key={subIndex}>
+                                                <MenuItem onClick={handleClose}>
+                                                    <span style={{width:"102.5px"}} onClick={() => handleRefPageChange(subpage.link)}>
+                                                        {subpage.title}
+                                                    </span>
+                                                </MenuItem>
+                                            </span>
                                         ))}
-                                    </div>
+                                    </Submenu>
                                 </span>
                             ) : (
                                 <button id="head-button" className={page.className} onClick={() => page.onClick(page.link)}>
@@ -112,6 +161,56 @@ const Menu = () => {
                             )}
                         </span>
                     ))}
+                </nav>
+                <nav id='mobiMenu'>
+                    <button
+                        id="head-button" 
+                        className={mobOpen ? 'selected' : 'unselected'} 
+                        aria-controls={mobOpen ? 'demo-positioned-menu' : undefined}
+                        aria-haspopup="true"
+                        aria-expanded={mobOpen ? 'true' : undefined}
+                        onClick={handleClick}
+                    >
+                        Menu
+                    </button>
+                    <Submenu
+                        id="demo-positioned-menu"
+                        anchorEl={anchorEl}
+                        open={mobOpen}
+                        onClose={handleClose}
+                        anchorOrigin={{
+                        vertical: 'top',
+                        horizontal: 'left',
+                        }}
+                        transformOrigin={{
+                        vertical: 'top',
+                        horizontal: 'left',
+                        }}
+                    >
+                        {pages.map((page, index) => (
+                            <span key={index}>
+                                {page.subpages ? (
+                                    <span>
+                                            {page.subpages.map((subpage, subIndex) => (
+                                                <span key={subIndex}>
+                                                    <MenuItem onClick={handleClose}>
+                                                        <span style={{width:"102.5px"}} onClick={() => handleRefPageChange(subpage.link)}>
+                                                            <span id="bold">{subpage.title}</span>
+                                                        </span>
+                                                    </MenuItem>
+                                                </span>
+                                            ))}
+                                    </span>
+                                ) : (
+                                    <MenuItem onClick={handleClose}>
+                                        <span style={{width:"102.5px"}} onClick={() => handleRefPageChange(page.link)}>
+                                            <span id="bold">{page.title}</span>
+                                        </span>
+                                    </MenuItem>
+                                )}
+                            </span>
+                        ))}
+                    </Submenu>
                 </nav>
             </header>
 

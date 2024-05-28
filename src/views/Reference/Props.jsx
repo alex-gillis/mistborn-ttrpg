@@ -107,7 +107,7 @@ function Props(props) {
 
   return (
     <div className='isButter' >
-      <div  className='marginTop'>
+      <div>
         <div id='diagram'>
           <div id='reference-table'>
               <div>

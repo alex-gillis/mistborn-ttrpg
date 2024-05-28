@@ -8,10 +8,12 @@ html {
   -moz-background-size: cover;
   background-size: cover; 
   height: 100%;
+  width: 100%;
 }
 
 body {
   height: 100%;
+  margin:0px;
 }
 
 h1 {
@@ -67,7 +69,7 @@ header {
   position: fixed;
   max-width: 1275px;
   margin: auto;
-  width: 100%;
+  width: 98.35%;
   background-color: #1a1a1a;
   z-index: 2;
 }
@@ -89,16 +91,6 @@ header {
 @keyframes spin {
   0% { transform: rotate(0deg); }
   100% { transform: rotate(360deg); }
-}
-
-@media only screen and (max-width: 1300px) {
-  #info {
-    width: auto;
-  }
-
-  #fitting {
-    width: auto;
-  }
 }
 
 /* IDs */
@@ -174,6 +166,7 @@ header {
   max-width: 550px;
   min-width: 550px;
   height: 85%;
+  margin: auto;
 }
 
 #creation {
@@ -269,9 +262,9 @@ header {
   margin-right: 25px;
   margin-top: 90px;
   min-width: 150px;
+  height: 670px;
   position: fixed;
   padding-left: 1.5rem;
-  height: 670px;
   overflow-y: scroll;
   list-style-type: none;
 }::-webkit-scrollbar {
@@ -281,6 +274,10 @@ header {
   border-radius: 10px;
 }::-webkit-scrollbar-thumb:hover {
   background-color: #555;
+}
+
+#mobiMenu {
+  display: none;
 }
 
 #table-list {
@@ -371,12 +368,12 @@ header {
 }
 
 #startHead {
+  background-color: #1a1a1a;
   padding-top: 35px;
   text-align: center;
   position: fixed;
   max-width: 1275px;
-  width: 100%;
-  background-color: #1a1a1a;
+  width: 98.35%;
   z-index: 1;
 }
 
@@ -451,6 +448,7 @@ header {
 .index-button {
   border: none;
   background-color: transparent;
+  text-align: right;
   text-align-last: right;
   padding: 0px;
   padding-right: 5px;
@@ -688,4 +686,104 @@ header {
   margin-bottom: 35px;
   max-width: 1080px;
   width: auto;
+}
+
+@media only screen and (max-width: 768px) {
+  h1 {
+    margin-top: 0px;
+  }
+  #mobiMenu {
+    display: block;
+  }
+  #regMenu {
+    display: none;
+  }
+  #creation {
+    min-width: auto;
+    margin-top: 10px;
+  }
+  #list {
+    padding-top: 0px;
+    min-width: 150px;
+    max-width: 675px;
+    margin: 0 auto;
+    margin-top: 50px;
+    width: auto;
+    max-height: 300px;
+    height: auto;
+    position: relative;
+  }
+  #info {
+    margin-left: 0px;
+    padding-left: 16px;
+    margin-top: 0px;
+  }
+  .index-button {
+    text-align: center;
+    text-align-last: center;
+  }
+
+  #diagram {
+    flex-direction: column;
+  }
+  
+  .isButter {
+    padding-top: 40px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 35px;
+    padding-right: 0px;
+    width: auto;
+  }
+
+  #reference-info {
+    border-color: #242424;
+    border-style: solid;
+    border-width: 7px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 5px;
+    margin-top: 15px;
+    flex-grow: 1;
+    max-height: 400px;
+    min-width: none;
+    max-width: none;
+    width: auto;
+    height: 285px;
+    min-width: auto;
+    max-width: auto;
+    overflow-y: scroll;
+    list-style-type: none;
+  }
+  
+  #reference-table {
+    flex-grow: 1; 
+    margin-right: 0px;
+  }
+  
+  #table-list {
+    min-width: none;
+    max-width: none;
+    width: auto;
+    min-height: none;
+    height: 300px;
+  }
+
+  .samples {
+    width: auto;
+  }
+  .basicBuild {
+    width: auto;
+  }
+  #buildInfo {
+    margin-top: 0px;
+    margin-left: 30px;
+    padding-right: 2rem;
+    margin-bottom: 35px;
+    max-width: 1000px;
+    width: auto;
+  }
+  .sheet {
+    margin: auto;
+  }
 }

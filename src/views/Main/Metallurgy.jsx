@@ -41,7 +41,7 @@ function Metallurgy(props) {
           ))}
         </ol>
       </div>
-      <div id="info">
+      <div id="info" style={{marginTop:"0px"}}>
         {myView === true && myBasics[myBasic] && <Basics info={myBasics}/>}
         {myView === false && myMetals[myInfo] && <Metal metal={myMetals[myInfo]} info={myBasics} />}
       </div>
