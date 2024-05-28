@@ -11,10 +11,10 @@ const Creation = () =>{
   };
 
     const pages = [
-        { title: 'Getting \n Started', link:"/mistborn-ttrpg/creation", className: pathname === "/mistborn-ttrpg/creation" ? 'selected' : 'unselected' },
-        { title: 'Sample \n Characters', link:"/mistborn-ttrpg/samples", className: pathname === "/mistborn-ttrpg/samples" ? 'selected' : 'unselected' },
-        { title: 'Building \n Characters', link:"/mistborn-ttrpg/building", className: pathname === "/mistborn-ttrpg/building" ? 'selected' : 'unselected' },
-        { title: 'Improving \n Characters', link:"/mistborn-ttrpg/improvement", className: pathname === "/mistborn-ttrpg/improvement" ? 'selected' : 'unselected' }
+        { title: 'Starting', link:"/mistborn-ttrpg/creation", className: pathname === "/mistborn-ttrpg/creation" ? 'selected' : 'unselected' },
+        { title: 'Samples', link:"/mistborn-ttrpg/samples", className: pathname === "/mistborn-ttrpg/samples" ? 'selected' : 'unselected' },
+        { title: 'Building', link:"/mistborn-ttrpg/building", className: pathname === "/mistborn-ttrpg/building" ? 'selected' : 'unselected' },
+        { title: 'Improving', link:"/mistborn-ttrpg/improvement", className: pathname === "/mistborn-ttrpg/improvement" ? 'selected' : 'unselected' }
     ];
 
   return (

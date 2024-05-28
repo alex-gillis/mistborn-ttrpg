@@ -16,17 +16,17 @@ const Menu = () => {
     // Component Menu
     const [anchorEl, setAnchorEl] = React.useState(null);
     const mobOpen = Boolean(anchorEl);
-    const handleClick = (event) => {
+    const handleMobClick = (event) => {
         setAnchorEl(event.currentTarget);
     };
-    const handleClose = () => {
+    const handleMobClose = () => {
         setAnchorEl(null);
     };
 
     const [anchorE2, setAnchorE2] = React.useState(null);
     const regOpen = Boolean(anchorE2);
     const handleRegClick = (event) => {
-        setAnchorEl(event.currentTarget);
+        setAnchorE2(event.currentTarget);
     };
     const handleRegClose = () => {
         setAnchorE2(null);
@@ -145,9 +145,9 @@ const Menu = () => {
                                     >
                                         {page.subpages.map((subpage, subIndex) => (
                                             <span key={subIndex}>
-                                                <MenuItem onClick={handleClose}>
+                                                <MenuItem onClick={handleRegClose}>
                                                     <span style={{width:"102.5px"}} onClick={() => handleRefPageChange(subpage.link)}>
-                                                        {subpage.title}
+                                                        <span id="bold">{subpage.title}</span>
                                                     </span>
                                                 </MenuItem>
                                             </span>
@@ -169,7 +169,7 @@ const Menu = () => {
                         aria-controls={mobOpen ? 'demo-positioned-menu' : undefined}
                         aria-haspopup="true"
                         aria-expanded={mobOpen ? 'true' : undefined}
-                        onClick={handleClick}
+                        onClick={handleMobClick}
                     >
                         Menu
                     </button>
@@ -177,7 +177,7 @@ const Menu = () => {
                         id="demo-positioned-menu"
                         anchorEl={anchorEl}
                         open={mobOpen}
-                        onClose={handleClose}
+                        onClose={handleMobClose}
                         anchorOrigin={{
                         vertical: 'top',
                         horizontal: 'left',
@@ -193,7 +193,7 @@ const Menu = () => {
                                     <span>
                                             {page.subpages.map((subpage, subIndex) => (
                                                 <span key={subIndex}>
-                                                    <MenuItem onClick={handleClose}>
+                                                    <MenuItem onClick={handleMobClose}>
                                                         <span style={{width:"102.5px"}} onClick={() => handleRefPageChange(subpage.link)}>
                                                             <span id="bold">{subpage.title}</span>
                                                         </span>
@@ -202,7 +202,7 @@ const Menu = () => {
                                             ))}
                                     </span>
                                 ) : (
-                                    <MenuItem onClick={handleClose}>
+                                    <MenuItem onClick={handleMobClose}>
                                         <span style={{width:"102.5px"}} onClick={() => handleRefPageChange(page.link)}>
                                             <span id="bold">{page.title}</span>
                                         </span>

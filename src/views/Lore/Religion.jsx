@@ -26,7 +26,7 @@ function Religion(props) {
     return (
         < >
         <ol id='list'>
-          <h3>Belief & Worship</h3>
+          <h3 className='notButter'>Belief & Worship</h3>
           {religion.map((section, index) => (
             <li  id="nav-list" key={index}>
               <button className="index-button" onClick={section.onClick}>

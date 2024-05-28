@@ -26,21 +26,19 @@ function Sample(props) {
           </div>
         </div>
         <div id="mobiMenu">
-          <div id="sampleDisplay">
-              <div id="desc">
-                {props.hero.info}
-              </div>
-              <div id="centerIMG">
-                  <div>
-                    <img className="heroSample" id="rightSample" src={props.hero.portrait} alt={props.hero.portrait} />
-                    <br/>
-                    <span className="sampleText"  id="bolder">{props.hero.name}</span>
-                    <br/>
-                  </div>
-              </div>
+          <div id="desc">
+            {props.hero.info}
           </div>
-          <div id="desc" className="sheet">
+          <div className="sheet">
               <Character rogue={props.rogue} />
+          </div>
+          <div id="centerIMG">
+              <div>
+                <img className="heroSample" id="rightSample" src={props.hero.portrait} alt={props.hero.portrait} />
+                <br/>
+                <span className="sampleText"  id="bolder">{props.hero.name}</span>
+                <br/>
+              </div>
           </div>
         </div>
       </>

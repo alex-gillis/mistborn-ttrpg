@@ -5,7 +5,7 @@ const Starting = (props) => {
 
     return (
       < >
-        <div id="starting" className='marginTop'>
+        <div id="starting" style={{marginTop:"10px"}}>
             <h1 className="notButter">Getting Started</h1>
             {props.create.info}
             <h2>If You`ve Never Played An RPG Before...</h2>

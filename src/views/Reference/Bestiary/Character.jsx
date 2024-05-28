@@ -12,12 +12,25 @@ function Character(props) {
                     <br/>
                     <span id="bold" className="concept">Target:</span> <span id="italicked">{props.rogue.target}</span><span id="bold" className="concept">Method:</span> <span id="italicked">{props.rogue.method}</span>
             </div>
-            <div className="wiggleRoom">
-                <span id="bold">Race:</span> <span id="italicked">{props.rogue.race}</span>
-                <span id="bold" className="concept">Sex:</span> <span id="italicked">{props.rogue.sex}</span>
-                <span id="bold" className="concept">Age:</span> <span id="italicked">{props.rogue.age}</span>
-                <span id="bold" className="concept">Height:</span> <span id="italicked">{props.rogue.height}</span>
-                <span id="bold" className="concept">Weight:</span> <span id="italicked">{props.rogue.weight}</span>
+            <div id="regMenu">
+                <div className="wiggleRoom">
+                    <span id="bold">Race:</span> <span id="italicked">{props.rogue.race}</span>
+                    <span id="bold" className="concept">Sex:</span> <span id="italicked">{props.rogue.sex}</span>
+                    <span id="bold" className="concept">Age:</span> <span id="italicked">{props.rogue.age}</span>
+                    <span id="bold" className="concept">Height:</span> <span id="italicked">{props.rogue.height}</span>
+                    <span id="bold" className="concept">Weight:</span> <span id="italicked">{props.rogue.weight}</span>
+                </div>
+            </div>
+            <div id="mobiMenu">
+                <div className="wiggleRoom">
+                    <span id="bold">Race:</span> <span id="italicked">{props.rogue.race}</span>
+                    <span id="bold" className="concept">Sex:</span> <span id="italicked">{props.rogue.sex}</span>
+                    <span id="bold" className="concept">Age:</span> <span id="italicked">{props.rogue.age}</span>
+                </div>
+                <div className="wiggleRoom">
+                    <span id="bold" className="concept">Height:</span> <span id="italicked">{props.rogue.height}</span>
+                    <span id="bold" className="concept">Weight:</span> <span id="italicked">{props.rogue.weight}</span>
+                </div>
             </div>
             <div className="wiggleRoom">
                 <table>

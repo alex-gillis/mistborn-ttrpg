@@ -9,6 +9,7 @@ html {
   background-size: cover; 
   height: 100%;
   width: 100%;
+  color: #FFFFFFDE;
 }
 
 body {
@@ -218,6 +219,7 @@ header {
   margin-right: 2.5px;
   padding-left: 15px;
   padding-right: 15px;
+  color: #FFFFFFDE;
 }
 
 #head-button {
@@ -228,6 +230,7 @@ header {
   padding-top: 10px;
   width: 135px;
   border-radius: 0px;
+  color: #FFFFFFDE;
 }
 
 #info {
@@ -339,8 +342,6 @@ header {
   max-width: 1280px;
   height: 100%;
   margin: 0px auto;
-  padding-left: 5px;
-  padding-right: 5px;
   text-align: justify;
   text-align-last: center;
   white-space: pre-line;
@@ -505,6 +506,7 @@ header {
 
 .selected {
   background-color: #35465c;
+  color: #FFFFFFDE;
   opacity: 0.6;
   transition: 0.3s;
 }
@@ -530,7 +532,7 @@ header {
   font-size: 15px;
   height: 100%;
   width: 100%;
-  color: rgba(255, 255, 255, 0.87);
+  color: #FFFFFFDE;
 }
 
 #filterSelected {
@@ -546,7 +548,7 @@ header {
 }
 
 #filterUnselected {
-  border: 0.05px solid rgba(255, 255, 255, 0.87); 
+  border: 0.05px solid #FFFFFFDE; 
   border-radius: 0px; 
   cursor: pointer;
   background-color: transparent;
@@ -554,11 +556,12 @@ header {
   height: 100%;
   width: 100%;
   min-width: 100px;
-  color: rgba(255, 255, 255, 0.87);
+  color: #FFFFFFDE;
 }
 
 .unselected {
   background-color: #242424;
+  color: #FFFFFFDE;
   opacity: 0.6;
   transition: 0.3s;
 }
@@ -669,7 +672,7 @@ header {
 
 .dropUnselected {
   color: #242424;
-  background-color: rgba(255, 255, 255, 0.87);
+  background-color: #FFFFFFDE;
   opacity: 0.6;
   transition: 0.3s;
 }
@@ -688,6 +691,10 @@ header {
   width: auto;
 }
 
+  .mobExtra {
+    margin-top: 0px;
+  }
+
 @media only screen and (max-width: 768px) {
   h1 {
     margin-top: 0px;
@@ -700,7 +707,7 @@ header {
   }
   #creation {
     min-width: auto;
-    margin-top: 10px;
+    margin-top: 35px;
   }
   #list {
     padding-top: 0px;
@@ -710,6 +717,8 @@ header {
     margin-top: 50px;
     width: auto;
     max-height: 300px;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
     height: auto;
     position: relative;
   }
@@ -720,6 +729,7 @@ header {
   }
   .index-button {
     text-align: center;
+    color: #FFFFFFDE;
     text-align-last: center;
   }
 
@@ -784,6 +794,31 @@ header {
     width: auto;
   }
   .sheet {
+    margin: 0;
+    font-size: 90%;
+  }
+
+  #necessary {
+    width: auto;
+  }
+
+  #character {
+    text-align: center;
+    max-width: 550px;
+    min-width: auto;
+    width: auto;
+    height: 85%;
     margin: auto;
   }
+
+  .mobMargin {
+    margin-top: 0px;
+  }
+}
+  
+@media only screen and (max-width: 410px) {
+  .mobExtra {
+    margin-top: 75px;
+  }
+  
 }

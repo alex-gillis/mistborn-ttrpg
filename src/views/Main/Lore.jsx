@@ -31,7 +31,9 @@ const Lore = () => {
           </nav>
         </div>
         <div id='creation'>
-            <Outlet />
+            <div className="mobExtra">
+                <Outlet />
+            </div>
         </div>
         </>
     )

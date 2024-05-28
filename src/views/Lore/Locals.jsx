@@ -48,7 +48,7 @@ function Locals(props) {
     return (
         < >
         <ol id='list'>
-          <h3>Inside the Basin</h3>
+          <h3 className='notButter'>Inside the Basin</h3>
           {basin.map((section, index) => (
             <li  id="nav-list" key={index}>
               <button className="index-button" onClick={section.onClick}>
