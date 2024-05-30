@@ -105,12 +105,36 @@ function Props(props) {
     { title: 'Ammunition', select: myAmmo, onClick: () => setAmmo(!myAmmo) }
   ];
 
+  const mobileFilters = [
+    { title: 'Era One', select: myEraOne, onClick: () => switchEra()},
+    { title: 'Melee', select: myMelee, onClick: () => setMelee(!myMelee) },
+    { title: 'Ranged', select: myRanged, onClick: () => setRange(!myRanged) },
+  ];
+
+  const mobileFiltersTwo = [
+    { title: 'Armor', select: myArmor, onClick: () => setArmor(!myArmor) },
+    { title: 'Shields', select: myShields, onClick: () => setShields(!myShields) },
+    { title: 'Animals', select: myAnimal, onClick: () => setAnimal(!myAnimal) }
+  ];
+
+  const mobileFiltersThree = [
+    { title: 'Era Two', select: myEraTwo, onClick: () => switchEra()},
+    { title: 'Tools', select: myTools, onClick: () => setTools(!myTools) },
+    { title: 'Implements', select: myImplement, onClick: () => setImplement(!myImplement) }
+  ];
+
+  const mobileFiltersFour = [
+    { title: 'Guns', select: myGuns, onClick: () => setGuns(!myGuns) },
+    { title: 'Customizations', select: myCustom, onClick: () => setCustom(!myCustom) },
+    { title: 'Ammunition', select: myAmmo, onClick: () => setAmmo(!myAmmo) }
+  ];
+
   return (
     <div className='isButter' >
       <div>
         <div id='diagram'>
           <div id='reference-table'>
-              <div>
+              <div id='regMenu'>
                 <table id='reference-size' className='reference-width' style={{margin:"auto"}}>
                   <tbody>
                     <tr>
@@ -127,6 +151,45 @@ function Props(props) {
                     </tr>
                     <tr>
                       {filtersTwo.map((filter, index) => (
+                        <td key={index}>
+                          <button id={filter.select ? 'filterSelected' : 'filterUnselected'} onClick={filter.onClick}>{filter.title}</button>
+                        </td>
+                      ))}
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <div id='mobiMenu'>
+                <table  style={{margin:"auto"}}>
+                  <tbody>
+                    <tr>
+                      <td colSpan={5}>
+                        <h3 className='notButter'>Props in {myEraOne ? 'Era 1' : 'Era 2'}</h3>
+                      </td>        
+                    </tr>
+                    <tr>
+                      {mobileFilters.map((filter, index) => (
+                        <td key={index}>
+                          <button id={filter.select ? 'filterSelected' : 'filterUnselected'} onClick={filter.onClick}>{filter.title}</button>
+                        </td>
+                      ))}
+                    </tr>
+                    <tr>
+                      {mobileFiltersTwo.map((filter, index) => (
+                        <td key={index}>
+                          <button id={filter.select ? 'filterSelected' : 'filterUnselected'} onClick={filter.onClick}>{filter.title}</button>
+                        </td>
+                      ))}
+                    </tr>
+                    <tr>
+                      {mobileFiltersThree.map((filter, index) => (
+                        <td key={index}>
+                          <button id={filter.select ? 'filterSelected' : 'filterUnselected'} onClick={filter.onClick}>{filter.title}</button>
+                        </td>
+                      ))}
+                    </tr>
+                    <tr>
+                      {mobileFiltersFour.map((filter, index) => (
                         <td key={index}>
                           <button id={filter.select ? 'filterSelected' : 'filterUnselected'} onClick={filter.onClick}>{filter.title}</button>
                         </td>
@@ -156,7 +219,9 @@ function Props(props) {
                         </th>
                         <th>
                           <button id='tableButton' onClick={() => setProps(sortByMultipleComponents(myProps, ['difficulty', 'item', 'type', 'props']))}>
-                            Difficulty
+                            <span id='trueDesk'>Difficulty</span>
+                            <span id='trueTablet'>Difficulty</span>
+                            <span id='trueMobile'>Dif.</span>
                           </button>
                         </th>
                       </tr>
@@ -171,7 +236,11 @@ function Props(props) {
                             </td>
                             <td>
                               <button id='tableButton' onClick={() => handleSelection(index)}>
-                                  {section.type}
+                                <span id='trueDesk'>{section.type}</span>
+                                <span id='trueTablet'>{section.type}</span>
+                                <span id='trueMobile'>
+                                  {section.type == 'Customizations' ? 'Custom-\nizations' : section.type}
+                                </span>
                               </button>
                             </td>
                             <td>
@@ -190,6 +259,7 @@ function Props(props) {
                   </table>
               </div>
           </div>
+          
           <div id='reference-info'>
               <Prop prop={myProps[mySelection]} />
           </div>

@@ -24,12 +24,7 @@ h1 {
   margin-bottom: 20px;
 }
 
-h2 {
-  margin-bottom: 2px;
-  text-align: center;
-}
-
-h3 {
+h2, h3 {
   margin-bottom: 2px;
   text-align: center;
 }
@@ -66,27 +61,20 @@ table {
 }
 
 header {
-  text-align: center;
   position: fixed;
-  max-width: 1275px;
-  margin: auto;
-  width: 98.35%;
-  background-color: #1a1a1a;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
   z-index: 2;
+  width: 100%; 
+  text-align: center; 
 }
 
-.spinner {
-  border: 16px solid #f3f3f3; 
-  border-top: 16px solid transparent;
-  border-radius: 50%;
-  width: 120px;
-  height: 120px;
-  animation: spin 2s linear infinite;
-  margin: auto;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+nav {
+  width: fit-content;
+  background-color: #1a1a1a;
+  margin: 0 auto;
+  text-align: center;
 }
 
 @keyframes spin {
@@ -123,6 +111,12 @@ header {
   font-style: italic;
 }
 
+#bottomy {
+  border-bottom-style: solid;
+  border-radius: 0.25px;
+  border-color: #35465c;
+}
+
 #brandon {
   border-color: aliceblue;
   border-style: solid;
@@ -130,8 +124,7 @@ header {
   padding-left: 5px;
   padding-right: 5px;
   padding-bottom: 5px;
-  margin-left: 50px;
-  margin-right: 50px;
+  margin: 0 auto;
 }
 
 #buildInfo {
@@ -193,32 +186,35 @@ header {
   width: 100%;
 }
 
-#reference-info {
-  border-color: #242424;
-  border-style: solid;
-  border-width: 7px;
-  padding-left: 15px;
-  padding-right: 15px;
-  padding-bottom: 5px;
-  margin-top: 5px;
-  flex-grow: 2;
-  max-height: 780px;
-  min-width: 440px;
-  max-width: 440px;
-  overflow-y: scroll;
-  list-style-type: none;
-}
-
-#reference-table {
-  flex-grow: 1; 
-  margin-right: 10px;
-}
-
 #filter-button{
   margin-left: 2.5px;
   margin-right: 2.5px;
   padding-left: 15px;
   padding-right: 15px;
+  color: #FFFFFFDE;
+}
+
+#filterSelected {
+  border: 0.05px solid goldenrod; 
+  border-radius: 0px; 
+  cursor: pointer;
+  background-color: transparent;
+  font-size: smaller;
+  height: 100%;
+  width: 100%;
+  min-width: auto;
+  color: goldenrod;
+}
+
+#filterUnselected {
+  border: 0.05px solid #FFFFFFDE; 
+  border-radius: 0px; 
+  cursor: pointer;
+  background-color: transparent;
+  font-size: smaller;
+  height: 100%;
+  width: 100%;
+  min-width: 100px;
   color: #FFFFFFDE;
 }
 
@@ -257,10 +253,6 @@ header {
   font-style: italic;
 }
 
-#teeny {
-  font-size: small;
-}
-
 #list {
   margin-right: 25px;
   margin-top: 90px;
@@ -279,8 +271,23 @@ header {
   background-color: #555;
 }
 
-#mobiMenu {
+#mobiMenu, #trueMobile {
   display: none;
+}
+
+#nav-list {
+  border-style: solid;
+  border-color: silver;
+  border-right: 0px;
+  border-left: 0px;
+  border-top: 0px;
+  margin-bottom: 5px;
+  list-style: none;
+  margin-right: 5px;
+}
+
+#necessary {
+  width: 100%;
 }
 
 #table-list {
@@ -309,21 +316,6 @@ header {
   list-style-type: none;
 }
 
-#nav-list {
-  border-style: solid;
-  border-color: silver;
-  border-right: 0px;
-  border-left: 0px;
-  border-top: 0px;
-  margin-bottom: 5px;
-  list-style: none;
-  margin-right: 5px;
-}
-
-#necessary {
-  width: 100%;
-}
-
 #propDesc {
   border-color: lightgray;
   border-bottom-style: dotted;
@@ -332,6 +324,34 @@ header {
 #propNotes {
   border-color: grey;
   border-bottom-style: solid;
+}
+
+#reference-info {
+  border-color: #242424;
+  border-style: solid;
+  border-width: 7px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 5px;
+  margin-top: 5px;
+  flex-grow: 2;
+  max-height: 780px;
+  min-width: 410px;
+  width: auto;
+  overflow-y: scroll;
+  list-style-type: none;
+}
+
+#reference-table {
+  flex-grow: 1; 
+  margin-right: 10px;
+}
+
+#reference-size {
+  min-width: 600px;
+  width: 100%;
+  margin-left: 0px;
+  margin-right: 0px;
 }
 
 #rightSample {
@@ -355,6 +375,19 @@ header {
   display: flex;
   text-align: center;
   width: 100%;
+}
+
+#sampleText {
+  text-align: center;
+}
+
+#secret {
+  padding-top: 75px;
+  text-align: center;
+  margin: auto;
+  padding-top: 25px;
+  width: 50%;
+  font-size: large;
 }
 
 #spoiler {
@@ -399,6 +432,23 @@ header {
   text-align-last: center;
 }
 
+#tableButton {
+  border: 0px solid #000000; 
+  border-radius: 0px; 
+  cursor: pointer;
+  padding: 0px;
+  background-color: transparent;
+  height: auto;
+  width: auto;
+  color: #FFFFFFDE;
+  display: inline-block;
+  font-size: smaller;
+}
+
+#teeny {
+  font-size: small;
+}
+
 #terms {
   width: auto;
   margin-bottom: 15px;
@@ -410,22 +460,23 @@ header {
   font-weight: normal;
 }
 
-#secret {
-  padding-top: 75px;
-  text-align: center;
+#trueDesk {
+  display: block;
+}
+
+#trueTablet {
+  display: none;
+}
+
+#trueMobile {
+  display: none;
 }
 
 /* Classes */
+
 .basicBuild {
   width: 200px;
 }
-
-#bottomy {
-  border-bottom-style: solid;
-  border-radius: 0.25px;
-  border-color: #35465c;
-}
-
 .centered {
   text-align: center;
 }
@@ -437,6 +488,36 @@ header {
 .centerAlphabet {
   text-align: center;
   width: 100%;
+}
+
+.dropDown {
+  background: #1a1a1a;
+}
+
+.dropSelected {
+  background-color: #35465c;
+  opacity: 0.6;
+  transition: 0.3s;
+}
+
+.dropSelected:hover {
+  opacity: 1;
+}
+
+.dropUnselected {
+  color: #242424;
+  background-color: #FFFFFFDE;
+  opacity: 0.6;
+  transition: 0.3s;
+}
+
+.dropUnselected:hover {
+  opacity: 1;
+}
+
+.evenRow {
+  background-color: #242424;
+  width: 160px;
 }
 
 .heroSample {
@@ -462,8 +543,21 @@ header {
   opacity: 1;
 }
 
+.isButter {
+  padding-top: 40px;
+  margin-left: 25px;
+  padding-right: 2rem;
+  margin-bottom: 35px;
+  max-width: 1080px;
+  width: auto;
+}
+
 .justified {
   text-align: justify;
+}
+
+.lefter {
+  text-align: left;
 }
 
 .lefty {
@@ -473,8 +567,40 @@ header {
   border-color: #35465c;
 }
 
-.lefter {
-  text-align: left;
+.marginal {
+  margin: 10px;
+}
+
+.marginTop {
+  margin-top: 45px;
+  margin-bottom: 0px;
+}
+
+.mobExtra {
+  margin-top: 0px;
+}
+
+.notButter {
+  margin-top: 0;
+}
+
+.necessary {
+  width: 100%;
+}
+
+.oddRow {
+  width:160px;
+}
+
+.padderTop {
+  padding-top: 20px;
+  margin: auto;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.pickUp {
+  display: none;
 }
 
 .propTable {
@@ -486,22 +612,6 @@ header {
 
 .samples {
   width: 150px;
-}
-
-.padderTop {
-  padding-top: 20px;
-  margin: auto;
-  margin-bottom: 15px;
-  text-align: center;
-}
-
-.marginTop {
-  margin-top: 45px;
-  margin-bottom: 0px;
-}
-
-#sampleText {
-  text-align: center;
 }
 
 .selected {
@@ -524,40 +634,18 @@ header {
   margin-right: 25px;
 }
 
-#tableButton {
-  border: 0px solid #000000; 
-  border-radius: 0px; 
-  cursor: pointer;
-  background-color: transparent;
-  font-size: 15px;
-  height: auto;
-  width: auto;
-  color: #FFFFFFDE;
-  display: inline-block;
-}
-
-#filterSelected {
-  border: 0.05px solid goldenrod; 
-  border-radius: 0px; 
-  cursor: pointer;
-  background-color: transparent;
-  font-size: smaller;
-  height: 100%;
-  width: 100%;
-  min-width: 100px;
-  color: goldenrod;
-}
-
-#filterUnselected {
-  border: 0.05px solid #FFFFFFDE; 
-  border-radius: 0px; 
-  cursor: pointer;
-  background-color: transparent;
-  font-size: smaller;
-  height: 100%;
-  width: 100%;
-  min-width: 100px;
-  color: #FFFFFFDE;
+.spinner {
+  border: 16px solid #f3f3f3; 
+  border-top: 16px solid transparent;
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  animation: spin 2s linear infinite;
+  margin: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .unselected {
@@ -571,129 +659,8 @@ header {
   opacity: 1;
 }
 
-.wiggleRoom {
-  padding-bottom: 5.5px;
-}
-
-.notButter {
-  margin-top: 0;
-}
-
-.marginal {
-  margin: 10px;
-}
-.evenRow {
-  background-color: #242424;
-  width: 160px;
-}
-
-.oddRow {
-  width:160px;
-}
-
-.necessary {
-  width: 100%;
-}
-
 .reference-width {
   max-width: 540px;
-}
-
-#reference-size {
-  min-width: 600px;
-  width: 100%;
-  margin-left: 0px;
-  margin-right: 0px;
-}
-
-.ref-item {
-  min-width: 230px;
-}
-
-.ref-middle {
-  min-width: 220px;
-}
-
-.ref-object {
-  min-width: 220px;
-}
-
-.ref-space {
-  min-width: 10px;
-}
-
-.ref-one {
-  min-width: 230px;
-  max-width: 31.01%;
-}
-
-.ref-two {
-  min-width: 240px;
-  max-width: 38.76%;
-}
-
-.ref-three {
-  min-width: 100px;
-  max-width: 17.05%;
-}
-
-.ref-four {
-  min-width: 95px;
-  max-width: 13.18%;
-}
-
-.ref-five {
-  min-width: 10px;
-}
-
-#secret {
-  margin: auto;
-  padding-top: 25px;
-  width: 50%;
-  font-size: large;
-}
-
-.dropDown {
-  background: #1a1a1a;
-}
-
-.pickUp {
-  display: none;
-}
-
-.dropSelected {
-  background-color: #35465c;
-  opacity: 0.6;
-  transition: 0.3s;
-}
-
-.dropSelected:hover {
-  opacity: 1;
-}
-
-.dropUnselected {
-  color: #242424;
-  background-color: #FFFFFFDE;
-  opacity: 0.6;
-  transition: 0.3s;
-}
-
-.dropUnselected:hover {
-  opacity: 1;
-}
-
-.isButter {
-  padding-top: 40px;
-  margin-left: 50px;
-  margin-right: 110px;
-  padding-right: 2rem;
-  margin-bottom: 35px;
-  max-width: 1080px;
-  width: auto;
-}
-
-.mobExtra {
-  margin-top: 0px;
 }
 
 .scrolling-body {
@@ -701,26 +668,58 @@ header {
   max-height: 650px;
   overflow-y: auto;
 }
+
 .scrolling-body tr {
   display: table;
   width: 100%;
   table-layout: fixed;
 }
 
+.wiggleRoom {
+  padding-bottom: 5.5px;
+}
+
+/* Tablet */
 @media only screen and (max-width: 768px) {
+  /* Elements */
   h1 {
     margin-top: 0px;
   }
-  #mobiMenu {
-    display: block;
+
+  /* IDs */
+  #buildInfo {
+    margin-top: 0px;
+    margin-left: 30px;
+    padding-right: 2rem;
+    margin-bottom: 35px;
+    max-width: 1000px;
+    width: auto;
   }
-  #regMenu {
-    display: none;
+
+  #character {
+    text-align: center;
+    max-width: 550px;
+    min-width: auto;
+    width: auto;
+    height: 85%;
+    margin: auto;
   }
+
   #creation {
     min-width: auto;
     margin-top: 35px;
   }
+
+  #diagram {
+    flex-direction: column;
+  }
+
+  #info {
+    margin-left: 0px;
+    padding-left: 16px;
+    margin-top: 0px;
+  }
+  
   #list {
     padding-top: 0px;
     min-width: 150px;
@@ -734,27 +733,12 @@ header {
     height: auto;
     position: relative;
   }
-  #info {
-    margin-left: 0px;
-    padding-left: 16px;
-    margin-top: 0px;
-  }
-  .index-button {
-    text-align: center;
-    color: #FFFFFFDE;
-    text-align-last: center;
+
+  #mobiMenu {
+    display: block;
   }
 
-  #diagram {
-    flex-direction: column;
-  }
-  
-  .isButter {
-    padding-top: 40px;
-    margin-left: 25px;
-    margin-right: 25px;
-    margin-bottom: 35px;
-    padding-right: 0px;
+  #necessary {
     width: auto;
   }
 
@@ -768,12 +752,8 @@ header {
     margin-top: 15px;
     flex-grow: 1;
     max-height: 400px;
-    min-width: none;
-    max-width: none;
-    width: auto;
     height: 285px;
-    min-width: auto;
-    max-width: auto;
+    min-width: 0px;
     overflow-y: scroll;
     list-style-type: none;
   }
@@ -782,52 +762,80 @@ header {
     flex-grow: 1; 
     margin-right: 0px;
   }
+
+  #regMenu {
+    display: none;
+  }
   
   #table-list {
-    min-width: none;
-    max-width: none;
+    min-width: 0px;
+    max-width: 100%;
     width: auto;
     min-height: none;
     height: 300px;
   }
-  .scrolling-body {
-    max-height: 300px;
+
+  #trueDesk {
+    display: none;
+  }
+
+  #trueTablet {
+    display:block;
+  }
+
+  #trueMobile {
+    display: none;
+  }
+
+  /* Classes */
+  .basicBuild {
+    width: auto;
+  }
+
+  .index-button {
+    text-align: center;
+    color: #FFFFFFDE;
+    text-align-last: center;
+  }
+  
+  .isButter {
+    padding-top: 40px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 35px;
+    padding-right: 0px;
+    width: auto;
   }
 
   .samples {
     width: auto;
   }
-  .basicBuild {
-    width: auto;
+
+  .scrolling-body {
+    max-height: 300px;
   }
-  #buildInfo {
-    margin-top: 0px;
-    margin-left: 30px;
-    padding-right: 2rem;
-    margin-bottom: 35px;
-    max-width: 1000px;
-    width: auto;
-  }
+  
   .sheet {
     margin: 0;
     font-size: 90%;
   }
-
-  #necessary {
-    width: auto;
-  }
-
-  #character {
-    text-align: center;
-    max-width: 550px;
-    min-width: auto;
-    width: auto;
-    height: 85%;
-    margin: auto;
-  }
 }
   
-@media only screen and (max-width: 410px) {
+@media only screen and (max-width: 430px) {
+  /* IDs */
+  #root {
+    font-size: 85%;
+  }
+
+  #trueDesk, #trueTablet {
+    display:none;
+  }
+
+  #trueMobile {
+    display: block;
+  }
+
+  /* Classes */
   .mobExtra {
     margin-top: 75px;
   }

@@ -51,17 +51,49 @@ function Stunts(props) {
     { title: 'Homeland', select: myHomeland, onClick: () => setHomeland(!myHomeland) }
   ];
 
+  const mobiFilters = [
+    { title: 'Allomancy', select: myAllo, onClick: () => setAllo(!myAllo) },
+    { title: 'Gunplay', select: myGuns, onClick: () => setGuns(!myGuns) },
+    { title: 'Gunsmithing', select: mySmith, onClick: () => setSmith(!mySmith) }
+  ];
+
+  const mobiFiltersTwo = [
+    { title: 'Compounding', select: myCompound, onClick: () => setCompound(!myCompound) },
+    { title: 'Cultural', select: myCultural, onClick: () => setCultural(!myCultural) },
+    { title: 'Homeland', select: myHomeland, onClick: () => setHomeland(!myHomeland) }
+  ];
+
   return (
     <div className='isButter' >
       <div>
         <div id='diagram'>
           <div id='reference-table'>
               <h3 className='notButter'>Stunts</h3>
-              <div>
+              <div id='regMenu'>
                 <table>
                   <tbody>
                     <tr>
                       {filters.map((filter, index) => (
+                        <td key={index}>
+                          <button id={filter.select ? 'filterSelected' : 'filterUnselected'} onClick={filter.onClick}>{filter.title}</button>
+                        </td>
+                      ))}
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <div id='mobiMenu'>
+                <table>
+                  <tbody>
+                    <tr>
+                      {mobiFilters.map((filter, index) => (
+                        <td key={index}>
+                          <button id={filter.select ? 'filterSelected' : 'filterUnselected'} onClick={filter.onClick}>{filter.title}</button>
+                        </td>
+                      ))}
+                    </tr>
+                    <tr>
+                      {mobiFiltersTwo.map((filter, index) => (
                         <td key={index}>
                           <button id={filter.select ? 'filterSelected' : 'filterUnselected'} onClick={filter.onClick}>{filter.title}</button>
                         </td>
@@ -76,7 +108,7 @@ function Stunts(props) {
                         <tr>
                           <th>
                             <button id='tableButton' onClick={() => setStunts(sortByMultipleComponents(myStunts, ['name', 'type', 'req']))}>
-                              <span className='righter'>Stunt Name</span>
+                              <span className='righter'>Name</span>
                             </button>
                           </th>
                           <th>
@@ -86,7 +118,7 @@ function Stunts(props) {
                           </th>
                           <th>
                             <button id='tableButton' onClick={() => setStunts(sortByMultipleComponents(myStunts, ['req', 'name', 'type']))}>
-                              Requirements
+                              Requires
                             </button>
                           </th>
                         </tr>
