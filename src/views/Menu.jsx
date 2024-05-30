@@ -127,7 +127,7 @@ const Menu = () => {
                                         aria-expanded={regOpen ? 'true' : undefined}
                                         onClick={handleRegClick}
                                     >
-                                        Reference
+                                        References
                                     </button>
                                     <Submenu
                                         id="demo-positioned-menu"
