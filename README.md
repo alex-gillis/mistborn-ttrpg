@@ -20,6 +20,7 @@ Exciting enhancements and expansions are on the horizon for the Mistborn Tableto
 
 - **Comprehensive Bestiary**: Prepare to meet the denizens of Scadrial like never before. This upcoming section will feature detailed profiles of NPCs, characters, and monsters, providing rich lore and stats to enhance your storytelling and gameplay.
 - **Narrator’s Toolkit**: Empower your campaigns with advanced tools designed specifically for Narrators. This section will include in-depth resources like plot hooks, secrets to enrich your narratives, and an expanded bestiary to challenge your players with new and exciting encounters.
+- **Ease of Life Functions**: We’re committed to making your experience as smooth and enjoyable as possible. Upcoming ease-of-life functions will include streamlined navigation, quick reference tools, and other enhancements to ensure you can find what you need quickly and effortlessly.
 - **Era 1 Expansion**: Delve deeper into the original Mistborn trilogy with additional content from Era 1. Beyond the core rulebook, we'll be adding a wealth of new material inspired by the beloved first era, ensuring your adventures capture the essence of Vin, Kelsier, and the world they fought to save.
 
 Stay tuned as we continue to expand and refine the compendium. Your adventure in the world of Mistborn is just beginning!
