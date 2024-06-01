@@ -92,7 +92,7 @@ function App() {
                     <Route index element={<Build start={myCreations[3]} building={myCreations[4]}  propped={myProps[0]} built={myCreations[6]} /> } />
                 </Route>
                 <Route path="improvement" element={<Creation />}>
-                    <Route index element={<Improvement improvement={myCreations[5]} alloy={myCreations[7]} /> } />
+                    <Route index element={<Improvement improvement={myCreations[5]} alloy={myCreations[7]} network={myCreations[8]} /> } />
                 </Route>
                 <Route path="lore" element={<Lore />}>
                     <Route index element={<Overview lore={myLore[0]} />} />

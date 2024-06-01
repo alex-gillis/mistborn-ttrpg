@@ -7,6 +7,7 @@ import Spending from './Improvement/Spending';
 import Advancement from './Improvement/Advancement';
 import Improve from './Era2/Improve';
 import Advance from './Era2/Advance';
+import Network from './Era2/Network';
 
 const Improvement = (props) => {
     const [mySection, setSecion] = useState(0);
@@ -21,7 +22,8 @@ const Improvement = (props) => {
       { title: 'Advancing in Era 1 ', onClick: () => handleSection(2) },
       { title: 'List of Advancements', onClick: () => handleSection(3) },
       { title: 'Advancing in Era 2 ', onClick: () => handleSection(4) },
-      { title: 'New Advancements ', onClick: () => handleSection(5) }
+      { title: 'New Advancements ', onClick: () => handleSection(5) },
+      { title: 'Networks', onClick: () => handleSection(6) }
     ];
 
     return (
@@ -45,6 +47,7 @@ const Improvement = (props) => {
             {mySection === 3  && <Advancement improvement={props.improvement}/>}
             {mySection === 4  && <Improve info={props.alloy}/>}
             {mySection === 5  && <Advance info={props.alloy.advancements.new}/>}
+            {mySection === 6  && <Network info={props.network}/>}
         </div>
         </>
     )

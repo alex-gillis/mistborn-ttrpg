@@ -5428,6 +5428,27 @@
                     ]
                 }
             }
+        },
+        {
+            "id":8,
+            "basics":"This supplement uses the rules for Networks — influential organizations that Heroes can tap for support and information during their exploits. A Hero doesn’t necessarily have to join or otherwise contribute to a Network in order to access it (though it may help); having a Network simply represents the Hero’s clearest and most valuable relationship to one of these organizations at the moment. Thus, it isn’t unusual for a Hero to change his Network over the course of his career, or for members of the same Crew to have different Networks from one another.",
+            "gain":{
+                "basic":"A Hero gains a Network they qualify for by spending Advancements, just as they would gain a new Trait or Power, which represents the expenditure of time and goodwill necessary to forge their connections. Because Networks often have conflicting goals and rules, a Hero may only have a single Network at a time. However, as always, the Narrator must approve all Networks as appropriate for the circumstances of the story.",
+                "example":"Example: David’s character, Enid Bellflower, has been a lawkeeper out in the Roughs, but recently made the trip to Elendel to help the Crew. While there, she works alongside Constable Marasi Colms on a rash of robberies that resemble ones Enid encountered back in the Roughs. With their working relationship established, David decides to spend some Advancements to gain the “Elendel Constabulary” Network. The Narrator, Brandon, approves, and David adds his successful partnership to Enid’s character sheet."
+            },
+            "use":{
+                "basic":"Unlike other Advancements, a Hero can only take advantage of a Network (gain its benefits and use its Network Trait) while in good standing with its leadership (following the Network’s rules); Networks rarely stick their neck out for those who don’t respect their methods and dictums. If a Hero breaks a Network’s rules, as defined in its description, he loses its Network benefits and Network Trait until the next Long Breather (at which time he smooths things over with his contacts).",
+                "example":"Unlike other Advancements, a Hero can only take advantage of a Network (gain its benefits and use its Network Trait) while in good standing with its leadership (following the Network’s rules); Networks rarely stick their neck out for those who don’t respect their methods and dictums. If a Hero breaks a Network’s rules, as defined in its description, he loses its Network benefits and Network Trait until the next Long Breather (at which time he smooths things over with his contacts)."
+            },
+            "change":"As a Hero’s priorities change, so do their relationships. To represent this, a Hero can change his Network by spending 2 Advancements. While doing so takes time, there are not typically any lasting penalties or lingering animosity for changing one’s Network, and a Hero can choose to regain a previous Network at a later time by spending a further 2 Advancements.",
+            "first":{
+                "name":"Change your Network",
+                "desc":"Your Hero abandons his old Network and declares his loyalty to a new organization. Erase your existing Network and replace it with the one you now qualify for (see “Networks,” page 65)."
+            },
+            "second":{
+                "name":"Develop a Network",
+                "desc":"our Hero fosters a relationship with a powerful organization, exchanging his loyalty to take advantage of that Network’s training and contacts. Add your new Network to the Powers section of your character sheet; as long as you follow the Network’s dictums, you gain its benefit (see “Networks,” page 65). You may only have one Network at a time, though you may change it by spending 2 Advancements, as noted above."
+            }
         }
     ],
     "propped": [ 
@@ -11857,13 +11878,6 @@
                     "req":"Roughs Dweller",
                     "description":"You’ve trained in taming and caring for animals in the harsh conditions of the Roughs. When you’re riding a horse or other animal, you don’t suffer adverse conditions from its motion. You gain an additional die on checks for calming or controlling animals. Lastly, you own a stable of animals. During a Breather, you can bring out enough horses to carry you, the rest of your Crew, and up to one companion."
                 }
-            ]
-        },
-        {
-            "title":"Network",
-            "id":6,
-            "stunts":[
-                
             ]
         }
     ],
