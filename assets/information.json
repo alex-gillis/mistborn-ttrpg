@@ -12645,8 +12645,39 @@
     ],
     "network":[
         {
+            "name":"Church of the Survivor",
+            "timeframe":"Era 2",
+            "rules":"Wear the scars of the Survivor proudly on your forearms; follow the tenets of Survivorism: Be strong, be independent, never lose hope, help those weaker than you, and respect the Mists.",
+            "trait":"Faithful Survivorist",
+            "benefit":"You can call on a Survivorist church in a settlement for help and lodging, even if you’re new in town. This lets you and your Crew use the church parsonage as a place to crash, plan, or rest and heal. Once during your visit, you can also get the local priest to speak on your behalf. This gives you a bonus die on a single Charm or Influence roll, provided the target is a Survivorist or otherwise respects the priest’s authority."
+        },
+        {
+            "name":"Elendel Constabulary",
+            "timeframe":"Era 2",
+            "rules":"Abide by the laws of Elendel; make sure disputes get settled by the law rather than vigilantism; turn evidence over to the constabulary.",
+            "trait":"Constabulary Contacts",
+            "benefit":"You gain access to crime scenes, police documents, and other confidential police information without facing resistance from constables. This doesn’t apply in extraordinary circumstances or if you’re trying to get highly classified information — these require the appropriate Influence rolls, as normal."
+        },
+        {
+            "name":"Elendel Senator",
+            "timeframe":"Era 2",
+            "rules":"Work toward your Senator’s interests; avoid actions and positions that reflect poorly on your Senator; protect the Senator’s corruption or other secrets.",
+            "trait":"Politically Connected",
+            "benefit":"When you leverage politics or legal issues to deal social damage to another character, increase the damage they suffer by 1."
+        },
+        {
             "name":"Faceless Immortals",
-            "timeframe":"Era 2"
+            "timeframe":"Era 2",
+            "rules":"Keep the identities of your Faceless Immortal allies secret; assist with missions related to Harmony’s interests.",
+            "trait":"Faceless Immortal Connections",
+            "benefit":"To learn information about the World of Ash, Hemalurgy, or other topics kandra understand better than humans, you can call on your kandra allies rather than researching the answers yourself. By persuading the kandra to share the information with you, you may make a roll that would normally use Wits using Charm instead. Calling on kandra for information in this way requires extra time if your allies aren’t present (such as spending a Breather or a short scene). The Difficulty of this roll usually remains unchanged, though the Narrator might adjust it or rule that your kandra contacts are unable or unwilling to part with the information."
+        },
+        {
+            "name":"Malwish Crew",
+            "timeframe":"Era 2",
+            "rules":"Act in deference to Metalborn; keep your knowledge of the south private; prevent Malwish technology from falling into the wrong hands at all costs.",
+            "trait":"Honorary Shipmate",
+            "benefit":"Once per session, you can spend a Short Breather to call on the assistance of the airship crew, either to borrow a universal metalmind from their stores or ask them for transportation for you and your Crew. When borrowing a universal metalmind, you may choose a Brass/Iron or Duralumin/Iron metalmind without an additional roll; getting a different 2-metal metalmind requires a successful Resources 3 challenge. You retain a borrowed universal metalmind until your current task is complete or the next Breather, whichever comes first. \n\n Arranging transportation requires you to meet the crew in an inconspicuous location where you can be picked up. Additionally, most airships prefer to travel in secrecy whenever possible, making them reticent to provide transport within the Elendel Basin, especially near large cities."
         }
     ]
 }

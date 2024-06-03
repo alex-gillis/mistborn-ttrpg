@@ -24,6 +24,7 @@ import Stunts from './views/Reference/Stunts';
 import Props from './views/Reference/Props';
 import Terms from './views/Reference/Terms';
 import People from './views/Lore/People';
+import Networks from './views/Reference/Networks';
 
 function App() {
   const [myMetals, setMetals] = useState([]);
@@ -34,6 +35,7 @@ function App() {
   const [myGames, setGames] = useState([]);
   const [myStunts, setStunts] = useState([]);
   const [myLore, setLore] = useState([]);
+  const [myNetwork, setNetwork] = useState([]);
   const [myLoading, setLoading] = useState(true); 
 
   useEffect(() => {
@@ -52,6 +54,7 @@ function App() {
         setGames(data.game);
         setStunts(data.stunts);
         setLore(data.lore);
+        setNetwork(data.network);
         setLoading(false);
       } catch (error) {
         console.error('Error fetching data:', error);
@@ -112,6 +115,7 @@ function App() {
                 <Route path="metallurgy" element={<Metallurgy basics={myBasics} metals={myMetals} />} />
                 <Route path="stunts" element={<Stunts stunts={myStunts}/>} />
                 <Route path="props" element={<Props propped={myProps[1]}/>} />
+                <Route path="networks" element={<Networks networks={myNetwork}/>} />
                 <Route path="terms" element={<Terms gameTerms={myCreations[2]?.gameTerms}/>} />
                 <Route path="*" element={<NoPage />} />
             </Route>

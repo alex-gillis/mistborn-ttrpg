@@ -78,6 +78,7 @@ const Menu = () => {
         "/mistborn-ttrpg/metal",
         "/mistborn-ttrpg/props",
         "/mistborn-ttrpg/stunts",
+        "/mistborn-ttrpg/network",
         "/mistborn-ttrpg/terms"
     ];
 
@@ -89,6 +90,7 @@ const Menu = () => {
     const metal = pathname.includes("/mistborn-ttrpg/metal");
     const props = pathname.includes("/mistborn-ttrpg/props");
     const stunts = pathname.includes("/mistborn-ttrpg/stunts");
+    const networks = pathname.includes("/mistborn-ttrpg/networks");
     const terms = pathname.includes("/mistborn-ttrpg/terms");
     
 
@@ -106,6 +108,7 @@ const Menu = () => {
                 { title: 'Metallurgy', link: "/mistborn-ttrpg/metallurgy", subclassName: metal ? 'dropSelected' : 'dropUnselected' },
                 { title: 'Props', link: "/mistborn-ttrpg/props", subclassName: props ? 'dropSelected' : 'dropUnselected' },
                 { title: 'Stunts', link: "/mistborn-ttrpg/stunts", subclassName: stunts ? 'dropSelected' : 'dropUnselected' },
+                { title: 'Networks', link: "/mistborn-ttrpg/networks", subclassName: networks ? 'dropSelected' : 'dropUnselected' },
                 { title: 'Game Terms', link: "/mistborn-ttrpg/terms", subclassName: terms ? 'dropSelected' : 'dropUnselected' }
             ]
         },
