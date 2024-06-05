@@ -22,6 +22,7 @@ h1 {
   text-decoration: underline;
   /* padding-top: 20px; */
   margin-bottom: 20px;
+  margin-top: 0px;
 }
 
 h2, h3 {
@@ -239,7 +240,7 @@ nav {
 }
 
 #intro {
-  margin-top: 65px;
+  /* margin-top: 65px; */
   padding-left: 15px;
   padding-right: 15px;
 }
@@ -256,7 +257,7 @@ nav {
 
 #list {
   margin-right: 25px;
-  margin-top: 90px;
+  /* margin-top: 90px; */
   min-width: 150px;
   height: 670px;
   position: fixed;
