@@ -106,9 +106,9 @@ const Menu = () => {
             onClick: toggleMenu,
             subpages: [
                 { title: 'Metallurgy', link: "/mistborn-ttrpg/metallurgy", subclassName: metal ? 'dropSelected' : 'dropUnselected' },
+                { title: 'Networks', link: "/mistborn-ttrpg/networks", subclassName: networks ? 'dropSelected' : 'dropUnselected' },
                 { title: 'Props', link: "/mistborn-ttrpg/props", subclassName: props ? 'dropSelected' : 'dropUnselected' },
                 { title: 'Stunts', link: "/mistborn-ttrpg/stunts", subclassName: stunts ? 'dropSelected' : 'dropUnselected' },
-                { title: 'Networks', link: "/mistborn-ttrpg/networks", subclassName: networks ? 'dropSelected' : 'dropUnselected' },
                 { title: 'Game Terms', link: "/mistborn-ttrpg/terms", subclassName: terms ? 'dropSelected' : 'dropUnselected' }
             ]
         },
