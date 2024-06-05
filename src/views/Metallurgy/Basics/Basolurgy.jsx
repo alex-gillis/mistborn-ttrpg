@@ -15,7 +15,7 @@ function Basolurgy(props) {
             <div id="sampleDisplay">
                 <div id="centerIMG">
                     <div>
-                        <img id="inquisitor" src="./assets/inqDiagram.png" alt="Steel Inquisitor Diagram" />
+                        <img id="inquisitor" src="./assets/icons/inqDiagram.png" alt="Steel Inquisitor Diagram" />
                         <br/>
                         <span className="sampleText"  id="bolder">A Visual Study of a Steel Inquisitor</span>
                         <br/>
