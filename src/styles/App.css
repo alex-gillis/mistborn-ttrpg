@@ -682,6 +682,14 @@ nav {
   padding-bottom: 5.5px;
 }
 
+@media only screen and (max-width: 1265px) {
+  #creation {
+    width: fit-content;
+    min-width: 0;
+  }
+
+}
+
 /* Tablet */
 @media only screen and (max-width: 768px) {
   /* Elements */
@@ -709,7 +717,8 @@ nav {
   }
 
   #creation {
-    min-width: auto;
+    min-width: 0;
+    width: auto;
     /* margin-top: 35px; */
   }
 
