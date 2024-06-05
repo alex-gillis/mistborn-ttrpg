@@ -7619,8 +7619,9 @@
     "rogues": [
         {
             "id":0,
+            "era":1,
             "name":"Samples Era 1",
-            "era1":[
+            "rogues":[
                 {
                     "name":"Beck",
                     "id":0,
@@ -8060,8 +8061,9 @@
         },
         {
             "id":1,
+            "era":2,
             "name":"Samples Era 2",
-            "era2":[
+            "rogues":[
                 {
                     "name":"Anders Colby",
                     "id":8,
@@ -8571,6 +8573,143 @@
                         }
                     ]
                 }
+            ]
+        },
+        {
+            "id":2,
+            "era":1,
+            "name":"Heroes",
+            "rogues":[
+
+            ]
+        },
+        {
+            "id":3,
+            "era":2,
+            "name":"Heroes",
+            "rogues":[
+                {
+                    "name":"",
+                    "threat":"",
+                    "level":0,
+                    "attributes":{
+                        "physique":0,
+                        "charm":0,
+                        "wits":0
+                    },
+                    "standings":{
+                        "resources":0,
+                        "influence":0,
+                        "spirit":0
+                    },
+                    "resiliences":{
+                        "health":0,
+                        "reputation":0,
+                        "willpower":0
+                    },
+                    "gunplay":[
+                        {
+                            "name":"",
+                            "desc":""
+                        }
+                    ],
+                    "allomancy":[
+                        {
+                            "name":"",
+                            "desc":"",
+                            "stunts":[
+                                {
+                                    "name":"",
+                                    "desc":""
+                                }
+                            ]
+                        }
+                    ],
+                    "feruchemy":[
+                        {
+                            "name":"",
+                            "desc":"",
+                            "stunts":[
+                                {
+                                    "name":"",
+                                    "desc":""
+                                }
+                            ]
+                        }
+                    ],
+                    "equipment":[
+                        {
+                            "item":""
+                        }
+                    ],
+                    "playing":"",
+                    "ally":"",
+                    "enemy":""
+                }
+            ]
+        },
+        {
+            "id":4,
+            "era":2,
+            "name":"City Folk",
+            "rogues":[
+
+            ]
+        },
+        {
+            "id":5,
+            "era":2,
+            "name":"Roughs Folk",
+            "rogues":[
+
+            ]
+        },
+        {
+            "id":6,
+            "era":2,
+            "name":"Metalborn",
+            "rogues":[
+
+            ]
+        },
+        {
+            "id":7,
+            "era":2,
+            "name":"Outsiders",
+            "rogues":[
+
+            ]
+        },
+        {
+            "id":8,
+            "era":2,
+            "name":"Malwish People",
+            "rogues":[
+
+            ]
+        },
+        {
+            "id":9,
+            "era":2,
+            "name":"Gangs",
+            "rogues":[
+
+            ]
+        },
+        {
+            "id":10,
+            "era":2,
+            "name":"Chimeras",
+            "rogues":[
+
+            ]
+        },
+        {
+            "id":11,
+            "era":2,
+            "name":"Wildlife",
+            "rogues":[
+
             ]
         }
     ],
@@ -12170,7 +12309,38 @@
                         "name":"The Sludge Flats",
                         "desc":"were formerly known simply as 'the inner 6th,' recent events have supplanted this old name with the new. Failing retaining walls have allowed canal water to seep into the streets, turning the neighborhood into a soggy mess. Oftentimes, water stands ankle-deep in the lowest-lying areas, and the ground never really dries out. While the slum can't match the squalor of the skaa slums of antiquity, compared to the relative prosperity of the rest of Elendel, the Sludge Flats seem dreadful."
                     }
-                ]
+                ],
+                "laws":{
+                    "intro":"The center of civilization, Elendel has a complex system of government and law, and political changes there have repercussions throughout the Elendel Basin. Likewise, trade is big business in Elendel, since it’s the nexus of the canals and rail lines, as well as being a major port on the Sea of Yomend. People in smaller cities sometimes come to resent the capital, since its economic importance lends it huge leverage in most business dealings.",
+                    "cityGov":{
+                        "government":"The governing body of Elendel — the Senate — is purposefully divided in two. It operates by laws drawn up by the Lord Mistborn and reflects the Last Emperor’s ideals of power being given to the common citizen rather than hoarded by an elite few. The Senate assembles to create, debate, and pass bills for the betterment of the Basin republic. \n\n One house of the Senate is composed of representatives of the city’s major professions, elected by the people whose livelihoods rely on said professions. These representatives are a fluid lot, changing with industrial revolutions and cultural shifts to reflect the needs of the common folk. Frequent elections mean that repercussions from the trade Senators’ decisions are swift, and the membership of this house changes frequently. Any dip in fortunes can lead constituents to swiftly turn on their representative. \n\n The second house of the Senate belongs to the noble Houses. Noble House seats are inherited rather than elected, passed down within a family line. These Senators represent anyone they employ or who lives on a property they own. Often, a noble House is heavily invested in certain industries, linking their agenda to a particular group of profession representatives. Therefore, though the nobles and tradesmen operate in different social circles, shared economic interests create a bridge between the groups and prevent either house from running roughshod over the other. The responsibility of serving falls to the head of each noble House, unless they are unable to carry out their responsibilities due to ill health. The Senators of the Great Houses have a greater say, both in the number of votes they can cast and in their sheer political clout. They attend any major vote, usually ensuring that sessions and votes are delayed until they are able to attend. The level of investment from heads of lesser houses varies wildly. Some house heads become deeply involved, even considering serving on the Senate more important than their house affairs. Others skip most sessions, being too occupied with business or socializing — or simply believing their ability to affect votes is too small to bother attending. \n\n Over all this is the governor, who is elected by the noble seats and who maintains citywide control. The governor has a degree of veto power for any bill the Senate brings to a vote, a unique level of power. Yet any governor who abuses this power won’t last long, and the noble wing of the Senate quickly ousts any obstructionist who makes it into the office. Governors usually end up serving longer terms than the average Senator from the trades, but have to walk a careful line and compromise to keep the peace.",
+                        "corruption":"Practically everyone in Elendel readily believes corruption reaches the deepest portions of the government, including the governor himself. Because governance is tied so closely to economics, it’s dubious whether any given Senator works for the needs of the people he represents or to fill his own coffers. The representatives from the trades usually center their efforts on improving the state of their own trades, and those who can make that happen rarely face much blowback. The noble Senators, on the other hand, are meant to represent all the people of their districts, many of whom are tenants who get no direct benefit from the house’s financial good fortunes. Because nobles are almost impossible to oust, there is rarely any recourse if they’re suspected of corruption. \n\n This has led to constant unrest among commoners and city laborers, who feel their rights are being ignored and their true needs are going unmet while the Senate nobles squabble over wealth and influence. Riots are not yet commonplace — though certain rougher portions of the city have seen an increase in rabble-rousers and idle malcontents threatening to tip the balance of the tenuous calm. Should circumstances necessitate, the governor possesses the authority to enact Martial Law within any or all city octants.",
+                        "innates":"As depicted in Shadows of Self, the Innate brothers handily demonstrate the corruption of the government. The governor is Replar Innate. His brother, Lord Winsting Innate, holds a vote on the Elendel Senate and fraternizes with infamous criminal figures within the city. He is rumored to accept bribes to sway his vote on certain matters. \n\n While Winsting has hardly been subtle in his dealings, Governor Innate has managed to dodge outright evidence of any wrongdoings. Those who know what patterns to look for — favors and funds exchanged, meetings held, etc. — may get a sense of the political maneuverings and manipulations going on behind the scenes."
+                    },
+                    "constabulary":{
+                        "opener":"Elendel is divided into eight octants, each with a dedicated constabulary for peacekeeping measures. Each octant’s constabulary is headed by a Constable General who reports to the governor. In a few times of crisis or due to political maneuverings, there has sometimes been a Lord High Constable in charge of the other Constables General. Constabulary offices act as a clerical and organizational center with a jail attached. The constables are civil servants, meant to protect the citizens rather than root out villains within the government itself. This allows constables to act more casually within a community, forming stronger relationships with the locals and acting in a more informed and invested manner should trouble arise. \n\n City constables are identified by basic uniforms — usually a white shirt and military-styled brown coat and pants or skirt. They wear bowler hats or helms with plumes to distinguish themselves and their ranks — officers are denoted by the color blue. All constables carry small steel sheets engraved with their credentials to prove their official status. \n\n The constables of a precinct are overseen by a constable general, and can fulfill any number of roles, such as beat constables, constable detectives, constable deputies, and field constables. They can come from any walk of life, even nobility, and both men and women are eligible to serve in their ranks. However, female constables are expected to behave in a ladylike fashion and their uniforms can be a bit less utilitarian than those of male constables. \n\n Constables are trained to deal with lawbreaking Mistings or Ferrings, and there are those within the conner ranks who possess these talents themselves. Leecher constables can be especially valuable in negating a Misting’s powers, though this requires physical contact. \n\n Constables benefit from technological advances, such as utilizing motorcars for quicker transportation and distress response. As firearms became prevalent, the constables adopted them. Since they didn’t face the same sorts of extreme situations as lawkeepers in the Roughs, at first only a few constables carried them. Eventually, guns were issued to most officers serving in the field. The constabulary continues to press for more funding to task inventors with creating nonlethal weaponry for the constabulary.",
+                        "notable":[
+                            {
+                                "name":"Constable General Aradel",
+                                "desc":"Claude Aradel is the constable general of the Fourth Octant. He is often unkempt, with a rectangular face and reddish stubble. Nearing sixty years old, his skin is leathery and wrinkled. He has absolutely no genealogical link to any noble House whatsoever. He retired from his position as a detective for a decade but came out of retirement to accept the position of constable general after the exposure and execution of Miles Hundredlives. He has a gruff personality but also possesses keen insight into a person’s potential and prefers to choose his assistants based on their merit rather than their political affiliations, wealth, or nobility. His experience as a detective prompts him to often visit the scene of a crime and apply his wits to unraveling the mysteries surrounding it. \n\n Above all, Aradel believes firmly in the constable’s role as a keeper of the peace at all costs. He is loyal to the current government, though bothered by the rumors of corruption, and he will not ignore direct evidence of criminal activity even if it implicates one of the city’s leaders. He prefers those constables under him to speak their mind even if they disagree with him but also expects them to follow orders. During times of uprising in Elendel, Aradel is appointed as Lord High Constable by Governor Innate to impose martial law across the octants. He also becomes the first non-noble governor once Innate’s corruption is exposed to the entire city."
+                            },
+                            {
+                                "name":"Constable General Lord Drapen",
+                                "desc":"Overseeing the Sixth Octant, this elderly nobleman is, unfortunately, regarded by many as going senile in his old age. While highly decorated for his many decades of service in Elendel, he is now invited to parties and significant events mostly out of courtesy. He still rarely travels anywhere out of uniform or without a pistol strapped to his side. He remains active in overseeing his octant’s operations, but has numerous constables serving beneath him to make up for his increasing inability to focus or employ modern technology in an efficient manner. He is also quite the traditionalist, to the extent that his views toward female constables and the woman’s role in society at large are seen by many as antiquated. His wealth, though, and the resources he provides the constabulary make up for his failings to a large degree."
+                            },
+                            {
+                                "name":"Constable Reddi",
+                                "desc":"This constable of the Fourth Octant is a lean and lanky man with a well-trimmed, though drooping mustache. While impeccably proper in his manners, he has an air that is often off-putting to those he interacts with. He tends to conceal his true emotions, trying to adhere to the highest order of professionalism, and despises anyone who does not strictly follow constable regulations, such as proper uniform dress code. He has a personal agenda against Constable Colms since Constable General Aradel chose her over Reddi to be his new assistant. Reddi firmly believes he holds more merit and skill than Marasi, and does not appreciate her non-traditional approaches to their work."
+                            },
+                            {
+                                "name":"Constable Marasi Colms",
+                                "desc":"The half-sister of Steris Harms — Waxillium Ladrian’s betrothed — Marasi left her past career as an attorney to take a position as Constable General Aradel’s assistant. Her role was intended to be more of an analyst, but she has constantly put herself in personal danger by becoming involved in ongoing investigations and prying into government records for proof of noble corruption. She is incredibly persistent in her work, despite the enemies she makes in the process, and has a knack for seeing patterns in many disparate documents and seemingly unrelated facts."
+                            }
+                        ]
+                    },
+                    "alloLaws":"One of the major efforts Elendel’s government has undertaken is enforcing laws and ordinances regarding the use of Allomantic powers. There are Mistings within the city throughout all levels of the social strata, and Allomancy is used for a variety of everyday purposes — such as construction, transportation, and communication. Additionally, there are the military applications to be considered, with the flipside being how criminal elements might also employ these abilities for ill-gotten profit. \n\n Many saw the commoditization of Allomancy as inevitable, and numerous markets have arisen as people find ways to earn a profit through their gifts. One example is Soothing parlors, where clients come to have their worries and fears and cares washed away for a few hours — or as long as they can pay for. Yet even these legal businesses are required to have aluminum shielding so the Soothing doesn’t extend beyond the walls and into the neighborhood. \n\n Legal enforcement of Allomantic standards is tricky, however, as it first requires discerning the ability being used in an unlawful manner. This might require constant surveillance by a Seeker burning bronze, assuming that anyone employing Allomancy doesn’t also have a Copper cloud working to conceal them. \n\n The two most hotly debated Allomantic talents are Rioting and Soothing. In the Allomantic Agreement of 94, there is a firmly established law that reads, 'It is illegal to use emotional Allomancy in order to procure business.' This means that a carriage company isn’t allowed to have a Rioter who makes passersby feel more tired or hasty and thus willing to pay for a carriage conveniently parked nearby. Nor could a shop have their patrons Rioted to feel excited while shopping for a gift and more likely to pay more for an item. Another portion of the same section of this agreement prohibits politicians from using emotional Allomancy to affect a vote or to sway supporters during a private meeting. If someone knows they are being Soothed and agrees to it — or even pays for it to occur — then that remains within the law. Hidden Soothing, though, is a great breach of any individual’s mental and emotional sanctity. Rioting holds a more dubious legal position. It’s largely illegal, though exceptions have been made for rioting the determination of a client paying you for specifically that purpose or for rioting the emotions of willing and forewarned participants in theater or other performances. \n\n More logistical issues are covered by guidelines such as Ordinance 2237 regarding Coinshot accountability: 'Reckless Pushing on street lamps and city structures has caused widespread property damage. Motorcars, lights, poles, and otherwise are often bent or dented, while rubbish metal is left behind in the wake of Coinshot couriers or constables. This ordinance is proposed to limit the hours in which a Coinshot can use their ability, restrict the city sections they can travel through, and fine any caught causing damage.' \n\n The Office of Allomantic Policy is dedicated to monitoring and enforcing the Allomantic Agreements and prosecuting any flagrant abuses of these powers. This, however, has not stopped certain businesses and political figures from abusing these talents for their own gain.",
+                    "economy":"Just as Elendel overshadows the rest of the Basin in terms of prominence and notoriety, its economic concerns supersede those of everyone else. Though its massive population and central location mean that Elendel really does need more resources, many outlying towns greatly resent what they see as unfair intrusions and restrictions from the capital. Other towns in the Basin are required by law to ship through Elendel, which serves as the hub for canals and train lines. Not only does this slow down the speed of shipments, it also makes shipments susceptible to high taxes. As the people of the outer settlements point out, these taxes pay for Elendel’s own stations and docks, not their own. As the canals and tracks near them fall into disrepair, Elendel does little to repair them, claiming funds are required elsewhere. Instead, the people of the outer cities have to cover the costs, and resentment toward Elendel grows. Compounding the issue, towns in the Roughs aren’t subject to the same massive taxes. \n\n For their side of the debate, the Elendel government claims that the canals and railways would never have come to the edges of the Basin if it weren’t for their efforts, and that they’re only accruing what they deserve for their foresight and risky investments. As for not taxing the Roughs, they believe it’s required to give incentives to get people outside the Basin, where there are immense mineral resources but a harder way of life. Basin dwellers have little sympathy for this argument, believing it’s unfair that they be made to pay for where they live. \n\n The economy of Elendel itself is no less contentious. It’s frequently said that half of Elendel is out of work, and the other half is underpaid. The Senators from the trades like to blame the nobility for pressing for the interests of business owners above the workers. The nobles counter that the explosion of technological innovation wouldn’t have been possible without their funding, and that a surge of new technologies will make communication and work easier and leisure more fun. \n\n Due to the structure of the Elendel government, it’s unlikely anything will change. The nobles have an entrenched power structure and social connections to one another. The Senators from the trades rarely serve more than two terms before they upset their voter base, so they have difficulty securing political connections that last. In addition to that, graft and corruption are endemic to the government. Of course, those with money can afford to pay bribes and ordinary citizens can’t, so votes tend to secure the interests of the wealthy."
+                }
             },
             "canals":"Harmony chose to preserve the fundamentals of the canal system built by the Lord Ruler from the world prior to his Final Ascension. Even in ruins, the system was a boon to civilization, providing the Originators with a vital system of transport as they slowly rebuilt the world. Today, the canals see traffic not only from barges but ships of all varieties, allowing waterborne vessels to travel anywhere in the Basin. \n\n However, the august canal system may have met its match in a new form of transport: the railroad. Steam-powered locomotives can carry more cargo than the largest canal boats, move overland, and reach their destinations in half the time. The relatively cheap cost of a ticket now allows lower- and working-class people to afford to travel anywhere they wish, and first-class railway cars and even private trains threaten to supplant luxury canal cruises as well. \n\n Neither of these innovations has replaced old-fashioned roads, however. Most roads in the Basin and the Roughs are still unpaved and intended for horses and foot traffic, but in the cities, bricks and cobblestones prevail. Even in the most remote areas, metal posts mark the main roads intended for use by traveling Coinshots, still considered the fastest means of delivering news to distant towns. The recent development of the horseless carriage has led to a push for a series of paved roads between Elendel and the major cities of the Basin, though this effort is still in its earliest stages.",
             "other":{

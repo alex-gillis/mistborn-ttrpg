@@ -10,7 +10,7 @@ const Samples = (props) => {
   // const [myHeroEra1] = useState(props.rogues.era1);
   // const [myHeroEra2] = useState(props.rogues.era2);
   const [mySamples] = useState(props.era1.concat(props.era2));
-  const [myHeroes] = useState(props.rogues[0].era1.concat(props.rogues[1].era2));
+  const [myHeroes] = useState(props.rogues[0].rogues.concat(props.rogues[1].rogues));
   const [myInfo, setInfo] = useState(0);
   
   function changeSample(desiredSample) {

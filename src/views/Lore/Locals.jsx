@@ -14,6 +14,7 @@ import Frontier from './Locals/Frontiers/Frontier';
 import Mountains from './Locals/Frontiers/Mountains';
 import Deep from './Locals/Frontiers/Deep';
 import Oceans from './Locals/Frontiers/Oceans';
+import Laws from './Locals/Basin/Laws';
 
 function Locals(props) {
     const [mySection, setSecion] = useState(0);
@@ -26,6 +27,7 @@ function Locals(props) {
       { title: 'Elendel', onClick: () => handleSection(0) },
       { title: 'Major Players', onClick: () => handleSection(1) },
       { title: 'Transport', onClick: () => handleSection(2) },
+      { title: 'Laws & Economy', onClick: () => handleSection(13) },
       { title: 'Other Cities', onClick: () => handleSection(3) },
     ];
 
@@ -41,7 +43,7 @@ function Locals(props) {
       { title: 'The Frontiers', onClick: () => handleSection(9) },
       { title: 'The Mountains', onClick: () => handleSection(10) },
       { title: 'Deep Roughs', onClick: () => handleSection(11) },
-      { title: 'Oceans and Beyond', onClick: () => handleSection(12) }
+      { title: 'Oceans & Beyond', onClick: () => handleSection(12) }
     ];
 
 
@@ -79,6 +81,7 @@ function Locals(props) {
             { mySection === 0 && <Elendel info={props.basin} /> }
             { mySection === 1 && <Groups info={props.basin} /> }
             { mySection === 2 && <Transport info={props.basin.canals}/> }
+            { mySection === 13 && <Laws info={props.basin.elendel.laws}/> }
             { mySection === 3 && <Other info={props.basin.other}/> }
 
             { mySection === 4 && <Roughs info={props.roughs}/> }
