@@ -2,7 +2,7 @@
 /* eslint-disable react/jsx-key */
 /* eslint-disable react/prop-types */
 
-import Character from "../Reference/Bestiary/Character"
+import Character from "./Sample/Character"
 function Sample(props) {
     return (
       < >
