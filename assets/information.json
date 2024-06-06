@@ -8589,62 +8589,532 @@
             "name":"Heroes",
             "rogues":[
                 {
-                    "name":"",
-                    "threat":"",
-                    "level":0,
+                    "name":"Waxillium “Wax” Ladrian",
+                    "threat":"Deadly",
+                    "level":4,
                     "attributes":{
-                        "physique":0,
-                        "charm":0,
-                        "wits":0
+                        "physique":3,
+                        "charm":4,
+                        "wits":5
                     },
                     "standings":{
-                        "resources":0,
-                        "influence":0,
-                        "spirit":0
+                        "resources":6,
+                        "influence":6,
+                        "spirit":6
                     },
                     "resiliences":{
-                        "health":0,
-                        "reputation":0,
-                        "willpower":0
+                        "health":9,
+                        "reputation":10,
+                        "willpower":11
                     },
-                    "gunplay":[
+                    "traits":[
                         {
-                            "name":"",
-                            "desc":""
+                            "trait":"The Dawnshot"
+                        },
+                        {
+                            "trait":"Investigator"
+                        },
+                        {
+                            "trait":"Lord of House Ladrian"
+                        },
+                        {
+                            "trait":"Follow The Path"
+                        },
+                        {
+                            "trait":"Strong Conscience"
+                        },
+                        {
+                            "trait":"Haunted by Lessie's Death"
+                        },
+                        {
+                            "trait":"Harmony's Sword"
                         }
                     ],
+                    "gunplay":[
+                        {
+                            "name":"Dual Wielding",
+                            "desc":"Wax can fire a pistol in each hand as a single action. He divides his dice pool into an attack with each gun however he likes, just as if he were making 2 attacks (which may be against different targets). However, he gains no benefits of Aiming with either of these shots, and his action occurs in Step 2 of this Round as if his dice pool were only half as large as it actually is, rounded down."
+                        }
+                    ],
+                    "gunsmith":[],
                     "allomancy":[
                         {
-                            "name":"",
-                            "desc":"",
+                            "name":"Steel 7",
+                            "desc":"Pushes metal objects",
                             "stunts":[
                                 {
-                                    "name":"",
-                                    "desc":""
+                                    "name":"Increased Velocity",
+                                    "desc":"Wax may Push objects (including bullets) at a velocity of up to 250 mph, and the damage they inflict increases by +1."
+                                },
+                                {
+                                    "name":"Steel Bubble (Allomantic Shot)",
+                                    "desc":"Wax can burn Steel to create a bubble that pushes all metal not in direct contact with him away — including any bullets fired at him. While using this Stunt, all damage Wax, and anyone within Grappling Range of him, suffer from attacks made by metal weapons (including bullets) is reduced by 3. Maintaining a Steel bubble is considered an active defense that counts as Wax’s action for a Beat."
                                 }
                             ]
                         }
                     ],
                     "feruchemy":[
                         {
-                            "name":"",
-                            "desc":"",
+                            "name":"Iron 6",
+                            "desc":"Stores physical weight",
+                            "stunts":[]
+                        }
+                    ],
+                    "equipment":[
+                        {
+                            "point":"2 Sterrion 36 revolvers (Damage +2; 6 shots; Range: Close / Medium)"
+                        },
+                        {
+                            "point":"Sterrion Coinshotgun (Damage +2; 8 shots; Range: Close / Medium; Gains “Concealable” Trait)"
+                        },
+                        {
+                            "point":"Mistcoat (absorbs 1 damage from physical attacks, counts as a tool for hiding in the mists)"
+                        },
+                        {
+                            "point":"Misting vial (3 charges of Steel)"
+                        },
+                        {
+                            "point":"3 Average Iron metalminds (100 charges of weight each)"
+                        },
+                        {
+                            "point":"Pocketful of coins (Damage +1; Thrown Range: Striking / Medium)"
+                        },
+                        {
+                            "point":"Formal clothing"
+                        },
+                        {
+                            "point":"Pocketwatch"
+                        },
+                        {
+                            "point":"Pathian earring"
+                        }
+                    ],
+                    "roleplay":{
+                        "playing":"You are loyal and honorable, with a keen eye for detail and an intuition that serves you well in investigative scenarios. You are also a bit conflicted: while you have a mild disdain for the trappings of high society, you tend to dress more formally than other Roughsfolk and try to uphold the better values of your upbringing. You’re a veteran gunslinger, so you’re not above taking a serious risk if the situation demands it — though you tend to avoid risk if it puts a friend in direct danger. Although you’re an expert marksman, you might falter in hostage situations as you remember what happened to Lessie. \n\n You have a sharp wit that’s best paired with your longtime partner, Wayne. You play off of each other’s ideas and intuitions seamlessly — even if, in the execution of your plans, things don’t always go your way. You find yourself being a bit protective of Marasi, although that’s lessened somewhat if Wayne is in the mix as well.",
+                        "ally":"Chances are if Wax is your ally, you’re a pretty good person. There are few folks more loyal than Wax; he’ll never betray a true ally and will seek to avoid putting them in harm’s way unless he can trust in their abilities to handle the situation. Gaining Wax’s trust simply requires loyalty and adherence to the law. If you can put up with the antics of Wayne, that helps too. However, if Wax has judged you to be his ally, you’ve already met a high bar, so he tends to be accommodating of individual quirks and differences of opinion. That doesn’t mean Wax is a pushover though — cross him once, and he won’t forget it.",
+                        "enemy":"Being a lawkeeper, Wax’s chief enemies tend to be either on the wrong side of the law or the gray area in between. The worse the crime, the more single-minded and dogged Wax’s pursuit becomes. Wax reserves his greatest ire for those who betray him or lawkeepers who betray the public trust."
+                    },
+                    "lore":{
+                        "info":"When you enter the world with a title like High Lord Waxillium of House Ladrian, your life is likely to follow one of two paths. The first path leads to a stuffy existence of formal balls and the minutiae of a prominent House in Elendel, perhaps with an arranged marriage down the road to cement the family’s political position and future heirs. Then there’s the second path: that which rejects everything safe about the nobleman’s life for one of independence and adventure. Waxillium — or “Wax” as he’s more commonly known — chose the latter. \n\n Wax spent many of his early years in trouble, rebelling against the formality and ritual of life as young Lord Ladrian. He resented the expectations laid before him, so when it became clear that Elendel wasn’t going to change to suit him, he left for the Roughs. \n\n It wasn’t long before Wax discovered just how different life — and the rules that people played by — could be in the Roughs. After a number of run-ins with various nasty characters, Wax found himself low on money and without many friends. Desperate, he walked into the lawkeeper station at Weathering, looked at the board, and tore down the poster of the most dangerous wanted man there — a Pewterarm named Peret the Black. Three days later, Wax returned to that same station, with the fugitive tied up and draped over his horse. \n\n As a Twinborn Crasher, Wax soon discovered the abilities of a Skimmer Ferring and a Coinshot Misting made for perfect tools for his new career as a lawkeeper, and over the next two decades he made a name for himself as a master gunman and upholder of the law. He earned the nickname of “Dawnshot” for his uncanny and dazzling skill with a pistol, as sure to hit his target as the rays of the sun. \n\n During a mission to Far Dorest, Wax befriended Wayne, who had been sentenced to death for shooting a bookkeeper. Wax saw something different in Wayne than the life he’d chosen, and offered the convict a chance to join him and seek redemption. The pair’s adventures together became the stuff of legend in the Roughs — and the subject of some fanciful tall tales in the Basin as well. \n\n It was also during this time that Wax met Lessie, a fellow lawkeeper. For years Lessie and Wax maintained an on-again, off-again relationship, but neither ever stopped loving the other. Together with Wayne, the three had many adventures in the Roughs, and ended the aspirations of many bandit gangs, hooligans, and would-be crime lords. Things looked like they would go on that way forever. \n\n It was a pair of tragedies that ended Wax’s time in the Roughs. The first occurred when Lessie was captured during the hunt for a serial killer named Bloody Tan. During a botched attempt to rescue Lessie from Tan’s clutches, Wax accidentally shot and killed her instead. Tan escaped, and though Wax eventually slew the killer, he was devastated and became haunted by his deadly failure. The second tragedy came in the form of a telegraph, informing him of the death of his uncle and sister and calling him back to Elendel. \n\n Despite his feelings about noble life, Wax returned to the city and took his place as the new head of House Ladrian. He tried desperately for a time to fit in to noble society, even to the point of making a politically-advantageous engagement to the Lady Steris Harms, but when Wayne came to town investigating an intriguing set of train robberies, the itch of lawkeeping came back. \n\n Together with Steris’s half-sister Marasi, Wayne and Wax uncovered the mystery of the train robber gang known as The Vanishers and stumbled across a shadowy plot by The Set to kidnap Mistings for a nefarious purpose. In the process, Wax also settled an old score with his former acquaintance and leader of the Vanishers, the Twinborn Compounder Miles Dagouter. Though the Vanishers were ultimately defeated, The Set remains a force to be reckoned with yet. \n\n Wax is a tall man of medium build in his forties. His style can best be described as “contrarian” — dressing immaculately in the Roughs, and going unshaven and disheveled in Elendel — but he favors cravats, vests, and Mistcoats. He is a highly-skilled Crasher Twinborn, using his ability to Push on sources of metal and to store and tap weight to creatively deadly effect, whether it’s taking massive Steeljumps, crushing buildings, or literally throwing his weight around. \n\n Wax is also an extremely talented investigator and marksman. He favors a pair of Sterrion 36 revolvers with a shotgun as a backup weapon, which he also uses during Steeljumps to change direction quickly. Though proficient in the use of melee weapons such as knives, he is notoriously bad with thrown weapons. Wax also practices basic metallurgy. \n\n Wax is a follower of the Path, and purportedly had a Pathian earring given to him by a Faceless Immortal during his journeys in the Roughs. He often wears this earring while communing with Harmony, during his precious little downtime."
+                    },
+                    "image":"./assets/bestiary/Wax.png"
+                },
+                {
+                    "name":"Wayne",
+                    "threat":"Deadly",
+                    "level":4,
+                    "attributes":{
+                        "physique":6,
+                        "charm":6,
+                        "wits":3
+                    },
+                    "standings":{
+                        "resources":3,
+                        "influence":3,
+                        "spirit":5
+                    },
+                    "resiliences":{
+                        "health":9,
+                        "reputation":9,
+                        "willpower":8
+                    },
+                    "traits":[
+                        {
+                            "trait":"Lawkeeper"
+                        },
+                        {
+                            "trait":"Master of Disguise"
+                        },
+                        {
+                            "trait":"Smart-Alloy"
+                        },
+                        {
+                            "trait":"Duelist"
+                        },
+                        {
+                            "trait":"Reformed Thief?"
+                        }
+                    ],
+                    "gunplay":[],
+                    "gunsmith":[],
+                    "allomancy":[
+                        {
+                            "name":"Bendallow 6",
+                            "desc":"Speed time",
                             "stunts":[
                                 {
-                                    "name":"",
-                                    "desc":""
+                                    "name":"Slow-Burning Bubble",
+                                    "desc":"Wayne’s Bendalloy burn rate is doubled. This Stunt does not increase his Bendalloy burn rate while flaring."
+                                }
+                            ]
+                        }
+                    ],
+                    "feruchemy":[
+                        {
+                            "name":"Gold 6",
+                            "desc":"Stores physical health",
+                            "stunts":[]
+                        }
+                    ],
+                    "equipment":[
+                        {
+                            "item":"2 dueling canes (Damage +2; Melee Range: Touch / Striking; contains no metal)"
+                        },
+                        {
+                            "item":"Leather duster (absorbs 1 damage from physical attacks)"
+                        },
+                        {
+                            "item":"Misting vial (3 charges of Bendalloy)"
+                        },
+                        {
+                            "item":"3 average goldminds (hold 100 charges of health each)"
+                        },
+                        {
+                            "item":"2 disguises"
+                        },
+                        {
+                            "item":"Pocketwatch"
+                        },
+                        {
+                            "item":"Fez"
+                        }
+                    ],
+                    "roleplay":{
+                        "playing":"You are typically up to no good. Not in the strictly illegal sense, mind you, nor the harmful one, but you follow your own moral code which is…flexible enough it can be adjusted for any situation. You’re a lawkeeper, so you would never do anyone harm who wasn’t on the wrong side of the law…but that being said, your definition of “harm” might not be the same as others. Even when you feel the need to filch, you always leave what you consider to be some form of fair payment. \n\n “Prankster” might be the best word to describe you. You find the humor in every situation, and are always ready with a well-delivered quip or sarcastic remark, especially in times of danger. You’re particularly irreverent toward those you see as inflexible or stodgy, and aren’t above making some enemies through your ridicule. \n\n You love the thrill of a chaotic situation, but at the same time control that chaos using misdirection and a multitude of accents and mannerisms to blend in and observe events as needed. However, you won’t put anyone in harm’s way unless you think they can handle it, or at least that you can get them out of it. \n\n Always, underneath the humor, you carry the guilt of your previous crime. And while you may have made up for it through two decades of lawkeeping, you know the stain of your guilt will never really go away.",
+                        "ally":"If you can put up with Wayne, you have the patience of a saint, but that patience is well-rewarded. Wayne is fiercely loyal in his own unique way. As a survivor, Wayne tends to expect people to take care of themselves and, while he always comes to an ally’s aid, he won’t do so until he’s sure they can’t get themselves out of it first. \n\n Wayne has a sharp eye for personality traits and can be expected to apply his quick humor to them, sometimes to his allies’ exasperation. Expect good-natured ribbing and banter to be the norm. This can be especially true if playing alongside Wax, as Wax often serves as a subtle counterpoint to Wayne’s wit. \n\n Wayne isn’t above picking a fight if needed, but often he’s more useful in his role as an investigator or deceiver through disguise. Gaining Wayne’s trust is easy if you have a sharp wit, share his sense of morals, or are a gruff and verbally abusive woman.",
+                        "enemy":"As a lawkeeper, Wayne focuses on lawbreakers. However, as a reformed criminal himself, Wayne is more forgiving of lesser crimes. Wayne knows the only reason he is alive is because of human mercy, and so he looks for the chance to offer the same redemption to others. \n\n Once you’re on Wayne’s bad side, however, expect a talented and resourceful opponent. You will likely never see him coming, and by the time you do, it could very well be too late. Wayne’s threat is only compounded when he’s teamed up with Wax, as the two have worked so long together that the enemy of one is often the enemy of both. \n\n Wayne endeavors to capture an enemy if possible, but will kill if he’s left no choice."
+                    },
+                    "lore":{
+                        "info":"Wayne always had a habit of pilfering the odd item or two, despite hearing over and over all the rules about being a good, moral person. He couldn’t help himself — the thrill of theft was simply too great to resist…and he was very good at it to boot. To no one’s surprise, Wayne eventually fell in with real criminals, who got him into real robberies with real guns. \n\n Things went alright for a bit, until tragedy struck. On one of Wayne’s first jobs — the first time he had used a gun in a robbery — he killed a father of three during the botched robbery attempt. His erstwhile colleagues left Wayne holding the bag while they made their escape. At the trial, Wayne listened as the worth and good deeds of the man he had killed were recited to the sounds of his sobbing children and widowed wife. The verdict of hanging was swift, and Wayne accepted that this was justice for his mistake. \n\n The only reason Wayne is alive is Waxillium Ladrian. Wax took a big risk to fellow lawkeeper Jon Deadfinger and an enraged mob of townfolk to spare Wayne’s life. Wax saw not only Wayne’s Twinborn abilities but the part of Wayne deep inside — the good man who could turn his life into one that benefits all people of the Roughs. Grateful and humbled, Wayne foreswore guns and from that point forward, he and Wax were both friends and partners. \n\n Wax was right about Wayne, who has proven to be an excellent partner and protector of the law. Wayne became a master of disguise and impressions, able to handle potentially dangerous situations with a witty quip, a pair of dueling canes, and a strategically placed speed bubble. Wayne always had Wax’s back, and when Wax fell for a fellow lawkeeper named Lessie, Wayne adopted her as a friend just as quickly. Over time the three became inseparable in cards, lawkeeping, and friendship. \n\n Though their adventures in the Roughs became the stuff of legend, not even Wayne could prevent Wax from leaving the Roughs after Lessie’s death. Wax was broken by the accident, and their partnership soon followed. But that didn’t stop Wayne from trying. \n\n After Wax’s return to the city, Wayne began investigating a mystery of vanishing trains. Desperate for help, Wayne traveled to Elendel and managed to convince Wax to set aside this new life as a lord and strap on his six-guns once again. Together with their newfound friend Marasi, the pair discovered a plot by the shadowy organization called the Set and derailed their plans. \n\n Wayne is a man in his early thirties of medium height, with a lanky build and a round, sharp-chinned face. His attire varies greatly, as he often wears disguises, but he prefers simple clothes and a leather duster, topped off with a bowler or wide-brimmed Roughs style hat. \n\n Wayne is a master of sleight of hand, accents, and disguises, and often uses his Allomantic Bendalloy powers to change personas instantly or reduce risks to a crowd by trapping opponents in one-on-one fights in his time bubbles. Wayne is also a Bloodmaker Ferring, and often appears weak and sickly thanks to regularly storing health in his goldminds during his downtime. Wayne is an expert with dueling canes and still eschews firearms; however, not everything about guns is bad, judging by the fact he’s smitten by the coarse and derisive attentions of the genius gunsmith Ranette. \n\n Wayne routinely sends half of his earnings back to the family of the man he shot, so many years ago, in the hopes that it will in some small way make up for his sins."
+                    },
+                    "image":"./assets/bestiary/Wayne.png"
+                },
+                {
+                    "name":"Marasi Colms",
+                    "threat":"Average",
+                    "level":2,
+                    "attributes":{
+                        "physique":3,
+                        "charm":4,
+                        "wits":4
+                    },
+                    "standings":{
+                        "resources":5,
+                        "influence":3,
+                        "spirit":4
+                    },
+                    "resiliences":{
+                        "health":8,
+                        "reputation":7,
+                        "willpower":8
+                    },
+                    "traits":[
+                        {
+                            "trait":"Illegitimate Child"
+                        },
+                        {
+                            "trait":"Observant"
+                        },
+                        {
+                            "trait":"Student of Law"
+                        },
+                        {
+                            "trait":"Quick Thinking"
+                        },
+                        {
+                            "trait":"Handy with a Rifle"
+                        }
+                    ],
+                    "gunplay":[
+                        {
+                            "name":"Marksmanship",
+                            "desc":"If Marasi has Aimed, she needs 1 fewer Nudge to succeed with a Called Shot."
+                        }
+                    ],
+                    "gunsmith":[],
+                    "allomancy":[
+                        {
+                            "name":"Cadmium 5",
+                            "desc":"Slow time",
+                            "stunts":[]
+                        }
+                    ],
+                    "feruchemy":[],
+                    "equipment":[
+                        {
+                            "item":"Formal clothing"
+                        },
+                        {
+                            "item":"Horse & carriage"
+                        },
+                        {
+                            "item":"Misting vial (3 charges of Cadmium)"
+                        }
+                    ],
+                    "roleplay":{
+                        "playing":"You might seem shy, and to some extent you are, but underneath your outward timidity is a clever, resourceful, and knowledgeable person. You’ve not only made peace with your illegitimate birth and subpar Allomantic power but found clever ways to use them both to your advantage. You make up for your own perceived shortcomings with focused energy, a keen eye, and a wealth of knowledge in psychology from your time at the University. You are highly observant, and even the smallest details of a situation don’t escape you. \n\n Being new to the rough and tumble world of lawkeepers, you can sometimes be startled or embarrassed by their crude ways. However, you always adapt quickly. Though you’re used to more refined tastes and sensibilities, the call of adventure and coarse living still speaks to you.",
+                        "ally":"Marasi is an excellent observer and new enough to the life of adventure that she makes allies easily. Perhaps too easily, if more experienced individuals aren’t around, but her skills in psychology always guide her to make the right decision in the end. Marasi has almost a hero worship for lawkeepers, so the easiest way to earn her trust is to come from that world. \n\n Although outwardly refined, Marasi is more generous with her opinions and observations among allies. She becomes almost giddy with discovery. She’s not experienced in the more practical elements of life outside her family’s House, but she’s surprisingly resourceful when a friend is in need. She’s just beginning to understand how her Allomantic power can be a benefit in situations, and is more open to using it to help when allies are involved.",
+                        "enemy":"Marasi never hesitates to protect a friend, but it’s hard to permanently become her enemy. She has a high degree of empathy for those who cross her, and hates cruelty and humiliation above all else. If she has to take a life, she will, but most times she seeks alternatives whenever possible."
+                    },
+                    "lore":{
+                        "info":"It’s common among the high Houses to test children for Feruchemical or Allomantic powers. In some cases, having offspring with such powers is seen as positive, useful for arranging marriages to mutual benefit. In other cases, such as Marasi’s, powers are seen as something to keep secret. \n\n As the illegitimate daughter of Lord Harms, Marasi knew her station was different than everyone else’s — something less than her sister Lady Steris and something more than the servants and employees of the House. Unfortunately, Marasi didn’t learn the identity of her father until she was old enough to understand the shame that came with it. \n\n When Marasi discovered that she was a Pulser, it only compounded that shame. Pulsing is widely regarded as a useless power, relative to being a Coinshot or Seeker or a Soother, second only to being an Aluminum or Duralumin Gnat. Who would want to sit in a time bubble while the world raced along in normal time outside? \n\n Still, as Marasi grew into a young woman, she learned to relish the freedom afforded her by her social standing, despite her father’s disdain of her power. She had friends, particularly Steris, and remained largely content, though not enthusiastic, about the life ahead of her. While her father certainly loved her, he could not afford her standing equal to Steris within the House. This meant that Marasi had all the resources of a financially-solvent House, without any of the risk of being married off to a stranger or having to accept the responsibility of leadership. In social circles she called herself Steris’s cousin to conceal her true relationship. \n\n Marasi is a fan of the exploits of the lawkeepers of the Roughs, and keeps current with the reports of their activities whenever she can. This passion for lawkeeping encouraged her to study law, in the hopes that she could one day make a difference outside of the Basin. Though law is rarely an occupation pursued by women, Marasi excelled in her studies and even provided new insights into legal theory during her coursework. \n\n Marasi was shocked to learn that Waxillium Ladrian had returned to take his position as high lord of his House after his uncle’s death. For years she had followed the adventures of Wax and his partner Wayne in the broadsheets. She had further reason for excitement when she learned that her father had arranged a marriage between Waxillium and her sister Steris, and she wasn’t about to miss a chance to meet a personal hero. \n\n Meeting Wax was the moment Marasi had been waiting for. The opportunity was the culmination of a lifelong dream, the reason she’d begun to practice law. But the plans of the mysterious Vanishers soon proved just how dangerous life is for a lawkeeper. When the bandits attacked a formal dinner of the high Houses in the hopes of kidnapping both Marasi and Steris, Wax and Wayne intervened and drove them off, but not before they got away with Steris. \n\n Thus began a thrilling 36 hours as Marasi, Wax and Wayne joined together to rescue her sister, reveal the Vanishers’ machinations for robbing trains across the Basin, and discover the mysterious organization known as the Set and their plots that went far beyond simple train robbery. During the final confrontation with the Vanishers, it was Marasi’s Pulsing, not gunplay or trickery, that led to the downfall and capture of the ex-lawkeeper Miles Dagouter, the Twinborn leader of the Vanishers and agent of the Set. \n\n Marasi is petite, with dark hair and striking features. She typically dresses in the style and fashion of Elendel high society, but also enjoys a rugged pair of trousers and a homespun shirt when the situation calls for more practical wear. Despite her city noble upbringing, she still finds herself intrigued by the rough and tumble life in the Roughs and her adventures with Wax and Wayne. \n\n Marasi is extremely intelligent and well-versed in the field of law, to the point of developing new theories on criminal behavior. She has a keen eye for detail, an excellent judge of character, and makes subtle and intuitive leaps of logic when faced with a problem. Her Allomantic power — the ability to create a time bubble around her in which time is slowed, leaving the rest of the world to pass her by — is not something she uses often, but she is discovering creative ways to use it to her advantage. She also happens to be a decent shot with a rifle."
+                    },
+                    "image":"./assets/bestiary/Marasi.png"
+                },
+                {
+                    "name":"Constable Marasi Colms",
+                    "threat":"Serious",
+                    "level":3,
+                    "attributes":{
+                        "physique":4,
+                        "charm":4,
+                        "wits":5
+                    },
+                    "standings":{
+                        "resources":5,
+                        "influence":4,
+                        "spirit":4
+                    },
+                    "resiliences":{
+                        "health":9,
+                        "reputation":8,
+                        "willpower":8
+                    },
+                    "traits":[
+                        {
+                            "trait":"Illegitimate Child"
+                        },
+                        {
+                            "trait":"Observant"
+                        },
+                        {
+                            "trait":"Trained Constable"
+                        },
+                        {
+                            "trait":"Quick Thinking"
+                        },
+                        {
+                            "trait":"Handy with a Gun"
+                        }
+                    ],
+                    "gunplay":[
+                        {
+                            "name":"Marksmanship",
+                            "desc":"If Marasi has Aimed, she needs 1 fewer Nudge to succeed with a Called Shot."
+                        }
+                    ],
+                    "gunsmith":[],
+                    "allomancy":[
+                        {
+                            "name":"Cadmium 5",
+                            "desc":"Slow time",
+                            "stunts":[]
+                        }
+                    ],
+                    "feruchemy":[],
+                    "equipment":[
+                        {
+                            "item":"Terringul 27 revolver (Damage +1; 6 shots; Range: Close / Medium)"
+                        },
+                        {
+                            "item":"Granger 30-30 rifle (Damage +3; 1 shot; Close / Extreme)"
+                        },
+                        {
+                            "item":"Constable's Uniform"
+                        },
+                        {
+                            "item":"Motorcar"
+                        },
+                        {
+                            "item":"Misting vial (3 charges of Cadmium)"
+                        }
+                    ],
+                    "roleplay":{
+                        "playing":"For the most part, you have overcome the shyness that marked your younger years. Your adventures, harrowing though they may have been, have given you confidence in your abilities, even those that you once found disappointing, such as your Allomantic abilities. You have earned a position in the constabulary through your hard work and your cunning mind. It isn’t politics and it isn’t law — thank Harmony — but it’s what you wanted, and you’ve made it your own. \n\n Wax. Wax is the only variable that doesn’t fit neatly into one of your categories. You may have been infatuated with him once, that’s true, but that’s in the past, and you can’t understand why he still keeps you at arm’s length. Can’t you both be professionals about your work? You no longer have feelings for him. He is betrothed to your sister, after all, so it would be completely inappropriate. Wouldn’t it?",
+                        "ally":"Once earned, Marasi’s loyalty is unwavering. Those she counts as friends can depend upon her to do whatever it takes to preserve their wellbeing, within the confines of the law. Indeed, the few times she has ever willingly broken the law, it has been on behalf of her close friends, and never because they asked. Marasi is nothing if not perceptive, so trying to earn her trust under false pretenses is extremely difficult, and more likely to earn her enmity than her alliance.",
+                        "enemy":"As she’s a constable, becoming an enemy of Marasi is relatively simple: all one must do is break the law. Most crime does not warrant her personal attention, but any case that is brought before her will be pursued to the end, whatever it may be. She will not break the rules to achieve a good end, however, no matter how much it would serve the greater good to do so."
+                    },
+                    "lore":{
+                        "info":"This version of Marasi is updated from the *Alloy of Law Campaign Setting & Game Supplement* to reflect her joining the constabulary and increasing in skill. \n\n Marasi’s life has not taken the path that was imagined for her when she was a child, and her mother has been quite displeased with her as a result. Marasi recognizes that her mother has grounds to be upset, of course, but she herself does not regret her choices. Her initial interest in a career in politics or law was the means by which her mother hoped to prove that both of them were worthy of being considered nobility, but Marasi gravitated toward an interest in law enforcement, stemming from her childhood interest in lawmen from the Roughs. Her education and her experiences with Waxillium Ladrian resulted in her applying for and receiving a position as the assistant to one of the octant constable-generals, something that earned her a great deal of animosity from other ranking constables. \n\n Despite the resentment levied against her by her peers, Marasi has excelled as a member of the constabulary. Like her half-sister, she possesses a keen and analytical mind that allows her to carefully break down situations and see things that others frequently miss. Constable-General Aradel appreciates her talents, but her counsel is uniquely valued by Waxillium, which is perhaps why she continues to work alongside Wax despite their awkward history together. \n\n Marasi is a strange conflux of traditional and progressive. She favors horseless carriages over riding. She acknowledges that the government of Elendel is rife with corruption and desperately wishes to see it eradicated. She respects the egalitarian nature of the constabulary, which includes a significant number of women, but resents the double standard that expects women performing such a duty to remain feminine at all times. And despite that, she herself enjoys wearing dresses and maintaining an attractive countenance. The dichotomy of it troubles her, when she stops long enough to think about it, but she tries to keep herself busy enough that those times are few and far between."
+                    },
+                    "image":"./assets/bestiary/Marasi.png"
+                },
+                {
+                    "name":"Miles “HundredLives” Dagouter",
+                    "threat":"Deadly",
+                    "level":4,
+                    "attributes":{
+                        "physique":5,
+                        "charm":3,
+                        "wits":5
+                    },
+                    "standings":{
+                        "resources":5,
+                        "influence":4,
+                        "spirit":4
+                    },
+                    "resiliences":{
+                        "health":10,
+                        "reputation":7,
+                        "willpower":9
+                    },
+                    "traits":[
+                        {
+                            "trait":"Ex-Lawkeeper"
+                        },
+                        {
+                            "trait":"Hates Corruption"
+                        },
+                        {
+                            "trait":"Ruthless"
+                        },
+                        {
+                            "trait":"Trellist"
+                        },
+                        {
+                            "trait":"Vanisher"
+                        }
+                    ],
+                    "gunplay":[],
+                    "gunsmith":[],
+                    "allomancy":[
+                        {
+                            "name":"Gold 10",
+                            "desc":"Reveals alternate pasts",
+                            "stunts":[]
+                        }
+                    ],
+                    "feruchemy":[
+                        {
+                            "name":"Gold 10",
+                            "desc":"Stores physical health",
+                            "stunts":[
+                                {
+                                    "name":"Deathless (Compounding)",
+                                    "desc":"By spending 100 Compounded charges of Gold, Miles can either: immediately lose all Physical Burdens; recover 6 Health; overcome instant death; or flush a lethal poison from his system. Using this Stunt allows Miles to survive even if shot through the brain, but cannot be used if he is beheaded, dissolved in acid, or blown to bits."
                                 }
                             ]
                         }
                     ],
                     "equipment":[
                         {
-                            "item":""
+                            "item":"2 Aluminum Immerling 44 revolvers with Extra Capacity customization (Damage +2; 6 shots; Range: Close / Medium; can’t be affected or detected by Allomancy)"
+                        },
+                        {
+                            "item":"10 Aluminum rounds"
+                        },
+                        {
+                            "item":"Obsidian knife (Damage +1; Melee Range: Touch / Touch; can’t be affected or detected by Allomancy)"
+                        },
+                        {
+                            "item":"Aluminum-laced hat (wearer is immune to the effects of Brass and Zinc Allomancy)"
+                        },
+                        {
+                            "item":"Leather duster (absorbs 1 damage from physical attacks)"
+                        },
+                        {
+                            "item":" 6 or more average goldminds (pierced into skin; each contains 100 charges of health)"
+                        },
+                        {
+                            "item":"Cigars and silver lighter"
                         }
                     ],
-                    "playing":"",
-                    "ally":"",
-                    "enemy":""
+                    "roleplay":{
+                        "playing":"You are deathless. You fear no pain, and the concept of actual death is alien to you, thanks to your ability to Compound Gold. You know it’s possible that you may age, someday, but for now, there is simply no force in the world that can kill you. You’ve guaranteed your survival by piercing your body with your metalminds, so that they can’t even be pulled from you in combat. \n\n You may be hyper-confident, but you’re not careless. Your purpose may be divine, but devotion doesn’t mean you can’t be reckless. So you calculate and act only when you have a plan. After all, why rush? Nothing can stop you permanently, so time is only your ally.",
+                        "ally":"Miles merely tolerates his allies and considers all his underlings disposable. Deep down, he’s still a lawkeeper, a man with a code, and he still believes criminals are about as important as the warts on Ruin’s backside, but he’s willing to work with them for now to meet his ends. \n\n Even if the Heroes meet Miles before he’s gone rogue, his outlook is more or less the same, just without the greater aspirations. To get a job done, Miles will do what it takes: torture, collateral damage, and ruined lives are nothing compared to the importance of taking down his target. \n\n If the Crew can get on the right side of Miles, however, they may find him to be useful. It’s possible if the Heroes are willing to help Miles in his aims — especially if doing so might free him from Mr. Suit’s control — he could prove a valuable if dangerous asset.",
+                        "enemy":"No one in their right mind wants Miles Hundredlives as an enemy — a fact Wax quickly discovered in *The Alloy of Law*. Miles’ drive is unflinching, his methods ruthless, and his purposes uncompromising. No matter who he faces, he takes the same approach: identify the threat, analyze the threat, prioritize the threat, and eliminate the threat. His pride and self-confidence are just as invincible as his body, so Harmony save the poor soul who dares personally offend the juggernaut."
+                    },
+                    "lore":{
+                        "info":"Once, Miles was a lawkeeper, working with a relentless sense of duty and dogged determination for justice. Others might characterize him less as a champion of justice and more as a psychopath with a sense of duty, but who’s counting? For Miles, there is no mercy or sympathy, only justice and punishment. \n\n Somewhere along the way, Miles’ sense of justice got twisted. He began to focus on what he saw as the “bigger picture.” In the city, criminals with standing in society and enough money to be seen as decent citizens called the shots, and innocent people out in the Roughs suffered. It would take complete and systematic changes to protect innocent people from the “real” criminals, and that change wasn’t going to happen without revolution, without burning Elendel to the ground. \n\n Whether Miles had these ideas before or after he became an agent of the Set is impossible to say. He certainly learned about Trell and the favor Trell afforded Twinborn during his time with the shadowy organization, though the extent of what that means is unclear. What is clear is that Miles has come to see his Twinborn status, and the virtual immortality afforded him by his Gold Compounding abilities, as making him superior to normal men. \n\n Now Miles is the leader of the Vanishers and the mastermind behind their elaborate heists. He’s brilliant and understands the importance of drama in making a big crime seem even bigger. While he’s content to kidnap specific targets for Mr. Suit and the Set, he’s not worried about their goals: as long as they stay out of his way, he’s happy to use them for as long as he needs."
+                    },
+                    "image":"./assets/bestiary/Miles.png"
+                },
+                {
+                    "name":"Ranette",
+                    "threat":"Average",
+                    "level":2,
+                    "attributes":{
+                        "physique":3,
+                        "charm":2,
+                        "wits":4
+                    },
+                    "standings":{
+                        "resources":4,
+                        "influence":3,
+                        "spirit":3
+                    },
+                    "resiliences":{
+                        "health":7,
+                        "reputation":5,
+                        "willpower":7
+                    },
+                    "traits":[
+                        {
+                            "trait":"Brusque"
+                        },
+                        {
+                            "trait":"Gunsmith"
+                        },
+                        {
+                            "trait":"Loner"
+                        },
+                        {
+                            "trait":"Metal Expert"
+                        }
+                    ],
+                    "gunplay":[],
+                    "gunsmithing":[
+                        {
+                            "name":"Create Guns",
+                            "desc":"Ranette can make guns from raw materials, allowing her to create any standard, common firearm"
+                        },
+                        {
+                            "name":"Customize Guns (8)",
+                            "desc":"Ranette can make guns with the Allomancer Safety, Extra Capacity, Hair Trigger, Invarian Chambers, Long Range, Magnum Force, Perfect Balance, and Tinsights specializations."
+                        },
+                        {
+                            "name":"Create Custom Ammo",
+                            "desc":"This Stunt allows Ranette to create all of the more common types of specialized ammunition."
+                        },
+                        {
+                            "name":"Create Hazekiller Ammo",
+                            "desc":"This Stunt allows Ranette to create specialist anti-Allomancer ammunition, including Coinshot, Lurcher, Pewterarm, and Tineye rounds."
+                        }
+                    ],
+                    "allomancy":[
+                        {
+                            "name":"Iron 5",
+                            "desc":"Pulls metal objects",
+                            "stunts":[]
+                        }
+                    ],
+                    "feruchemy":[],
+                    "equipment":[
+                        {
+                            "item":"Riesfel shotgun with Hair Trigger and Tinsights (Damage +2; 2 shots; Range: Close / Medium; act as though your pool has 2 more dice when determining when you act in a conflict round; when Aimed, reduce Difficulty or final Result of attempts to Defend against this attack by 1)"
+                        },
+                        {
+                            "item":"Sterrion Vindication (Sterrion 36 revolver with Invarian Chambers and Allomancer Lurcher Safety — Damage +2; 8 shots; Range: Close / Medium; Gun is locked until the user succeeds on an Iron 3 Challenge; Can hold 2 shots of different ammunition; reloading both sets of chambers requires separate Reload actions)"
+                        },
+                        {
+                            "item":"Misting pouch (3 charges of Iron)"
+                        },
+                        {
+                            "item":"Gunsmith’s workshop"
+                        },
+                        {
+                            "item":"Pocketwatch"
+                        }
+                    ],
+                    "roleplay":{
+                        "playing":"You’re a spitfire who’s gone to embers. After years in the Roughs, seeing what people do to other people with the tools that you put in their hands has cost you some of your fire. It’s aged you, at least on the inside. \n\n You’re still volatile, make no mistake — you’re just more practical about it. Finding something interesting, like an aluminum gun, will probably stop you from shooting a boy who sets foot on your doorstep. Probably. Unless that someone is Wayne. Then you might shoot him on principle. But if folks interest you, or get you talking about your creations, you’re a lot easier to deal with. Sure, you know when you’re being flattered, but you’ll take that flattery anyhow. \n\n Work is serious business, though, and once you’ve been given a task that you’re genuinely interested in, there’s nothing that can stop you. Food, sleep, and anything else not related to completing your design is forgotten. Though you want to pretend you’re hard and heartless, you’ll part with those designs for a righteous enough reason. Well, that and a small fortune.",
+                        "ally":"If Ranette has friends, she keeps them safely at arm’s length. She isn’t nearly as heartless or single-minded as she appears, but she works hard at making sure no one sees the truth. Breaking down her walls requires having something in common. She’s far more likely to open up to intelligent, technically minded sorts — people who can truly appreciate her work and design. She grows to like folks with less of an appreciation for her craft, but that takes time and probably the intercession of someone who does understand it.",
+                        "enemy":"Ranette won’t come directly at a foe, but she’ll do her best to make their life hard. A woman this talented and capable is connected, and she’ll use those connections to get back at folks. Lords, constables, crime bosses, and a lot of other powerful people owe Ranette a thing or two thanks to her sublime weapons. Not to mention that anyone who makes a real enemy out of Ranette has made an enemy out of all the people who feel protective of the craftswoman."
+                    },
+                    "lore":{
+                        "info":"If there’s a gun worth getting shot over, it’s probably made by Ranette. A Lurcher of considerable genius, Ranette designs and builds some of the most effective and powerful guns in all of Scadrial. Her personal brand, Sterrion, includes some of the most unique and well-crafted firearms a body can lay hands on, with a knack for innovation and creativity one can’t just learn. \n\n Ranette’s genius and single-mindedness always set her apart. While the other girls were interested in boys and games, Ranette turned inward, focusing on her talents and her skill. As a teenager, she had good offers to stay and apprentice with some of the greatest craftsmen in the known world. Instead, she left for the Roughs for the privacy and space unavailable in the city, where she could hone her skills in peace. Those choices paid off in spades. \n\n It was in the Roughs that she first met Wax and Wayne, and, begrudgingly persuaded by their needs, started providing them with weapons. Her association with them was sticky at times, since their heroic nonsense also made her a target from time to time. Fortunately, Ranette’s temper is about as notorious as her craftsmanship, and she proved happy to shoot first and ask questions later. \n\n Eventually, Ranette left the Roughs and returned to Elendel, intent on living with a lower profile. She built a home for herself and outfitted it with a series of traps and conveyances specially designed for her own abilities, an excellent foil to anyone who gets funny ideas. Her desire for privacy has also driven her to hire a team of Smokers who keep a Coppercloud over her home at all times. These precautions have allowed her to disappear almost completely, represented to the public only by the excellence of the Sterrion brand. \n\n Ranette finds just about any attention unwanted, particularly Wayne’s; she’s taken (both figurative and literal) shots at him in the past and wishes he’d get the picture. Even if she were interested in menfolk rather than ladyfolk, he wouldn’t be setting her heart aflutter…but really, none of that’s his business, nor anybody else’s."
+                    },
+                    "image":""
                 }
             ]
         },
@@ -9953,7 +10423,7 @@
                     "points":[
                         {
                             "name":"End",
-                            "desc":"the duel and gain a Serious Social Burden (like “yellow-bellied” or “coward”);"
+                            "desc":"the duel and gain a Serious Social Burden (like “yellow-bellied” or “coward”)"
                         },
                         {
                             "name":"Continue",
