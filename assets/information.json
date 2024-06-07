@@ -10078,13 +10078,28 @@
                     "kandra":[],
                     "equipment":[
                         {
-                            "item":""
+                            "item":"Dueling cane (Damage +2; Melee Range: Touch / Striking; contains no metal)"
+                        },
+                        {
+                            "item":"Immerling 44 revolver (Damage +2; 4 shots; Range: Close / Medium)"
+                        },
+                        {
+                            "item":"Pocketbook full of coppers (Damage +1; Thrown Range: Striking / Medium)"
+                        },
+                        {
+                            "item":"Formal clothing"
+                        },
+                        {
+                            "item":"Pocketwatch"
+                        },
+                        {
+                            "item":"Rail pass"
                         }
                     ],
                     "roleplay":{
-                        "playing":"",
-                        "ally":"",
-                        "enemy":""
+                        "playing":"Be polite at all times. Never raise your voice. Use the subtle threat of violence rather than actual violence whenever possible. Carefully evaluate everyone you meet not in terms of who and what they are, but what they can do for you and what assets they might have that could be of use to you if they were removed from the picture. \n\n You see the future and your place in it. You will watch the established order wash away and see those who deserve power take it in the form of Allomantic abilities. As a part of the new order, you’ll live forever. This is why you do what you do.",
+                        "ally":"The best that anyone can hope for when dealing with Mr. Suit is to be an ally of convenience, someone who suits him to keep available as an asset. There are precious few outside of the Set that Mr. Suit considers genuine allies, and none that he calls friend. Emotional connections, sentimentality, nostalgia… these are not burdens Mr. Suit suffers from.",
+                        "enemy":"There is almost nothing more dangerous in Elendel than the enmity of Mr. Suit, except possibly the ire of the Set as a whole or the vengeance of his nephew, Wax Ladrian. If Edwarn Ladrian determines that you are his enemy, he will strip you of everything you love and value, leaving you alone, destitute, and with no allies of any sort to call upon. Then, if he is feeling merciful, he will have you killed. Although truthfully, this is less mercy and more an indicator of Ladrian’s distaste for loose ends."
                     },
                     "lore":{
                         "info":""
