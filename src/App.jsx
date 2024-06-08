@@ -25,6 +25,7 @@ import Props from './views/Reference/Props';
 import Terms from './views/Reference/Terms';
 import People from './views/Lore/People';
 import Networks from './views/Reference/Networks';
+import Bestiary from './views/Reference/Bestiary';
 
 function App() {
   const [myMetals, setMetals] = useState([]);
@@ -114,6 +115,7 @@ function App() {
                 </Route>
                 <Route path="metallurgy" element={<Metallurgy basics={myBasics} metals={myMetals} />} />
                 <Route path="stunts" element={<Stunts stunts={myStunts}/>} />
+                <Route path="bestiary" element={<Bestiary era1={myRogues[2]} era2={myRogues[3]}/>} />
                 <Route path="props" element={<Props propped={myProps[1]}/>} />
                 <Route path="networks" element={<Networks networks={myNetwork}/>} />
                 <Route path="terms" element={<Terms gameTerms={myCreations[2]?.gameTerms}/>} />

@@ -475,6 +475,10 @@ nav {
   display: none;
 }
 
+#undrawnLine {
+  text-decoration: none;
+}
+
 /* Classes */
 
 .basicBuild {

@@ -79,7 +79,8 @@ const Menu = () => {
         "/mistborn-ttrpg/props",
         "/mistborn-ttrpg/stunts",
         "/mistborn-ttrpg/network",
-        "/mistborn-ttrpg/terms"
+        "/mistborn-ttrpg/terms",
+        "/mistborn-ttrpg/bestiary"
     ];
 
     const ruleSelect = rules.some(path => pathname.includes(path));
@@ -106,6 +107,7 @@ const Menu = () => {
             onClick: toggleMenu,
             subpages: [
                 { title: 'Metallurgy', link: "/mistborn-ttrpg/metallurgy", subclassName: metal ? 'dropSelected' : 'dropUnselected' },
+                { title: 'Bestiary', link: "/mistborn-ttrpg/bestiary", subclassName: props ? 'dropSelected' : 'dropUnselected' },
                 { title: 'Networks', link: "/mistborn-ttrpg/networks", subclassName: networks ? 'dropSelected' : 'dropUnselected' },
                 { title: 'Props', link: "/mistborn-ttrpg/props", subclassName: props ? 'dropSelected' : 'dropUnselected' },
                 { title: 'Stunts', link: "/mistborn-ttrpg/stunts", subclassName: stunts ? 'dropSelected' : 'dropUnselected' },

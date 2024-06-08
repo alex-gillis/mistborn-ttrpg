@@ -2623,7 +2623,7 @@
                     "description": "Every character who isn’t a Hero or a Villain is an Extra, a fancy name for any non-heroic “background” character without a Destiny, Tragedy, or more than a peripheral background."
                 },
                 {
-                    "term": "Hero",
+                    "term": "Named",
                     "description": "A protagonist or starring character in your story is a Hero, and every Hero is controlled by a player other than the Narrator."
                 },
                 {
@@ -8586,10 +8586,10 @@
         {
             "id":3,
             "era":2,
-            "name":"Heroes",
-            "rogues":[
+            "heroes":[
                 {
                     "name":"Waxillium “Wax” Ladrian",
+                    "type":"Metalborn",
                     "threat":"Deadly",
                     "level":4,
                     "attributes":{
@@ -8636,7 +8636,6 @@
                             "desc":"Wax can fire a pistol in each hand as a single action. He divides his dice pool into an attack with each gun however he likes, just as if he were making 2 attacks (which may be against different targets). However, he gains no benefits of Aiming with either of these shots, and his action occurs in Step 2 of this Round as if his dice pool were only half as large as it actually is, rounded down."
                         }
                     ],
-                    "gunsmith":[],
                     "allomancy":[
                         {
                             "name":"Steel 7",
@@ -8660,36 +8659,33 @@
                             "stunts":[]
                         }
                     ],
-                    "hemalurgy":[],
-                    "koloss":[],
-                    "kandra":[],
                     "equipment":[
                         {
-                            "point":"2 Sterrion 36 revolvers (Damage +2; 6 shots; Range: Close / Medium)"
+                            "item":"2 Sterrion 36 revolvers (Damage +2; 6 shots; Range: Close / Medium)"
                         },
                         {
-                            "point":"Sterrion Coinshotgun (Damage +2; 8 shots; Range: Close / Medium; Gains “Concealable” Trait)"
+                            "item":"Sterrion Coinshotgun (Damage +2; 8 shots; Range: Close / Medium; Gains “Concealable” Trait)"
                         },
                         {
-                            "point":"Mistcoat (absorbs 1 damage from physical attacks, counts as a tool for hiding in the mists)"
+                            "item":"Mistcoat (absorbs 1 damage from physical attacks, counts as a tool for hiding in the mists)"
                         },
                         {
-                            "point":"Misting vial (3 charges of Steel)"
+                            "item":"Misting vial (3 charges of Steel)"
                         },
                         {
-                            "point":"3 Average Iron metalminds (100 charges of weight each)"
+                            "item":"3 Average Iron metalminds (100 charges of weight each)"
                         },
                         {
-                            "point":"Pocketful of coins (Damage +1; Thrown Range: Striking / Medium)"
+                            "item":"Pocketful of coins (Damage +1; Thrown Range: Striking / Medium)"
                         },
                         {
-                            "point":"Formal clothing"
+                            "item":"Formal clothing"
                         },
                         {
-                            "point":"Pocketwatch"
+                            "item":"Pocketwatch"
                         },
                         {
-                            "point":"Pathian earring"
+                            "item":"Pathian earring"
                         }
                     ],
                     "roleplay":{
@@ -8704,6 +8700,7 @@
                 },
                 {
                     "name":"Wayne",
+                    "type":"Metalborn",
                     "threat":"Deadly",
                     "level":4,
                     "attributes":{
@@ -8738,8 +8735,6 @@
                             "trait":"Reformed Thief?"
                         }
                     ],
-                    "gunplay":[],
-                    "gunsmith":[],
                     "allomancy":[
                         {
                             "name":"Bendallow 6",
@@ -8759,9 +8754,6 @@
                             "stunts":[]
                         }
                     ],
-                    "hemalurgy":[],
-                    "koloss":[],
-                    "kandra":[],
                     "equipment":[
                         {
                             "item":"2 dueling canes (Damage +2; Melee Range: Touch / Striking; contains no metal)"
@@ -8797,6 +8789,7 @@
                 },
                 {
                     "name":"Marasi Colms",
+                    "type":"Metalborn",
                     "threat":"Average",
                     "level":2,
                     "attributes":{
@@ -8837,7 +8830,6 @@
                             "desc":"If Marasi has Aimed, she needs 1 fewer Nudge to succeed with a Called Shot."
                         }
                     ],
-                    "gunsmith":[],
                     "allomancy":[
                         {
                             "name":"Cadmium 5",
@@ -8845,10 +8837,6 @@
                             "stunts":[]
                         }
                     ],
-                    "feruchemy":[],
-                    "hemalurgy":[],
-                    "koloss":[],
-                    "kandra":[],
                     "equipment":[
                         {
                             "item":"Formal clothing"
@@ -8872,6 +8860,7 @@
                 },
                 {
                     "name":"Constable Marasi Colms",
+                    "type":"Metalborn",
                     "threat":"Serious",
                     "level":3,
                     "attributes":{
@@ -8912,7 +8901,6 @@
                             "desc":"If Marasi has Aimed, she needs 1 fewer Nudge to succeed with a Called Shot."
                         }
                     ],
-                    "gunsmith":[],
                     "allomancy":[
                         {
                             "name":"Cadmium 5",
@@ -8920,10 +8908,6 @@
                             "stunts":[]
                         }
                     ],
-                    "feruchemy":[],
-                    "hemalurgy":[],
-                    "koloss":[],
-                    "kandra":[],
                     "equipment":[
                         {
                             "item":"Terringul 27 revolver (Damage +1; 6 shots; Range: Close / Medium)"
@@ -8952,7 +8936,8 @@
                     "image":"./assets/bestiary/Marasi.png"
                 },
                 {
-                    "name":"Miles “HundredLives” Dagouter",
+                    "name":"Miles “Hundredlives” Dagouter",
+                    "type":"Metalborn",
                     "threat":"Deadly",
                     "level":4,
                     "attributes":{
@@ -8987,8 +8972,6 @@
                             "trait":"Vanisher"
                         }
                     ],
-                    "gunplay":[],
-                    "gunsmith":[],
                     "allomancy":[
                         {
                             "name":"Gold 10",
@@ -9008,9 +8991,6 @@
                             ]
                         }
                     ],
-                    "hemalurgy":[],
-                    "koloss":[],
-                    "kandra":[],
                     "equipment":[
                         {
                             "item":"2 Aluminum Immerling 44 revolvers with Extra Capacity customization (Damage +2; 6 shots; Range: Close / Medium; can’t be affected or detected by Allomancy)"
@@ -9046,6 +9026,7 @@
                 },
                 {
                     "name":"Ranette",
+                    "type":"Metalborn",
                     "threat":"Average",
                     "level":2,
                     "attributes":{
@@ -9077,8 +9058,7 @@
                             "trait":"Metal Expert"
                         }
                     ],
-                    "gunplay":[],
-                    "gunsmithing":[
+                    "gunsmith":[
                         {
                             "name":"Create Guns",
                             "desc":"Ranette can make guns from raw materials, allowing her to create any standard, common firearm"
@@ -9103,10 +9083,6 @@
                             "stunts":[]
                         }
                     ],
-                    "feruchemy":[],
-                    "hemalurgy":[],
-                    "koloss":[],
-                    "kandra":[],
                     "equipment":[
                         {
                             "item":"Riesfel shotgun with Hair Trigger and Tinsights (Damage +2; 2 shots; Range: Close / Medium; act as though your pool has 2 more dice when determining when you act in a conflict round; when Aimed, reduce Difficulty or final Result of attempts to Defend against this attack by 1)"
@@ -9131,11 +9107,11 @@
                     },
                     "lore":{
                         "info":"If there’s a gun worth getting shot over, it’s probably made by Ranette. A Lurcher of considerable genius, Ranette designs and builds some of the most effective and powerful guns in all of Scadrial. Her personal brand, Sterrion, includes some of the most unique and well-crafted firearms a body can lay hands on, with a knack for innovation and creativity one can’t just learn. \n\n Ranette’s genius and single-mindedness always set her apart. While the other girls were interested in boys and games, Ranette turned inward, focusing on her talents and her skill. As a teenager, she had good offers to stay and apprentice with some of the greatest craftsmen in the known world. Instead, she left for the Roughs for the privacy and space unavailable in the city, where she could hone her skills in peace. Those choices paid off in spades. \n\n It was in the Roughs that she first met Wax and Wayne, and, begrudgingly persuaded by their needs, started providing them with weapons. Her association with them was sticky at times, since their heroic nonsense also made her a target from time to time. Fortunately, Ranette’s temper is about as notorious as her craftsmanship, and she proved happy to shoot first and ask questions later. \n\n Eventually, Ranette left the Roughs and returned to Elendel, intent on living with a lower profile. She built a home for herself and outfitted it with a series of traps and conveyances specially designed for her own abilities, an excellent foil to anyone who gets funny ideas. Her desire for privacy has also driven her to hire a team of Smokers who keep a Coppercloud over her home at all times. These precautions have allowed her to disappear almost completely, represented to the public only by the excellence of the Sterrion brand. \n\n Ranette finds just about any attention unwanted, particularly Wayne’s; she’s taken (both figurative and literal) shots at him in the past and wishes he’d get the picture. Even if she were interested in menfolk rather than ladyfolk, he wouldn’t be setting her heart aflutter…but really, none of that’s his business, nor anybody else’s."
-                    },
-                    "image":""
+                    }
                 },
                 {
                     "name":"Tarson",
+                    "type":"Koloss",
                     "threat":"Serious",
                     "level":3,
                     "attributes":{
@@ -9167,7 +9143,6 @@
                             "trait":"Angry"
                         }
                     ],
-                    "gunplay":[],
                     "allomancy":[
                         {
                             "name":"Pewter 5",
@@ -9180,9 +9155,6 @@
                             ]
                         }
                     ],
-                    "feruchemy":[],
-                    "hemalurgy":[],
-                    "koloss":[],
                     "kandra":[
                         {
                             "name":"Koloss-Blooded Traits",
@@ -9216,13 +9188,13 @@
                     },
                     "lore":{
                         "info":"Unlike many koloss-blooded, the Vanisher known as Tarson was not born to the koloss tribes — and neither were his parents. His grandpappy, however, had once been a mighty koloss raider, known across the Roughs for his prowess with steel and brave attacks on human caravans headed out Weathering-way. His granny was a human who fell for the proud warrior, and together they raised their little family deep in the Roughs. His daddy was fair-skinned and married a human woman who didn’t even know about his koloss-blood until little Tarson was born — granite-skinned and bellowing. Tarson’s mother didn’t make it, and his daddy never let him forget it. \n\n Tarson’s daddy was ashamed of his son — ashamed of his dark complexion, his muscular frame, his propensity for violence. So he beat him. In fact, Tarson’s youth could be described as one twelve-year string of beatings: beatings for not doing his chores; beatings for mouthing off; beatings for crying after a beating. Then, after Tarson was caught stealing sweets from the local general store with some friends, his daddy caught him and beat him so hard he drew blood. He beat Tarson for what seemed like an eternity, until he was drenched with sweat and panting like a horse beneath the noonday sun. He beat Tarson until something in the boy Snapped. \n\n Tarson doesn’t remember much about what happened next — only that one second he was curled up in a ball, avoiding the sting of his daddy’s belt, and the next, his daddy was lying dead on the floor. Tarson didn’t stick around to find out why. He gathered his meager possessions, grabbed his daddy’s pistol, tossed a lit lantern through the window of their cabin, and never looked back. The next few years were a blur of violence, hunger, and desperation as young Tarson floated from town to town, gang to gang, learning the trade and craft of banditry. His koloss blood and his Pewterarm abilities served him well and earned him a pretty penny. Then he met up with a man in a white coat named Miles, and he showed Tarson that he could be so much more. \n\n In the years since then, Tarson has proven a loyal and competent bandit, and an excellent lieutenant. What he lacks in words he makes up for in actions, often involving smashing whatever Miles tells him to smash. Tarson’s perfectly happy to put his skills as a thief and Thug to work for the Vanishers, or the highest bidder — and woe to anyone who tries to stop him."
-                    },
-                    "image":""
+                    }
                 },
                 {
                     "name":"Push",
+                    "type":"Metalborn",
                     "threat":"Average",
-                    "level":3,
+                    "level":2,
                     "attributes":{
                         "physique":3,
                         "charm":4,
@@ -9252,7 +9224,6 @@
                             "trait":"Cocky"
                         }
                     ],
-                    "gunplay":[],
                     "allomancy":[
                         {
                             "name":"Steel 7",
@@ -9269,10 +9240,6 @@
                             ]
                         }
                     ],
-                    "feruchemy":[],
-                    "hemalurgy":[],
-                    "koloss":[],
-                    "kandra":[],
                     "equipment":[
                         {
                             "item":"Aluminum Terringul 27 revolver (Damage +1; 6 shots; Range: Close / Medium)"
@@ -9291,19 +9258,17 @@
                         }
                     ],
                     "roleplay":{
-                        "playing":"You and your brother are both dedicated to the Set because they’ve promised you something no one else ever has: purpose. It doesn’t hurt that you again live well, thanks to the Set’s vast wealth and political dealings. Unfortunately, it’s also never occurred to you or your brother that the Set may be behind your House’s falling from grace (though it would be very hard to convince you of the fact, even if it’s true). \n\n You take a lot of risks in a fight. It’s not that you and your brother are suicidal — it’s more that you don’t believe in a world where men like you can die. Because, seriously, you’re both wealthy, talented, young, good-looking, and most importantly, better than everyone else thanks to your training and Allomantic abilities. That’s why you don’t speak to others much, because very few are worthy of your time or consideration. Your brother deserves it, the Set deserves it, but pretty much everyone else is beneath your notice — until you’re asked to kill them.",
-                        "ally":"",
-                        "enemy":""
+                        "playing":"You and your brother are both dedicated to the Set because they’ve promised you something no one else ever has: purpose. It doesn’t hurt that you again live well, thanks to the Set’s vast wealth and political dealings. Unfortunately, it’s also never occurred to you or your brother that the Set may be behind your House’s falling from grace (though it would be very hard to convince you of the fact, even if it’s true). \n\n You take a lot of risks in a fight. It’s not that you and your brother are suicidal — it’s more that you don’t believe in a world where men like you can die. Because, seriously, you’re both wealthy, talented, young, good-looking, and most importantly, better than everyone else thanks to your training and Allomantic abilities. That’s why you don’t speak to others much, because very few are worthy of your time or consideration. Your brother deserves it, the Set deserves it, but pretty much everyone else is beneath your notice — until you’re asked to kill them."
                     },
                     "lore":{
                         "info":"Push and Pull have worked together for so long, even they don’t remember if they’re actually brothers, or simply lived their whole lives that way. \n\n Push and Pull were once the children of privilege, raised in the upper echelon of Elendel society, taught by the best teachers and fed with the finest food money could buy. They never experienced want or desperation, and lived idle, charmed lives. As monied young men, they didn’t bother learning a trade, and chose instead to focus their educational time on their Allomancy in a search for excitement. \n\n It all fell apart, however, when political maneuvering and misdeeds shattered their House’s prestige and finances. Filled with rage, the head of the House looked for ways to cut costs and preserve only those who could help the House back on its feet. He vented that anger on the two dilettantes, casting them out because the House could no longer support two grown boys with no prospects and no interest in others. He blamed them for being the boys they were raised to be. \n\n The young men lived for a brief time in fleabag hotels and saloon booths, making a living by cheating at games of shelldry and dart-throwing competitions. While they weren’t on their own for long, it was long enough for the boys to decide that they would rather burn Elendel to the ground than ever live that way again. \n\n After finally finding a purpose — themselves — the pair began selling their abilities to the highest bidder, which attracted the attention of the Set. Inspired by promises of a coming time when men would revere them as gods, and given the chance to put their Allomancy to bloody work, they joined up. Leaving their old names behind, Push and Pull took on their new mantles, and began their work on behalf of the conspiracy as bodyguards, extortionists, and assassins."
-                    },
-                    "image":""
+                    }
                 },
                 {
                     "name":"Pull",
+                    "type":"Metalborn",
                     "threat":"Average",
-                    "level":3,
+                    "level":2,
                     "attributes":{
                         "physique":5,
                         "charm":3,
@@ -9333,7 +9298,6 @@
                             "trait":"Smug"
                         }
                     ],
-                    "gunplay":[],
                     "allomancy":[
                         {
                             "name":"Iron 7",
@@ -9350,10 +9314,6 @@
                             ]
                         }
                     ],
-                    "feruchemy":[],
-                    "hemalurgy":[],
-                    "koloss":[],
-                    "kandra":[],
                     "equipment":[
                         {
                             "item":"Aluminum Terringul 27 revolver (Damage +1; 6 shots; Range: Close / Medium)"
@@ -9372,17 +9332,15 @@
                         }
                     ],
                     "roleplay":{
-                        "playing":"You and your brother are both dedicated to the Set because they’ve promised you something no one else ever has: purpose. It doesn’t hurt that you again live well, thanks to the Set’s vast wealth and political dealings. Unfortunately, it’s also never occurred to you or your brother that the Set may be behind your House’s falling from grace (though it would be very hard to convince you of the fact, even if it’s true). \n\n You take a lot of risks in a fight. It’s not that you and your brother are suicidal — it’s more that you don’t believe in a world where men like you can die. Because, seriously, you’re both wealthy, talented, young, good-looking, and most importantly, better than everyone else thanks to your training and Allomantic abilities. That’s why you don’t speak to others much, because very few are worthy of your time or consideration. Your brother deserves it, the Set deserves it, but pretty much everyone else is beneath your notice — until you’re asked to kill them.",
-                        "ally":"",
-                        "enemy":""
+                        "playing":"You and your brother are both dedicated to the Set because they’ve promised you something no one else ever has: purpose. It doesn’t hurt that you again live well, thanks to the Set’s vast wealth and political dealings. Unfortunately, it’s also never occurred to you or your brother that the Set may be behind your House’s falling from grace (though it would be very hard to convince you of the fact, even if it’s true). \n\n You take a lot of risks in a fight. It’s not that you and your brother are suicidal — it’s more that you don’t believe in a world where men like you can die. Because, seriously, you’re both wealthy, talented, young, good-looking, and most importantly, better than everyone else thanks to your training and Allomantic abilities. That’s why you don’t speak to others much, because very few are worthy of your time or consideration. Your brother deserves it, the Set deserves it, but pretty much everyone else is beneath your notice — until you’re asked to kill them."
                     },
                     "lore":{
                         "info":"Push and Pull have worked together for so long, even they don’t remember if they’re actually brothers, or simply lived their whole lives that way. \n\n Push and Pull were once the children of privilege, raised in the upper echelon of Elendel society, taught by the best teachers and fed with the finest food money could buy. They never experienced want or desperation, and lived idle, charmed lives. As monied young men, they didn’t bother learning a trade, and chose instead to focus their educational time on their Allomancy in a search for excitement. \n\n It all fell apart, however, when political maneuvering and misdeeds shattered their House’s prestige and finances. Filled with rage, the head of the House looked for ways to cut costs and preserve only those who could help the House back on its feet. He vented that anger on the two dilettantes, casting them out because the House could no longer support two grown boys with no prospects and no interest in others. He blamed them for being the boys they were raised to be. \n\n The young men lived for a brief time in fleabag hotels and saloon booths, making a living by cheating at games of shelldry and dart-throwing competitions. While they weren’t on their own for long, it was long enough for the boys to decide that they would rather burn Elendel to the ground than ever live that way again. \n\n After finally finding a purpose — themselves — the pair began selling their abilities to the highest bidder, which attracted the attention of the Set. Inspired by promises of a coming time when men would revere them as gods, and given the chance to put their Allomancy to bloody work, they joined up. Leaving their old names behind, Push and Pull took on their new mantles, and began their work on behalf of the conspiracy as bodyguards, extortionists, and assassins."
-                    },
-                    "image":""
+                    }
                 },
                 {
                     "name":"Lady Steris Harms",
+                    "type":"City Folk",
                     "threat":"Average",
                     "level":2,
                     "attributes":{
@@ -9411,12 +9369,6 @@
                             "trait":"Easily Flustered"
                         }
                     ],
-                    "gunplay":[],
-                    "allomancy":[],
-                    "feruchemy":[],
-                    "hemalurgy":[],
-                    "koloss":[],
-                    "kandra":[],
                     "equipment":[
                         {
                             "item":"Exhaustive notes for any social event"
@@ -9440,6 +9392,7 @@
                 },
                 {
                     "name":"The Marksman",
+                    "type":"Metalborn",
                     "threat":"Serious",
                     "level":3,
                     "attributes":{
@@ -9471,7 +9424,6 @@
                             "trait":"Secret Identity"
                         }
                     ],
-                    "gunplay":[],
                     "allomancy":[
                         {
                             "name":"Steel 7",
@@ -9484,10 +9436,6 @@
                             ]
                         }
                     ],
-                    "feruchemy":[],
-                    "hemalurgy":[],
-                    "koloss":[],
-                    "kandra":[],
                     "equipment":[
                         {
                             "item":"Immerling 44 revolver (Damage +2; 4 shots; Range: Close / Medium)"
@@ -9512,11 +9460,11 @@
                     },
                     "lore":{
                         "info":"With Elendel in the grips of civil unrest over the disparity between the noble and working classes, a criminal called the Marksman rose to prominence to become something of a folk hero to the lower class. In his flamboyant attire, he steals from the nobles, the banks, and those the working class believes deserve to be robbed. Though they never see a share of the Marksman’s stolen wealth, the poor love him anyway and refuse to aid the constables in their search to capture the Marksman. \n\n The Marksman’s real identity hasn’t been revealed and is hidden by a brilliant red suit with a black, tusked busker mask that makes him appear to be a demon of the Deepness. The Marksman is a Coinshot, one whose ability rivals that of Wax Ladrian. Despite being a criminal, the Marksman doesn’t wish to kill anyone, though he defends himself against constables or anyone else who tries to stop him. However, during a robbery when the Marksman was attacked by a Coinshot bodyguard, he returned fire. The other Coinshot managed to deflect the shot slightly, and it struck and killed a little girl. From that moment on, the Marksman has been hunted on a level that he never experienced before."
-                    },
-                    "image":""
+                    }
                 },
                 {
                     "name":"MeLaan",
+                    "type":"Kandra",
                     "threat":"Deadly",
                     "level":4,
                     "attributes":{
@@ -9548,11 +9496,6 @@
                             "trait":"Irreverent"
                         }
                     ],
-                    "gunplay":[],
-                    "allomancy":[],
-                    "feruchemy":[],
-                    "hemalurgy":[],
-                    "koloss":[],
                     "kandra":[
                         {
                             "name":"Mimicry 5",
@@ -9596,6 +9539,7 @@
                 },
                 {
                     "name":"Allik Neverfar",
+                    "type":"Malwish",
                     "threat":"Average",
                     "level":2,
                     "attributes":{
@@ -9624,8 +9568,6 @@
                             "trait":"Reveres Metalborn"
                         }
                     ],
-                    "gunplay":[],
-                    "allomancy":[],
                     "feruchemy":[
                         {
                             "name":"Brass 3",
@@ -9643,9 +9585,6 @@
                             "stunts":[]
                         }
                     ],
-                    "hemalurgy":[],
-                    "koloss":[],
-                    "kandra":[],
                     "equipment":[
                         {
                             "item":"Wooden mask"
@@ -9669,6 +9608,7 @@
                 },
                 {
                     "name":"Constable General Aradel",
+                    "type":"City Folk",
                     "threat":"Serious",
                     "level":3,
                     "attributes":{
@@ -9703,12 +9643,6 @@
                             "trait":"Unkempt"
                         }
                     ],
-                    "gunplay":[],
-                    "allomancy":[],
-                    "feruchemy":[],
-                    "hemalurgy":[],
-                    "koloss":[],
-                    "kandra":[],
                     "equipment":[
                         {
                             "item":"Immerling 44 revolver with magnum force (Damage +3; 4 shots; Range: Close / Medium)"
@@ -9726,18 +9660,14 @@
                             "item":"Motorcar"
                         }
                     ],
-                    "roleplay":{
-                        "playing":"",
-                        "ally":"",
-                        "enemy":""
-                    },
+                    "roleplay":{},
                     "lore":{
                         "info":"The constables of the Fourth Octant had all heard of Claude Aradel, who made his mark as a detective. He got to the bottom of all sorts of cases no one expected to be solved. He’d had a long string of successes and only a few failures by the time he got up in age. He could’ve kept going — at least if he’d been born a noble — but here he was with no higher positions to aspire to. That’s when he retired. He’d been off the force for a decade by the time they came to him hat in hand, looking for a new constable general. The search had taken a year, and they hadn’t turned up a candidate of Aradel’s stature. \n\n The politicians and other constables general still bristle at Aradel’s manner and way of running things. He’s scruffy and spends too much time in the field for their tastes. Rather than giving promotions to the “right” people, he seeks out people with merit and skill to work under him. The way he allows his subordinates to speak to him raises eyebrows, too. Aradel’s always free with his opinion, and he expects the same from the staff under him. That kind of talk is impolitic, especially when Aradel or his people voice criticism of important politicians and public figures. He doesn’t seem to have the kind of tolerance for the occasional moral lapse, even though people in high places know that’s just part and parcel of politics. To other constables — and even to criminals — Constable General Aradel has a reputation as one of the real honest conners on the force."
-                    },
-                    "image":""
+                    }
                 },
                 {
-                    "name":"Bleeder",
+                    "name":"Paalm / Bleeder",
+                    "type":"Kandra",
                     "threat":"Deadly",
                     "level":4,
                     "attributes":{
@@ -9772,9 +9702,6 @@
                             "trait":"Scholar of Hemalurgy"
                         }
                     ],
-                    "gunplay":[],
-                    "allomancy":[],
-                    "feruchemy":[],
                     "hemalurgy":[
                         {
                             "name":"Corrupt Blessing",
@@ -9787,7 +9714,6 @@
                             "stunts":[]
                         }
                     ],
-                    "koloss":[],
                     "kandra":[
                         {
                             "name":"Mimicry 5",
@@ -9843,6 +9769,7 @@
                 },
                 {
                     "name":"Telsin Ladrian",
+                    "type":"Metalborn",
                     "threat":"Serious",
                     "level":3,
                     "attributes":{
@@ -9871,7 +9798,6 @@
                             "trait":"Social Chameleon"
                         }
                     ],
-                    "gunplay":[],
                     "allomancy":[
                         {
                             "name":"Steel 5",
@@ -9908,8 +9834,6 @@
                             "stunts":[]
                         }
                     ],
-                    "koloss":[],
-                    "kandra":[],
                     "equipment":[
                         {
                             "item":"Aluminum Immerling 44 revolver with Small customization (Damage +2; 4 shots; Range: Close / Medium; cannot be detected or affected by Allomancy)"
@@ -9939,6 +9863,7 @@
                 },
                 {
                     "name":"Governor Replar Innate",
+                    "type":"City Folk",
                     "threat":"Serious",
                     "level":3,
                     "attributes":{
@@ -9973,12 +9898,6 @@
                             "trait":"Historian"
                         }
                     ],
-                    "gunplay":[],
-                    "allomancy":[],
-                    "feruchemy":[],
-                    "hemalurgy":[],
-                    "koloss":[],
-                    "kandra":[],
                     "equipment":[
                         {
                             "item":"Dueling cane (Damage +2; Melee Range: Touch / Striking; contains no metal)"
@@ -9993,18 +9912,14 @@
                             "item":"Motorcar"
                         }
                     ],
-                    "roleplay":{
-                        "playing":"",
-                        "ally":"",
-                        "enemy":""
-                    },
+                    "roleplay":{},
                     "lore":{
                         "info":"The current governor of Elendel, Replar Innate, is a divisive political figure among the commonfolk. For starters, his brother, Winsting Innate, was officially head of House Innate and held a vote in the Senate — but was known by many in the city’s legal system (including the constabulary) to sell his vote to the highest bidder. Even after Winsting’s assassination, Replar keeps defending the family reputation, implicating himself in potential acts of corruption as well. \n\n A tall, handsome man, he keeps himself clean-shaven, with lightly graying black hair. He wears a pair of fashionable spectacles and tailored clothing and is married with children. \n\n Despite making speeches promising economic and industrial reform, Replar has become increasingly unpopular with the public because of his rejection of bills that would have supplied workers’ rights, the city’s rising unemployment levels, and his rulings on other labor disputes that keep wealth in the hands of the elite. He is also known to change his mind suddenly on bills and displays an irregular voting pattern after meetings with powerful individuals in Elendel. He keeps a secret stash of letters in a safe buried in the floor of a saferoom, with a key concealed within a nearby book. These papers prove Replar struck deals with numerous politically influential figures, to their mutual benefit. \n\n No matter the danger to himself, however, Innate possesses a reputation as having a great ego and being a fighter, refusing to back down from confrontations. A highly intelligent man, he has made a study of ancient history, including the nature of Faceless Immortals, though he considers them legend — like many modern folk do."
-                    },
-                    "image":""
+                    }
                 },
                 {
                     "name":"Edwarn Ladrian",
+                    "type":"Metalborn",
                     "threat":"Deadly",
                     "level":4,
                     "attributes":{
@@ -10042,7 +9957,6 @@
                             "trait":"Knows Hemalurgy"
                         }
                     ],
-                    "gunplay":[],
                     "allomancy":[
                         {
                             "name":"Steel 5",
@@ -10074,8 +9988,6 @@
                             "stunts":[]
                         }
                     ],
-                    "koloss":[],
-                    "kandra":[],
                     "equipment":[
                         {
                             "item":"Dueling cane (Damage +2; Melee Range: Touch / Striking; contains no metal)"
@@ -10102,73 +10014,105 @@
                         "enemy":"There is almost nothing more dangerous in Elendel than the enmity of Mr. Suit, except possibly the ire of the Set as a whole or the vengeance of his nephew, Wax Ladrian. If Edwarn Ladrian determines that you are his enemy, he will strip you of everything you love and value, leaving you alone, destitute, and with no allies of any sort to call upon. Then, if he is feeling merciful, he will have you killed. Although truthfully, this is less mercy and more an indicator of Ladrian’s distaste for loose ends."
                     },
                     "lore":{
+                        "info":"Edwarn Ladrian is brilliant almost beyond the ability of other men to appreciate. Every gift and skill that his legendary nephew, Waxillium Ladrian, possesses, Edwarn shares (the abilities of a Twinborn being the notable exception). What Edwarn possesses that Wax does not, however, is decades of experience in using his gifts and a certain moral flexibility that allows him to do so without the slightest hint of concern for the wellbeing of others. It was this last asset that led him to falsify his house’s financial ruin, fake his own death, and pretend to hold his niece, Wax’s sister Telsin, hostage in order to establish an insurance policy against Wax’s later interference. \n\n The Set, as a group, is nothing if not ambitious and opportunistic. With the new information revealed following their association with the rogue kandra known as Bleeder, entirely new assets have become available to the Set. In keeping with their philosophies, they have not hesitated to make use of them. Most men might find Hemalurgy distasteful, perhaps even barbaric, but Edwarn is not most men. Secretly concerned about the one edge that Wax has over him, Edwarn has ensured that he can match his nephew and nemesis by making use of Hemalurgy. Mr. Suit now has the Allomantic ability of a Coinshot and a Leecher, as well as the Feruchemical ability to utilize Gold. His spikes are well hidden to avoid any unpleasant questions, and not even everyone within the Set is aware that he possesses them. Despite his new abilities, Mr. Suit still has underlings do most of his dirty work. When he has no choice but to use his own abilities, he wants to ensure that it is a total, and lethal, surprise."
+                    },
+                    "image":"./assets/bestiary/Suit.png"
+                }
+            ],
+            "city":[
+                {
+                    "name":"",
+                    "type":"City Folk",
+                    "threat":"",
+                    "level":0,
+                    "attributes":{
+                        "physique":0,
+                        "charm":0,
+                        "wits":0
+                    },
+                    "standings":{
+                        "resources":0,
+                        "influence":0,
+                        "spirit":0
+                    },
+                    "resiliences":{
+                        "health":0,
+                        "reputation":0,
+                        "willpower":0
+                    },
+                    "traits":[
+                        {
+                            "trait":""
+                        }
+                    ],
+                    "gunplay":[
+                        {
+                            "name":"",
+                            "desc":""
+                        }
+                    ],
+                    "allomancy":[
+                        {
+                            "name":"",
+                            "desc":"",
+                            "stunts":[
+                                {
+                                    "name":"",
+                                    "desc":""
+                                }
+                            ]
+                        }
+                    ],
+                    "feruchemy":[
+                        {
+                            "name":"",
+                            "desc":"",
+                            "stunts":[
+                                {
+                                    "name":"",
+                                    "desc":""
+                                }
+                            ]
+                        }
+                    ],
+                    "hemalurgy":[],
+                    "koloss":[],
+                    "kandra":[],
+                    "equipment":[
+                        {
+                            "item":""
+                        }
+                    ],
+                    "roleplay":{
+                        "playing":"",
+                        "ally":"",
+                        "enemy":""
+                    },
+                    "lore":{
                         "info":""
                     },
                     "image":"./assets/bestiary/Blank.png"
                 }
-            ]
-        },
-        {
-            "id":4,
-            "era":2,
-            "name":"City Folk",
-            "rogues":[
+            ],
+            "roughs":[
 
-            ]
-        },
-        {
-            "id":5,
-            "era":2,
-            "name":"Roughs Folk",
-            "rogues":[
+            ],
+            "metalborn":[
 
-            ]
-        },
-        {
-            "id":6,
-            "era":2,
-            "name":"Metalborn",
-            "rogues":[
+            ],
+            "outsider":[
+                
+            ],
+            "malwish":[
 
-            ]
-        },
-        {
-            "id":7,
-            "era":2,
-            "name":"Outsiders",
-            "rogues":[
+            ],
+            "gangs":[
 
-            ]
-        },
-        {
-            "id":8,
-            "era":2,
-            "name":"Malwish People",
-            "rogues":[
+            ],
+            "chimera":[
 
-            ]
-        },
-        {
-            "id":9,
-            "era":2,
-            "name":"Gangs",
-            "rogues":[
-
-            ]
-        },
-        {
-            "id":10,
-            "era":2,
-            "name":"Chimeras",
-            "rogues":[
-
-            ]
-        },
-        {
-            "id":11,
-            "era":2,
-            "name":"Wildlife",
-            "rogues":[
+            ],
+            "wildlife":[
 
             ]
         }
