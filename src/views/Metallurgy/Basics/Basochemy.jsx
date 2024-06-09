@@ -67,7 +67,7 @@ function Basochemy(props) {
                         </th>
                     </tr>
                     {myStorage?.map((storage, index) => (
-                        <tr key={index}>
+                        <tr key={index} className={index % 2 === 0 ? 'evenRow' : 'oddRow'}>
                             <td>
                                 {storage.capacity}
                             </td>

@@ -17,9 +17,9 @@ function Difficulty(props) {
                 <th>...when the task seems...</th>
               </tr>
                 {props.diff.table?.map((myObject, index) => (
-                    <tr key={index}>
-                        <td id="buildRow">{myObject.one}</td>
-                        <td id="buildRow">{myObject.two}</td>
+                    <tr key={index} className={index % 2 === 0 ? 'evenRow' : 'oddRow'}>
+                        <td>{myObject.one}</td>
+                        <td>{myObject.two}</td>
                     </tr>
                 ))}
             </tbody>

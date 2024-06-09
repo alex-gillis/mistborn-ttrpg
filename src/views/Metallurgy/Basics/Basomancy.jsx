@@ -48,7 +48,7 @@ function Basomancy(props) {
                         </th>
                     </tr>
                     {myCharge?.map((charge, index) => (
-                        <tr key={index}>
+                        <tr key={index} className={index % 2 === 0 ? 'evenRow' : 'oddRow'}>
                             <td>
                                 {charge.number}
                             </td>
@@ -78,7 +78,7 @@ function Basomancy(props) {
                         </th>
                     </tr>
                     {myRates?.map((rate, index) => (
-                        <tr key={index}>
+                        <tr key={index} className={index % 2 === 0 ? 'evenRow' : 'oddRow'}>
                             <td>
                                 {rate.metal}
                             </td>
@@ -96,6 +96,7 @@ function Basomancy(props) {
             { props.info.stunts }
             <h2>Misting Savants</h2>
             { props.info.savants }
+            <br/><br/>
         </>
     )
 

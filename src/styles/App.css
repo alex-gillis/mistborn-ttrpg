@@ -31,9 +31,11 @@ h2, h3 {
 }
 
 h4 {
-  margin: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
   text-align: center;
   text-decoration: underline;
+  background-color: #1a1a1a;
 }
 
 h5 {
@@ -120,9 +122,10 @@ nav {
 }
 
 #brandon {
-  border-color: aliceblue;
+  border-color: #242424;
   border-style: solid;
-  border-width: 0.75px;
+  border-width: .75px;
+  background-color: #242424;
   padding-left: 5px;
   padding-right: 5px;
   padding-bottom: 5px;
@@ -141,14 +144,14 @@ nav {
 #buildTable {
   margin-left: auto;
   margin-right: auto;
-  border-color: grey;
+  border-color: #242424;
   border-style: solid;
   text-align: left;
 }
 
 #buildRow {
-  border-color: grey;
-  border-bottom-style: solid;
+  border-color: #242424;
+  border-top-style: solid;
 }
 
 #centerIMG {
@@ -318,13 +321,8 @@ nav {
   list-style-type: none;
 }
 
-#propDesc {
-  border-color: lightgray;
-  border-bottom-style: dotted;
-}
-
 #propNotes {
-  border-color: grey;
+  border-color: #242424;
   border-bottom-style: solid;
 }
 

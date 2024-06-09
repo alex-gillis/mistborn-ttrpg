@@ -20,7 +20,7 @@ function Feruchemy(props) {
             </thead>
             <tbody>
               {myTapping?.map((myTap, index) => (
-                <tr key={index}>
+                <tr key={index} className={index % 2 === 0 ? 'evenRow' : 'oddRow'}>
                   <Tapping tapping={myTap} />
                 </tr>
               ))}

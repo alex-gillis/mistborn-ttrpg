@@ -25,7 +25,7 @@ function Metallurgy(props) {
   return (
     <>
       <div id='creation'>
-        <ol id="list" className='mobMargin'>
+        <ol id="list" className='mobMargin' style={{paddingTop:"25px"}}>
           <h3 className='notButter'>Metallurgy</h3>
           <li id="nav-list">
             <button className="index-button" onClick={() => changeBasics(0)}>
@@ -33,7 +33,7 @@ function Metallurgy(props) {
             </button>
           </li>
           {myMetals && myMetals.map(myMetal => (
-            <li  id="nav-list" key={myMetal.id}>
+            <li id="nav-list" key={myMetal.id}>
               <button className="index-button" onClick={() => changeMetals(myMetal.id)}>
                 <span id="bold">{myMetal.name}</span>
               </button>

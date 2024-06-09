@@ -10,7 +10,7 @@ function DiffTable(props) {
                     <td>{props.title}</td>
                 </tr>
                 {props.info?.map((myObject, index) => (
-                    <tr key={index}>
+                    <tr key={index} className={index % 2 === 0 ? 'evenRow' : 'oddRow'}>
                         <td className="centered">{myObject.one}</td>
                         <td id="buildRow">{myObject.two}</td>
                     </tr>

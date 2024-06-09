@@ -64,6 +64,7 @@ function Beast(props) {
                   </div>
                 {myStats && 
                   <div>
+                    <br/>
                     <div>
                         <table>
                             <tbody>
@@ -286,12 +287,11 @@ function Beast(props) {
                 }
                 {myImage &&
                     <div>
+                    <br/>
                         {props.info.image ? 
                             <div id="centerIMG">
                                 <div>
                                     <img className="heroSample" id="rightSample" src={props.info.image} alt={props.info.name} />
-                                    <br/>
-                                    <span className="sampleText"  id="bolder">{props.info.name}</span>
                                     <br/>
                                 </div>
                             </div>

@@ -33,7 +33,7 @@ function Fifth(props) {
             <table id="buildTable">
                 <tbody>
                     {props.build.skaaNames.map((myName, index) => (
-                        <tr key={index}>
+                        <tr key={index} className={index % 2 === 0 ? 'evenRow' : 'oddRow'}>
                             <td>{myName.one}</td>
                             <td>{myName.two}</td>
                             <td>{myName.three}</td>
@@ -54,7 +54,7 @@ function Fifth(props) {
                 </thead>
                 <tbody>
                     {props.build.nobleMale.map((myName, index) => (
-                        <tr key={index}>
+                        <tr key={index} className={index % 2 === 0 ? 'evenRow' : 'oddRow'}>
                             <td>{myName.one}</td>
                             <td>{myName.two}</td>
                             <td>{myName.three}</td>
@@ -70,7 +70,7 @@ function Fifth(props) {
                 </thead>
                 <tbody>
                     {props.build.nobleFemale.map((myName, index) => (
-                        <tr key={index}>
+                        <tr key={index} className={index % 2 === 0 ? 'evenRow' : 'oddRow'}>
                             <td>{myName.one}</td>
                             <td>{myName.two}</td>
                             <td>{myName.three}</td>
@@ -86,7 +86,7 @@ function Fifth(props) {
                 </thead>
                 <tbody>
                     {props.build.nobleFamily.map((myName, index) => (
-                        <tr key={index}>
+                        <tr key={index} className={index % 2 === 0 ? 'evenRow' : 'oddRow'}>
                             <td>{myName.one}</td>
                             <td>{myName.two}</td>
                             <td>{myName.three}</td>
@@ -111,7 +111,7 @@ function Fifth(props) {
                 </thead>
                 <tbody>
                     {props.build.terrisMale.map((myName, index) => (
-                        <tr key={index}>
+                        <tr key={index} className={index % 2 === 0 ? 'evenRow' : 'oddRow'}>
                             <td>{myName.one}</td>
                             <td>{myName.two}</td>
                             <td>{myName.three}</td>
@@ -127,7 +127,7 @@ function Fifth(props) {
                 </thead>
                 <tbody>
                     {props.build.terrisFemale.map((myName, index) => (
-                        <tr key={index}>
+                        <tr key={index} className={index % 2 === 0 ? 'evenRow' : 'oddRow'}>
                             <td>{myName.one}</td>
                             <td>{myName.two}</td>
                             <td>{myName.three}</td>
@@ -147,7 +147,7 @@ function Fifth(props) {
                 </thead>
                 <tbody>
                     {props.build.kandraNames.map((myName, index) => (
-                        <tr key={index}>
+                        <tr key={index} className={index % 2 === 0 ? 'evenRow' : 'oddRow'}>
                             <td>{myName.one}</td>
                             <td>{myName.two}</td>
                             <td>{myName.three}</td>
@@ -204,9 +204,9 @@ function Fifth(props) {
                                 <th colSpan="2"><h4>{myProp.propType}</h4></th>
                             </tr>
                             {myProp.props?.map((myItem, propIndex) => (
-                                <tr key={propIndex}>
+                                <tr key={propIndex} className={propIndex % 2 === 0 ? 'evenRow' : 'oddRow'}>
                                     <td>{myItem.item}: </td>
-                                    <td id="propDesc">{myItem.desc}</td>
+                                    <td>{myItem.desc}</td>
                                 </tr>
                             ))}
                             <tr>

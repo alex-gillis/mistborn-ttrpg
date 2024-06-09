@@ -60,7 +60,7 @@ function Basictwins(props) {
                 </thead>
                 <tbody>
                     {props.info.rules.nicknames.map((myRule, index) => (
-                        <tr key={index}>
+                        <tr key={index} className={index % 2 === 0 ? 'evenRow' : 'oddRow'}>
                             <td>{myRule.allomancy}</td>
                             <td>{myRule.feruchemy}</td>
                             <td>{myRule.twinborn}</td>

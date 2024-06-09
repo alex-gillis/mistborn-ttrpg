@@ -8,10 +8,20 @@ function Repartee(props) {
       {props.info?.map((myObject, index) => (
         <div key={index}>
           <h2>{myObject.title}</h2>
-          <div>{myObject.desc}</div>
-          <br/>
-          <div id="italicked">{myObject.example}</div>
-          <br/>
+          { myObject.desc && 
+            <div>
+              {myObject.desc} 
+              <br/><br/>
+            </div>
+          }
+            
+          { myObject.example && 
+            <div id="italicked">
+              {myObject.example}
+              <br/>
+            </div>
+          }
+          
         </div>
       ))}
     </>
