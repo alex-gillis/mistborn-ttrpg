@@ -47,46 +47,6 @@ function Beast(props) {
                           <h3 className="notButter">{props.info.threat} <span id="timid">Threat</span></h3>
                         </td>
                       </tr>
-                      <tr>
-                        <td>
-                            <h4 id="undrawnLine" className="notButter">Attributes: <span id="timid">
-                                    Physique {props.info.attributes.physique},
-                                    Charm {props.info.attributes.charm},
-                                    Wits {props.info.attributes.wits}
-                                </span>
-                            </h4>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                            <h4 id="undrawnLine" className="notButter">Standings: <span id="timid">
-                                    Resources {props.info.standings.resources},
-                                    Influence {props.info.standings.influence},
-                                    Spirit {props.info.standings.spirit}
-                                </span>
-                            </h4>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                            <h4 id="undrawnLine" className="notButter">Resiliences: <span id="timid">
-                                    Health {props.info.resiliences.health},
-                                    Reputation {props.info.resiliences.reputation},
-                                    Willpower {props.info.resiliences.willpower}
-                                </span>
-                            </h4>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                            <h4 id="undrawnLine" className="notButter">Traits: <span id="timid">
-                                    {props.info.traits?.map((myObject, index) => (
-                                        <span key={index}>{myObject.trait}; </span>
-                                    ))}
-                                </span>
-                            </h4>
-                        </td>
-                      </tr>
                     </tbody>
                   </table>
                   <div>
@@ -104,12 +64,51 @@ function Beast(props) {
                   </div>
                 {myStats && 
                   <div>
-                    <div className='justified'>
-                        <br/>
-                        <span id='bold'>Equipment: {props.info.equipment?.map((myObject, index) => (
-                            <span key={index}><span id="timid">{myObject.item}</span>; </span>
-                        ))}</span>
-                        <br/><br/>
+                    <div>
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <h4 id="undrawnLine" className="notButter">Attributes: <span id="timid">
+                                                Physique {props.info.attributes.physique},
+                                                Charm {props.info.attributes.charm},
+                                                Wits {props.info.attributes.wits}
+                                            </span>
+                                        </h4>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <h4 id="undrawnLine" className="notButter">Standings: <span id="timid">
+                                                Resources {props.info.standings.resources},
+                                                Influence {props.info.standings.influence},
+                                                Spirit {props.info.standings.spirit}
+                                            </span>
+                                        </h4>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <h4 id="undrawnLine" className="notButter">Resiliences: <span id="timid">
+                                                Health {props.info.resiliences.health},
+                                                Reputation {props.info.resiliences.reputation},
+                                                Willpower {props.info.resiliences.willpower}
+                                            </span>
+                                        </h4>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <h4 id="undrawnLine" className="notButter">Traits: <span id="timid">
+                                                {props.info.traits?.map((myObject, index) => (
+                                                    <span key={index}>{myObject.trait}; </span>
+                                                ))}
+                                            </span>
+                                        </h4>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
                     </div>
                     <div>
                         {props.info.gunplay && (
@@ -246,12 +245,23 @@ function Beast(props) {
                             </div>
                         )}
                     </div>
+                    <div className='justified'>
+                        <span id='bold'>Equipment: {props.info.equipment?.map((myObject, index) => (
+                            <span key={index}><span id="timid">{myObject.item}</span>; </span>
+                        ))}</span>
+                    </div>
                   </div>
                 }
                 {myLore &&
                     <div>
                         <div>
                             <h3>Lore</h3>
+                            {props.info.lore.example &&
+                                <div id='example'>
+                                    {props.info.lore.example}
+                                <br/><br/>
+                                </div>
+                            }
                             {props.info.lore.info}
                         </div>
                         {props.info.roleplay.playing &&

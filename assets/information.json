@@ -8589,7 +8589,7 @@
             "heroes":[
                 {
                     "name":"Waxillium “Wax” Ladrian",
-                    "type":"Metalborn",
+                    "type":"Unique",
                     "threat":"Deadly",
                     "level":4,
                     "attributes":{
@@ -8700,7 +8700,7 @@
                 },
                 {
                     "name":"Wayne",
-                    "type":"Metalborn",
+                    "type":"Unique",
                     "threat":"Deadly",
                     "level":4,
                     "attributes":{
@@ -8733,6 +8733,9 @@
                         },
                         {
                             "trait":"Reformed Thief?"
+                        },
+                        {
+                            "trait":"Secretly Rich?"
                         }
                     ],
                     "allomancy":[
@@ -8789,7 +8792,7 @@
                 },
                 {
                     "name":"Marasi Colms",
-                    "type":"Metalborn",
+                    "type":"Unique",
                     "threat":"Average",
                     "level":2,
                     "attributes":{
@@ -8860,7 +8863,7 @@
                 },
                 {
                     "name":"Constable Marasi Colms",
-                    "type":"Metalborn",
+                    "type":"Unique",
                     "threat":"Serious",
                     "level":3,
                     "attributes":{
@@ -8937,7 +8940,7 @@
                 },
                 {
                     "name":"Miles “Hundredlives” Dagouter",
-                    "type":"Metalborn",
+                    "type":"Unique",
                     "threat":"Deadly",
                     "level":4,
                     "attributes":{
@@ -9026,7 +9029,7 @@
                 },
                 {
                     "name":"Ranette",
-                    "type":"Metalborn",
+                    "type":"Unique",
                     "threat":"Average",
                     "level":2,
                     "attributes":{
@@ -9111,7 +9114,7 @@
                 },
                 {
                     "name":"Tarson",
-                    "type":"Koloss",
+                    "type":"Unique",
                     "threat":"Serious",
                     "level":3,
                     "attributes":{
@@ -9192,7 +9195,7 @@
                 },
                 {
                     "name":"Push",
-                    "type":"Metalborn",
+                    "type":"Unique",
                     "threat":"Average",
                     "level":2,
                     "attributes":{
@@ -9266,7 +9269,7 @@
                 },
                 {
                     "name":"Pull",
-                    "type":"Metalborn",
+                    "type":"Unique",
                     "threat":"Average",
                     "level":2,
                     "attributes":{
@@ -9340,7 +9343,7 @@
                 },
                 {
                     "name":"Lady Steris Harms",
-                    "type":"City Folk",
+                    "type":"Unique",
                     "threat":"Average",
                     "level":2,
                     "attributes":{
@@ -9392,7 +9395,7 @@
                 },
                 {
                     "name":"The Marksman",
-                    "type":"Metalborn",
+                    "type":"Unique",
                     "threat":"Serious",
                     "level":3,
                     "attributes":{
@@ -9464,7 +9467,7 @@
                 },
                 {
                     "name":"MeLaan",
-                    "type":"Kandra",
+                    "type":"Unique",
                     "threat":"Deadly",
                     "level":4,
                     "attributes":{
@@ -9539,7 +9542,7 @@
                 },
                 {
                     "name":"Allik Neverfar",
-                    "type":"Malwish",
+                    "type":"Unique",
                     "threat":"Average",
                     "level":2,
                     "attributes":{
@@ -9608,7 +9611,7 @@
                 },
                 {
                     "name":"Constable General Aradel",
-                    "type":"City Folk",
+                    "type":"Unique",
                     "threat":"Serious",
                     "level":3,
                     "attributes":{
@@ -9667,7 +9670,7 @@
                 },
                 {
                     "name":"Paalm / Bleeder",
-                    "type":"Kandra",
+                    "type":"Unique",
                     "threat":"Deadly",
                     "level":4,
                     "attributes":{
@@ -9769,7 +9772,7 @@
                 },
                 {
                     "name":"Telsin Ladrian",
-                    "type":"Metalborn",
+                    "type":"Unique",
                     "threat":"Serious",
                     "level":3,
                     "attributes":{
@@ -9863,7 +9866,7 @@
                 },
                 {
                     "name":"Governor Replar Innate",
-                    "type":"City Folk",
+                    "type":"Unique",
                     "threat":"Serious",
                     "level":3,
                     "attributes":{
@@ -9919,7 +9922,7 @@
                 },
                 {
                     "name":"Edwarn Ladrian",
-                    "type":"Metalborn",
+                    "type":"Unique",
                     "threat":"Deadly",
                     "level":4,
                     "attributes":{
@@ -10021,77 +10024,534 @@
             ],
             "city":[
                 {
-                    "name":"",
+                    "name":"Clerk",
                     "type":"City Folk",
-                    "threat":"",
+                    "threat":"Insignificant",
                     "level":0,
                     "attributes":{
-                        "physique":0,
-                        "charm":0,
-                        "wits":0
+                        "physique":3,
+                        "charm":4,
+                        "wits":4
                     },
                     "standings":{
-                        "resources":0,
-                        "influence":0,
-                        "spirit":0
+                        "resources":4,
+                        "influence":3,
+                        "spirit":2
                     },
                     "resiliences":{
-                        "health":0,
-                        "reputation":0,
-                        "willpower":0
+                        "health":7,
+                        "reputation":7,
+                        "willpower":6
                     },
                     "traits":[
                         {
-                            "trait":""
-                        }
-                    ],
-                    "gunplay":[
+                            "trait":"Entrepreneurial Aspirations"
+                        },
                         {
-                            "name":"",
-                            "desc":""
-                        }
-                    ],
-                    "allomancy":[
+                            "trait":"Good with Numbers"
+                        },
                         {
-                            "name":"",
-                            "desc":"",
-                            "stunts":[
-                                {
-                                    "name":"",
-                                    "desc":""
-                                }
-                            ]
+                            "trait":"Yes–Man"
                         }
                     ],
-                    "feruchemy":[
-                        {
-                            "name":"",
-                            "desc":"",
-                            "stunts":[
-                                {
-                                    "name":"",
-                                    "desc":""
-                                }
-                            ]
-                        }
-                    ],
-                    "hemalurgy":[],
-                    "koloss":[],
-                    "kandra":[],
                     "equipment":[
                         {
-                            "item":""
+                            "item":"Pen and ledger"
+                        },
+                        {
+                            "item":"Pocketwatch"
+                        },
+                        {
+                            "item":"Rail pass"
                         }
                     ],
-                    "roleplay":{
-                        "playing":"",
-                        "ally":"",
-                        "enemy":""
-                    },
+                    "roleplay":{},
                     "lore":{
-                        "info":""
+                        "example":"A mousy, officious-looking man looks up from the ream of papers on his desk, squinting through his thick spectacles. Ink stains his fingers from the phalanx of rubber stamps organized along his desk, and a map behind him notes key locations around the district where his boss has business interests. He seems reluctant yet obligated to ask if anyone needs help with something.",
+                        "info":"In every business and government office in the Basin, clerks fulfill all the various bureaucratic duties required to keep society functioning: processing forms and ledgers, keeping accounting books, registering births, deaths, and marriages, and generally ensuring that the world’s i’s are dotted and t’s crossed. Clerks don’t hold a lot of power individually, but they know how the system works. They can find useful bits of information that no one else would think of, or ensure that crucial pieces of paper get lost for weeks in the red tape. Many of them exude an air of petty authority, using rules and regulations to stymie any requests that they find irritating. For the right sort (or the right amount), however, these meek little men and women hold the keys to all manner of fascinating information."
+                    }
+                },
+                {
+                    "name":"Constable",
+                    "type":"City Folk",
+                    "threat":"Mild",
+                    "level":1,
+                    "attributes":{
+                        "physique":5,
+                        "charm":3,
+                        "wits":3
                     },
-                    "image":"./assets/bestiary/Blank.png"
+                    "standings":{
+                        "resources":2,
+                        "influence":4,
+                        "spirit":2
+                    },
+                    "resiliences":{
+                        "health":7,
+                        "reputation":7,
+                        "willpower":5
+                    },
+                    "traits":[
+                        {
+                            "trait":"Civic Authority"
+                        },
+                        {
+                            "trait":"Hard–Charging"
+                        },
+                        {
+                            "trait":"Protect and Serve"
+                        }
+                    ],
+                    "equipment":[
+                        {
+                            "item":"Terringul 27 revolver (Damage +1; 6 shots; Range: Close / Medium)"
+                        },
+                        {
+                            "item":"Club (Damage +1; Melee Range: Touch / Striking; contains no metal)"
+                        },
+                        {
+                            "item":"Constable's Badge and Uniform"
+                        }
+                    ],
+                    "roleplay":{},
+                    "lore":{
+                        "example":"His voice is smug and unrefined, but the uniform gives him the air of authority. He borrowed his bluster from his badge, it seems, and he claims he’ll have you in irons before the squad faster than you can blink. There’s one thing about him that ain’t phony, and that’s the chip on his shoulder.",
+                        "info":"There are men and women in good standing in the constabulary, of course, proud men and women who serve the law just the same as any lawkeeper in the Roughs might. Some get by on graft and a series of questionable alliances and favors throughout Elendel’s underworld, but most do their best to obey the spirit of the law if not the letter."
+                    },
+                    "image":"./assets/bestiary/Constable.png"
+                },
+                {
+                    "name":"Foundry Worker",
+                    "type":"City Folk",
+                    "threat":"Mild",
+                    "level":1,
+                    "attributes":{
+                        "physique":5,
+                        "charm":2,
+                        "wits":3
+                    },
+                    "standings":{
+                        "resources":2,
+                        "influence":2,
+                        "spirit":4
+                    },
+                    "resiliences":{
+                        "health":7,
+                        "reputation":4,
+                        "willpower":7
+                    },
+                    "traits":[
+                        {
+                            "trait":"Can Take the Heat"
+                        },
+                        {
+                            "trait":"Hardworking"
+                        },
+                        {
+                            "trait":"Subservient"
+                        }
+                    ],
+                    "equipment":[
+                        {
+                            "item":"Craftsman’s tools (one occupation)"
+                        }
+                    ],
+                    "roleplay":{},
+                    "lore":{
+                        "example":"This big, brawny city worker shows signs of a tough life: well-developed muscles, a harsh look in his eyes, a few scars here and there along his hands. But he smiles jovially and the dinner bucket in his hand suggests that he has something other than mayhem on his mind. There’s a certain pride in him when he looks at the belching smoke of the factories…as if he were somehow responsible for the advancements they provide.",
+                        "info":"Foundry workers can be found in any of the big cities, working hot, noisy, and sometimes dangerous jobs for a living. Wages are low and conditions are miserable, but most workers are happy just to have a steady position, and even take some pride in what they do. There’s a tremendous esprit de corps among workers in a given factory, and in some of the more sophisticated cities, the first hints of unionization are beginning to rear their heads. Firebrand foundry workers often rail against the injustices of their bosses and hint darkly at uprisings to overthrow the established order. They’re greatly in the minority, however; most workers are comparatively happy with their lot…though the tough conditions have made many of them prime physical specimens, and they aren’t afraid to back up their words with fists if the need arises."
+                    }
+                },
+                {
+                    "name":"Gunsmith",
+                    "type":"City Folk",
+                    "threat":"Average",
+                    "level":2,
+                    "attributes":{
+                        "physique":4,
+                        "charm":2,
+                        "wits":3
+                    },
+                    "standings":{
+                        "resources":5,
+                        "influence":3,
+                        "spirit":3
+                    },
+                    "resiliences":{
+                        "health":9,
+                        "reputation":5,
+                        "willpower":6
+                    },
+                    "traits":[
+                        {
+                            "trait":"Brawny"
+                        },
+                        {
+                            "trait":"Gunsmith"
+                        },
+                        {
+                            "trait":"In Demand"
+                        },
+                        {
+                            "trait":"Perfectionist"
+                        }
+                    ],
+                    "gunsmith":[
+                        {
+                            "name":"Create Guns",
+                            "desc":"The character can make guns from raw materials, allowing him to create any standard, common firearm."
+                        },
+                        {
+                            "name":"Customize Guns (3)",
+                            "desc":"The character can make guns with the Extra Capacity, Long Range, and Perfect Balance specializations."
+                        },
+                        {
+                            "name":"Create Custom Ammo",
+                            "desc":"The character can make all of the more common types of specialized ammunition, including Aluminum Ammunition, Armor-Piercing Ammunition, Hollow-Point Rounds, and Incendiary Shells"
+                        }
+                    ],
+                    "equipment":[
+                        {
+                            "item":"Immerling 44 revolver with Extra Capacity, Long Range, and Perfect Balance customizations (Damage +2; 6 shots; Range: Close / Long; Called Shots require only 1 Nudge, or 3 Nudges for an impressive Called Shot); "
+                        },
+                        {
+                            "item":"10 Armorpiercing rounds"
+                        },
+                        {
+                            "item":"10 Hollow-point rounds"
+                        },
+                        {
+                            "item":"Hammer (Damage +3; Melee Range: Touch / Striking)"
+                        },
+                        {
+                            "item":"Gunsmith’s workshop"
+                        }
+                    ],
+                    "roleplay":{},
+                    "lore":{
+                        "example":"The line runs down the block, and the assistant at the storefront keeps trying to shut the door as patrons wedge their way inside. The proprietor walks out, seemingly oblivious to the commotion, carrying a fine pistol with silver inlay. As the folks in line shout out their requests, he simply looks at the orders on the board, selects one thoughtfully, and quietly heads back into his workshop.",
+                        "info":"People who aren’t content with the assembly-line guns that are readily available seek out the services of a gunsmith to make something a little more special. Each gunsmith has a specialty, and connoisseurs pass around a directory that lists what each prominent gunsmith specializes in. Most gunsmiths work for whoever’s paying, but some either refuse to work with known criminals or up their fees substantially for such work."
+                    }
+                },
+                {
+                    "name":"Koloss-blooded Modernist",
+                    "type":"City Folk",
+                    "threat":"Average",
+                    "level":2,
+                    "attributes":{
+                        "physique":6,
+                        "charm":4,
+                        "wits":4
+                    },
+                    "standings":{
+                        "resources":3,
+                        "influence":3,
+                        "spirit":4
+                    },
+                    "resiliences":{
+                        "health":9,
+                        "reputation":7,
+                        "willpower":8
+                    },
+                    "traits":[
+                        {
+                            "trait":"Idealistic Outlook"
+                        },
+                        {
+                            "trait":"Suppressed Rage"
+                        },
+                        {
+                            "trait":"Tribal Outcast"
+                        },
+                        {
+                            "trait":"Well-Read"
+                        }
+                    ],
+                    "koloss":[
+                        {
+                            "name":"Koloss-Blooded Traits",
+                            "desc":"(adds 1 to Physique and 2 dice to rolls involving physical strength",
+                            "stunts":[
+                                {
+                                    "name":"Rapid Healing",
+                                    "desc":"The koloss-blooded's healing rate is doubled — from 1 recovered Health to 2 per day — and he may recover Health during a Short or Long Breather without sitting the Breather out."
+                                }
+                            ]
+                        }
+                    ],
+                    "equipment":[
+                        {
+                            "item":"Bottle of rotgut"
+                        },
+                        {
+                            "item":"Formal clothing"
+                        }
+                    ],
+                    "roleplay":{},
+                    "lore":{
+                        "example":"He sticks out in the quiet university library, sitting a good foot taller than most of the students there. His gray skin marks him as different, and were he not in a dapper suit, he might have been asked politely whether he was lost. He speaks eloquently, all traces of his koloss ancestry lost from his accent. The small crowd listens intently as he talks about embracing who you are and your heritage — and embracing one another for the unique gifts we all possess. He grins, and a few of the lady students exchange looks and suppress smiles.",
+                        "info":"He had opportunities many koloss-blooded do not, largely because he was able to keep his temper in check and encountered some of Harmony’s most generous souls once he was ejected from the tribe. As a whelp, he asked a lot of questions. Why did the koloss live so poorly when humans had so many things like trains and electricity? His elders weren’t impressed with his questions and kicked him out of the tribe far before he was old enough to take spikes. He doesn’t hate his ancestors or tribe, he just feels badly for them. There has to be a better way — a way for the koloss-blooded to live fuller, safer lives without the need of koloss breeding practices and violence."
+                    }
+                },
+                {
+                    "name":"Merchant",
+                    "type":"City Folk",
+                    "threat":"Mild",
+                    "level":1,
+                    "attributes":{
+                        "physique":2,
+                        "charm":4,
+                        "wits":3
+                    },
+                    "standings":{
+                        "resources":4,
+                        "influence":4,
+                        "spirit":3
+                    },
+                    "resiliences":{
+                        "health":6,
+                        "reputation":8,
+                        "willpower":6
+                    },
+                    "traits":[
+                        {
+                            "trait":"Business Connections"
+                        },
+                        {
+                            "trait":"Dealmaker"
+                        },
+                        {
+                            "trait":"Greedy"
+                        },
+                        {
+                            "trait":"Guild Backing"
+                        }
+                    ],
+                    "equipment":[
+                        {
+                            "item":"Pocketwatch"
+                        },
+                        {
+                            "item":"Purse of coppers (Damage +1; Thrown Range: Striking / Medium)"
+                        }
+                    ],
+                    "roleplay":{},
+                    "lore":{
+                        "example":"The busy-looking, officious woman in the apron looks over an inventory list with the intensity of a Terrisman studying ancient scrolls. She pauses only to adjust her stock so the labels all stand in perfect position. Her intense concentration and signs of faint worry vanish at the first signs of a customer, replaced by a too-wide smile as she offers to help them find what they need.",
+                        "info":"City merchants live and die by the quality of their sales. Earn a good reputation and you can make millions. Miss an opportunity, and you’ll lose your shirt faster than you can say “going out of business sale.” Thus, many merchants carry the air of well-heeled con artists about them, willing to hustle the last penny out of a starving beggar in order to make a profit. The honest ones deliver good products for the money, but even they are driven first and foremost by profit. \n\n The good news is that many merchants have connections in the most unusual places, since they often move goods either to or from their present locale. The best have friends in very high places, and can use them to either make their allies’ lives easier or throw up insurmountable roadblocks against their enemies."
+                    },
+                    "image":"./assets/bestiary/Merchant.png"
+                },
+                {
+                    "name":"Politician",
+                    "type":"City Folk",
+                    "threat":"Average",
+                    "level":2,
+                    "attributes":{
+                        "physique":3,
+                        "charm":5,
+                        "wits":4
+                    },
+                    "standings":{
+                        "resources":4,
+                        "influence":6,
+                        "spirit":3
+                    },
+                    "resiliences":{
+                        "health":7,
+                        "reputation":11,
+                        "willpower":7
+                    },
+                    "traits":[
+                        {
+                            "trait":"Noble Heir"
+                        },
+                        {
+                            "trait":"Popular Support"
+                        },
+                        {
+                            "trait":"Skeletons in the Closet"
+                        },
+                        {
+                            "trait":"Stirring Orator"
+                        }
+                    ],
+                    "equipment":[
+                        {
+                            "item":"Dueling cane (Damage +2; Melee Range: Touch / Striking; contains no metal)"
+                        },
+                        {
+                            "item":"Horse & carriage"
+                        },
+                        {
+                            "item":"Political paraphernalia"
+                        }
+                    ],
+                    "roleplay":{},
+                    "lore":{
+                        "example":"The earnest woman wears a sandwich board over her tasteful dress, and a fashionable hat over her modestly coiffed hairdo. She hands out leaflets on the street corner admonishing voters to take action in the upcoming election. She fixes on them with the intense stare of the true believer and steps forward with a smile on her lips. She speaks warmly, her voice dripping with charm, asking for just a few minutes of everyone’s time.",
+                        "info":"Politicians come in all shapes and sizes in The Alloy of Law era. The most powerful ones can be found in the halls of power, brokering deals both clean and dirty. Others run guilds and organize voting blocs of the people in the street. The locales may differ — the last three centuries have been colored by the rich diversity of democratic elections — but the game remains the same. \n\n The best politicians know how to wheel and deal to get what they want. They sense the eddies and currents of power, and maneuver delicately through them to rise through the ranks. Most presumably hope to do some good with their ambition, but all of them understand the need for power to do that. In that sense, little has changed since the days of the Lord Ruler, and many noble families still count formidable politicians among their ranks. But with the rise of democracy and the power of the guilds, commoners have tried their hand at the game too…and many of them find it exceedingly pleasurable. \n\n Politicians are a necessary evil, without whom nothing would get done. Their corruption breeds almost as much misery as it solves, however, and abuses of power continue along all rungs of the ladder. On the other hand, politicians have access to considerable resources, which the right person can use to do much good. Those who find themselves on a politician’s bad side are apt to encounter trouble from corners they never expected."
+                    }
+                },
+                {
+                    "name":"Prosecutor",
+                    "type":"City Folk",
+                    "threat":"Average",
+                    "level":2,
+                    "attributes":{
+                        "physique":2,
+                        "charm":5,
+                        "wits":4
+                    },
+                    "standings":{
+                        "resources":5,
+                        "influence":4,
+                        "spirit":4
+                    },
+                    "resiliences":{
+                        "health":7,
+                        "reputation":9,
+                        "willpower":8
+                    },
+                    "traits":[
+                        {
+                            "trait":"Fast Talk"
+                        },
+                        {
+                            "trait":"Legal Eagle"
+                        },
+                        {
+                            "trait":"Squeaky Wheel"
+                        },
+                        {
+                            "trait":"Well-Connected"
+                        }
+                    ],
+                    "equipment":[
+                        {
+                            "item":"Club (Damage +1; Melee Range: Touch / Striking; contains no metal)"
+                        },
+                        {
+                            "item":"Pocketwatch"
+                        },
+                        {
+                            "item":"Briefcase with legal papers"
+                        }
+                    ],
+                    "roleplay":{},
+                    "lore":{
+                        "example":"She’s carrying a stack of folders, neatly, but with the air that she’s overburdened. Though her hair is styled at the exact middle of fashion and her dress is nice and proper but not extravagant, there’s a sort of spiritual disorder around her. She’s got busy eyes and a way of talking so fast that she can confuse even the most astute observer. But when she smiles, all that uncertainty slips away. She’s all charm and the juries absolutely melt for her.",
+                        "info":"She’s a good woman in a broken system, and she’s as aware of it as anyone. Working within the system and doing what good she can, she tackles the most egregious corruption while looking away from the everyday injustices. Because you can’t keep doing good if you’re ousted. That’s what she tells herself over her third or fourth nightcap. You can’t help those really in need if the system has shut you out. And she’s good, even exceptional, in a courtroom. The sacrifices must be worth it."
+                    }
+                },
+                {
+                    "name":"Robber Baron",
+                    "type":"City Folk",
+                    "threat":"Serious",
+                    "level":3,
+                    "attributes":{
+                        "physique":3,
+                        "charm":5,
+                        "wits":6
+                    },
+                    "standings":{
+                        "resources":8,
+                        "influence":8,
+                        "spirit":3
+                    },
+                    "resiliences":{
+                        "health":11,
+                        "reputation":13,
+                        "willpower":9
+                    },
+                    "traits":[
+                        {
+                            "trait":"Cutthroat"
+                        },
+                        {
+                            "trait":"Domineering"
+                        },
+                        {
+                            "trait":"Land Grabber"
+                        },
+                        {
+                            "trait":"Rivals Everywhere"
+                        },
+                        {
+                            "trait":"Self-Made Man"
+                        }
+                    ],
+                    "equipment":[
+                        {
+                            "item":"Terringul 27 revolver (Damage +1; 6 shots; Range: Close / Medium)"
+                        },
+                        {
+                            "item":"Dueling cane (Damage +2; Melee Range: Touch / Striking; contains no metal)"
+                        },
+                        {
+                            "item":"Formal clothing"
+                        },
+                        {
+                            "item":"Horseless carriage *"
+                        },
+                        {
+                            "item":"Pocketwatch"
+                        }
+                    ],
+                    "roleplay":{},
+                    "lore":{
+                        "example":"If the expensive clothes and dueling cane didn’t give it away, then the hard look in the man’s eyes would. Nobles are more passive than he. More relaxed in their roles as masters of the world. This one got where he was on his own, through ambition, cunning, and plain old greed. It’s clear, even without looking at the notches in that dueling cane, that he’s not afraid to crack skulls if it means getting what he wants.",
+                        "info":"Robber barons constitute the ranks of the nouveau riche, having gained a fortune in a specific industry and now using that fortune to further their own ambitions. Rail tycoons, mine owners, dry goods entrepreneurs…whatever the business, it’s dancing to a robber baron’s tune. The greed and ambition that brought the robber baron to his current status continues unabated now that he’s in power. Many robber barons maintain deplorable conditions in their places of business, paying workers a pittance and demanding absolute fealty in return. They trade politicians like coins and many of them serve as the de facto rulers of whichever community houses their business. \n\n Though extremely wealthy, robber barons have an air to them that separates them from traditional nobles. These men weren’t handed their wealth. They had to earn it with their own two hands. Accordingly, they often enjoy flaunting their wealth and influence, spending staggering amounts on extravagant mansions, parties, and accoutrements. They’re also shrewd businessmen, viewing the world as their own playground that must be forced into submission. With the expansion of the Roughs, they’re rapidly becoming powers to be feared in the Basin."
+                    },
+                    "image":"./assets/bestiary/Baron.png"
+                },
+                {
+                    "name":"Terris Servant",
+                    "type":"City Folk",
+                    "threat":"Mild",
+                    "level":1,
+                    "attributes":{
+                        "physique":2,
+                        "charm":4,
+                        "wits":5
+                    },
+                    "standings":{
+                        "resources":3,
+                        "influence":5,
+                        "spirit":3
+                    },
+                    "resiliences":{
+                        "health":5,
+                        "reputation":9,
+                        "willpower":8
+                    },
+                    "traits":[
+                        {
+                            "trait":"Faithful Servant"
+                        },
+                        {
+                            "trait":"Prim and Proper"
+                        },
+                        {
+                            "trait":"Terrisman"
+                        },
+                        {
+                            "trait":"Tight-lipped"
+                        }
+                    ],
+                    "equipment":[
+                        {
+                            "item":"Formal clothing"
+                        },
+                        {
+                            "item":"Bottle of wine"
+                        }
+                    ],
+                    "roleplay":{},
+                    "lore":{
+                        "example":"He stands almost perfectly still until he gracefully slides his employer’s chair away from the table. As he sets the glasses of fine wine upon the table, he lightly taps one of the many earrings that stud his left ear. It’s a subtle signal, but it gently prods his master on a minor point of etiquette. As he steps aside from the table, he gives his master’s dining companion the slightest look of disapproval to put him on edge.",
+                        "info":"Like the Terris stewards of old, many Terrisfolk still embrace traditions of service and management. With so many Terris living in their people’s enclaves, the demand is high for servants trained in the Terris tradition, and proper Terris stewards fetch top dollar for their services. Most of these itinerant Terrispeople funnel these earnings back to the enclaves or into support for Terris arts and research."
+                    }
                 }
             ],
             "roughs":[

@@ -5,10 +5,12 @@ import Beast from './Bestiary/Beast';
 
 function Bestiary(props) {
   const [mySelection, setSelection] = useState(0);
-  const [myEraOne, setEraOne] = useState(false);
-  const [myEraTwo, setEraTwo] = useState(true);
+  // const [myEraOne, setEraOne] = useState(false);
+  // const [myEraTwo, setEraTwo] = useState(true);
+  const [myEraOne] = useState(false);
+  const [myEraTwo] = useState(true);
   const [myHeroes, setHeroes] = useState(true);
-  const [myCity, setCity] = useState(false);
+  const [myCity, setCity] = useState(true);
   const [myChimera, setChimera] = useState(true);
   const [myWildlife, setWildlife] = useState(true);
   const [myRoughs, setRough] = useState(true);
@@ -17,7 +19,6 @@ function Bestiary(props) {
   const [myMalwish, setMalwish] = useState(true);
   const [myGangs, setGangs] = useState(true);
   const [myBeasts, setBeasts] = useState([]);
-
   
   useEffect(() => {
     let newBeasts = [];
@@ -55,11 +56,6 @@ function Bestiary(props) {
     setSelection(sctNum);
   }
 
-  function switchEra(){
-    setEraOne(!myEraOne); 
-    setEraTwo(!myEraTwo);
-  }
-
   function sortByMultipleComponents(items, components) {
     function compare(a, b) {
       for (let component of components) {
@@ -72,16 +68,21 @@ function Bestiary(props) {
     return items.slice().sort(compare);
   }
 
-  const eraFilters = [
-    { title: 'Era One', select: myEraOne, onClick: () => switchEra()},
-    { title: 'Era Two', select: myEraTwo, onClick: () => switchEra()}
-  ];
+  // function switchEra(){
+  //   setEraOne(!myEraOne); 
+  //   setEraTwo(!myEraTwo);
+  // }
+
+  // const eraFilters = [
+  //   { title: 'Era One', select: myEraOne, onClick: () => switchEra()},
+  //   { title: 'Era Two', select: myEraTwo, onClick: () => switchEra()}
+  // ];
 
   const filters = [
     { title: 'Named', select: myHeroes, onClick: () => setHeroes(!myHeroes) },
     { title: 'City Folks', select: myCity, onClick: () => setCity(!myCity) },
     { title: 'Roughs Folks', select: myRoughs, onClick: () => setRough(!myRoughs) },
-    { title: 'Metalborn', select: myMetals, onClick: () => setMetals(!myMetals) },
+    { title: 'Metalborn', select: myMetals, onClick: () => setMetals(!myMetals) }
   ];
 
   const filtersTwo = [
@@ -91,25 +92,44 @@ function Bestiary(props) {
     { title: 'Wildlife', select: myWildlife, onClick: () => setWildlife(!myWildlife) }
   ];
 
-  const mobileFilters = [
-    { title: 'Era One', select: myEraOne, onClick: () => switchEra()},
-    { title: 'Named', select: myHeroes, onClick: () => setHeroes(!myHeroes) },
-    { title: 'Metalborn', select: myMetals, onClick: () => setCity(!myMetals) },
-  ];
+  // const mobileFilters = [
+  //   { title: 'Era One', select: myEraOne, onClick: () => switchEra()},
+  //   { title: 'Named', select: myHeroes, onClick: () => setHeroes(!myHeroes) },
+  //   { title: 'Era Two', select: myEraTwo, onClick: () => switchEra()},
+  // ];
 
-  const mobileFiltersTwo = [
-    { title: 'City Folk', select: myCity, onClick: () => setRough(!myCity) },
-    { title: 'Roughs Folks', select: myRoughs, onClick: () => setMetals(!myRoughs) },
+  // const mobileFiltersTwo = [
+  //   { title: 'City Folk', select: myCity, onClick: () => setCity(!myCity) },
+  //   { title: 'Roughs Folks', select: myRoughs, onClick: () => setRough(!myRoughs) },
+  //   { title: 'Outsiders', select: myOutsider, onClick: () => setOutsider(!myOutsider) }
+  // ];
+
+  // const mobileFiltersThree = [
+  //   { title: 'Metalborn', select: myMetals, onClick: () => setMetals(!myMetals) },
+  //   { title: 'Malwish', select: myMalwish, onClick: () => setMalwish(!myMalwish) },
+  //   { title: 'Gangs', select: myGangs, onClick: () => setGangs(!myGangs) }
+  // ];
+
+  // const mobileFiltersFour = [
+  //   { title: 'Chimera', select: myChimera, onClick: () => setChimera(!myChimera) },
+  //   { title: 'Wildlife', select: myWildlife, onClick: () => setWildlife(!myWildlife) }
+  // ];
+
+  
+  const mobileFilters = [
+    { title: 'Named', select: myHeroes, onClick: () => setHeroes(!myHeroes) },
+    { title: 'Metalborn', select: myMetals, onClick: () => setMetals(!myMetals) },
     { title: 'Outsiders', select: myOutsider, onClick: () => setOutsider(!myOutsider) }
   ];
 
-  const mobileFiltersThree = [
-    { title: 'Era Two', select: myEraTwo, onClick: () => switchEra()},
-    { title: 'Malwish', select: myMalwish, onClick: () => setMalwish(!myMalwish) },
+  const mobileFiltersTwo = [
+    { title: 'City Folk', select: myCity, onClick: () => setCity(!myCity) },
+    { title: 'Roughs Folks', select: myRoughs, onClick: () => setRough(!myRoughs) },
     { title: 'Gangs', select: myGangs, onClick: () => setGangs(!myGangs) }
   ];
 
-  const mobileFiltersFour = [
+  const mobileFiltersThree = [
+    { title: 'Malwish', select: myMalwish, onClick: () => setMalwish(!myMalwish) },
     { title: 'Chimera', select: myChimera, onClick: () => setChimera(!myChimera) },
     { title: 'Wildlife', select: myWildlife, onClick: () => setWildlife(!myWildlife) }
   ];
@@ -127,7 +147,7 @@ function Bestiary(props) {
                         <h3 className='notButter'>Creatures from {myEraOne ? 'Era 1' : 'Era 2'}</h3>
                       </td>        
                     </tr>
-                    <tr>
+                    {/* <tr>
                       <td></td>
                       {eraFilters.map((filter, index) => (
                         <td key={index}>
@@ -135,7 +155,7 @@ function Bestiary(props) {
                         </td>
                       ))}
                       <td></td>
-                    </tr>
+                    </tr> */}
                     <tr>
                       {filters.map((filter, index) => (
                         <td key={index}>
@@ -182,13 +202,13 @@ function Bestiary(props) {
                         </td>
                       ))}
                     </tr>
-                    <tr>
+                    {/* <tr>
                       {mobileFiltersFour.map((filter, index) => (
                         <td key={index}>
                           <button id={filter.select ? 'filterSelected' : 'filterUnselected'} onClick={filter.onClick}>{filter.title}</button>
                         </td>
                       ))}
-                    </tr>
+                    </tr> */}
                   </tbody>
                 </table>
               </div>
