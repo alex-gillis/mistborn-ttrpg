@@ -3,7 +3,7 @@ function Stunt(props) {
 
     return (
       < >
-        <li><span id="bolder">{props.stunt.name}:</span> {props.stunt.description}</li>
+        <span id="bolder">{props.stunt.name}:</span> {props.stunt.description}
         <br/>
       </>
     )

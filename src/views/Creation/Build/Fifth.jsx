@@ -162,19 +162,23 @@ function Fifth(props) {
             <div>
                 {props.build.resi1}
             </div>
-            {props.build.resiliences.map((myItem, index) => (
-                <li key={index} id="italicked">
-                    {myItem.name}: {myItem.description}
-                </li>
-            ))}
+            <ul>
+                {props.build.resiliences.map((myItem, index) => (
+                    <li key={index} id="italicked">
+                        {myItem.name}: {myItem.description}
+                    </li>
+                ))}
+            </ul>
             <div>
                 {props.build.resi2}
             </div>
-            {props.build.resCalc.map((myItem, index) => (
-                <li key={index} id="italicked">
-                    {myItem.name}: {myItem.description}
-                </li>
-            ))}
+            <ul>
+                {props.build.resCalc.map((myItem, index) => (
+                    <li key={index} id="italicked">
+                        {myItem.name}: {myItem.description}
+                    </li>
+                ))}
+            </ul>
             <h3>Choose your props</h3>
             <div>
                 {props.build.props1}

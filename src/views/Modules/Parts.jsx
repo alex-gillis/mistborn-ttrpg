@@ -18,10 +18,10 @@ function Parts(props) {
             </ul>
             <div>{props.part.part1}</div>
                 {props.part.points?.map((myObject, index) => (
-                    <div>
+                    <div key={index}>
                     <span id="bold">{myObject.name}</span>
                     <ul>
-                        <li key={index}>
+                        <li>
                         {myObject.desc}
                         </li>
                     </ul>
