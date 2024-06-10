@@ -10555,7 +10555,509 @@
                 }
             ],
             "roughs":[
-
+                {
+                    "name":"Company Goon",
+                    "type":"Roughs Folk",
+                    "threat":"Average",
+                    "level":2,
+                    "attributes":{
+                        "physique":6,
+                        "charm":2,
+                        "wits":3
+                    },
+                    "standings":{
+                        "resources":5,
+                        "influence":3,
+                        "spirit":3
+                    },
+                    "resiliences":{
+                        "health":11,
+                        "reputation":5,
+                        "willpower":6
+                    },
+                    "traits":[
+                        {
+                            "trait":"Beat it out of them"
+                        },
+                        {
+                            "trait":"Greedy"
+                        },
+                        {
+                            "trait":"Imposing"
+                        },
+                        {
+                            "trait":"Knows legal loopholes"
+                        }
+                    ],
+                    "equipment":[
+                        {
+                            "item":"Brass knuckles (Damage +1; Melee Range: Touch / Touch)"
+                        },
+                        {
+                            "item":"Riesfel shotgun (Damage +2; 2 shots; Range: Close / Medium)"
+                        },
+                        {
+                            "item":"Lockpicks"
+                        },
+                        {
+                            "item":"Pocketwatch"
+                        },
+                        {
+                            "item":"Rail pass"
+                        },
+                        {
+                            "item":"Horse"
+                        }
+                    ],
+                    "roleplay":{},
+                    "lore":{
+                        "example":"Enforcers for loan sharks and other unsavory types often present a bizarre blend of professionalism and brutality. These men and women dress in fine clothing, but their bodies, hardened by years of street brawls and other rough encounters, strain the seams of their expensive suits. Their accessories, like brass knuckles, leave no doubt about their true nature. They may carry legal documents and mandates, but their real power comes from their willingness to use force to collect debts or enforce the will of their employers. The juxtaposition of their refined appearance and their brutal methods is a clear message: compliance is expected, and resistance will be met with violence.",
+                        "info":"Company goons are mercenaries hired to protect the interests of a given corporation. In some instances, that means fending off bandits and ensuring that shipments reach their destination. All too often, however, it means enforcing company policy on workers who don’t go along with the program. A miner reluctant to enter an unsafe shaft might think otherwise after having his ears boxed, while rabble-rousers demanding higher pay may just vanish in the middle of the night. All thanks to the company goon. \n\n With their bosses often living in distant cities, goons frequently act as laws unto themselves in work camps, with no one to defy them. They take what they want and threaten brutal reprisals to anyone who speaks up. In many ways, they’re no different than the bandits they supposedly fend off. Of course, turnabout is fair play, and a goon who goes too far may wake up one evening with a knife stuck in his chest."
+                    },
+                    "image":"./assets/bestiary/Goon.png"
+                },
+                {
+                    "name":"Dancing Girl",
+                    "type":"Roughs Folk",
+                    "threat":"Mild",
+                    "level":1,
+                    "attributes":{
+                        "physique":4,
+                        "charm":4,
+                        "wits":3
+                    },
+                    "standings":{
+                        "resources":3,
+                        "influence":4,
+                        "spirit":3
+                    },
+                    "resiliences":{
+                        "health":7,
+                        "reputation":8,
+                        "willpower":6
+                    },
+                    "traits":[
+                        {
+                            "trait":"Dancer"
+                        },
+                        {
+                            "trait":"Shrewd"
+                        },
+                        {
+                            "trait":"Troublemaker"
+                        },
+                        {
+                            "trait":"Well-Known"
+                        }
+                    ],
+                    "equipment":[
+                        {
+                            "item":"Cohnvave Two-Shot (Damage +1; 2 shots; Range: Touch / Close)"
+                        },
+                        {
+                            "item":"Bottle of rotgut"
+                        },
+                        {
+                            "item":"Deck of cards"
+                        },
+                        {
+                            "item":"Jewelry"
+                        }
+                    ],
+                    "roleplay":{},
+                    "lore":{
+                        "example":"Don't play cards with that one, people advise. She's tall and strong, from her arms down to her ankles, and she proves it as she extends one beautiful leg toward a fella who's getting a little too close to the stage. He goes flying back into his stool, then tumbles onto the floor. Judging by that kick, she could have just as easily kicked over a horse.",
+                        "info":"She's a real dancer, a real talent; if she wanted to dance in Elendel, she could. But she’s here, and she knows the business around here well. She’s always got something cooking — that’s pretty vital to survival in the Roughs for a woman living on her own. The bouncer is in love with her, the bartender owes her his life, and the sheriff comes to her for advice. She’s got an eye for who’s going to survive the long haul out here in the Roughs, and curries favor with them early on. Sometimes her dealings are just this side of legal, but she takes efforts to avoid hurting anyone with what she’s got cooking. Unless they’re unfaithful, low-down drunks who hurt the other ladies around town. Then, she takes the silk gloves off."
+                    }
+                },
+                {
+                    "name":"Frontier Journalist",
+                    "type":"Roughs Folk",
+                    "threat":"Mild",
+                    "level":1,
+                    "attributes":{
+                        "physique":3,
+                        "charm":4,
+                        "wits":4
+                    },
+                    "standings":{
+                        "resources":2,
+                        "influence":3,
+                        "spirit":5
+                    },
+                    "resiliences":{
+                        "health":5,
+                        "reputation":7,
+                        "willpower":9
+                    },
+                    "traits":[
+                        {
+                            "trait":"Copious Notes"
+                        },
+                        {
+                            "trait":"Noble Runaway"
+                        },
+                        {
+                            "trait":"Snoop"
+                        },
+                        {
+                            "trait":"Way with Words"
+                        }
+                    ],
+                    "equipment":[
+                        {
+                            "item":"Riesfel shotgun (Damage +2; 2 shots; Range: Close / Medium)"
+                        },
+                        {
+                            "item":"Obsidian knife (Damage +1; Melee Range: Touch / Touch; contains no metal)"
+                        },
+                        {
+                            "item":"Pencil and notebook"
+                        },
+                        {
+                            "item":"Rail pass"
+                        },
+                        {
+                            "item":"Survival gear"
+                        },
+                        {
+                            "item":"Horse"
+                        }
+                    ],
+                    "roleplay":{},
+                    "lore":{
+                        "example":"The mousy, mud-covered gal eagerly flips back a page in her meticulously collected notes and reads for a moment. Then she looks up and starts asking the mayor questions: “So you’re saying the caves are entirely unexplored? That even bandits have not yet taken up residence inside because of the, what is this? Mist-ghosts that are said to haunt the caves?” Her eyes absolutely sparkle as she sets to work, ready to go hunting for this couple who threw themselves into the cave to avoid separation. Then she asks around to see if any good, hardy, hired guns in the area haven’t heard about those Mistghost rumors.",
+                        "info":"Characterizing her as an opportunist would probably be a bit unfair, though she will leverage a situation to her advantage. The thing is, she’s in love with the Roughs. She’s in love with its smallest and its grandest stories, and values all of them equally. She’ll hunt down the truth behind a coalman’s strike with the same passion as the story of a small-town widow and her missing son. Yes, she frequently hires fortune hunters and mercenaries to look after her on her quest for these stories, and sometimes that works out well. Usually it doesn’t, which is really its own sort of story to tell. What would her noble lord daddy back in Elendel say if he knew?"
+                    }
+                },
+                {
+                    "name":"Homesteader",
+                    "type":"Roughs Folk",
+                    "threat":"Mild",
+                    "level":1,
+                    "attributes":{
+                        "physique":5,
+                        "charm":2,
+                        "wits":2
+                    },
+                    "standings":{
+                        "resources":2,
+                        "influence":2,
+                        "spirit":4
+                    },
+                    "resiliences":{
+                        "health":7,
+                        "reputation":4,
+                        "willpower":6
+                    },
+                    "traits":[
+                        {
+                            "trait":"Farmer"
+                        },
+                        {
+                            "trait":"Hayseed"
+                        },
+                        {
+                            "trait":"Independent"
+                        },
+                        {
+                            "trait":"Muscular"
+                        }
+                    ],
+                    "equipment":[
+                        {
+                            "item":"Riesfel shotgun (Damage +2; 2 shots; Range: Close / Medium)"
+                        },
+                        {
+                            "item":"Farming implement (Damage +1; Melee Range: Touch / Striking)"
+                        },
+                        {
+                            "item":"Working animal"
+                        }
+                    ],
+                    "roleplay":{},
+                    "lore":{
+                        "example":"In many ways, the man looks like a farmer or rancher of the sort you’d see in the Basin. His skin may be a little tanner, his hands a little gnarlier, and the farming tools look well used. But unlike a Basin farmer, he’s got a revolver tucked in his waistband, and his eyes constantly scan the horizon for danger. This man has more than farming or ranching on his mind; he knows how to fight to keep what’s his, and he often has to whether he likes it or not.",
+                        "info":"Homesteaders have headed out from the Basin into the Roughs to build a life for themselves. Here, they can be their own boss, working for everything they have and savoring the freedom from society’s rules. Of course, a free life isn’t the same as an easy life; homesteaders quickly learn to defend what’s theirs from natural forces and human predators alike. \n\n The homesteaders’ lifestyle makes them wary of strangers and slow to trust. Newcomers mean fewer resources to go around. However, the isolated landscape in which they live means they must band together in times of trouble. Once you’ve earned their respect, you’ll have a friend for life. That’s worth its weight in gold out in the Roughs, where a warm fire and shelter for the night can spell the difference between life and death."
+                    }
+                },
+                {
+                    "name":"Koloss-blooded Shepherd",
+                    "type":"Roughs Folk",
+                    "threat":"Mild",
+                    "level":1,
+                    "attributes":{
+                        "physique":7,
+                        "charm":2,
+                        "wits":3
+                    },
+                    "standings":{
+                        "resources":2,
+                        "influence":4,
+                        "spirit":5
+                    },
+                    "resiliences":{
+                        "health":9,
+                        "reputation":6,
+                        "willpower":8
+                    },
+                    "traits":[
+                        {
+                            "trait":"Koloss Outcast"
+                        },
+                        {
+                            "trait":"Soft-spoken"
+                        },
+                        {
+                            "trait":"Pacifist"
+                        },
+                        {
+                            "trait":"Survivorist"
+                        }
+                    ],
+                    "koloss":[
+                        {
+                            "name":"Koloss-Blooded Traits",
+                            "desc":"adds 1 to Physique and 2 dice to rolls involving physical strength",
+                            "stunts":[
+                                {
+                                    "name":"Tough",
+                                    "desc":"+2 Health (included in Resiliences above)"
+                                }
+                            ]
+                        }
+                    ],
+                    "equipment":[
+                        {
+                            "item":"Koloss cleaver (Damage +3; Melee Range: Touch / Striking)"
+                        },
+                        {
+                            "item":"Holy book"
+                        }
+                    ],
+                    "roleplay":{},
+                    "lore":{
+                        "example":"He wears grimy, dour clothes and a hood to draw attention away from his looming, inhuman appearance. He and his flock are passing through, just looking for trade, water, and maybe to clean some clothes and bandages. The patrons in the general store make a fuss as they overhear him talking about a koloss tribe coming through in the near future. He promises that he’ll help steer the tribe clear and wishes the Survivor’s blessings upon them.",
+                        "info":"Some koloss-blooded leave the wilds and nomadic life of their forebears, latching onto human settlements or even moving on to work in the Outer Estates or Elendel itself…but not all. Some, like the shepherd, feel a sense of responsibility to preserve their culture for themselves and their fellow koloss-blooded, despite their exile. Shepherds are in many ways surrogate chiefs, who act as community voices for bands of koloss-blooded and sometimes as go-betweens for both humans and koloss tribes. Though this work is both hard and thankless, for the shepherd, the mission is a calling."
+                    }
+                },
+                {
+                    "name":"Mercenary Archer",
+                    "type":"Roughs Folk",
+                    "threat":"Average",
+                    "level":2,
+                    "attributes":{
+                        "physique":5,
+                        "charm":3,
+                        "wits":3
+                    },
+                    "standings":{
+                        "resources":3,
+                        "influence":2,
+                        "spirit":4
+                    },
+                    "resiliences":{
+                        "health":8,
+                        "reputation":5,
+                        "willpower":7
+                    },
+                    "traits":[
+                        {
+                            "trait":"Eagle Eyes"
+                        },
+                        {
+                            "trait":"Mercenary"
+                        },
+                        {
+                            "trait":"Roughs Scout"
+                        },
+                        {
+                            "trait":"Tireless"
+                        }
+                    ],
+                    "equipment":[
+                        {
+                            "item":"Crossbow and obsidian arrows (Damage +2; Range: Close / Extreme; contains no metal)"
+                        },
+                        {
+                            "item":"Obsidian hatchet (Damage +1; Melee Range: Touch / Striking; contains no metal)"
+                        },
+                        {
+                            "item":"Leather duster (absorbs 1 damage from physical attacks)"
+                        }
+                    ],
+                    "roleplay":{},
+                    "lore":{
+                        "example":"No one heard her come in, nor the sound of her cranking the crossbow’s winch. That’s because they only know the sound of a gun being cocked. No one is ever listening for a bow. But the twang and the thunk of a bolt sinking six inches in a wooden wall...well, that makes people take note.",
+                        "info":"The one thing Mistings forget to take into account is a wooden arrow right through their ribcage. The archer counts on this. She’s as silent as she is capable, and her arrows hit nearly all the time. They miss when she wants them to. She’s not in this for the glory. She just wants a job that’s a challenge and worth the effort, and acting as an archer for an upstanding lawkeeper pretty much fits the bill. For more money, she may even work for less scrupulous types."
+                    }
+                },
+                {
+                    "name":"Prospector",
+                    "type":"Roughs Folk",
+                    "threat":"Mild",
+                    "level":1,
+                    "attributes":{
+                        "physique":4,
+                        "charm":3,
+                        "wits":3
+                    },
+                    "standings":{
+                        "resources":4,
+                        "influence":2,
+                        "spirit":4
+                    },
+                    "resiliences":{
+                        "health":8,
+                        "reputation":5,
+                        "willpower":7
+                    },
+                    "traits":[
+                        {
+                            "trait":"Filthy"
+                        },
+                        {
+                            "trait":"Haggler"
+                        },
+                        {
+                            "trait":"Mining Expert"
+                        }
+                    ],
+                    "equipment":[
+                        {
+                            "item":"Miner's pick  (as hammer — Damage +3; Melee Range: Touch / Striking)"
+                        },
+                        {
+                            "item":"Granger 30-30 rifle (Damage +3; 1 shot; Close / Extreme)"
+                        },
+                        {
+                            "item":"Dynamite (2 sticks; Explosive Damage 5 (Striking Range) / 2 (Close Range); Thrown Range: Close / Medium; contains no metal)"
+                        },
+                        {
+                            "item":"Prospector’s gear"
+                        },
+                        {
+                            "item":"Rope and grapple"
+                        }
+                    ],
+                    "roleplay":{},
+                    "lore":{
+                        "example":"There's a clanging, a rumbling from deep inside the mine's mouth, a lightless cave with tracks that vanish into its maw. The mouth spits out a massive dust storm that leaves everyone standing outside coughing and covering their faces. When the dust settles, a squat, keen-eyed man covered in dirt to the point where his age is impossible to gauge grins a toothless grin. He holds up a handful of rocks that glint in the sunbeams that pass through the cloud of smoke.",
+                        "info":"He's small, he's clever, and he knows the hills and mining operations all over the area. Years of experience and good instincts have helped him save the lives of a lot of other prospectors throughout his career, and though he likes to be treated as if he's got a bit more authority than he does, most people find that he's still a pleasure to work with. He should be proud — he's very good at what he does and he makes his bosses a lot of money... along with a good bit to spend back in town on himself."
+                    }
+                },
+                {
+                    "name":"Ranch Hand",
+                    "type":"Roughs Folk",
+                    "threat":"Mild",
+                    "level":1,
+                    "attributes":{
+                        "physique":5,
+                        "charm":3,
+                        "wits":2
+                    },
+                    "standings":{
+                        "resources":3,
+                        "influence":2,
+                        "spirit":3
+                    },
+                    "resiliences":{
+                        "health":8,
+                        "reputation":5,
+                        "willpower":5
+                    },
+                    "traits":[
+                        {
+                            "trait":"Good with Animals"
+                        },
+                        {
+                            "trait":"Hayseed"
+                        },
+                        {
+                            "trait":"Jack-of-all-Trades"
+                        },
+                        {
+                            "trait":"Rugged"
+                        }
+                    ],
+                    "equipment":[
+                        {
+                            "item":"Immerling 44 revolver (Damage +2; 4 shots; Range: Close / Medium)"
+                        },
+                        {
+                            "item":"Hunting Knife (Damage +2; Melee Range: Touch / Striking)"
+                        },
+                        {
+                            "item":"asso (Disarm or Grapple at range; Range: Striking / Medium)"
+                        },
+                        {
+                            "item":"Horse"
+                        }
+                    ],
+                    "roleplay":{},
+                    "lore":{
+                        "example":"A tall thin woman saunters by, lariat held easily in her hands. Her broad hat can’t hide the careworn lines pressed into her face by the sun. She smiles a gap-tooth grin, but her free hand casually unbinds the revolver hanging at her belt, a gesture that says “We’re talkin’, friend, and we need it to stay that way.” The horse nearby looks just as easy-going... and just as ready to cause trouble if someone comes asking.",
+                        "info":"Ranch hands are typically drifters who work odd jobs on the sheep and horse ranches in the Roughs. They do everything from herding cattle to mending fences to patrolling the ranch borders for rustlers. Like a lot of work out in the Roughs, it’s hard and thankless. Most ranch hands spend only a few months moving from job to job, and they never have more than a few coins in their pockets. In some cases, however, ranch hands sign on to a single operation. They become second to family to the ranch owners, sharing the hardships and rewards in equal measure. \n\n Naturally, ranch hands learn how to take care of themselves. They have to be tough, and aren’t afraid to flash that toughness when the situation demands it. Left without many expenses, they often spend their earnings on alcohol and gambling, causing trouble in town before staggering back to wherever they’re currently employed. The smart ones keep the carousing to a minimum, but ranch hands as a group have a reputation for rambunctiousness."
+                    },
+                    "image":"./assets/bestiary/Rancher.png"
+                },
+                {
+                    "name":"Rugged Pathian",
+                    "type":"Roughs Folk",
+                    "threat":"Average",
+                    "level":2,
+                    "attributes":{
+                        "physique":4,
+                        "charm":3,
+                        "wits":4
+                    },
+                    "standings":{
+                        "resources":3,
+                        "influence":3,
+                        "spirit":5
+                    },
+                    "resiliences":{
+                        "health":7,
+                        "reputation":6,
+                        "willpower":9
+                    },
+                    "traits":[
+                        {
+                            "trait":"Devout"
+                        },
+                        {
+                            "trait":"Do More Good Than Harm"
+                        },
+                        {
+                            "trait":"Do Not Suffer Fools Lightly"
+                        },
+                        {
+                            "trait":"I’ve Seen Rough Times"
+                        }
+                    ],
+                    "equipment":[
+                        {
+                            "item":"Immerling 44 revolver (Damage +2; 4 shots; Range: Close / Medium)"
+                        },
+                        {
+                            "item":"Hunting Knife (Damage +2; Melee Range: Touch / Striking)"
+                        },
+                        {
+                            "item":"Earring with the symbol of the Path"
+                        },
+                        {
+                            "item":"Survival gear"
+                        },
+                        {
+                            "item":"Horse"
+                        }
+                    ],
+                    "roleplay":{},
+                    "lore":{
+                        "example":"He wears loose robes and a penitent’s smile. When he speaks, it’s with a stressed softness as if it’s hard to keep his voice quiet, which it well might be. He wears his earring at all times. Harmony has taught him patience and tolerance — but only so much of it. Right now, he’s staring down a group of ruffians. One of them snorts and charges the Pathian, who sighs, catches him by the neck, and slams him three times into the rough pavement. “I am.” Slam. “Trying.” Slam. “To be patient.” Slam. “With you.”",
+                        "info":"He truly believes that the Faceless Immortal who found him in the wild saved his life, and he takes the teachings of the Path very seriously. “Do more good than harm” is not a conceptual nicety that sounds good on paper, but a literal call for a complete accounting of any and all actions. When he arrived in town, he begged the barkeeper to teach him to read and write specifically so he could keep a literal tab of his right- and wrongdoing. When the balance is off, he looks for good to do. This, as you can imagine, can lead him into trouble."
+                    }
+                }
             ],
             "metalborn":[
 
