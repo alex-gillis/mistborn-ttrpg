@@ -11060,7 +11060,850 @@
                 }
             ],
             "metalborn":[
-
+                {
+                    "name":"Brute Builder",
+                    "type":"Metalborn",
+                    "threat":"Average",
+                    "level":2,
+                    "attributes":{
+                        "physique":5,
+                        "charm":3,
+                        "wits":3
+                    },
+                    "standings":{
+                        "resources":4,
+                        "influence":3,
+                        "spirit":5
+                    },
+                    "resiliences":{
+                        "health":9,
+                        "reputation":6,
+                        "willpower":8
+                    },
+                    "traits":[
+                        {
+                            "trait":"City Kid"
+                        },
+                        {
+                            "trait":"Construction Experience"
+                        },
+                        {
+                            "trait":"Endless Endurance"
+                        },
+                        {
+                            "trait":"Intimidating"
+                        }
+                    ],
+                    "feruchemy":[
+                        {
+                            "name":"Pewter 5",
+                            "desc":"Stores physical strength"
+                        }
+                    ],
+                    "equipment":[
+                        {
+                            "item":"Hammer (Damage +3; Melee Range: Touch / Striking);"
+                        },
+                        {
+                            "item":"3 average Pewter metalminds (100 charges of strength each)"
+                        }
+                    ],
+                    "roleplay":{},
+                    "lore":{
+                        "example":"Fourteen stories up, a huge steel beam slips off one of its pulleys. It could fall, ruining two weeks of work and possibly killing some of the construction workers. But one man stretches out a hand, his muscles suddenly bulging and ripping the seams of his clothing as he grabs the beam and slips the entire thing in place without help. The other workers cheer, promising to cover all his drinks tonight after work.",
+                        "info":"Pewter Ferrings store their strength in their metalminds and then draw it out again to use later. Pewter Ferrings can’t enhance their strength for nearly as long as a Thug with several full Misting pouches, and must pay for their additional strength with days or even weeks of weakness. However, unlike a Pewter Misting, they have no limit on how much they can enhance their strength. With enough charges of strength, a Pewter Ferring could pick up a locomotive or break open the door of an armored safe with a single blow. For jobs like construction, they’re less in demand than Pewterarms, but considerably more desirable and well-paid than folks without powers."
+                    }
+                },
+                {
+                    "name":"Coinshot Courier",
+                    "type":"Metalborn",
+                    "threat":"Average",
+                    "level":2,
+                    "attributes":{
+                        "physique":4,
+                        "charm":3,
+                        "wits":4
+                    },
+                    "standings":{
+                        "resources":3,
+                        "influence":4,
+                        "spirit":4
+                    },
+                    "resiliences":{
+                        "health":7,
+                        "reputation":7,
+                        "willpower":8
+                    },
+                    "traits":[
+                        {
+                            "trait":"I know a shortcut!"
+                        },
+                        {
+                            "trait":"On the lookout for trouble"
+                        },
+                        {
+                            "trait":"Speedy delivery"
+                        }
+                    ],
+                    "allomancy":[
+                        {
+                            "name":"Steel 5",
+                            "desc":"Pushes metal objects",
+                            "stunts":[
+                                {
+                                    "name":"Steel Running",
+                                    "desc":"By Pushing off the metals in her environment, she can move as fast as a galloping race horse (approximately 40 mph). During each Beat, she may Steelpush to take up to 2 steps toward or away from a target without penalty, or she may choose not to gain any Action or Defense dice for the round to take 3 steps toward or away from a target."
+                                }
+                            ]
+                        }
+                    ],
+                    "equipment":[
+                        {
+                            "item":"Sack of coppers (Damage +1; Thrown Range: Striking / Medium)"
+                        },
+                        {
+                            "item":"2 Misting pouches (3 charges of Steel each)"
+                        },
+                        {
+                            "item":"Survival gear"
+                        }
+                    ],
+                    "roleplay":{},
+                    "lore":{
+                        "example":"An avalanche wiped out most of the food the people of Reddi’s Find had stored for winter, and they figured they were doomed. Thank Harmony when the courier flashed off to Elendel swifter than anything. The broadsheets carried the story about the Coinshot dropping down from the sky, exhausted and shivering, to deliver the news and get emergency shipments sent out on the next train.",
+                        "info":"These days, the trains can go faster down the tracks, but Coinshot couriers aren’t stuck moving on the tracks. Embedded “roads” of metal are much cheaper and easier to construct, and Coinshots with their trusty mailbags keep messages moving between Elendel and the remotest corners of the Roughs. Even towns too small or distant to be within easy reach of a train station can keep in contact thanks to the Coinshot couriers who travel these routes during all seasons of the year."
+                    },
+                    "image":"./assets/bestiary/Courier.png"
+                },
+                {
+                    "name":"Copperkeep Detective",
+                    "type":"Metalborn",
+                    "threat":"Serious",
+                    "level":3,
+                    "attributes":{
+                        "physique":3,
+                        "charm":4,
+                        "wits":5
+                    },
+                    "standings":{
+                        "resources":4,
+                        "influence":4,
+                        "spirit":5
+                    },
+                    "resiliences":{
+                        "health":7,
+                        "reputation":8,
+                        "willpower":10
+                    },
+                    "traits":[
+                        {
+                            "trait":"Highly Observant"
+                        },
+                        {
+                            "trait":"Impatient"
+                        },
+                        {
+                            "trait":"Methodical"
+                        },
+                        {
+                            "trait":"Skilled Detective"
+                        }
+                    ],
+                    "allomancy":[
+                        {
+                            "name":"Copper 4",
+                            "desc":"hides nearby Allomancy"
+                        }
+                    ],
+                    "feruchemy":[
+                        {
+                            "name":"Copper 4",
+                            "desc":"Stores memories; can perform Compounding"
+                        }
+                    ],
+                    "equipment":[
+                        {
+                            "item":"Cohnvave Two-Shot (Damage +1; 2 shots; Range: Touch / Close)"
+                        },
+                        {
+                            "item":"Dueling cane (Damage +2; Melee Range: Touch / Striking; contains no metal)"
+                        },
+                        {
+                            "item":"Misting vial (3 charges of Copper)"
+                        },
+                        {
+                            "item":"Average coppermind (stores 100 charges of memory)"
+                        },
+                        {
+                            "item":"Formal clothing"
+                        },
+                        {
+                            "item":"Lockpicks"
+                        },
+                        {
+                            "item":"Pocketwatch"
+                        }
+                    ],
+                    "roleplay":{},
+                    "lore":{
+                        "example":"The detective realizes the person who broke into this vault must have been left-handed, unusually tall, and exceptionally strong. Almost certainly a koloss-blooded, or perhaps a large Thug, but in either case definitely left-handed — that narrows the field of suspects considerably. She also recognizes a faint smell, and taps a few charges of Copper that allow her to recall the sharp scent of a smoked jerky she’d only seen koloss-blooded enjoy. Oh, the thief was definitely koloss-blooded.",
+                        "info":"Copper Compounding Twinborn, called Copperkeeps, have inhumanly perfect and precise memories. Many who have connections to the Terris community become Keepers, but a few find that the combination of their immunity to Allomantic influence and their memories allows them to become extremely successful lawkeepers or consulting detectives."
+                    }
+                },
+                {
+                    "name":"Firesoul Engineer",
+                    "type":"Metalborn",
+                    "threat":"Average",
+                    "level":2,
+                    "attributes":{
+                        "physique":4,
+                        "charm":2,
+                        "wits":4
+                    },
+                    "standings":{
+                        "resources":3,
+                        "influence":2,
+                        "spirit":4
+                    },
+                    "resiliences":{
+                        "health":7,
+                        "reputation":4,
+                        "willpower":8
+                    },
+                    "traits":[
+                        {
+                            "trait":"Hot-Headed"
+                        },
+                        {
+                            "trait":"Railroad Engineer"
+                        },
+                        {
+                            "trait":"Stroke the Fires"
+                        }
+                    ],
+                    "feruchemy":[
+                        {
+                            "name":"Brass 4",
+                            "desc":"Stores warmth"
+                        }
+                    ],
+                    "equipment":[
+                        {
+                            "item":"Granger 30-30 rifle (Damage +3; 1 shot; Range: Close / Extreme)"
+                        },
+                        {
+                            "item":"Craftsman’s tools (mechanic)"
+                        },
+                        {
+                            "item":"3 average Brass metalminds (100 charges of warmth each)"
+                        }
+                    ],
+                    "lore":{
+                        "example":"She’s got a good head for machines, and the work of keeping a locomotive running doesn’t seem to bother her as much as most people because she can store the heat in her brassminds. How she got used to the smoke, nobody’s sure. The railway company appreciates her, especially after the time way out in the Roughs when a piston broke and she used her stored heat to make a temporary repair by welding a piston rod—without her, they’d have needed to dispatch a pair of engines to haul her train back to Elendel, rather than her sending it back under its own power.",
+                        "info":"Brass Ferrings can store and release heat, keeping them warm in the winter and cool in the summer, as well as allowing them to generate massive amounts of heat, if they’ve stored a sufficient number of charges. As a result, they often find work as firefighters, blacksmiths, or any position with extreme temperatures."
+                    }
+                },
+                {
+                    "name":"Koloss-blooded Bloodmaker",
+                    "type":"Metalborn",
+                    "threat":"Serious",
+                    "level":3,
+                    "attributes":{
+                        "physique":7,
+                        "charm":3,
+                        "wits":4
+                    },
+                    "standings":{
+                        "resources":4,
+                        "influence":4,
+                        "spirit":4
+                    },
+                    "resiliences":{
+                        "health":11,
+                        "reputation":7,
+                        "willpower":8
+                    },
+                    "traits":[
+                        {
+                            "trait":"Crack Shot"
+                        },
+                        {
+                            "trait":"Bounty Hunter"
+                        },
+                        {
+                            "trait":"Fearsome Reputation"
+                        },
+                        {
+                            "trait":"Skilled Rider"
+                        }
+                    ],
+                    "feruchemy":[
+                        {
+                            "name":"Gold 5",
+                            "desc":"Stores physical health"
+                        }
+                    ],
+                    "koloss":[
+                        {
+                            "name":"Koloss-Blooded Traits",
+                            "desc":"adds 1 to Physique and 2 dice to rolls involving physical strength",
+                            "stunts":[
+                                {
+                                    "name":"Dense Muscle",
+                                    "desc":"The character suffers 1 less damage from physical attacks"
+                                }
+                            ]
+                        }
+                    ],
+                    "equipment":[
+                        {
+                            "item":"Granger 30-30 rifle (Damage +3; 1 shot; Close / Extreme)"
+                        },
+                        {
+                            "item":"Koloss blade (Damage +4; Melee Range: Striking / Striking)"
+                        },
+                        {
+                            "item":"3 average Gold metalminds (store 100 charges of health each)"
+                        },
+                        {
+                            "item":"Horse"
+                        }
+                    ],
+                    "lore":{
+                        "example":"The fugitives in the bar are quaking with every step as the koloss-blooded man comes through the saloon doors. Their wanted posters roll open as the big man tosses them on the floor. He gives them a choice: come along without saying a damn word, or eat a bullet and get dragged away. The lawbreakers know the tall tales saying this fella can’t be killed, and their hands shoot for the sky right quick.",
+                        "info":"Koloss-blooded are large, powerful, and inhumanly strong. A koloss-blooded Bloodmaker is all this, while also being exceptionally difficult to kill or injure. By reducing his Health to a more normal level for a human, a koloss-blooded Bloodmaker can store large amounts of health with only minimal impairment, allowing him to later swiftly and easily heal all but the most massive wounds."
+                    }
+                },
+                {
+                    "name":"Koloss-blooded Rioter",
+                    "type":"Metalborn",
+                    "threat":"Average",
+                    "level":2,
+                    "attributes":{
+                        "physique":4,
+                        "charm":5,
+                        "wits":3
+                    },
+                    "standings":{
+                        "resources":3,
+                        "influence":4,
+                        "spirit":3
+                    },
+                    "resiliences":{
+                        "health":7,
+                        "reputation":9,
+                        "willpower":6
+                    },
+                    "traits":[
+                        {
+                            "trait":"Keen Hearing"
+                        },
+                        {
+                            "trait":"Negotiator"
+                        },
+                        {
+                            "trait":"Well-Spoken"
+                        }
+                    ],
+                    "allomancy":[
+                        {
+                            "name":"Zinc 5",
+                            "desc":"Riots the emotions of others",
+                            "stunts":[
+                                {
+                                    "name":"Tug Emotion",
+                                    "desc":"The character subtly Riots nearly everyone around him when burning Zinc. At these times he gains one die with Charm rolls. He does not gain this bonus with any roll that also gains dice due to Rioted emotions (i.e., he may not stack this benefit with the basic use of Zinc)."
+                                }
+                            ]
+                        }
+                    ],
+                    "koloss":[
+                        {
+                            "name":"Koloss-Blooded Traits",
+                            "desc":"adds 1 to Physique and 2 dice to rolls involving physical strength"
+                        }
+                    ],
+                    "equipment":[
+                        {
+                            "item":"Dueling cane (Damage +2; Melee Range: Touch / Striking; contains no metal)"
+                        },
+                        {
+                            "item":"Misting vial (3 charges of Zinc)"
+                        },
+                        {
+                            "item":"Bottle of wine"
+                        },
+                        {
+                            "item":"Formal clothing"
+                        }
+                    ],
+                    "lore":{
+                        "example":"Though the koloss-blooded organizer’s story is well known, he tells it yet again to the assembled crowd. He wasn’t the strongest of his kind and he wanted another way to excel than to be a brutish koloss warrior. He came to human society because he knew his Allomancy gave him an edge that most of his kind lacked. Seeing how other koloss-blooded were treated in both the Roughs and in Elendel, how could he refuse to do something about the problem? How could any koloss-blooded not work for the good of all of them? The crowd erupts in deep-voiced cheers.",
+                        "info":"Few humans consider koloss-blooded to be charismatic or good at social situations, but koloss-blooded Rioters can use their powers to excel in social situations and even to overcome most of the anti-koloss prejudice that so many of their kind face. By combining the physical prowess of their ancestry with the rousing social prowess common to all Rioters, a koloss-blooded Rioter can be a formidable individual."
+                    }
+                },
+                {
+                    "name":"Leecher Constable",
+                    "type":"Metalborn",
+                    "threat":"Average",
+                    "level":2,
+                    "attributes":{
+                        "physique":4,
+                        "charm":4,
+                        "wits":4
+                    },
+                    "standings":{
+                        "resources":4,
+                        "influence":4,
+                        "spirit":3
+                    },
+                    "resiliences":{
+                        "health":8,
+                        "reputation":8,
+                        "willpower":7
+                    },
+                    "traits":[
+                        {
+                            "trait":"Protect and Serve"
+                        },
+                        {
+                            "trait":"Touchy"
+                        }
+                    ],
+                    "allomancy":[
+                        {
+                            "name":"Chromium 5",
+                            "desc":"Wipes out another's metal reserves",
+                            "stunts":[
+                                {
+                                    "name":"Defensive Leeching (Reaction) 1",
+                                    "desc":"Once per Beat, when an Allomancer hits or otherwise makes direct physical contact with the character, the character may immediately burn Chromium, depleting the opponent’s unburned charges at the moment of contact. If the opponent’s action involves a roll, this is a Contest; the character makes a Chromium roll and if his Result beats that of his opponent, all charges that opponent has stored are immediately wiped out. If the opponent’s action involves no roll, the character must instead make a Difficulty 1 Chromium roll to wipe out the opponent’s stored charges."
+                                }
+                            ]
+                        }
+                    ],
+                    "equipment":[
+                        {
+                            "item":"Terringul 27 revolver (Damage +1; 6 shots; Range: Close / Medium)"
+                        },
+                        {
+                            "item":"Club (Damage +1; Melee Range: Touch / Striking; contains no metal)"
+                        },
+                        {
+                            "item":"Misting pouch (3 charges of Chromium)"
+                        },
+                        {
+                            "item":"Constable's Badge and Uniform"
+                        }
+                    ],
+                    "lore":{
+                        "example":"",
+                        "info":""
+                    }
+                },
+                {
+                    "name":"Lurcher Bodyguard",
+                    "type":"Metalborn",
+                    "threat":"Average",
+                    "level":2,
+                    "attributes":{
+                        "physique":5,
+                        "charm":3,
+                        "wits":3
+                    },
+                    "standings":{
+                        "resources":4,
+                        "influence":3,
+                        "spirit":4
+                    },
+                    "resiliences":{
+                        "health":9,
+                        "reputation":6,
+                        "willpower":7
+                    },
+                    "traits":[
+                        {
+                            "trait":"Guarded"
+                        },
+                        {
+                            "trait":"Gutsy"
+                        },
+                        {
+                            "trait":"On the lookout"
+                        }
+                    ],
+                    "allomancy":[
+                        {
+                            "name":"Iron 5",
+                            "desc":"Pulls metal objects",
+                            "stunts":[
+                                {
+                                    "name":"Iron Redirection (Reaction)",
+                                    "desc":"Once per Beat, the character may Pull metal objects that are already in motion (such as bullets, steel-headed arrows, coins, and other thrown metal objects), potentially redirecting their flight. This is a Reaction and grants the Lurcher 5 dice for her Reaction roll. The Lurcher may add Action or Defense Dice to this pool if desired, though no more than 10 dice may be rolled, as usual. If the Lurcher’s Reaction Result beats the attacker’s Result, the object’s trajectory may be adjusted enough that it either misses the original target or flies toward the Lurcher instead (her choice). With success and if the Lurcher Pulls the object in her direction, 2 Nudges may be spent to catch it."
+                                }
+                            ]
+                        }
+                    ],
+                    "equipment":[
+                        {
+                            "item":"Immerling 44 revolver (Damage +2; 4 shots; Range: Close / Medium)"
+                        },
+                        {
+                            "item":"Lurcher plate (absorbs 3 damage from physical attacks)"
+                        },
+                        {
+                            "item":"Large wooden shield (adds 2 dice to defense rolls against physical attack)"
+                        },
+                        {
+                            "item":"Misting pouch (3 charges of Iron)"
+                        }
+                    ],
+                    "lore":{
+                        "example":"The day is sweltering, but the man in the tin suit can’t afford to think about that. The crowd assembled for the labor rally around him is thick and close, and the blue Allomantic lines spread out from his chest like a giant spider’s web. Suddenly, a shot rings out, and the man in the tin suit acts out of pure instinct, yanking the bullet off its arc to strike him square in the chest. Time to earn his pay...",
+                        "info":"Lurchers are the opposite of Coinshots, using Allomancy to Pull metal in their direction. Their powers aren’t as immediately useful for attacks, but they make fine guards and can disarm most gunmen and foil the attacks of Coinshots with little more than a vial of metal and a heavily armored breastplate. More than one wealthy merchant or banker in Elendel City has a Lurcher bodyguard who can draw bullets away from her employer."
+                    },
+                    "image":"./assets/bestiary/Lurcher.png"
+                },
+                {
+                    "name":"Seeker Deputy",
+                    "type":"Metalborn",
+                    "threat":"Average",
+                    "level":2,
+                    "attributes":{
+                        "physique":3,
+                        "charm":3,
+                        "wits":4
+                    },
+                    "standings":{
+                        "resources":4,
+                        "influence":4,
+                        "spirit":3
+                    },
+                    "resiliences":{
+                        "health":7,
+                        "reputation":7,
+                        "willpower":7
+                    },
+                    "traits":[
+                        {
+                            "trait":"Always get my man"
+                        },
+                        {
+                            "trait":"Nosy"
+                        },
+                        {
+                            "trait":"Tracker"
+                        }
+                    ],
+                    "allomancy":[
+                        {
+                            "name":"Bronze 5",
+                            "desc":"Senses nearby Allomancy",
+                            "stunts":[
+                                {
+                                    "name":"Seeking Shot",
+                                    "desc":"While burning Bronze, if this character makes a ranged attack at an Allomancer currently burning a metal, he or she ignores all adverse conditions and negative circumstances related to cover, concealment, low light, and other visual impairments (see the Mistborn Adventure Game, pages 197). Additionally, the character needs 1 fewer Nudge to succeed with a Called Shot or the Ricochet Stunt when attacking an Allomancer currently burning a metal, to a minimum of 1 Nudge. This Stunt has no effect against targets within a Coppercloud."
+                                }
+                            ]
+                        }
+                    ],
+                    "equipment":[
+                        {
+                            "item":"Riesfel shotgun (Damage +2; 2 shots; Range: Close / Medium)"
+                        },
+                        {
+                            "item":"Terringul 27 revolver (Damage +1; 6 shots; Range: Close / Medium)"
+                        },
+                        {
+                            "item":"Obsidian knife (Damage +1; Melee Range: Touch / Touch; can’t be affected or detected by Allomancy)"
+                        },
+                        {
+                            "item":"Misting vial (3 charges of Bronze)"
+                        },
+                        {
+                            "item":"Horse"
+                        }
+                    ],
+                    "lore":{
+                        "example":"The man leads shotgun first, keeping it low lest he startle his targets. The tin badge on his vest announces his occupation as a lawkeeper’s assistant — hard to believe with such a boyish and friendly face. His hat is practical but carries just the slightest hints of style, while the polished boots suggest a vanity of appearance…strange in such dusty surroundings.",
+                        "info":"Seekers are prized as bounty hunters and constables, and fetch a high price for their skills from law enforcement. Their ability to detect the Allomantic pulses emitted by Allomancers helps them catch metalborn criminals in the middle of the act. Since their Seeking requires them to move on a bad guy right as he’s in the middle of bad things, these Misting lawkeepers know that every one put behind bars or six feet under means the Roughs is just a little bit safer for average folks."
+                    }
+                },
+                {
+                    "name":"Sooner Lawkeeper",
+                    "type":"Metalborn",
+                    "threat":"Serious",
+                    "level":3,
+                    "attributes":{
+                        "physique":"5 [10]",
+                        "charm":4,
+                        "wits":4
+                    },
+                    "standings":{
+                        "resources":4,
+                        "influence":3,
+                        "spirit":4
+                    },
+                    "resiliences":{
+                        "health":"9 [14]",
+                        "reputation":7,
+                        "willpower":8
+                    },
+                    "traits":[
+                        {
+                            "trait":"Lawkeeper"
+                        },
+                        {
+                            "trait":"Zinc Tongue"
+                        },
+                        {
+                            "trait":"Smarter than they look"
+                        }
+                    ],
+                    "gunplay":[
+                        {
+                            "name":"Fast Aiming",
+                            "desc":"You can draw a bead on a target very quickly. You may Aim and fire in the same Beat, just as if you had Aimed in the previous Beat. However, the extra time required means your action occurs in Step 2 of this Round as if your dice pool is only half as large as it actually is, rounded down."
+                        }
+                    ],
+                    "allomancy":[
+                        {
+                            "name":"Pewter 4",
+                            "desc":"boosts Physique and Health, as shown in brackets"
+                        }
+                    ],
+                    "feruchemy":[
+                        {
+                            "name":"Zinc 4",
+                            "desc":"Stores mental speed",
+                            "stunts":[
+                                {
+                                    "name":"Sparker Shot",
+                                    "desc":"You can draw on your greater acuity to effectively multitask during a gunfight. When you use the Dual Wielding or Fast Aiming Stunts, you may spend 5 charges of mental speed so that your action occurs during Step 2 of the Round at its normal count, rather than as if your dice pool is only half as large as it actually is. Additionally, during a Pistol Duel, you can spend 1 charge of mental speed to use your Wits during the current round of a Pistol Duel (rather than using the lower of your Physique or Wits, as normal)."
+                                }
+                            ]
+                        }
+                    ],
+                    "equipment":[
+                        {
+                            "item":"Immerling 44 revolver (Damage +2; 4 shots; Range: Close / Medium; act as though your pool is 2 dice larger during Step 2 of a Conflict Round)"
+                        },
+                        {
+                            "item":" Obsidian knife (Damage +1; Melee Range: Touch / Touch; contains no metal)"
+                        },
+                        {
+                            "item":"Misting vial (3 charges of Pewter)"
+                        },
+                        {
+                            "item":"Average zincmind (contains 100 charges of mental speed)"
+                        },
+                        {
+                            "item":"Horse"
+                        }
+                    ],
+                    "lore":{
+                        "example":"As one of the three bandits goes crashing through the wall, the other two point their pistols at the lawkeeper. Rushing one will get her shot by the other one — maybe not enough to kill her, but plenty to keep her from getting their sorry carcasses on the last train to True Madil. They’re not ready for her to talk them down and get them to come along willingly. But, well, she tends to get the jump on just about everybody.",
+                        "info":"Many people believe Thugs are brutish, coarse, and perhaps even a bit simple. However, everyone is impressed with Twinborn, and most people consider a Twinborn who can use both mental and physical abilities to be doubly impressive. This sort of character is equally at home in a fierce debate as in a gunfight or a wrestling match."
+                    }
+                },
+                {
+                    "name":"Street Fighter Swift",
+                    "type":"Metalborn",
+                    "threat":"Serious",
+                    "level":3,
+                    "attributes":{
+                        "physique":4,
+                        "charm":3,
+                        "wits":5
+                    },
+                    "standings":{
+                        "resources":6,
+                        "influence":3,
+                        "spirit":3
+                    },
+                    "resiliences":{
+                        "health":10,
+                        "reputation":6,
+                        "willpower":8
+                    },
+                    "traits":[
+                        {
+                            "trait":"Brazen Thief"
+                        },
+                        {
+                            "trait":"Elendel Native"
+                        },
+                        {
+                            "trait":"Getaway Expert"
+                        }
+                    ],
+                    "allomancy":[
+                        {
+                            "name":"Steel 4",
+                            "desc":"Pushes metal objects"
+                        }
+                    ],
+                    "feruchemy":[
+                        {
+                            "name":"Steel 4",
+                            "desc":"Stores physical speed; can perform Compounding"
+                        }
+                    ],
+                    "equipment":[
+                        {
+                            "item":"2 Terringul 27 revolver (Damage +1; 6 shots; Range: Close / Medium)"
+                        },
+                        {
+                            "item":"Dueling cane (Damage +2; Melee Range: Touch / Striking; contains no metal)"
+                        },
+                        {
+                            "item":"Bag of coppers (Damage +1; Thrown Range: Striking / Medium)"
+                        },
+                        {
+                            "item":"Mistcoat (absorbs 1 damage from physical attacks, counts as a tool for hiding in the mists)"
+                        },
+                        {
+                            "item":"Misting vial (3 charges of Steel)"
+                        },
+                        {
+                            "item":"Average Steel metalmind (contains 100 charges of physical speed)"
+                        }
+                    ],
+                    "lore":{
+                        "example":"The best favor Elendel ever did for one young Twinborn was putting up all these metal-framed buildings. He doesn’t seem to mind as folks see him from far below, his mistcoat flapping as he soars at full speed high above street level. He lands on the windowsill of a noble’s mansion, opens a palm, and grins. The noble seems to know word on the street about this brawler, since he puts his pocketbook square in the kid’s hand without much hesitation. The kid’s gone with the goods in the blink of an eye.",
+                        "info":"A Steel Compounding Twinborn is one of the most powerful folks on the planet. They have the mobility and deadliness of a Coinshot, while also being fast enough to run at speeds of more than 100 mph or fire several shots before their opponents have even drawn their guns. The fact that they can also use Compounding allows Swifts to never have to worry about running out of physical speed, giving them unprecedented amounts of mobility in an era where even the fastest trains can’t exceed 60 mph."
+                    }
+                },
+                {
+                    "name":"Thug Roughneck",
+                    "type":"Metalborn",
+                    "threat":"Average",
+                    "level":2,
+                    "attributes":{
+                        "physique":"6 [11]",
+                        "charm":2,
+                        "wits":2
+                    },
+                    "standings":{
+                        "resources":4,
+                        "influence":3,
+                        "spirit":4
+                    },
+                    "resiliences":{
+                        "health":"10 [15]",
+                        "reputation":5,
+                        "willpower":6
+                    },
+                    "traits":[
+                        {
+                            "trait":"Burly"
+                        },
+                        {
+                            "trait":"Thick-Headed"
+                        },
+                        {
+                            "trait":"Wrestler"
+                        }
+                    ],
+                    "allomancy":[
+                        {
+                            "name":"Pewter 5",
+                            "desc":"boosts Physique and Health, as shown in brackets",
+                            "stunts":[
+                                {
+                                    "name":"Prodigious Strength",
+                                    "desc":"While burning Pewter, add an additional die with Physique rolls involving physical strength, including lifting and moving objects, and wielding heavy weapons."
+                                }
+                            ]
+                        }
+                    ],
+                    "equipment":[
+                        {
+                            "item":"Riesfel shotgun (Damage +2; 2 shots; Range: Close / Medium)"
+                        },
+                        {
+                            "item":"Hunting Knife (Damage +2; Melee Range: Touch / Striking)"
+                        },
+                        {
+                            "item":"Misting pouch (3 charges of Pewter)"
+                        },
+                        {
+                            "item":"Bottle of rotgut"
+                        },
+                        {
+                            "item":"Horse"
+                        }
+                    ],
+                    "lore":{
+                        "example":"When the leader of a koloss tribe demanded a quarter of this year’s foals and calves unless someone in town could beat him in a wrestling match, everybody figured it was a mean joke. Well, now there’s a scruffy vagabond squaring off in the middle of the street against a 10-foot-tall blue behemoth, and the general store is sold out of every vial of Pewter they had.",
+                        "info":"Pewterarms, or Thugs as they’re more commonly known, can burn Pewter to greatly enhance their strength, health, and speed. They can lift wagons, outrun horses, and survive blows that would kill ordinary men twice over, all of which makes them highly prized as bandits and also as lawkeepers in the toughest and most dangerous sections of the Roughs."
+                    }
+                },
+                {
+                    "name":"Tineye Gunfighter",
+                    "type":"Metalborn",
+                    "threat":"Average",
+                    "level":2,
+                    "attributes":{
+                        "physique":4,
+                        "charm":4,
+                        "wits":4
+                    },
+                    "standings":{
+                        "resources":3,
+                        "influence":4,
+                        "spirit":3
+                    },
+                    "resiliences":{
+                        "health":7,
+                        "reputation":8,
+                        "willpower":7
+                    },
+                    "traits":[
+                        {
+                            "trait":"Grim"
+                        },
+                        {
+                            "trait":"Quick Reflexes"
+                        },
+                        {
+                            "trait":"Trick Shooter"
+                        }
+                    ],
+                    "allomancy":[
+                        {
+                            "name":"Tin 5",
+                            "desc":"Enhances the five senses",
+                            "stunts":[
+                                {
+                                    "name":"Tinslinger",
+                                    "desc":"When burning Tin and this character’s declared action is a firearm attack, they may form their dice pool using their Tin rating (rather than Physique, as normal)."
+                                }
+                            ]
+                        }
+                    ],
+                    "equipment":[
+                        {
+                            "item":"Terringul 27 revolver with Tinsights (Damage +1; 6 shots; Range: Close / Medium; when Aimed, reduce Difficulty or final Result of attempts to Defend against this attack by an additional 1))"
+                        },
+                        {
+                            "item":"Granger 30-30 rifle (Damage +3; 1 shot; Close / Extreme)"
+                        },
+                        {
+                            "item":"Leather duster (absorbs 1 damage from physical attacks)"
+                        },
+                        {
+                            "item":"Misting pouch (3 charges of Tin)"
+                        },
+                        {
+                            "item":"Horse"
+                        }
+                    ],
+                    "lore":{
+                        "example":"",
+                        "info":""
+                    }
+                }
             ],
             "outsider":[
                 
