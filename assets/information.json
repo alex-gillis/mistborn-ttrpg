@@ -11900,13 +11900,317 @@
                         }
                     ],
                     "lore":{
-                        "example":"",
-                        "info":""
+                        "example":"When the kid arrived in Barl’s Gap, it was just another nasty little town out in the Roughs, where bandits regularly rode through and took what they wanted. She shot three of the bandits before the other two decided to run lest they join their kin six feet under the churchyard. Now she takes whatever stool she wants in the bar, and any ruffian who underestimates her learns right quick to shut their yaps as soon as pistols come out.",
+                        "info":"Tineyes possess greatly enhanced physical senses — they can hear a whisper from 50 paces, read a poster on a wall two rooms away, distinguish the occupants of a room by smell, and detect poisons with just the slightest taste or whiff. They make excellent scouts, lookouts, bandits, and lawkeepers, and they also can learn to use their keen senses to become inhumanly good shots."
                     }
                 }
             ],
             "outsider":[
-                
+                {
+                    "name":"Faceless Immortal",
+                    "type":"Outsider",
+                    "threat":"Serious",
+                    "level":3,
+                    "attributes":{
+                        "physique":3,
+                        "charm":6,
+                        "wits":4
+                    },
+                    "standings":{
+                        "resources":4,
+                        "influence":4,
+                        "spirit":5
+                    },
+                    "resiliences":{
+                        "health":7,
+                        "reputation":10,
+                        "willpower":14
+                    },
+                    "traits":[
+                        {
+                            "trait":"Ancient Knowledge"
+                        },
+                        {
+                            "trait":"Hand of Harmony"
+                        },
+                        {
+                            "trait":"Improviser"
+                        }
+                    ],
+                    "hemalurgy":[
+                        {
+                            "name":"Blessing of Stability",
+                            "desc":"increases Willpower by 5 [added to Resilences]; may only be affected by Allomancers with a Brass rating of 10"
+                        }
+                    ],
+                    "kandra":[
+                        {
+                            "name":"Mimicry 5",
+                            "desc":"imitate others using their bones",
+                            "stunts":[
+                                {
+                                    "name":"Chimera",
+                                    "desc":"When the character takes a Mimicked form, she may grant it one feature of another form she’s taken in the past."
+                                }
+                            ]
+                        }
+                    ],
+                    "equipment":[
+                        {
+                            "item":"Bones (any one person)"
+                        },
+                        {
+                            "item":"Disguise (any one person)"
+                        }
+                    ],
+                    "lore":{
+                        "example":"Her voice is sweet and light, like a pleasant breeze on a warm afternoon, and she carries with her the scent of flowers and fresh spring rain. She demands no specific attention immediately, and yet draws in the stranger by her gentleness. As he sees under her spring hat and modest clothes, he notices she has no face — or rather, she wears a mask. Saying that he has no direction, and that she knows of a path he could follow, she extends a hand; it’s pale, with long and lovely fingers. In her palm is a single earring.",
+                        "info":"Although they’ve won a certain sort of freedom, many of the kandra felt lost without the Lord Ruler. What would they do? Where would they go? Who would tell them what to do and how to interact with humanity? The Faceless Immortal never worried. She knew from her first breath of freedom that she would devote her existence to Harmony, the one who liberated them from their bounds. When Harmony took up her Contract and described the Path, she knew she would find great peace on it, and in bringing others to it. In service, she’s completely free. In duty, she’s found peace."
+                    },
+                    "image":"./assets/samples/JeHoy-Portrait.png"
+                },
+                {
+                    "name":"Kandra Survivorist",
+                    "type":"Outsider",
+                    "threat":"Average",
+                    "level":2,
+                    "attributes":{
+                        "physique":5,
+                        "charm":2,
+                        "wits":4
+                    },
+                    "standings":{
+                        "resources":2,
+                        "influence":2,
+                        "spirit":4
+                    },
+                    "resiliences":{
+                        "health":7,
+                        "reputation":4,
+                        "willpower":8
+                    },
+                    "traits":[
+                        {
+                            "trait":"Ancient Knowledge"
+                        },
+                        {
+                            "trait":"Improviser"
+                        },
+                        {
+                            "trait":"Stubborn"
+                        },
+                        {
+                            "trait":"Survivorist"
+                        }
+                    ],
+                    "hemalurgy":[
+                        {
+                            "name":"Blessing of Potency",
+                            "desc":"increases his Physique score from 3 to 5"
+                        }
+                    ],
+                    "kandra":[
+                        {
+                            "name":"Mimicry 5",
+                            "desc":"imitate others using their bones",
+                            "stunts":[
+                                {
+                                    "name":"Regeneration",
+                                    "desc":"The character may quickly close wounds on his body. So long as he’s not incapacitated (at 0 Health) he may reduce his Willpower by any amount (minimum 1) to increase his Health by the same amount"
+                                }
+                            ]
+                        }
+                    ],
+                    "equipment":[
+                        {
+                            "item":"Bones (any one person)"
+                        },
+                        {
+                            "item":"Disguise (any one person)"
+                        },
+                        {
+                            "item":"empty Riesfel shotgun"
+                        }
+                    ],
+                    "lore":{
+                        "example":"The old man sits there every day on his front stoop, rocking in his chair with his shotgun in his lap. The tax man approaches carefully, knowing this fellow is an ornery old alloy. By the time he gets up to the gate, the old homesteader's standing up, with the shotgun aimed square at this trespasser. When the tax man sees the wooden spear dangling from the homesteader's neck, he knows he’d best back away.",
+                        "info":""
+                    },
+                    "image":"./assets/samples/JeHoy-Portrait.png"
+                },
+                {
+                    "name":"Koloss Chieftain",
+                    "type":"Outsider",
+                    "threat":"Serious",
+                    "level":3,
+                    "attributes":{
+                        "physique":7,
+                        "charm":3,
+                        "wits":4
+                    },
+                    "standings":{
+                        "resources":4,
+                        "influence":3,
+                        "spirit":2
+                    },
+                    "resiliences":{
+                        "health":11,
+                        "reputation":6,
+                        "willpower":6
+                    },
+                    "traits":[
+                        {
+                            "trait":"Accomplished Warrior"
+                        },
+                        {
+                            "trait":"Fearless"
+                        },
+                        {
+                            "trait":"Head of the Tribe"
+                        },
+                        {
+                            "trait":"Tough"
+                        },
+                        {
+                            "trait":"Uncivilized"
+                        }
+                    ],
+                    "hemalurgy":[
+                        {
+                            "name":"4 Iron spikes",
+                            "desc":"Add 5 dice with rolls involving physical strength"
+                        }
+                    ],
+                    "equipment":[
+                        {
+                            "item":"Koloss blade (Damage +4; Melee Range: Striking / Striking)"
+                        },
+                        {
+                            "item":"Bow and obsidian arrows (Damage +2; Range: Close / Long; contains no metal)"
+                        },
+                        {
+                            "item":"Pouch of coppers (Damage +1; Thrown Range: Striking / Medium)"
+                        },
+                        {
+                            "item":"Jewelry"
+                        }
+                    ],
+                    "lore":{
+                        "example":"The creature looks a little small for a koloss her age, the skin tight but unsplit thus far. Even so, she hefts her huge sword with little effort, her muscles rippling with each step she takes. There’s a gleam in her eyes that suggests intelligence beyond the norm, and the ornate necklace and bracelets she wears show that she’s reaped the rewards of a good many raids on Roughs settlements. The cluster of koloss around her leaves no doubt as to who runs the show here.",
+                        "info":"The koloss inhabit the Roughs for the same reason bandits and homesteaders do: it’s a chance to live free of persecution and carve out a life for themselves. The tribal chieftains who lead them are charged with keeping their followers safe, a duty most of them treat as sacred. Of course, “keeping their followers safe” can have broad connotations: anything from pillaging an entire township to carving out a private “kingdom” in the badlands is allowed under those tenets. \n\n Without the chiefs, koloss tribes would be little more than scattered monsters. With the chiefs, however — and the improved intelligence and tactical thinking that most chiefs display — they can be exceedingly dangerous. Only by killing the chiefs can anyone hope to destroy a tribe. Otherwise, they simply retreat and regroup…only to emerge stronger and nastier than before."
+                    }
+                },
+                {
+                    "name":"Koloss Matron",
+                    "type":"Outsider",
+                    "threat":"Average",
+                    "level":2,
+                    "attributes":{
+                        "physique":5,
+                        "charm":3,
+                        "wits":4
+                    },
+                    "standings":{
+                        "resources":3,
+                        "influence":4,
+                        "spirit":3
+                    },
+                    "resiliences":{
+                        "health":8,
+                        "reputation":7,
+                        "willpower":7
+                    },
+                    "traits":[
+                        {
+                            "trait":"Mothering Instinct"
+                        },
+                        {
+                            "trait":"Precious of the Koloss"
+                        },
+                        {
+                            "trait":"Protective"
+                        },
+                        {
+                            "trait":"Uncivilized"
+                        }
+                    ],
+                    "hemalurgy":[
+                        {
+                            "name":"4 Iron spikes",
+                            "desc":"Add 5 dice with rolls involving physical strength"
+                        }
+                    ],
+                    "equipment":[
+                        {
+                            "item":"Koloss cleaver (Damage +3; Melee Range: Touch / Striking)"
+                        },
+                        {
+                            "item":"Cart"
+                        }
+                    ],
+                    "lore":{
+                        "example":"The remains of the tribe are scattered all over the roadside, the carts sacked, the bodies of koloss everywhere. Their children, any koloss-blooded not yet expelled from the tribe, are gone. There’s a groaning from one of the overturned carts. Within, a large, round, koloss female. She’s decorated in a ceremonial fashion, now spoiled by blood. She groans in pain, showing where she broke her arm in a fall, and rolls over to pick up her cleaver. She is the last. Now she must avenge her babies.",
+                        "info":"Koloss matrons are strong and smart. An older matron can have a great number of children, who they send off to lead their own tribes once the home tribe gets too large. A matron is honored and revered in her own tribe, though some leaders — usually males with hot tempers and shortsighted goals — grow jealous of them and their lofty positions. Rightly so, because koloss matrons often become chiefs."
+                    },
+                    "image":"./assets/bestiary/Matron.png"
+                },
+                {
+                    "name":"Koloss Warrior",
+                    "type":"Outsider",
+                    "threat":"Average",
+                    "level":2,
+                    "attributes":{
+                        "physique":6,
+                        "charm":2,
+                        "wits":3
+                    },
+                    "standings":{
+                        "resources":2,
+                        "influence":2,
+                        "spirit":3
+                    },
+                    "resiliences":{
+                        "health":8,
+                        "reputation":4,
+                        "willpower":6
+                    },
+                    "traits":[
+                        {
+                            "trait":"Fearless"
+                        },
+                        {
+                            "trait":"Honorable"
+                        },
+                        {
+                            "trait":"Raider"
+                        },
+                        {
+                            "trait":"Tough"
+                        },
+                        {
+                            "trait":"Uncivilized"
+                        }
+                    ],
+                    "hemalurgy":[
+                        {
+                            "name":"4 Iron spikes",
+                            "desc":"Add 5 dice with rolls involving physical strength"
+                        }
+                    ],
+                    "equipment":[
+                        {
+                            "item":"Koloss blade (Damage +4; Melee Range: Striking / Striking)"
+                        },
+                        {
+                            "item":"Bow and obsidian arrows (Damage +2; Range: Close / Long; contains no metal)"
+                        }
+                    ],
+                    "lore":{
+                        "example":"The ground shakes, sending a thick cloud of dust into the air. The dust settles, revealing the biggest koloss the Crew has ever seen. His skin is so tight on his body he looks fit to burst, his lips in a rictus of permanent agony. His body is painted and heavily pierced, and in his massive fist is a dulled sword so big only such a monster as this could wield.",
+                        "info":"Though the koloss warrior is brutal, uncivilized, and in constant agony, he isn’t without honor. He got to where he is by besting his betters in one-on-one combat and winning victories for his people. Some koloss might become leaders of their tribes through brutal and underhanded practices, but this warrior learned that following the tribal codes wins a kind of respect that is every bit as valuable as fear. \n\n When it comes to combat, he likes to give his opponents a chance by attacking them in groups. Even when calling out a single human, he invites three of their friends to join in. It’s only fair."
+                    },
+                    "image":"./assets/bestiary/Warrior.png"
+                }
             ],
             "malwish":[
 

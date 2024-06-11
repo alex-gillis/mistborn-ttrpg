@@ -265,23 +265,29 @@ function Beast(props) {
                             }
                             {props.info.lore.info}
                         </div>
-                        {props.info.roleplay.playing &&
+                        
+                        {props.info.roleplay &&
                             <div>
-                                <h3>Playing {props.info.name}</h3>
-                                {props.info.roleplay.playing}
+                                {props.info.roleplay.playing &&
+                                    <div>
+                                        <h3>Playing {props.info.name}</h3>
+                                        {props.info.roleplay.playing}
+                                    </div>
+                                }
+                                {props.info.roleplay.ally &&
+                                    <div>
+                                        <h3>{props.info.name} as an Ally</h3>
+                                        {props.info.roleplay.ally}
+                                    </div>
+                                }
+                                {props.info.roleplay.enemy &&
+                                    <div>
+                                        <h3>{props.info.name} as an Enemy</h3>
+                                        {props.info.roleplay.enemy}
+                                    </div>
+                                }
                             </div>
-                        }
-                        {props.info.roleplay.ally &&
-                            <div>
-                                <h3>{props.info.name} as an Ally</h3>
-                                {props.info.roleplay.ally}
-                            </div>
-                        }
-                        {props.info.roleplay.enemy &&
-                            <div>
-                                <h3>{props.info.name} as an Enemy</h3>
-                                {props.info.roleplay.enemy}
-                            </div>
+
                         }
                     </div>
                 }
