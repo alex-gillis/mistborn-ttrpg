@@ -12213,7 +12213,185 @@
                 }
             ],
             "malwish":[
-
+                {
+                    "name":"Airship Captain",
+                    "type":"Malwish",
+                    "threat":"Serious",
+                    "level":3,
+                    "attributes":{
+                        "physique":5,
+                        "charm":6,
+                        "wits":6
+                    },
+                    "standings":{
+                        "resources":4,
+                        "influence":5,
+                        "spirit":5
+                    },
+                    "resiliences":{
+                        "health":9,
+                        "reputation":11,
+                        "willpower":11
+                    },
+                    "traits":[
+                        {
+                            "trait":"Aeronautical Expert"
+                        },
+                        {
+                            "trait":"Best of the Best"
+                        },
+                        {
+                            "trait":"Commanding Presence"
+                        }
+                    ],
+                    "feruchemy":[
+                        {
+                            "name":"Brass 3",
+                            "desc":"Stores warmth; from universal metalmind"
+                        },
+                        {
+                            "name":"Zinc 3",
+                            "desc":"Stores mental speed; from universal metalmind"
+                        }
+                    ],
+                    "equipment":[
+                        {
+                            "item":"Sword (Damage +2; Melee Range: Touch / Striking)"
+                        },
+                        {
+                            "item":"Wooden mask"
+                        },
+                        {
+                            "item":"Brass and Zinc universal metalmind (grants Brass Feruchemy 3 and Zinc Feruchemy 3; contains 25 charges of warmth and 25 charges of mental speed)"
+                        },
+                        {
+                            "item":"Southern Airship"
+                        }
+                    ],
+                    "lore":{
+                        "info":"By combining the powers of the Metalborn, exotic metals, and technological prowess, southerners have achieved flight in a way no one in the Elendel Basin dreamed of. Airships are important for trade and military action, but represent significant investments and shows of power. Command of such vessels are prestigious appointments won by only the most ruthless and competent Malwish. A Captain is expected to be comfortable and confident in aeronautical command, combat, trade, and diplomacy. Each may have their preferred method, but they are able to conduct themselves appropriately in any given situation."
+                    },
+                    "image":"./assets/bestiary/Captain.png"
+                },
+                {
+                    "name":"Airship Crewman",
+                    "type":"Malwish",
+                    "threat":"Mild",
+                    "level":1,
+                    "attributes":{
+                        "physique":4,
+                        "charm":3,
+                        "wits":4
+                    },
+                    "standings":{
+                        "resources":4,
+                        "influence":3,
+                        "spirit":4
+                    },
+                    "resiliences":{
+                        "health":8,
+                        "reputation":6,
+                        "willpower":7
+                    },
+                    "traits":[
+                        {
+                            "trait":"Hard Worker"
+                        },
+                        {
+                            "trait":"Well-Versed in Etiquette"
+                        },
+                        {
+                            "trait":"Obsequious"
+                        }
+                    ],
+                    "feruchemy":[
+                        {
+                            "name":"Brass 3",
+                            "desc":"Stores warmth; from universal metalmind"
+                        },
+                        {
+                            "name":"Iron 3",
+                            "desc":"Stores weight; from universal metalmind"
+                        }
+                    ],
+                    "equipment":[
+                        {
+                            "item":"Wooden mask"
+                        },
+                        {
+                            "item":"Brass and Iron universal metalmind (grants Brass Feruchemy 3 and Iron Feruchemy 3; contains 25 charges of warmth and an empty 25-charge Ironmind)"
+                        },
+                        {
+                            "item":"Airship toolbox"
+                        }
+                    ],
+                    "lore":{
+                        "info":"Far from the simple workers who typically crew trains and barges in the Basin, the crewmembers of Malwish airships undergo extensive schooling and training in etiquette. Expected to both do their appointed tasks and behave as proper gentlemen and ladies, Malwish crewmen tend to stick to the rules"
+                    }
+                },
+                {
+                    "name":"Firemother",
+                    "type":"Malwish",
+                    "threat":"Serious",
+                    "level":3,
+                    "attributes":{
+                        "physique":4,
+                        "charm":5,
+                        "wits":6
+                    },
+                    "standings":{
+                        "resources":6,
+                        "influence":6,
+                        "spirit":5
+                    },
+                    "resiliences":{
+                        "health":10,
+                        "reputation":11,
+                        "willpower":11
+                    },
+                    "traits":[
+                        {
+                            "trait":"Highly Esteemed"
+                        },
+                        {
+                            "trait":"In Demand"
+                        },
+                        {
+                            "trait":"Dedicated to the Malwish"
+                        }
+                    ],
+                    "feruchemy":[
+                        {
+                            "name":"Brass 5",
+                            "desc":"Stores warmth"
+                        },
+                        {
+                            "name":"Aluminum 3",
+                            "desc":"Stores identity; from universal metalmind"
+                        }
+                    ],
+                    "equipment":[
+                        {
+                            "item":"Wooden mask"
+                        },
+                        {
+                            "item":"Alumninum universal metalmind (25 charges of warmth)"
+                        },
+                        {
+                            "item":"Excisor"
+                        },
+                        {
+                            "item":"Formal clothing"
+                        },
+                        {
+                            "item":"Furs"
+                        }
+                    ],
+                    "lore":{
+                        "info":""
+                    },
+                    "image":"./assets/bestiary/Firemother.png"
+                }
             ],
             "gangs":[
 

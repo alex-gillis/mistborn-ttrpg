@@ -44,7 +44,7 @@ function Beast(props) {
                       </tr>
                       <tr>
                         <td colSpan={2}> 
-                          <h3 className="notButter">{props.info.threat} <span id="timid">Threat</span></h3>
+                          <h3 className="notButter" id='brandon'><span id="timid">{props.info.threat} Threat</span></h3>
                         </td>
                       </tr>
                     </tbody>
