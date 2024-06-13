@@ -117,11 +117,11 @@ function Bestiary(props) {
               <div id='regMenu'>
                 <table id='reference-size' className='reference-width' style={{margin:"auto"}}>
                   <tbody>
-                    <tr>
+                    {/* <tr>
                       <td colSpan={10}>
                         <h3 className='notButter'>Creatures from {myEraOne ? 'Era 1' : 'Era 2'}</h3>
                       </td>        
-                    </tr>
+                    </tr> */}
                     {/* <tr>
                       <td></td>
                       {eraFilters.map((filter, index) => (
@@ -151,11 +151,11 @@ function Bestiary(props) {
               <div id='mobiMenu'>
                 <table  style={{margin:"auto"}}>
                   <tbody>
-                    <tr>
+                    {/* <tr>
                       <td colSpan={5}>
                         <h3 className='notButter'>Creatures from {myEraOne ? 'Era 1' : 'Era 2'}</h3>
                       </td>        
-                    </tr>
+                    </tr> */}
                     <tr>
                       {mobileFilters.map((filter, index) => (
                         <td key={index}>
