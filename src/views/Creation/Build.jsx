@@ -36,7 +36,7 @@ const Build = (props) => {
         <ol id="list">
         <h3>Era 1 Heroes</h3>
           {myEra1 && myEra1.map((mySelection, index) => (
-            <li  id="nav-list" className='basicBuild' key={index}>
+            <li  id="nav-list" className={myInfo === index ? "nav-chosen" : "nav-unchosen"} style={{width:"200px"}} key={index}>
               <button className="index-button" onClick={() => changeSelect(mySelection.id)}>
                 <span id="bold">{mySelection.select}</span>
               </button>
@@ -44,7 +44,7 @@ const Build = (props) => {
           ))}
         <h3>Era 2 Heroes</h3>
           {myEra2 && myEra2.map((mySelection, index) => (
-            <li  id="nav-list" className='basicBuild' key={index}>
+            <li  id="nav-list" className={myInfo === index + 7 ? "nav-chosen" : "nav-unchosen"} style={{width:"200px"}} key={index}>
               <button className="index-button" onClick={() => changeSelect(mySelection.id)}>
                 <span id="bold">{mySelection.select}</span>
               </button>

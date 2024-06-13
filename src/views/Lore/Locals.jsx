@@ -53,7 +53,7 @@ function Locals(props) {
           <ol id='list'>
             <h3>Inside the Basin</h3>
             {basin.map((section, index) => (
-              <li  id="nav-list" key={index}>
+              <li  id="nav-list" className={mySection === index ? "nav-chosen" : "nav-unchosen"} key={index}>
                 <button className="index-button" onClick={section.onClick}>
                   <span id="bold">{section.title}</span>
                 </button>
@@ -61,7 +61,7 @@ function Locals(props) {
             ))}
             <h3>Outside the Basin</h3>
             {rough.map((section, index) => (
-              <li  id="nav-list" key={index}>
+              <li  id="nav-list" className={mySection === index + 5 ? "nav-chosen" : "nav-unchosen"} key={index}>
                 <button className="index-button" onClick={section.onClick}>
                   <span id="bold">{section.title}</span>
                 </button>
@@ -69,7 +69,7 @@ function Locals(props) {
             ))}
             <h3>Stranger Frontiers</h3>
             {frontier.map((section, index) => (
-              <li  id="nav-list" key={index}>
+              <li  id="nav-list" className={mySection === index + 10 ? "nav-chosen" : "nav-unchosen"} key={index}>
                 <button className="index-button" onClick={section.onClick}>
                   <span id="bold">{section.title}</span>
                 </button>

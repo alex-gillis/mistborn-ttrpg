@@ -32,7 +32,7 @@ const Improvement = (props) => {
           <ol id='list'>
             <h3>Advancment</h3>
             {sections.map((section, index) => (
-              <li  id="nav-list" className='basicBuild' key={index}>
+              <li  id="nav-list" className={mySection === index ? "nav-chosen" : "nav-unchosen"} style={{width:"170px"}} key={index}>
                 <button className="index-button" onClick={section.onClick}>
                   <span id="bold">{section.title}</span>
                 </button>
@@ -40,7 +40,7 @@ const Improvement = (props) => {
             ))}
           </ol> 
         </div>
-        <div id='buildInfo'>
+        <div id='info'>
             {mySection === 0  && <Basics improvement={props.improvement}/>}
             {mySection === 1  && <How improvement={props.improvement}/>}
             {mySection === 2  && <Spending improvement={props.improvement}/>}

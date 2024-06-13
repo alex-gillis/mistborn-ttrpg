@@ -23,7 +23,7 @@ const Samples = (props) => {
         <ol id="list">
         <h3 className='notButter'>Era 1 Heroes</h3>
           {myEra1 && myEra1.map((myHero, index) => (
-            <li  id="nav-list" className='samples' key={index}>
+            <li  id="nav-list"  className={myInfo === index ? "nav-chosen" : "nav-unchosen"} key={index}>
               <button className="index-button" onClick={() => changeSample(myHero.id)}>
                 <span id="bold">{myHero.name}</span>
               </button>
@@ -31,7 +31,7 @@ const Samples = (props) => {
           ))}
         <h3>Era 2 Heroes</h3>
           {myEra2 && myEra2.map((myHero, index) => (
-            <li  id="nav-list" className='samples' key={index}>
+            <li  id="nav-list"  className={myInfo === index + 8 ? "nav-chosen" : "nav-unchosen"} key={index}>
               <button className="index-button" onClick={() => changeSample(myHero.id)}>
                 <span id="bold">{myHero.name}</span>
               </button>

@@ -168,6 +168,10 @@ nav {
   margin: auto;
 }
 
+#chosenRow {
+  background-color: #35465c;
+}
+
 #creation {
   padding-bottom: 15px;
   /* padding-top: 30px; */
@@ -236,7 +240,7 @@ nav {
 
 #info {
   /* margin-top: 50px; */
-  margin-left: 200px;
+  margin-left: 210px;
   padding-right: 1rem;
   max-width: 1080px;
   width: auto;
@@ -280,9 +284,17 @@ nav {
   display: none;
 }
 
-#nav-list {
+.nav-chosen {
+  border-style: solid;
+  border-color: goldenrod;
+}
+
+.nav-unchosen {
   border-style: solid;
   border-color: silver;
+}
+
+#nav-list {
   border-right: 0px;
   border-left: 0px;
   border-top: 0px;

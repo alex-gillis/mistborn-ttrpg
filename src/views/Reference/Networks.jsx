@@ -52,19 +52,19 @@ function Networks(props) {
                     </thead>
                     <tbody id='table-list' className="scrolling-body">
                         {myNetwork && myNetwork.map((section, index) => (
-                        <tr key={index} className={index % 2 === 0 ? 'evenRow' : 'oddRow'}>
+                        <tr key={index} className={index % 2 === 0 ? 'evenRow' : 'oddRow'} id={mySelection === index ? "chosenRow" : ""} onClick={() => handleSelection(index)} style={{ cursor:"pointer" }}>
                             <td>
-                              <button id='tableButton' onClick={() => handleSelection(index)}>
+                              <button id='tableButton'>
                                   {section.name}
                               </button>
                             </td>
                             <td>
-                              <button id='tableButton' onClick={() => handleSelection(index)}>
+                              <button id='tableButton'>
                                   {section.timeframe}
                               </button>
                             </td>
                             <td>
-                              <button id='tableButton' onClick={() => handleSelection(index)}>
+                              <button id='tableButton'>
                                   {section.trait}
                               </button>
                             </td>

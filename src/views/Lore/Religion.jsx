@@ -29,7 +29,7 @@ function Religion(props) {
           <ol id='list'>
             <h3>Belief & Worship</h3>
             {religion.map((section, index) => (
-              <li  id="nav-list" key={index}>
+              <li  id="nav-list" className={mySection === index ? "nav-chosen" : "nav-unchosen"} key={index}>
                 <button className="index-button" onClick={section.onClick}>
                   <span id="bold">{section.title}</span>
                 </button>

@@ -65,24 +65,24 @@ const Conflicts = (props) => {
       { title: 'Range & Movement', onClick: () => handleSection(15) },
       { title: 'Weapons & Armor', onClick: () => handleSection(16) },
       { title: 'Combat Tactics', onClick: () => handleSection(17) },
-      { title: 'Guns & Gunplay', onClick: () => handleSection(29) },
-      { title: 'Combat Example', onClick: () => handleSection(18) }
+      { title: 'Guns & Gunplay', onClick: () => handleSection(18) },
+      { title: 'Combat Example', onClick: () => handleSection(19) }
     ];
 
     const socials = [
-      { title: 'Social Conflicts', onClick: () => handleSection(19) },
-      { title: 'Social Damage', onClick: () => handleSection(20) },
-      { title: 'Circumstances', onClick: () => handleSection(21) },
-      { title: 'Social Tactics', onClick: () => handleSection(22) },
-      { title: 'Combat Example', onClick: () => handleSection(23) }
+      { title: 'Social Conflicts', onClick: () => handleSection(20) },
+      { title: 'Social Damage', onClick: () => handleSection(21) },
+      { title: 'Circumstances', onClick: () => handleSection(22) },
+      { title: 'Social Tactics', onClick: () => handleSection(23) },
+      { title: 'Combat Example', onClick: () => handleSection(24) }
     ];
 
     const mentals = [
-      { title: 'Mental Conflicts', onClick: () => handleSection(24) },
-      { title: 'Mental Damage', onClick: () => handleSection(25) },
-      { title: 'Circumstances', onClick: () => handleSection(26) },
-      { title: 'Mental Tactics', onClick: () => handleSection(27) },
-      { title: 'Combat Example', onClick: () => handleSection(28) }
+      { title: 'Mental Conflicts', onClick: () => handleSection(25) },
+      { title: 'Mental Damage', onClick: () => handleSection(26) },
+      { title: 'Circumstances', onClick: () => handleSection(27) },
+      { title: 'Mental Tactics', onClick: () => handleSection(28) },
+      { title: 'Combat Example', onClick: () => handleSection(29) }
     ];
 
     return (
@@ -91,7 +91,7 @@ const Conflicts = (props) => {
           <ol id='list'>
             <h3>Basics</h3>
             {sections.map((section, index) => (
-              <li  id="nav-list" key={index}>
+              <li  id="nav-list" className={mySection === index ? "nav-chosen" : "nav-unchosen"} key={index}>
                 <button className="index-button" onClick={section.onClick}>
                   <span id="bold">{section.title}</span>
                 </button>
@@ -99,7 +99,7 @@ const Conflicts = (props) => {
             ))}
             <h3>Physical</h3>
             {physicals.map((section, index) => (
-              <li  id="nav-list" key={index}>
+              <li  id="nav-list" className={mySection === index + 12 ? "nav-chosen" : "nav-unchosen"} key={index}>
                 <button className="index-button" onClick={section.onClick}>
                   <span id="bold">{section.title}</span>
                 </button>
@@ -107,7 +107,7 @@ const Conflicts = (props) => {
             ))}
             <h3>Social</h3>
             {socials.map((section, index) => (
-              <li  id="nav-list" key={index}>
+              <li  id="nav-list" className={mySection === index + 20 ? "nav-chosen" : "nav-unchosen"} key={index}>
                 <button className="index-button" onClick={section.onClick}>
                   <span id="bold">{section.title}</span>
                 </button>
@@ -115,7 +115,7 @@ const Conflicts = (props) => {
             ))}
             <h3>Mental</h3>
             {mentals.map((section, index) => (
-              <li  id="nav-list" key={index}>
+              <li  id="nav-list" className={mySection === index + 25 ? "nav-chosen" : "nav-unchosen"} key={index}>
                 <button className="index-button" onClick={section.onClick}>
                   <span id="bold">{section.title}</span>
                 </button>
@@ -145,20 +145,20 @@ const Conflicts = (props) => {
             {mySection === 16  && <Weapon weapons={props.phys.weapons}/>}
             {mySection === 16  && <Armor armor={props.phys.armor}/>}
             {mySection === 17  && <PhyTactics tactics={props.phys.tactics}/>}
-            {mySection === 29  && <Guns gunplay={props.phys.gunplay}/>}
-            {mySection === 18  && <Sample sample={props.phys.sample}/>}
+            {mySection === 18  && <Guns gunplay={props.phys.gunplay}/>}
+            {mySection === 19  && <Sample sample={props.phys.sample}/>}
             {/* Social Conflict Section */}
-            {mySection === 19  && <SocIntro intro={props.soci.intro}/>}
-            {mySection === 20  && <SocInjuries injury={props.soci.injury}/>}
-            {mySection === 21  && <SocCircumstance circumstances={props.soci.circumstances}/>}
-            {mySection === 22  && <SocTactics tactics={props.soci.tactics}/>}
-            {mySection === 23  && <SocExample example={props.soci.example}/>}
+            {mySection === 20  && <SocIntro intro={props.soci.intro}/>}
+            {mySection === 21  && <SocInjuries injury={props.soci.injury}/>}
+            {mySection === 22  && <SocCircumstance circumstances={props.soci.circumstances}/>}
+            {mySection === 23  && <SocTactics tactics={props.soci.tactics}/>}
+            {mySection === 24  && <SocExample example={props.soci.example}/>}
             {/* Mental Conflict Section */}
-            {mySection === 24  && <MenIntro intro={props.ment.intro}/>}
-            {mySection === 25  && <MenInjuries injury={props.ment.injury}/>}
-            {mySection === 26  && <MenCircumstance circumstances={props.ment.circumstances}/>}
-            {mySection === 27  && <MenTactics tactics={props.ment.tactics}/>}
-            {mySection === 28  && <MenExample example={props.ment.example}/>}
+            {mySection === 25  && <MenIntro intro={props.ment.intro}/>}
+            {mySection === 26  && <MenInjuries injury={props.ment.injury}/>}
+            {mySection === 27  && <MenCircumstance circumstances={props.ment.circumstances}/>}
+            {mySection === 28  && <MenTactics tactics={props.ment.tactics}/>}
+            {mySection === 29  && <MenExample example={props.ment.example}/>}
         </div>
         </>
     )

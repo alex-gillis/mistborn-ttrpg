@@ -27,7 +27,7 @@ function History(props) {
           <ol id='list'>
             <h3>History & Society</h3>
             {history.map((section, index) => (
-              <li  id="nav-list" key={index}>
+              <li  id="nav-list" className={mySection === index ? "nav-chosen" : "nav-unchosen"} key={index}>
                 <button className="index-button" onClick={section.onClick}>
                   <span id="bold">{section.title}</span>
                 </button>

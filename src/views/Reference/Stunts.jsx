@@ -106,18 +106,18 @@ function Stunts(props) {
                 <table>
                     <thead id='table-list' className="scrolling-body" style={{height:"45px"}}>
                         <tr>
-                          <th>
-                            <button id='tableButton' onClick={() => setStunts(sortByMultipleComponents(myStunts, ['name', 'type', 'req']))}>
+                          <th onClick={() => setStunts(sortByMultipleComponents(myStunts, ['name', 'type', 'req']))}>
+                            <button id='tableButton'>
                               <span className='righter'>Name</span>
                             </button>
                           </th>
-                          <th>
-                            <button id='tableButton' onClick={() => setStunts(sortByMultipleComponents(myStunts, ['type', 'name', 'req']))}>
+                          <th onClick={() => setStunts(sortByMultipleComponents(myStunts, ['type', 'name', 'req']))}>
+                            <button id='tableButton'>
                               Type
                             </button>
                           </th>
-                          <th>
-                            <button id='tableButton' onClick={() => setStunts(sortByMultipleComponents(myStunts, ['req', 'name', 'type']))}>
+                          <th onClick={() => setStunts(sortByMultipleComponents(myStunts, ['req', 'name', 'type']))}>
+                            <button id='tableButton'>
                               Requires
                             </button>
                           </th>
@@ -125,19 +125,19 @@ function Stunts(props) {
                     </thead>
                     <tbody id='table-list' className="scrolling-body">
                         {myStunts && myStunts.map((section, index) => (
-                        <tr key={index} className={index % 2 === 0 ? 'evenRow' : 'oddRow'}>
-                            <td>
-                              <button id='tableButton' onClick={() => handleSelection(index)}>
+                        <tr key={index} className={index % 2 === 0 ? 'evenRow' : 'oddRow'} id={mySelection === index ? "chosenRow" : ""}>
+                            <td onClick={() => handleSelection(index)}>
+                              <button id='tableButton'>
                                   {section.name}
                               </button>
                             </td>
-                            <td>
-                              <button id='tableButton' onClick={() => handleSelection(index)}>
+                            <td onClick={() => handleSelection(index)}>
+                              <button id='tableButton'>
                                   {section.type}
                               </button>
                             </td>
-                            <td>
-                              <button id='tableButton' onClick={() => handleSelection(index)}>
+                            <td onClick={() => handleSelection(index)}>
+                              <button id='tableButton'>
                                   {section.req}
                               </button>
                             </td>

@@ -83,7 +83,7 @@ function People(props) {
           <ol id='list'>
             <h3>Koloss Tribes</h3>
             {koloss.map((section, index) => (
-              <li id="nav-list" key={index}>
+              <li id="nav-list" className={mySection === index ? "nav-chosen" : "nav-unchosen"} key={index}>
                 <button className="index-button" onClick={section.onClick}>
                   <span id="bold">{section.title}</span>
                 </button>
@@ -91,7 +91,7 @@ function People(props) {
             ))}
             <h3>Terris Enclaves</h3>
             {terris.map((section, index) => (
-              <li id="nav-list" key={index}>
+              <li id="nav-list" className={mySection === index + 7 ? "nav-chosen" : "nav-unchosen"} key={index}>
                 <button className="index-button" onClick={section.onClick}>
                   <span id="bold">{section.title}</span>
                 </button>
@@ -99,7 +99,7 @@ function People(props) {
             ))}
             <h3>Faceless Immortals</h3>
             {kandra.map((section, index) => (
-              <li id="nav-list" key={index}>
+              <li id="nav-list" className={mySection === index + 14 ? "nav-chosen" : "nav-unchosen"} key={index}>
                 <button className="index-button" onClick={section.onClick}>
                   <span id="bold">{section.title}</span>
                 </button>
@@ -107,7 +107,7 @@ function People(props) {
             ))}
             <h3>Malwish People</h3>
             {malwish.map((section, index) => (
-              <li id="nav-list" key={index}>
+              <li id="nav-list" className={mySection === index + 24 ? "nav-chosen" : "nav-unchosen"} key={index}>
                 <button className="index-button" onClick={section.onClick}>
                   <span id="bold">{section.title}</span>
                 </button>

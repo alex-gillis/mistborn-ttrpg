@@ -138,6 +138,8 @@ const Menu = () => {
                                         id="demo-positioned-menu"
                                         anchorEl={anchorE2}
                                         open={regOpen}
+                                        onMouseOver={regOpen}
+                                        onMouseOut={regOpen}
                                         onClose={handleRegClose}
                                         anchorOrigin={{
                                         vertical: 'top',
@@ -182,6 +184,8 @@ const Menu = () => {
                         id="demo-positioned-menu"
                         anchorEl={anchorEl}
                         open={mobOpen}
+                        onMouseOver={mobOpen}
+                        onMouseOut={mobOpen}
                         onClose={handleMobClose}
                         anchorOrigin={{
                         vertical: 'top',

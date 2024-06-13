@@ -216,18 +216,18 @@ function Bestiary(props) {
                 <table>
                   <thead id='table-list' className="scrolling-body" style={{height:"45px"}}>
                       <tr>
-                        <th>
-                          <button id='tableButton' onClick={() => setBeasts(sortByMultipleComponents(myBeasts, ['name', 'type', 'threat']))}>
+                        <th onClick={() => setBeasts(sortByMultipleComponents(myBeasts, ['name', 'type', 'threat']))} style={{ cursor:"pointer" }}>
+                          <button id='tableButton'>
                             Name
                           </button>
                         </th>
-                        <th>
-                          <button id='tableButton' onClick={() => setBeasts(sortByMultipleComponents(myBeasts, ['type', 'name', 'threat']))}>
+                        <th onClick={() => setBeasts(sortByMultipleComponents(myBeasts, ['type', 'name', 'threat']))} style={{ cursor:"pointer" }}>
+                          <button id='tableButton'>
                             Type
                           </button>
                         </th>
-                        <th>
-                          <button id='tableButton' onClick={() => setBeasts(sortByMultipleComponents(myBeasts, ['level', 'name', 'type']))}>
+                        <th onClick={() => setBeasts(sortByMultipleComponents(myBeasts, ['level', 'name', 'type']))} style={{ cursor:"pointer" }}>
+                          <button id='tableButton' >
                             Threat
                           </button>
                         </th>
@@ -235,21 +235,15 @@ function Bestiary(props) {
                     </thead>
                     <tbody id='table-list' className="scrolling-body">
                         {myBeasts && myBeasts.map((section, index) => (
-                        <tr key={index} className={index % 2 === 0 ? 'evenRow' : 'oddRow'}>
+                        <tr key={index} className={index % 2 === 0 ? 'evenRow' : 'oddRow'} id={mySelection === index ? "chosenRow" : ""} onClick={() => handleSelection(index)} style={{ cursor:"pointer" }}>
                             <td>
-                              <button id='tableButton' onClick={() => handleSelection(index)}>
-                                    {section.name}
-                              </button>
+                              {section.name}
                             </td>
                             <td>
-                              <button id='tableButton' onClick={() => handleSelection(index)}>
-                                    {section.type}
-                              </button>
+                              {section.type}
                             </td>
                             <td>
-                              <button id='tableButton' onClick={() => handleSelection(index)}>
-                                    {section.threat}
-                              </button>
+                              {section.threat}
                             </td>
                         </tr>
                         ))}

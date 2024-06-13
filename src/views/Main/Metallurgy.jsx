@@ -8,17 +8,19 @@ function Metallurgy(props) {
   // getJSONData(metalJSON, collectMetals, onError);
   const [myMetals] = useState(props.metals);
   const [myBasics] = useState(props.basics);
-  const [myInfo, setInfo] = useState(0);
   const [myBasic, setBasic] = useState(0);
+  const [myInfo, setInfo] = useState(20);
   const [myView, setView] = useState(true);
 
   function changeBasics(desiredBasic) {
     setBasic(desiredBasic);
+    setInfo(20)
     setView(true);
   }
   
   function changeMetals(desiredMetal) {
     setInfo(desiredMetal);
+    setBasic(20);
     setView(false);
   }
 
@@ -27,13 +29,13 @@ function Metallurgy(props) {
       <div id='creation'>
         <ol id="list" className='mobMargin' style={{paddingTop:"25px"}}>
           <h3 className='notButter'>Metallurgy</h3>
-          <li id="nav-list">
+          <li id="nav-list" className={myBasic === 0 ? "nav-chosen" : "nav-unchosen"}>
             <button className="index-button" onClick={() => changeBasics(0)}>
               <span id="bold">Basics</span>
             </button>
           </li>
           {myMetals && myMetals.map(myMetal => (
-            <li id="nav-list" key={myMetal.id}>
+            <li id="nav-list" className={myMetal.id === myInfo  ? "nav-chosen" : "nav-unchosen"} key={myMetal.id}>
               <button className="index-button" onClick={() => changeMetals(myMetal.id)}>
                 <span id="bold">{myMetal.name}</span>
               </button>

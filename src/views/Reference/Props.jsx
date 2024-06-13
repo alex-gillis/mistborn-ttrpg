@@ -228,14 +228,14 @@ function Props(props) {
                     </thead>
                     <tbody id='table-list' className="scrolling-body">
                         {myProps && myProps.map((section, index) => (
-                        <tr key={index} className={index % 2 === 0 ? 'evenRow' : 'oddRow'}>
+                        <tr key={index} className={index % 2 === 0 ? 'evenRow' : 'oddRow'} id={mySelection === index ? "chosenRow" : ""} onClick={() => handleSelection(index)} style={{ cursor:"pointer" }}>
                             <td>
-                              <button id='tableButton' onClick={() => handleSelection(index)}>
-                                  {section.item}
+                              <button id='tableButton'>
+                                {section.item}
                               </button>
                             </td>
                             <td>
-                              <button id='tableButton' onClick={() => handleSelection(index)}>
+                              <button id='tableButton'>
                                 <span id='trueDesk'>{section.type}</span>
                                 <span id='trueTablet'>{section.type}</span>
                                 <span id='trueMobile'>
@@ -244,13 +244,13 @@ function Props(props) {
                               </button>
                             </td>
                             <td>
-                              <button id='tableButton' onClick={() => handleSelection(index)}>
-                                  {section.props}
+                              <button id='tableButton'>
+                                {section.props}
                               </button>
                             </td>
                             <td>
-                              <button id='tableButton' onClick={() => handleSelection(index)}>
-                                  {section.difficulty}
+                              <button id='tableButton'>
+                                {section.difficulty}
                               </button>
                             </td>
                         </tr>
