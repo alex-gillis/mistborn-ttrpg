@@ -246,11 +246,13 @@ function Beast(props) {
                             </div>
                         )}
                     </div>
-                    <div className='justified'>
-                        <span id='bold'>Equipment: {props.info.equipment?.map((myObject, index) => (
-                            <span key={index}><span id="timid">{myObject.item}</span>; </span>
-                        ))}</span>
-                    </div>
+                    {props.info.equipment &&
+                        <div className='justified'>
+                            <span id='bold'>Equipment: {props.info.equipment?.map((myObject, index) => (
+                                <span key={index}><span id="timid">{myObject.item}</span>; </span>
+                            ))}</span>
+                        </div>
+                    }
                   </div>
                 }
                 {myLore &&

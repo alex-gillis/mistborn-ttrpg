@@ -211,7 +211,7 @@ nav {
   font-size: smaller;
   height: 100%;
   width: 100%;
-  min-width: auto;
+  min-width: 100px;
   color: goldenrod;
 }
 

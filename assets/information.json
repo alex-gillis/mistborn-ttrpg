@@ -12210,6 +12210,51 @@
                         "info":"Though the koloss warrior is brutal, uncivilized, and in constant agony, he isn’t without honor. He got to where he is by besting his betters in one-on-one combat and winning victories for his people. Some koloss might become leaders of their tribes through brutal and underhanded practices, but this warrior learned that following the tribal codes wins a kind of respect that is every bit as valuable as fear. \n\n When it comes to combat, he likes to give his opponents a chance by attacking them in groups. Even when calling out a single human, he invites three of their friends to join in. It’s only fair."
                     },
                     "image":"./assets/bestiary/Warrior.png"
+                },
+                {
+                    "name":"Hemalurgic Chimera",
+                    "type":"Outsider",
+                    "threat":"Average",
+                    "level":2,
+                    "attributes":{
+                        "physique":7,
+                        "charm":2,
+                        "wits":2
+                    },
+                    "standings":{
+                        "resources":3,
+                        "influence":3,
+                        "spirit":4
+                    },
+                    "resiliences":{
+                        "health":10,
+                        "reputation":5,
+                        "willpower":6
+                    },
+                    "traits":[
+                        {
+                            "trait":"Animalistic"
+                        },
+                        {
+                            "trait":"Ferocious"
+                        },
+                        {
+                            "trait":"Chilling Howl"
+                        },
+                        {
+                            "trait":"Thick Skull"
+                        }
+                    ],
+                    "hemalurgy":[
+                        {
+                            "name":"Chimera Spike",
+                            "desc":"add 3 dice with rolls involving physical endurance"
+                        }
+                    ],
+                    "lore":{
+                        "info":"Hemalurgy is the purview of Ruin and thus its use and application are fraught with peril. The subjects of Hemalurgy are forced to sacrifice terribly for its power. Even the Lord Mistborn concluded it was too dangerous to use reliably. Yet, the kandra were created from it, and clandestine forces used Hemalurgy on other subjects to combine the traits of man and beast. Once human, these creatures were twisted into quadrupeds with black empty eyes, twisted limbs, canine features, and hardened skulls. Each creature has one Hemalurgic spike, as long as a finger and made of a silvery metal with a red cast to it. They are yet another example of the terrible cost of Ruin’s power. Meant for combat and little else, these horrors have no means to fit into modern society and are for the single twisted purpose of killing."
+                    },
+                    "image":"./assets/bestiary/Chimera.png"
                 }
             ],
             "malwish":[
@@ -12394,13 +12439,277 @@
                 }
             ],
             "gangs":[
-
-            ],
-            "chimera":[
-
+                {
+                    "name":"Cobbler",
+                    "type":"Gang Member",
+                    "threat":"Mild",
+                    "level":1,
+                    "attributes":{
+                        "physique":4,
+                        "charm":3,
+                        "wits":4
+                    },
+                    "standings":{
+                        "resources":2,
+                        "influence":3,
+                        "spirit":3
+                    },
+                    "resiliences":{
+                        "health":6,
+                        "reputation":6,
+                        "willpower":7
+                    },
+                    "traits":[
+                        {
+                            "trait":"Disaffected Youth"
+                        },
+                        {
+                            "trait":"Urban Acrobat"
+                        },
+                        {
+                            "trait":"Shoeless"
+                        }
+                    ],
+                    "equipment":[
+                        {
+                            "item":"Club (Damage +1; Melee Range: Touch / Striking; contains no metal)"
+                        },
+                        {
+                            "item":"Dirty clothes with no shoes"
+                        }
+                    ],
+                    "lore":{
+                        "info":"As street gangs go in Elendel, the Cobblers are a bit more unusual than most. Despite their name, the Cobblers do not wear shoes, going barefoot at all times. Seasoned members of the gang have feet like hardened leather and can walk over almost anything in the street without harm. They also are surprisingly athletic, able to get a good grip while running and practiced at street-level acrobatics. The Cobblers currently control part of the region around Elendel University and are in constant conflict with the Cuffs as a result."
+                    }
+                },
+                {
+                    "name":"Cuff",
+                    "type":"Gang Member",
+                    "threat":"Mild",
+                    "level":1,
+                    "attributes":{
+                        "physique":5,
+                        "charm":3,
+                        "wits":3
+                    },
+                    "standings":{
+                        "resources":2,
+                        "influence":3,
+                        "spirit":3
+                    },
+                    "resiliences":{
+                        "health":7,
+                        "reputation":6,
+                        "willpower":6
+                    },
+                    "traits":[
+                        {
+                            "trait":"Disaffected Youth"
+                        },
+                        {
+                            "trait":"Heavy Lifter"
+                        },
+                        {
+                            "trait":"Well-Dressed"
+                        }
+                    ],
+                    "equipment":[
+                        {
+                            "item":"Brass knuckles (Damage +1; Melee Range: Touch / Touch; contains no metal)"
+                        },
+                        {
+                            "item":"Formal clothing with the sleeves torn off"
+                        }
+                    ],
+                    "lore":{
+                        "info":"Rivals of the Cobblers and occupants of the region around Elendel University, the Cuffs share their rivals’ eccentric naming conventions. Members of the Cuffs tend to dress a bit formally, wearing collared shirts, bow ties, and often bowler hats. However, they tear the sleeves off of their shirts, ruining the effect somewhat. They tend to focus on upper body strength, working together to ensure that their arms are well-defined and muscled, both as a matter of pride and as an intimidation tactic against their various rivals, including the hated Cobblers."
+                    }
+                },
+                {
+                    "name":"Ash Fiends",
+                    "type":"Gang Member",
+                    "threat":"Mild",
+                    "level":1,
+                    "attributes":{
+                        "physique":5,
+                        "charm":3,
+                        "wits":3
+                    },
+                    "standings":{
+                        "resources":2,
+                        "influence":3,
+                        "spirit":3
+                    },
+                    "resiliences":{
+                        "health":7,
+                        "reputation":6,
+                        "willpower":6
+                    },
+                    "traits":[
+                        {
+                            "trait":"Disaffected Youth"
+                        },
+                        {
+                            "trait":"Dilettante Historian"
+                        },
+                        {
+                            "trait":"Sneaky"
+                        }
+                    ],
+                    "equipment":[
+                        {
+                            "item":"Terringul 27 revolver (Damage +1; 6 shots; Range: Close / Medium)"
+                        },
+                        {
+                            "item":"Hatchet (Damage +1; Melee Range: Touch / Striking)"
+                        },
+                        {
+                            "item":"Lockpicks"
+                        }
+                    ],
+                    "lore":{
+                        "info":"The Ash Fiends claim to trace their lineage back to a thieving crew in old Luthadel, and they use the imagery of the World of Ash as their trademark. Members of the gang wear streaks of ash on their faces, usually on the cheek. The number of streaks indicates rank in the gang, with new recruits using one finger to apply the ash and their leader using a full hand. In comparison to other street gangs, the Ash Fiends are organized and thoughtful. When they meet, they discuss the history of the World of Ash before getting to business. Still, their knowledge comes from word of mouth, and their understanding of real history is spotty at best."
+                    },
+                    "image":"./assets/bestiary/Ash.png"
+                }
             ],
             "wildlife":[
-
+                {
+                    "name":"Giraffe",
+                    "type":"Wildlife",
+                    "threat":"Mild",
+                    "level":1,
+                    "attributes":{
+                        "physique":7,
+                        "charm":2,
+                        "wits":3
+                    },
+                    "standings":{
+                        "resources":2,
+                        "influence":2,
+                        "spirit":3
+                    },
+                    "resiliences":{
+                        "health":9,
+                        "reputation":4,
+                        "willpower":6
+                    },
+                    "traits":[
+                        {
+                            "trait":"Elongated Neck"
+                        },
+                        {
+                            "trait":"Towering Height"
+                        },
+                        {
+                            "trait":"Incredible Runner"
+                        },
+                        {
+                            "trait":"Prey Animal"
+                        }
+                    ],
+                    "lore":{
+                        "info":"These incredible creatures are a true wonder for citizens of Elendel and the Basin. They are amazing to watch but also deceptively dangerous if threatened, because they can strike with their heads with the force of a sledgehammer. Fortunately, their docile nature makes this extremely uncommon."
+                    }
+                },
+                {
+                    "name":"Lion",
+                    "type":"Wildlife",
+                    "threat":"Serious",
+                    "level":3,
+                    "attributes":{
+                        "physique":8,
+                        "charm":3,
+                        "wits":4
+                    },
+                    "standings":{
+                        "resources":3,
+                        "influence":3,
+                        "spirit":6
+                    },
+                    "resiliences":{
+                        "health":11,
+                        "reputation":6,
+                        "willpower":10
+                    },
+                    "traits":[
+                        {
+                            "trait":"Apex Predator"
+                        },
+                        {
+                            "trait":"Member of the Pride"
+                        },
+                        {
+                            "trait":"Sprinter"
+                        },
+                        {
+                            "trait":"Brave as a Lion"
+                        }
+                    ],
+                    "equipment":[
+                        {
+                            "item":"Claws (Damage +3; Melee Range: Touch / Touch; contains no metal)"
+                        },
+                        {
+                            "item":"Teeth (Damage +2; Melee Range: Touch / Touch; contains no metal)"
+                        }
+                    ],
+                    "lore":{
+                        "info":"The lion is the apex predator of the Roughs, ruling the prairies without any significant threat other than, under certain circumstances, big game hunters from the cities. Even then, there are many who considered themselves hunters that have fallen before the lion’s ferocity, often failing to recognize that a male is typically accompanied by multiple females. In recent years, the lion became legally protected as a national treasure to prevent it from being hunted to extinction. This has curbed the market for lion hunts, but not entirely eliminated it."
+                    }
+                },
+                {
+                    "name":"Big Game Hunter",
+                    "type":"Wildlife",
+                    "threat":"Average",
+                    "level":2,
+                    "attributes":{
+                        "physique":4,
+                        "charm":5,
+                        "wits":5
+                    },
+                    "standings":{
+                        "resources":5,
+                        "influence":3,
+                        "spirit":3
+                    },
+                    "resiliences":{
+                        "health":9,
+                        "reputation":8,
+                        "willpower":8
+                    },
+                    "traits":[
+                        {
+                            "trait":"Braggart"
+                        },
+                        {
+                            "trait":"Master tracker"
+                        },
+                        {
+                            "trait":"Right tool for the job"
+                        }
+                    ],
+                    "equipment":[
+                        {
+                            "item":"Granger 30-30 rifle (Damage +3; 1 shot; Close / Extreme)"
+                        },
+                        {
+                            "item":"Leather duster (absorbs 1 damage from physical attacks)"
+                        },
+                        {
+                            "item":"Survival gear"
+                        },
+                        {
+                            "item":"Pack animal"
+                        },
+                        {
+                            "item":"Hunter's Traps"
+                        }
+                    ],
+                    "lore":{
+                        "info":"There are certain types of men, and occasionally women, who feel the need to prove their superiority over others. Sometimes this takes the form of violence against their fellow man, but more often it involves hunting any large and potentially dangerous animal. The irony that the hunters have equipment and advantages that make the contest grossly unfair is lost upon them, of course."
+                    }
+                }
             ]
         }
     ],

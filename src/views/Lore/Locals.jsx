@@ -27,23 +27,23 @@ function Locals(props) {
       { title: 'Elendel', onClick: () => handleSection(0) },
       { title: 'Major Players', onClick: () => handleSection(1) },
       { title: 'Transport', onClick: () => handleSection(2) },
-      { title: 'Laws & Economy', onClick: () => handleSection(13) },
-      { title: 'Other Cities', onClick: () => handleSection(3) },
+      { title: 'Laws & Economy', onClick: () => handleSection(3) },
+      { title: 'Other Cities', onClick: () => handleSection(4) },
     ];
 
     const rough = [
-      { title: 'The Roughs', onClick: () => handleSection(4) },
-      { title: 'Rough Travel', onClick: () => handleSection(5) },
-      { title: 'Lawkeepers', onClick: () => handleSection(6) },
-      { title: 'Northern Roughs', onClick: () => handleSection(7) },
-      { title: 'Southern Roughs', onClick: () => handleSection(8) }
+      { title: 'The Roughs', onClick: () => handleSection(5) },
+      { title: 'Rough Travel', onClick: () => handleSection(6) },
+      { title: 'Lawkeepers', onClick: () => handleSection(7) },
+      { title: 'Northern Roughs', onClick: () => handleSection(8) },
+      { title: 'Southern Roughs', onClick: () => handleSection(9) }
     ];
 
     const frontier = [
-      { title: 'The Frontiers', onClick: () => handleSection(9) },
-      { title: 'The Mountains', onClick: () => handleSection(10) },
-      { title: 'Deep Roughs', onClick: () => handleSection(11) },
-      { title: 'Oceans & Beyond', onClick: () => handleSection(12) }
+      { title: 'The Frontiers', onClick: () => handleSection(10) },
+      { title: 'The Mountains', onClick: () => handleSection(11) },
+      { title: 'Deep Roughs', onClick: () => handleSection(12) },
+      { title: 'Oceans & Beyond', onClick: () => handleSection(13) }
     ];
 
 
