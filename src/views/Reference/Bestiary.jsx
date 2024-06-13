@@ -71,38 +71,61 @@ function Bestiary(props) {
   //   setEraTwo(!myEraTwo);
   // }
 
-  // const eraFilters = [
-  //   { title: 'Era One', select: myEraOne, onClick: () => switchEra()},
-  //   { title: 'Era Two', select: myEraTwo, onClick: () => switchEra()}
-  // ];
+  const eraFilters = [
+    { title: 'Era One', select: myEraOne, onClick: () => setEraOne(!myEraOne)},
+    { title: 'Era Two', select: myEraTwo, onClick: () => setEraTwo(!myEraTwo)}
+  ];
 
-  const filters = [
-    { title: 'Era 1', select: myEraOne, onClick: () => setEraOne(!myEraOne) },
+  const finalFilters = [
     { title: 'Named', select: myHeroes, onClick: () => setHeroes(!myHeroes) },
-    { title: 'City Folks', select: myCity, onClick: () => setCity(!myCity) },
-    { title: 'Roughs Folks', select: myRoughs, onClick: () => setRough(!myRoughs) },
-    { title: 'Metalborn', select: myMetals, onClick: () => setMetals(!myMetals) }
+    { title: 'Ordinary Folk', select: myCity, onClick: () => setCity(!myCity) },
+    { title: 'Nobility', select: myRoughs, onClick: () => setRough(!myRoughs) },
+    { title: 'Warriors', select: myMetals, onClick: () => setMetals(!myMetals) }
   ];
 
-  const filtersTwo = [
-    { title: 'Era 2', select: myEraTwo, onClick: () => setEraTwo(!myEraTwo) },
-    { title: 'Gangs', select: myGangs, onClick: () => setGangs(!myGangs) },
-    { title: 'Outsiders', select: myOutsider, onClick: () => setOutsider(!myOutsider) },
-    { title: 'Malwish', select: myMalwish, onClick: () => setMalwish(!myMalwish) },
-    { title: 'Wildlife', select: myWildlife, onClick: () => setWildlife(!myWildlife) }
+  const finalFiltersTwo = [
+    { title: 'Metalborn', select: myGangs, onClick: () => setGangs(!myGangs) },
+    { title: 'Steel Ministry', select: myOutsider, onClick: () => setOutsider(!myOutsider) },
+    { title: 'Koloss', select: myMalwish, onClick: () => setMalwish(!myMalwish) },
+    { title: 'Mistwraith/Kandra', select: myWildlife, onClick: () => setWildlife(!myWildlife) }
   ];
 
-  
-  const mobileFilters = [
-    { title: 'Era 1', select: myEraOne, onClick: () => setEraOne(!myEraOne) },
+  const mobileFinalFilters = [
     { title: 'Named', select: myHeroes, onClick: () => setHeroes(!myHeroes) },
     { title: 'Metalborn', select: myMetals, onClick: () => setMetals(!myMetals) },
     { title: 'Malwish', select: myMalwish, onClick: () => setMalwish(!myMalwish) },
     { title: 'Outsiders', select: myOutsider, onClick: () => setOutsider(!myOutsider) }
   ];
 
-  const mobileFiltersTwo = [
-    { title: 'Era 2', select: myEraTwo, onClick: () => setEraTwo(!myEraTwo) },
+  const mobileFinalFiltersTwo = [
+    { title: 'City Folk', select: myCity, onClick: () => setCity(!myCity) },
+    { title: 'Roughs Folks', select: myRoughs, onClick: () => setRough(!myRoughs) },
+    { title: 'Gangs', select: myGangs, onClick: () => setGangs(!myGangs) },
+    { title: 'Wildlife', select: myWildlife, onClick: () => setWildlife(!myWildlife) }
+  ];
+
+  const alloyFilters = [
+    { title: 'Named', select: myHeroes, onClick: () => setHeroes(!myHeroes) },
+    { title: 'City Folks', select: myCity, onClick: () => setCity(!myCity) },
+    { title: 'Roughs Folks', select: myRoughs, onClick: () => setRough(!myRoughs) },
+    { title: 'Metalborn', select: myMetals, onClick: () => setMetals(!myMetals) }
+  ];
+
+  const alloyFiltersTwo = [
+    { title: 'Gangs', select: myGangs, onClick: () => setGangs(!myGangs) },
+    { title: 'Outsiders', select: myOutsider, onClick: () => setOutsider(!myOutsider) },
+    { title: 'Malwish', select: myMalwish, onClick: () => setMalwish(!myMalwish) },
+    { title: 'Wildlife', select: myWildlife, onClick: () => setWildlife(!myWildlife) }
+  ];
+
+  const mobileAlloyFilters = [
+    { title: 'Named', select: myHeroes, onClick: () => setHeroes(!myHeroes) },
+    { title: 'Metalborn', select: myMetals, onClick: () => setMetals(!myMetals) },
+    { title: 'Malwish', select: myMalwish, onClick: () => setMalwish(!myMalwish) },
+    { title: 'Outsiders', select: myOutsider, onClick: () => setOutsider(!myOutsider) }
+  ];
+
+  const mobileAlloyFiltersTwo = [
     { title: 'City Folk', select: myCity, onClick: () => setCity(!myCity) },
     { title: 'Roughs Folks', select: myRoughs, onClick: () => setRough(!myRoughs) },
     { title: 'Gangs', select: myGangs, onClick: () => setGangs(!myGangs) },
@@ -110,19 +133,14 @@ function Bestiary(props) {
   ];
 
   return (
-    <div className='isButter' >
+    <div className='notButter' >
       <div>
         <div id='diagram'>
           <div id='reference-table'>
               <div id='regMenu'>
                 <table id='reference-size' className='reference-width' style={{margin:"auto"}}>
                   <tbody>
-                    {/* <tr>
-                      <td colSpan={10}>
-                        <h3 className='notButter'>Creatures from {myEraOne ? 'Era 1' : 'Era 2'}</h3>
-                      </td>        
-                    </tr> */}
-                    {/* <tr>
+                    <tr>
                       <td></td>
                       {eraFilters.map((filter, index) => (
                         <td key={index}>
@@ -130,16 +148,40 @@ function Bestiary(props) {
                         </td>
                       ))}
                       <td></td>
-                    </tr> */}
+                    </tr>
                     <tr>
-                      {filters.map((filter, index) => (
+                      <td colSpan={10}>
+                        <h3 className='notButter'>Final Empire Era</h3>
+                      </td>        
+                    </tr>
+                    <tr>
+                      {finalFilters.map((filter, index) => (
                         <td key={index}>
                           <button style={{width:"140px"}} id={filter.select ? 'filterSelected' : 'filterUnselected'} onClick={filter.onClick}>{filter.title}</button>
                         </td>
                       ))}
                     </tr>
                     <tr>
-                      {filtersTwo.map((filter, index) => (
+                      {finalFiltersTwo.map((filter, index) => (
+                        <td key={index}>
+                          <button style={{width:"140px"}} id={filter.select ? 'filterSelected' : 'filterUnselected'} onClick={filter.onClick}>{filter.title}</button>
+                        </td>
+                      ))}
+                    </tr>
+                    <tr>
+                      <td colSpan={10}>
+                        <h3 className='notButter'>Allow of Law Era</h3>
+                      </td>        
+                    </tr>
+                    <tr>
+                      {alloyFilters.map((filter, index) => (
+                        <td key={index}>
+                          <button style={{width:"140px"}} id={filter.select ? 'filterSelected' : 'filterUnselected'} onClick={filter.onClick}>{filter.title}</button>
+                        </td>
+                      ))}
+                    </tr>
+                    <tr>
+                      {alloyFiltersTwo.map((filter, index) => (
                         <td key={index}>
                           <button style={{width:"140px"}} id={filter.select ? 'filterSelected' : 'filterUnselected'} onClick={filter.onClick}>{filter.title}</button>
                         </td>
@@ -151,22 +193,50 @@ function Bestiary(props) {
               <div id='mobiMenu'>
                 <table  style={{margin:"auto"}}>
                   <tbody>
-                    {/* <tr>
-                      <td colSpan={5}>
-                        <h3 className='notButter'>Creatures from {myEraOne ? 'Era 1' : 'Era 2'}</h3>
-                      </td>        
-                    </tr> */}
                     <tr>
-                      {mobileFilters.map((filter, index) => (
+                      <td></td>
+                      {eraFilters.map((filter, index) => (
                         <td key={index}>
-                          <button id={filter.select ? 'filterSelected' : 'filterUnselected'} onClick={filter.onClick}>{filter.title}</button>
+                          <button style={{maxWidth:"125px"}} id={filter.select ? 'filterSelected' : 'filterUnselected'} onClick={filter.onClick}>{filter.title}</button>
+                        </td>
+                      ))}
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <td colSpan={10}>
+                        <h3 className='notButter'>Final Empire Era</h3>
+                      </td>        
+                    </tr>
+                    <tr>
+                      {mobileFinalFilters.map((filter, index) => (
+                        <td key={index}>
+                          <button style={{maxWidth:"125px"}} id={filter.select ? 'filterSelected' : 'filterUnselected'} onClick={filter.onClick}>{filter.title}</button>
                         </td>
                       ))}
                     </tr>
                     <tr>
-                      {mobileFiltersTwo.map((filter, index) => (
+                      {mobileFinalFiltersTwo.map((filter, index) => (
                         <td key={index}>
-                          <button id={filter.select ? 'filterSelected' : 'filterUnselected'} onClick={filter.onClick}>{filter.title}</button>
+                          <button style={{maxWidth:"125px"}} id={filter.select ? 'filterSelected' : 'filterUnselected'} onClick={filter.onClick}>{filter.title}</button>
+                        </td>
+                      ))}
+                    </tr>
+                    <tr>
+                      <td colSpan={10}>
+                        <h3 className='notButter'>Allow of Law Era</h3>
+                      </td>        
+                    </tr>
+                    <tr>
+                      {mobileAlloyFilters.map((filter, index) => (
+                        <td key={index}>
+                          <button style={{maxWidth:"125px"}} id={filter.select ? 'filterSelected' : 'filterUnselected'} onClick={filter.onClick}>{filter.title}</button>
+                        </td>
+                      ))}
+                    </tr>
+                    <tr>
+                      {mobileAlloyFiltersTwo.map((filter, index) => (
+                        <td key={index}>
+                          <button style={{maxWidth:"125px"}} id={filter.select ? 'filterSelected' : 'filterUnselected'} onClick={filter.onClick}>{filter.title}</button>
                         </td>
                       ))}
                     </tr>
@@ -194,7 +264,7 @@ function Bestiary(props) {
                         </th>
                       </tr>
                     </thead>
-                    <tbody id='table-list' className="scrolling-body">
+                    <tbody id='table-list' className="scrolling-body" style={{maxHeight:"480px"}}>
                         {myBeasts && myBeasts.map((section, index) => (
                         <tr key={index} className={index % 2 === 0 ? 'evenRow' : 'oddRow'} id={mySelection === index ? "chosenRow" : ""} onClick={() => handleSelection(index)} style={{ cursor:"pointer" }}>
                             <td>

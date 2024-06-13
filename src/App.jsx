@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import Menu from './views/Menu';
 import './styles/index.css';
 import Intro from './views/Main/Intro';
@@ -119,7 +119,9 @@ function App() {
                 <Route path="props" element={<Props propped={myProps[1]}/>} />
                 <Route path="networks" element={<Networks networks={myNetwork}/>} />
                 <Route path="terms" element={<Terms gameTerms={myCreations[2]?.gameTerms}/>} />
-                <Route path="*" element={<NoPage />} />
+                <Route path="404" element={<NoPage/>} />
+                <Route path="*" element={<Navigate replace to='/mistborn-ttrpg/404'/>} />
+
             </Route>
         </Routes>
     </BrowserRouter>
