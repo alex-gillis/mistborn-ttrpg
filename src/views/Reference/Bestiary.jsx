@@ -5,11 +5,21 @@ import Beast from './Bestiary/Beast';
 
 function Bestiary(props) {
   const [mySelection, setSelection] = useState(0);
-  const [myEraOne, setEraOne] = useState(false);
+
+  const [myEraOne, setEraOne] = useState(true);
+  // const [myEraOne] = useState(true);
+  const [myFirstHeroes, setFirstHeroes] = useState(true);
+  const [myFolk, setFolk] = useState(true);
+  const [myNobles, setNobles] = useState(true);
+  const [myRogues, setRogues] = useState(true);
+  const [myMetal, setMetal] = useState(true);
+  const [myMinistry, setMinistry] = useState(true);
+  const [myKoloss, setKoloss] = useState(true);
+  const [myWraiths, setWraiths] = useState(true);
+  
   const [myEraTwo, setEraTwo] = useState(true);
-  // const [myEraOne] = useState(false);
   // const [myEraTwo] = useState(true);
-  const [myHeroes, setHeroes] = useState(true);
+  const [mySecondHeroes, setSecondHeroes] = useState(true);
   const [myCity, setCity] = useState(true);
   const [myWildlife, setWildlife] = useState(true);
   const [myRoughs, setRough] = useState(true);
@@ -17,11 +27,19 @@ function Bestiary(props) {
   const [myOutsider, setOutsider] = useState(true);
   const [myMalwish, setMalwish] = useState(true);
   const [myGangs, setGangs] = useState(true);
+
   const [myBeasts, setBeasts] = useState([]);
   
   useEffect(() => {
     let newBeasts = [];
-    // newBeasts = newBeasts.concat(props.era1.props);
+    newBeasts = newBeasts.concat(props.era1.heroes);
+    newBeasts = newBeasts.concat(props.era1.folk);
+    newBeasts = newBeasts.concat(props.era1.nobles);
+    newBeasts = newBeasts.concat(props.era1.rogues);
+    newBeasts = newBeasts.concat(props.era1.metalborn);
+    newBeasts = newBeasts.concat(props.era1.ministry);
+    newBeasts = newBeasts.concat(props.era1.koloss);
+    newBeasts = newBeasts.concat(props.era1.wraiths);
 
     newBeasts = newBeasts.concat(props.era2.heroes);
     newBeasts = newBeasts.concat(props.era2.city);
@@ -37,9 +55,16 @@ function Bestiary(props) {
 
   useEffect(() => {
     let newBeasts = [];
-    // if (myEraOne && myHeroes) newBeasts = newBeasts.concat(props.era1.heroes);
+    if (myEraOne && myFirstHeroes) newBeasts = newBeasts.concat(props.era1.heroes);
+    if (myEraOne && myFolk) newBeasts = newBeasts.concat(props.era1.folk);
+    if (myEraOne && myNobles) newBeasts = newBeasts.concat(props.era1.nobles);
+    if (myEraOne && myRogues) newBeasts = newBeasts.concat(props.era1.rogues);
+    if (myEraOne && myMetal) newBeasts = newBeasts.concat(props.era1.metalborn);
+    if (myEraOne && myMinistry) newBeasts = newBeasts.concat(props.era1.ministry);
+    if (myEraOne && myKoloss) newBeasts = newBeasts.concat(props.era1.koloss);
+    if (myEraOne && myWraiths) newBeasts = newBeasts.concat(props.era1.wraiths);
 
-    if (myEraTwo && myHeroes) newBeasts = newBeasts.concat(props.era2.heroes);
+    if (myEraTwo && mySecondHeroes) newBeasts = newBeasts.concat(props.era2.heroes);
     if (myEraTwo && myCity) newBeasts = newBeasts.concat(props.era2.city);
     if (myEraTwo && myRoughs) newBeasts = newBeasts.concat(props.era2.roughs);
     if (myEraTwo && myMetals) newBeasts = newBeasts.concat(props.era2.metalborn);
@@ -48,7 +73,7 @@ function Bestiary(props) {
     if (myEraTwo && myGangs) newBeasts = newBeasts.concat(props.era2.gangs);
     if (myEraTwo && myWildlife) newBeasts = newBeasts.concat(props.era2.wildlife);
     setBeasts(sortByMultipleComponents(newBeasts, ['name', 'type', 'threat']));
-  }, [myHeroes, myCity, myWildlife, myRoughs, myMetals, myOutsider, myMalwish, myGangs, myEraOne, myEraTwo, props.era1, props.era2]);
+  }, [myCity, myWildlife, myRoughs, myMetals, myOutsider, myMalwish, myGangs, myEraOne, myEraTwo, props.era1, props.era2, myFirstHeroes, myFolk, myNobles, myRogues, myMetal, myKoloss, myWraiths, mySecondHeroes, myMinistry]);
 
   function handleSelection(sctNum) {
     setSelection(sctNum);
@@ -77,35 +102,35 @@ function Bestiary(props) {
   ];
 
   const finalFilters = [
-    { title: 'Named', select: myHeroes, onClick: () => setHeroes(!myHeroes) },
-    { title: 'Ordinary Folk', select: myCity, onClick: () => setCity(!myCity) },
-    { title: 'Nobility', select: myRoughs, onClick: () => setRough(!myRoughs) },
-    { title: 'Warriors', select: myMetals, onClick: () => setMetals(!myMetals) }
+    { title: 'Named', select: myFirstHeroes, onClick: () => setFirstHeroes(!myFirstHeroes) },
+    { title: 'Ordinary Folk', select: myFolk, onClick: () => setFolk(!myFolk) },
+    { title: 'Nobility', select: myNobles, onClick: () => setNobles(!myNobles) },
+    { title: 'Metalborn', select: myMetal, onClick: () => setMetal(!myMetal) }
   ];
 
   const finalFiltersTwo = [
-    { title: 'Metalborn', select: myGangs, onClick: () => setGangs(!myGangs) },
-    { title: 'Steel Ministry', select: myOutsider, onClick: () => setOutsider(!myOutsider) },
-    { title: 'Koloss', select: myMalwish, onClick: () => setMalwish(!myMalwish) },
-    { title: 'Mistwraith/Kandra', select: myWildlife, onClick: () => setWildlife(!myWildlife) }
+    { title: 'Rogues', select: myRogues, onClick: () => setRogues(!myRogues) },
+    { title: 'Steel Ministry', select: myMinistry, onClick: () => setMinistry(!myMinistry) },
+    { title: 'Koloss', select: myKoloss, onClick: () => setKoloss(!myKoloss) },
+    { title: 'Mistwraith/Kandra', select: myWraiths, onClick: () => setWraiths(!myWraiths) }
   ];
 
   const mobileFinalFilters = [
-    { title: 'Named', select: myHeroes, onClick: () => setHeroes(!myHeroes) },
-    { title: 'Metalborn', select: myMetals, onClick: () => setMetals(!myMetals) },
-    { title: 'Malwish', select: myMalwish, onClick: () => setMalwish(!myMalwish) },
-    { title: 'Outsiders', select: myOutsider, onClick: () => setOutsider(!myOutsider) }
+    { title: 'Named', select: myFirstHeroes, onClick: () => setFirstHeroes(!myFirstHeroes) },
+    { title: 'Ordinary', select: myFolk, onClick: () => setFolk(!myFolk) },
+    { title: 'Nobility', select: myNobles, onClick: () => setNobles(!myNobles) },
+    { title: 'Metalborn', select: myMetal, onClick: () => setMetal(!myMetal) }
   ];
 
   const mobileFinalFiltersTwo = [
-    { title: 'City Folk', select: myCity, onClick: () => setCity(!myCity) },
-    { title: 'Roughs Folks', select: myRoughs, onClick: () => setRough(!myRoughs) },
-    { title: 'Gangs', select: myGangs, onClick: () => setGangs(!myGangs) },
-    { title: 'Wildlife', select: myWildlife, onClick: () => setWildlife(!myWildlife) }
+    { title: 'Rogues', select: myRogues, onClick: () => setRogues(!myRogues) },
+    { title: 'Ministry', select: myMinistry, onClick: () => setMinistry(!myMinistry) },
+    { title: 'Koloss', select: myKoloss, onClick: () => setKoloss(!myKoloss) },
+    { title: 'Wraiths/Kandra', select: myWraiths, onClick: () => setWraiths(!myWraiths) }
   ];
 
   const alloyFilters = [
-    { title: 'Named', select: myHeroes, onClick: () => setHeroes(!myHeroes) },
+    { title: 'Named', select: mySecondHeroes, onClick: () => setSecondHeroes(!mySecondHeroes) },
     { title: 'City Folks', select: myCity, onClick: () => setCity(!myCity) },
     { title: 'Roughs Folks', select: myRoughs, onClick: () => setRough(!myRoughs) },
     { title: 'Metalborn', select: myMetals, onClick: () => setMetals(!myMetals) }
@@ -119,7 +144,7 @@ function Bestiary(props) {
   ];
 
   const mobileAlloyFilters = [
-    { title: 'Named', select: myHeroes, onClick: () => setHeroes(!myHeroes) },
+    { title: 'Named', select: mySecondHeroes, onClick: () => setSecondHeroes(!mySecondHeroes) },
     { title: 'Metalborn', select: myMetals, onClick: () => setMetals(!myMetals) },
     { title: 'Malwish', select: myMalwish, onClick: () => setMalwish(!myMalwish) },
     { title: 'Outsiders', select: myOutsider, onClick: () => setOutsider(!myOutsider) }
@@ -127,7 +152,7 @@ function Bestiary(props) {
 
   const mobileAlloyFiltersTwo = [
     { title: 'City Folk', select: myCity, onClick: () => setCity(!myCity) },
-    { title: 'Roughs Folks', select: myRoughs, onClick: () => setRough(!myRoughs) },
+    { title: 'Roughers', select: myRoughs, onClick: () => setRough(!myRoughs) },
     { title: 'Gangs', select: myGangs, onClick: () => setGangs(!myGangs) },
     { title: 'Wildlife', select: myWildlife, onClick: () => setWildlife(!myWildlife) }
   ];

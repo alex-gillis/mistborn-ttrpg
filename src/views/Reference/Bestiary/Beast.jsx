@@ -47,6 +47,13 @@ function Beast(props) {
                           <h3 className="notButter" id='brandon'><span id="timid">{props.info.threat} Threat</span></h3>
                         </td>
                       </tr>
+                      <tr>
+                        {props.info.timeframe && 
+                            <td colSpan={2}> 
+                                <h3 className="notButter">Time Frame: <span id="timid">{props.info.timeframe}</span></h3>
+                            </td>
+                        }
+                      </tr>
                     </tbody>
                   </table>
                   <div>
@@ -118,7 +125,7 @@ function Beast(props) {
                                 <ul className="notButter">
                                     {props.info.gunplay?.map((myObject, index) => (
                                         <li key={index}>
-                                            <span id="bold">{myObject.name}</span>; {myObject.desc}
+                                            <span id="bold">{myObject.name}</span> ({myObject.desc})
                                             <ul>
                                                 {myObject.stunts?.map((myObject, index) => (
                                                     <li key={index}>
@@ -137,7 +144,7 @@ function Beast(props) {
                                 <ul className="notButter">
                                     {props.info.gunsmith?.map((myObject, index) => (
                                         <li key={index}>
-                                            <span id="bold">{myObject.name}</span>; {myObject.desc}
+                                            <span id="bold">{myObject.name}</span> {myObject.desc && <span>({myObject.desc})</span>}
                                             <ul>
                                                 {myObject.stunts?.map((myObject, index) => (
                                                     <li key={index}>
@@ -156,7 +163,7 @@ function Beast(props) {
                                 <ul className="notButter">
                                     {props.info.allomancy?.map((myObject, index) => (
                                         <li key={index}>
-                                            <span id="bold">{myObject.name}</span>; {myObject.desc}
+                                            <span id="bold">{myObject.name}</span> ({myObject.desc})
                                             <ul>
                                                 {myObject.stunts?.map((myObject, index) => (
                                                     <li key={index}>
@@ -175,7 +182,7 @@ function Beast(props) {
                                 <ul className="notButter">
                                     {props.info.feruchemy?.map((myObject, index) => (
                                         <li key={index}>
-                                            <span id="bold">{myObject.name}</span>; {myObject.desc}
+                                            <span id="bold">{myObject.name}</span> ({myObject.desc})
                                             <ul>
                                                 {myObject.stunts?.map((myObject, index) => (
                                                     <li key={index}>
@@ -194,7 +201,7 @@ function Beast(props) {
                                 <ul className="notButter">
                                     {props.info.hemalurgy?.map((myObject, index) => (
                                         <li key={index}>
-                                            <span id="bold">{myObject.name}</span>; {myObject.desc}
+                                            <span id="bold">{myObject.name}</span> ({myObject.desc})
                                             <ul>
                                                 {myObject.stunts?.map((myObject, index) => (
                                                     <li key={index}>
@@ -213,7 +220,7 @@ function Beast(props) {
                                 <ul className="notButter">
                                     {props.info.koloss?.map((myObject, index) => (
                                         <li key={index}>
-                                            <span id="bold">{myObject.name}</span>; {myObject.desc}
+                                            <span id="bold">{myObject.name}</span> ({myObject.desc})
                                             <ul>
                                                 {myObject.stunts?.map((myObject, index) => (
                                                     <li key={index}>
@@ -232,7 +239,7 @@ function Beast(props) {
                                 <ul className="notButter">
                                     {props.info.kandra?.map((myObject, index) => (
                                         <li key={index}>
-                                            <span id="bold">{myObject.name}</span>; {myObject.desc}
+                                            <span id="bold">{myObject.name}</span> ({myObject.desc})
                                             <ul>
                                                 {myObject.stunts?.map((myObject, index) => (
                                                     <li key={index}>
@@ -286,6 +293,12 @@ function Beast(props) {
                                     <div>
                                         <h3>{props.info.name} as an Enemy</h3>
                                         {props.info.roleplay.enemy}
+                                    </div>
+                                }
+                                {props.info.roleplay.whatif &&
+                                    <div>
+                                        <h3>What if {props.info.name}...?</h3>
+                                        {props.info.roleplay.whatif}
                                     </div>
                                 }
                             </div>
