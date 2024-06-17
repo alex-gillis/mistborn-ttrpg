@@ -8579,8 +8579,525 @@
             "id":2,
             "era":1,
             "name":"Heroes",
+            "heroes":[
+                {
+                    "name":"Vin",
+                    "type":"Unique",
+                    "timeframe":"Early in 'The Heroes of Ages'",
+                    "threat":"Deadly",
+                    "level":4,
+                    "attributes":{
+                        "physique":"4 [12]",
+                        "charm":5,
+                        "wits":4
+                    },
+                    "standings":{
+                        "resources":6,
+                        "influence":6,
+                        "spirit":8
+                    },
+                    "resiliences":{
+                        "health":"10 [18]",
+                        "reputation":11,
+                        "willpower":12
+                    },
+                    "traits":[
+                        {
+                            "trait":"Thief"
+                        },
+                        {
+                            "trait":"Slight Build"
+                        },
+                        {
+                            "trait":"Catlike"
+                        },
+                        {
+                            "trait":"Streetwise"
+                        },
+                        {
+                            "trait":"Knife-Fighter"
+                        },
+                        {
+                            "trait":"Lady Heir of the Survivor"
+                        },
+                        {
+                            "trait":"Secrets of the Kandra and Koloss"
+                        },
+                        {
+                            "trait":"Elend is my World"
+                        },
+                        {
+                            "trait":"Am I the Hero of Ages?"
+                        }
+                    ],
+                    "allomancy":[
+                        {
+                            "name":"Pewter 8",
+                            "desc":"boosts Physique and Health, as shown in brackets",
+                            "stunts":[
+                                {
+                                    "name":"Denser Tissues 1",
+                                    "desc":"Vin suffers 1 less damage from physical attacks while burning Pewter"
+                                },
+                                {
+                                    "name":"Extreme Speed",
+                                    "desc":"While burning Pewter, Vin may run as fast as a galloping race horse(approximately 40 mph). She may also take up to 2 steps toward or away from a target in each Beat without penalty, or 3 steps if she forgoes Action or Defense Dice for the round."
+                                },
+                                {
+                                    "name":"Inhuman Endurance (Trait)",
+                                    "desc":"While burning Pewter, Vin can exert herself for up to 8 days without suffering Pewter drag. She also gains the “Inhuman Endurance” Trait. "
+                                },
+                                {
+                                    "name":"Unconscious Burning",
+                                    "desc":"Vin automatically burns Pewter when unconscious, though only if also injured (i.e. she doesn’t automatically burn Pewter when sleeping). Each Pewter charge burned in this fashion lasts for three hours, and the only benefits it conveys are increased Health, accelerated healing, and avoiding Pewter drag. It has no effect on Physique rolls or dice pools. This special Pewter burn stops immediately when Vin regains consciousness."
+                                }
+                            ]
+                        },
+                        {
+                            "name":"Steel 6",
+                            "desc":"Pushes metal objects",
+                            "stunts":[
+                                {
+                                    "name":"Increased Velocity",
+                                    "desc":"Vin may Push objects at a velocity of up to 250 mph, and the damage they inflict increases by +1."
+                                },
+                                {
+                                    "name":"Multiple Targets",
+                                    "desc":"Vin has finer control of her Steelpushing, and may simultaneously Push up to 6 individual metal objects."
+                                },
+                                {
+                                    "name":"Reflect Ranged Attack",
+                                    "desc":"When reacting with Steel, Vin can Push a ranged attack targeting her toward a different target within range (as opposed to merely away from her and toward nothing in particular). This requires her to win the Contest and spend 2 Nudges; winning the Contest with less than 2 Nudges does not allow her to reflect the attack. No matter how many Nudges she spends, she may not reflect the attack toward the attacker."
+                                }
+                            ]
+                        },
+                        {
+                            "name":"Bronze 8",
+                            "desc":"Senses nearby Allomancy"
+                        },
+                        {
+                            "name":"Brass 6",
+                            "desc":"soothes the emotions of others"
+                        },
+                        {
+                            "name":"Duralumin 6",
+                            "desc":"massively flares currently burning metals"
+                        },
+                        {
+                            "name":"All Other Metals 4",
+                            "desc":""
+                        }
+                    ],
+                    "hemalurgy":[
+                        {
+                            "name":"1 Bronze Spike",
+                            "desc":"her mother's earring; increases her Bronze Allomancy from 5 to 8"
+                        }
+                    ],
+                    "equipment":[
+                        {
+                            "item":"2 obsidian daggers (Damage +1; Melee Range: Touch / Touch; can’t be affected or detected by Allomancy)"
+                        },
+                        {
+                            "item":"Set of horseshoes or sack of coppers (Damage +1 or +2 with the Increased Velocity Stunt; Thrown Range: Striking / Medium)"
+                        },
+                        {
+                            "item":"3 Mistborn vials (1 charge each of Brass, Bronze, Copper, Iron, Pewter, Steel, Tin, and Zinc)"
+                        },
+                        {
+                            "item":"Mistcloak (absorbs 1 damage from physical attacks, counts as a tool for hiding in the mists)"
+                        }
+                    ],
+                    "roleplay":{
+                        "playing":"Though you fought against it for so long, you’ve come to terms with the fact that you’re a knife — a tool suited for battle and killing. It’s different than you thought at first. You can fight not for a name or a person, but in service to the ideals of the Empire, the ones you and Elend so dearly believe. \n\n It seems the world exaggerates your importance, to the point where even you once believed you were the Hero of Ages. The followers of the Church of the Survivor heap unwanted attention on you. Their faith might be helpful for the Empire, but it still makes you uneasy. Kelsier was no god, and neither are you. \n\n In battle, you’re a scrapper with a knack for winning against all odds. Not only do you possess incredible natural Allomantic talent but you can use Duralumin, a little-known Allomantic metal that enhances other Powers. \n\n You never expected to become an idealist, but there are people you count on and believe in. An old lesson from Kelsier keeps proving true in more and more situations: every action has a consequence. There are always forces in opposition, always reactions to any choice.",
+                        "ally":"Any willing subject of the Empire has an ally in Vin, but only in the broadest sense. Vin rarely intrudes in the day-to-day affairs of the people. Her business is saving the world now, and in the past she was occupied with deposing the Lord Ruler and protecting Luthadel from destruction. Only the grandest issues draw Vin’s attention. \n\n Vin learned to mistrust those around her early on, and she still assumes the worst about people. Acquiring her as a true ally — gaining her trust — isn’t easy. The surest way is to prove yourself to one of her closest friends, particularly one from her early days with Kelsier’s crew. \n\n Even Vin’s allies find her unpredictable. Her abilities let her get around quickly, and she has a habit of disappearing at the most inconvenient moments.",
+                        "enemy":"Anyone who threatens Elend or the New Empire finds no greater enemy than Vin. If they’re very lucky, she harasses them from behind the scenes, sending soldiers to deal with them. If not, they face her directly, and the encounter is usually swift and lethal. Vin’s fierce loyalty and unmatched combat skills make her a formidable opponent, one who leaves no loose ends and ensures that threats to her loved ones and her cause are eliminated entirely.",
+                        "whatif":"In an alternate storyline, Vin might have joined Zane, in which case Ruin’s influence would likely take hold. She’d grow ruthless and violent, and ultimately clash with her crew as their goals interfered with her wishes, and Zane’s. Perhaps she rises as the ultimate villain in your story, wielding her immense Allomantic power with a deadly precision and a mind twisted by Ruin’s whispers. Her former allies would become her enemies, struggling to save the world not just from Ruin, but from the woman who once stood as their greatest hope."
+                    },
+                    "lore":{
+                        "info":"Slayer of the Lord Ruler. Lady Heir to the Survivor of Hathsin. Empress of the New Empire. Vin’s come a long way from being just another skaa in Luthadel. Once, her small, willowy frame and cautious introversion kept her out of the spotlight, and also concealed amazing power few could have anticipated. She was born to a skaa mother and Snapped as a Mistborn at a very young age. She used her Allomancy instinctively until she met Kelsier, and from the very start of her training, she showed great promise. Still, her Allomantic skill and power grew massively over time, eclipsing all but those of her husband, Elend. \n\n Despite this, Vin’s true contributions could never be measured in sheer power alone. Her greatest strength was always her uncanny insight into the elusive Allomantic arts. Even when outmatched, she survived — and often won — through sheer ingenuity and radical out-of-the-box thinking. Against all odds, she defeated the Lord Ruler. She bested a Mistborn burning atium. She amassed incredible Allomantic knowledge as a direct result of the work she, Elend, Sazed, and their allies put in. The battles they fought, the secrets they uncovered, and the alliances they forged all led to the only true change the Final Empire had seen in centuries. \n\n There was a time when Vin believed she was the Hero of Ages, prophesied to save the world from the Deepness. She sought and found the Well of Ascension, but chose to give its power away — a choice that inadvertently unleashed Ruin on the world. This decision haunts Vin to this day, and she still searches for anything she can use to stop Ruin and save the world. \n\n Vin is Lady Heir to the Survivor and the most important person alive to adherents of the Church of the Survivor. They look to her for guidance (which she doesn’t think she can give), and they believe she will protect them, even save them — that one day she’ll stop the ash from falling and return the sun to its original yellow. \n\n The ways of nobility both fascinate and repulse Vin, thanks to her time posing as Lady Valette Renoux under Kelsier’s orders. Though she now spends most of her time in plain clothing, acting as one might expect of a fighter or assassin rather than as an empress, she still has a certain fondness for the dresses she once wore and the noble balls she attended. It is, after all, where she met her husband, Emperor Elend Venture. \n\n Vin has also learned many secrets about the strange, exotic races of the Empire — the shapeshifting kandra and the brutal, giant koloss — thanks to the tutelage of the kandra OreSeur. She is unwittingly one of the world’s foremost experts on both species, privy to their innermost secrets and vulnerabilities, and she employs this knowledge regularly to support her Crew and further their many lofty goals. \n\n Today, Vin is often found leading a column of blue-skinned koloss, orchestrating their actions against the New Empire’s enemies like a bloody symphony."
+                    },
+                    "image":"./assets/bestiary/Vin.png"
+                }
+            ],
+            "folk":[
+                {
+                    "name":"Skaa Beggar",
+                    "type":"Ordinary",
+                    "threat":"Insignificant",
+                    "level":0,
+                    "attributes":{
+                        "physique":2,
+                        "charm":3,
+                        "wits":3
+                    },
+                    "standings":{
+                        "resources":2,
+                        "influence":2,
+                        "spirit":3
+                    },
+                    "resiliences":{
+                        "health":4,
+                        "reputation":5,
+                        "willpower":6
+                    },
+                    "traits":[
+                        {
+                            "trait":"Pitiful"
+                        },
+                        {
+                            "trait":"Destitute"
+                        },
+                        {
+                            "trait":"Easily-Overlooked"
+                        }
+                    ],
+                    "equipment":[
+                        {
+                            "item":"None"
+                        }
+                    ],
+                    "lore":{
+                        "example":"A pathetic skaa, emaciated by hunger and wrapped in the tatters of an old jacket, rattles a simple wooden bowl and asks if you can spare a clip. Though he sits at a crowded slum corner, everyone hurries past him, as if he isn’t there. ",
+                        "info":"Beggars are a common sight in the slums and darkened alleys of the Final Empire’s major cities, and perhaps the most downtrodden of all their kind — which is quite a feat, given the plights of the rest. Though most beggars prefer a life of simple anonymity and a dry place to sleep, many become useful informants, as they’re easily overlooked and forgotten, even within earshot of private conversations."
+                    }
+                }
+            ],
+            "nobles":[
+                {
+                    "name":"Minor Noble",
+                    "type":"Nobility",
+                    "threat":"Average",
+                    "level":2,
+                    "attributes":{
+                        "physique":4,
+                        "charm":4,
+                        "wits":4
+                    },
+                    "standings":{
+                        "resources":5,
+                        "influence":5,
+                        "spirit":4
+                    },
+                    "resiliences":{
+                        "health":9,
+                        "reputation":9,
+                        "willpower":8
+                    },
+                    "traits":[
+                        {
+                            "trait":"Ambitious"
+                        },
+                        {
+                            "trait":"Business sense"
+                        },
+                        {
+                            "trait":"Duelist"
+                        },
+                        {
+                            "trait":"For the glory of my house"
+                        },
+                        {
+                            "trait":"Prideful"
+                        }
+                    ],
+                    "equipment":[
+                        {
+                            "item":"Dueling cane (Damage +2; Melee Range: Touch / Striking; contains no metal)"
+                        },
+                        {
+                            "item":"Formal clothing"
+                        },
+                        {
+                            "item":"Bottle of wine"
+                        }
+                    ],
+                    "lore":{
+                        "example":"The trading floor of the exchange roars as noblemen and merchant skaa bid and counterbid for imports from the far corners of the Empire: silks from the Southern Islands, wines from the slopes of Mount Derytatith, and canned goods from Lake Tyrian. One bidding war gets so contentious that two young nobles draw canes and engage in an impromptu duel to defend their reputation as honorable businessmen.",
+                        "info":"Brash and savvy, minor nobles are the bottom rung of the nobility’s social ladder — men and women without lands or titles, left to fend for themselves in the Final Empire. Their success is measured in ambition and betrayal, and those who rise from their ranks have fought tooth and nail for every inch they’ve gained."
+                    }
+                }
+            ],
             "rogues":[
-
+                {
+                    "name":"Con Man",
+                    "type":"Rogues",
+                    "threat":"Average",
+                    "level":2,
+                    "attributes":{
+                        "physique":3,
+                        "charm":5,
+                        "wits":4
+                    },
+                    "standings":{
+                        "resources":4,
+                        "influence":3,
+                        "spirit":4
+                    },
+                    "resiliences":{
+                        "health":7,
+                        "reputation":8,
+                        "willpower":8
+                    },
+                    "traits":[
+                        {
+                            "trait":"Glib tongue"
+                        },
+                        {
+                            "trait":"Skilled archer"
+                        },
+                        {
+                            "trait":"Well-versed in scams"
+                        },
+                        {
+                            "trait":"Cocky"
+                        }
+                    ],
+                    "equipment":[
+                        {
+                            "item":"Disguise (any one person)"
+                        },
+                        {
+                            "item":"Bottle of wine"
+                        },
+                        {
+                            "item":"Deck of shelldry cards"
+                        }
+                    ],
+                    "lore":{
+                        "example":"The gambler adjusts his dusty bowler and shuffles the shelldry deck, watching the other players carefully as he deals out the hands. The corner of his mouth turns up in a cocky smirk as he looks at his hand, and he casually asks if anyone would like to make a wager.",
+                        "info":"Not every thief relies on physical violence or robbery to make a living — indeed, those smart and brave enough can fleece a mark for money, leaving them none the wiser. The con man is just such a thief, adept at scamming the rich and foolish out of their hard-earned boxings with little more than wits, a few fake documents, and a couple well-placed friends."
+                    }
+                }
+            ],
+            "metalborn":[
+                {
+                    "name":"Coinshot",
+                    "type":"Metalborn",
+                    "threat":"Average",
+                    "level":2,
+                    "attributes":{
+                        "physique":3,
+                        "charm":3,
+                        "wits":5
+                    },
+                    "standings":{
+                        "resources":4,
+                        "influence":3,
+                        "spirit":4
+                    },
+                    "resiliences":{
+                        "health":7,
+                        "reputation":6,
+                        "willpower":9
+                    },
+                    "traits":[
+                        {
+                            "trait":"Keen Eyes"
+                        },
+                        {
+                            "trait":"Accurate"
+                        },
+                        {
+                            "trait":"Pushy"
+                        }
+                    ],
+                    "allomancy":[
+                        {
+                            "name":"Steel 5",
+                            "desc":"Pushes metal objects",
+                            "stunts":[
+                                {
+                                    "name":"Multiple Targets",
+                                    "desc":"The character has finger control of his or her Steelpushing, and may simultaneously Push up to 5 individual metal objects."
+                                }
+                            ]
+                        }
+                    ],
+                    "equipment":[
+                        {
+                            "item":"Sack of coppers (Damage +1; Thrown Range: Striking / Medium)"
+                        },
+                        {
+                            "item":"Misting vial (3 charges of Steel)"
+                        }
+                    ],
+                    "lore":{
+                        "example":"The woman’s hand darts into a loose drawstring pouch at her waist, flinging a handful of coins which speed away from her in a deadly copper rain. As the house guard rushes her, she Pushes herself off a nearby sewer grate and soars to safety on a rooftop above the fray.",
+                        "info":"These Mistings are masters of Steel Allomancy, which grants them the power to turn light metal objects into deadly missiles and heavy ones into anchors they can Push to send themselves soaring away. Their skills are highly coveted by armed cadres, both for the threat they pose at range and their ability to protect fellows from arrows…and other Coinshots."
+                    }
+                }
+            ],
+            "ministry":[
+                {
+                    "name":"Steel Ministry Novice",
+                    "type":"Ministry",
+                    "threat":"Mild",
+                    "level":1,
+                    "attributes":{
+                        "physique":3,
+                        "charm":4,
+                        "wits":4
+                    },
+                    "standings":{
+                        "resources":4,
+                        "influence":4,
+                        "spirit":3
+                    },
+                    "resiliences":{
+                        "health":7,
+                        "reputation":8,
+                        "willpower":7
+                    },
+                    "traits":[
+                        {
+                            "trait":"Apprentice Obligator"
+                        },
+                        {
+                            "trait":"By the Book"
+                        },
+                        {
+                            "trait":"Zealous"
+                        }
+                    ],
+                    "equipment":[
+                        {
+                            "item":"Dueling cane (Damage +2; Melee Range: Touch / Striking; contains no metal)"
+                        },
+                        {
+                            "item":"Pen and blank book"
+                        }
+                    ],
+                    "lore":{
+                        "example":"The young man on the corner is obviously new to the Ministry. His head is freshly shaved, his ashen robes don’t reach lower than his knee, and only a single ring of tattoos circles his eyes. Yet the skaa on the street shy away from him as if he were the High Prelan himself, keeping more than an arm’s length away at all times.",
+                        "info":"The lowest-ranking members of the Steel Ministry are novices, young noblemen who give up claims to familial titles to serve the Lord Ruler. They’re the aspiring Obligators a crew might find manning soothing stations in the skaa slums (along with a few Soothers and a Seeker), or as apprentices working in the vast black libraries of a conventicle, or attendants serving in a ranking Obligator’s entourage. Though new to a life of service, these journeymen are just as zealous and committed to their god’s glory as their superiors — if not more so."
+                    },
+                    "image":"./assets/bestiary/Novice.png"
+                }
+            ],
+            "koloss":[
+                {
+                    "name":"Immature Koloss",
+                    "type":"Koloss",
+                    "threat":"Mild",
+                    "level":1,
+                    "attributes":{
+                        "physique":3,
+                        "charm":2,
+                        "wits":2
+                    },
+                    "standings":{
+                        "resources":2,
+                        "influence":2,
+                        "spirit":2
+                    },
+                    "resiliences":{
+                        "health":5,
+                        "reputation":4,
+                        "willpower":4
+                    },
+                    "traits":[
+                        {
+                            "trait":"Berserker Rage"
+                        },
+                        {
+                            "trait":"Fearless"
+                        },
+                        {
+                            "trait":"Flat Affectation"
+                        },
+                        {
+                            "trait":"Dim-Witted"
+                        }
+                    ],
+                    "hemalurgy":[
+                        {
+                            "name":"4 Iron spikes",
+                            "desc":"Add 5 dice with rolls involving physical strength"
+                        }
+                    ],
+                    "equipment":[
+                        {
+                            "item":"Koloss blade (Damage +4; Melee Range: Striking / Striking)"
+                        }
+                    ],
+                    "lore":{
+                        "example":"You wake to heavy, ragged breathing and the scrape of metal on stone. Peeking through the shack’s window, you see a horrific creature shuffling down the street, dragging a five-foot long blade behind. Its skin is loose like a sack and its bovine eyes wander the village aimlessly, as if it’s lost.",
+                        "info":"Koloss are used throughout the Empire as shock troopers, ravaging rebel strongholds and friendly towns with equal fury. Early-stage koloss are roughly the size of a man, wrapped in a sack of flabby blue skin that hangs from their frames like the jowls of a dog. Though technically immature, these creatures are still substantially stronger than most humans and prone to fits of maddened rage at a moment’s notice."
+                    },
+                    "image":"./assets/bestiary/Immature.png"
+                }
+            ],
+            "wraiths":[
+                {
+                    "name":"Contracted Kandra",
+                    "type":"Kandra",
+                    "threat":"Serious",
+                    "level":3,
+                    "attributes":{
+                        "physique":4,
+                        "charm":6,
+                        "wits":5
+                    },
+                    "standings":{
+                        "resources":4,
+                        "influence":4,
+                        "spirit":5
+                    },
+                    "resiliences":{
+                        "health":8,
+                        "reputation":10,
+                        "willpower":10
+                    },
+                    "traits":[
+                        {
+                            "trait":"Improviser"
+                        },
+                        {
+                            "trait":"Keeper of Secrets"
+                        },
+                        {
+                            "trait":"Ancient Knowledge"
+                        },
+                        {
+                            "trait":"Protect the Contract"
+                        },
+                        {
+                            "trait":"Misunderstood"
+                        }
+                    ],
+                    "hemalurgy":[
+                        {
+                            "name":"Blessing of Awareness",
+                            "desc":"(adds 2 dice with rolls involving sight, hearing, touch, taste, or smell, and 2 Action Dice when determining the order of actions in a Conflict"
+                        }
+                    ],
+                    "kandra":[
+                        {
+                            "name":"Mimicry 5",
+                            "desc":"imitate others using their bones",
+                            "stunts":[
+                                {
+                                    "name":"Body Pocket",
+                                    "desc":"The character may create holes within his or her body to conceal up to one pound of small items, such as vials of metal flakes or small weapons. Each concealed item must be no larger than 6 inches in length. Items hidden in the character’s body cannot be Steelpushed or Ironpulled, and are impossible to detect. "
+                                }
+                            ]
+                        }
+                    ],
+                    "equipment":[
+                        {
+                            "item":"Bones (any one person)"
+                        },
+                        {
+                            "item":"Disguise (any one person)"
+                        }
+                    ],
+                    "lore":{
+                        "example":"The servant unbuttons his jacket and straightens his hair, glancing over his shoulder anxiously. As he approaches the door, he opens his shirt and slides his hand deep into his flesh, producing a skeleton key he slides into the lock. The door unlatches, and he quickly slips inside.",
+                        "info":"Kandra can wrap their blobby bodies around a set of bones to near-flawlessly impersonate the departed. Fortunately for their enemies, the kandra are banned from acts of violence against humans, and so they become watchers, eavesdroppers, and thieves. The wealthiest noble houses take kandra under Contract to spy on the activities of rival houses and businesses."
+                    },
+                    "image":"./assets/samples/JeHoy-Portrait.png"
+                }
             ]
         },
         {
