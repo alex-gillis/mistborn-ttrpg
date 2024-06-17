@@ -158,7 +158,7 @@ function Bestiary(props) {
   ];
 
   return (
-    <div className='notButter' >
+    <div className='butter'>
       <div>
         <div id='diagram'>
           <div id='reference-table'>
@@ -216,7 +216,7 @@ function Bestiary(props) {
                 </table>
               </div>
               <div id='mobiMenu'>
-                <table  style={{margin:"auto"}}>
+                <table style={{margin:"auto"}}>
                   <tbody>
                     <tr>
                       <td></td>

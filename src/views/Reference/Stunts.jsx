@@ -64,7 +64,7 @@ function Stunts(props) {
   ];
 
   return (
-    <div className='isButter' >
+    <div className='butter'>
       <div>
         <div id='diagram'>
           <div id='reference-table'>

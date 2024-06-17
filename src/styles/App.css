@@ -346,10 +346,10 @@ nav {
   padding-right: 15px;
   padding-bottom: 5px;
   margin-top: 5px;
-  flex-grow: 2;
+  flex-grow: 1;
   max-height: 780px;
+  max-width: 410px;
   min-width: 410px;
-  width: auto;
   overflow-y: scroll;
   list-style-type: none;
 }
@@ -494,6 +494,15 @@ nav {
 .basicBuild {
   width: 200px;
 }
+
+.butter {
+  padding-top: 40px;
+  margin-left: 25px;
+  padding-right: 2rem;
+  margin-bottom: 35px;
+  width: auto;
+}
+
 .centered {
   text-align: center;
 }
@@ -704,6 +713,34 @@ nav {
 
 }
 
+@media only screen and (max-width: 1170px) {
+
+  #diagram {
+    flex-direction: column;
+  }
+
+  #reference-info {
+    border-color: #242424;
+    border-style: solid;
+    border-width: 7px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 5px;
+    margin-top: 5px;
+    flex-grow: 1;
+    max-height: 780px;
+    max-width: 655px;
+    min-width: 655px;
+    overflow-y: scroll;
+    list-style-type: none;
+  }
+  
+  #table-list {
+    height: 380px;
+  }
+
+}
+
 /* Tablet */
 @media only screen and (max-width: 768px) {
   /* Elements */
@@ -779,6 +816,7 @@ nav {
     flex-grow: 1;
     max-height: 400px;
     height: 285px;
+    max-width: 768px;
     min-width: 0px;
     overflow-y: scroll;
     list-style-type: none;

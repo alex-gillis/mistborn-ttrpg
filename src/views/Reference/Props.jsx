@@ -130,12 +130,12 @@ function Props(props) {
   ];
 
   return (
-    <div className='isButter' >
+    <div className='butter'>
       <div>
         <div id='diagram'>
           <div id='reference-table'>
               <div id='regMenu'>
-                <table id='reference-size' className='reference-width' style={{margin:"auto"}}>
+                <table style={{margin:"auto"}}>
                   <tbody>
                     <tr>
                       <td colSpan={10}>
