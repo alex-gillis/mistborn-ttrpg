@@ -53,34 +53,34 @@ const Menu = () => {
     }
 
     const rules = [
-        "/mistborn-ttrpg/rules",
-        "/mistborn-ttrpg/contests",
-        "/mistborn-ttrpg/conflicts",
-        "/mistborn-ttrpg/standing"
+        "/rules",
+        "/contests",
+        "/conflicts",
+        "/standing"
     ]
 
     const creation = [
-        "/mistborn-ttrpg/creation",
-        "/mistborn-ttrpg/samples",
-        "/mistborn-ttrpg/building",
-        "/mistborn-ttrpg/improvement"
+        "/creation",
+        "/samples",
+        "/building",
+        "/improvement"
     ]
 
     const lore = [
-        "/mistborn-ttrpg/lore",
-        "/mistborn-ttrpg/locations",
-        "/mistborn-ttrpg/people",
-        "/mistborn-ttrpg/history",
-        "/mistborn-ttrpg/religion"
+        "/lore",
+        "/locations",
+        "/people",
+        "/history",
+        "/religion"
     ]
 
     const reference = [
-        "/mistborn-ttrpg/metal",
-        "/mistborn-ttrpg/props",
-        "/mistborn-ttrpg/stunts",
-        "/mistborn-ttrpg/network",
-        "/mistborn-ttrpg/terms",
-        "/mistborn-ttrpg/bestiary"
+        "/metal",
+        "/props",
+        "/stunts",
+        "/network",
+        "/terms",
+        "/bestiary"
     ];
 
     const ruleSelect = rules.some(path => pathname.includes(path));
@@ -88,30 +88,30 @@ const Menu = () => {
     const loreSelect = lore.some(path => pathname.includes(path));
     const refSelect = reference.some(path => pathname.includes(path));
 
-    const metal = pathname.includes("/mistborn-ttrpg/metal");
-    const props = pathname.includes("/mistborn-ttrpg/props");
-    const stunts = pathname.includes("/mistborn-ttrpg/stunts");
-    const networks = pathname.includes("/mistborn-ttrpg/networks");
-    const terms = pathname.includes("/mistborn-ttrpg/terms");
+    const metal = pathname.includes("/metal");
+    const props = pathname.includes("/props");
+    const stunts = pathname.includes("/stunts");
+    const networks = pathname.includes("/networks");
+    const terms = pathname.includes("/terms");
     
 
     const pages = [
-        { title: 'Home', link: "/mistborn-ttrpg/", className: pathname === "/mistborn-ttrpg/" ? 'selected' : 'unselected', onClick: handlePageChange },
-        { title: 'Rules', link: "/mistborn-ttrpg/rules", className: ruleSelect ? 'selected' : 'unselected', onClick: handlePageChange },
-        { title: 'Creation', link: "/mistborn-ttrpg/creation", className: createSelect ? 'selected' : 'unselected', onClick: handlePageChange },
-        { title: 'Lore', link: "/mistborn-ttrpg/lore", className: loreSelect ? 'selected' : 'unselected', onClick: handlePageChange },
+        { title: 'Home', link: "/", className: pathname === "/" ? 'selected' : 'unselected', onClick: handlePageChange },
+        { title: 'Rules', link: "/rules", className: ruleSelect ? 'selected' : 'unselected', onClick: handlePageChange },
+        { title: 'Creation', link: "/creation", className: createSelect ? 'selected' : 'unselected', onClick: handlePageChange },
+        { title: 'Lore', link: "/lore", className: loreSelect ? 'selected' : 'unselected', onClick: handlePageChange },
         {
             title: 'References', 
             className: refSelect || mySelection ? 'selected' : 'unselected',
             classDrop: mySelection ? 'dropDown' : 'pickUp', 
             onClick: toggleMenu,
             subpages: [
-                { title: 'Bestiary', link: "/mistborn-ttrpg/bestiary", subclassName: props ? 'dropSelected' : 'dropUnselected' },
-                { title: 'Metallurgy', link: "/mistborn-ttrpg/metallurgy", subclassName: metal ? 'dropSelected' : 'dropUnselected' },
-                { title: 'Networks', link: "/mistborn-ttrpg/networks", subclassName: networks ? 'dropSelected' : 'dropUnselected' },
-                { title: 'Props', link: "/mistborn-ttrpg/props", subclassName: props ? 'dropSelected' : 'dropUnselected' },
-                { title: 'Stunts', link: "/mistborn-ttrpg/stunts", subclassName: stunts ? 'dropSelected' : 'dropUnselected' },
-                { title: 'Terms', link: "/mistborn-ttrpg/terms", subclassName: terms ? 'dropSelected' : 'dropUnselected' }
+                { title: 'Bestiary', link: "/bestiary", subclassName: props ? 'dropSelected' : 'dropUnselected' },
+                { title: 'Metallurgy', link: "/metallurgy", subclassName: metal ? 'dropSelected' : 'dropUnselected' },
+                { title: 'Networks', link: "/networks", subclassName: networks ? 'dropSelected' : 'dropUnselected' },
+                { title: 'Props', link: "/props", subclassName: props ? 'dropSelected' : 'dropUnselected' },
+                { title: 'Stunts', link: "/stunts", subclassName: stunts ? 'dropSelected' : 'dropUnselected' },
+                { title: 'Terms', link: "/terms", subclassName: terms ? 'dropSelected' : 'dropUnselected' }
             ]
         },
     ];

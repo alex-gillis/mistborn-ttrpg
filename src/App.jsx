@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
+import { HashRouter, Routes, Route, Navigate  } from 'react-router-dom';
 import Menu from './views/Menu';
 import './styles/index.css';
 import Intro from './views/Main/Intro';
@@ -70,9 +70,9 @@ function App() {
   }
 
   return (
-    <BrowserRouter>
+    <HashRouter>
         <Routes>
-            <Route path="/mistborn-ttrpg" element={<Menu />} >
+            <Route path="/" element={<Menu />} >
                 <Route index element={<Intro />} />
                 <Route path="rules" element={<Rules />}>
                     <Route index element={<RulesBasics game={myGames[0]} />} />
@@ -120,11 +120,11 @@ function App() {
                 <Route path="networks" element={<Networks networks={myNetwork}/>} />
                 <Route path="terms" element={<Terms gameTerms={myCreations[2]?.gameTerms}/>} />
                 <Route path="404" element={<NoPage/>} />
-                <Route path="*" element={<Navigate replace to='/mistborn-ttrpg/404'/>} />
+                <Route path="*" element={<Navigate replace to='/404'/>} />
 
             </Route>
         </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
