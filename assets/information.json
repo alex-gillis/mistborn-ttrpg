@@ -6707,14 +6707,14 @@
                     "props":[
                         {   
                             "item": "Bulletproof vest",
-                            "desc": "Wearer is immune to the effects of Brass and Zinc Allomancy",
+                            "desc": "Leather vest woven with pads and metal plates",
                             "type":"Armor",
                             "props":"1",
                             "difficulty":"3"
                         },
                         {   
                             "item": "Leather duster",
-                            "desc": "Wearer is immune to the effects of Brass and Zinc Allomancy",
+                            "desc": "A long, heavy leather coat worn by lawkeepers and bandits",
                             "type":"Armor",
                             "props":"1",
                             "difficulty":"3"
