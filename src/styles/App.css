@@ -177,6 +177,7 @@ nav {
   min-width: 550px;
   height: 85%;
   margin: auto;
+  padding-bottom: 15px;
 }
 
 #chosenRow {
@@ -773,6 +774,7 @@ nav {
   
   #centerSheet{
     flex-direction: column;
+    margin-right: 25px;
   }
 
   #character {

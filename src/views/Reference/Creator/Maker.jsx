@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
 import { useState } from 'react';
-import { Select, FormGroup, FormControl, FormControlLabel, Checkbox, TextField, InputLabel, MenuItem } from '@mui/material';
+import { Select, FormGroup, FormControl, FormControlLabel, Checkbox, TextField, InputLabel, MenuItem, ListSubheader } from '@mui/material';
 function Maker(props) {
     // Character Information
     const [myName, setName] = useState("");
@@ -85,12 +85,6 @@ function Maker(props) {
                 <TextField sx={{ m: 0.5, minWidth: 120, maxWidth: 165 }} id="filled-basic" label="Speciality" variant="filled" value={mySpeciality} onChange={handleSpeciality} />
                 <TextField sx={{ m: 0.5, minWidth: 120, maxWidth: 165 }} id="filled-basic" label="Feature" variant="filled" value={myFeature} onChange={handleFeature} />
                 <TextField sx={{ m: 0.5, minWidth: 120, maxWidth: 165 }} id="filled-basic" label="Personality" variant="filled" value={myPersonality} onChange={handlePersonality} />
-                {myPower === 1 && 
-                    <div>
-                        <TextField sx={{ m: 0.5, minWidth: 120, maxWidth: 165 }} id="filled-basic" label="Extra Trait" variant="filled" value={myExtra1} onChange={handleExtra1} />
-                        <TextField sx={{ m: 0.5, minWidth: 120, maxWidth: 165 }} id="filled-basic" label="Extra Trait" variant="filled" value={myExtra2} onChange={handleExtra2} />
-                    </div>
-                }
                 <div>
                     <TextField sx={{ m: 0.5, minWidth: 120, maxWidth: 165 }} id="filled-basic" label="Tragedy" variant="filled" value={myTragedy} onChange={handleTragedy} />
                     <TextField sx={{ m: 0.5, minWidth: 120, maxWidth: 165 }} id="filled-basic" label="Destiny" variant="filled" value={myDestiny} onChange={handleDestiny} />
@@ -118,9 +112,12 @@ function Maker(props) {
                 <FormControl variant="standard" sx={{ m: 0.5, marginTop: 0, minWidth: 120 }}>
                     <InputLabel id="demo-simple-select-label">Powers</InputLabel>
                     <Select labelId="demo-simple-select-label" id="demo-simple-select" value={myPower} onChange={handlePower}>
-                        <MenuItem value={1}>Weak</MenuItem>
-                        <MenuItem value={2}>Average</MenuItem>
-                        <MenuItem value={3}>Strong</MenuItem>
+                        <ListSubheader style={{color:'black', fontWeight:"bolder", fontSize:"large"}}>Weak</ListSubheader>
+                        <MenuItem value={1}>Two Traits</MenuItem>
+                        <MenuItem value={2}>Two Stunts</MenuItem>
+                        <MenuItem value={3}>One of Each</MenuItem>
+                        <MenuItem value={4}>Average</MenuItem>
+                        <MenuItem value={5}>Strong</MenuItem>
                     </Select>
                 </FormControl>
             </div>
@@ -129,6 +126,7 @@ function Maker(props) {
                     // Weak Attributes
                     <div>
                         <h3 style={{color:'black', marginBottom:'0px' }}>Attributes</h3>
+                        <h4 style={{color:'black', background:"transparent", margin:'0px' }}>Split 9 points between Attributes. No Attribute may exceed 4</h4>
                         <FormControl variant="standard" sx={{ m: 0.5, marginTop: 0, minWidth: 120 }}>
                             <InputLabel id="demo-simple-select-label">Physique</InputLabel>
                             <Select labelId="demo-simple-select-label" id="demo-simple-select" value={myPhysique} onChange={handlePhysique}>
@@ -165,6 +163,7 @@ function Maker(props) {
                     // Average Attributes
                     <div>
                         <h3 style={{color:'black', marginBottom:'0px' }}>Attributes</h3>
+                        <h4 style={{color:'black', background:"transparent", margin:'0px' }}>Split 11 points between Attributes. No Attribute may exceed 5</h4>
                         <FormControl variant="standard" sx={{ m: 0.5, marginTop: 0, minWidth: 120 }}>
                             <InputLabel id="demo-simple-select-label">Physique</InputLabel>
                             <Select labelId="demo-simple-select-label" id="demo-simple-select" value={myPhysique} onChange={handlePhysique}>
@@ -201,6 +200,7 @@ function Maker(props) {
                     // Strong Attributes
                     <div>
                         <h3 style={{color:'black', marginBottom:'0px' }}>Attributes</h3>
+                        <h4 style={{color:'black', background:"transparent", margin:'0px' }}>Split 13 points between Attributes. No Attribute may exceed 6</h4>
                         <FormControl variant="standard" sx={{ m: 0.5, marginTop: 0, minWidth: 120 }}>
                             <InputLabel id="demo-simple-select-label">Physique</InputLabel>
                             <Select labelId="demo-simple-select-label" id="demo-simple-select" value={myPhysique} onChange={handlePhysique}>
@@ -237,6 +237,7 @@ function Maker(props) {
                     // Weak Attributes
                     <div>
                         <h3 style={{color:'black', marginBottom:'0px' }}>Standings</h3>
+                        <h4 style={{color:'black', background:"transparent", margin:'0px' }}>Split 9 points between Attributes. No Attribute may exceed 4</h4>
                         <FormControl variant="standard" sx={{ m: 0.5, marginTop: 0, minWidth: 120 }}>
                             <InputLabel id="demo-simple-select-label">Resources</InputLabel>
                             <Select labelId="demo-simple-select-label" id="demo-simple-select" value={myPhysique} onChange={handlePhysique}>
@@ -279,6 +280,7 @@ function Maker(props) {
                     // Average Attributes
                     <div>
                         <h3 style={{color:'black', marginBottom:'0px' }}>Standings</h3>
+                        <h4 style={{color:'black', background:"transparent", margin:'0px' }}>Split 11 points between Attributes. No Attribute may exceed 6</h4>
                         <FormControl variant="standard" sx={{ m: 0.5, marginTop: 0, minWidth: 120 }}>
                             <InputLabel id="demo-simple-select-label">Resources</InputLabel>
                             <Select labelId="demo-simple-select-label" id="demo-simple-select" value={myPhysique} onChange={handlePhysique}>
@@ -321,6 +323,7 @@ function Maker(props) {
                     // Strong Attributes
                     <div>
                         <h3 style={{color:'black', marginBottom:'0px' }}>Standings</h3>
+                        <h4 style={{color:'black', background:"transparent", margin:'0px' }}>Split 13 points between Attributes. No Attribute may exceed 8</h4>
                         <FormControl variant="standard" sx={{ m: 0.5, marginTop: 0, minWidth: 120 }}>
                             <InputLabel id="demo-simple-select-label">Resources</InputLabel>
                             <Select labelId="demo-simple-select-label" id="demo-simple-select" value={myPhysique} onChange={handlePhysique}>
@@ -357,6 +360,28 @@ function Maker(props) {
                                 <MenuItem value={8}>8</MenuItem>
                             </Select>
                         </FormControl>
+                    </div>
+                }
+            </div>
+            <div>
+                {myPower === 1 && 
+                    <div>
+                        <h3 style={{color:'black', marginBottom:'0px' }}>Powers</h3>
+                        <h4 style={{color:'black', background:"transparent", margin:'0px' }}>With Weak Powers, Gain Two Extra Traits, Two Stunts, or One of Each</h4>
+                        <TextField sx={{ m: 0.5, minWidth: 120, maxWidth: 165 }} id="filled-basic" label="Extra Trait" variant="filled" value={myExtra1} onChange={handleExtra1} />
+                        <TextField sx={{ m: 0.5, minWidth: 120, maxWidth: 165 }} id="filled-basic" label="Extra Trait" variant="filled" value={myExtra2} onChange={handleExtra2} />
+                    </div>
+                }
+                {myPower === 4 && 
+                    <div>
+                        <h3 style={{color:'black', marginBottom:'0px' }}>Powers</h3>
+                        <h4 style={{color:'black', background:"transparent", margin:'0px' }}>Kandras, Koloss, Mistings and Ferrings</h4>
+                    </div>
+                }
+                {myPower === 5 && 
+                    <div>
+                        <h3 style={{color:'black', marginBottom:'0px' }}>Powers</h3>
+                        <h4 style={{color:'black', background:"transparent", margin:'0px' }}>Twinborn, Koloss-blooded Mistings/Ferrings</h4>
                     </div>
                 }
             </div>

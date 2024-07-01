@@ -8,7 +8,7 @@ function Creator() {
     return (
       < >
         <h1>Charactermancer</h1>
-        <div id="centerSheet" style={{marginLeft:"25px", marginRight:"25px"}}>
+        <div id="centerSheet" style={{marginLeft:"25px", marginBottom:"20px"}}>
           <div className="sheet">
             <Maker />
           </div>
