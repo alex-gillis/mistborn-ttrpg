@@ -26,6 +26,7 @@ import Terms from './views/Reference/Terms';
 import People from './views/Lore/People';
 import Networks from './views/Reference/Networks';
 import Bestiary from './views/Reference/Bestiary';
+import Creator from './views/Reference/Creator';
 
 function App() {
   const [myMetals, setMetals] = useState([]);
@@ -113,6 +114,7 @@ function App() {
                 <Route path="religion" element={<Lore />}>
                     <Route index element={<Religion religion={myLore[5]} />} />
                 </Route>
+                <Route path="creator" element={<Creator />} />
                 <Route path="metallurgy" element={<Metallurgy basics={myBasics} metals={myMetals} />} />
                 <Route path="stunts" element={<Stunts stunts={myStunts}/>} />
                 <Route path="bestiary" element={<Bestiary era1={myRogues[2]} era2={myRogues[3]}/>} />

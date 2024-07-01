@@ -80,7 +80,8 @@ const Menu = () => {
         "/stunts",
         "/network",
         "/terms",
-        "/bestiary"
+        "/bestiary",
+        "/creator"
     ];
 
     const ruleSelect = rules.some(path => pathname.includes(path));
@@ -107,6 +108,7 @@ const Menu = () => {
             onClick: toggleMenu,
             subpages: [
                 { title: 'Bestiary', link: "/bestiary", subclassName: props ? 'dropSelected' : 'dropUnselected' },
+                { title: 'Creator', link: "/creator", subclassName: props ? 'dropSelected' : 'dropUnselected' },
                 { title: 'Metallurgy', link: "/metallurgy", subclassName: metal ? 'dropSelected' : 'dropUnselected' },
                 { title: 'Networks', link: "/networks", subclassName: networks ? 'dropSelected' : 'dropUnselected' },
                 { title: 'Props', link: "/props", subclassName: props ? 'dropSelected' : 'dropUnselected' },
