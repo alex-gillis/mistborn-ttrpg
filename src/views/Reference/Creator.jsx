@@ -15,7 +15,6 @@ function Creator() {
           <br/>
           <div className="sheet">
             {/* <Character rogue={} /> */}
-            <Maker />
           </div>
         </div>
       </>

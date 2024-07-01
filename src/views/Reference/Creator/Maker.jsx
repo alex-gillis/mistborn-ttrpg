@@ -96,28 +96,28 @@ function Maker(props) {
                 <FormControl variant="standard" sx={{ m: 0.5, marginTop: 0, minWidth: 120 }}>
                     <InputLabel id="demo-simple-select-label">Attributes</InputLabel>
                     <Select labelId="demo-simple-select-label" id="demo-simple-select" value={myAttribute} onChange={handleAttribute}>
-                        <MenuItem value={1}>Weak</MenuItem>
-                        <MenuItem value={2}>Average</MenuItem>
-                        <MenuItem value={3}>Strong</MenuItem>
+                        <MenuItem style={{fontWeight:"bolder", fontSize:"large"}} value={1}>Weak</MenuItem>
+                        <MenuItem style={{fontWeight:"bolder", fontSize:"large"}} value={2}>Average</MenuItem>
+                        <MenuItem style={{fontWeight:"bolder", fontSize:"large"}} value={3}>Strong</MenuItem>
                     </Select>
                 </FormControl>
                 <FormControl variant="standard" sx={{ m: 0.5, marginTop: 0, minWidth: 120 }}>
                     <InputLabel id="demo-simple-select-label">Standings</InputLabel>
                     <Select labelId="demo-simple-select-label" id="demo-simple-select" value={myStand} onChange={handleStand}>
-                        <MenuItem value={1}>Weak</MenuItem>
-                        <MenuItem value={2}>Average</MenuItem>
-                        <MenuItem value={3}>Strong</MenuItem>
+                        <MenuItem style={{fontWeight:"bolder", fontSize:"large"}} value={1}>Weak</MenuItem>
+                        <MenuItem style={{fontWeight:"bolder", fontSize:"large"}} value={2}>Average</MenuItem>
+                        <MenuItem style={{fontWeight:"bolder", fontSize:"large"}} value={3}>Strong</MenuItem>
                     </Select>
                 </FormControl>
                 <FormControl variant="standard" sx={{ m: 0.5, marginTop: 0, minWidth: 120 }}>
                     <InputLabel id="demo-simple-select-label">Powers</InputLabel>
                     <Select labelId="demo-simple-select-label" id="demo-simple-select" value={myPower} onChange={handlePower}>
-                        <ListSubheader style={{color:'black', fontWeight:"bolder", fontSize:"large"}}>Weak</ListSubheader>
-                        <MenuItem value={1}>Two Traits</MenuItem>
-                        <MenuItem value={2}>Two Stunts</MenuItem>
-                        <MenuItem value={3}>One of Each</MenuItem>
-                        <MenuItem value={4}>Average</MenuItem>
-                        <MenuItem value={5}>Strong</MenuItem>
+                        <ListSubheader style={{fontWeight:"bolder", fontSize:"large"}}>Weak</ListSubheader>
+                        <MenuItem style={{marginLeft:'5px', fontStyle:'italic'}} value={1}>Two Traits</MenuItem>
+                        <MenuItem style={{marginLeft:'5px', fontStyle:'italic'}} value={2}>Two Stunts</MenuItem>
+                        <MenuItem style={{marginLeft:'5px', fontStyle:'italic'}} value={3}>One of Each</MenuItem>
+                        <MenuItem style={{fontWeight:"bolder", fontSize:"large"}} value={4}>Average</MenuItem>
+                        <MenuItem style={{fontWeight:"bolder", fontSize:"large"}} value={5}>Strong</MenuItem>
                     </Select>
                 </FormControl>
             </div>
