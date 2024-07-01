@@ -25,7 +25,7 @@ function History(props) {
         < >
         <div className='mobMargin' style={{marginTop:"15px"}}>
           <ol id='list'>
-            <h3>History & Society</h3>
+            <h3 className='notButter'>History & Society</h3>
             {history.map((section, index) => (
               <li  id="nav-list" className={mySection === index ? "nav-chosen" : "nav-unchosen"} key={index}>
                 <button className="index-button" onClick={section.onClick}>

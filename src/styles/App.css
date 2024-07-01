@@ -251,9 +251,9 @@ nav {
 
 #info {
   /* margin-top: 50px; */
-  margin-left: 210px;
+  margin-left: 225px;
   padding-right: 1rem;
-  max-width: 1080px;
+  max-width: 1060px;
   width: auto;
 }
 
@@ -312,6 +312,8 @@ nav {
   margin-bottom: 5px;
   list-style: none;
   margin-right: 5px;
+  margin-left: 5px;
+  width: 190px;
 }
 
 #necessary {
@@ -814,6 +816,10 @@ nav {
 
   #mobiMenu {
     display: block;
+  }
+
+  #nav-list {
+    width: auto;
   }
 
   #necessary {

@@ -2746,7 +2746,7 @@
             ],
             "selectEra2": [
                 {
-                    "select": "Which options have been changed or retired?",
+                    "select": "Which options have been changed?",
                     "id": 7
                 },
                 {

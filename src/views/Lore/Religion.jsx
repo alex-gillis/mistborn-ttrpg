@@ -27,7 +27,7 @@ function Religion(props) {
         < >
         <div className='mobMargin' style={{marginTop:"15px"}}>
           <ol id='list'>
-            <h3>Belief & Worship</h3>
+            <h3 className='notButter'>Belief & Worship</h3>
             {religion.map((section, index) => (
               <li  id="nav-list" className={mySection === index ? "nav-chosen" : "nav-unchosen"} key={index}>
                 <button className="index-button" onClick={section.onClick}>

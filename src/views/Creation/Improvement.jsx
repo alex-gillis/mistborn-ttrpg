@@ -30,9 +30,9 @@ const Improvement = (props) => {
         < >
         <div className='mobMargin' style={{marginTop:"15px"}}>
           <ol id='list'>
-            <h3>Advancment</h3>
+            <h3 className='notButter'>Advancment</h3>
             {sections.map((section, index) => (
-              <li  id="nav-list" className={mySection === index ? "nav-chosen" : "nav-unchosen"} style={{width:"170px"}} key={index}>
+              <li id="nav-list" className={mySection === index ? "nav-chosen" : "nav-unchosen"} key={index}>
                 <button className="index-button" onClick={section.onClick}>
                   <span id="bold">{section.title}</span>
                 </button>

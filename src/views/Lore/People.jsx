@@ -81,7 +81,7 @@ function People(props) {
         < >
         <div className='mobMargin' style={{marginTop:"15px"}}>
           <ol id='list'>
-            <h3>Koloss Tribes</h3>
+            <h3 className='notButter'>Koloss Tribes</h3>
             {koloss.map((section, index) => (
               <li id="nav-list" className={mySection === index ? "nav-chosen" : "nav-unchosen"} key={index}>
                 <button className="index-button" onClick={section.onClick}>

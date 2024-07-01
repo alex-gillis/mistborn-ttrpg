@@ -29,7 +29,7 @@ function Overview(props) {
         < >
         <div className='mobMargin' style={{marginTop:"15px"}}>
           <ol id='list'>
-            <h3>Overview</h3>
+            <h3 className='notButter'>Overview</h3>
             {sections.map((section, index) => (
               <li  id="nav-list" className={mySection === index ? "nav-chosen" : "nav-unchosen"} key={index}>
                 <button className="index-button" onClick={section.onClick}>
