@@ -44,6 +44,19 @@ function Maker(props) {
     const handleExtra1 = (event) => { setExtra1(event.target.value); };
     const [myExtra2, setExtra2] = useState("");
     const handleExtra2 = (event) => { setExtra2(event.target.value); };
+    // Powers
+    const [myFirstPower, setFirstPower] = useState("");
+    const handleFirstPower = (event) => { setFirstPower(event.target.value); };
+    const [myFirstStuntName, setFirstStuntName] = useState("");
+    const handleFirstStuntName = (event) => { setFirstStuntName(event.target.value); };
+    const [myFirstStuntDesc, setFirstStuntDesc] = useState("");
+    const handleFirstStuntDesc = (event) => { setFirstStuntDesc(event.target.value); };
+    const [mySecondPower, setSecondPower] = useState("");
+    const handleSecondPower = (event) => { setSecondPower(event.target.value); };
+    const [mySecondStuntName, setSecondStuntName] = useState("");
+    const handleSecondStuntName = (event) => { setSecondStuntName(event.target.value); };
+    const [mySecondStuntDesc, setSecondStuntDesc] = useState("");
+    const handleSecondStuntDesc = (event) => { setSecondStuntDesc(event.target.value); };
     // Statistics
     const [myAttribute, setAttribute] = useState("");
     const handleAttribute = (event) => { setAttribute(event.target.value); };
@@ -376,10 +389,10 @@ function Maker(props) {
                     <div>
                         <h3 style={{color:'black', marginBottom:'0px' }}>Powers</h3>
                         <h4 style={{color:'black', background:"transparent", margin:'0px' }}>With Weak Powers, Gain Two Extra Traits, Two Stunts, or One of Each</h4>
-                        <TextField sx={{ m: 0.5, minWidth: 120, maxWidth: 165 }} id="filled-basic" label="Stunt Name" variant="filled" value={myExtra1} onChange={handleExtra1} />
-                        <TextField sx={{ m: 0.5, minWidth: 240, maxWidth: 330 }} id="filled-basic" label="Stunt Description" variant="filled" value={myExtra2} onChange={handleExtra2} />
-                        <TextField sx={{ m: 0.5, minWidth: 120, maxWidth: 165 }} id="filled-basic" label="Stunt Name" variant="filled" value={myExtra2} onChange={handleExtra2} />
-                        <TextField sx={{ m: 0.5, minWidth: 240, maxWidth: 330 }} id="filled-basic" label="Stunt Description" variant="filled" value={myExtra2} onChange={handleExtra2} />
+                        <TextField sx={{ m: 0.5, minWidth: 120, maxWidth: 165 }} id="filled-basic" label="Stunt Name" variant="filled" value={myFirstStuntName} onChange={handleFirstStuntName} />
+                        <TextField sx={{ m: 0.5, minWidth: 240, maxWidth: 330 }} id="filled-basic" label="Stunt Description" variant="filled" value={myFirstStuntDesc} onChange={handleFirstStuntDesc} />
+                        <TextField sx={{ m: 0.5, minWidth: 120, maxWidth: 165 }} id="filled-basic" label="Stunt Name" variant="filled" value={mySecondStuntName} onChange={handleSecondStuntName} />
+                        <TextField sx={{ m: 0.5, minWidth: 240, maxWidth: 330 }} id="filled-basic" label="Stunt Description" variant="filled" value={mySecondStuntDesc} onChange={handleSecondStuntDesc} />
                     </div>
                 }
                 {myPower === 3 && 
@@ -388,44 +401,35 @@ function Maker(props) {
                         <h4 style={{color:'black', background:"transparent", margin:'0px' }}>With Weak Powers, Gain Two Extra Traits, Two Stunts, or One of Each</h4>
                         <TextField sx={{ m: 0.5, minWidth: 414, maxWidth: 450 }} id="filled-basic" label="Extra Trait" variant="filled" value={myExtra1} onChange={handleExtra1} />
                         <br/>
-                        <TextField sx={{ m: 0.5, minWidth: 120, maxWidth: 165 }} id="filled-basic" label="Stunt Name" variant="filled" value={myExtra1} onChange={handleExtra1} />
-                        <TextField sx={{ m: 0.5, minWidth: 240, maxWidth: 330 }} id="filled-basic" label="Stunt Description" variant="filled" value={myExtra2} onChange={handleExtra2} />
+                        <TextField sx={{ m: 0.5, minWidth: 120, maxWidth: 165 }} id="filled-basic" label="Stunt Name" variant="filled" value={myFirstStuntName} onChange={handleFirstStuntName} />
+                        <TextField sx={{ m: 0.5, minWidth: 240, maxWidth: 330 }} id="filled-basic" label="Stunt Description" variant="filled" value={myFirstStuntDesc} onChange={handleFirstStuntDesc} />
                     </div>
                 }
                 {myPower === 4 && 
                     <div>
                         <h3 style={{color:'black', marginBottom:'0px' }}>Powers</h3>
                         <h4 style={{color:'black', background:"transparent", margin:'0px' }}>Kandras, Koloss, Mistings and Ferrings</h4>
-                        <TextField sx={{ m: 0.5, minWidth: 414, maxWidth: 450 }} id="filled-basic" label="Power Name & Rating" variant="filled" value={myExtra1} onChange={handleExtra1} />
+                        <TextField sx={{ m: 0.5, minWidth: 414, maxWidth: 450 }} id="filled-basic" label="Power Name & Rating" variant="filled" value={myFirstPower} onChange={handleFirstPower} />
                         <br/>
-                        <TextField sx={{ m: 0.5, minWidth: 120, maxWidth: 165 }} id="filled-basic" label="Stunt Name" variant="filled" value={myExtra1} onChange={handleExtra1} />
-                        <TextField sx={{ m: 0.5, minWidth: 240, maxWidth: 330 }} id="filled-basic" label="Stunt Description" variant="filled" value={myExtra2} onChange={handleExtra2} />
+                        <TextField sx={{ m: 0.5, minWidth: 120, maxWidth: 165 }} id="filled-basic" label="Stunt Name" variant="filled" value={myFirstStuntName} onChange={handleFirstStuntName} />
+                        <TextField sx={{ m: 0.5, minWidth: 240, maxWidth: 330 }} id="filled-basic" label="Stunt Description" variant="filled" value={myFirstStuntDesc} onChange={handleFirstStuntDesc} />
                     </div>
                 }
                 {myPower === 5 && 
                     <div>
                         <h3 style={{color:'black', marginBottom:'0px' }}>Powers</h3>
                         <h4 style={{color:'black', background:"transparent", margin:'0px' }}>Twinborn, Koloss-blooded Mistings/Ferrings</h4>
-                        <TextField sx={{ m: 0.5, minWidth: 414, maxWidth: 450 }} id="filled-basic" label="Power Name & Rating" variant="filled" value={myExtra1} onChange={handleExtra1} />
+                        <TextField sx={{ m: 0.5, minWidth: 414, maxWidth: 450 }} id="filled-basic" label="Power Name & Rating" variant="filled" value={myFirstPower} onChange={handleFirstPower} />
                         <br/>
-                        <TextField sx={{ m: 0.5, minWidth: 120, maxWidth: 165 }} id="filled-basic" label="Stunt Name" variant="filled" value={myExtra1} onChange={handleExtra1} />
-                        <TextField sx={{ m: 0.5, minWidth: 240, maxWidth: 330 }} id="filled-basic" label="Stunt Description" variant="filled" value={myExtra2} onChange={handleExtra2} />
+                        <TextField sx={{ m: 0.5, minWidth: 120, maxWidth: 165 }} id="filled-basic" label="Stunt Name" variant="filled" value={myFirstStuntName} onChange={handleFirstStuntName} />
+                        <TextField sx={{ m: 0.5, minWidth: 240, maxWidth: 330 }} id="filled-basic" label="Stunt Description" variant="filled" value={myFirstStuntDesc} onChange={handleFirstStuntDesc} />
                         <br/>
-                        <TextField sx={{ m: 0.5, minWidth: 414, maxWidth: 450 }} id="filled-basic" label="Power Name & Rating" variant="filled" value={myExtra1} onChange={handleExtra1} />
+                        <TextField sx={{ m: 0.5, minWidth: 414, maxWidth: 450 }} id="filled-basic" label="Power Name & Rating" variant="filled" value={mySecondPower} onChange={handleSecondPower} />
                         <br/>
-                        <TextField sx={{ m: 0.5, minWidth: 120, maxWidth: 165 }} id="filled-basic" label="Stunt Name" variant="filled" value={myExtra1} onChange={handleExtra1} />
-                        <TextField sx={{ m: 0.5, minWidth: 240, maxWidth: 330 }} id="filled-basic" label="Stunt Description" variant="filled" value={myExtra2} onChange={handleExtra2} />
+                        <TextField sx={{ m: 0.5, minWidth: 120, maxWidth: 165 }} id="filled-basic" label="Stunt Name" variant="filled" value={mySecondStuntName} onChange={handleSecondStuntName} />
+                        <TextField sx={{ m: 0.5, minWidth: 240, maxWidth: 330 }} id="filled-basic" label="Stunt Description" variant="filled" value={mySecondStuntDesc} onChange={handleSecondStuntDesc} />
                     </div>
                 }
-            </div>
-            <div>
-                {/* Powers */}
-                {/* <FormGroup>
-                    <FormControlLabel control={<Checkbox />} label="Allomancy" />
-                    <FormControlLabel control={<Checkbox />} label="Feruchemy" />
-                    <FormControlLabel control={<Checkbox />} label="Compounding" />
-                    <FormControlLabel control={<Checkbox />} label="Hemalurgy" />
-                </FormGroup> */}
             </div>
         </div>
         </>
