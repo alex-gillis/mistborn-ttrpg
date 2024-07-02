@@ -96,28 +96,28 @@ function Maker(props) {
                 <FormControl variant="standard" sx={{ m: 0.5, marginTop: 0, minWidth: 120 }}>
                     <InputLabel id="demo-simple-select-label">Attributes</InputLabel>
                     <Select labelId="demo-simple-select-label" id="demo-simple-select" value={myAttribute} onChange={handleAttribute}>
-                        <MenuItem style={{fontWeight:"bolder", fontSize:"large"}} value={1}>Weak</MenuItem>
-                        <MenuItem style={{fontWeight:"bolder", fontSize:"large"}} value={2}>Average</MenuItem>
                         <MenuItem style={{fontWeight:"bolder", fontSize:"large"}} value={3}>Strong</MenuItem>
+                        <MenuItem style={{fontWeight:"bolder", fontSize:"large"}} value={2}>Average</MenuItem>
+                        <MenuItem style={{fontWeight:"bolder", fontSize:"large"}} value={1}>Weak</MenuItem>
                     </Select>
                 </FormControl>
                 <FormControl variant="standard" sx={{ m: 0.5, marginTop: 0, minWidth: 120 }}>
                     <InputLabel id="demo-simple-select-label">Standings</InputLabel>
                     <Select labelId="demo-simple-select-label" id="demo-simple-select" value={myStand} onChange={handleStand}>
-                        <MenuItem style={{fontWeight:"bolder", fontSize:"large"}} value={1}>Weak</MenuItem>
-                        <MenuItem style={{fontWeight:"bolder", fontSize:"large"}} value={2}>Average</MenuItem>
                         <MenuItem style={{fontWeight:"bolder", fontSize:"large"}} value={3}>Strong</MenuItem>
+                        <MenuItem style={{fontWeight:"bolder", fontSize:"large"}} value={2}>Average</MenuItem>
+                        <MenuItem style={{fontWeight:"bolder", fontSize:"large"}} value={1}>Weak</MenuItem>
                     </Select>
                 </FormControl>
                 <FormControl variant="standard" sx={{ m: 0.5, marginTop: 0, minWidth: 120 }}>
                     <InputLabel id="demo-simple-select-label">Powers</InputLabel>
                     <Select labelId="demo-simple-select-label" id="demo-simple-select" value={myPower} onChange={handlePower}>
+                        <MenuItem style={{fontWeight:"bolder", fontSize:"large"}} value={5}>Strong</MenuItem>
+                        <MenuItem style={{fontWeight:"bolder", fontSize:"large"}} value={4}>Average</MenuItem>
                         <ListSubheader style={{fontWeight:"bolder", fontSize:"large"}}>Weak</ListSubheader>
                         <MenuItem style={{marginLeft:'5px', fontStyle:'italic'}} value={1}>Two Traits</MenuItem>
                         <MenuItem style={{marginLeft:'5px', fontStyle:'italic'}} value={2}>Two Stunts</MenuItem>
                         <MenuItem style={{marginLeft:'5px', fontStyle:'italic'}} value={3}>One of Each</MenuItem>
-                        <MenuItem style={{fontWeight:"bolder", fontSize:"large"}} value={4}>Average</MenuItem>
-                        <MenuItem style={{fontWeight:"bolder", fontSize:"large"}} value={5}>Strong</MenuItem>
                     </Select>
                 </FormControl>
             </div>
@@ -372,16 +372,49 @@ function Maker(props) {
                         <TextField sx={{ m: 0.5, minWidth: 120, maxWidth: 165 }} id="filled-basic" label="Extra Trait" variant="filled" value={myExtra2} onChange={handleExtra2} />
                     </div>
                 }
+                {myPower === 2 && 
+                    <div>
+                        <h3 style={{color:'black', marginBottom:'0px' }}>Powers</h3>
+                        <h4 style={{color:'black', background:"transparent", margin:'0px' }}>With Weak Powers, Gain Two Extra Traits, Two Stunts, or One of Each</h4>
+                        <TextField sx={{ m: 0.5, minWidth: 120, maxWidth: 165 }} id="filled-basic" label="Stunt Name" variant="filled" value={myExtra1} onChange={handleExtra1} />
+                        <TextField sx={{ m: 0.5, minWidth: 240, maxWidth: 330 }} id="filled-basic" label="Stunt Description" variant="filled" value={myExtra2} onChange={handleExtra2} />
+                        <TextField sx={{ m: 0.5, minWidth: 120, maxWidth: 165 }} id="filled-basic" label="Stunt Name" variant="filled" value={myExtra2} onChange={handleExtra2} />
+                        <TextField sx={{ m: 0.5, minWidth: 240, maxWidth: 330 }} id="filled-basic" label="Stunt Description" variant="filled" value={myExtra2} onChange={handleExtra2} />
+                    </div>
+                }
+                {myPower === 3 && 
+                    <div>
+                        <h3 style={{color:'black', marginBottom:'0px' }}>Powers</h3>
+                        <h4 style={{color:'black', background:"transparent", margin:'0px' }}>With Weak Powers, Gain Two Extra Traits, Two Stunts, or One of Each</h4>
+                        <TextField sx={{ m: 0.5, minWidth: 414, maxWidth: 450 }} id="filled-basic" label="Extra Trait" variant="filled" value={myExtra1} onChange={handleExtra1} />
+                        <br/>
+                        <TextField sx={{ m: 0.5, minWidth: 120, maxWidth: 165 }} id="filled-basic" label="Stunt Name" variant="filled" value={myExtra1} onChange={handleExtra1} />
+                        <TextField sx={{ m: 0.5, minWidth: 240, maxWidth: 330 }} id="filled-basic" label="Stunt Description" variant="filled" value={myExtra2} onChange={handleExtra2} />
+                    </div>
+                }
                 {myPower === 4 && 
                     <div>
                         <h3 style={{color:'black', marginBottom:'0px' }}>Powers</h3>
                         <h4 style={{color:'black', background:"transparent", margin:'0px' }}>Kandras, Koloss, Mistings and Ferrings</h4>
+                        <TextField sx={{ m: 0.5, minWidth: 414, maxWidth: 450 }} id="filled-basic" label="Power Name & Rating" variant="filled" value={myExtra1} onChange={handleExtra1} />
+                        <br/>
+                        <TextField sx={{ m: 0.5, minWidth: 120, maxWidth: 165 }} id="filled-basic" label="Stunt Name" variant="filled" value={myExtra1} onChange={handleExtra1} />
+                        <TextField sx={{ m: 0.5, minWidth: 240, maxWidth: 330 }} id="filled-basic" label="Stunt Description" variant="filled" value={myExtra2} onChange={handleExtra2} />
                     </div>
                 }
                 {myPower === 5 && 
                     <div>
                         <h3 style={{color:'black', marginBottom:'0px' }}>Powers</h3>
                         <h4 style={{color:'black', background:"transparent", margin:'0px' }}>Twinborn, Koloss-blooded Mistings/Ferrings</h4>
+                        <TextField sx={{ m: 0.5, minWidth: 414, maxWidth: 450 }} id="filled-basic" label="Power Name & Rating" variant="filled" value={myExtra1} onChange={handleExtra1} />
+                        <br/>
+                        <TextField sx={{ m: 0.5, minWidth: 120, maxWidth: 165 }} id="filled-basic" label="Stunt Name" variant="filled" value={myExtra1} onChange={handleExtra1} />
+                        <TextField sx={{ m: 0.5, minWidth: 240, maxWidth: 330 }} id="filled-basic" label="Stunt Description" variant="filled" value={myExtra2} onChange={handleExtra2} />
+                        <br/>
+                        <TextField sx={{ m: 0.5, minWidth: 414, maxWidth: 450 }} id="filled-basic" label="Power Name & Rating" variant="filled" value={myExtra1} onChange={handleExtra1} />
+                        <br/>
+                        <TextField sx={{ m: 0.5, minWidth: 120, maxWidth: 165 }} id="filled-basic" label="Stunt Name" variant="filled" value={myExtra1} onChange={handleExtra1} />
+                        <TextField sx={{ m: 0.5, minWidth: 240, maxWidth: 330 }} id="filled-basic" label="Stunt Description" variant="filled" value={myExtra2} onChange={handleExtra2} />
                     </div>
                 }
             </div>
