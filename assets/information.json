@@ -329,8 +329,7 @@
                     }
                 ],
                 "savants": "A Lurcher Savant gains two “free” Nudges with Iron rolls, but is also very connected to the surrounding world, losing a bit of perspective. When not burning Iron, the Savant’s Willpower drops by 1."
-                }
-            ,
+            },
             "feruchemy": {
                 "icon": "./assets/alphabet/feruchemy/Iron.svg",
                 "lore": "Iron Ferrings are referrred to as 'Skimmers'. \n\n Feruchemists use Iron to store weight, becoming exceptionally light for a time. This allows them to jump further than normal or to fall slowly and with less risk. Tapping weight increases the density and durability of the character’s body, letting him or her more easily withstand falls and similar stresses. Tapping extreme weight can let a character crush obstacles or break through floors. \n\n This versatility makes Iron one of the few metals that’s as useful when storing as when tapping.",
@@ -339,6 +338,7 @@
                 "chargeTap": "Charges Tapped",
                 "tapped": "Feruchemists who tap huge amounts of weight can land heavy blows (by dropping their fists or bodies onto targets). They can also shatter surfaces and grind runaway vehicles to a halt. Feats you may achieve by tapping 10 or more charges of Iron include:",
                 "example":"Weight Increases and Other Examples",
+                "gunplay": [],
                 "tapping": [
                     {
                         "charges": "10",
@@ -727,6 +727,7 @@
                 "chargeTap": "",
                 "tapped": "Feruchemists who tap huge amounts of wakefulness can stay awake for weeks at a time, or resist falling unconscious from injury. For every 10 charges tapped, you may stay awake for up to 1 week (168 hours) without normal fatigue. \n\nAlternately, when an injury would normally knock you unconscious, you may tap 10 or more charges of Bronze to continue acting for 1 minute per 10 charges tapped.",
                 "example":"",
+                "gunplay": [],
                 "tapping": []
             },
             "compounding":{
@@ -937,6 +938,7 @@
                 "burnRate": "Instantaneous",
                 "flaredEffect": "There is no effect for flaring Aluminum",
                 "stunts": [],
+                "gunplay": [],
                 "savants": "There are no Aluminum Savants"
             },
             "feruchemy": {
@@ -947,6 +949,7 @@
                 "chargeTap": "Charges Tapped",
                 "tapped": "A Feruchemist who taps huge amounts of identity returns to an earlier point in his or her life, shaking off opinions, preferences, personality shifts, and even trauma from the intervening time. This removes all traces of emotional Allomancy, hypnotic suggestions, brainwashing, long-term stress, and Mental Burdens accumulated in that period, and also resets your mindset, penchants, loyalties, and other things that make you a unique persona. The more Aluminum that’s tapped, the further back you may regress. \n\n Tapping 10 or more charges of Aluminum immediately sets your Willpower to exactly 1 — unless it’s currently 0, in which case it remains at 0. This represents your struggle with the sudden and potentially mind-shattering change in your personality. \n\nResetting or even wiping your identity doesn’t change your memory (that’s what Copper does). Some Feruchemists store memories in a coppermind before tapping large amounts of identity, essentially gaining a whole new perspective on those memories. Should they lose their copperminds, however, those memories are gone for good.",
                 "example":"Time Regressed",
+                "gunplay": [],
                 "tapping": [
                     {
                         "charges": "10",
@@ -1024,6 +1027,7 @@
                 "chargeTap": "Charges Tapped",
                 "tapped": "A Feruchemist who taps huge amounts of connection becomes inhumanly charismatic and influential, and may also overcome Social Burdens he or she has suffered (even otherwise permanent ones like exile and manhunts). Some speculate that the great fealty afforded the Lord Ruler was partially a result of immense stored connection, selectively tapped to ensure absolute loyalty of close allies and advisors. Feats you may achieve by tapping 10 or more charges of Duralumin include:",
                 "example":"Social Burdens Overcome and Other Examples",
+                "gunplay": [],
                 "tapping": [
                     {
                         "charges": "10",
@@ -1166,6 +1170,7 @@
                 "chargeTap": "",
                 "tapped": "A Feruchemist tapping huge amounts of investiture can actually funnel his ability into a metalmind belonging to another Feruchemist, essentially overwriting the abilities originally stored therein with raw investiture. For every 10 charges of investiture you tap, you may reduce the number of charges in any metalmind you’re touching by 5. These charges are forever lost. \n\n Take care! This destructive ability is rarely met with pleasure, and may result in a Physique vs. Physique action if the metalmind’s owner is awake and nearby. ",
                 "example":"",
+                "gunplay": [],
                 "tapping": []
             },
             "compounding":{
@@ -1449,6 +1454,7 @@
                 "chargeTap": "",
                 "tapped": "A Feruchemist who taps huge amounts of energy packs on great weight, but also becomes tireless. For every 10 charges you tap, your body weight increases by 25% and in any hour when you perform strenuous activity you lose 1 die with Physique rolls for every 10 charges tapped. However, you also gain 1 die with rolls made to conceal your appearance.",
                 "example":"",
+                "gunplay": [],
                 "tapping": []
             },
             "compounding":{
@@ -1505,6 +1511,7 @@
                 "chargeTap": "Charges Tapped",
                 "tapped": "A Feruchemist who taps huge amounts of youth actually reverts in age, though only for a single day. This process eliminates injuries, scars, and other physical features acquired in the intervening time — for all intents and purposes the character actually is his or her younger self. This process only changes your body; to completely revert, you must also tap large amounts of identity (see page 339). \n\n The amount of youth tapped determines how far back you may regress:",
                 "example":"Time Regressed",
+                "gunplay": [],
                 "tapping": [
                     {
                         "charges": "10",
@@ -1571,6 +1578,7 @@
                 "chargeTap": "",
                 "tapped": "",
                 "example":"",
+                "gunplay": [],
                 "tapping": []
             },
             "compounding":{
@@ -1608,6 +1616,7 @@
                 "chargeTap": "",
                 "tapped": "",
                 "example":"",
+                "gunplay": [],
                 "tapping": []
             },
             "compounding":{

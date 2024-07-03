@@ -4,13 +4,13 @@
 
 import Maker from "./Creator/Maker"
 // import Character from "./Sample/Character"
-function Creator() {
+function Creator(props) {
     return (
       < >
         <h1>Charactermancer</h1>
         <div id="centerSheet" style={{marginLeft:"25px", marginBottom:"20px"}}>
           <div className="sheet">
-            <Maker />
+            <Maker metals={props.metals}/>
           </div>
           <br/>
           <div className="sheet">

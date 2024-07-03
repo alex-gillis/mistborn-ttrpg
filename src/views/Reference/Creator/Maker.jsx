@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
 import { useState } from 'react';
-import { Select, FormGroup, FormControl, FormControlLabel, Checkbox, TextField, InputLabel, MenuItem, ListSubheader } from '@mui/material';
+import { Select, FormControl, FormControlLabel, Button, ButtonGroup, TextField, InputLabel, MenuItem, ListSubheader } from '@mui/material';
 function Maker(props) {
     // Character Information
     const [myName, setName] = useState("");
@@ -71,6 +71,16 @@ function Maker(props) {
     const handleCharm = (event) => { setCharm(event.target.value); };
     const [myWits, setWits] = useState("");
     const handleWits = (event) => { setWits(event.target.value); };
+
+    const containsPower = (power, metal) => {
+        if (power === metal + "Allomancy") {
+            return 0;
+        } else if (power === metal + "Feruchemy") {
+            return 1
+        } else {
+            return 2;
+        }
+    };
 
     return (
         < >
@@ -409,7 +419,129 @@ function Maker(props) {
                     <div>
                         <h3 style={{color:'black', marginBottom:'0px' }}>Powers</h3>
                         <h4 style={{color:'black', background:"transparent", margin:'0px' }}>Kandras, Koloss, Mistings and Ferrings</h4>
-                        <TextField sx={{ m: 0.5, minWidth: 414, maxWidth: 450 }} id="filled-basic" label="Power Name & Rating" variant="filled" value={myFirstPower} onChange={handleFirstPower} />
+                        <FormControl variant="standard" sx={{ m: 0.5, marginTop: 0, minWidth: 140 }}>
+                            <InputLabel id="demo-simple-select-label">First Power</InputLabel>
+                            <Select labelId="demo-simple-select-label" id="demo-simple-select" value={myFirstPower} onChange={handleFirstPower}>
+                                <ListSubheader style={{fontWeight:"bolder", fontSize:"large"}}>Allomancy</ListSubheader>
+                                {props.metals.map((metal, index) => (
+                                    <MenuItem 
+                                        key={index} 
+                                        style={{fontWeight:"bolder", fontSize:"large"}} 
+                                        value={metal.name + "Allomancy"}>
+                                            {metal.name}
+                                    </MenuItem>
+                                ))}
+                                <ListSubheader style={{fontWeight:"bolder", fontSize:"large"}}>Feruchemy</ListSubheader>
+                                {props.metals.map((metal, index) => (
+                                    <MenuItem 
+                                        key={index} 
+                                        style={{fontWeight:"bolder", fontSize:"large"}} 
+                                        value={metal.name + "Feruchemy"}>
+                                            {metal.name}
+                                    </MenuItem>
+                                ))}
+                            </Select>
+                        </FormControl>
+                        {myFirstPower !== "" &&
+                            <FormControl variant="standard" sx={{ m: 0.5, marginTop: 0, minWidth: 140 }}>
+                                <InputLabel id="demo-simple-select-label">Stunt</InputLabel>
+                                <Select labelId="demo-simple-select-label" id="demo-simple-select" value={myFirstStuntName} onChange={handleFirstStuntName}>
+                                    {myFirstPower.includes("Allomancy") && 
+                                        <span>
+                                            <ListSubheader style={{fontWeight:"bolder", fontSize:"large"}}>Power Stunts</ListSubheader>
+                                            {props.metals.map((metal, index) => (
+                                                <span key={index}>
+                                                    {containsPower(myFirstPower, metal.name) === 0 &&
+                                                        <span>
+                                                            {metal.allomancy.stunts.length === 0 ? 
+                                                                    <MenuItem 
+                                                                        disabled 
+                                                                        id="outlined-disabled" 
+                                                                        label="Disabled" 
+                                                                        style={{fontWeight: "bolder", fontSize: "large", marginLeft:'5px', fontStyle:'italic'}}
+                                                                        value={"No Stunts"}>
+                                                                            No Stunts
+                                                                    </MenuItem>
+                                                                :
+                                                                    metal.allomancy.stunts.map((stunt, subindex) => (
+                                                                        <MenuItem 
+                                                                            key={subindex} 
+                                                                            style={{fontWeight: "bolder", fontSize: "large"}} 
+                                                                            value={stunt.name}>
+                                                                                {stunt.name}
+                                                                        </MenuItem>
+                                                            ))}
+                                                        </span>
+                                                    }
+                                                </span>
+                                            ))}
+                                        </span>
+                                    }
+                                    {myFirstPower.includes("Allomancy") && 
+                                        <span>
+                                            <ListSubheader style={{fontWeight:"bolder", fontSize:"large"}}>Gunplay Stunts</ListSubheader>
+                                            {props.metals.map((metal, index) => (
+                                                <span key={index}>
+                                                    {containsPower(myFirstPower, metal.name) === 0 &&
+                                                        <span>
+                                                            {metal.allomancy.gunplay.length === 0 ? 
+                                                                    <MenuItem 
+                                                                        disabled 
+                                                                        id="outlined-disabled" 
+                                                                        label="Disabled" 
+                                                                        style={{fontWeight: "bolder", fontSize: "large", marginLeft:'5px', fontStyle:'italic'}}
+                                                                        value={"No Stunts"}>
+                                                                            No Stunts
+                                                                    </MenuItem>
+                                                                :
+                                                                    metal.allomancy.gunplay.map((stunt, subindex) => (
+                                                                        <MenuItem 
+                                                                            key={subindex} 
+                                                                            style={{fontWeight: "bolder", fontSize: "large"}} 
+                                                                            value={stunt.name}>
+                                                                                {stunt.name}
+                                                                        </MenuItem>
+                                                            ))}
+                                                        </span>
+                                                    }
+                                                </span>
+                                            ))}
+                                        </span>
+                                    }
+                                    {myFirstPower.includes("Feruchemy") && 
+                                    <span>
+                                        <ListSubheader style={{fontWeight:"bolder", fontSize:"large"}}>Gunplay</ListSubheader>
+                                        {props.metals.map((metal, index) => (
+                                            <span key={index}>
+                                                {containsPower(myFirstPower, metal.name) === 1 &&
+                                                    <span>
+                                                        {metal.feruchemy.gunplay.length === 0 ? 
+                                                                <MenuItem 
+                                                                    disabled 
+                                                                    id="outlined-disabled" 
+                                                                    label="Disabled" 
+                                                                    style={{fontWeight: "bolder", fontSize: "large", marginLeft:'5px', fontStyle:'italic'}}
+                                                                    value={"No Stunts"}>
+                                                                        No Stunts
+                                                                </MenuItem>
+                                                            :
+                                                                metal.feruchemy.gunplay.map((stunt, subindex) => (
+                                                                    <MenuItem 
+                                                                        key={subindex} 
+                                                                        style={{fontWeight: "bolder", fontSize: "large"}} 
+                                                                        value={stunt.name}>
+                                                                            {stunt.name}
+                                                                    </MenuItem>
+                                                        ))}
+                                                    </span>
+                                                }
+                                            </span>
+                                        ))}
+                                    </span>
+                                    }
+                                </Select>
+                            </FormControl>
+                        }
                         <br/>
                         <TextField sx={{ m: 0.5, minWidth: 120, maxWidth: 165 }} id="filled-basic" label="Stunt Name" variant="filled" value={myFirstStuntName} onChange={handleFirstStuntName} />
                         <TextField sx={{ m: 0.5, minWidth: 240, maxWidth: 330 }} id="filled-basic" label="Stunt Description" variant="filled" value={myFirstStuntDesc} onChange={handleFirstStuntDesc} />
@@ -419,15 +551,87 @@ function Maker(props) {
                     <div>
                         <h3 style={{color:'black', marginBottom:'0px' }}>Powers</h3>
                         <h4 style={{color:'black', background:"transparent", margin:'0px' }}>Twinborn, Koloss-blooded Mistings/Ferrings</h4>
-                        <TextField sx={{ m: 0.5, minWidth: 414, maxWidth: 450 }} id="filled-basic" label="Power Name & Rating" variant="filled" value={myFirstPower} onChange={handleFirstPower} />
-                        <br/>
-                        <TextField sx={{ m: 0.5, minWidth: 120, maxWidth: 165 }} id="filled-basic" label="Stunt Name" variant="filled" value={myFirstStuntName} onChange={handleFirstStuntName} />
-                        <TextField sx={{ m: 0.5, minWidth: 240, maxWidth: 330 }} id="filled-basic" label="Stunt Description" variant="filled" value={myFirstStuntDesc} onChange={handleFirstStuntDesc} />
-                        <br/>
-                        <TextField sx={{ m: 0.5, minWidth: 414, maxWidth: 450 }} id="filled-basic" label="Power Name & Rating" variant="filled" value={mySecondPower} onChange={handleSecondPower} />
-                        <br/>
-                        <TextField sx={{ m: 0.5, minWidth: 120, maxWidth: 165 }} id="filled-basic" label="Stunt Name" variant="filled" value={mySecondStuntName} onChange={handleSecondStuntName} />
-                        <TextField sx={{ m: 0.5, minWidth: 240, maxWidth: 330 }} id="filled-basic" label="Stunt Description" variant="filled" value={mySecondStuntDesc} onChange={handleSecondStuntDesc} />
+                        <FormControl variant="standard" sx={{ m: 0.5, marginTop: 0, minWidth: 140 }}>
+                            <InputLabel id="demo-simple-select-label">First Power</InputLabel>
+                            <Select labelId="demo-simple-select-label" id="demo-simple-select" value={myFirstPower} onChange={handleFirstPower}>
+                                <ListSubheader style={{fontWeight:"bolder", fontSize:"large"}}>Allomancy</ListSubheader>
+                                {props.metals.map((metal, index) => (
+                                    <MenuItem 
+                                        key={index} 
+                                        disabled={metal.name + "Allomancy" === mySecondPower} 
+                                        id="outlined-disabled" 
+                                        label="Disabled" 
+                                        style={{fontWeight:"bolder", fontSize:"large"}} 
+                                        value={metal.name + "Allomancy"}>
+                                            {metal.name}
+                                    </MenuItem>
+                                ))}
+                                <ListSubheader style={{fontWeight:"bolder", fontSize:"large"}}>Feruchemy</ListSubheader>
+                                {props.metals.map((metal, index) => (
+                                    <MenuItem 
+                                        key={index} 
+                                        disabled={metal.name + "Feruchemy" === mySecondPower} 
+                                        id="outlined-disabled" 
+                                        label="Disabled" 
+                                        style={{fontWeight:"bolder", fontSize:"large"}} 
+                                        value={metal.name + "Feruchemy"}>
+                                            {metal.name}
+                                    </MenuItem>
+                                ))}
+                            </Select>
+                        </FormControl>
+                        <FormControl variant="standard" sx={{ m: 0.5, marginTop: 0, minWidth: 140 }}>
+                            <InputLabel id="demo-simple-select-label">Second Power</InputLabel>
+                            <Select labelId="demo-simple-select-label" id="demo-simple-select" value={mySecondPower} onChange={handleSecondPower}>
+                                <ListSubheader style={{fontWeight:"bolder", fontSize:"large"}}>Allomancy</ListSubheader>
+                                {props.metals.map((metal, index) => (
+                                    <MenuItem 
+                                        key={index} 
+                                        disabled={metal.name + "Allomancy" === myFirstPower} 
+                                        id="outlined-disabled" 
+                                        label="Disabled" 
+                                        style={{fontWeight:"bolder", fontSize:"large"}} 
+                                        value={metal.name + "Allomancy"}>
+                                            {metal.name}
+                                    </MenuItem>
+                                ))}
+                                <ListSubheader style={{fontWeight:"bolder", fontSize:"large"}}>Feruchemy</ListSubheader>
+                                {props.metals.map((metal, index) => (
+                                    <MenuItem 
+                                        key={index} 
+                                        disabled={metal.name + "Feruchemy" === myFirstPower} 
+                                        id="outlined-disabled" 
+                                        label="Disabled" 
+                                        style={{fontWeight:"bolder", fontSize:"large"}} 
+                                        value={metal.name + "Feruchemy"}>
+                                            {metal.name}
+                                    </MenuItem>
+                                ))}
+                            </Select>
+                        </FormControl>
+                        <div>
+                            {/* <TextField sx={{ m: 0.5, minWidth: 414, maxWidth: 450 }} id="filled-basic" label="Power Name & Rating" variant="filled" value={myFirstPower} onChange={handleFirstPower} />
+                            <ButtonGroup size="small" aria-label="Small button group">
+                                <Button >Allomancy</Button>
+                                <Button>Feruchemy</Button>
+                                <Button>Hemalurgy</Button>
+                                <Button>Other</Button>
+                            </ButtonGroup>
+                            <br/>
+                            <TextField sx={{ m: 0.5, minWidth: 120, maxWidth: 165 }} id="filled-basic" label="Stunt Name" variant="filled" value={myFirstStuntName} onChange={handleFirstStuntName} />
+                            <TextField sx={{ m: 0.5, minWidth: 240, maxWidth: 330 }} id="filled-basic" label="Stunt Description" variant="filled" value={myFirstStuntDesc} onChange={handleFirstStuntDesc} />
+                            <br/><br/>
+                            <TextField sx={{ m: 0.5, minWidth: 414, maxWidth: 450 }} id="filled-basic" label="Power Name & Rating" variant="filled" value={mySecondPower} onChange={handleSecondPower} />
+                            <ButtonGroup size="small" aria-label="Small button group">
+                                <Button >Allomancy</Button>
+                                <Button>Feruchemy</Button>
+                                <Button>Hemalurgy</Button>
+                                <Button>Other</Button>
+                            </ButtonGroup>
+                            <br/>
+                            <TextField sx={{ m: 0.5, minWidth: 120, maxWidth: 165 }} id="filled-basic" label="Stunt Name" variant="filled" value={mySecondStuntName} onChange={handleSecondStuntName} />
+                            <TextField sx={{ m: 0.5, minWidth: 240, maxWidth: 330 }} id="filled-basic" label="Stunt Description" variant="filled" value={mySecondStuntDesc} onChange={handleSecondStuntDesc} /> */}
+                        </div>
                     </div>
                 }
             </div>
