@@ -114,7 +114,7 @@ function App() {
                 <Route path="religion" element={<Lore />}>
                     <Route index element={<Religion religion={myLore[5]} />} />
                 </Route>
-                <Route path="creator" element={<Creator metals={myMetals} />} />
+                <Route path="creator" element={<Creator metals={myMetals} stunts={myStunts} />} />
                 <Route path="metallurgy" element={<Metallurgy basics={myBasics} metals={myMetals} />} />
                 <Route path="stunts" element={<Stunts stunts={myStunts}/>} />
                 <Route path="bestiary" element={<Bestiary era1={myRogues[2]} era2={myRogues[3]}/>} />

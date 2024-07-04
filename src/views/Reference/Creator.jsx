@@ -10,11 +10,12 @@ function Creator(props) {
         <h1>Charactermancer</h1>
         <div id="centerSheet" style={{marginLeft:"25px", marginBottom:"20px"}}>
           <div className="sheet">
-            <Maker metals={props.metals}/>
+            <Maker metals={props.metals} stunts={props.stunts} />
           </div>
           <br/>
           <div className="sheet">
             {/* <Character rogue={} /> */}
+            <Maker metals={props.metals} stunts={props.stunts} />
           </div>
         </div>
       </>
