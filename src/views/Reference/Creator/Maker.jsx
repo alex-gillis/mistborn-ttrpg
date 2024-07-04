@@ -301,31 +301,124 @@ function Maker(props) {
             <div>
                 {/* Build */}
                 <h3 style={{color:'black', marginBottom:'0px' }}>Build</h3>
+                <h4 style={{color:'black', background:"transparent", margintop:'0px' }}>Pick 1 Strong, 1 Average and 1 Weak</h4>
                 <FormControl variant="standard" sx={{ m: 0.5, marginTop: 0, minWidth: 120 }}>
                     <InputLabel id="demo-simple-select-label">Attributes</InputLabel>
                     <Select labelId="demo-simple-select-label" id="demo-simple-select" value={myAttribute} onChange={handleAttribute}>
-                        <MenuItem style={{fontWeight:"bolder", fontSize:"large"}} value={3}>Strong</MenuItem>
-                        <MenuItem style={{fontWeight:"bolder", fontSize:"large"}} value={2}>Average</MenuItem>
-                        <MenuItem style={{fontWeight:"bolder", fontSize:"large"}} value={1}>Weak</MenuItem>
+                        <MenuItem 
+                            disabled={myStand === 3 || myPower === (5)} 
+                            id="outlined-disabled" 
+                            label="Disabled" 
+                            style={{fontWeight:"bolder", fontSize:"large"}} 
+                            value={3}>
+                                Strong
+                        </MenuItem>
+                        <MenuItem
+                            disabled={myStand === 2 || myPower === (4)} 
+                            id="outlined-disabled" 
+                            label="Disabled"
+                            style={{fontWeight:"bolder", fontSize:"large"}} 
+                            value={2}>
+                                Average
+                        </MenuItem>
+                        <MenuItem
+                            disabled={myStand === 1 || myPower === (3, 2, 1)} 
+                            id="outlined-disabled" 
+                            label="Disabled"
+                            style={{fontWeight:"bolder", fontSize:"large"}} 
+                            value={1}>
+                                Weak
+                        </MenuItem>
+                        <MenuItem
+                            style={{fontWeight:"bolder", fontSize:"large"}} 
+                            value={""}>
+                                None
+                        </MenuItem>
                     </Select>
                 </FormControl>
                 <FormControl variant="standard" sx={{ m: 0.5, marginTop: 0, minWidth: 120 }}>
                     <InputLabel id="demo-simple-select-label">Standings</InputLabel>
                     <Select labelId="demo-simple-select-label" id="demo-simple-select" value={myStand} onChange={handleStand}>
-                        <MenuItem style={{fontWeight:"bolder", fontSize:"large"}} value={3}>Strong</MenuItem>
-                        <MenuItem style={{fontWeight:"bolder", fontSize:"large"}} value={2}>Average</MenuItem>
-                        <MenuItem style={{fontWeight:"bolder", fontSize:"large"}} value={1}>Weak</MenuItem>
+                        <MenuItem
+                            disabled={myAttribute === 3 || myPower === (5)} 
+                            id="outlined-disabled" 
+                            label="Disabled" 
+                            style={{fontWeight:"bolder", fontSize:"large"}} 
+                            value={3}>
+                                Strong
+                        </MenuItem>
+                        <MenuItem
+                            disabled={myAttribute === 2 || myPower === (4)} 
+                            id="outlined-disabled" 
+                            label="Disabled"
+                            style={{fontWeight:"bolder", fontSize:"large"}} 
+                            value={2}>
+                                Average
+                        </MenuItem>
+                        <MenuItem
+                            disabled={myAttribute === 1 || myPower === (3, 2, 1)} 
+                            id="outlined-disabled" 
+                            label="Disabled"
+                            style={{fontWeight:"bolder", fontSize:"large"}} 
+                            value={1}>
+                                Weak
+                        </MenuItem>
+                        <MenuItem
+                            style={{fontWeight:"bolder", fontSize:"large"}} 
+                            value={""}>
+                                None
+                        </MenuItem>
                     </Select>
                 </FormControl>
                 <FormControl variant="standard" sx={{ m: 0.5, marginTop: 0, minWidth: 120 }}>
                     <InputLabel id="demo-simple-select-label">Powers</InputLabel>
                     <Select labelId="demo-simple-select-label" id="demo-simple-select" value={myPower} onChange={handlePower}>
-                        <MenuItem style={{fontWeight:"bolder", fontSize:"large"}} value={5}>Strong</MenuItem>
-                        <MenuItem style={{fontWeight:"bolder", fontSize:"large"}} value={4}>Average</MenuItem>
+                        <MenuItem
+                            disabled={myAttribute === 3 || myStand === 3} 
+                            id="outlined-disabled" 
+                            label="Disabled"
+                            style={{fontWeight:"bolder", fontSize:"large"}} 
+                            value={5}>
+                                Strong
+                        </MenuItem>
+                        <MenuItem
+                            disabled={myAttribute === 2 || myStand === 2} 
+                            id="outlined-disabled" 
+                            label="Disabled"
+                            style={{fontWeight:"bolder", fontSize:"large"}} 
+                            value={4}>
+                                Average
+                        </MenuItem>
                         <ListSubheader style={{fontWeight:"bolder", fontSize:"large"}}>Weak</ListSubheader>
-                        <MenuItem style={{marginLeft:'5px', fontStyle:'italic'}} value={1}>Two Traits</MenuItem>
-                        <MenuItem style={{marginLeft:'5px', fontStyle:'italic'}} value={2}>Two Stunts</MenuItem>
-                        <MenuItem style={{marginLeft:'5px', fontStyle:'italic'}} value={3}>One of Each</MenuItem>
+                        <MenuItem
+                            disabled={myAttribute === 1 || myStand === 1} 
+                            id="outlined-disabled" 
+                            label="Disabled" 
+                            style={{marginLeft:'5px', fontStyle:'italic'}} 
+                            value={1}>
+                                Two Traits
+                        </MenuItem>
+                        <MenuItem
+                            disabled={myAttribute === 1 || myStand === 1} 
+                            id="outlined-disabled" 
+                            label="Disabled" 
+                            style={{marginLeft:'5px', fontStyle:'italic'}} 
+                            value={2}>
+                                Two Stunts
+                        </MenuItem>
+                        <MenuItem
+                            disabled={myAttribute === 1 || myStand === 1} 
+                            id="outlined-disabled" 
+                            label="Disabled" 
+                            style={{marginLeft:'5px', fontStyle:'italic'}} 
+                            value={3}>
+                                One of Each
+                        </MenuItem>
+                        <MenuItem
+                            style={{fontWeight:"bolder", fontSize:"large"}} 
+                            value={""}>
+                                None
+                        </MenuItem>
                     </Select>
                 </FormControl>
             </div>
@@ -585,8 +678,14 @@ function Maker(props) {
                         <h3 style={{color:'black', marginBottom:'0px' }}>Powers</h3>
                         <h4 style={{color:'black', background:"transparent", margin:'0px' }}>With Weak Powers, Gain Two Extra Traits, Two Stunts, or One of Each</h4>
                         <FormControl variant="standard" sx={{ m: 0.5, marginTop: 0, minWidth: 140 }}>
-                            <InputLabel id="demo-simple-select-label">Stunt</InputLabel>
+                            <InputLabel id="demo-simple-select-label">First Stunt</InputLabel>
                             <Select labelId="demo-simple-select-label" id="demo-simple-select" value={myFirstStuntName} onChange={handleFirstStunt}>
+                                {renderStunts(false)}
+                            </Select>
+                        </FormControl>
+                        <FormControl variant="standard" sx={{ m: 0.5, marginTop: 0, minWidth: 140 }}>
+                            <InputLabel id="demo-simple-select-label">Second Stunt</InputLabel>
+                            <Select labelId="demo-simple-select-label" id="demo-simple-select" value={mySecondStuntName} onChange={handleSecondStunt}>
                                 {renderStunts(false)}
                             </Select>
                         </FormControl>
@@ -598,19 +697,11 @@ function Maker(props) {
                                 disabled
                                 multiline
                                 id="filled-disabled"
-                                label="Stunt Description"
+                                label="First Stunt Description"
                                 value={myFirstStuntDesc}
                             />
                         }
-                        <br/>
-                        
-                        <FormControl variant="standard" sx={{ m: 0.5, marginTop: 0, minWidth: 140 }}>
-                            <InputLabel id="demo-simple-select-label">Stunt</InputLabel>
-                            <Select labelId="demo-simple-select-label" id="demo-simple-select" value={mySecondStuntName} onChange={handleSecondStunt}>
-                                {renderStunts(false)}
-                            </Select>
-                        </FormControl>
-                        <br/>
+                        <br/><br/>
                         {mySecondStuntName !== "" &&
                             <TextField
                                 sx={{ m: 0.5, minWidth: 360, maxWidth: 495 }}
@@ -618,7 +709,7 @@ function Maker(props) {
                                 disabled
                                 multiline
                                 id="filled-disabled"
-                                label="Stunt Description"
+                                label="Second Stunt Description"
                                 value={mySecondStuntDesc}
                             />
                         }
