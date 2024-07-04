@@ -82,6 +82,112 @@ function Maker(props) {
         }
     };
 
+    const renderStunts = () => {
+        let stunts = [];
+
+        if (myFirstPower.includes("Allomancy")) {
+            stunts.push(
+                <ListSubheader key="power-stunts-header" style={{ fontWeight: "bolder", fontSize: "large" }}>Power Stunts</ListSubheader>
+            );
+            props.metals.forEach((metal, index) => {
+                if (containsPower(myFirstPower, metal.name) === 0) {
+                    if (metal.allomancy.stunts.length === 0) {
+                        stunts.push(
+                            <MenuItem
+                                key={`no-stunts-${index}`}
+                                disabled
+                                id="outlined-disabled"
+                                label="Disabled"
+                                style={{ fontWeight: "bolder", fontSize: "large", marginLeft: '5px', fontStyle: 'italic' }}
+                                value={"No Stunts"}>
+                                No Stunts
+                            </MenuItem>
+                        );
+                    } else {
+                        metal.allomancy.stunts.forEach((stunt, subindex) => {
+                            stunts.push(
+                                <MenuItem
+                                    key={`allomancy-stunt-${index}-${subindex}`}
+                                    style={{ fontWeight: "bolder", fontSize: "large" }}
+                                    value={stunt.name}>
+                                    {stunt.name}
+                                </MenuItem>
+                            );
+                        });
+                    }
+                }
+            });
+
+            stunts.push(
+                <ListSubheader key="gunplay-stunts-header" style={{ fontWeight: "bolder", fontSize: "large" }}>Gunplay Stunts</ListSubheader>
+            );
+            props.metals.forEach((metal, index) => {
+                if (containsPower(myFirstPower, metal.name) === 0) {
+                    if (metal.allomancy.gunplay.length === 0) {
+                        stunts.push(
+                            <MenuItem
+                                key={`no-gunplay-${index}`}
+                                disabled
+                                id="outlined-disabled"
+                                label="Disabled"
+                                style={{ fontWeight: "bolder", fontSize: "large", marginLeft: '5px', fontStyle: 'italic' }}
+                                value={"No Stunts"}>
+                                No Stunts
+                            </MenuItem>
+                        );
+                    } else {
+                        metal.allomancy.gunplay.forEach((stunt, subindex) => {
+                            stunts.push(
+                                <MenuItem
+                                    key={`allomancy-gunplay-${index}-${subindex}`}
+                                    style={{ fontWeight: "bolder", fontSize: "large" }}
+                                    value={stunt.name}>
+                                    {stunt.name}
+                                </MenuItem>
+                            );
+                        });
+                    }
+                }
+            });
+        }
+
+        if (myFirstPower.includes("Feruchemy")) {
+            stunts.push(
+                <ListSubheader key="feruchemy-gunplay-header" style={{ fontWeight: "bolder", fontSize: "large" }}>Gunplay</ListSubheader>
+            );
+            props.metals.forEach((metal, index) => {
+                if (containsPower(myFirstPower, metal.name) === 1) {
+                    if (metal.feruchemy.gunplay.length === 0) {
+                        stunts.push(
+                            <MenuItem
+                                key={`no-feruchemy-gunplay-${index}`}
+                                disabled
+                                id="outlined-disabled"
+                                label="Disabled"
+                                style={{ fontWeight: "bolder", fontSize: "large", marginLeft: '5px', fontStyle: 'italic' }}
+                                value={"No Stunts"}>
+                                No Stunts
+                            </MenuItem>
+                        );
+                    } else {
+                        metal.feruchemy.gunplay.forEach((stunt, subindex) => {
+                            stunts.push(
+                                <MenuItem
+                                    key={`feruchemy-gunplay-${index}-${subindex}`}
+                                    style={{ fontWeight: "bolder", fontSize: "large" }}
+                                    value={stunt.name}>
+                                    {stunt.name}
+                                </MenuItem>
+                            );
+                        });
+                    }
+                }
+            });
+        }
+
+        return stunts;
+    };
+
     return (
         < >
         <div id="character" style={{background:"#FFFFFFDE", height:"100%"}}>
@@ -411,8 +517,7 @@ function Maker(props) {
                         <h4 style={{color:'black', background:"transparent", margin:'0px' }}>With Weak Powers, Gain Two Extra Traits, Two Stunts, or One of Each</h4>
                         <TextField sx={{ m: 0.5, minWidth: 414, maxWidth: 450 }} id="filled-basic" label="Extra Trait" variant="filled" value={myExtra1} onChange={handleExtra1} />
                         <br/>
-                        <TextField sx={{ m: 0.5, minWidth: 120, maxWidth: 165 }} id="filled-basic" label="Stunt Name" variant="filled" value={myFirstStuntName} onChange={handleFirstStuntName} />
-                        <TextField sx={{ m: 0.5, minWidth: 240, maxWidth: 330 }} id="filled-basic" label="Stunt Description" variant="filled" value={myFirstStuntDesc} onChange={handleFirstStuntDesc} />
+                        
                     </div>
                 }
                 {myPower === 4 && 
@@ -444,107 +549,12 @@ function Maker(props) {
                         </FormControl>
                         {myFirstPower !== "" &&
                             <FormControl variant="standard" sx={{ m: 0.5, marginTop: 0, minWidth: 140 }}>
-                                <InputLabel id="demo-simple-select-label">Stunt</InputLabel>
-                                <Select labelId="demo-simple-select-label" id="demo-simple-select" value={myFirstStuntName} onChange={handleFirstStuntName}>
-                                    {myFirstPower.includes("Allomancy") && 
-                                        <span>
-                                            <ListSubheader style={{fontWeight:"bolder", fontSize:"large"}}>Power Stunts</ListSubheader>
-                                            {props.metals.map((metal, index) => (
-                                                <span key={index}>
-                                                    {containsPower(myFirstPower, metal.name) === 0 &&
-                                                        <span>
-                                                            {metal.allomancy.stunts.length === 0 ? 
-                                                                    <MenuItem 
-                                                                        disabled 
-                                                                        id="outlined-disabled" 
-                                                                        label="Disabled" 
-                                                                        style={{fontWeight: "bolder", fontSize: "large", marginLeft:'5px', fontStyle:'italic'}}
-                                                                        value={"No Stunts"}>
-                                                                            No Stunts
-                                                                    </MenuItem>
-                                                                :
-                                                                    metal.allomancy.stunts.map((stunt, subindex) => (
-                                                                        <MenuItem 
-                                                                            key={subindex} 
-                                                                            style={{fontWeight: "bolder", fontSize: "large"}} 
-                                                                            value={stunt.name}>
-                                                                                {stunt.name}
-                                                                        </MenuItem>
-                                                            ))}
-                                                        </span>
-                                                    }
-                                                </span>
-                                            ))}
-                                        </span>
-                                    }
-                                    {myFirstPower.includes("Allomancy") && 
-                                        <span>
-                                            <ListSubheader style={{fontWeight:"bolder", fontSize:"large"}}>Gunplay Stunts</ListSubheader>
-                                            {props.metals.map((metal, index) => (
-                                                <span key={index}>
-                                                    {containsPower(myFirstPower, metal.name) === 0 &&
-                                                        <span>
-                                                            {metal.allomancy.gunplay.length === 0 ? 
-                                                                    <MenuItem 
-                                                                        disabled 
-                                                                        id="outlined-disabled" 
-                                                                        label="Disabled" 
-                                                                        style={{fontWeight: "bolder", fontSize: "large", marginLeft:'5px', fontStyle:'italic'}}
-                                                                        value={"No Stunts"}>
-                                                                            No Stunts
-                                                                    </MenuItem>
-                                                                :
-                                                                    metal.allomancy.gunplay.map((stunt, subindex) => (
-                                                                        <MenuItem 
-                                                                            key={subindex} 
-                                                                            style={{fontWeight: "bolder", fontSize: "large"}} 
-                                                                            value={stunt.name}>
-                                                                                {stunt.name}
-                                                                        </MenuItem>
-                                                            ))}
-                                                        </span>
-                                                    }
-                                                </span>
-                                            ))}
-                                        </span>
-                                    }
-                                    {myFirstPower.includes("Feruchemy") && 
-                                    <span>
-                                        <ListSubheader style={{fontWeight:"bolder", fontSize:"large"}}>Gunplay</ListSubheader>
-                                        {props.metals.map((metal, index) => (
-                                            <span key={index}>
-                                                {containsPower(myFirstPower, metal.name) === 1 &&
-                                                    <span>
-                                                        {metal.feruchemy.gunplay.length === 0 ? 
-                                                                <MenuItem 
-                                                                    disabled 
-                                                                    id="outlined-disabled" 
-                                                                    label="Disabled" 
-                                                                    style={{fontWeight: "bolder", fontSize: "large", marginLeft:'5px', fontStyle:'italic'}}
-                                                                    value={"No Stunts"}>
-                                                                        No Stunts
-                                                                </MenuItem>
-                                                            :
-                                                                metal.feruchemy.gunplay.map((stunt, subindex) => (
-                                                                    <MenuItem 
-                                                                        key={subindex} 
-                                                                        style={{fontWeight: "bolder", fontSize: "large"}} 
-                                                                        value={stunt.name}>
-                                                                            {stunt.name}
-                                                                    </MenuItem>
-                                                        ))}
-                                                    </span>
-                                                }
-                                            </span>
-                                        ))}
-                                    </span>
-                                    }
-                                </Select>
-                            </FormControl>
+                            <InputLabel id="demo-simple-select-label">Stunt</InputLabel>
+                            <Select labelId="demo-simple-select-label" id="demo-simple-select" value={myFirstStuntName} onChange={handleFirstStuntName}>
+                                {renderStunts()}
+                            </Select>
+                        </FormControl>
                         }
-                        <br/>
-                        <TextField sx={{ m: 0.5, minWidth: 120, maxWidth: 165 }} id="filled-basic" label="Stunt Name" variant="filled" value={myFirstStuntName} onChange={handleFirstStuntName} />
-                        <TextField sx={{ m: 0.5, minWidth: 240, maxWidth: 330 }} id="filled-basic" label="Stunt Description" variant="filled" value={myFirstStuntDesc} onChange={handleFirstStuntDesc} />
                     </div>
                 }
                 {myPower === 5 && 

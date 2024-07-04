@@ -16544,6 +16544,104 @@
                     "description":"You’ve trained in taming and caring for animals in the harsh conditions of the Roughs. When you’re riding a horse or other animal, you don’t suffer adverse conditions from its motion. You gain an additional die on checks for calming or controlling animals. Lastly, you own a stable of animals. During a Breather, you can bring out enough horses to carry you, the rest of your Crew, and up to one companion."
                 }
             ]
+        },
+        {
+            "title":"Non-Powers Gunplay",
+            "id":6,
+            "stunts":[
+                {
+                    "name": "Dual Wielding",
+                    "type":"Gunplay",
+                    "req":"-",
+                    "description": "You can fire a pistol in each hand as a single action. Divide your dice pool into an attack with each gun however you like, just as if you were making 2 attacks. These attacks may be against the same or different targets. While dual wielding, you gain no benefits of Aiming with either attack, and your action occurs in Step 2 of this Round as if your dice pool is only half as large as it actually is, rounded down (see the Mistborn Adventure Game, page 179).",
+                    "example":"Example: During Step 1, Kevin’s character Viktr declares he’s going to use his Dual Wielding Stunt to make 2 attacks with his Sterrions (one in each hand). The Narrator declares Viktr gets 5 Action Dice this round. Kevin splits Viktr’s 5 dice into two smaller pools — one attack with 3 dice, and a second with 2 dice. However, because Viktr is using this Stunt, his action occurs in Step 2 as if he had only 2 dice (one-half of his 5 Action Dice, rounded down) in his pool."
+                },
+                {
+                    "name": "Fast Aiming",
+                    "type":"Gunplay",
+                    "req":"-",
+                    "description": "You can draw a bead on a target very quickly. You may Aim and fire in the same Beat, just as if you had Aimed in the previous Beat (see page 133). However, the extra time required means your action occurs in Step 2 of this Round as if your dice pool is only half as large as it actually is, rounded down (see the Mistborn Adventure Game, page 179).",
+                    "example":"Example: Becky wants her character, Luhyl, to take a quickly Aimed shot at a fleeing bandit. During Step 1, she declares Luhyl’s going to use his Fast Aiming Stunt, and the Narrator decides Luhyl gets 4 Action Dice for this action. However, because Luhyl is using this Stunt, his action occurs in Step 2 as if he had only 2 dice (one half of his 4 Action Dice) in his pool."
+                },
+                {
+                    "name": "Heavy Weapons",
+                    "type":"Gunplay",
+                    "req":"-",
+                    "description": "You excel at using large firearms. You can fire a gun with the Magnum Force improvement without penalty, even if your Physique is 4 or lower. Additionally, when shooting a rotary gun, you may designate up to 2 extra targets with your attack (e.g., up to your Wits +2)."
+                },
+                {
+                    "name": "Improved Fanning",
+                    "type":"Gunplay",
+                    "req":"-",
+                    "description": "You are quite skilled at controlling a fanned gun. When you Fan a revolver, you need 1 fewer Nudge to succeed (e.g., inflict the weapon’s damage twice as long as you succeed with 1 Nudge, or inflict it three times if you succeed with 3 Nudges)."
+                },
+                {
+                    "name": "Long Shot",
+                    "type":"Gunplay",
+                    "req":"-",
+                    "description": "You can fire your rifle at targets normally outside the weapon’s range. When you Aim a rifle, your Range increases by one (to a maximum of Extreme Range). "
+                },
+                {
+                    "name": "Marksmanship",
+                    "type":"Gunplay",
+                    "req":"-",
+                    "description": "If you’ve Aimed, you need 1 fewer Nudge to succeed with a Called Shot (see the Mistborn Adventure Game, page 201). You can’t combine this Stunt with the Fast Aiming Stunt."
+                },
+                {
+                    "name": "Quicker Draw",
+                    "type":"Gunplay",
+                    "req":"-",
+                    "description": "You can Quick Draw a one-handed pistol, or knife without any penalty to your dice pool. Additionally, you can choose whether to use your Physique or Wits during each round of a pistol duel (rather than using the lower, as normal)."
+                },
+                {
+                    "name": "Ricochet",
+                    "type":"Gunplay",
+                    "req":"-",
+                    "description": "Most people try to hit targets directly, but your understanding of angles allows you to exploit other options while shooting. If you Aim before firing, you can declare you are trying to ricochet your shot off a surface and strike a target out of line of sight. If the attack succeeds with at least two Nudges, you are able to hit a target you cannot see. However, if you don’t score at least 2 Nudges with this attack, your attack misses — such are the difficulties of trick shooting."
+                },
+                {
+                    "name": "Speed Loading (Reaction)",
+                    "type":"Gunplay",
+                    "req":"-",
+                    "description": "You can reload your guns very quickly. Once per Beat when you fire the last shot in your gun, you may attempt to quickly reload it. This is a Reaction (see the Mistborn Adventure Game, page 177), and grants you a number of dice for your Reaction roll equal to your Physique. You may add Action or Defense Dice to this pool if you’d like, though you may not roll more than 10 dice, as usual. Roll your pool; you reload a number of shots equal to your Result, +1 for each Nudge you get, up to the weapon’s Capacity (e.g., if you used this Stunt and got a Result of 3 and 1 Nudge on your roll, you would reload 4 rounds total)."
+                },
+                {
+                    "name": "Fancy Shootin’",
+                    "type":"Gunplay",
+                    "req":"-",
+                    "description": "You can make trick shots to impress people. This gives you one “free” Nudge any time you make a shot outside of a Conflict. This “free” Nudge can never be used to increase damage, nor can it be used to damage a character."
+                },
+                {
+                    "name": "Legendary Gun",
+                    "type":"Gunplay",
+                    "req":"-",
+                    "description": "One of your guns has its own reputation, with a name known to every outlaw from Garmet to Weathering. For your legendary gun, choose one gun Prop you have, with a total purchase Difficulty after customizations equal to or less than your Influence. Name the chosen gun; you gain the “Legendary Gun (Gun’s Name)” Trait. Additionally, the first time you attack a target with your legendary gun during a Conflict, they suffer 2 Willpower damage (in addition to any Health lost by the attack), and you can spend Nudges rolled on successful attacks with your legendary gun to inflict extra Willpower damage (rather than the damage normally inflicted by that attack)."
+                },
+                {
+                    "name": "Magic Bullet",
+                    "type":"Gunplay",
+                    "req":"-",
+                    "description": "You’re always well-equipped, often with just the right bullet for the occasion. Finding this bullet is a Resources Challenge with a Difficulty equal to that type of ammunition’s difficulty (or 1 if you just want normal ammunition instead of customized ammunition), which counts as an action during a Conflict. With success, you bring up one bullet of a type you choose, plus one more bullet for each Nudge you spend; with failure, you cannot use this benefit again until after the next Breather. You can keep the bullets or distribute any number of them to other people as part of the same action."
+                },
+                {
+                    "name": "Mobile Arsenal",
+                    "type":"Gunplay",
+                    "req":"-",
+                    "description": "There’s no such thing as too many guns, so you always have a big stash near at hand. During a Short or Long Breather, you can swap out any firearms and/or customized ammunition Props for different firearms and/or customized ammunition costing an equal number of Props. You can use this ability even if you are sitting the Breather out (see the Mistborn Adventure Game, page 447). You cannot choose customized firearms from your mobile arsenal unless you either have the Customize Guns Stunt, or are recovering a customized weapon you exchanged at the mobile arsenal in the previous Breather."
+                },
+                {
+                    "name": "Point Blank",
+                    "type":"Gunplay",
+                    "req":"-",
+                    "description": "You are skilled at using your guns at extremely close range. You can fire a gun with a minimum Range of Close at Striking Range instead. Attacks made with guns at Striking Range cannot be aimed. \n\n Additionally, you may use your gun as a melee weapon — a useful tactic when you’re out of ammo! A pistol used as a melee weapon has a Damage of +1 and min/max of Touch / Touch, while a rifle, shotgun, or other longarm has a Damage of +2 and a min/max range of Striking / Striking."
+                },
+                {
+                    "name": "Ranged Disarm",
+                    "type":"Gunplay",
+                    "req":"-",
+                    "description": "With a pinpoint shot, you can shoot a gun or other item out of someone’s hand, or shoot a small item that’s on the ground to send it flying out of reach. This follows the standard rules for Disarming a Target (see the Mistborn Adventure Game, page 201), but is a Wits vs. Physique Contest if the item is held, or a Wits 2 Challenge if not. If the attempt succeeds, the target drops the item as normal for a Disarm; with 2 or more Nudges on the roll, you may also move the item up to 1 Step away from its original position and/or holder. \n\n You may combine a Ranged Disarm with a Quick Draw (see Alloy of Law Game Supplement & Campaign Setting, page 136)."
+                }
+            ]
         }
     ],
     "lore":[
