@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
 import { useState } from 'react';
-import { Select, FormControl, FormControlLabel, Button, ButtonGroup, TextField, InputLabel, MenuItem, ListSubheader } from '@mui/material';
+import { Select, FormControl, TextField, InputLabel, MenuItem, ListSubheader } from '@mui/material';
 function Maker(props) {
     // Complete Stunt Array
     const [theStunts] = useState(props.stunts[0].stunts.concat(props.stunts[1].stunts)
@@ -315,7 +315,7 @@ function Maker(props) {
             spirit : spirit,
         };
 
-        setCharacters = myCharacters.push(character)
+        setCharacters(myCharacters.push(character));
 
         // saving the character information to localStorage
         localStorage.setItem("characterInfo", JSON.stringify(myCharacters));
