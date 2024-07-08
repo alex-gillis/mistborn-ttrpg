@@ -15,7 +15,7 @@ function Creator(props) {
           <br/>
           <div className="sheet">
             {/* <Character rogue={} /> */}
-            <Maker metals={props.metals} stunts={props.stunts} />
+            {/* <Maker metals={props.metals} stunts={props.stunts} /> */}
           </div>
         </div>
       </>

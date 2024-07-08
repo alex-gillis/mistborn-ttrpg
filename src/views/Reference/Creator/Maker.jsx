@@ -6,6 +6,9 @@ function Maker(props) {
     const [theStunts] = useState(props.stunts[0].stunts.concat(props.stunts[1].stunts)
                                 .concat(props.stunts[2].stunts));
 
+    // Character Information Array
+    const [myCharacters, setCharacters] = useState(props.characters);
+
     // Character Information
     const [myName, setName] = useState("");
     const handleName = (event) => { setName(event.target.value); };
@@ -73,6 +76,13 @@ function Maker(props) {
     const handleCharm = (event) => { setCharm(event.target.value); };
     const [myWits, setWits] = useState("");
     const handleWits = (event) => { setWits(event.target.value); };
+    // Standings
+    const [myResources, setResources] = useState("");
+    const handleResources = (event) => { setResources(event.target.value); };
+    const [myInfluence, setInfluence] = useState("");
+    const handleInfluence = (event) => { setInfluence(event.target.value); };
+    const [mySpirit, setSpirit] = useState("");
+    const handleSpirit = (event) => { setSpirit(event.target.value); };
 
     const containsPower = (power, metal) => {
         if (power === metal + "Allomancy") {
@@ -266,6 +276,54 @@ function Maker(props) {
         const result = theStunts.find(stunt => stunt.name === value);
         setSecondStuntDesc(result.description);
     };
+    
+    function saveCharacter() {
+        const character = {
+            name : name,
+            concept : concept,
+            cause : cause,
+            target : target,
+            method : method,
+            race : race,
+            gender : gender,
+            age : age,
+            height : height,
+            weight : weight,
+            drive : drive,
+            profession : profession,
+            speciality : speciality,
+            feature : feature,
+            personality : personality,
+            tragedy : tragedy,
+            destiny : destiny,
+            extra1 : extra1,
+            extra2 : extra2,
+            firstPower : firstPower,
+            firstStuntName : firstStuntName,
+            firstStuntDesc : firstStuntDesc,
+            secondPower : secondPower,
+            secondStuntName : secondStuntName,
+            secondStuntDesc : secondStuntDesc,
+            attribute : attribute,
+            stand : stand,
+            power : power,
+            physique : physique,
+            charm : charm,
+            wits : wits,
+            resources : resources,
+            influence : influence,
+            spirit : spirit,
+        };
+
+        setCharacters = myCharacters.push(character)
+
+        // saving the character information to localStorage
+        localStorage.setItem("characterInfo", JSON.stringify(myCharacters));
+    
+        // popFeedback("Your character, " + myName + " has been saved");
+    }
+
+
 
     return (
         < >
@@ -541,7 +599,7 @@ function Maker(props) {
                         <h4 style={{color:'black', background:"transparent", margin:'0px' }}>Split 9 points between Attributes. No Attribute may exceed 4</h4>
                         <FormControl variant="standard" sx={{ m: 0.5, marginTop: 0, minWidth: 120 }}>
                             <InputLabel id="demo-simple-select-label">Resources</InputLabel>
-                            <Select labelId="demo-simple-select-label" id="demo-simple-select" value={myPhysique} onChange={handlePhysique}>
+                            <Select labelId="demo-simple-select-label" id="demo-simple-select" value={myResources} onChange={handleResources}>
                                 <MenuItem value={2}>2</MenuItem>
                                 <MenuItem value={3}>3</MenuItem>
                                 <MenuItem value={4}>4</MenuItem>
@@ -553,7 +611,7 @@ function Maker(props) {
                         </FormControl>
                         <FormControl variant="standard" sx={{ m: 0.5, marginTop: 0, minWidth: 120 }}>
                         <InputLabel id="demo-simple-select-label">Influence</InputLabel>
-                            <Select labelId="demo-simple-select-label" id="demo-simple-select" value={myCharm} onChange={handleCharm}>
+                            <Select labelId="demo-simple-select-label" id="demo-simple-select" value={myInfluence} onChange={handleInfluence}>
                                 <MenuItem value={2}>2</MenuItem>
                                 <MenuItem value={3}>3</MenuItem>
                                 <MenuItem value={4}>4</MenuItem>
@@ -565,7 +623,7 @@ function Maker(props) {
                         </FormControl>
                         <FormControl variant="standard" sx={{ m: 0.5, marginTop: 0, minWidth: 120 }}>
                         <InputLabel id="demo-simple-select-label">Spirit</InputLabel>
-                            <Select labelId="demo-simple-select-label" id="demo-simple-select" value={myWits} onChange={handleWits}>
+                            <Select labelId="demo-simple-select-label" id="demo-simple-select" value={mySpirit} onChange={handleSpirit}>
                                 <MenuItem value={2}>2</MenuItem>
                                 <MenuItem value={3}>3</MenuItem>
                                 <MenuItem value={4}>4</MenuItem>
@@ -584,7 +642,7 @@ function Maker(props) {
                         <h4 style={{color:'black', background:"transparent", margin:'0px' }}>Split 11 points between Attributes. No Attribute may exceed 6</h4>
                         <FormControl variant="standard" sx={{ m: 0.5, marginTop: 0, minWidth: 120 }}>
                             <InputLabel id="demo-simple-select-label">Resources</InputLabel>
-                            <Select labelId="demo-simple-select-label" id="demo-simple-select" value={myPhysique} onChange={handlePhysique}>
+                            <Select labelId="demo-simple-select-label" id="demo-simple-select" value={myResources} onChange={handleResources}>
                                 <MenuItem value={2}>2</MenuItem>
                                 <MenuItem value={3}>3</MenuItem>
                                 <MenuItem value={4}>4</MenuItem>
@@ -596,7 +654,7 @@ function Maker(props) {
                         </FormControl>
                         <FormControl variant="standard" sx={{ m: 0.5, marginTop: 0, minWidth: 120 }}>
                         <InputLabel id="demo-simple-select-label">Influence</InputLabel>
-                            <Select labelId="demo-simple-select-label" id="demo-simple-select" value={myCharm} onChange={handleCharm}>
+                            <Select labelId="demo-simple-select-label" id="demo-simple-select" value={myInfluence} onChange={handleInfluence}>
                                 <MenuItem value={2}>2</MenuItem>
                                 <MenuItem value={3}>3</MenuItem>
                                 <MenuItem value={4}>4</MenuItem>
@@ -608,7 +666,7 @@ function Maker(props) {
                         </FormControl>
                         <FormControl variant="standard" sx={{ m: 0.5, marginTop: 0, minWidth: 120 }}>
                         <InputLabel id="demo-simple-select-label">Spirit</InputLabel>
-                            <Select labelId="demo-simple-select-label" id="demo-simple-select" value={myWits} onChange={handleWits}>
+                            <Select labelId="demo-simple-select-label" id="demo-simple-select" value={mySpirit} onChange={handleSpirit}>
                                 <MenuItem value={2}>2</MenuItem>
                                 <MenuItem value={3}>3</MenuItem>
                                 <MenuItem value={4}>4</MenuItem>
@@ -627,7 +685,7 @@ function Maker(props) {
                         <h4 style={{color:'black', background:"transparent", margin:'0px' }}>Split 13 points between Attributes. No Attribute may exceed 8</h4>
                         <FormControl variant="standard" sx={{ m: 0.5, marginTop: 0, minWidth: 120 }}>
                             <InputLabel id="demo-simple-select-label">Resources</InputLabel>
-                            <Select labelId="demo-simple-select-label" id="demo-simple-select" value={myPhysique} onChange={handlePhysique}>
+                            <Select labelId="demo-simple-select-label" id="demo-simple-select" value={myResources} onChange={handleResources}>
                                 <MenuItem value={2}>2</MenuItem>
                                 <MenuItem value={3}>3</MenuItem>
                                 <MenuItem value={4}>4</MenuItem>
@@ -639,7 +697,7 @@ function Maker(props) {
                         </FormControl>
                         <FormControl variant="standard" sx={{ m: 0.5, marginTop: 0, minWidth: 120 }}>
                         <InputLabel id="demo-simple-select-label">Influence</InputLabel>
-                            <Select labelId="demo-simple-select-label" id="demo-simple-select" value={myCharm} onChange={handleCharm}>
+                            <Select labelId="demo-simple-select-label" id="demo-simple-select" value={myInfluence} onChange={handleInfluence}>
                                 <MenuItem value={2}>2</MenuItem>
                                 <MenuItem value={3}>3</MenuItem>
                                 <MenuItem value={4}>4</MenuItem>
@@ -651,7 +709,7 @@ function Maker(props) {
                         </FormControl>
                         <FormControl variant="standard" sx={{ m: 0.5, marginTop: 0, minWidth: 120 }}>
                         <InputLabel id="demo-simple-select-label">Spirit</InputLabel>
-                            <Select labelId="demo-simple-select-label" id="demo-simple-select" value={myWits} onChange={handleWits}>
+                            <Select labelId="demo-simple-select-label" id="demo-simple-select" value={mySpirit} onChange={handleSpirit}>
                                 <MenuItem value={2}>2</MenuItem>
                                 <MenuItem value={3}>3</MenuItem>
                                 <MenuItem value={4}>4</MenuItem>
