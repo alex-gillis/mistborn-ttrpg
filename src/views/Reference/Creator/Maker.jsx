@@ -561,14 +561,14 @@ function Maker(props) {
         };
 
         let characters = [];
-        // if (myCharacters.length > 0) {
-        //     characters = characters.concat(myCharacters);
-        // }
+        if (myCharacters.length > 0) {
+            characters = characters.concat(myCharacters);
+        }
 
         characters.push(character);
 
         // Clear Character Database
-        localStorage.clear();
+        // localStorage.clear();
 
         // saving the character information to localStorage
         localStorage.setItem("characterInfo", JSON.stringify(characters));

@@ -24,7 +24,7 @@ function Character(props) {
             <div id="mobiMenu">
                 <div className="wiggleRoom">
                     <span id="bold">Race:</span> <span id="italicked">{props.rogue.race}</span>
-                    <span id="bold" className="concept">Sex:</span> <span id="italicked">{props.rogue.sex}</span>
+                    <span id="bold" className="concept">Sex:</span> <span id="italicked">{props.rogue.gender}</span>
                     <span id="bold" className="concept">Age:</span> <span id="italicked">{props.rogue.age}</span>
                 </div>
                 <div className="wiggleRoom">

@@ -32,11 +32,26 @@ function Creator(props) {
       getData();
     }, []);
 
+    useEffect(() => {
+      const interval = setInterval(() => {
+        // console.log('Fetching data every second');
+  
+        const characterInfo = localStorage.getItem("characterInfo");
+        if (characterInfo) {
+          const data = JSON.parse(characterInfo);
+          setCharacters(data); 
+        }
+      }, 1000);
+  
+      return () => clearInterval(interval);
+    }, []);
+
     // console.log("This is my character ", myCharacters[2])
 
     function switchView(option) {
       if (option === 1) {
         // New Character
+        setInfo(1000000000000);
         setView(false);
       } else if (option === 2) {
         // New Character
@@ -62,7 +77,7 @@ function Creator(props) {
                 </button>
               </li>
           ))}
-            <li id="nav-list" className="nav-unchosen">
+            <li id="nav-list" className={myInfo === 1000000000000 ? "nav-chosen" : "nav-unchosen"}>
               <button className="index-button" onClick={() => switchView(1)}>
                 <span id="bold">New Character?</span>
               </button>
