@@ -7,7 +7,7 @@ function Maker(props) {
                                 .concat(props.stunts[2].stunts));
 
     // Character Information Array
-    const [myCharacters, setCharacters] = useState(props.characters);
+    const [myCharacters, setCharacters] = useState([props.characters]);
 
     // Character Information
     const [myName, setName] = useState("");
@@ -70,18 +70,18 @@ function Maker(props) {
     const [myPower, setPower] = useState("");
     const handlePower = (event) => { setPower(event.target.value); setFirstStuntName(""); setSecondStuntName(""); setFirstPower(""); setSecondPower(""); };
     // Attributes
-    const [myPhysique, setPhysique] = useState("");
+    const [myPhysique, setPhysique] = useState(2);
     const handlePhysique = (event) => { setPhysique(event.target.value); };
-    const [myCharm, setCharm] = useState("");
+    const [myCharm, setCharm] = useState(2);
     const handleCharm = (event) => { setCharm(event.target.value); };
-    const [myWits, setWits] = useState("");
+    const [myWits, setWits] = useState(2);
     const handleWits = (event) => { setWits(event.target.value); };
     // Standings
-    const [myResources, setResources] = useState("");
+    const [myResources, setResources] = useState(2);
     const handleResources = (event) => { setResources(event.target.value); };
-    const [myInfluence, setInfluence] = useState("");
+    const [myInfluence, setInfluence] = useState(2);
     const handleInfluence = (event) => { setInfluence(event.target.value); };
-    const [mySpirit, setSpirit] = useState("");
+    const [mySpirit, setSpirit] = useState(2);
     const handleSpirit = (event) => { setSpirit(event.target.value); };
 
     const containsPower = (power, metal) => {
@@ -277,10 +277,249 @@ function Maker(props) {
         setSecondStuntDesc(result.description);
     };
     
-    function saveCharacter() {
+    function saveCharacter() { 
+        let thePowers = [];
+        let theTraits = [];
+
+        if (myPower == 1) {
+            theTraits = [
+                {
+                    trait1:myExtra1,
+                    trait2:myExtra2
+                }
+            ]
+        } else if (myPower == 2) {
+            
+            if (myFirstPower.includes("Gunplay") && mySecondPower.includes("Gunplay")) {
+                let thePower = {
+                    power: "Gunplay Stunts",
+                    type: "Other",
+                    stunts:[
+                        {
+                            stunt:myFirstStuntName,
+                            desc:myFirstStuntDesc
+                        },
+                        {
+                            stunt:mySecondStuntName,
+                            desc:mySecondStuntDesc
+                        }
+                    ]
+                }
+                thePowers.push(thePower);
+            } else if (myFirstPower.includes("Gunsmith") && mySecondPower.includes("Gunsmith")) {
+                
+                let thePower = {
+                    power: "Gunsmith Stunts",
+                    type: "Other",
+                    stunts:[
+                        {
+                            stunt:myFirstStuntName,
+                            desc:myFirstStuntDesc
+                        },
+                        {
+                            stunt:mySecondStuntName,
+                            desc:mySecondStuntDesc
+                        }
+                    ]
+                }
+
+                thePowers.push(thePower);
+            } else if (myFirstPower.includes("Gunplay") && mySecondPower.includes("Gunsmith")) {
+                let thePower = [
+                    {
+                        power: "Gunplay Stunts",
+                        type: "Other",
+                        stunts:[
+                            {
+                                stunt:myFirstStuntName,
+                                desc:myFirstStuntDesc
+                            }
+                        ]
+                    },
+                    {
+                        power: "Gunsmith Stunts",
+                        type: "Other",
+                        stunts:[
+                            {
+                                stunt:mySecondStuntName,
+                                desc:mySecondStuntDesc
+                            }
+                        ]
+                    
+                    }
+                ]
+                thePowers.append(thePower);
+            } else if (mySecondPower.includes("Gunplay") && myFirstPower.includes("Gunsmith")) {
+                let thePower = [
+                    {
+                        power: "Gunsmith Stunts",
+                        type: "Other",
+                        stunts:[
+                            {
+                                stunt:myFirstStuntName,
+                                desc:myFirstStuntDesc
+                            }
+                        ]
+                    },
+                    {
+                        power: "Gunplay Stunts",
+                        type: "Other",
+                        stunts:[
+                            {
+                                stunt:mySecondStuntName,
+                                desc:mySecondStuntDesc
+                            }
+                        ]
+                    
+                    }
+                ]
+                thePowers.append(thePower);
+            }
+
+        } else if (myPower == 3) {
+
+            if (myFirstPower.includes("Gunplay")) {
+                let thePower = {
+                    power: "Gunplay Stunts",
+                    type: "Other",
+                    stunts:[
+                        {
+                            stunt:myFirstStuntName,
+                            desc:myFirstStuntDesc
+                        }
+                    ]
+                }
+                let theTrait = [
+                    {
+                        trait1:myExtra1
+                    }
+                ]
+                thePowers.push(thePower);
+                theTraits.append(theTrait);
+            } else if (myFirstPower.includes("Gunsmith")) {
+                let thePower = {
+                    power: "Gunsmith Stunts",
+                    type: "Other",
+                    stunts:[
+                        {
+                            stunt:myFirstStuntName,
+                            desc:myFirstStuntDesc
+                        }
+                    ]
+                }
+                let theTrait = [
+                    {
+                        trait1:myExtra1
+                    }
+                ]
+                thePowers.push(thePower);
+                theTraits.append(theTrait);
+            } 
+
+        } else if (myPower == 4) {
+
+            if (myFirstPower.includes("Allomancy")) {
+                if (myFirstStuntName === "") {
+                    let thePower = {
+                        power: myFirstPower.replace("Allomancy", ""),
+                        type: "Allomancy",
+                        rating:5,
+                        stunts:[]
+                    }
+                    thePowers.push(thePower);
+                } else {
+                    let thePower = {
+                        power: myFirstPower.replace("Allomancy", ""),
+                        type: "Allomancy",
+                        rating:5,
+                        stunts:[
+                            {
+                                stunt:myFirstStuntName,
+                                desc:myFirstStuntDesc
+                            }
+                        ]
+                    }
+                    thePowers.push(thePower);
+                }
+
+            } else if (myFirstPower.includes("Feruchemy")) {
+                if (myFirstStuntName === "") {
+                    let thePower = {
+                        power: myFirstPower.replace("Feruchemy", ""),
+                        type: "Feruchemy",
+                        rating:5,
+                        stunts:[]
+                    }
+                    thePowers.push(thePower);
+                } else {
+                    let thePower = {
+                        power: myFirstPower.replace("Feruchemy", ""),
+                        type: "Feruchemy",
+                        rating:5,
+                        stunts:[
+                            {
+                                stunt:myFirstStuntName,
+                                desc:myFirstStuntDesc
+                            }
+                        ]
+                    }
+                    thePowers.push(thePower);
+                }
+
+            }
+
+        } else if (myPower == 5) {
+
+            if (myFirstPower.includes("Allomancy")) {
+                
+                let thePower = {
+                    power: myFirstPower.replace("Allomancy", ""),
+                    type: "Allomancy",
+                    rating:4,
+                    stunts:[]
+                }
+                thePowers.push(thePower);
+
+            } else if (myFirstPower.includes("Feruchemy")) {
+                
+                let thePower = {
+                    power: myFirstPower.replace("Feruchemy", ""),
+                    type: "Feruchemy",
+                    rating:4,
+                    stunts:[]
+                }
+                thePowers.push(thePower);
+
+            }
+
+            if (mySecondPower.includes("Allomancy")) {
+                
+                let thePower = {
+                    power: mySecondPower.replace("Allomancy", ""),
+                    type: "Allomancy",
+                    rating:4,
+                    stunts:[]
+                }
+                thePowers.push(thePower);
+
+            } else if (mySecondPower.includes("Feruchemy")) {
+                
+                let thePower = {
+                    power: mySecondPower.replace("Feruchemy", ""),
+                    type: "Feruchemy",
+                    rating:4,
+                    stunts:[]
+                }
+                thePowers.push(thePower);
+
+            }
+
+        }
+
         const character = {
             name : myName,
             concept : myConcept,
+            crew : myCrew,
             cause : myCause,
             target : myTarget,
             method : myMethod,
@@ -289,40 +528,36 @@ function Maker(props) {
             age : myAge,
             height : myHeight,
             weight : myWeight,
-            drive : myDrive,
-            profession : myProfession,
-            speciality : mySpeciality,
-            feature : myFeature,
-            personality : myPersonality,
-            tragedy : myTragedy,
-            destiny : myDestiny,
-            extra1 : myExtra1,
-            extra2 : myExtra2,
-            firstPower : myFirstPower,
-            firstStuntName : myFirstStuntName,
-            firstStuntDesc : myFirstStuntDesc,
-            secondPower : mySecondPower,
-            secondStuntName : mySecondStuntName,
-            secondStuntDesc : mySecondStuntDesc,
-            attribute : myAttribute,
-            stand : myStand,
-            power : myPower,
             physique : myPhysique,
             charm : myCharm,
             wits : myWits,
             resources : myResources,
             influence : myInfluence,
             spirit : mySpirit,
+            traits : {
+                drive : myDrive,
+                profession : myProfession,
+                speciality : mySpeciality,
+                feature : myFeature,
+                personality : myPersonality,
+                extras: theTraits
+            },
+            tragedy : myTragedy,
+            destiny : myDestiny,
+            powers : thePowers,
         };
 
-        let characters = myCharacters;
+        let characters = [];
+        if (myCharacters.length > 0) {
+            characters.concat(myCharacters);
+        }
 
-        setCharacters(characters.push(character));
+        characters.push(character);
 
         // saving the character information to localStorage
-        localStorage.setItem("characterInfo", JSON.stringify(myCharacters));
+        localStorage.setItem("characterInfo", JSON.stringify(characters));
     
-        // popFeedback("Your character, " + myName + " has been saved");
+        console.log("Your character, " + myName + " has been saved");
     }
 
     return (
@@ -337,7 +572,14 @@ function Maker(props) {
                 <TextField sx={{ m: 0.5, minWidth: 120, maxWidth: 165 }} id="filled-basic" label="Cause" variant="filled" value={myCause} onChange={handleCause} />
                 <TextField sx={{ m: 0.5, minWidth: 120, maxWidth: 165 }} id="filled-basic" label="Target" variant="filled" value={myTarget} onChange={handleTarget} />
                 <TextField sx={{ m: 0.5, minWidth: 120, maxWidth: 165 }} id="filled-basic" label="Method" variant="filled" value={myMethod} onChange={handleMethod} />
-                <TextField sx={{ m: 0.5, minWidth: 120, maxWidth: 165 }} id="filled-basic" label="Race" variant="filled" value={myRace} onChange={handleRace} />
+                <FormControl id="filled-basic" variant="filled" sx={{ m: 0.5, minWidth: 165, maxWidth: 165 }}>
+                    <InputLabel id="demo-simple-select-label">Race</InputLabel>
+                    <Select labelId="demo-simple-select-label" id="demo-simple-select" value={myRace} onChange={handleRace}>
+                        <MenuItem value={"Human"}>Human</MenuItem>
+                        <MenuItem value={"Koloss-Blooded"}>Koloss-Blooded</MenuItem>
+                        <MenuItem value={"Kandra"}>Kandra</MenuItem>
+                    </Select>
+                </FormControl>
                 <TextField sx={{ m: 0.5, minWidth: 120, maxWidth: 165 }} id="filled-basic" label="Gender" variant="filled" value={myGender} onChange={handleGender} />
                 <TextField sx={{ m: 0.5, minWidth: 120, maxWidth: 165 }} id="filled-basic" label="Age" variant="filled" value={myAge} onChange={handleAge} />
                 <TextField sx={{ m: 0.5, minWidth: 120, maxWidth: 165 }} id="filled-basic" label="Height" variant="filled" value={myHeight} onChange={handleHeight} />
@@ -750,7 +992,7 @@ function Maker(props) {
                         <br/>
                         {myFirstStuntName !== "" &&
                             <TextField
-                                sx={{ m: 0.5, minWidth: 360, maxWidth: 495 }}
+                                sx={{ m: 0.5, minWidth: 360, maxWidth: 495}}
                                 maxRows={4}
                                 disabled
                                 multiline
@@ -788,7 +1030,7 @@ function Maker(props) {
                         <br/>
                         {myFirstStuntName !== "" &&
                             <TextField
-                                sx={{ m: 0.5, minWidth: 360, maxWidth: 495 }}
+                                sx={{ m: 0.5, minWidth: 360, maxWidth: 495}}
                                 maxRows={4}
                                 disabled
                                 multiline

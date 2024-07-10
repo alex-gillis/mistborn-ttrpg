@@ -136,6 +136,7 @@ function Character(props) {
                 )}
             </div>
             <div>
+                {props.rogue.equipment && props.rogue.equipment.length > 0 ? (
                 <table>
                     <tbody>
                         <tr id="bold">
@@ -152,6 +153,9 @@ function Character(props) {
                         ))}
                     </tbody>
                 </table>
+                ) : (
+                    <div className="centered">{props.rogue.name} possesses no equipment</div>
+                )}
             </div>
         </div>
         </>
