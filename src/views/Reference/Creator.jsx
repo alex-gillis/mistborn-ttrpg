@@ -32,13 +32,20 @@ function Creator(props) {
       getData();
     }, []);
 
-    // console.log("This is my character ", myCharacters[0])
+    // console.log("This is my character ", myCharacters[2])
 
-    function switchView() {
-      setView(!myView);
+    function switchView(option) {
+      if (option === 1) {
+        // New Character
+        setView(false);
+      } else if (option === 2) {
+        // New Character
+        setView(true);
+      }
     }
 
     function changeSample(desiredSample) {
+      switchView(2);
       setInfo(desiredSample);
     }
 
@@ -55,19 +62,27 @@ function Creator(props) {
                 </button>
               </li>
           ))}
+            <li id="nav-list" className="nav-unchosen">
+              <button className="index-button" onClick={() => switchView(1)}>
+                <span id="bold">New Character?</span>
+              </button>
+            </li>
           </ol>
         </div>
         
         <div id="info">
           <div id="centerSheet" style={{marginLeft:"25px", marginBottom:"20px"}}>
-            <div className="sheet" style={{display:myView === true ? "none" : "block"}}>
-              <Maker metals={props.metals} stunts={props.stunts} character={myCharacters} />
-            </div>
             <br/>
-            <div className="sheet" style={{display:myView === false ? "none" : "block"}}>
-              <Character rogue={myCharacters[0]} />
-              {/* <Maker metals={props.metals} stunts={props.stunts} /> */}
-            </div>
+            {myView === true ? (
+              <div className="sheet">
+                <Character rogue={myCharacters[myInfo]} />
+                {/* <Maker metals={props.metals} stunts={props.stunts} /> */}
+              </div>
+            ) : (
+              <div className="sheet">
+                <Maker metals={props.metals} stunts={props.stunts} characters={myCharacters} />
+              </div>
+            )}
           </div>
         </div>
       </>

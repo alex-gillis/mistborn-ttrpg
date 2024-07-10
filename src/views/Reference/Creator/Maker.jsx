@@ -6,8 +6,7 @@ function Maker(props) {
     const [theStunts] = useState(props.stunts[0].stunts.concat(props.stunts[1].stunts)
                                 .concat(props.stunts[2].stunts));
 
-    // Character Information Array
-    const [myCharacters, setCharacters] = useState([props.characters]);
+    const [myCharacters] = useState(props.characters);
 
     // Character Information
     const [myName, setName] = useState("");
@@ -282,49 +281,55 @@ function Maker(props) {
         let theTraits = [];
 
         if (myPower == 1) {
-            theTraits = [
+            let theTrait = [
                 {
                     trait1:myExtra1,
                     trait2:myExtra2
                 }
             ]
+            theTraits = theTrait;
+            
         } else if (myPower == 2) {
             
-            if (myFirstPower.includes("Gunplay") && mySecondPower.includes("Gunplay")) {
-                let thePower = {
-                    power: "Gunplay Stunts",
-                    type: "Other",
-                    stunts:[
-                        {
-                            stunt:myFirstStuntName,
-                            desc:myFirstStuntDesc
-                        },
-                        {
-                            stunt:mySecondStuntName,
-                            desc:mySecondStuntDesc
-                        }
-                    ]
-                }
-                thePowers.push(thePower);
-            } else if (myFirstPower.includes("Gunsmith") && mySecondPower.includes("Gunsmith")) {
+            if (props.stunts[6].stunts.find(stunt => stunt.name === myFirstStuntName) && props.stunts[6].stunts.find(stunt => stunt.name === mySecondStuntName)) {
+                let thePower = [
+                    {
+                        power: "Gunplay Stunts",
+                        type: "Other",
+                        stunts:[
+                            {
+                                stunt:myFirstStuntName,
+                                desc:myFirstStuntDesc
+                            },
+                            {
+                                stunt:mySecondStuntName,
+                                desc:mySecondStuntDesc
+                            }
+                        ]
+                    }
+                ]
+                thePowers = thePower;
+            } else if (props.stunts[2].stunts.find(stunt => stunt.name === myFirstStuntName) && props.stunts[2].stunts.find(stunt => stunt.name === mySecondStuntName)) {
                 
-                let thePower = {
-                    power: "Gunsmith Stunts",
-                    type: "Other",
-                    stunts:[
+                let thePower = [
                         {
-                            stunt:myFirstStuntName,
-                            desc:myFirstStuntDesc
-                        },
-                        {
-                            stunt:mySecondStuntName,
-                            desc:mySecondStuntDesc
-                        }
-                    ]
-                }
+                        power: "Gunsmith Stunts",
+                        type: "Other",
+                        stunts:[
+                            {
+                                stunt:myFirstStuntName,
+                                desc:myFirstStuntDesc
+                            },
+                            {
+                                stunt:mySecondStuntName,
+                                desc:mySecondStuntDesc
+                            }
+                        ]
+                    }
+                ]
 
-                thePowers.push(thePower);
-            } else if (myFirstPower.includes("Gunplay") && mySecondPower.includes("Gunsmith")) {
+                thePowers = thePower;
+            } else if (props.stunts[6].stunts.find(stunt => stunt.name === myFirstStuntName) && props.stunts[2].stunts.find(stunt => stunt.name === mySecondStuntName)) {
                 let thePower = [
                     {
                         power: "Gunplay Stunts",
@@ -348,8 +353,8 @@ function Maker(props) {
                     
                     }
                 ]
-                thePowers.append(thePower);
-            } else if (mySecondPower.includes("Gunplay") && myFirstPower.includes("Gunsmith")) {
+                thePowers = thePower;
+            } else if (props.stunts[2].stunts.find(stunt => stunt.name === myFirstStuntName) && props.stunts[6].stunts.find(stunt => stunt.name === mySecondStuntName)) {
                 let thePower = [
                     {
                         power: "Gunsmith Stunts",
@@ -373,47 +378,55 @@ function Maker(props) {
                     
                     }
                 ]
-                thePowers.append(thePower);
+                thePowers = thePower;
             }
 
         } else if (myPower == 3) {
 
-            if (myFirstPower.includes("Gunplay")) {
-                let thePower = {
-                    power: "Gunplay Stunts",
-                    type: "Other",
-                    stunts:[
-                        {
-                            stunt:myFirstStuntName,
-                            desc:myFirstStuntDesc
-                        }
-                    ]
-                }
-                let theTrait = [
+            if (props.stunts[6].stunts.find(stunt => stunt.name === myFirstStuntName)) {
+                let thePower = [
                     {
-                        trait1:myExtra1
+                        power: "Gunplay Stunts",
+                        type: "Other",
+                        stunts:[
+                            {
+                                stunt:myFirstStuntName,
+                                desc:myFirstStuntDesc
+                            }
+                        ]
                     }
                 ]
-                thePowers.push(thePower);
-                theTraits.append(theTrait);
-            } else if (myFirstPower.includes("Gunsmith")) {
-                let thePower = {
-                    power: "Gunsmith Stunts",
-                    type: "Other",
-                    stunts:[
-                        {
-                            stunt:myFirstStuntName,
-                            desc:myFirstStuntDesc
-                        }
-                    ]
-                }
                 let theTrait = [
                     {
-                        trait1:myExtra1
+                        trait1:myExtra1,
+                        trait2:""
                     }
                 ]
-                thePowers.push(thePower);
-                theTraits.append(theTrait);
+                thePowers = thePower;
+                theTraits = theTrait;
+
+            } else if (props.stunts[2].stunts.find(stunt => stunt.name === myFirstStuntName)) {
+                let thePower = [
+                    {
+                        power: "Gunsmith Stunts",
+                        type: "Other",
+                        stunts:[
+                            {
+                                stunt:myFirstStuntName,
+                                desc:myFirstStuntDesc
+                            }
+                        ]
+                    }
+                ]
+                let theTrait = [
+                    {
+                        trait1:myExtra1,
+                        trait2:""
+                    }
+                ]
+                thePowers = thePower;
+                theTraits = theTrait;
+                
             } 
 
         } else if (myPower == 4) {
@@ -548,16 +561,20 @@ function Maker(props) {
         };
 
         let characters = [];
-        if (myCharacters.length > 0) {
-            characters.concat(myCharacters);
-        }
+        // if (myCharacters.length > 0) {
+        //     characters = characters.concat(myCharacters);
+        // }
 
         characters.push(character);
+
+        // Clear Character Database
+        localStorage.clear();
 
         // saving the character information to localStorage
         localStorage.setItem("characterInfo", JSON.stringify(characters));
     
         console.log("Your character, " + myName + " has been saved");
+        // console.log("This is my character ", character)
     }
 
     return (

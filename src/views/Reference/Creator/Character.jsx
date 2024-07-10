@@ -92,8 +92,11 @@ function Character(props) {
                         </tr>
                         {props.rogue.traits.extras?.map((myExtra, index) => (
                             <tr key={index}>
-                                <td colSpan={1}><span id="bold">Extra:</span> {myExtra.trait1}</td>
-                            <   td colSpan={1}><span id="bold">Extra:</span> {myExtra.trait2}</td>
+                                {myExtra.trait2 === "" ? (
+                                    <td colSpan={2}><span id="bold">Extra:</span> {myExtra.trait1}</td>
+                                ) : (
+                                    <td colSpan={1}><span id="bold">Extra:</span> {myExtra.trait2}</td>
+                                )}
                             </tr>
                         ))}
                     </tbody>
