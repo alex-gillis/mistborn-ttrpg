@@ -279,51 +279,51 @@ function Maker(props) {
     
     function saveCharacter() {
         const character = {
-            name : name,
-            concept : concept,
-            cause : cause,
-            target : target,
-            method : method,
-            race : race,
-            gender : gender,
-            age : age,
-            height : height,
-            weight : weight,
-            drive : drive,
-            profession : profession,
-            speciality : speciality,
-            feature : feature,
-            personality : personality,
-            tragedy : tragedy,
-            destiny : destiny,
-            extra1 : extra1,
-            extra2 : extra2,
-            firstPower : firstPower,
-            firstStuntName : firstStuntName,
-            firstStuntDesc : firstStuntDesc,
-            secondPower : secondPower,
-            secondStuntName : secondStuntName,
-            secondStuntDesc : secondStuntDesc,
-            attribute : attribute,
-            stand : stand,
-            power : power,
-            physique : physique,
-            charm : charm,
-            wits : wits,
-            resources : resources,
-            influence : influence,
-            spirit : spirit,
+            name : myName,
+            concept : myConcept,
+            cause : myCause,
+            target : myTarget,
+            method : myMethod,
+            race : myRace,
+            gender : myGender,
+            age : myAge,
+            height : myHeight,
+            weight : myWeight,
+            drive : myDrive,
+            profession : myProfession,
+            speciality : mySpeciality,
+            feature : myFeature,
+            personality : myPersonality,
+            tragedy : myTragedy,
+            destiny : myDestiny,
+            extra1 : myExtra1,
+            extra2 : myExtra2,
+            firstPower : myFirstPower,
+            firstStuntName : myFirstStuntName,
+            firstStuntDesc : myFirstStuntDesc,
+            secondPower : mySecondPower,
+            secondStuntName : mySecondStuntName,
+            secondStuntDesc : mySecondStuntDesc,
+            attribute : myAttribute,
+            stand : myStand,
+            power : myPower,
+            physique : myPhysique,
+            charm : myCharm,
+            wits : myWits,
+            resources : myResources,
+            influence : myInfluence,
+            spirit : mySpirit,
         };
 
-        setCharacters(myCharacters.push(character));
+        let characters = myCharacters;
+
+        setCharacters(characters.push(character));
 
         // saving the character information to localStorage
         localStorage.setItem("characterInfo", JSON.stringify(myCharacters));
     
         // popFeedback("Your character, " + myName + " has been saved");
     }
-
-
 
     return (
         < >
@@ -936,6 +936,10 @@ function Maker(props) {
                         </div>
                     </div>
                 }
+            </div>
+            <div>
+                <br/>
+                <button id='unselected' onClick={saveCharacter}>Save Character</button>
             </div>
         </div>
         </>

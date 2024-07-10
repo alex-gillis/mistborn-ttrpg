@@ -7,10 +7,18 @@ import Maker from "./Creator/Maker"
 // import Character from "./Sample/Character"
 function Creator(props) {
     const [myCharacters, setCharacters] = useState([]);
+    const [myView, setView] = useState(true);
 
     if (localStorage.getItem("characterInfo")) {
       setCharacters(JSON.parse(localStorage.getItem("characterInfo")));
     } 
+
+    function switchView() {
+      if (localStorage.getItem("characterInfo")) {
+        setCharacters(JSON.parse(localStorage.getItem("characterInfo")));
+      } 
+      setView(!myView);
+    }
 
     return (
       < >
