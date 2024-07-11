@@ -98,8 +98,16 @@ function Maker(props) {
         }
     };
 
-    const renderStunts = (powers) => {
+    const renderStunts = (powers, place) => {
         let stunts = [];
+        let myPlace;
+
+        if (place === 2) {
+            myPlace = myFirstStuntName;
+        } else if (place === 1) {
+            myPlace = mySecondStuntName;
+        }
+
         if (powers === true){
             if (myFirstPower.includes("Allomancy")) {
                 stunts.push(
@@ -201,7 +209,6 @@ function Maker(props) {
                 });
             }
         }
-        
 
         if (powers === false) {
             stunts.push(
@@ -224,7 +231,7 @@ function Maker(props) {
                     stunts.push(
                         <MenuItem
                             key={`gunplay-${index}`}
-                            disabled={stunt.name === mySecondStuntName} 
+                            disabled={stunt.name === myPlace} 
                             id="outlined-disabled" 
                             label="Disabled" 
                             style={{ fontWeight: "bolder", fontSize: "large" }}
@@ -254,7 +261,7 @@ function Maker(props) {
                     stunts.push(
                         <MenuItem
                             key={`gunsmithing-${index}`}
-                            disabled={myFirstStuntName === stunt.name} 
+                            disabled={myPlace === stunt.name} 
                             id="outlined-disabled" 
                             label="Disabled" 
                             style={{ fontWeight: "bolder", fontSize: "large" }}
@@ -291,6 +298,8 @@ function Maker(props) {
             setError(true);
         } else if (myAttribute === 3 && myPhysique + myCharm + myWits > 13) {
             setError(true);
+        } else {
+            setError(false)
         }
 
         if (myStand === 1 && myResources + myInfluence + mySpirit > 9) {
@@ -299,6 +308,8 @@ function Maker(props) {
             setError(true);
         } else if (myStand === 3 && myResources + myInfluence + mySpirit > 13) {
             setError(true);
+        } else {
+            setError(false)
         }
         
         if (myAttribute === 1 && myPhysique + myCharm + myWits < 9) {
@@ -307,6 +318,8 @@ function Maker(props) {
             setNotAtt(true);
         } else if (myAttribute === 3 && myPhysique + myCharm + myWits < 13) {
             setNotAtt(true);
+        } else {
+            setNotAtt(false)
         }
 
         if (myStand === 1 && myResources + myInfluence + mySpirit < 9) {
@@ -315,13 +328,16 @@ function Maker(props) {
             setNotStand(true);
         } else if (myStand === 3 && myResources + myInfluence + mySpirit < 13) {
             setNotStand(true);
+        } else {
+            setNotStand(false)
         }
     };
     
     function saveCharacter() { 
+        errorCheck();
+
         let thePowers = [];
         let theTraits = [];
-        errorCheck();
 
         if (myError === false && myNotAtt === false && myNotStand === false) {
 
@@ -573,6 +589,8 @@ function Maker(props) {
                 }
     
             }
+
+            if (myName === "") { setName("Unknown"); }
     
             const character = {
                 name : myName,
@@ -606,20 +624,20 @@ function Maker(props) {
             };
     
             let characters = [];
-            if (myCharacters.length > 0) {
+            if (myCharacters === 0) {
                 characters = characters.concat(myCharacters);
             }
     
             characters.push(character);
     
             // Clear Character Database
-            // localStorage.clear();
+            localStorage.clear();
     
             // saving the character information to localStorage
             localStorage.setItem("characterInfo", JSON.stringify(characters));
         
             console.log("Your character, " + myName + " has been saved");
-            // console.log("This is my character ", character)
+            console.log("This is my character ", character)
 
         } 
 
@@ -671,7 +689,7 @@ function Maker(props) {
                     <InputLabel id="demo-simple-select-label">Attributes</InputLabel>
                     <Select labelId="demo-simple-select-label" id="demo-simple-select" value={myAttribute} onChange={handleAttribute}>
                         <MenuItem 
-                            disabled={myStand === 3 || myPower === (5)} 
+                            disabled={myStand === 3 || myPower === 5} 
                             id="outlined-disabled" 
                             label="Disabled" 
                             style={{fontWeight:"bolder", fontSize:"large"}} 
@@ -679,7 +697,7 @@ function Maker(props) {
                                 Strong
                         </MenuItem>
                         <MenuItem
-                            disabled={myStand === 2 || myPower === (4)} 
+                            disabled={myStand === 2 || myPower === 4} 
                             id="outlined-disabled" 
                             label="Disabled"
                             style={{fontWeight:"bolder", fontSize:"large"}} 
@@ -687,7 +705,7 @@ function Maker(props) {
                                 Average
                         </MenuItem>
                         <MenuItem
-                            disabled={myStand === 1 || myPower === (3, 2, 1)} 
+                            disabled={myStand === 1 || myPower === 3 || myPower === 2 || myPower === 1} 
                             id="outlined-disabled" 
                             label="Disabled"
                             style={{fontWeight:"bolder", fontSize:"large"}} 
@@ -721,7 +739,7 @@ function Maker(props) {
                                 Average
                         </MenuItem>
                         <MenuItem
-                            disabled={myAttribute === 1 || myPower === (3, 2, 1)} 
+                            disabled={myAttribute === 1 || myPower === 3 || myPower === 2 || myPower === 1} 
                             id="outlined-disabled" 
                             label="Disabled"
                             style={{fontWeight:"bolder", fontSize:"large"}} 
@@ -754,7 +772,13 @@ function Maker(props) {
                             value={4}>
                                 Average
                         </MenuItem>
-                        <ListSubheader style={{fontWeight:"bolder", fontSize:"large"}}>Weak</ListSubheader>
+                        <ListSubheader 
+                            disabled={myAttribute === 1 || myStand === 1} 
+                            id="outlined-disabled" 
+                            label="Disabled"  
+                            style={{fontWeight:"bolder", fontSize:"large"}}>
+                                Weak
+                        </ListSubheader>
                         <MenuItem
                             disabled={myAttribute === 1 || myStand === 1} 
                             id="outlined-disabled" 
@@ -1081,13 +1105,13 @@ function Maker(props) {
                         <FormControl variant="standard" sx={{ m: 0.5, marginTop: 0, minWidth: 140 }}>
                             <InputLabel id="demo-simple-select-label">First Stunt</InputLabel>
                             <Select labelId="demo-simple-select-label" id="demo-simple-select" value={myFirstStuntName} onChange={handleFirstStunt}>
-                                {renderStunts(false)}
+                                {renderStunts(false, 1)}
                             </Select>
                         </FormControl>
                         <FormControl variant="standard" sx={{ m: 0.5, marginTop: 0, minWidth: 140 }}>
                             <InputLabel id="demo-simple-select-label">Second Stunt</InputLabel>
                             <Select labelId="demo-simple-select-label" id="demo-simple-select" value={mySecondStuntName} onChange={handleSecondStunt}>
-                                {renderStunts(false)}
+                                {renderStunts(false, 2)}
                             </Select>
                         </FormControl>
                         <br/>

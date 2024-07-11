@@ -4,32 +4,23 @@ function Character(props) {
         < >
         <div id="character">
             <div className="wiggleRoom">
-                <span id="bold">Character Name:</span> <span id="italicked">{props.rogue.name}</span>
-                <span id="bold" className="concept">Concept:</span> <span id="italicked">{props.rogue.concept}</span>
+                <span id="bold">Character Name:</span> <span id="italicked">{props.rogue.name === "" ? ( "Unknown" ) : ( props.rogue.name )}</span>
+                <span id="bold" className="concept">Concept:</span> <span id="italicked">{props.rogue.concept === "" ? ( "Unknown" ) : ( props.rogue.concept )}</span>
             </div>
             <div className="wiggleRoom" id="necessary">
-                    <span id="bold">Crew Name:</span> <span id="italicked">{props.rogue.crew}</span><span id="bold" className="concept">Cause:</span> <span id="italicked">{props.rogue.cause}</span>
+                    <span id="bold">Crew Name:</span> <span id="italicked">{props.rogue.crew}</span><span id="bold" className="concept">Cause:</span> <span id="italicked">{props.rogue.cause === "" ? ( "Unknown" ) : ( props.rogue.cause )}</span>
                     <br/>
-                    <span id="bold" className="concept">Target:</span> <span id="italicked">{props.rogue.target}</span><span id="bold" className="concept">Method:</span> <span id="italicked">{props.rogue.method}</span>
+                    <span id="bold" className="concept">Target:</span> <span id="italicked">{props.rogue.target === "" ? ( "Unknown" ) : ( props.rogue.target )}</span><span id="bold" className="concept">Method:</span> <span id="italicked">{props.rogue.method === "" ? ( "Unknown" ) : ( props.rogue.method )}</span>
             </div>
-            <div id="regMenu">
+            <div>
                 <div className="wiggleRoom">
-                    <span id="bold">Race:</span> <span id="italicked">{props.rogue.race}</span>
-                    <span id="bold" className="concept">Sex:</span> <span id="italicked">{props.rogue.sex}</span>
-                    <span id="bold" className="concept">Age:</span> <span id="italicked">{props.rogue.age}</span>
-                    <span id="bold" className="concept">Height:</span> <span id="italicked">{props.rogue.height}</span>
-                    <span id="bold" className="concept">Weight:</span> <span id="italicked">{props.rogue.weight}</span>
-                </div>
-            </div>
-            <div id="mobiMenu">
-                <div className="wiggleRoom">
-                    <span id="bold">Race:</span> <span id="italicked">{props.rogue.race}</span>
-                    <span id="bold" className="concept">Sex:</span> <span id="italicked">{props.rogue.gender}</span>
-                    <span id="bold" className="concept">Age:</span> <span id="italicked">{props.rogue.age}</span>
+                    <span id="bold">Race:</span> <span id="italicked">{props.rogue.race === "" ? ( "Unknown" ) : ( props.rogue.race )}</span>
+                    <span id="bold" className="concept">Gender:</span> <span id="italicked">{props.rogue.gender === "" ? ( "Unknown" ) : ( props.rogue.gender )}</span>
+                    <span id="bold" className="concept">Age:</span> <span id="italicked">{props.rogue.age === "" ? ( "Unknown" ) : ( props.rogue.age )}</span>
                 </div>
                 <div className="wiggleRoom">
-                    <span id="bold" className="concept">Height:</span> <span id="italicked">{props.rogue.height}</span>
-                    <span id="bold" className="concept">Weight:</span> <span id="italicked">{props.rogue.weight}</span>
+                    <span id="bold" className="concept">Height:</span> <span id="italicked">{props.rogue.height === "" ? ( "Unknown" ) : ( props.rogue.height )}</span>
+                    <span id="bold" className="concept">Weight:</span> <span id="italicked">{props.rogue.weight === "" ? ( "Unknown" ) : ( props.rogue.weight )}</span>
                 </div>
             </div>
             <div className="wiggleRoom">
@@ -80,32 +71,37 @@ function Character(props) {
                 <table>
                     <tbody>
                         <tr>
-                            <td colSpan={1}><span id="bold">Drive:</span> {props.rogue.traits.drive}</td>
-                            <td colSpan={1}><span id="bold">Profession:</span> {props.rogue.traits.profession}</td>
+                            <td colSpan={1}><span id="bold">Drive:</span> {props.rogue.traits.drive === "" ? ( "Unknown" ) : ( props.rogue.traits.drive )}</td>
+                            <td colSpan={1}><span id="bold">Profession:</span> {props.rogue.traits.profession === "" ? ( "Unknown" ) : ( props.rogue.traits.profession )}</td>
                         </tr>
                         <tr>
-                            <td colSpan={1}><span id="bold">Speciality:</span> {props.rogue.traits.speciality}</td>
-                            <td colSpan={1}><span id="bold">Feature:</span> {props.rogue.traits.feature}</td>
+                            <td colSpan={1}><span id="bold">Speciality:</span> {props.rogue.traits.speciality === "" ? ( "Unknown" ) : ( props.rogue.traits.speciality )}</td>
+                            <td colSpan={1}><span id="bold">Feature:</span> {props.rogue.traits.feature === "" ? ( "Unknown" ) : ( props.rogue.traits.feature )}</td>
                         </tr>
                         <tr>
-                            <td colSpan={2}><span id="bold">Personality:</span> {props.rogue.traits.personality}</td>
+                            <td colSpan={2}><span id="bold">Personality:</span> {props.rogue.traits.personality === "" ? ( "Unknown" ) : ( props.rogue.traits.personality )}</td>
                         </tr>
                         {props.rogue.traits.extras?.map((myExtra, index) => (
-                            <tr key={index}>
+                            <span>
                                 {myExtra.trait2 === "" ? (
-                                    <td colSpan={2}><span id="bold">Extra:</span> {myExtra.trait1}</td>
+                                    <tr key={index}>
+                                        <td colSpan={2}><span id="bold">Extra:</span> {myExtra.trait1 === "" ? ( "Unknown" ) : ( myExtra.trait1 )}</td>
+                                    </tr>
                                 ) : (
-                                    <td colSpan={1}><span id="bold">Extra:</span> {myExtra.trait2}</td>
+                                    <tr key={index}>
+                                        <td colSpan={1}><span id="bold">Extra:</span> {myExtra.trait1 === "" ? ( "Unknown" ) : ( myExtra.trait1 )}</td>
+                                        <td colSpan={1}><span id="bold">Extra:</span> {myExtra.trait2 === "" ? ( "Unknown" ) : ( myExtra.trait2 )}</td>
+                                    </tr>
                                 )}
-                            </tr>
+                            </span>
                         ))}
                     </tbody>
                 </table>
             </div>
             <h4>Tragedy</h4>
-            <div className="centered">{props.rogue.tragedy}</div>
+            <div className="centered">{props.rogue.tragedy === "" ? ( "Unknown" ) : ( props.rogue.tragedy )}</div>
             <h4>Destiny</h4>
-            <div className="centered">{props.rogue.destiny}</div>
+            <div className="centered">{props.rogue.destiny === "" ? ( "Unknown" ) : ( props.rogue.destiny )}</div>
             <h4>Powers</h4>
             <div>
                 {props.rogue.powers && props.rogue.powers.length > 0 ? (

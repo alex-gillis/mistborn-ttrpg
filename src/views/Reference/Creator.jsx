@@ -12,16 +12,13 @@ function Creator(props) {
     };
   
     const [myCharacters, setCharacters] = useState(getInitialCharacter);
-    const [myView, setView] = useState(true);
-    const [myInfo, setInfo] = useState(0);
+    const [myView, setView] = useState(false);
+    const [myInfo, setInfo] = useState(1000000000000);
 
     useEffect(() => {
       const getData = async () => {
         try {
           const characterInfo = localStorage.getItem("characterInfo");
-          if (!characterInfo) {
-            throw new Error('No character info found');
-          }
           const data = JSON.parse(characterInfo);
           setCharacters(data);
         } catch (error) {
@@ -70,13 +67,19 @@ function Creator(props) {
         <div className='mobMargin'>
           <ol id="list">
             <h3 className='notButter'>Your Heroes</h3>
-          {myCharacters.map((myCharacter, index) => (
-              <li  id="nav-list"  className={myInfo === index ? "nav-chosen" : "nav-unchosen"} key={index}>
-                <button className="index-button" onClick={() => changeSample(index)}>
-                  <span id="bold">{myCharacter.name}</span>
-                </button>
-              </li>
-          ))}
+            {myCharacters !== 0 && myCharacters !== null ? ( 
+              <span>
+                {myCharacters.map((myCharacter, index) => (
+                  <li  id="nav-list"  className={myInfo === index ? "nav-chosen" : "nav-unchosen"} key={index}>
+                    <button className="index-button" onClick={() => changeSample(index)}>
+                      <span id="bold">{myCharacter.name}</span>
+                    </button>
+                  </li>
+                ))}
+              </span>
+            ) : (
+              <span></span>
+            )}
             <li id="nav-list" className={myInfo === 1000000000000 ? "nav-chosen" : "nav-unchosen"}>
               <button className="index-button" onClick={() => switchView(1)}>
                 <span id="bold">New Character?</span>
