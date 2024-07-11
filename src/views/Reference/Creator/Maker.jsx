@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
 import { useState } from 'react';
-import { Select, FormControl, TextField, InputLabel, MenuItem, ListSubheader } from '@mui/material';
+import { Select, FormControl, TextField, InputLabel, MenuItem, ListSubheader, Alert, Collapse } from '@mui/material';
 function Maker(props) {
     // Complete Stunt Array
     const [theStunts] = useState(props.stunts[0].stunts.concat(props.stunts[1].stunts)
@@ -82,6 +82,11 @@ function Maker(props) {
     const handleInfluence = (event) => { setInfluence(event.target.value); };
     const [mySpirit, setSpirit] = useState(2);
     const handleSpirit = (event) => { setSpirit(event.target.value); };
+
+    // Error Checking
+    const [myError, setError] = useState(false);
+    const [myNotAtt, setNotAtt] = useState(false);
+    const [myNotStand, setNotStand] = useState(false);
 
     const containsPower = (power, metal) => {
         if (power === metal + "Allomancy") {
@@ -275,307 +280,350 @@ function Maker(props) {
         const result = theStunts.find(stunt => stunt.name === value);
         setSecondStuntDesc(result.description);
     };
+
+    function errorCheck() {
+        // True = No Errors || False = Somewhere on the sheet there is an error
+
+        // Error Checking for Attributes
+        if (myAttribute === 1 && myPhysique + myCharm + myWits > 9) {
+            setError(true);
+        } else if (myAttribute === 2 && myPhysique + myCharm + myWits > 11) {
+            setError(true);
+        } else if (myAttribute === 3 && myPhysique + myCharm + myWits > 13) {
+            setError(true);
+        }
+
+        if (myStand === 1 && myResources + myInfluence + mySpirit > 9) {
+            setError(true);
+        } else if (myStand === 2 && myResources + myInfluence + mySpirit > 11) {
+            setError(true);
+        } else if (myStand === 3 && myResources + myInfluence + mySpirit > 13) {
+            setError(true);
+        }
+        
+        if (myAttribute === 1 && myPhysique + myCharm + myWits < 9) {
+            setNotAtt(true);
+        } else if (myAttribute === 2 && myPhysique + myCharm + myWits < 11) {
+            setNotAtt(true);
+        } else if (myAttribute === 3 && myPhysique + myCharm + myWits < 13) {
+            setNotAtt(true);
+        }
+
+        if (myStand === 1 && myResources + myInfluence + mySpirit < 9) {
+            setNotStand(true);
+        } else if (myStand === 2 && myResources + myInfluence + mySpirit < 11) {
+            setNotStand(true);
+        } else if (myStand === 3 && myResources + myInfluence + mySpirit < 13) {
+            setNotStand(true);
+        }
+    };
     
     function saveCharacter() { 
         let thePowers = [];
         let theTraits = [];
+        errorCheck();
 
-        if (myPower == 1) {
-            let theTrait = [
-                {
-                    trait1:myExtra1,
-                    trait2:myExtra2
-                }
-            ]
-            theTraits = theTrait;
-            
-        } else if (myPower == 2) {
-            
-            if (props.stunts[6].stunts.find(stunt => stunt.name === myFirstStuntName) && props.stunts[6].stunts.find(stunt => stunt.name === mySecondStuntName)) {
-                let thePower = [
+        if (myError === false && myNotAtt === false && myNotStand === false) {
+
+            if (myPower == 1) {
+                let theTrait = [
                     {
-                        power: "Gunplay Stunts",
-                        type: "Other",
-                        stunts:[
-                            {
-                                stunt:myFirstStuntName,
-                                desc:myFirstStuntDesc
-                            },
-                            {
-                                stunt:mySecondStuntName,
-                                desc:mySecondStuntDesc
-                            }
-                        ]
+                        trait1:myExtra1,
+                        trait2:myExtra2
                     }
                 ]
-                thePowers = thePower;
-            } else if (props.stunts[2].stunts.find(stunt => stunt.name === myFirstStuntName) && props.stunts[2].stunts.find(stunt => stunt.name === mySecondStuntName)) {
+                theTraits = theTrait;
                 
-                let thePower = [
+            } else if (myPower == 2) {
+                
+                if (props.stunts[6].stunts.find(stunt => stunt.name === myFirstStuntName) && props.stunts[6].stunts.find(stunt => stunt.name === mySecondStuntName)) {
+                    let thePower = [
                         {
-                        power: "Gunsmith Stunts",
-                        type: "Other",
-                        stunts:[
-                            {
-                                stunt:myFirstStuntName,
-                                desc:myFirstStuntDesc
-                            },
-                            {
-                                stunt:mySecondStuntName,
-                                desc:mySecondStuntDesc
-                            }
-                        ]
-                    }
-                ]
-
-                thePowers = thePower;
-            } else if (props.stunts[6].stunts.find(stunt => stunt.name === myFirstStuntName) && props.stunts[2].stunts.find(stunt => stunt.name === mySecondStuntName)) {
-                let thePower = [
-                    {
-                        power: "Gunplay Stunts",
-                        type: "Other",
-                        stunts:[
-                            {
-                                stunt:myFirstStuntName,
-                                desc:myFirstStuntDesc
-                            }
-                        ]
-                    },
-                    {
-                        power: "Gunsmith Stunts",
-                        type: "Other",
-                        stunts:[
-                            {
-                                stunt:mySecondStuntName,
-                                desc:mySecondStuntDesc
-                            }
-                        ]
+                            power: "Gunplay Stunts",
+                            type: "Other",
+                            stunts:[
+                                {
+                                    stunt:myFirstStuntName,
+                                    desc:myFirstStuntDesc
+                                },
+                                {
+                                    stunt:mySecondStuntName,
+                                    desc:mySecondStuntDesc
+                                }
+                            ]
+                        }
+                    ]
+                    thePowers = thePower;
+                } else if (props.stunts[2].stunts.find(stunt => stunt.name === myFirstStuntName) && props.stunts[2].stunts.find(stunt => stunt.name === mySecondStuntName)) {
                     
-                    }
-                ]
-                thePowers = thePower;
-            } else if (props.stunts[2].stunts.find(stunt => stunt.name === myFirstStuntName) && props.stunts[6].stunts.find(stunt => stunt.name === mySecondStuntName)) {
-                let thePower = [
-                    {
-                        power: "Gunsmith Stunts",
-                        type: "Other",
-                        stunts:[
+                    let thePower = [
                             {
-                                stunt:myFirstStuntName,
-                                desc:myFirstStuntDesc
-                            }
-                        ]
-                    },
-                    {
-                        power: "Gunplay Stunts",
-                        type: "Other",
-                        stunts:[
-                            {
-                                stunt:mySecondStuntName,
-                                desc:mySecondStuntDesc
-                            }
-                        ]
-                    
-                    }
-                ]
-                thePowers = thePower;
-            }
-
-        } else if (myPower == 3) {
-
-            if (props.stunts[6].stunts.find(stunt => stunt.name === myFirstStuntName)) {
-                let thePower = [
-                    {
-                        power: "Gunplay Stunts",
-                        type: "Other",
-                        stunts:[
-                            {
-                                stunt:myFirstStuntName,
-                                desc:myFirstStuntDesc
-                            }
-                        ]
-                    }
-                ]
-                let theTrait = [
-                    {
-                        trait1:myExtra1,
-                        trait2:""
-                    }
-                ]
-                thePowers = thePower;
-                theTraits = theTrait;
-
-            } else if (props.stunts[2].stunts.find(stunt => stunt.name === myFirstStuntName)) {
-                let thePower = [
-                    {
-                        power: "Gunsmith Stunts",
-                        type: "Other",
-                        stunts:[
-                            {
-                                stunt:myFirstStuntName,
-                                desc:myFirstStuntDesc
-                            }
-                        ]
-                    }
-                ]
-                let theTrait = [
-                    {
-                        trait1:myExtra1,
-                        trait2:""
-                    }
-                ]
-                thePowers = thePower;
-                theTraits = theTrait;
-                
-            } 
-
-        } else if (myPower == 4) {
-
-            if (myFirstPower.includes("Allomancy")) {
-                if (myFirstStuntName === "") {
-                    let thePower = {
-                        power: myFirstPower.replace("Allomancy", ""),
-                        type: "Allomancy",
-                        rating:5,
-                        stunts:[]
-                    }
-                    thePowers.push(thePower);
-                } else {
-                    let thePower = {
-                        power: myFirstPower.replace("Allomancy", ""),
-                        type: "Allomancy",
-                        rating:5,
-                        stunts:[
-                            {
-                                stunt:myFirstStuntName,
-                                desc:myFirstStuntDesc
-                            }
-                        ]
-                    }
-                    thePowers.push(thePower);
-                }
-
-            } else if (myFirstPower.includes("Feruchemy")) {
-                if (myFirstStuntName === "") {
-                    let thePower = {
-                        power: myFirstPower.replace("Feruchemy", ""),
-                        type: "Feruchemy",
-                        rating:5,
-                        stunts:[]
-                    }
-                    thePowers.push(thePower);
-                } else {
-                    let thePower = {
-                        power: myFirstPower.replace("Feruchemy", ""),
-                        type: "Feruchemy",
-                        rating:5,
-                        stunts:[
-                            {
-                                stunt:myFirstStuntName,
-                                desc:myFirstStuntDesc
-                            }
-                        ]
-                    }
-                    thePowers.push(thePower);
-                }
-
-            }
-
-        } else if (myPower == 5) {
-
-            if (myFirstPower.includes("Allomancy")) {
-                
-                let thePower = {
-                    power: myFirstPower.replace("Allomancy", ""),
-                    type: "Allomancy",
-                    rating:4,
-                    stunts:[]
-                }
-                thePowers.push(thePower);
-
-            } else if (myFirstPower.includes("Feruchemy")) {
-                
-                let thePower = {
-                    power: myFirstPower.replace("Feruchemy", ""),
-                    type: "Feruchemy",
-                    rating:4,
-                    stunts:[]
-                }
-                thePowers.push(thePower);
-
-            }
-
-            if (mySecondPower.includes("Allomancy")) {
-                
-                let thePower = {
-                    power: mySecondPower.replace("Allomancy", ""),
-                    type: "Allomancy",
-                    rating:4,
-                    stunts:[]
-                }
-                thePowers.push(thePower);
-
-            } else if (mySecondPower.includes("Feruchemy")) {
-                
-                let thePower = {
-                    power: mySecondPower.replace("Feruchemy", ""),
-                    type: "Feruchemy",
-                    rating:4,
-                    stunts:[]
-                }
-                thePowers.push(thePower);
-
-            }
-
-        }
-
-        const character = {
-            name : myName,
-            concept : myConcept,
-            crew : myCrew,
-            cause : myCause,
-            target : myTarget,
-            method : myMethod,
-            race : myRace,
-            gender : myGender,
-            age : myAge,
-            height : myHeight,
-            weight : myWeight,
-            physique : myPhysique,
-            charm : myCharm,
-            wits : myWits,
-            resources : myResources,
-            influence : myInfluence,
-            spirit : mySpirit,
-            traits : {
-                drive : myDrive,
-                profession : myProfession,
-                speciality : mySpeciality,
-                feature : myFeature,
-                personality : myPersonality,
-                extras: theTraits
-            },
-            tragedy : myTragedy,
-            destiny : myDestiny,
-            powers : thePowers,
-        };
-
-        let characters = [];
-        if (myCharacters.length > 0) {
-            characters = characters.concat(myCharacters);
-        }
-
-        characters.push(character);
-
-        // Clear Character Database
-        // localStorage.clear();
-
-        // saving the character information to localStorage
-        localStorage.setItem("characterInfo", JSON.stringify(characters));
+                            power: "Gunsmith Stunts",
+                            type: "Other",
+                            stunts:[
+                                {
+                                    stunt:myFirstStuntName,
+                                    desc:myFirstStuntDesc
+                                },
+                                {
+                                    stunt:mySecondStuntName,
+                                    desc:mySecondStuntDesc
+                                }
+                            ]
+                        }
+                    ]
     
-        console.log("Your character, " + myName + " has been saved");
-        // console.log("This is my character ", character)
-    }
+                    thePowers = thePower;
+                } else if (props.stunts[6].stunts.find(stunt => stunt.name === myFirstStuntName) && props.stunts[2].stunts.find(stunt => stunt.name === mySecondStuntName)) {
+                    let thePower = [
+                        {
+                            power: "Gunplay Stunts",
+                            type: "Other",
+                            stunts:[
+                                {
+                                    stunt:myFirstStuntName,
+                                    desc:myFirstStuntDesc
+                                }
+                            ]
+                        },
+                        {
+                            power: "Gunsmith Stunts",
+                            type: "Other",
+                            stunts:[
+                                {
+                                    stunt:mySecondStuntName,
+                                    desc:mySecondStuntDesc
+                                }
+                            ]
+                        
+                        }
+                    ]
+                    thePowers = thePower;
+                } else if (props.stunts[2].stunts.find(stunt => stunt.name === myFirstStuntName) && props.stunts[6].stunts.find(stunt => stunt.name === mySecondStuntName)) {
+                    let thePower = [
+                        {
+                            power: "Gunsmith Stunts",
+                            type: "Other",
+                            stunts:[
+                                {
+                                    stunt:myFirstStuntName,
+                                    desc:myFirstStuntDesc
+                                }
+                            ]
+                        },
+                        {
+                            power: "Gunplay Stunts",
+                            type: "Other",
+                            stunts:[
+                                {
+                                    stunt:mySecondStuntName,
+                                    desc:mySecondStuntDesc
+                                }
+                            ]
+                        
+                        }
+                    ]
+                    thePowers = thePower;
+                }
+    
+            } else if (myPower == 3) {
+    
+                if (props.stunts[6].stunts.find(stunt => stunt.name === myFirstStuntName)) {
+                    let thePower = [
+                        {
+                            power: "Gunplay Stunts",
+                            type: "Other",
+                            stunts:[
+                                {
+                                    stunt:myFirstStuntName,
+                                    desc:myFirstStuntDesc
+                                }
+                            ]
+                        }
+                    ]
+                    let theTrait = [
+                        {
+                            trait1:myExtra1,
+                            trait2:""
+                        }
+                    ]
+                    thePowers = thePower;
+                    theTraits = theTrait;
+    
+                } else if (props.stunts[2].stunts.find(stunt => stunt.name === myFirstStuntName)) {
+                    let thePower = [
+                        {
+                            power: "Gunsmith Stunts",
+                            type: "Other",
+                            stunts:[
+                                {
+                                    stunt:myFirstStuntName,
+                                    desc:myFirstStuntDesc
+                                }
+                            ]
+                        }
+                    ]
+                    let theTrait = [
+                        {
+                            trait1:myExtra1,
+                            trait2:""
+                        }
+                    ]
+                    thePowers = thePower;
+                    theTraits = theTrait;
+                    
+                } 
+    
+            } else if (myPower == 4) {
+    
+                if (myFirstPower.includes("Allomancy")) {
+                    if (myFirstStuntName === "") {
+                        let thePower = {
+                            power: myFirstPower.replace("Allomancy", ""),
+                            type: "Allomancy",
+                            rating:5,
+                            stunts:[]
+                        }
+                        thePowers.push(thePower);
+                    } else {
+                        let thePower = {
+                            power: myFirstPower.replace("Allomancy", ""),
+                            type: "Allomancy",
+                            rating:5,
+                            stunts:[
+                                {
+                                    stunt:myFirstStuntName,
+                                    desc:myFirstStuntDesc
+                                }
+                            ]
+                        }
+                        thePowers.push(thePower);
+                    }
+    
+                } else if (myFirstPower.includes("Feruchemy")) {
+                    if (myFirstStuntName === "") {
+                        let thePower = {
+                            power: myFirstPower.replace("Feruchemy", ""),
+                            type: "Feruchemy",
+                            rating:5,
+                            stunts:[]
+                        }
+                        thePowers.push(thePower);
+                    } else {
+                        let thePower = {
+                            power: myFirstPower.replace("Feruchemy", ""),
+                            type: "Feruchemy",
+                            rating:5,
+                            stunts:[
+                                {
+                                    stunt:myFirstStuntName,
+                                    desc:myFirstStuntDesc
+                                }
+                            ]
+                        }
+                        thePowers.push(thePower);
+                    }
+    
+                }
+    
+            } else if (myPower == 5) {
+    
+                if (myFirstPower.includes("Allomancy")) {
+                    
+                    let thePower = {
+                        power: myFirstPower.replace("Allomancy", ""),
+                        type: "Allomancy",
+                        rating:4,
+                        stunts:[]
+                    }
+                    thePowers.push(thePower);
+    
+                } else if (myFirstPower.includes("Feruchemy")) {
+                    
+                    let thePower = {
+                        power: myFirstPower.replace("Feruchemy", ""),
+                        type: "Feruchemy",
+                        rating:4,
+                        stunts:[]
+                    }
+                    thePowers.push(thePower);
+    
+                }
+    
+                if (mySecondPower.includes("Allomancy")) {
+                    
+                    let thePower = {
+                        power: mySecondPower.replace("Allomancy", ""),
+                        type: "Allomancy",
+                        rating:4,
+                        stunts:[]
+                    }
+                    thePowers.push(thePower);
+    
+                } else if (mySecondPower.includes("Feruchemy")) {
+                    
+                    let thePower = {
+                        power: mySecondPower.replace("Feruchemy", ""),
+                        type: "Feruchemy",
+                        rating:4,
+                        stunts:[]
+                    }
+                    thePowers.push(thePower);
+    
+                }
+    
+            }
+    
+            const character = {
+                name : myName,
+                concept : myConcept,
+                crew : myCrew,
+                cause : myCause,
+                target : myTarget,
+                method : myMethod,
+                race : myRace,
+                gender : myGender,
+                age : myAge,
+                height : myHeight,
+                weight : myWeight,
+                physique : myPhysique,
+                charm : myCharm,
+                wits : myWits,
+                resources : myResources,
+                influence : myInfluence,
+                spirit : mySpirit,
+                traits : {
+                    drive : myDrive,
+                    profession : myProfession,
+                    speciality : mySpeciality,
+                    feature : myFeature,
+                    personality : myPersonality,
+                    extras: theTraits
+                },
+                tragedy : myTragedy,
+                destiny : myDestiny,
+                powers : thePowers,
+            };
+    
+            let characters = [];
+            if (myCharacters.length > 0) {
+                characters = characters.concat(myCharacters);
+            }
+    
+            characters.push(character);
+    
+            // Clear Character Database
+            // localStorage.clear();
+    
+            // saving the character information to localStorage
+            localStorage.setItem("characterInfo", JSON.stringify(characters));
+        
+            console.log("Your character, " + myName + " has been saved");
+            // console.log("This is my character ", character)
+
+        } 
+
+    };
 
     return (
         < >
@@ -745,7 +793,7 @@ function Maker(props) {
                     <div>
                         <h3 style={{color:'black', marginBottom:'0px' }}>Attributes</h3>
                         <h4 style={{color:'black', background:"transparent", margin:'0px' }}>Split 9 points between Attributes. No Attribute may exceed 4</h4>
-                        <FormControl variant="standard" sx={{ m: 0.5, marginTop: 0, minWidth: 120 }}>
+                        <FormControl variant="standard" sx={{ m: 0.5, marginTop: 0, minWidth: 120 }} error={myPhysique + myCharm + myWits > 9} >
                             <InputLabel id="demo-simple-select-label">Physique</InputLabel>
                             <Select labelId="demo-simple-select-label" id="demo-simple-select" value={myPhysique} onChange={handlePhysique}>
                                 <MenuItem value={2}>2</MenuItem>
@@ -755,7 +803,7 @@ function Maker(props) {
                                 <MenuItem disabled id="outlined-disabled" label="Disabled" value={6}>6</MenuItem>
                             </Select>
                         </FormControl>
-                        <FormControl variant="standard" sx={{ m: 0.5, marginTop: 0, minWidth: 120 }}>
+                        <FormControl variant="standard" sx={{ m: 0.5, marginTop: 0, minWidth: 120 }} error={myPhysique + myCharm + myWits > 9} >
                         <InputLabel id="demo-simple-select-label">Charm</InputLabel>
                             <Select labelId="demo-simple-select-label" id="demo-simple-select" value={myCharm} onChange={handleCharm}>
                                 <MenuItem value={2}>2</MenuItem>
@@ -765,7 +813,7 @@ function Maker(props) {
                                 <MenuItem disabled id="outlined-disabled" label="Disabled" value={6}>6</MenuItem>
                             </Select>
                         </FormControl>
-                        <FormControl variant="standard" sx={{ m: 0.5, marginTop: 0, minWidth: 120 }}>
+                        <FormControl variant="standard" sx={{ m: 0.5, marginTop: 0, minWidth: 120 }} error={myPhysique + myCharm + myWits > 9} >
                         <InputLabel id="demo-simple-select-label">Wits</InputLabel>
                             <Select labelId="demo-simple-select-label" id="demo-simple-select" value={myWits} onChange={handleWits}>
                                 <MenuItem value={2}>2</MenuItem>
@@ -775,6 +823,12 @@ function Maker(props) {
                                 <MenuItem disabled id="outlined-disabled" label="Disabled" value={6}>6</MenuItem>
                             </Select>
                         </FormControl>
+                        <Collapse in={myPhysique + myCharm + myWits > 9}>
+                            <Alert variant="filled" severity='error'>You can only spend 9 points total on your attributes</Alert>
+                        </Collapse>
+                        <Collapse in={myNotAtt === true}>
+                            <Alert variant="filled" severity='warning'>You have unspent points</Alert>
+                        </Collapse>
                     </div>
                 }
                 {myAttribute === 2 && 
@@ -782,7 +836,7 @@ function Maker(props) {
                     <div>
                         <h3 style={{color:'black', marginBottom:'0px' }}>Attributes</h3>
                         <h4 style={{color:'black', background:"transparent", margin:'0px' }}>Split 11 points between Attributes. No Attribute may exceed 5</h4>
-                        <FormControl variant="standard" sx={{ m: 0.5, marginTop: 0, minWidth: 120 }}>
+                        <FormControl variant="standard" sx={{ m: 0.5, marginTop: 0, minWidth: 120 }} error={myPhysique + myCharm + myWits > 11}>
                             <InputLabel id="demo-simple-select-label">Physique</InputLabel>
                             <Select labelId="demo-simple-select-label" id="demo-simple-select" value={myPhysique} onChange={handlePhysique}>
                                 <MenuItem value={2}>2</MenuItem>
@@ -792,7 +846,7 @@ function Maker(props) {
                                 <MenuItem disabled id="outlined-disabled" label="Disabled" value={6}>6</MenuItem>
                             </Select>
                         </FormControl>
-                        <FormControl variant="standard" sx={{ m: 0.5, marginTop: 0, minWidth: 120 }}>
+                        <FormControl variant="standard" sx={{ m: 0.5, marginTop: 0, minWidth: 120 }} error={myPhysique + myCharm + myWits > 11}>
                         <InputLabel id="demo-simple-select-label">Charm</InputLabel>
                             <Select labelId="demo-simple-select-label" id="demo-simple-select" value={myCharm} onChange={handleCharm}>
                                 <MenuItem value={2}>2</MenuItem>
@@ -802,7 +856,7 @@ function Maker(props) {
                                 <MenuItem disabled id="outlined-disabled" label="Disabled" value={6}>6</MenuItem>
                             </Select>
                         </FormControl>
-                        <FormControl variant="standard" sx={{ m: 0.5, marginTop: 0, minWidth: 120 }}>
+                        <FormControl variant="standard" sx={{ m: 0.5, marginTop: 0, minWidth: 120 }} error={myPhysique + myCharm + myWits > 11}>
                         <InputLabel id="demo-simple-select-label">Wits</InputLabel>
                             <Select labelId="demo-simple-select-label" id="demo-simple-select" value={myWits} onChange={handleWits}>
                                 <MenuItem value={2}>2</MenuItem>
@@ -812,6 +866,12 @@ function Maker(props) {
                                 <MenuItem disabled id="outlined-disabled" label="Disabled" value={6}>6</MenuItem>
                             </Select>
                         </FormControl>
+                        <Collapse in={myPhysique + myCharm + myWits > 11}>
+                            <Alert variant="filled" severity='error'>You can only spend 11 points total on your attributes</Alert>
+                        </Collapse>
+                        <Collapse in={myNotAtt === true}>
+                            <Alert variant="filled" severity='warning'>You have unspent points</Alert>
+                        </Collapse>
                     </div>
                 }
                 {myAttribute === 3 && 
@@ -819,7 +879,7 @@ function Maker(props) {
                     <div>
                         <h3 style={{color:'black', marginBottom:'0px' }}>Attributes</h3>
                         <h4 style={{color:'black', background:"transparent", margin:'0px' }}>Split 13 points between Attributes. No Attribute may exceed 6</h4>
-                        <FormControl variant="standard" sx={{ m: 0.5, marginTop: 0, minWidth: 120 }}>
+                        <FormControl variant="standard" sx={{ m: 0.5, marginTop: 0, minWidth: 120 }} error={myPhysique + myCharm + myWits > 13}>
                             <InputLabel id="demo-simple-select-label">Physique</InputLabel>
                             <Select labelId="demo-simple-select-label" id="demo-simple-select" value={myPhysique} onChange={handlePhysique}>
                                 <MenuItem value={2}>2</MenuItem>
@@ -829,7 +889,7 @@ function Maker(props) {
                                 <MenuItem value={6}>6</MenuItem>
                             </Select>
                         </FormControl>
-                        <FormControl variant="standard" sx={{ m: 0.5, marginTop: 0, minWidth: 120 }}>
+                        <FormControl variant="standard" sx={{ m: 0.5, marginTop: 0, minWidth: 120 }} error={myPhysique + myCharm + myWits > 13}>
                         <InputLabel id="demo-simple-select-label">Charm</InputLabel>
                             <Select labelId="demo-simple-select-label" id="demo-simple-select" value={myCharm} onChange={handleCharm}>
                                 <MenuItem value={2}>2</MenuItem>
@@ -839,7 +899,7 @@ function Maker(props) {
                                 <MenuItem value={6}>6</MenuItem>
                             </Select>
                         </FormControl>
-                        <FormControl variant="standard" sx={{ m: 0.5, marginTop: 0, minWidth: 120 }}>
+                        <FormControl variant="standard" sx={{ m: 0.5, marginTop: 0, minWidth: 120 }} error={myPhysique + myCharm + myWits > 13}>
                         <InputLabel id="demo-simple-select-label">Wits</InputLabel>
                             <Select labelId="demo-simple-select-label" id="demo-simple-select" value={myWits} onChange={handleWits}>
                                 <MenuItem value={2}>2</MenuItem>
@@ -849,14 +909,20 @@ function Maker(props) {
                                 <MenuItem value={6}>6</MenuItem>
                             </Select>
                         </FormControl>
+                        <Collapse in={myPhysique + myCharm + myWits > 13}>
+                            <Alert variant="filled" severity='error'>You can only spend 13 points total on your attributes</Alert>
+                        </Collapse>
+                        <Collapse in={myNotAtt === true}>
+                            <Alert variant="filled" severity='warning'>You have unspent points</Alert>
+                        </Collapse>
                     </div>
                 }
                 {myStand === 1 && 
                     // Weak Attributes
                     <div>
                         <h3 style={{color:'black', marginBottom:'0px' }}>Standings</h3>
-                        <h4 style={{color:'black', background:"transparent", margin:'0px' }}>Split 9 points between Attributes. No Attribute may exceed 4</h4>
-                        <FormControl variant="standard" sx={{ m: 0.5, marginTop: 0, minWidth: 120 }}>
+                        <h4 style={{color:'black', background:"transparent", margin:'0px' }}>Split 9 points between Standings. No Standing may exceed 4</h4>
+                        <FormControl variant="standard" sx={{ m: 0.5, marginTop: 0, minWidth: 120 }} error={myResources + myInfluence + mySpirit > 9}>
                             <InputLabel id="demo-simple-select-label">Resources</InputLabel>
                             <Select labelId="demo-simple-select-label" id="demo-simple-select" value={myResources} onChange={handleResources}>
                                 <MenuItem value={2}>2</MenuItem>
@@ -868,7 +934,7 @@ function Maker(props) {
                                 <MenuItem disabled id="outlined-disabled" label="Disabled" value={8}>8</MenuItem>
                             </Select>
                         </FormControl>
-                        <FormControl variant="standard" sx={{ m: 0.5, marginTop: 0, minWidth: 120 }}>
+                        <FormControl variant="standard" sx={{ m: 0.5, marginTop: 0, minWidth: 120 }} error={myResources + myInfluence + mySpirit > 9}>
                         <InputLabel id="demo-simple-select-label">Influence</InputLabel>
                             <Select labelId="demo-simple-select-label" id="demo-simple-select" value={myInfluence} onChange={handleInfluence}>
                                 <MenuItem value={2}>2</MenuItem>
@@ -880,7 +946,7 @@ function Maker(props) {
                                 <MenuItem disabled id="outlined-disabled" label="Disabled" value={8}>8</MenuItem>
                             </Select>
                         </FormControl>
-                        <FormControl variant="standard" sx={{ m: 0.5, marginTop: 0, minWidth: 120 }}>
+                        <FormControl variant="standard" sx={{ m: 0.5, marginTop: 0, minWidth: 120 }} error={myResources + myInfluence + mySpirit > 9}>
                         <InputLabel id="demo-simple-select-label">Spirit</InputLabel>
                             <Select labelId="demo-simple-select-label" id="demo-simple-select" value={mySpirit} onChange={handleSpirit}>
                                 <MenuItem value={2}>2</MenuItem>
@@ -892,14 +958,20 @@ function Maker(props) {
                                 <MenuItem disabled id="outlined-disabled" label="Disabled" value={8}>8</MenuItem>
                             </Select>
                         </FormControl>
+                        <Collapse in={myResources + myInfluence + mySpirit > 9}>
+                            <Alert variant="filled" severity='error'>You can only spend 9 points total on your Standings</Alert>
+                        </Collapse>
+                        <Collapse in={myNotStand === true}>
+                            <Alert variant="filled" severity='warning'>You have unspent points</Alert>
+                        </Collapse>
                     </div>
                 }
                 {myStand === 2 && 
                     // Average Attributes
                     <div>
                         <h3 style={{color:'black', marginBottom:'0px' }}>Standings</h3>
-                        <h4 style={{color:'black', background:"transparent", margin:'0px' }}>Split 11 points between Attributes. No Attribute may exceed 6</h4>
-                        <FormControl variant="standard" sx={{ m: 0.5, marginTop: 0, minWidth: 120 }}>
+                        <h4 style={{color:'black', background:"transparent", margin:'0px' }}>Split 11 points between Standings. No Standing may exceed 6</h4>
+                        <FormControl variant="standard" sx={{ m: 0.5, marginTop: 0, minWidth: 120 }} error={myResources + myInfluence + mySpirit > 11}>
                             <InputLabel id="demo-simple-select-label">Resources</InputLabel>
                             <Select labelId="demo-simple-select-label" id="demo-simple-select" value={myResources} onChange={handleResources}>
                                 <MenuItem value={2}>2</MenuItem>
@@ -911,7 +983,7 @@ function Maker(props) {
                                 <MenuItem disabled id="outlined-disabled" label="Disabled" value={8}>8</MenuItem>
                             </Select>
                         </FormControl>
-                        <FormControl variant="standard" sx={{ m: 0.5, marginTop: 0, minWidth: 120 }}>
+                        <FormControl variant="standard" sx={{ m: 0.5, marginTop: 0, minWidth: 120 }} error={myResources + myInfluence + mySpirit > 11}>
                         <InputLabel id="demo-simple-select-label">Influence</InputLabel>
                             <Select labelId="demo-simple-select-label" id="demo-simple-select" value={myInfluence} onChange={handleInfluence}>
                                 <MenuItem value={2}>2</MenuItem>
@@ -923,7 +995,7 @@ function Maker(props) {
                                 <MenuItem disabled id="outlined-disabled" label="Disabled" value={8}>8</MenuItem>
                             </Select>
                         </FormControl>
-                        <FormControl variant="standard" sx={{ m: 0.5, marginTop: 0, minWidth: 120 }}>
+                        <FormControl variant="standard" sx={{ m: 0.5, marginTop: 0, minWidth: 120 }} error={myResources + myInfluence + mySpirit > 11}>
                         <InputLabel id="demo-simple-select-label">Spirit</InputLabel>
                             <Select labelId="demo-simple-select-label" id="demo-simple-select" value={mySpirit} onChange={handleSpirit}>
                                 <MenuItem value={2}>2</MenuItem>
@@ -935,14 +1007,20 @@ function Maker(props) {
                                 <MenuItem disabled id="outlined-disabled" label="Disabled" value={8}>8</MenuItem>
                             </Select>
                         </FormControl>
+                        <Collapse in={myResources + myInfluence + mySpirit > 11}>
+                            <Alert variant="filled" severity='error'>You can only spend 11 points total on your Standings</Alert>
+                        </Collapse>
+                        <Collapse in={myNotStand === true}>
+                            <Alert variant="filled" severity='warning'>You have unspent points</Alert>
+                        </Collapse>
                     </div>
                 }
                 {myStand === 3 && 
                     // Strong Attributes
                     <div>
                         <h3 style={{color:'black', marginBottom:'0px' }}>Standings</h3>
-                        <h4 style={{color:'black', background:"transparent", margin:'0px' }}>Split 13 points between Attributes. No Attribute may exceed 8</h4>
-                        <FormControl variant="standard" sx={{ m: 0.5, marginTop: 0, minWidth: 120 }}>
+                        <h4 style={{color:'black', background:"transparent", margin:'0px' }}>Split 13 points between Standings. No Standing may exceed 8</h4>
+                        <FormControl variant="standard" sx={{ m: 0.5, marginTop: 0, minWidth: 120 }} error={myResources + myInfluence + mySpirit > 13}>
                             <InputLabel id="demo-simple-select-label">Resources</InputLabel>
                             <Select labelId="demo-simple-select-label" id="demo-simple-select" value={myResources} onChange={handleResources}>
                                 <MenuItem value={2}>2</MenuItem>
@@ -954,7 +1032,7 @@ function Maker(props) {
                                 <MenuItem value={8}>8</MenuItem>
                             </Select>
                         </FormControl>
-                        <FormControl variant="standard" sx={{ m: 0.5, marginTop: 0, minWidth: 120 }}>
+                        <FormControl variant="standard" sx={{ m: 0.5, marginTop: 0, minWidth: 120 }} error={myResources + myInfluence + mySpirit > 13}>
                         <InputLabel id="demo-simple-select-label">Influence</InputLabel>
                             <Select labelId="demo-simple-select-label" id="demo-simple-select" value={myInfluence} onChange={handleInfluence}>
                                 <MenuItem value={2}>2</MenuItem>
@@ -966,7 +1044,7 @@ function Maker(props) {
                                 <MenuItem value={8}>8</MenuItem>
                             </Select>
                         </FormControl>
-                        <FormControl variant="standard" sx={{ m: 0.5, marginTop: 0, minWidth: 120 }}>
+                        <FormControl variant="standard" sx={{ m: 0.5, marginTop: 0, minWidth: 120 }} error={myResources + myInfluence + mySpirit > 13}>
                         <InputLabel id="demo-simple-select-label">Spirit</InputLabel>
                             <Select labelId="demo-simple-select-label" id="demo-simple-select" value={mySpirit} onChange={handleSpirit}>
                                 <MenuItem value={2}>2</MenuItem>
@@ -978,6 +1056,12 @@ function Maker(props) {
                                 <MenuItem value={8}>8</MenuItem>
                             </Select>
                         </FormControl>
+                        <Collapse in={myResources + myInfluence + mySpirit > 13}>
+                            <Alert variant="filled" severity='error'>You can only spend 13 points total on your Standings</Alert>
+                        </Collapse>
+                        <Collapse in={myNotStand === true}>
+                            <Alert variant="filled" severity='warning'>You have unspent points</Alert>
+                        </Collapse>
                     </div>
                 }
             </div>
@@ -1198,6 +1282,9 @@ function Maker(props) {
             </div>
             <div>
                 <br/>
+                <Collapse in={myError === true}>
+                    <Alert variant="filled" severity='error'>Please Review Your Entries for any Errors</Alert>
+                </Collapse>
                 <button id='unselected' onClick={saveCharacter}>Save Character</button>
             </div>
         </div>
