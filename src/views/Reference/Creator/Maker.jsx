@@ -631,7 +631,7 @@ function Maker(props) {
             characters.push(character);
     
             // Clear Character Database
-            localStorage.clear();
+            // localStorage.clear();
     
             // saving the character information to localStorage
             localStorage.setItem("characterInfo", JSON.stringify(characters));
