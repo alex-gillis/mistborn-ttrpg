@@ -4,7 +4,7 @@ function Character(props) {
         < >
         <div id="character">
             <div className="wiggleRoom">
-                <span id="bold">Character Name:</span> <span id="italicked">{props.rogue.name === "" ? ( "Unknown" ) : ( props.rogue.name )}</span>
+                <span id="bold">Name:</span> <span id="italicked">{props.rogue.name === "" ? ( "Unknown" ) : ( props.rogue.name )}</span>
                 <span id="bold" className="concept">Concept:</span> <span id="italicked">{props.rogue.concept === "" ? ( "Unknown" ) : ( props.rogue.concept )}</span>
             </div>
             <div className="wiggleRoom" id="necessary">
