@@ -1,72 +1,74 @@
 /* eslint-disable react/prop-types */
 import { useState } from 'react';
 import { Select, FormControl, TextField, InputLabel, MenuItem, ListSubheader, Alert, Collapse } from '@mui/material';
-function Maker(props) {
+function Editor(props) {
     // Complete Stunt Array
     const [theStunts] = useState(props.stunts[0].stunts.concat(props.stunts[1].stunts)
                                 .concat(props.stunts[2].stunts));
 
     const [myCharacters] = useState(props.characters);
+    const [myIndex] = useState(props.index);
+    const [myFile] = useState(myCharacters[myIndex])
 
     // Character Information
-    const [myName, setName] = useState("");
+    const [myName, setName] = useState(myFile.name);
     const handleName = (event) => { setName(event.target.value); };
-    const [myConcept, setConcept] = useState("");
+    const [myConcept, setConcept] = useState(myFile.concept);
     const handleConcept = (event) => { setConcept(event.target.value); };
-    const [myCrew, setCrew] = useState("");
+    const [myCrew, setCrew] = useState(myFile.crew);
     const handleCrew = (event) => { setCrew(event.target.value); };
-    const [myCause, setCause] = useState("");
+    const [myCause, setCause] = useState(myFile.cause);
     const handleCause = (event) => { setCause(event.target.value); };
-    const [myTarget, setTarget] = useState("");
+    const [myTarget, setTarget] = useState(myFile.target);
     const handleTarget = (event) => { setTarget(event.target.value); };
-    const [myMethod, setMethod] = useState("");
+    const [myMethod, setMethod] = useState(myFile.method);
     const handleMethod = (event) => { setMethod(event.target.value); };
-    const [myRace, setRace] = useState("");
+    const [myRace, setRace] = useState(myFile.race);
     const handleRace = (event) => { setRace(event.target.value); };
-    const [myGender, setGender] = useState("");
+    const [myGender, setGender] = useState(myFile.gender);
     const handleGender = (event) => { setGender(event.target.value); };
-    const [myAge, setAge] = useState("");
+    const [myAge, setAge] = useState(myFile.age);
     const handleAge = (event) => { setAge(event.target.value); };
-    const [myHeight, setHeight] = useState("");
+    const [myHeight, setHeight] = useState(myFile.height);
     const handleHeight = (event) => { setHeight(event.target.value); };
-    const [myWeight, setWeight] = useState("");
+    const [myWeight, setWeight] = useState(myFile.weight);
     const handleWeight = (event) => { setWeight(event.target.value); };
-    const [myDrive, setDrive] = useState("");
+    const [myDrive, setDrive] = useState(myFile.traits.drive);
     const handleDrive = (event) => { setDrive(event.target.value); };
-    const [myProfession, setProfession] = useState("");
+    const [myProfession, setProfession] = useState(myFile.traits.profession);
     const handleProfession = (event) => { setProfession(event.target.value); };
-    const [mySpeciality, setSpeciality] = useState("");
+    const [mySpeciality, setSpeciality] = useState(myFile.traits.speciality);
     const handleSpeciality = (event) => { setSpeciality(event.target.value); };
-    const [myFeature, setFeature] = useState("");
+    const [myFeature, setFeature] = useState(myFile.traits.feature);
     const handleFeature = (event) => { setFeature(event.target.value); };
-    const [myPersonality, setPersonality] = useState("");
+    const [myPersonality, setPersonality] = useState(myFile.traits.personality);
     const handlePersonality = (event) => { setPersonality(event.target.value); };
-    const [myTragedy, setTragedy] = useState("");
+    const [myTragedy, setTragedy] = useState(myFile.tragedy);
     const handleTragedy = (event) => { setTragedy(event.target.value); };
-    const [myDestiny, setDestiny] = useState("");
+    const [myDestiny, setDestiny] = useState(myFile.destiny);
     const handleDestiny = (event) => { setDestiny(event.target.value); };
     // Powers Weak Extra Traits
-    const [myExtra1, setExtra1] = useState("");
+    const [myExtra1, setExtra1] = useState(myFile.traits.extras[0].trait1);
     const handleExtra1 = (event) => { setExtra1(event.target.value); };
-    const [myExtra2, setExtra2] = useState("");
+    const [myExtra2, setExtra2] = useState(myFile.traits.extras[0].trait1);
     const handleExtra2 = (event) => { setExtra2(event.target.value); };
     // Powers
-    const [myFirstPower, setFirstPower] = useState("");
+    const [myFirstPower, setFirstPower] = useState(myFile);
     const handleFirstPower = (event) => { setFirstPower(event.target.value); setFirstStuntName("") };
-    const [myFirstStuntName, setFirstStuntName] = useState("");
+    const [myFirstStuntName, setFirstStuntName] = useState(myFile);
     const handleFirstStunt = (event) => { let value = event.target.value; setFirstStunt(value); };
-    const [myFirstStuntDesc, setFirstStuntDesc] = useState("");
-    const [mySecondPower, setSecondPower] = useState("");
+    const [myFirstStuntDesc, setFirstStuntDesc] = useState(myFile);
+    const [mySecondPower, setSecondPower] = useState(myFile);
     const handleSecondPower = (event) => { setSecondPower(event.target.value); setSecondStuntName(""); };
-    const [mySecondStuntName, setSecondStuntName] = useState("");
+    const [mySecondStuntName, setSecondStuntName] = useState(myFile);
     const handleSecondStunt = (event) => { let value = event.target.value; setSecondStunt(value); };
-    const [mySecondStuntDesc, setSecondStuntDesc] = useState("");
+    const [mySecondStuntDesc, setSecondStuntDesc] = useState(myFile);
     // Statistics
-    const [myAttribute, setAttribute] = useState("");
+    const [myAttribute, setAttribute] = useState(myFile);
     const handleAttribute = (event) => { setAttribute(event.target.value); };
-    const [myStand, setStand] = useState("");
+    const [myStand, setStand] = useState(myFile);
     const handleStand = (event) => { setStand(event.target.value); };
-    const [myPower, setPower] = useState("");
+    const [myPower, setPower] = useState(myFile);
     const handlePower = (event) => { setPower(event.target.value); setFirstStuntName(""); setSecondStuntName(""); setFirstPower(""); setSecondPower(""); };
     // Attributes
     const [myPhysique, setPhysique] = useState(2);
@@ -647,6 +649,8 @@ function Maker(props) {
         } 
 
     };
+
+    // function loadCharacter(){}
 
     return (
         < >
@@ -1321,4 +1325,4 @@ function Maker(props) {
     )
 }
 
-export default Maker
+export default Editor
