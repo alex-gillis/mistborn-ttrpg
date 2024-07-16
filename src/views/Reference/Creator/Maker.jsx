@@ -88,6 +88,10 @@ function Maker(props) {
     const [myNotAtt, setNotAtt] = useState(false);
     const [myNotStand, setNotStand] = useState(false);
 
+    const handleRefresh = () => {
+        props.refreshData();
+    };
+
     const containsPower = (power, metal) => {
         if (power === metal + "Allomancy") {
             return 0;
@@ -291,7 +295,7 @@ function Maker(props) {
     function errorCheck() {
         // True = No Errors || False = Somewhere on the sheet there is an error
 
-        if (myName === "") { setName("Unknown"); }
+        // if (myName === "") { setName("Unknown"); }
 
         // Error Checking for Attributes
         if (myAttribute === 1 && myPhysique + myCharm + myWits > 9) {
@@ -629,11 +633,14 @@ function Maker(props) {
             };
     
             let characters = [];
-            if (myCharacters === 0) {
-                characters = characters.concat(myCharacters);
+            if (Array.isArray(myCharacters)) {
+                characters = myCharacters;
+                console.log("This is my full list of characters ", characters)
             }
     
             characters.push(character);
+
+            handleRefresh();
     
             // Clear Character Database
             // localStorage.clear();
@@ -641,8 +648,9 @@ function Maker(props) {
             // saving the character information to localStorage
             localStorage.setItem("characterInfo", JSON.stringify(characters));
         
-            console.log("Your character, " + myName + " has been saved");
-            console.log("This is my character ", character)
+            // console.log("Your character, " + myName + " has been saved");
+            // console.log("This is my character ", character)
+            // console.log("This is my full list of characters ", characters)
 
         } 
 

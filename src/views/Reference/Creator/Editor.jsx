@@ -293,7 +293,7 @@ function Editor(props) {
     function errorCheck() {
         // True = No Errors || False = Somewhere on the sheet there is an error
 
-        if (myName === "") { setName("Unknown"); }
+        // if (myName === "") { setName("Unknown"); }
 
         // Error Checking for Attributes
         if (myAttribute === 1 && myPhysique + myCharm + myWits > 9) {
@@ -631,8 +631,8 @@ function Editor(props) {
             };
     
             let characters = [];
-            if (myCharacters === 0) {
-                characters = characters.concat(myCharacters);
+            if (Array.isArray(myCharacters)) {
+                characters = myCharacters;
             }
     
             characters.push(character);
