@@ -297,55 +297,83 @@ function Maker(props) {
 
         // if (myName === "") { setName("Unknown"); }
 
-        // Error Checking for Attributes
-        if (myAttribute === 1 && myPhysique + myCharm + myWits > 9) {
-            setError(true);
-        } else if (myAttribute === 2 && myPhysique + myCharm + myWits > 11) {
-            setError(true);
-        } else if (myAttribute === 3 && myPhysique + myCharm + myWits > 13) {
-            setError(true);
-        } else {
-            setError(false)
-        }
+        let check;
 
-        if (myStand === 1 && myResources + myInfluence + mySpirit > 9) {
-            setError(true);
-        } else if (myStand === 2 && myResources + myInfluence + mySpirit > 11) {
-            setError(true);
-        } else if (myStand === 3 && myResources + myInfluence + mySpirit > 13) {
-            setError(true);
-        } else {
-            setError(false)
-        }
-        
+        // Error Checking for Attributes
         if (myAttribute === 1 && myPhysique + myCharm + myWits < 9) {
-            setNotAtt(true);
+            setError(true);
+            check = true;
         } else if (myAttribute === 2 && myPhysique + myCharm + myWits < 11) {
-            setNotAtt(true);
+            setError(true);
+            check = true;
         } else if (myAttribute === 3 && myPhysique + myCharm + myWits < 13) {
-            setNotAtt(true);
+            setError(true);
+            check = true;
         } else {
-            setNotAtt(false)
+            setError(false);
+            check = false;
         }
 
         if (myStand === 1 && myResources + myInfluence + mySpirit < 9) {
-            setNotStand(true);
+            setError(true);
+            check = true;
         } else if (myStand === 2 && myResources + myInfluence + mySpirit < 11) {
-            setNotStand(true);
+            setError(true);
+            check = true;
         } else if (myStand === 3 && myResources + myInfluence + mySpirit < 13) {
-            setNotStand(true);
+            setError(true);
+            check = true;
         } else {
-            setNotStand(false)
+            setError(false);
+            check = false;
         }
+        
+        if (myAttribute === 1 && myPhysique + myCharm + myWits > 9) {
+            setNotAtt(true);
+            check = true;
+        } else if (myAttribute === 2 && myPhysique + myCharm + myWits > 11) {
+            setNotAtt(true);
+            check = true;
+        } else if (myAttribute === 3 && myPhysique + myCharm + myWits > 13) {
+            setNotAtt(true);
+            check = true;
+        } else {
+            setNotAtt(false);
+            check = false;
+        }
+
+        if (myStand === 1 && myResources + myInfluence + mySpirit > 9) {
+            setNotStand(true);
+            check = true;
+        } else if (myStand === 2 && myResources + myInfluence + mySpirit > 11) {
+            setNotStand(true);
+            check = true;
+        } else if (myStand === 3 && myResources + myInfluence + mySpirit > 13) {
+            setNotStand(true);
+            check = true;
+        } else {
+            setNotStand(false);
+            check = false;
+        }
+
+        if (myAttribute === "") {
+            check = true;
+        } else if (myStand === "") {
+            check = true;
+        } else if (myPower === "") {
+            check = true;
+        }
+
+        return(check);
     };
     
     function saveCharacter() { 
-        errorCheck();
 
+        let check = errorCheck();
         let thePowers = [];
         let theTraits = [];
 
-        if (myError === false && myNotAtt === false && myNotStand === false) {
+        if (check == false) {
 
             if (myPower == 1) {
                 let theTrait = [
@@ -633,6 +661,7 @@ function Maker(props) {
             };
     
             let characters = [];
+            
             if (Array.isArray(myCharacters)) {
                 characters = myCharacters;
                 console.log("This is my full list of characters ", characters)
@@ -1322,7 +1351,7 @@ function Maker(props) {
                 <Collapse in={myError === true}>
                     <Alert variant="filled" severity='error'>Please Review Your Entries for any Errors</Alert>
                 </Collapse>
-                <button id='unselected' onClick={saveCharacter}>Save Character</button>
+                <button className='unselected' onClick={saveCharacter}>Save Character</button>
             </div>
         </div>
         </>

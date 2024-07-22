@@ -2,6 +2,7 @@
 /* eslint-disable react/prop-types */
 import { useState, useEffect } from 'react';
 import Maker from "./Creator/Maker";
+import Editor from "./Creator/Editor";
 import Character from "./Creator/Character";
 
 function Creator(props) {
@@ -9,21 +10,26 @@ function Creator(props) {
     const [myCharacter, setCharacter] = useState(null);
     const [myView, setView] = useState(true);
     const [myInfo, setInfo] = useState(-1);
+    const [myEdit, setEdit] = useState(false);
 
     function switchView(option) {
       if (option === 1) {
         // Creating Characters
         setInfo(-1);
         setView(true);
+        setEdit(false);
       } else if (option === 2) {
         // Viewing Characters
         setView(false);
+        setEdit(false);
       }
     }
 
     function changeSample(desiredSample) {
       switchView(2);
       setInfo(desiredSample);
+      setCharacter(myCharacters[desiredSample])
+      setEdit(false);
     }
 
     // Function to fetch character data from localStorage
@@ -43,16 +49,6 @@ function Creator(props) {
         getCharacterData(); 
     }, []); 
 
-    const refreshData = () => {
-      getCharacterData();
-      if (myCharacter === null) {
-        switchView(1)
-      } else {
-        switchView(2)
-        setInfo(0)
-      }
-    }
-
     const deleteCharacter = (index) => {
         const updatedCharacters = [...myCharacters];
         if (index >= 0 && index < updatedCharacters.length) {
@@ -60,7 +56,7 @@ function Creator(props) {
             setCharacters(updatedCharacters);
             localStorage.setItem("characterInfo", JSON.stringify(updatedCharacters));
             setCharacter(updatedCharacters.length > 0 ? updatedCharacters[0] : null);
-            setInfo(-1);
+            switchView(1);
         }
     };
 
@@ -98,8 +94,18 @@ function Creator(props) {
                         <span>
                           {myCharacter ? (
                               <span>
-                                <Character rogue={myCharacter} />
-                                <button onClick={() => deleteCharacter(myInfo)}>Delete Character</button> 
+                                {myEdit ? (
+                                  <span>
+                                    <Editor metals={props.metals} stunts={props.stunts} characters={myCharacters} refreshData={getCharacterData} index={myInfo} />
+                                  </span>
+                                ) : (
+                                  <span>
+                                    <Character rogue={myCharacter} />
+                                    <button className='selected' style={{width:"120px", backgroundColor:"goldenrod", color:"black", marginLeft:"15px"}} onClick={() => setEdit(!myEdit)}>Edit</button> 
+                                    <button className='selected' style={{width:"120px", backgroundColor:"red", color:"black", marginLeft:"15px"}} onClick={() => deleteCharacter(myInfo)}>Delete</button> 
+                                    <br/><br/>
+                                  </span>
+                                )}
                               </span>
                           ) : (
                               <span>No character selected.</span>

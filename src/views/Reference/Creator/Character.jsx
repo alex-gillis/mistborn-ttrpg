@@ -8,7 +8,7 @@ function Character(props) {
                 <span id="bold" className="concept">Concept:</span> <span id="italicked">{props.rogue.concept === "" ? ( "Unknown" ) : ( props.rogue.concept )}</span>
             </div>
             <div className="wiggleRoom" id="necessary">
-                    <span id="bold">Crew Name:</span> <span id="italicked">{props.rogue.crew}</span><span id="bold" className="concept">Cause:</span> <span id="italicked">{props.rogue.cause === "" ? ( "Unknown" ) : ( props.rogue.cause )}</span>
+                    <span id="bold">Crew Name:</span> <span id="italicked">{props.rogue.crew === "" ? ( "Unknown" ) : ( props.rogue.crew )}</span><span id="bold" className="concept">Cause:</span> <span id="italicked">{props.rogue.cause === "" ? ( "Unknown" ) : ( props.rogue.cause )}</span>
                     <br/>
                     <span id="bold" className="concept">Target:</span> <span id="italicked">{props.rogue.target === "" ? ( "Unknown" ) : ( props.rogue.target )}</span><span id="bold" className="concept">Method:</span> <span id="italicked">{props.rogue.method === "" ? ( "Unknown" ) : ( props.rogue.method )}</span>
             </div>

@@ -11,64 +11,64 @@ function Editor(props) {
     const [myFile] = useState(myCharacters[myIndex])
 
     // Character Information
-    const [myName, setName] = useState(myFile.name);
+    const [myName, setName] = useState("");
     const handleName = (event) => { setName(event.target.value); };
-    const [myConcept, setConcept] = useState(myFile.concept);
+    const [myConcept, setConcept] = useState("");
     const handleConcept = (event) => { setConcept(event.target.value); };
-    const [myCrew, setCrew] = useState(myFile.crew);
+    const [myCrew, setCrew] = useState("");
     const handleCrew = (event) => { setCrew(event.target.value); };
-    const [myCause, setCause] = useState(myFile.cause);
+    const [myCause, setCause] = useState("");
     const handleCause = (event) => { setCause(event.target.value); };
-    const [myTarget, setTarget] = useState(myFile.target);
+    const [myTarget, setTarget] = useState("");
     const handleTarget = (event) => { setTarget(event.target.value); };
-    const [myMethod, setMethod] = useState(myFile.method);
+    const [myMethod, setMethod] = useState("");
     const handleMethod = (event) => { setMethod(event.target.value); };
-    const [myRace, setRace] = useState(myFile.race);
+    const [myRace, setRace] = useState("");
     const handleRace = (event) => { setRace(event.target.value); };
-    const [myGender, setGender] = useState(myFile.gender);
+    const [myGender, setGender] = useState("");
     const handleGender = (event) => { setGender(event.target.value); };
-    const [myAge, setAge] = useState(myFile.age);
+    const [myAge, setAge] = useState("");
     const handleAge = (event) => { setAge(event.target.value); };
-    const [myHeight, setHeight] = useState(myFile.height);
+    const [myHeight, setHeight] = useState("");
     const handleHeight = (event) => { setHeight(event.target.value); };
-    const [myWeight, setWeight] = useState(myFile.weight);
+    const [myWeight, setWeight] = useState("");
     const handleWeight = (event) => { setWeight(event.target.value); };
-    const [myDrive, setDrive] = useState(myFile.traits.drive);
+    const [myDrive, setDrive] = useState("");
     const handleDrive = (event) => { setDrive(event.target.value); };
-    const [myProfession, setProfession] = useState(myFile.traits.profession);
+    const [myProfession, setProfession] = useState("");
     const handleProfession = (event) => { setProfession(event.target.value); };
-    const [mySpeciality, setSpeciality] = useState(myFile.traits.speciality);
+    const [mySpeciality, setSpeciality] = useState("");
     const handleSpeciality = (event) => { setSpeciality(event.target.value); };
-    const [myFeature, setFeature] = useState(myFile.traits.feature);
+    const [myFeature, setFeature] = useState("");
     const handleFeature = (event) => { setFeature(event.target.value); };
-    const [myPersonality, setPersonality] = useState(myFile.traits.personality);
+    const [myPersonality, setPersonality] = useState("");
     const handlePersonality = (event) => { setPersonality(event.target.value); };
-    const [myTragedy, setTragedy] = useState(myFile.tragedy);
+    const [myTragedy, setTragedy] = useState("");
     const handleTragedy = (event) => { setTragedy(event.target.value); };
-    const [myDestiny, setDestiny] = useState(myFile.destiny);
+    const [myDestiny, setDestiny] = useState("");
     const handleDestiny = (event) => { setDestiny(event.target.value); };
     // Powers Weak Extra Traits
-    const [myExtra1, setExtra1] = useState(myFile.traits.extras[0].trait1);
+    const [myExtra1, setExtra1] = useState("");
     const handleExtra1 = (event) => { setExtra1(event.target.value); };
-    const [myExtra2, setExtra2] = useState(myFile.traits.extras[0].trait1);
+    const [myExtra2, setExtra2] = useState("");
     const handleExtra2 = (event) => { setExtra2(event.target.value); };
     // Powers
-    const [myFirstPower, setFirstPower] = useState(myFile);
+    const [myFirstPower, setFirstPower] = useState("");
     const handleFirstPower = (event) => { setFirstPower(event.target.value); setFirstStuntName("") };
-    const [myFirstStuntName, setFirstStuntName] = useState(myFile);
+    const [myFirstStuntName, setFirstStuntName] = useState("");
     const handleFirstStunt = (event) => { let value = event.target.value; setFirstStunt(value); };
-    const [myFirstStuntDesc, setFirstStuntDesc] = useState(myFile);
-    const [mySecondPower, setSecondPower] = useState(myFile);
+    const [myFirstStuntDesc, setFirstStuntDesc] = useState("");
+    const [mySecondPower, setSecondPower] = useState("");
     const handleSecondPower = (event) => { setSecondPower(event.target.value); setSecondStuntName(""); };
-    const [mySecondStuntName, setSecondStuntName] = useState(myFile);
+    const [mySecondStuntName, setSecondStuntName] = useState("");
     const handleSecondStunt = (event) => { let value = event.target.value; setSecondStunt(value); };
-    const [mySecondStuntDesc, setSecondStuntDesc] = useState(myFile);
+    const [mySecondStuntDesc, setSecondStuntDesc] = useState("");
     // Statistics
-    const [myAttribute, setAttribute] = useState(myFile);
+    const [myAttribute, setAttribute] = useState("");
     const handleAttribute = (event) => { setAttribute(event.target.value); };
-    const [myStand, setStand] = useState(myFile);
+    const [myStand, setStand] = useState("");
     const handleStand = (event) => { setStand(event.target.value); };
-    const [myPower, setPower] = useState(myFile);
+    const [myPower, setPower] = useState("");
     const handlePower = (event) => { setPower(event.target.value); setFirstStuntName(""); setSecondStuntName(""); setFirstPower(""); setSecondPower(""); };
     // Attributes
     const [myPhysique, setPhysique] = useState(2);
@@ -89,6 +89,201 @@ function Editor(props) {
     const [myError, setError] = useState(false);
     const [myNotAtt, setNotAtt] = useState(false);
     const [myNotStand, setNotStand] = useState(false);
+
+    useEffect(() => {
+        // This function will run when the component mounts
+        console.log('Component has begun loading');
+    
+        loadCharacter();
+    
+        // If you return a function from useEffect, it will be run when the component unmounts
+        return () => {
+          console.log('Character Information has been loaded');
+        };
+    }, []);
+
+    function loadCharacter() {
+
+        setName(myFile.name);
+        setConcept(myFile.concept);
+        setCrew(myFile.crew);
+        setCause(myFile.cause);
+        setTarget(myFile.target);
+        setMethod(myFile.method);
+        setRace(myFile.race);
+        setGender(myFile.gender);
+        setAge(myFile.age);
+        setHeight(myFile.height);
+        setWeight(myFile.weight);
+        setDrive(myFile.traits.drive);
+        setProfession(myFile.traits.profession);
+        setSpeciality(myFile.traits.speciality);
+        setFeature(myFile.traits.feature);
+        setPersonality(myFile.traits.personality);
+        setTragedy(myFile.tragedy);
+        setDestiny(myFile.destiny);
+        
+        setAttribute(myFile.edit.attribute);
+        setStand(myFile.edit.standing);
+        setPower(myFile.edit.power);
+        
+        setPhysique(myFile.physique);
+        setCharm(myFile.charm);
+        setWits(myFile.wits);
+
+        setResources(myFile.resources);
+        setInfluence(myFile.influence);
+        setSpirit(myFile.spirit);
+
+        if (myFile.edit.power === 1) {
+            setExtra1(myFile.traits.extras[0].trait1);
+            setExtra2(myFile.traits.extras[0].trait2);
+        } else if (myFile.edit.power === 2) {
+            if (props.stunts[6].stunts.find(stunt => stunt.name === myFirstStuntName) && props.stunts[6].stunts.find(stunt => stunt.name === mySecondStuntName)) {
+                // let thePower = [
+                //     {
+                //         power: "Gunplay Stunts",
+                //         type: "Other",
+                //         stunts:[
+                //             {
+                //                 stunt:myFirstStuntName,
+                //                 desc:myFirstStuntDesc
+                //             },
+                //             {
+                //                 stunt:mySecondStuntName,
+                //                 desc:mySecondStuntDesc
+                //             }
+                //         ]
+                //     }
+                // ]
+                // thePowers = thePower;
+
+                setFirstStuntName(myFile.powers[0].stunts[0].stunt);
+                setFirstStuntDesc(myFile.powers[0].stunts[0].desc);
+                setSecondStuntName(myFile.powers[0].stunts[1].stunt);
+                setSecondStuntDesc(myFile.powers[0].stunts[1].desc);
+
+            } else if (props.stunts[2].stunts.find(stunt => stunt.name === myFirstStuntName) && props.stunts[2].stunts.find(stunt => stunt.name === mySecondStuntName)) {
+                
+                // let thePower = [
+                //         {
+                //         power: "Gunsmith Stunts",
+                //         type: "Other",
+                //         stunts:[
+                //             {
+                //                 stunt:myFirstStuntName,
+                //                 desc:myFirstStuntDesc
+                //             },
+                //             {
+                //                 stunt:mySecondStuntName,
+                //                 desc:mySecondStuntDesc
+                //             }
+                //         ]
+                //     }
+                // ]
+
+                setFirstStuntName(myFile.powers[0].stunts[0].stunt);
+                setFirstStuntDesc(myFile.powers[0].stunts[0].desc);
+                setSecondStuntName(myFile.powers[0].stunts[1].stunt);
+                setSecondStuntDesc(myFile.powers[0].stunts[1].desc);
+
+            } else if (props.stunts[6].stunts.find(stunt => stunt.name === myFirstStuntName) && props.stunts[2].stunts.find(stunt => stunt.name === mySecondStuntName)) {
+                // let thePower = [
+                //     {
+                //         power: "Gunplay Stunts",
+                //         type: "Other",
+                //         stunts:[
+                //             {
+                //                 stunt:myFirstStuntName,
+                //                 desc:myFirstStuntDesc
+                //             }
+                //         ]
+                //     },
+                //     {
+                //         power: "Gunsmith Stunts",
+                //         type: "Other",
+                //         stunts:[
+                //             {
+                //                 stunt:mySecondStuntName,
+                //                 desc:mySecondStuntDesc
+                //             }
+                //         ]
+                    
+                //     }
+                // ]
+
+                setFirstStuntName(myFile.powers[0].stunts[0].stunt);
+                setFirstStuntDesc(myFile.powers[0].stunts[0].desc);
+                setSecondStuntName(myFile.powers[1].stunts[0].stunt);
+                setSecondStuntDesc(myFile.powers[1].stunts[0].desc);
+
+            } else if (props.stunts[2].stunts.find(stunt => stunt.name === myFirstStuntName) && props.stunts[6].stunts.find(stunt => stunt.name === mySecondStuntName)) {
+                // let thePower = [
+                //     {
+                //         power: "Gunsmith Stunts",
+                //         type: "Other",
+                //         stunts:[
+                //             {
+                //                 stunt:myFirstStuntName,
+                //                 desc:myFirstStuntDesc
+                //             }
+                //         ]
+                //     },
+                //     {
+                //         power: "Gunplay Stunts",
+                //         type: "Other",
+                //         stunts:[
+                //             {
+                //                 stunt:mySecondStuntName,
+                //                 desc:mySecondStuntDesc
+                //             }
+                //         ]
+                    
+                //     }
+                // ]
+
+                setFirstStuntName(myFile.powers[0].stunts[0].stunt);
+                setFirstStuntDesc(myFile.powers[0].stunts[0].desc);
+                setSecondStuntName(myFile.powers[1].stunts[0].stunt);
+                setSecondStuntDesc(myFile.powers[1].stunts[0].desc);
+            }
+        } else if (myFile.edit.power === 3) {
+
+            setFirstStuntName(myFile.powers[0].stunts[0].stunt);
+            setFirstStuntDesc(myFile.powers[0].stunts[0].desc);
+            
+            setExtra1(myFile.traits.extras[0].trait1);
+            setExtra2(myFile.traits.extras[0].trait2);
+
+        } else if (myFile.edit.power === 4) {
+
+            setFirstPower(myFile.powers[0].power + myFile.powers[0].type)
+
+            if (myFile.powers[0].stunts[0].stunt !== undefined) {
+                setFirstStuntName(myFile.powers[0].stunts[0].stunt);
+                setFirstStuntDesc(myFile.powers[0].stunts[0].desc);
+            }
+
+        } else if (myFile.edit.power === 5) {
+
+            setFirstPower(myFile.powers[0].power + myFile.powers[0].type)
+            setSecondPower(myFile.powers[1].power + myFile.powers[1].type)
+
+        }
+
+        // setFirstPower();
+        // setFirstStuntName();
+        // setFirstStuntDesc();
+
+        // setSecondPower();
+        // setSecondStuntName();
+        // setSecondStuntDesc();
+
+    };
+
+    const handleRefresh = () => {
+        props.refreshData();
+    };
 
     const containsPower = (power, metal) => {
         if (power === metal + "Allomancy") {
@@ -633,9 +828,12 @@ function Editor(props) {
             let characters = [];
             if (Array.isArray(myCharacters)) {
                 characters = myCharacters;
+                console.log("This is my full list of characters ", characters)
             }
     
             characters.push(character);
+
+            handleRefresh();
     
             // Clear Character Database
             // localStorage.clear();
@@ -643,14 +841,13 @@ function Editor(props) {
             // saving the character information to localStorage
             localStorage.setItem("characterInfo", JSON.stringify(characters));
         
-            console.log("Your character, " + myName + " has been saved");
-            console.log("This is my character ", character)
+            // console.log("Your character, " + myName + " has been saved");
+            // console.log("This is my character ", character)
+            // console.log("This is my full list of characters ", characters)
 
         } 
 
     };
-
-    // function loadCharacter(){}
 
     return (
         < >
@@ -1318,7 +1515,7 @@ function Editor(props) {
                 <Collapse in={myError === true}>
                     <Alert variant="filled" severity='error'>Please Review Your Entries for any Errors</Alert>
                 </Collapse>
-                <button id='unselected' onClick={saveCharacter}>Save Character</button>
+                <button className='unselected' onClick={saveCharacter}>Save Character</button>
             </div>
         </div>
         </>
