@@ -33,16 +33,22 @@ function Creator(props) {
     }
 
     // Function to fetch character data from localStorage
-    const getCharacterData = () => {
-        const characterInfo = localStorage.getItem("characterInfo");
-        if (characterInfo) {
-          const data = JSON.parse(characterInfo);
-          setCharacters(data);
-          setCharacter(data.length > 0 ? data[0] : null);
+    const getCharacterData = (index) => {
+      const characterInfo = localStorage.getItem("characterInfo");
+      if (characterInfo) {
+        const data = JSON.parse(characterInfo);
+        setCharacters(data);
+        setCharacter(data.length > 0 ? data[0] : null);
       } else {
-          setCharacters([]);
-          setCharacter(null);
+        setCharacters([]);
+        setCharacter(null);
       }
+
+      if (index !== myInfo) {
+        setEdit(false);
+        setInfo(myCharacters.length - 1);
+      }
+      
     };
 
     useEffect(() => {
@@ -62,7 +68,7 @@ function Creator(props) {
 
     return (
         <>
-            <h1 className='notButter'>Charactermancer</h1>
+            <h1 className='notButter' style={{fontSize:"200%"}}>Charactermancer</h1>
             <div className='mobMargin'>
               <ol id="list">
                 <h3 className='notButter'>Your Heroes</h3>
@@ -74,7 +80,7 @@ function Creator(props) {
                 {myCharacters !== 0 && myCharacters !== null ? ( 
                   <span>
                     {myCharacters.map((myCharacter, index) => (
-                      <li  id="nav-list"  className={myInfo === index ? "nav-chosen" : "nav-unchosen"} key={index}>
+                      <li id="nav-list"  className={myInfo === index ? "nav-chosen" : "nav-unchosen"} key={index}>
                         <button className="index-button" onClick={() => changeSample(index)}>
                           <span id="bold">{myCharacter.name === "" ? "Unknown" : myCharacter.name}</span>
                         </button>
@@ -87,6 +93,7 @@ function Creator(props) {
               </ol>
             </div>
             <div id="centerSheet" style={{ marginLeft: "25px", marginBottom: "20px" }}>
+              <div id="info">
                 <div className="sheet">
                     {myView ? (
                         <Maker metals={props.metals} stunts={props.stunts} characters={myCharacters} refreshData={getCharacterData} />
@@ -113,7 +120,7 @@ function Creator(props) {
                         </span>
                     )}
                 </div>
-                
+              </div>
             </div>
         </>
     );

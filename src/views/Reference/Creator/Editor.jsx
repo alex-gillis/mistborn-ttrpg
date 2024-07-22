@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { Select, FormControl, TextField, InputLabel, MenuItem, ListSubheader, Alert, Collapse } from '@mui/material';
 function Editor(props) {
     // Complete Stunt Array
@@ -826,14 +826,21 @@ function Editor(props) {
             };
     
             let characters = [];
-            if (Array.isArray(myCharacters)) {
-                characters = myCharacters;
+            // if (Array.isArray(myCharacters)) {
+            //     characters = myCharacters;
+            //     console.log("This is my full list of characters ", characters)
+            // }
+            const updatedCharacters = [...myCharacters];
+            if (myIndex >= 0 && myIndex < updatedCharacters.length) {
+                updatedCharacters.splice(myIndex, 1);
+                characters = updatedCharacters;
                 console.log("This is my full list of characters ", characters)
+                // localStorage.setItem("characterInfo", JSON.stringify(updatedCharacters));
             }
     
             characters.push(character);
 
-            handleRefresh();
+            handleRefresh(myIndex);
     
             // Clear Character Database
             // localStorage.clear();
