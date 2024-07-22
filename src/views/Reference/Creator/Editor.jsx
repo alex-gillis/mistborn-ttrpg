@@ -91,12 +91,8 @@ function Editor(props) {
     const [myNotStand, setNotStand] = useState(false);
 
     useEffect(() => {
-        // This function will run when the component mounts
-        console.log('Component has begun loading');
-    
         loadCharacter();
-    
-        // If you return a function from useEffect, it will be run when the component unmounts
+
         return () => {
           console.log('Character Information has been loaded');
         };
@@ -840,7 +836,7 @@ function Editor(props) {
     
             // characters.push(character);
             characters.splice(myIndex, 0, character);
-            
+
             // saving the character information to localStorage
             localStorage.setItem("characterInfo", JSON.stringify(characters));
 
