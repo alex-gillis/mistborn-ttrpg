@@ -135,7 +135,7 @@ function Editor(props) {
             setExtra1(myFile.traits.extras[0].trait1);
             setExtra2(myFile.traits.extras[0].trait2);
         } else if (myFile.edit.power === 2) {
-            if (props.stunts[6].stunts.find(stunt => stunt.name === myFirstStuntName) && props.stunts[6].stunts.find(stunt => stunt.name === mySecondStuntName)) {
+            if (props.stunts[6].stunts.find(stunt => stunt.name === myFile.powers[0].stunts[0].stunt) && props.stunts[6].stunts.find(stunt => stunt.name === myFile.powers[0].stunts[1].stunt)) {
                 // let thePower = [
                 //     {
                 //         power: "Gunplay Stunts",
@@ -159,7 +159,7 @@ function Editor(props) {
                 setSecondStuntName(myFile.powers[0].stunts[1].stunt);
                 setSecondStuntDesc(myFile.powers[0].stunts[1].desc);
 
-            } else if (props.stunts[2].stunts.find(stunt => stunt.name === myFirstStuntName) && props.stunts[2].stunts.find(stunt => stunt.name === mySecondStuntName)) {
+            } else if (props.stunts[2].stunts.find(stunt => stunt.name === myFile.powers[0].stunts[0].stunt) && props.stunts[2].stunts.find(stunt => stunt.name === myFile.powers[0].stunts[1].stunt)) {
                 
                 // let thePower = [
                 //         {
@@ -183,7 +183,7 @@ function Editor(props) {
                 setSecondStuntName(myFile.powers[0].stunts[1].stunt);
                 setSecondStuntDesc(myFile.powers[0].stunts[1].desc);
 
-            } else if (props.stunts[6].stunts.find(stunt => stunt.name === myFirstStuntName) && props.stunts[2].stunts.find(stunt => stunt.name === mySecondStuntName)) {
+            } else if (props.stunts[6].stunts.find(stunt => stunt.name === myFile.powers[0].stunts[0].stunt) && props.stunts[2].stunts.find(stunt => stunt.name === myFile.powers[1].stunts[0].stunt)) {
                 // let thePower = [
                 //     {
                 //         power: "Gunplay Stunts",
@@ -213,7 +213,7 @@ function Editor(props) {
                 setSecondStuntName(myFile.powers[1].stunts[0].stunt);
                 setSecondStuntDesc(myFile.powers[1].stunts[0].desc);
 
-            } else if (props.stunts[2].stunts.find(stunt => stunt.name === myFirstStuntName) && props.stunts[6].stunts.find(stunt => stunt.name === mySecondStuntName)) {
+            } else if (props.stunts[2].stunts.find(stunt => stunt.name === myFile.powers[0].stunts[0].stunt) && props.stunts[6].stunts.find(stunt => stunt.name === myFile.powers[1].stunts[0].stunt)) {
                 // let thePower = [
                 //     {
                 //         power: "Gunsmith Stunts",
@@ -278,7 +278,7 @@ function Editor(props) {
     };
 
     const handleRefresh = () => {
-        props.refreshData();
+        props.refreshData(myIndex);
     };
 
     const containsPower = (power, metal) => {
@@ -840,7 +840,7 @@ function Editor(props) {
             // saving the character information to localStorage
             localStorage.setItem("characterInfo", JSON.stringify(characters));
 
-            handleRefresh(myIndex);
+            handleRefresh();
     
             // Clear Character Database
             // localStorage.clear();
@@ -1440,7 +1440,7 @@ function Editor(props) {
                                 {props.metals.map((metal, index) => (
                                     <MenuItem 
                                         key={index} 
-                                        disabled={metal.name + "Allomancy" === mySecondPower} 
+                                        disabled={metal.name + "Allomancy" === mySecondPower || mySecondPower.includes("Allomancy")} 
                                         id="outlined-disabled" 
                                         label="Disabled" 
                                         style={{fontWeight:"bolder", fontSize:"large"}} 
@@ -1452,7 +1452,7 @@ function Editor(props) {
                                 {props.metals.map((metal, index) => (
                                     <MenuItem 
                                         key={index} 
-                                        disabled={metal.name + "Feruchemy" === mySecondPower} 
+                                        disabled={metal.name + "Feruchemy" === mySecondPower || mySecondPower.includes("Feruchemy")} 
                                         id="outlined-disabled" 
                                         label="Disabled" 
                                         style={{fontWeight:"bolder", fontSize:"large"}} 
@@ -1469,7 +1469,7 @@ function Editor(props) {
                                 {props.metals.map((metal, index) => (
                                     <MenuItem 
                                         key={index} 
-                                        disabled={metal.name + "Allomancy" === myFirstPower} 
+                                        disabled={metal.name + "Allomancy" === myFirstPower || myFirstPower.includes("Allomancy")} 
                                         id="outlined-disabled" 
                                         label="Disabled" 
                                         style={{fontWeight:"bolder", fontSize:"large"}} 
@@ -1481,7 +1481,7 @@ function Editor(props) {
                                 {props.metals.map((metal, index) => (
                                     <MenuItem 
                                         key={index} 
-                                        disabled={metal.name + "Feruchemy" === myFirstPower} 
+                                        disabled={metal.name + "Feruchemy" === myFirstPower || myFirstPower.includes("Feruchemy")} 
                                         id="outlined-disabled" 
                                         label="Disabled" 
                                         style={{fontWeight:"bolder", fontSize:"large"}} 

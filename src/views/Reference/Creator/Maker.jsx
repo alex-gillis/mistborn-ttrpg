@@ -1271,7 +1271,7 @@ function Maker(props) {
                                 {props.metals.map((metal, index) => (
                                     <MenuItem 
                                         key={index} 
-                                        disabled={metal.name + "Allomancy" === mySecondPower} 
+                                        disabled={metal.name + "Allomancy" === mySecondPower || mySecondPower.includes("Allomancy")} 
                                         id="outlined-disabled" 
                                         label="Disabled" 
                                         style={{fontWeight:"bolder", fontSize:"large"}} 
@@ -1283,7 +1283,7 @@ function Maker(props) {
                                 {props.metals.map((metal, index) => (
                                     <MenuItem 
                                         key={index} 
-                                        disabled={metal.name + "Feruchemy" === mySecondPower} 
+                                        disabled={metal.name + "Feruchemy" === mySecondPower || mySecondPower.includes("Feruchemy")} 
                                         id="outlined-disabled" 
                                         label="Disabled" 
                                         style={{fontWeight:"bolder", fontSize:"large"}} 
@@ -1300,7 +1300,7 @@ function Maker(props) {
                                 {props.metals.map((metal, index) => (
                                     <MenuItem 
                                         key={index} 
-                                        disabled={metal.name + "Allomancy" === myFirstPower} 
+                                        disabled={metal.name + "Allomancy" === myFirstPower || myFirstPower.includes("Allomancy")} 
                                         id="outlined-disabled" 
                                         label="Disabled" 
                                         style={{fontWeight:"bolder", fontSize:"large"}} 
@@ -1312,7 +1312,7 @@ function Maker(props) {
                                 {props.metals.map((metal, index) => (
                                     <MenuItem 
                                         key={index} 
-                                        disabled={metal.name + "Feruchemy" === myFirstPower} 
+                                        disabled={metal.name + "Feruchemy" === myFirstPower || myFirstPower.includes("Feruchemy")} 
                                         id="outlined-disabled" 
                                         label="Disabled" 
                                         style={{fontWeight:"bolder", fontSize:"large"}} 

@@ -44,7 +44,7 @@ function Creator(props) {
         setCharacter(null);
       }
 
-      if (index !== undefined) {
+      if (Number.isInteger(index)) {
         setEdit(false);
         setInfo(index);
       }
