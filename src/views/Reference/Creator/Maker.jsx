@@ -669,13 +669,15 @@ function Maker(props) {
     
             characters.push(character);
 
-            handleRefresh();
+            // handleRefresh();
     
             // Clear Character Database
             // localStorage.clear();
     
             // saving the character information to localStorage
             localStorage.setItem("characterInfo", JSON.stringify(characters));
+
+            handleRefresh();
         
             // console.log("Your character, " + myName + " has been saved");
             // console.log("This is my character ", character)
