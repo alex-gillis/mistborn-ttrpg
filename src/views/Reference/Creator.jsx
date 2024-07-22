@@ -44,12 +44,16 @@ function Creator(props) {
         setCharacter(null);
       }
 
-      if (index !== myInfo) {
+      if (index !== undefined) {
         setEdit(false);
-        setInfo(myCharacters.length - 1);
+        setInfo(index);
       }
       
     };
+
+    function refreshData(index) {
+      getCharacterData(index);
+    }
 
     useEffect(() => {
         getCharacterData(); 
@@ -96,14 +100,14 @@ function Creator(props) {
               <div id="info">
                 <div className="sheet">
                     {myView ? (
-                        <Maker metals={props.metals} stunts={props.stunts} characters={myCharacters} refreshData={getCharacterData} />
+                        <Maker metals={props.metals} stunts={props.stunts} characters={myCharacters} refreshData={refreshData} />
                     ) : (
                         <span>
                           {myCharacter ? (
                               <span>
                                 {myEdit ? (
                                   <span>
-                                    <Editor metals={props.metals} stunts={props.stunts} characters={myCharacters} refreshData={getCharacterData} index={myInfo} />
+                                    <Editor metals={props.metals} stunts={props.stunts} characters={myCharacters} refreshData={refreshData} index={myInfo} />
                                   </span>
                                 ) : (
                                   <span>

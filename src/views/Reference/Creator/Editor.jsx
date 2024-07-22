@@ -838,7 +838,11 @@ function Editor(props) {
                 // localStorage.setItem("characterInfo", JSON.stringify(updatedCharacters));
             }
     
-            characters.push(character);
+            // characters.push(character);
+            characters.splice(myIndex, 0, character);
+            
+            // saving the character information to localStorage
+            localStorage.setItem("characterInfo", JSON.stringify(characters));
 
             handleRefresh(myIndex);
     
@@ -846,7 +850,7 @@ function Editor(props) {
             // localStorage.clear();
     
             // saving the character information to localStorage
-            localStorage.setItem("characterInfo", JSON.stringify(characters));
+            // localStorage.setItem("characterInfo", JSON.stringify(characters));
         
             // console.log("Your character, " + myName + " has been saved");
             // console.log("This is my character ", character)
