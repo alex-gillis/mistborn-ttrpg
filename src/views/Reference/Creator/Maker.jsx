@@ -22,7 +22,7 @@ function Maker(props) {
     const [myMethod, setMethod] = useState("");
     const handleMethod = (event) => { setMethod(event.target.value); };
     const [myRace, setRace] = useState("");
-    const handleRace = (event) => { setRace(event.target.value); };
+    const handleRace = (event) => { setRace(event.target.value); lockPowers(event.target.value); };
     const [myGender, setGender] = useState("");
     const handleGender = (event) => { setGender(event.target.value); };
     const [myAge, setAge] = useState("");
@@ -67,7 +67,7 @@ function Maker(props) {
     const [myStand, setStand] = useState("");
     const handleStand = (event) => { setStand(event.target.value); };
     const [myPower, setPower] = useState("");
-    const handlePower = (event) => { setPower(event.target.value); setFirstStuntName(""); setSecondStuntName(""); setFirstPower(""); setSecondPower(""); };
+    const handlePower = (event) => { setPower(event.target.value); switchPowers; };
     // Attributes
     const [myPhysique, setPhysique] = useState(2);
     const handlePhysique = (event) => { setPhysique(event.target.value); };
@@ -87,6 +87,58 @@ function Maker(props) {
     const [myError, setError] = useState(false);
     const [myNotAtt, setNotAtt] = useState(false);
     const [myNotStand, setNotStand] = useState(false);
+
+    // Racial Lock 
+    const [myKoloss, setKoloss] = useState(false);
+    const [myKandra, setKandra] = useState(false);
+
+    const switchPowers = () => {
+        if (myKoloss === true) {
+            setFirstPower("Koloss Physique");
+            setFirstStuntName("Koloss Physique");
+        } else {
+            setFirstStuntName(""); 
+            setSecondStuntName(""); 
+            setFirstPower(""); 
+            setSecondPower("");
+        }
+    }
+
+    const lockPowers = (value) => {
+        if (value === "Human") {
+            setKoloss(false);
+            setKandra(false);
+            setFirstStuntName(""); 
+            setFirstPower(""); 
+
+        } else if (value === "Koloss-Blooded") {
+            setKoloss(true);
+            setKandra(false);
+
+            if(myAttribute === 1) { setAttribute(""); }
+
+            if(myStand === 1) { setStand(""); }
+            
+            if (myPower <= 3) {
+                setPower("");
+            }
+
+            setFirstPower("Koloss Physique");
+            setFirstStuntName("Koloss Physique");
+
+        } else if (value === "Kandra") {
+            setKoloss(false);
+            setKandra(true);
+            setPower(4);
+
+            setFirstPower("Mimicry");
+
+            if(myAttribute === 2) { setAttribute(""); }
+
+            if(myStand === 2) { setStand(""); }
+
+        }
+    };
 
     const handleRefresh = () => {
         props.refreshData();
@@ -524,7 +576,7 @@ function Maker(props) {
                     
                 } 
     
-            } else if (myPower == 4) {
+            } else if (myPower == 4 && myKoloss == false && myKandra == false) {
     
                 if (myFirstPower.includes("Allomancy")) {
                     if (myFirstStuntName === "") {
@@ -576,7 +628,7 @@ function Maker(props) {
     
                 }
     
-            } else if (myPower == 5) {
+            } else if (myPower == 5 && myKoloss == false) {
     
                 if (myFirstPower.includes("Allomancy")) {
                     
@@ -622,6 +674,66 @@ function Maker(props) {
     
                 }
     
+            } else if (myKandra == true) {
+                    
+                let thePower = {
+                    power: "Mimicry",
+                    type: "Other",
+                    rating:5,
+                    stunts:[]
+                }
+                thePowers.push(thePower);
+
+            } else if (myPower == 4 && myKoloss == true) {
+                    
+                let thePower = {
+                    power: "Koloss Physique",
+                    type: "Other",
+                    stunts:[
+                        {
+                            stunt:"Koloss Physique",
+                            desc:"As the children of hugely strong creatures, koloss-blooded inherit some of their sires’ strength and durability. Koloss-blooded characters increase their Physique by 1 at character creation, and may increase their Physique rating to a maximum of 7 (rather than 6 as normal). In addition, their tremendous strength grants koloss-blooded characters 2 additional dice when making a roll involving physical strength (including lifting and moving objects, and wielding heavy weapons)"
+                        }
+                    ]
+                }
+                thePowers.push(thePower);
+
+            } else if (myPower == 5 && myKoloss == true) {
+                    
+                let thePower = {
+                    power: "Koloss Physique",
+                    type: "Other",
+                    stunts:[
+                        {
+                            stunt:"Koloss Physique",
+                            desc:"As the children of hugely strong creatures, koloss-blooded inherit some of their sires’ strength and durability. Koloss-blooded characters increase their Physique by 1 at character creation, and may increase their Physique rating to a maximum of 7 (rather than 6 as normal). In addition, their tremendous strength grants koloss-blooded characters 2 additional dice when making a roll involving physical strength (including lifting and moving objects, and wielding heavy weapons)"
+                        }
+                    ]
+                } 
+                thePowers.push(thePower);
+    
+                if (mySecondPower.includes("Allomancy")) {
+                    
+                    let thePower = {
+                        power: mySecondPower.replace("Allomancy", ""),
+                        type: "Allomancy",
+                        rating:4,
+                        stunts:[]
+                    }
+                    thePowers.push(thePower);
+    
+                } else if (mySecondPower.includes("Feruchemy")) {
+                    
+                    let thePower = {
+                        power: mySecondPower.replace("Feruchemy", ""),
+                        type: "Feruchemy",
+                        rating:4,
+                        stunts:[]
+                    }
+                    thePowers.push(thePower);
+    
+                }
+                
             }
     
             const character = {
@@ -801,7 +913,7 @@ function Maker(props) {
                     <InputLabel id="demo-simple-select-label">Powers</InputLabel>
                     <Select labelId="demo-simple-select-label" id="demo-simple-select" value={myPower} onChange={handlePower}>
                         <MenuItem
-                            disabled={myAttribute === 3 || myStand === 3} 
+                            disabled={myAttribute === 3 || myStand === 3 || myKandra === true} 
                             id="outlined-disabled" 
                             label="Disabled"
                             style={{fontWeight:"bolder", fontSize:"large"}} 
@@ -817,14 +929,14 @@ function Maker(props) {
                                 Average
                         </MenuItem>
                         <ListSubheader 
-                            disabled={myAttribute === 1 || myStand === 1} 
+                            disabled={myAttribute === 1 || myStand === 1 || myKoloss === true || myKandra === true} 
                             id="outlined-disabled" 
                             label="Disabled"  
                             style={{fontWeight:"bolder", fontSize:"large"}}>
                                 Weak
                         </ListSubheader>
                         <MenuItem
-                            disabled={myAttribute === 1 || myStand === 1} 
+                            disabled={myAttribute === 1 || myStand === 1 || myKoloss === true || myKandra === true} 
                             id="outlined-disabled" 
                             label="Disabled" 
                             style={{marginLeft:'5px', fontStyle:'italic'}} 
@@ -832,7 +944,7 @@ function Maker(props) {
                                 Two Traits
                         </MenuItem>
                         <MenuItem
-                            disabled={myAttribute === 1 || myStand === 1} 
+                            disabled={myAttribute === 1 || myStand === 1 || myKoloss === true || myKandra === true} 
                             id="outlined-disabled" 
                             label="Disabled" 
                             style={{marginLeft:'5px', fontStyle:'italic'}} 
@@ -840,7 +952,7 @@ function Maker(props) {
                                 Two Stunts
                         </MenuItem>
                         <MenuItem
-                            disabled={myAttribute === 1 || myStand === 1} 
+                            disabled={myAttribute === 1 || myStand === 1 || myKoloss === true || myKandra === true} 
                             id="outlined-disabled" 
                             label="Disabled" 
                             style={{marginLeft:'5px', fontStyle:'italic'}} 
@@ -848,6 +960,9 @@ function Maker(props) {
                                 One of Each
                         </MenuItem>
                         <MenuItem
+                            disabled={myKoloss === true || myKandra === true} 
+                            id="outlined-disabled" 
+                            label="Disabled"  
                             style={{fontWeight:"bolder", fontSize:"large"}} 
                             value={""}>
                                 None
@@ -1215,48 +1330,105 @@ function Maker(props) {
                     <div>
                         <h3 style={{color:'black', marginBottom:'0px' }}>Powers</h3>
                         <h4 style={{color:'black', background:"transparent", margin:'0px' }}>Kandras, Koloss, Mistings and Ferrings</h4>
-                        <FormControl variant="standard" sx={{ m: 0.5, marginTop: 0, minWidth: 140 }}>
-                            <InputLabel id="demo-simple-select-label">First Power</InputLabel>
-                            <Select labelId="demo-simple-select-label" id="demo-simple-select" value={myFirstPower} onChange={handleFirstPower}>
-                                <ListSubheader style={{fontWeight:"bolder", fontSize:"large"}}>Allomancy</ListSubheader>
-                                {props.metals.map((metal, index) => (
-                                    <MenuItem 
-                                        key={index} 
-                                        style={{fontWeight:"bolder", fontSize:"large"}} 
-                                        value={metal.name + "Allomancy"}>
-                                            {metal.name}
-                                    </MenuItem>
-                                ))}
-                                <ListSubheader style={{fontWeight:"bolder", fontSize:"large"}}>Feruchemy</ListSubheader>
-                                {props.metals.map((metal, index) => (
-                                    <MenuItem 
-                                        key={index} 
-                                        style={{fontWeight:"bolder", fontSize:"large"}} 
-                                        value={metal.name + "Feruchemy"}>
-                                            {metal.name}
-                                    </MenuItem>
-                                ))}
-                            </Select>
-                        </FormControl>
-                        {myFirstPower !== "" &&
-                            <FormControl variant="standard" sx={{ m: 0.5, marginTop: 0, minWidth: 140 }}>
-                                <InputLabel id="demo-simple-select-label">Stunt</InputLabel>
-                                <Select labelId="demo-simple-select-label" id="demo-simple-select" value={myFirstStuntName} onChange={handleFirstStunt}>
-                                    {renderStunts(true)}
-                                </Select>
-                            </FormControl>
+                        {myKandra === false && myKoloss == false &&
+                            <div id="forHumans">
+                                <FormControl variant="standard" sx={{ m: 0.5, marginTop: 0, minWidth: 140 }}>
+                                    <InputLabel id="demo-simple-select-label">First Power</InputLabel>
+                                    <Select labelId="demo-simple-select-label" id="demo-simple-select" value={myFirstPower} onChange={handleFirstPower}>
+                                        <ListSubheader style={{fontWeight:"bolder", fontSize:"large"}}>Allomancy</ListSubheader>
+                                        {props.metals.map((metal, index) => (
+                                            <MenuItem 
+                                                key={index} 
+                                                style={{fontWeight:"bolder", fontSize:"large"}} 
+                                                value={metal.name + "Allomancy"}>
+                                                    {metal.name}
+                                            </MenuItem>
+                                        ))}
+                                        <ListSubheader style={{fontWeight:"bolder", fontSize:"large"}}>Feruchemy</ListSubheader>
+                                        {props.metals.map((metal, index) => (
+                                            <MenuItem 
+                                                key={index} 
+                                                style={{fontWeight:"bolder", fontSize:"large"}} 
+                                                value={metal.name + "Feruchemy"}>
+                                                    {metal.name}
+                                            </MenuItem>
+                                        ))}
+                                    </Select>
+                                </FormControl>
+                                {myFirstPower !== "" &&
+                                    <FormControl variant="standard" sx={{ m: 0.5, marginTop: 0, minWidth: 140 }}>
+                                        <InputLabel id="demo-simple-select-label">Stunt</InputLabel>
+                                        <Select labelId="demo-simple-select-label" id="demo-simple-select" value={myFirstStuntName} onChange={handleFirstStunt}>
+                                            {renderStunts(true)}
+                                        </Select>
+                                    </FormControl>
+                                }
+                                <br/>
+                                {myFirstStuntName !== "" &&
+                                    <TextField
+                                        sx={{ m: 0.5, minWidth: 360, maxWidth: 495 }}
+                                        maxRows={4}
+                                        disabled
+                                        multiline
+                                        id="filled-disabled"
+                                        label="Stunt Description"
+                                        value={myFirstStuntDesc}
+                                    />
+                                }
+                            </div>
                         }
-                        <br/>
-                        {myFirstStuntName !== "" &&
-                            <TextField
-                                sx={{ m: 0.5, minWidth: 360, maxWidth: 495 }}
-                                maxRows={4}
-                                disabled
-                                multiline
-                                id="filled-disabled"
-                                label="Stunt Description"
-                                value={myFirstStuntDesc}
-                            />
+                        {myKandra === true && myKoloss == false &&
+                            <div id="forKandra">
+                                <FormControl variant="standard" sx={{ m: 0.5, marginTop: 0, minWidth: 140 }}>
+                                    <InputLabel id="demo-simple-select-label">First Power</InputLabel>
+                                    <Select disabled defaultValue={"Mimicry"} labelId="demo-simple-select-label" id="demo-simple-select" value={myFirstPower} onChange={handleFirstPower}>
+                                        <MenuItem 
+                                            style={{fontWeight:"bolder", fontSize:"large"}} 
+                                            value={"Mimicry"}>
+                                                Mimicry
+                                        </MenuItem>
+                                    </Select>
+                                </FormControl>
+                            </div>
+                        }
+                        {myKandra === false && myKoloss == true &&
+                            <div id="forKoloss">
+                                <FormControl variant="standard" sx={{ m: 0.5, marginTop: 0, minWidth: 140 }}>
+                                    <InputLabel id="demo-simple-select-label">First Power</InputLabel>
+                                    <Select disabled defaultValue={"Koloss Physique"} labelId="demo-simple-select-label" id="demo-simple-select" value={myFirstPower} onChange={handleFirstPower}>
+                                        <MenuItem 
+                                            style={{fontWeight:"bolder", fontSize:"large"}} 
+                                            value={"Koloss Physique"}>
+                                                Koloss Physique
+                                        </MenuItem>
+                                    </Select>
+                                </FormControl>
+                                {myFirstPower !== "" &&
+                                    <FormControl variant="standard" sx={{ m: 0.5, marginTop: 0, minWidth: 140 }}>
+                                        <InputLabel id="demo-simple-select-label">Stunt</InputLabel>
+                                        <Select labelId="demo-simple-select-label" disabled id="demo-simple-select" value={myFirstStuntName} onChange={handleFirstStunt}>
+                                            <MenuItem 
+                                                default
+                                                style={{fontWeight:"bolder", fontSize:"large"}} 
+                                                value={"Koloss Physique"}>
+                                                    Koloss Physique
+                                            </MenuItem>
+                                        </Select>
+                                    </FormControl>
+                                }
+                                <br/>
+                                {myFirstStuntName !== "" &&
+                                    <TextField
+                                        sx={{ m: 0.5, minWidth: 360, maxWidth: 495 }}
+                                        maxRows={4}
+                                        disabled
+                                        multiline
+                                        id="filled-disabled"
+                                        label="Stunt Description"
+                                        value="As the children of hugely strong creatures, koloss-blooded inherit some of their sires’ strength and durability. Koloss-blooded characters increase their Physique by 1 at character creation, and may increase their Physique rating to a maximum of 7 (rather than 6 as normal). In addition, their tremendous strength grants koloss-blooded characters 2 additional dice when making a roll involving physical strength (including lifting and moving objects, and wielding heavy weapons)"
+                                    />
+                                }
+                            </div>
                         }
                     </div>
                 }
@@ -1264,35 +1436,43 @@ function Maker(props) {
                     <div>
                         <h3 style={{color:'black', marginBottom:'0px' }}>Powers</h3>
                         <h4 style={{color:'black', background:"transparent", margin:'0px' }}>Twinborn, Koloss-blooded Mistings/Ferrings</h4>
-                        <FormControl variant="standard" sx={{ m: 0.5, marginTop: 0, minWidth: 140 }}>
-                            <InputLabel id="demo-simple-select-label">First Power</InputLabel>
-                            <Select labelId="demo-simple-select-label" id="demo-simple-select" value={myFirstPower} onChange={handleFirstPower}>
-                                <ListSubheader style={{fontWeight:"bolder", fontSize:"large"}}>Allomancy</ListSubheader>
-                                {props.metals.map((metal, index) => (
+                        {myKandra === false && myKoloss == false &&
+                            <FormControl variant="standard" sx={{ m: 0.5, marginTop: 0, minWidth: 140 }}>
+                                <InputLabel id="demo-simple-select-label">First Power</InputLabel>
+                                <Select labelId="demo-simple-select-label" id="demo-simple-select" value={myFirstPower} onChange={handleFirstPower}>
+                                    <ListSubheader style={{fontWeight:"bolder", fontSize:"large"}}>Allomancy</ListSubheader>
+                                    {props.metals.map((metal, index) => (
+                                        <MenuItem 
+                                            key={index} 
+                                            style={{fontWeight:"bolder", fontSize:"large"}} 
+                                            value={metal.name + "Allomancy"}>
+                                                {metal.name}
+                                        </MenuItem>
+                                    ))}
+                                    <ListSubheader style={{fontWeight:"bolder", fontSize:"large"}}>Feruchemy</ListSubheader>
+                                    {props.metals.map((metal, index) => (
+                                        <MenuItem 
+                                            key={index} 
+                                            style={{fontWeight:"bolder", fontSize:"large"}} 
+                                            value={metal.name + "Feruchemy"}>
+                                                {metal.name}
+                                        </MenuItem>
+                                    ))}
+                                </Select>
+                            </FormControl>
+                        }
+                        {myKandra === false && myKoloss == true &&
+                            <FormControl variant="standard" sx={{ m: 0.5, marginTop: 0, minWidth: 140 }}>
+                                <InputLabel id="demo-simple-select-label">First Power</InputLabel>
+                                <Select disabled defaultValue={"Koloss Physique"} labelId="demo-simple-select-label" id="demo-simple-select" value={myFirstPower} onChange={handleFirstPower}>
                                     <MenuItem 
-                                        key={index} 
-                                        disabled={metal.name + "Allomancy" === mySecondPower || mySecondPower.includes("Allomancy")} 
-                                        id="outlined-disabled" 
-                                        label="Disabled" 
                                         style={{fontWeight:"bolder", fontSize:"large"}} 
-                                        value={metal.name + "Allomancy"}>
-                                            {metal.name}
+                                        value={"Koloss Physique"}>
+                                            Koloss Physique
                                     </MenuItem>
-                                ))}
-                                <ListSubheader style={{fontWeight:"bolder", fontSize:"large"}}>Feruchemy</ListSubheader>
-                                {props.metals.map((metal, index) => (
-                                    <MenuItem 
-                                        key={index} 
-                                        disabled={metal.name + "Feruchemy" === mySecondPower || mySecondPower.includes("Feruchemy")} 
-                                        id="outlined-disabled" 
-                                        label="Disabled" 
-                                        style={{fontWeight:"bolder", fontSize:"large"}} 
-                                        value={metal.name + "Feruchemy"}>
-                                            {metal.name}
-                                    </MenuItem>
-                                ))}
-                            </Select>
-                        </FormControl>
+                                </Select>
+                            </FormControl>
+                        }
                         <FormControl variant="standard" sx={{ m: 0.5, marginTop: 0, minWidth: 140 }}>
                             <InputLabel id="demo-simple-select-label">Second Power</InputLabel>
                             <Select labelId="demo-simple-select-label" id="demo-simple-select" value={mySecondPower} onChange={handleSecondPower}>
@@ -1322,29 +1502,6 @@ function Maker(props) {
                                 ))}
                             </Select>
                         </FormControl>
-                        <div>
-                            {/* <TextField sx={{ m: 0.5, minWidth: 414, maxWidth: 450 }} id="filled-basic" label="Power Name & Rating" variant="filled" value={myFirstPower} onChange={handleFirstPower} />
-                            <ButtonGroup size="small" aria-label="Small button group">
-                                <Button >Allomancy</Button>
-                                <Button>Feruchemy</Button>
-                                <Button>Hemalurgy</Button>
-                                <Button>Other</Button>
-                            </ButtonGroup>
-                            <br/>
-                            <TextField sx={{ m: 0.5, minWidth: 120, maxWidth: 165 }} id="filled-basic" label="Stunt Name" variant="filled" value={myFirstStuntName} onChange={handleFirstStunt} />
-                            <TextField sx={{ m: 0.5, minWidth: 240, maxWidth: 330 }} id="filled-basic" label="Stunt Description" variant="filled" value={myFirstStuntDesc} onChange={handleFirstStuntDesc} />
-                            <br/><br/>
-                            <TextField sx={{ m: 0.5, minWidth: 414, maxWidth: 450 }} id="filled-basic" label="Power Name & Rating" variant="filled" value={mySecondPower} onChange={handleSecondPower} />
-                            <ButtonGroup size="small" aria-label="Small button group">
-                                <Button >Allomancy</Button>
-                                <Button>Feruchemy</Button>
-                                <Button>Hemalurgy</Button>
-                                <Button>Other</Button>
-                            </ButtonGroup>
-                            <br/>
-                            <TextField sx={{ m: 0.5, minWidth: 120, maxWidth: 165 }} id="filled-basic" label="Stunt Name" variant="filled" value={mySecondStuntName} onChange={handleSecondStunt} />
-                            <TextField sx={{ m: 0.5, minWidth: 240, maxWidth: 330 }} id="filled-basic" label="Stunt Description" variant="filled" value={mySecondStuntDesc} onChange={handleSecondStuntDesc} /> */}
-                        </div>
                     </div>
                 }
             </div>
