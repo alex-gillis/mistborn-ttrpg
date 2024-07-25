@@ -188,113 +188,20 @@ function Editor(props) {
             setExtra1(myFile.traits.extras[0].trait1);
             setExtra2(myFile.traits.extras[0].trait2);
         } else if (myFile.edit.power === 2) {
-            if (props.stunts[6].stunts.find(stunt => stunt.name === myFile.powers[0].stunts[0].stunt) && props.stunts[6].stunts.find(stunt => stunt.name === myFile.powers[0].stunts[1].stunt)) {
-                // let thePower = [
-                //     {
-                //         power: "Gunplay Stunts",
-                //         type: "Other",
-                //         stunts:[
-                //             {
-                //                 stunt:myFirstStuntName,
-                //                 desc:myFirstStuntDesc
-                //             },
-                //             {
-                //                 stunt:mySecondStuntName,
-                //                 desc:mySecondStuntDesc
-                //             }
-                //         ]
-                //     }
-                // ]
-                // thePowers = thePower;
+            if (myFile.powers.length === 1) {
 
                 setFirstStuntName(myFile.powers[0].stunts[0].stunt);
                 setFirstStuntDesc(myFile.powers[0].stunts[0].desc);
                 setSecondStuntName(myFile.powers[0].stunts[1].stunt);
                 setSecondStuntDesc(myFile.powers[0].stunts[1].desc);
 
-            } else if (props.stunts[2].stunts.find(stunt => stunt.name === myFile.powers[0].stunts[0].stunt) && props.stunts[2].stunts.find(stunt => stunt.name === myFile.powers[0].stunts[1].stunt)) {
-                
-                // let thePower = [
-                //         {
-                //         power: "Gunsmith Stunts",
-                //         type: "Other",
-                //         stunts:[
-                //             {
-                //                 stunt:myFirstStuntName,
-                //                 desc:myFirstStuntDesc
-                //             },
-                //             {
-                //                 stunt:mySecondStuntName,
-                //                 desc:mySecondStuntDesc
-                //             }
-                //         ]
-                //     }
-                // ]
-
-                setFirstStuntName(myFile.powers[0].stunts[0].stunt);
-                setFirstStuntDesc(myFile.powers[0].stunts[0].desc);
-                setSecondStuntName(myFile.powers[0].stunts[1].stunt);
-                setSecondStuntDesc(myFile.powers[0].stunts[1].desc);
-
-            } else if (props.stunts[6].stunts.find(stunt => stunt.name === myFile.powers[0].stunts[0].stunt) && props.stunts[2].stunts.find(stunt => stunt.name === myFile.powers[1].stunts[0].stunt)) {
-                // let thePower = [
-                //     {
-                //         power: "Gunplay Stunts",
-                //         type: "Other",
-                //         stunts:[
-                //             {
-                //                 stunt:myFirstStuntName,
-                //                 desc:myFirstStuntDesc
-                //             }
-                //         ]
-                //     },
-                //     {
-                //         power: "Gunsmith Stunts",
-                //         type: "Other",
-                //         stunts:[
-                //             {
-                //                 stunt:mySecondStuntName,
-                //                 desc:mySecondStuntDesc
-                //             }
-                //         ]
-                    
-                //     }
-                // ]
+            } else if (myFile.powers.length === 2) {
 
                 setFirstStuntName(myFile.powers[0].stunts[0].stunt);
                 setFirstStuntDesc(myFile.powers[0].stunts[0].desc);
                 setSecondStuntName(myFile.powers[1].stunts[0].stunt);
                 setSecondStuntDesc(myFile.powers[1].stunts[0].desc);
 
-            } else if (props.stunts[2].stunts.find(stunt => stunt.name === myFile.powers[0].stunts[0].stunt) && props.stunts[6].stunts.find(stunt => stunt.name === myFile.powers[1].stunts[0].stunt)) {
-                // let thePower = [
-                //     {
-                //         power: "Gunsmith Stunts",
-                //         type: "Other",
-                //         stunts:[
-                //             {
-                //                 stunt:myFirstStuntName,
-                //                 desc:myFirstStuntDesc
-                //             }
-                //         ]
-                //     },
-                //     {
-                //         power: "Gunplay Stunts",
-                //         type: "Other",
-                //         stunts:[
-                //             {
-                //                 stunt:mySecondStuntName,
-                //                 desc:mySecondStuntDesc
-                //             }
-                //         ]
-                    
-                //     }
-                // ]
-
-                setFirstStuntName(myFile.powers[0].stunts[0].stunt);
-                setFirstStuntDesc(myFile.powers[0].stunts[0].desc);
-                setSecondStuntName(myFile.powers[1].stunts[0].stunt);
-                setSecondStuntDesc(myFile.powers[1].stunts[0].desc);
             }
         } else if (myFile.edit.power === 3) {
 
@@ -306,9 +213,15 @@ function Editor(props) {
 
         } else if (myFile.edit.power === 4) {
 
-            setFirstPower(myFile.powers[0].power + myFile.powers[0].type)
+            if (myFile.powers[0].power === "Koloss Physique") {
+                setFirstPower(myFile.powers[0].power)
+            } else if (myFile.powers[0].power === "Mimicry") {
+                setFirstPower(myFile.powers[0].power)
+            } else {
+                setFirstPower(myFile.powers[0].power + myFile.powers[0].type)
+            }
 
-            if (myFile.powers[0].stunts[0].stunt !== undefined) {
+            if (myFile.powers[0].stunts.length !== 0) {
                 setFirstStuntName(myFile.powers[0].stunts[0].stunt);
                 setFirstStuntDesc(myFile.powers[0].stunts[0].desc);
             }
