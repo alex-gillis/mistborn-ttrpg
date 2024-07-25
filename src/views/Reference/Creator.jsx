@@ -46,7 +46,7 @@ function Creator(props) {
 
       if (Number.isInteger(index)) {
         setEdit(false);
-        setInfo(index);
+        changeSample(index);
       }
       
     };

@@ -134,6 +134,7 @@ function Editor(props) {
             setPower(4);
 
             setFirstPower("Mimicry");
+            setSecondPower("Hemalurgic Blessing");
 
             if(myAttribute === 2) { setAttribute(""); }
 
@@ -219,6 +220,11 @@ function Editor(props) {
                 setFirstPower(myFile.powers[0].power)
             } else {
                 setFirstPower(myFile.powers[0].power + myFile.powers[0].type)
+            }
+
+            if (myFile.powers[1].power === "Hemalurgic Blessing") {
+                setSecondStuntName(myFile.powers[1].stunts[0].stunt);
+                setSecondStuntDesc(myFile.powers[1].stunts[0].desc);
             }
 
             if (myFile.powers[0].stunts.length !== 0) {
@@ -449,8 +455,18 @@ function Editor(props) {
 
     const setSecondStunt = (value) => {
         setSecondStuntName(value);
-        const result = theStunts.find(stunt => stunt.name === value);
-        setSecondStuntDesc(result.description);
+        if (value === "Blessing of Awareness") {
+            setSecondStuntDesc("A Tin spike adds 2 dice with rolls involving all your senses. Additionally, you’re considered to have 2 additional Action Dice when determining the order of actions in a Conflict (e.g. when you gain 4 Action Dice, the order in which you act is determined as if you have 6 Action Dice instead).");
+        } else if (value === "Blessing of Potency") {
+            setSecondStuntDesc("A Iron spike increases your Physique score by 2, to a maximum of 8");
+        } else if (value === "Blessing of Presence") {
+            setSecondStuntDesc("A Copper spike grants enhanced intelligence and memory, increasing your Wits score by 2, to a maximum of 8.");
+        } else if (value === "Blessing of Stability") {
+            setSecondStuntDesc("A Zinc spike increases your Willpower by 5, and also makes you immune to control by Brass Allomancy with any rating of 10 or lower.");
+        } else {
+            const result = theStunts.find(stunt => stunt.name === value);
+            setSecondStuntDesc(result.description);
+        }
     };
 
     function errorCheck() {
@@ -762,6 +778,18 @@ function Editor(props) {
                     type: "Other",
                     rating:5,
                     stunts:[]
+                }
+                thePowers.push(thePower);
+                
+                thePower = {
+                    power: mySecondPower,
+                    type: "Hemalurgy",
+                    stunts:[
+                        {
+                            stunt:mySecondStuntName,
+                            desc:mySecondStuntDesc
+                        }
+                    ]
                 }
                 thePowers.push(thePower);
 
@@ -1478,6 +1506,43 @@ function Editor(props) {
                                         </MenuItem>
                                     </Select>
                                 </FormControl>
+                                <FormControl variant="standard" sx={{ m: 0.5, marginTop: 0, minWidth: 140 }}>
+                                    <InputLabel id="demo-simple-select-label">Hemalurgic Blessings</InputLabel>
+                                    <Select labelId="demo-simple-select-label" id="demo-simple-select" value={mySecondStuntName} onChange={handleSecondStunt}>
+                                        <MenuItem 
+                                            style={{fontWeight:"bolder", fontSize:"large"}} 
+                                            value={"Blessing of Awareness"}>
+                                                Blessing of Awareness
+                                        </MenuItem>
+                                        <MenuItem 
+                                            style={{fontWeight:"bolder", fontSize:"large"}} 
+                                            value={"Blessing of Potency"}>
+                                                Blessing of Potency
+                                        </MenuItem>
+                                        <MenuItem 
+                                            style={{fontWeight:"bolder", fontSize:"large"}} 
+                                            value={"Blessing of Presence"}>
+                                                Blessing of Presence
+                                        </MenuItem>
+                                        <MenuItem 
+                                            style={{fontWeight:"bolder", fontSize:"large"}} 
+                                            value={"Blessing of Stability"}>
+                                                Blessing of Stability
+                                        </MenuItem>
+                                    </Select>
+                                </FormControl>
+                                <br/>
+                                {mySecondStuntName !== "" &&
+                                    <TextField
+                                        sx={{ m: 0.5, minWidth: 360, maxWidth: 495 }}
+                                        maxRows={4}
+                                        disabled
+                                        multiline
+                                        id="filled-disabled"
+                                        label="Blessing Description"
+                                        value={mySecondStuntDesc}
+                                    />
+                                }
                             </div>
                         }
                         {myKandra === false && myKoloss == true &&
