@@ -14,7 +14,8 @@ const Creation = () =>{
         { title: 'Starting', link:"/creation", className: pathname === "/creation" ? 'selected' : 'unselected' },
         { title: 'Samples', link:"/samples", className: pathname === "/samples" ? 'selected' : 'unselected' },
         { title: 'Building', link:"/building", className: pathname === "/building" ? 'selected' : 'unselected' },
-        { title: 'Improving', link:"/improvement", className: pathname === "/improvement" ? 'selected' : 'unselected' }
+        { title: 'Improving', link:"/improvement", className: pathname === "/improvement" ? 'selected' : 'unselected' },
+        { title: 'Creator', link:"/creator", className: pathname === "/improvement" ? 'selected' : 'unselected' }
     ];
 
   return (

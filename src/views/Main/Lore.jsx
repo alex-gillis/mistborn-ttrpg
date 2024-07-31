@@ -8,7 +8,7 @@ const Lore = () => {
   
     const handlePageChange = (link) => {
       navigate(link);
-  };
+    };
   
 
     const pages = [

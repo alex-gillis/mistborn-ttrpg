@@ -344,7 +344,7 @@ function Maker(props) {
         if (value === "Blessing of Awareness") {
             setSecondStuntDesc("A Tin spike adds 2 dice with rolls involving all your senses. Additionally, you’re considered to have 2 additional Action Dice when determining the order of actions in a Conflict (e.g. when you gain 4 Action Dice, the order in which you act is determined as if you have 6 Action Dice instead).");
         } else if (value === "Blessing of Potency") {
-            setSecondStuntDesc("A Iron spike increases your Physique score by 2, to a maximum of 8");
+            setSecondStuntDesc("An Iron spike increases your Physique score by 2, to a maximum of 8");
         } else if (value === "Blessing of Presence") {
             setSecondStuntDesc("A Copper spike grants enhanced intelligence and memory, increasing your Wits score by 2, to a maximum of 8.");
         } else if (value === "Blessing of Stability") {

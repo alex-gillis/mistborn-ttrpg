@@ -250,11 +250,35 @@ nav {
   color: #FFFFFFDE;
 }
 
+#home-button {
+  height: 100px;
+  width: 125px;
+  margin: 3.5px 5px;
+  border-radius: 0px; 
+}
+
+.player-button {
+  border: 2.5px solid #9a00d6;
+}
+
+.rules-button {
+  border: 2.5px solid #00d6a0;
+}
+
+.narrator-button {
+  border: 2.5px solid #d67900;
+}
+
+#home-display {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
 #info {
   /* margin-top: 50px; */
-  margin-left: 225px;
+  margin-left: 240px;
   padding-right: 1rem;
-  max-width: 1060px;
+  max-width: 1045px;
   width: auto;
 }
 
