@@ -24,9 +24,9 @@ const Intro = () => {
                 <div style={{textAlign:"center"}} id='mobiMenu'>
                     <h2>Characters</h2>
                     <button id='home-button' className='player-button' onClick={() => handlePageChange("/creation")}>Creation</button>
+                    <button id='home-button' className='player-button' onClick={() => handlePageChange("/creator")}>Creator</button>
                     <button id='home-button' className='player-button' onClick={() => handlePageChange("/stunts")}>Stunts</button>
                     <button id='home-button' className='player-button' onClick={() => handlePageChange("/props")}>Props</button>
-                    <button id='home-button' className='player-button' onClick={() => handlePageChange("/metallurgy")}>Metallurgy</button>
                     <button id='home-button' className='player-button' onClick={() => handlePageChange("/networks")}>Networks</button>
 
                     <h2>Rules</h2>
@@ -36,8 +36,9 @@ const Intro = () => {
                     <button id='home-button' className='rules-button' onClick={() => handlePageChange("/standings")}>Standings</button>
                     
                     <h2>Narrator's Tools</h2>
-                    <button id='home-button' className='narrator-button' onClick={() => handlePageChange("/lore")}>Lore</button>
                     <button id='home-button' className='narrator-button' onClick={() => handlePageChange("/bestiary")}>Bestiary</button>
+                    <button id='home-button' className='narrator-button' onClick={() => handlePageChange("/metallurgy")}>Metallurgy</button>
+                    <button id='home-button' className='narrator-button' onClick={() => handlePageChange("/lore")}>Lore</button>
                     <button id='home-button' className='narrator-button' onClick={() => handlePageChange("/terms")}>Terms</button>
                 </div>
                 <div id='regMenu'>
@@ -45,23 +46,24 @@ const Intro = () => {
                         <div>
                             <h2>Characters</h2>
                             <button id='home-button' className='player-button' onClick={() => handlePageChange("/creation")}>Creation</button>
+                            <button id='home-button' className='player-button' onClick={() => handlePageChange("/creator")}>Creator</button>
                             <button id='home-button' className='player-button' onClick={() => handlePageChange("/stunts")}>Stunts</button>
                             <button id='home-button' className='player-button' onClick={() => handlePageChange("/props")}>Props</button>
-                            <button id='home-button' className='player-button' onClick={() => handlePageChange("/metallurgy")}>Metallurgy</button>
                             <button id='home-button' className='player-button' onClick={() => handlePageChange("/networks")}>Networks</button>
                         </div>
                         <div id='home-display'>
-                            <div style={{marginLeft:"auto", maxWidth:"375px"}}>
+                            <div style={{marginLeft:"auto", maxWidth:"395px"}}>
                                 <h2>Rules</h2>
                                 <button id='home-button' className='rules-button' onClick={() => handlePageChange("/basics")}>Basics</button>
                                 <button id='home-button' className='rules-button' onClick={() => handlePageChange("/contests")}>Contests</button>
                                 <button id='home-button' className='rules-button' onClick={() => handlePageChange("/conflicts")}>Conflicts</button>
                                 <button id='home-button' className='rules-button' onClick={() => handlePageChange("/standings")}>Standings</button>
                             </div>
-                            <div style={{marginRight:"auto", maxWidth:"375px"}}>
+                            <div style={{marginRight:"auto", maxWidth:"395px"}}>
                                 <h2>Narrator's Tools</h2>
-                                <button id='home-button' className='narrator-button' onClick={() => handlePageChange("/lore")}>Lore</button>
                                 <button id='home-button' className='narrator-button' onClick={() => handlePageChange("/bestiary")}>Bestiary</button>
+                                <button id='home-button' className='narrator-button' onClick={() => handlePageChange("/metallurgy")}>Metallurgy</button>
+                                <button id='home-button' className='narrator-button' onClick={() => handlePageChange("/lore")}>Lore</button>
                                 <button id='home-button' className='narrator-button' onClick={() => handlePageChange("/terms")}>Terms</button>
                             </div>
                         </div>
