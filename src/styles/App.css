@@ -198,6 +198,48 @@ nav {
   display: flex;
 }
 
+#dicebox {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #1a1a1a;
+  border: 1px solid #ccc;
+  padding: 0px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  max-width: 200px;
+  max-height: 250px;
+}
+
+.dicebox-header {
+  color: white;
+  padding: 10px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  border-bottom: 1px solid #ccc;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dicebox-body {
+  flex: 1;
+  padding: 10px;
+  background-color: #242424;
+  overflow-y: auto;
+  overflow-y: scroll;
+  list-style-type: none;
+}
+
+.dicebox-footer {
+  display: flex;
+  border-top: 1px solid #ccc;
+  padding: 10px;
+  align-items: center;
+}
+
 #example {
   font-style: italic;
 }

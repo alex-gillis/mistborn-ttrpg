@@ -2,8 +2,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client'; 
 import App from './App';
+import Dice from './views/Dice';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-    <App />
+    <span>
+        <App />
+        <Dice />
+    </span>
 );
