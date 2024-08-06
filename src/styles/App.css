@@ -201,7 +201,7 @@ nav {
 #dicebox {
   position: fixed;
   bottom: 20px;
-  right: 20px;
+  left: 20px;
   background-color: #1a1a1a;
   border: 1px solid #ccc;
   padding: 0px;
@@ -227,7 +227,9 @@ nav {
 .dicebox-body {
   flex: 1;
   padding: 10px;
+  padding-left: 15px;
   background-color: #242424;
+  max-height: 120px;
   overflow-y: auto;
   overflow-y: scroll;
   list-style-type: none;
