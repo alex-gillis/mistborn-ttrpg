@@ -71,7 +71,6 @@ function Dice() {
         </div>
         {myRolls.length === 0 ?
           <div className='dicebox-body'>
-            <br/>
           </div>
         :
           <div className='dicebox-body'>
