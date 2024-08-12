@@ -12,6 +12,7 @@ The Mistborn Tabletop Compendium serves as a centralized repository for all thin
 ## Features
 - **Easy Navigation**: Organized and structured for effortless navigation, allowing quick access to specific rules, abilities, and lore. Accessible on all devices!
 - **Comprehensive Content**: Covers all aspects of the Mistborn Adventure Game, including character creation, Allomantic powers, Feruchemy, Hemalurgy, setting details, and more.
+- **Charactermancer**: Create your own heroes and villains with the charactermancer! Making character creation simple and easy! 
 - **Complete Bestiary**: Prepare to meet the denizens of Scadrial like never before. This section features detailed profiles of NPCs, characters, and monsters, providing rich lore and stats to enhance your storytelling and gameplay.
  
 This project is a collaborative effort, and contributions from the Mistborn tabletop community are welcome and encouraged. Whether you've discovered a typo, have suggestions for additional content, or want to share your own homebrew creations, your input is invaluable. Simply fork the repository, make your changes, and submit a pull request. Together, we can make the Mistborn Tabletop Compendium the ultimate resource for Mistborn Adventure Game enthusiasts.
@@ -21,6 +22,7 @@ Exciting enhancements and expansions are on the horizon for the Mistborn Tableto
 
 - **Narrator’s Toolkit**: Empower your campaigns with advanced tools designed specifically for Narrators. This section will include in-depth resources like plot hooks, secrets to enrich your narratives, and an expanded bestiary to challenge your players with new and exciting encounters.
 - **Era 1 Expansion**: Delve deeper into the original Mistborn trilogy with additional content from Era 1. Beyond the core rulebook, we'll be adding a wealth of new material inspired by the beloved first era, ensuring your adventures capture the essence of Vin, Kelsier, and the world they fought to save.
+- **Downloadable Character Sheet**: Take your created charactersheets on-the-go with a simple PDF. 
 
 Stay tuned as we continue to expand and refine the compendium. Your adventure in the world of Mistborn is just beginning!
 
