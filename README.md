@@ -12,6 +12,7 @@ The Mistborn Tabletop Compendium serves as a centralized repository for all thin
 ## Features
 - **Easy Navigation**: Organized and structured for effortless navigation, allowing quick access to specific rules, abilities, and lore. Accessible on all devices!
 - **Comprehensive Content**: Covers all aspects of the Mistborn Adventure Game, including character creation, Allomantic powers, Feruchemy, Hemalurgy, setting details, and more.
+- **Dice Roller**: In-built into all pages is a dice roller you can use at anytime! Easy to use and easy to access, at a push of the button at the bottom right of the screen!
 - **Charactermancer**: Create your own heroes and villains with the charactermancer! Making character creation simple and easy! 
 - **Complete Bestiary**: Prepare to meet the denizens of Scadrial like never before. This section features detailed profiles of NPCs, characters, and monsters, providing rich lore and stats to enhance your storytelling and gameplay.
  
