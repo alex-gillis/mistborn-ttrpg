@@ -18,6 +18,10 @@ body {
   color: #FFFFFFDE;
 }
 
+button {
+  color: #FFFFFFDE;
+}
+
 h1 {
   text-align: center;
   text-decoration: underline;
@@ -210,7 +214,7 @@ nav {
   display: flex;
   flex-direction: column;
   max-width: 200px;
-  max-height: 250px;
+  max-height: 300px;
 }
 
 .dicebox-header {
@@ -991,6 +995,20 @@ nav {
 
   #trueMobile {
     display: block;
+  }
+
+  #dicebox {
+    max-height: 380px;
+    max-width: 333px;
+  }
+
+  #dicebox-mobile {
+    width: 333px;
+    max-width: 333px;
+  }
+
+  .dicebox-body {
+    max-height: 160px;
   }
 
   /* Classes */

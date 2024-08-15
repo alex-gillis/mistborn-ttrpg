@@ -63,7 +63,7 @@ function Dice() {
         <FontAwesomeIcon icon={faDiceSix} size="2x" onClick={() => setView(false)} />
       </div>
       :
-      <div>
+      <div id='dicebox-mobile'>
         <div className='dicebox-header'>
           <button id='filterSelected' onClick={() => setView(true)}>
               Close Dice Roller
@@ -86,7 +86,7 @@ function Dice() {
           </div>
         }
         <div className='dicebox-footer'>
-          <FormControl variant="standard" sx={{ m: 0.5, marginTop: 0, minWidth:'124px', color:'goldenrod', border:'0.05px solid goldenrod', maxWidth:'100px' }}>
+          <FormControl variant="standard" sx={{ m: 0.5, marginTop: 0, minWidth:'124px', color:'goldenrod', border:'0.05px solid goldenrod', maxWidth:'100px', height:'48px' }}>
               <InputLabel id="demo-simple-select-label" sx={{ color:'goldenrod', marginLeft:'15px' }}>How many dice?</InputLabel>
               <Select labelId="demo-simple-select-label" id="demo-simple-select" value={myDice} onChange={handleDice} sx={{ color:'white' }}>
                   <MenuItem 
@@ -136,7 +136,7 @@ function Dice() {
                   </MenuItem>
               </Select>
           </FormControl>
-          <button id='filterSelected' style={{minWidth:'25px', paddingLeft:'4px', paddingRight:'4px', height:'44px'}} onClick={handleRoll}>
+          <button id='filterSelected' style={{minWidth:'25px', marginBottom:'3px', paddingLeft:'4px', paddingRight:'4px', height:'46px'}} onClick={handleRoll}>
               Roll
           </button>
         </div>
