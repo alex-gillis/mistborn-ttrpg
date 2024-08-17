@@ -302,7 +302,8 @@ nav {
   height: 100px;
   width: 125px;
   margin: 3.5px 5px;
-  border-radius: 0px; 
+  border-radius: 0px;
+  background-color: #242424; 
 }
 
 .player-button {
